@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "mesh_count": 207,
-  "failed_mesh_count": 0,
+  "failed_mesh_count": 4,
   "meshes": [
     {
       "name": "JSONLondon_34",
@@ -4144,5 +4144,26 @@
       }
     }
   ],
-  "failures": []
+  "failures": [
+    {
+      "source_file": "JSONLondon.json",
+      "expression_id": "46",
+      "error": "Unknown symbol: ax"
+    },
+    {
+      "source_file": "JSONLondon.json",
+      "expression_id": "79",
+      "error": "Unknown symbol: a_1x"
+    },
+    {
+      "source_file": "JSONLondon.json",
+      "expression_id": "80",
+      "error": "Unknown symbol: a_2x"
+    },
+    {
+      "source_file": "JSONLondon.json",
+      "expression_id": "81",
+      "error": "Unknown symbol: a_3x"
+    }
+  ]
 }

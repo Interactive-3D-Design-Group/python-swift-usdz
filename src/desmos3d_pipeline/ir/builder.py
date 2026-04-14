@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 from dataclasses import dataclass
+import re
 from pathlib import Path
 from typing import Any
 
@@ -15,6 +16,7 @@ from desmos3d_pipeline.ir.models import (
     GeometryNode,
     PlanePatchNode,
     PointNode,
+    ZSlabNode,
     SampledSurfaceNode,
     Severity,
     SourceRef,
@@ -193,6 +195,33 @@ def _build_node(
             hidden=record.hidden,
             metadata=metadata,
             ranges=ranges,
+        )
+
+    if family == ExpressionFamily.Z_SLAB_REGION:
+        core_no_space = core.replace(" ", "")
+        mslab = re.fullmatch(r"(.+?)(<=|>=|<|>)z(<=|>=|<|>)(.+)", core_no_space)
+        if not mslab:
+            return None
+        left, op1, op2, right = mslab.groups()
+        # Normalize so lower_expr <= z <= upper_expr
+        if op1 in {">", ">="} and op2 in {">", ">="}:
+            upper_expr, lower_expr = left, right
+        else:
+            lower_expr, upper_expr = left, right
+        return ZSlabNode(
+            node_type="z_slab",
+            source_ref=record.source_ref,
+            family=family,
+            status=ClassificationStatus.SUPPORTED,
+            original_latex=record.raw_latex,
+            normalized_latex=record.normalized_latex,
+            color=record.color,
+            hidden=record.hidden,
+            metadata=metadata,
+            lower_expr=lower_expr,
+            upper_expr=upper_expr,
+            bounds=bounds,
+            sampling_hint=(96, 32),
         )
 
     if family in {ExpressionFamily.LINEAR_SURFACE_PATCH, ExpressionFamily.QUADRATIC_SURFACE_PATCH}:

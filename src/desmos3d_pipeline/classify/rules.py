@@ -53,6 +53,16 @@ def classify_expression(normalized_latex: str, expression_type: str) -> Classifi
 
     rel = detect_relations(context.core_expr)
 
+    # Chained inequality slab: f(x,y,...) >= z >= g(x,y,...)
+    mslab = re.fullmatch(r"(.+?)(<=|>=|<|>)z(<=|>=|<|>)(.+)", context.core_expr.replace(" ", ""))
+    if mslab:
+        left, op1, op2, right = mslab.groups()
+        # Accept both directions (>= z >=) or (<= z <=) as a "between" slab.
+        ok = (op1 in {">", ">="} and op2 in {">", ">="}) or (op1 in {"<", "<="} and op2 in {"<", "<="})
+        has_intervals = all(parse_interval_constraint(r) is not None for r in restrictions)
+        if ok and has_intervals:
+            return ClassificationResult(ExpressionFamily.Z_SLAB_REGION, ClassificationStatus.SUPPORTED, "z bounded between two functions", 0.9, _fingerprint(core, restrictions))
+
     # Explicit plane/function surfaces: axis = expression
     m = re.fullmatch(r"([xyz])=(.+)", context.core_expr)
     if m:

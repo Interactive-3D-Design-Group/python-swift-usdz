@@ -2,8 +2,8 @@
   "file_count": 4,
   "totals": {
     "expressions": 1468,
-    "supported": 1004,
-    "recognized_unsupported": 434,
+    "supported": 1115,
+    "recognized_unsupported": 323,
     "unrecognized": 30
   },
   "blocked_files": [],
@@ -11,16 +11,16 @@
     {
       "source_file": "JSONAkashi.json",
       "total_expressions": 559,
-      "supported_count": 287,
-      "recognized_unsupported_count": 272,
+      "supported_count": 369,
+      "recognized_unsupported_count": 190,
       "unrecognized_count": 0,
       "per_folder_summary": [
         {
           "folder_id": null,
           "folder_name": null,
           "total": 559,
-          "supported": 287,
-          "recognized_unsupported": 272,
+          "supported": 369,
+          "recognized_unsupported": 190,
           "unrecognized": 0
         }
       ],
@@ -41,7 +41,7 @@
           "family": "INEQUALITY_REGION",
           "status": "RECOGNIZED_UNSUPPORTED",
           "reason": "Inequality region recognized",
-          "fingerprint": "438e442c78de271d",
+          "fingerprint": "f3c18849986cb1c6",
           "latex": "x^{2}+y^{2}\\le2000\\left\\{-90\\le z\\le-80\\right\\}",
           "normalized_latex": "x^{2}+y^{2}<=2000{-90<=z<=-80}"
         },
@@ -51,7 +51,7 @@
           "family": "INEQUALITY_REGION",
           "status": "RECOGNIZED_UNSUPPORTED",
           "reason": "Inequality region recognized",
-          "fingerprint": "caad9aec717f312c",
+          "fingerprint": "8cd4559a3b01aef6",
           "latex": "z\\le0.0007271(x+505)^{2}-15\\left\\{-23\\le y\\le-22\\right\\}\\left\\{-500\\le x\\le-5\\right\\}\\left\\{z\\ge0.0007271(x+505)^{2}-17\\right\\}",
           "normalized_latex": "z<=0.0007271(x+505)^{2}-15{-23<=y<=-22}{-500<=x<=-5}{z>=0.0007271(x+505)^{2}-17}"
         },
@@ -61,7 +61,7 @@
           "family": "INEQUALITY_REGION",
           "status": "RECOGNIZED_UNSUPPORTED",
           "reason": "Inequality region recognized",
-          "fingerprint": "552f906e13e4aa0a",
+          "fingerprint": "d4b5412752e934d0",
           "latex": "z\\le0.0007271(x-505)^{2}-15\\left\\{-23\\le y\\le-22\\right\\}\\left\\{5\\le x\\le500\\right\\}\\left\\{z\\ge0.0007271(x-505)^{2}-17\\right\\}",
           "normalized_latex": "z<=0.0007271(x-505)^{2}-15{-23<=y<=-22}{5<=x<=500}{z>=0.0007271(x-505)^{2}-17}"
         },
@@ -71,7 +71,7 @@
           "family": "INEQUALITY_REGION",
           "status": "RECOGNIZED_UNSUPPORTED",
           "reason": "Inequality region recognized",
-          "fingerprint": "6e5b6f7f75ffcb80",
+          "fingerprint": "64ad4fdba1bb805d",
           "latex": "z\\le0.0007271(x+505)^{2}-15\\left\\{22\\le y\\le23\\right\\}\\left\\{-500\\le x\\le-5\\right\\}\\left\\{z\\ge0.0007271(x+505)^{2}-17\\right\\}",
           "normalized_latex": "z<=0.0007271(x+505)^{2}-15{22<=y<=23}{-500<=x<=-5}{z>=0.0007271(x+505)^{2}-17}"
         },
@@ -81,7 +81,7 @@
           "family": "INEQUALITY_REGION",
           "status": "RECOGNIZED_UNSUPPORTED",
           "reason": "Inequality region recognized",
-          "fingerprint": "469011aa89bfcf63",
+          "fingerprint": "21f95df9c374b348",
           "latex": "z\\le0.0007271(x-505)^{2}-15\\left\\{22\\le y\\le23\\right\\}\\left\\{5\\le x\\le500\\right\\}\\left\\{z\\ge0.0007271(x-505)^{2}-17\\right\\}",
           "normalized_latex": "z<=0.0007271(x-505)^{2}-15{22<=y<=23}{5<=x<=500}{z>=0.0007271(x-505)^{2}-17}"
         },
@@ -1106,34 +1106,14 @@
           "normalized_latex": "-x<=(z)/(1.8){-50<=z<=50}+498{-x>=(z)/(1.8)+495}{-30<=z<=-17.5}{-20<=y<=-17}"
         },
         {
-          "expression_id": "506",
-          "folder": null,
-          "family": "INEQUALITY_REGION",
-          "status": "RECOGNIZED_UNSUPPORTED",
-          "reason": "Inequality region recognized",
-          "fingerprint": "e4dd1dede54cceef",
-          "latex": "x\\le-15\\left\\{x\\ge-16\\right\\}\\left\\{-23\\le y\\le-22\\right\\}\\left\\{-14.5\\le z\\le0.0007271(x+505)^{2}-16\\right\\}",
-          "normalized_latex": "x<=-15{x>=-16}{-23<=y<=-22}{-14.5<=z<=0.0007271(x+505)^{2}-16}"
-        },
-        {
           "expression_id": "594",
           "folder": null,
           "family": "INEQUALITY_REGION",
           "status": "RECOGNIZED_UNSUPPORTED",
           "reason": "Inequality region recognized",
-          "fingerprint": "e6f1c25e7e886406",
+          "fingerprint": "2de0a81eaabbfe51",
           "latex": "-x\\le-15\\left\\{-x\\ge-16\\right\\}\\left\\{-23\\le y\\le-22\\right\\}\\left\\{-14.5\\le z\\le0.0007271(x-505)^{2}-16\\right\\}",
           "normalized_latex": "-x<=-15{-x>=-16}{-23<=y<=-22}{-14.5<=z<=0.0007271(x-505)^{2}-16}"
-        },
-        {
-          "expression_id": "552",
-          "folder": null,
-          "family": "INEQUALITY_REGION",
-          "status": "RECOGNIZED_UNSUPPORTED",
-          "reason": "Inequality region recognized",
-          "fingerprint": "2ee7aa4a161af6e2",
-          "latex": "x\\le-15\\left\\{x\\ge-16\\right\\}\\left\\{22\\le y\\le23\\right\\}\\left\\{-14.5\\le z\\le0.0007271(x+505)^{2}-16\\right\\}",
-          "normalized_latex": "x<=-15{x>=-16}{22<=y<=23}{-14.5<=z<=0.0007271(x+505)^{2}-16}"
         },
         {
           "expression_id": "595",
@@ -1141,19 +1121,9 @@
           "family": "INEQUALITY_REGION",
           "status": "RECOGNIZED_UNSUPPORTED",
           "reason": "Inequality region recognized",
-          "fingerprint": "bab62c104e12bcba",
+          "fingerprint": "1e2c5c629f9bb7b3",
           "latex": "-x\\le-15\\left\\{-x\\ge-16\\right\\}\\left\\{22\\le y\\le23\\right\\}\\left\\{-14.5\\le z\\le0.0007271(x-505)^{2}-16\\right\\}",
           "normalized_latex": "-x<=-15{-x>=-16}{22<=y<=23}{-14.5<=z<=0.0007271(x-505)^{2}-16}"
-        },
-        {
-          "expression_id": "507",
-          "folder": null,
-          "family": "INEQUALITY_REGION",
-          "status": "RECOGNIZED_UNSUPPORTED",
-          "reason": "Inequality region recognized",
-          "fingerprint": "550d86301ec3cd4b",
-          "latex": "x\\le-26\\left\\{x\\ge-27\\right\\}\\left\\{-23\\le y\\le-22\\right\\}\\left\\{-14.5\\le z\\le0.0007271(x+505)^{2}-16\\right\\}",
-          "normalized_latex": "x<=-26{x>=-27}{-23<=y<=-22}{-14.5<=z<=0.0007271(x+505)^{2}-16}"
         },
         {
           "expression_id": "675",
@@ -1161,19 +1131,9 @@
           "family": "INEQUALITY_REGION",
           "status": "RECOGNIZED_UNSUPPORTED",
           "reason": "Inequality region recognized",
-          "fingerprint": "77c03532cfec54f3",
+          "fingerprint": "fa787171b3af1701",
           "latex": "-x\\le-26\\left\\{-x\\ge-27\\right\\}\\left\\{-23\\le y\\le-22\\right\\}\\left\\{-14.5\\le z\\le0.0007271(x-505)^{2}-16\\right\\}",
           "normalized_latex": "-x<=-26{-x>=-27}{-23<=y<=-22}{-14.5<=z<=0.0007271(x-505)^{2}-16}"
-        },
-        {
-          "expression_id": "592",
-          "folder": null,
-          "family": "INEQUALITY_REGION",
-          "status": "RECOGNIZED_UNSUPPORTED",
-          "reason": "Inequality region recognized",
-          "fingerprint": "caab396d76e97763",
-          "latex": "x\\le-26\\left\\{x\\ge-27\\right\\}\\left\\{22\\le y\\le23\\right\\}\\left\\{-14.5\\le z\\le0.0007271(x+505)^{2}-16\\right\\}",
-          "normalized_latex": "x<=-26{x>=-27}{22<=y<=23}{-14.5<=z<=0.0007271(x+505)^{2}-16}"
         },
         {
           "expression_id": "674",
@@ -1181,19 +1141,9 @@
           "family": "INEQUALITY_REGION",
           "status": "RECOGNIZED_UNSUPPORTED",
           "reason": "Inequality region recognized",
-          "fingerprint": "3f9026c9c982f016",
+          "fingerprint": "fcf436d411e24bf0",
           "latex": "-x\\le-26\\left\\{-x\\ge-27\\right\\}\\left\\{22\\le y\\le23\\right\\}\\left\\{-14.5\\le z\\le0.0007271(x-505)^{2}-16\\right\\}",
           "normalized_latex": "-x<=-26{-x>=-27}{22<=y<=23}{-14.5<=z<=0.0007271(x-505)^{2}-16}"
-        },
-        {
-          "expression_id": "508",
-          "folder": null,
-          "family": "INEQUALITY_REGION",
-          "status": "RECOGNIZED_UNSUPPORTED",
-          "reason": "Inequality region recognized",
-          "fingerprint": "06f5aac719aa2615",
-          "latex": "x\\le-37\\left\\{x\\ge-38\\right\\}\\left\\{-23\\le y\\le-22\\right\\}\\left\\{-14.5\\le z\\le0.0007271(x+505)^{2}-16\\right\\}",
-          "normalized_latex": "x<=-37{x>=-38}{-23<=y<=-22}{-14.5<=z<=0.0007271(x+505)^{2}-16}"
         },
         {
           "expression_id": "673",
@@ -1201,19 +1151,9 @@
           "family": "INEQUALITY_REGION",
           "status": "RECOGNIZED_UNSUPPORTED",
           "reason": "Inequality region recognized",
-          "fingerprint": "6b2b075181c85750",
+          "fingerprint": "cb37fa578f910901",
           "latex": "-x\\le-37\\left\\{-x\\ge-38\\right\\}\\left\\{-23\\le y\\le-22\\right\\}\\left\\{-14.5\\le z\\le0.0007271(x-505)^{2}-16\\right\\}",
           "normalized_latex": "-x<=-37{-x>=-38}{-23<=y<=-22}{-14.5<=z<=0.0007271(x-505)^{2}-16}"
-        },
-        {
-          "expression_id": "591",
-          "folder": null,
-          "family": "INEQUALITY_REGION",
-          "status": "RECOGNIZED_UNSUPPORTED",
-          "reason": "Inequality region recognized",
-          "fingerprint": "abbd5f7d694ba117",
-          "latex": "x\\le-37\\left\\{x\\ge-38\\right\\}\\left\\{22\\le y\\le23\\right\\}\\left\\{-14.5\\le z\\le0.0007271(x+505)^{2}-16\\right\\}",
-          "normalized_latex": "x<=-37{x>=-38}{22<=y<=23}{-14.5<=z<=0.0007271(x+505)^{2}-16}"
         },
         {
           "expression_id": "672",
@@ -1221,19 +1161,9 @@
           "family": "INEQUALITY_REGION",
           "status": "RECOGNIZED_UNSUPPORTED",
           "reason": "Inequality region recognized",
-          "fingerprint": "daae3ac1a2efa314",
+          "fingerprint": "40bce84964d72215",
           "latex": "-x\\le-37\\left\\{-x\\ge-38\\right\\}\\left\\{22\\le y\\le23\\right\\}\\left\\{-14.5\\le z\\le0.0007271(x-505)^{2}-16\\right\\}",
           "normalized_latex": "-x<=-37{-x>=-38}{22<=y<=23}{-14.5<=z<=0.0007271(x-505)^{2}-16}"
-        },
-        {
-          "expression_id": "509",
-          "folder": null,
-          "family": "INEQUALITY_REGION",
-          "status": "RECOGNIZED_UNSUPPORTED",
-          "reason": "Inequality region recognized",
-          "fingerprint": "19b1033be9e4a052",
-          "latex": "x\\le-48\\left\\{x\\ge-49\\right\\}\\left\\{-23\\le y\\le-22\\right\\}\\left\\{-14.5\\le z\\le0.0007271(x+505)^{2}-16\\right\\}",
-          "normalized_latex": "x<=-48{x>=-49}{-23<=y<=-22}{-14.5<=z<=0.0007271(x+505)^{2}-16}"
         },
         {
           "expression_id": "671",
@@ -1241,19 +1171,9 @@
           "family": "INEQUALITY_REGION",
           "status": "RECOGNIZED_UNSUPPORTED",
           "reason": "Inequality region recognized",
-          "fingerprint": "ba7f6d587fc24610",
+          "fingerprint": "35be0893521bdad1",
           "latex": "-x\\le-48\\left\\{-x\\ge-49\\right\\}\\left\\{-23\\le y\\le-22\\right\\}\\left\\{-14.5\\le z\\le0.0007271(x-505)^{2}-16\\right\\}",
           "normalized_latex": "-x<=-48{-x>=-49}{-23<=y<=-22}{-14.5<=z<=0.0007271(x-505)^{2}-16}"
-        },
-        {
-          "expression_id": "590",
-          "folder": null,
-          "family": "INEQUALITY_REGION",
-          "status": "RECOGNIZED_UNSUPPORTED",
-          "reason": "Inequality region recognized",
-          "fingerprint": "beab784a3d108eee",
-          "latex": "x\\le-48\\left\\{x\\ge-49\\right\\}\\left\\{22\\le y\\le23\\right\\}\\left\\{-14.5\\le z\\le0.0007271(x+505)^{2}-16\\right\\}",
-          "normalized_latex": "x<=-48{x>=-49}{22<=y<=23}{-14.5<=z<=0.0007271(x+505)^{2}-16}"
         },
         {
           "expression_id": "670",
@@ -1261,19 +1181,9 @@
           "family": "INEQUALITY_REGION",
           "status": "RECOGNIZED_UNSUPPORTED",
           "reason": "Inequality region recognized",
-          "fingerprint": "7bb0cd88b075048e",
+          "fingerprint": "27e3b0d24ab82864",
           "latex": "-x\\le-48\\left\\{-x\\ge-49\\right\\}\\left\\{22\\le y\\le23\\right\\}\\left\\{-14.5\\le z\\le0.0007271(x-505)^{2}-16\\right\\}",
           "normalized_latex": "-x<=-48{-x>=-49}{22<=y<=23}{-14.5<=z<=0.0007271(x-505)^{2}-16}"
-        },
-        {
-          "expression_id": "510",
-          "folder": null,
-          "family": "INEQUALITY_REGION",
-          "status": "RECOGNIZED_UNSUPPORTED",
-          "reason": "Inequality region recognized",
-          "fingerprint": "4569cbfaad6799bc",
-          "latex": "x\\le-59\\left\\{x\\ge-60\\right\\}\\left\\{-23\\le y\\le-22\\right\\}\\left\\{-14.5\\le z\\le0.0007271(x+505)^{2}-16\\right\\}",
-          "normalized_latex": "x<=-59{x>=-60}{-23<=y<=-22}{-14.5<=z<=0.0007271(x+505)^{2}-16}"
         },
         {
           "expression_id": "669",
@@ -1281,19 +1191,9 @@
           "family": "INEQUALITY_REGION",
           "status": "RECOGNIZED_UNSUPPORTED",
           "reason": "Inequality region recognized",
-          "fingerprint": "b0ca005297685ca0",
+          "fingerprint": "4966a75f22390e0c",
           "latex": "-x\\le-59\\left\\{-x\\ge-60\\right\\}\\left\\{-23\\le y\\le-22\\right\\}\\left\\{-14.5\\le z\\le0.0007271(x-505)^{2}-16\\right\\}",
           "normalized_latex": "-x<=-59{-x>=-60}{-23<=y<=-22}{-14.5<=z<=0.0007271(x-505)^{2}-16}"
-        },
-        {
-          "expression_id": "589",
-          "folder": null,
-          "family": "INEQUALITY_REGION",
-          "status": "RECOGNIZED_UNSUPPORTED",
-          "reason": "Inequality region recognized",
-          "fingerprint": "d0c02c36c606ce5a",
-          "latex": "x\\le-59\\left\\{x\\ge-60\\right\\}\\left\\{22\\le y\\le23\\right\\}\\left\\{-14.5\\le z\\le0.0007271(x+505)^{2}-16\\right\\}",
-          "normalized_latex": "x<=-59{x>=-60}{22<=y<=23}{-14.5<=z<=0.0007271(x+505)^{2}-16}"
         },
         {
           "expression_id": "668",
@@ -1301,19 +1201,9 @@
           "family": "INEQUALITY_REGION",
           "status": "RECOGNIZED_UNSUPPORTED",
           "reason": "Inequality region recognized",
-          "fingerprint": "c96ac876c24f95eb",
+          "fingerprint": "45558525c7e24e45",
           "latex": "-x\\le-59\\left\\{-x\\ge-60\\right\\}\\left\\{22\\le y\\le23\\right\\}\\left\\{-14.5\\le z\\le0.0007271(x-505)^{2}-16\\right\\}",
           "normalized_latex": "-x<=-59{-x>=-60}{22<=y<=23}{-14.5<=z<=0.0007271(x-505)^{2}-16}"
-        },
-        {
-          "expression_id": "511",
-          "folder": null,
-          "family": "INEQUALITY_REGION",
-          "status": "RECOGNIZED_UNSUPPORTED",
-          "reason": "Inequality region recognized",
-          "fingerprint": "c1ed867a1baa27a2",
-          "latex": "x\\le-70\\left\\{x\\ge-71\\right\\}\\left\\{-23\\le y\\le-22\\right\\}\\left\\{-14.5\\le z\\le0.0007271(x+505)^{2}-16\\right\\}",
-          "normalized_latex": "x<=-70{x>=-71}{-23<=y<=-22}{-14.5<=z<=0.0007271(x+505)^{2}-16}"
         },
         {
           "expression_id": "667",
@@ -1321,19 +1211,9 @@
           "family": "INEQUALITY_REGION",
           "status": "RECOGNIZED_UNSUPPORTED",
           "reason": "Inequality region recognized",
-          "fingerprint": "33c6ad4004ecebbc",
+          "fingerprint": "5eeca01be7a9e50a",
           "latex": "-x\\le-70\\left\\{-x\\ge-71\\right\\}\\left\\{-23\\le y\\le-22\\right\\}\\left\\{-14.5\\le z\\le0.0007271(x-505)^{2}-16\\right\\}",
           "normalized_latex": "-x<=-70{-x>=-71}{-23<=y<=-22}{-14.5<=z<=0.0007271(x-505)^{2}-16}"
-        },
-        {
-          "expression_id": "588",
-          "folder": null,
-          "family": "INEQUALITY_REGION",
-          "status": "RECOGNIZED_UNSUPPORTED",
-          "reason": "Inequality region recognized",
-          "fingerprint": "c4ae5eb9fde43f38",
-          "latex": "x\\le-70\\left\\{x\\ge-71\\right\\}\\left\\{22\\le y\\le23\\right\\}\\left\\{-14.5\\le z\\le0.0007271(x+505)^{2}-16\\right\\}",
-          "normalized_latex": "x<=-70{x>=-71}{22<=y<=23}{-14.5<=z<=0.0007271(x+505)^{2}-16}"
         },
         {
           "expression_id": "666",
@@ -1341,19 +1221,9 @@
           "family": "INEQUALITY_REGION",
           "status": "RECOGNIZED_UNSUPPORTED",
           "reason": "Inequality region recognized",
-          "fingerprint": "93e781a863a2446b",
+          "fingerprint": "1e5cc02bc7548c61",
           "latex": "-x\\le-70\\left\\{-x\\ge-71\\right\\}\\left\\{22\\le y\\le23\\right\\}\\left\\{-14.5\\le z\\le0.0007271(x-505)^{2}-16\\right\\}",
           "normalized_latex": "-x<=-70{-x>=-71}{22<=y<=23}{-14.5<=z<=0.0007271(x-505)^{2}-16}"
-        },
-        {
-          "expression_id": "512",
-          "folder": null,
-          "family": "INEQUALITY_REGION",
-          "status": "RECOGNIZED_UNSUPPORTED",
-          "reason": "Inequality region recognized",
-          "fingerprint": "51832d2935ee6d63",
-          "latex": "x\\le-81\\left\\{x\\ge-82\\right\\}\\left\\{-23\\le y\\le-22\\right\\}\\left\\{-14.5\\le z\\le0.0007271(x+505)^{2}-16\\right\\}",
-          "normalized_latex": "x<=-81{x>=-82}{-23<=y<=-22}{-14.5<=z<=0.0007271(x+505)^{2}-16}"
         },
         {
           "expression_id": "665",
@@ -1361,19 +1231,9 @@
           "family": "INEQUALITY_REGION",
           "status": "RECOGNIZED_UNSUPPORTED",
           "reason": "Inequality region recognized",
-          "fingerprint": "6c071dc8ca6a9854",
+          "fingerprint": "54bdb73f4b28a8c2",
           "latex": "-x\\le-81\\left\\{-x\\ge-82\\right\\}\\left\\{-23\\le y\\le-22\\right\\}\\left\\{-14.5\\le z\\le0.0007271(x-505)^{2}-16\\right\\}",
           "normalized_latex": "-x<=-81{-x>=-82}{-23<=y<=-22}{-14.5<=z<=0.0007271(x-505)^{2}-16}"
-        },
-        {
-          "expression_id": "587",
-          "folder": null,
-          "family": "INEQUALITY_REGION",
-          "status": "RECOGNIZED_UNSUPPORTED",
-          "reason": "Inequality region recognized",
-          "fingerprint": "d54a2dc320fdbce5",
-          "latex": "x\\le-81\\left\\{x\\ge-82\\right\\}\\left\\{22\\le y\\le23\\right\\}\\left\\{-14.5\\le z\\le0.0007271(x+505)^{2}-16\\right\\}",
-          "normalized_latex": "x<=-81{x>=-82}{22<=y<=23}{-14.5<=z<=0.0007271(x+505)^{2}-16}"
         },
         {
           "expression_id": "664",
@@ -1381,19 +1241,9 @@
           "family": "INEQUALITY_REGION",
           "status": "RECOGNIZED_UNSUPPORTED",
           "reason": "Inequality region recognized",
-          "fingerprint": "eb8455f7cf2c7f3e",
+          "fingerprint": "dbcd59dac07f7ad8",
           "latex": "-x\\le-81\\left\\{-x\\ge-82\\right\\}\\left\\{22\\le y\\le23\\right\\}\\left\\{-14.5\\le z\\le0.0007271(x-505)^{2}-16\\right\\}",
           "normalized_latex": "-x<=-81{-x>=-82}{22<=y<=23}{-14.5<=z<=0.0007271(x-505)^{2}-16}"
-        },
-        {
-          "expression_id": "513",
-          "folder": null,
-          "family": "INEQUALITY_REGION",
-          "status": "RECOGNIZED_UNSUPPORTED",
-          "reason": "Inequality region recognized",
-          "fingerprint": "7bb1bc130cbff465",
-          "latex": "x\\le-92\\left\\{x\\ge-93\\right\\}\\left\\{-23\\le y\\le-22\\right\\}\\left\\{-14.5\\le z\\le0.0007271(x+505)^{2}-16\\right\\}",
-          "normalized_latex": "x<=-92{x>=-93}{-23<=y<=-22}{-14.5<=z<=0.0007271(x+505)^{2}-16}"
         },
         {
           "expression_id": "663",
@@ -1401,19 +1251,9 @@
           "family": "INEQUALITY_REGION",
           "status": "RECOGNIZED_UNSUPPORTED",
           "reason": "Inequality region recognized",
-          "fingerprint": "58b5daa4fbfe99cf",
+          "fingerprint": "2e787153699f1fd1",
           "latex": "-x\\le-92\\left\\{-x\\ge-93\\right\\}\\left\\{-23\\le y\\le-22\\right\\}\\left\\{-14.5\\le z\\le0.0007271(x-505)^{2}-16\\right\\}",
           "normalized_latex": "-x<=-92{-x>=-93}{-23<=y<=-22}{-14.5<=z<=0.0007271(x-505)^{2}-16}"
-        },
-        {
-          "expression_id": "586",
-          "folder": null,
-          "family": "INEQUALITY_REGION",
-          "status": "RECOGNIZED_UNSUPPORTED",
-          "reason": "Inequality region recognized",
-          "fingerprint": "d1d19bcc5d275f45",
-          "latex": "x\\le-92\\left\\{x\\ge-93\\right\\}\\left\\{22\\le y\\le23\\right\\}\\left\\{-14.5\\le z\\le0.0007271(x+505)^{2}-16\\right\\}",
-          "normalized_latex": "x<=-92{x>=-93}{22<=y<=23}{-14.5<=z<=0.0007271(x+505)^{2}-16}"
         },
         {
           "expression_id": "662",
@@ -1421,19 +1261,9 @@
           "family": "INEQUALITY_REGION",
           "status": "RECOGNIZED_UNSUPPORTED",
           "reason": "Inequality region recognized",
-          "fingerprint": "2136c2f70898e840",
+          "fingerprint": "27655ce3cbdb8dd8",
           "latex": "-x\\le-92\\left\\{-x\\ge-93\\right\\}\\left\\{22\\le y\\le23\\right\\}\\left\\{-14.5\\le z\\le0.0007271(x-505)^{2}-16\\right\\}",
           "normalized_latex": "-x<=-92{-x>=-93}{22<=y<=23}{-14.5<=z<=0.0007271(x-505)^{2}-16}"
-        },
-        {
-          "expression_id": "514",
-          "folder": null,
-          "family": "INEQUALITY_REGION",
-          "status": "RECOGNIZED_UNSUPPORTED",
-          "reason": "Inequality region recognized",
-          "fingerprint": "bd3157a49235774b",
-          "latex": "x\\le-103\\left\\{x\\ge-104\\right\\}\\left\\{-23\\le y\\le-22\\right\\}\\left\\{-14.5\\le z\\le0.0007271(x+505)^{2}-16\\right\\}",
-          "normalized_latex": "x<=-103{x>=-104}{-23<=y<=-22}{-14.5<=z<=0.0007271(x+505)^{2}-16}"
         },
         {
           "expression_id": "661",
@@ -1441,19 +1271,9 @@
           "family": "INEQUALITY_REGION",
           "status": "RECOGNIZED_UNSUPPORTED",
           "reason": "Inequality region recognized",
-          "fingerprint": "bc156cba516faafa",
+          "fingerprint": "25d7717a905abbce",
           "latex": "-x\\le-103\\left\\{-x\\ge-104\\right\\}\\left\\{-23\\le y\\le-22\\right\\}\\left\\{-14.5\\le z\\le0.0007271(x-505)^{2}-16\\right\\}",
           "normalized_latex": "-x<=-103{-x>=-104}{-23<=y<=-22}{-14.5<=z<=0.0007271(x-505)^{2}-16}"
-        },
-        {
-          "expression_id": "585",
-          "folder": null,
-          "family": "INEQUALITY_REGION",
-          "status": "RECOGNIZED_UNSUPPORTED",
-          "reason": "Inequality region recognized",
-          "fingerprint": "84ea6a3d6be1c1ea",
-          "latex": "x\\le-103\\left\\{x\\ge-104\\right\\}\\left\\{22\\le y\\le23\\right\\}\\left\\{-14.5\\le z\\le0.0007271(x+505)^{2}-16\\right\\}",
-          "normalized_latex": "x<=-103{x>=-104}{22<=y<=23}{-14.5<=z<=0.0007271(x+505)^{2}-16}"
         },
         {
           "expression_id": "660",
@@ -1461,19 +1281,9 @@
           "family": "INEQUALITY_REGION",
           "status": "RECOGNIZED_UNSUPPORTED",
           "reason": "Inequality region recognized",
-          "fingerprint": "5f426c6ba8b3e98b",
+          "fingerprint": "7ff03bbe21a2cacd",
           "latex": "-x\\le-103\\left\\{-x\\ge-104\\right\\}\\left\\{22\\le y\\le23\\right\\}\\left\\{-14.5\\le z\\le0.0007271(x-505)^{2}-16\\right\\}",
           "normalized_latex": "-x<=-103{-x>=-104}{22<=y<=23}{-14.5<=z<=0.0007271(x-505)^{2}-16}"
-        },
-        {
-          "expression_id": "515",
-          "folder": null,
-          "family": "INEQUALITY_REGION",
-          "status": "RECOGNIZED_UNSUPPORTED",
-          "reason": "Inequality region recognized",
-          "fingerprint": "8b618c29e16c9d18",
-          "latex": "x\\le-114\\left\\{x\\ge-115\\right\\}\\left\\{-23\\le y\\le-22\\right\\}\\left\\{-14.5\\le z\\le0.0007271(x+505)^{2}-16\\right\\}",
-          "normalized_latex": "x<=-114{x>=-115}{-23<=y<=-22}{-14.5<=z<=0.0007271(x+505)^{2}-16}"
         },
         {
           "expression_id": "659",
@@ -1481,19 +1291,9 @@
           "family": "INEQUALITY_REGION",
           "status": "RECOGNIZED_UNSUPPORTED",
           "reason": "Inequality region recognized",
-          "fingerprint": "2ba39fb3f834344f",
+          "fingerprint": "55361f166ea8a39b",
           "latex": "-x\\le-114\\left\\{-x\\ge-115\\right\\}\\left\\{-23\\le y\\le-22\\right\\}\\left\\{-14.5\\le z\\le0.0007271(x-505)^{2}-16\\right\\}",
           "normalized_latex": "-x<=-114{-x>=-115}{-23<=y<=-22}{-14.5<=z<=0.0007271(x-505)^{2}-16}"
-        },
-        {
-          "expression_id": "584",
-          "folder": null,
-          "family": "INEQUALITY_REGION",
-          "status": "RECOGNIZED_UNSUPPORTED",
-          "reason": "Inequality region recognized",
-          "fingerprint": "dbd9032ba45c5ca7",
-          "latex": "x\\le-114\\left\\{x\\ge-115\\right\\}\\left\\{22\\le y\\le23\\right\\}\\left\\{-14.5\\le z\\le0.0007271(x+505)^{2}-16\\right\\}",
-          "normalized_latex": "x<=-114{x>=-115}{22<=y<=23}{-14.5<=z<=0.0007271(x+505)^{2}-16}"
         },
         {
           "expression_id": "658",
@@ -1501,19 +1301,9 @@
           "family": "INEQUALITY_REGION",
           "status": "RECOGNIZED_UNSUPPORTED",
           "reason": "Inequality region recognized",
-          "fingerprint": "44d6e3dbebc57c06",
+          "fingerprint": "d1db99d501f218a8",
           "latex": "-x\\le-114\\left\\{-x\\ge-115\\right\\}\\left\\{22\\le y\\le23\\right\\}\\left\\{-14.5\\le z\\le0.0007271(x-505)^{2}-16\\right\\}",
           "normalized_latex": "-x<=-114{-x>=-115}{22<=y<=23}{-14.5<=z<=0.0007271(x-505)^{2}-16}"
-        },
-        {
-          "expression_id": "516",
-          "folder": null,
-          "family": "INEQUALITY_REGION",
-          "status": "RECOGNIZED_UNSUPPORTED",
-          "reason": "Inequality region recognized",
-          "fingerprint": "ba0bf1442b1951d2",
-          "latex": "x\\le-125\\left\\{x\\ge-126\\right\\}\\left\\{-23\\le y\\le-22\\right\\}\\left\\{-14.5\\le z\\le0.0007271(x+505)^{2}-16\\right\\}",
-          "normalized_latex": "x<=-125{x>=-126}{-23<=y<=-22}{-14.5<=z<=0.0007271(x+505)^{2}-16}"
         },
         {
           "expression_id": "657",
@@ -1521,19 +1311,9 @@
           "family": "INEQUALITY_REGION",
           "status": "RECOGNIZED_UNSUPPORTED",
           "reason": "Inequality region recognized",
-          "fingerprint": "7a368dbe2cbdd8e9",
+          "fingerprint": "f042de648596fea6",
           "latex": "-x\\le-125\\left\\{-x\\ge-126\\right\\}\\left\\{-23\\le y\\le-22\\right\\}\\left\\{-14.5\\le z\\le0.0007271(x-505)^{2}-16\\right\\}",
           "normalized_latex": "-x<=-125{-x>=-126}{-23<=y<=-22}{-14.5<=z<=0.0007271(x-505)^{2}-16}"
-        },
-        {
-          "expression_id": "583",
-          "folder": null,
-          "family": "INEQUALITY_REGION",
-          "status": "RECOGNIZED_UNSUPPORTED",
-          "reason": "Inequality region recognized",
-          "fingerprint": "bf97e7c5826f5d54",
-          "latex": "x\\le-125\\left\\{x\\ge-126\\right\\}\\left\\{22\\le y\\le23\\right\\}\\left\\{-14.5\\le z\\le0.0007271(x+505)^{2}-16\\right\\}",
-          "normalized_latex": "x<=-125{x>=-126}{22<=y<=23}{-14.5<=z<=0.0007271(x+505)^{2}-16}"
         },
         {
           "expression_id": "656",
@@ -1541,19 +1321,9 @@
           "family": "INEQUALITY_REGION",
           "status": "RECOGNIZED_UNSUPPORTED",
           "reason": "Inequality region recognized",
-          "fingerprint": "3bb5ff6302e9f6ab",
+          "fingerprint": "46c7e40879e3bfb7",
           "latex": "-x\\le-125\\left\\{-x\\ge-126\\right\\}\\left\\{22\\le y\\le23\\right\\}\\left\\{-14.5\\le z\\le0.0007271(x-505)^{2}-16\\right\\}",
           "normalized_latex": "-x<=-125{-x>=-126}{22<=y<=23}{-14.5<=z<=0.0007271(x-505)^{2}-16}"
-        },
-        {
-          "expression_id": "517",
-          "folder": null,
-          "family": "INEQUALITY_REGION",
-          "status": "RECOGNIZED_UNSUPPORTED",
-          "reason": "Inequality region recognized",
-          "fingerprint": "9e9d7e3349cdcbad",
-          "latex": "x\\le-136\\left\\{x\\ge-137\\right\\}\\left\\{-23\\le y\\le-22\\right\\}\\left\\{-14.5\\le z\\le0.0007271(x+505)^{2}-16\\right\\}",
-          "normalized_latex": "x<=-136{x>=-137}{-23<=y<=-22}{-14.5<=z<=0.0007271(x+505)^{2}-16}"
         },
         {
           "expression_id": "655",
@@ -1561,19 +1331,9 @@
           "family": "INEQUALITY_REGION",
           "status": "RECOGNIZED_UNSUPPORTED",
           "reason": "Inequality region recognized",
-          "fingerprint": "f8c00ecc1f9d9c5d",
+          "fingerprint": "8e1982fe08fab766",
           "latex": "-x\\le-136\\left\\{-x\\ge-137\\right\\}\\left\\{-23\\le y\\le-22\\right\\}\\left\\{-14.5\\le z\\le0.0007271(x-505)^{2}-16\\right\\}",
           "normalized_latex": "-x<=-136{-x>=-137}{-23<=y<=-22}{-14.5<=z<=0.0007271(x-505)^{2}-16}"
-        },
-        {
-          "expression_id": "582",
-          "folder": null,
-          "family": "INEQUALITY_REGION",
-          "status": "RECOGNIZED_UNSUPPORTED",
-          "reason": "Inequality region recognized",
-          "fingerprint": "075f7d410a5d5911",
-          "latex": "x\\le-136\\left\\{x\\ge-137\\right\\}\\left\\{22\\le y\\le23\\right\\}\\left\\{-14.5\\le z\\le0.0007271(x+505)^{2}-16\\right\\}",
-          "normalized_latex": "x<=-136{x>=-137}{22<=y<=23}{-14.5<=z<=0.0007271(x+505)^{2}-16}"
         },
         {
           "expression_id": "654",
@@ -1581,19 +1341,9 @@
           "family": "INEQUALITY_REGION",
           "status": "RECOGNIZED_UNSUPPORTED",
           "reason": "Inequality region recognized",
-          "fingerprint": "599fca0b5383aaa0",
+          "fingerprint": "a29bfd8b5655e3a1",
           "latex": "-x\\le-136\\left\\{-x\\ge-137\\right\\}\\left\\{22\\le y\\le23\\right\\}\\left\\{-14.5\\le z\\le0.0007271(x-505)^{2}-16\\right\\}",
           "normalized_latex": "-x<=-136{-x>=-137}{22<=y<=23}{-14.5<=z<=0.0007271(x-505)^{2}-16}"
-        },
-        {
-          "expression_id": "518",
-          "folder": null,
-          "family": "INEQUALITY_REGION",
-          "status": "RECOGNIZED_UNSUPPORTED",
-          "reason": "Inequality region recognized",
-          "fingerprint": "89fd78400a0780c4",
-          "latex": "x\\le-147\\left\\{x\\ge-148\\right\\}\\left\\{-23\\le y\\le-22\\right\\}\\left\\{-14.5\\le z\\le0.0007271(x+505)^{2}-16\\right\\}",
-          "normalized_latex": "x<=-147{x>=-148}{-23<=y<=-22}{-14.5<=z<=0.0007271(x+505)^{2}-16}"
         },
         {
           "expression_id": "653",
@@ -1601,19 +1351,9 @@
           "family": "INEQUALITY_REGION",
           "status": "RECOGNIZED_UNSUPPORTED",
           "reason": "Inequality region recognized",
-          "fingerprint": "322845582b6a6b28",
+          "fingerprint": "92461e62e37a9939",
           "latex": "-x\\le-147\\left\\{-x\\ge-148\\right\\}\\left\\{-23\\le y\\le-22\\right\\}\\left\\{-14.5\\le z\\le0.0007271(x-505)^{2}-16\\right\\}",
           "normalized_latex": "-x<=-147{-x>=-148}{-23<=y<=-22}{-14.5<=z<=0.0007271(x-505)^{2}-16}"
-        },
-        {
-          "expression_id": "581",
-          "folder": null,
-          "family": "INEQUALITY_REGION",
-          "status": "RECOGNIZED_UNSUPPORTED",
-          "reason": "Inequality region recognized",
-          "fingerprint": "4321027a0d8812e1",
-          "latex": "x\\le-147\\left\\{x\\ge-148\\right\\}\\left\\{22\\le y\\le23\\right\\}\\left\\{-14.5\\le z\\le0.0007271(x+505)^{2}-16\\right\\}",
-          "normalized_latex": "x<=-147{x>=-148}{22<=y<=23}{-14.5<=z<=0.0007271(x+505)^{2}-16}"
         },
         {
           "expression_id": "652",
@@ -1621,19 +1361,9 @@
           "family": "INEQUALITY_REGION",
           "status": "RECOGNIZED_UNSUPPORTED",
           "reason": "Inequality region recognized",
-          "fingerprint": "448050627cffefad",
+          "fingerprint": "685f1fc00617b40e",
           "latex": "-x\\le-147\\left\\{-x\\ge-148\\right\\}\\left\\{22\\le y\\le23\\right\\}\\left\\{-14.5\\le z\\le0.0007271(x-505)^{2}-16\\right\\}",
           "normalized_latex": "-x<=-147{-x>=-148}{22<=y<=23}{-14.5<=z<=0.0007271(x-505)^{2}-16}"
-        },
-        {
-          "expression_id": "519",
-          "folder": null,
-          "family": "INEQUALITY_REGION",
-          "status": "RECOGNIZED_UNSUPPORTED",
-          "reason": "Inequality region recognized",
-          "fingerprint": "75d111a9e184a93b",
-          "latex": "x\\le-158\\left\\{x\\ge-159\\right\\}\\left\\{-23\\le y\\le-22\\right\\}\\left\\{-14.5\\le z\\le0.0007271(x+505)^{2}-16\\right\\}",
-          "normalized_latex": "x<=-158{x>=-159}{-23<=y<=-22}{-14.5<=z<=0.0007271(x+505)^{2}-16}"
         },
         {
           "expression_id": "651",
@@ -1641,19 +1371,9 @@
           "family": "INEQUALITY_REGION",
           "status": "RECOGNIZED_UNSUPPORTED",
           "reason": "Inequality region recognized",
-          "fingerprint": "1a2bbfdd62e9b178",
+          "fingerprint": "6938e2977d1163b1",
           "latex": "-x\\le-158\\left\\{-x\\ge-159\\right\\}\\left\\{-23\\le y\\le-22\\right\\}\\left\\{-14.5\\le z\\le0.0007271(x-505)^{2}-16\\right\\}",
           "normalized_latex": "-x<=-158{-x>=-159}{-23<=y<=-22}{-14.5<=z<=0.0007271(x-505)^{2}-16}"
-        },
-        {
-          "expression_id": "580",
-          "folder": null,
-          "family": "INEQUALITY_REGION",
-          "status": "RECOGNIZED_UNSUPPORTED",
-          "reason": "Inequality region recognized",
-          "fingerprint": "4787c95fb1e6a8a5",
-          "latex": "x\\le-158\\left\\{x\\ge-159\\right\\}\\left\\{22\\le y\\le23\\right\\}\\left\\{-14.5\\le z\\le0.0007271(x+505)^{2}-16\\right\\}",
-          "normalized_latex": "x<=-158{x>=-159}{22<=y<=23}{-14.5<=z<=0.0007271(x+505)^{2}-16}"
         },
         {
           "expression_id": "650",
@@ -1661,19 +1381,9 @@
           "family": "INEQUALITY_REGION",
           "status": "RECOGNIZED_UNSUPPORTED",
           "reason": "Inequality region recognized",
-          "fingerprint": "a43d26a9a38cbc5c",
+          "fingerprint": "cedb4ec13642fe17",
           "latex": "-x\\le-158\\left\\{-x\\ge-159\\right\\}\\left\\{22\\le y\\le23\\right\\}\\left\\{-14.5\\le z\\le0.0007271(x-505)^{2}-16\\right\\}",
           "normalized_latex": "-x<=-158{-x>=-159}{22<=y<=23}{-14.5<=z<=0.0007271(x-505)^{2}-16}"
-        },
-        {
-          "expression_id": "520",
-          "folder": null,
-          "family": "INEQUALITY_REGION",
-          "status": "RECOGNIZED_UNSUPPORTED",
-          "reason": "Inequality region recognized",
-          "fingerprint": "4963dab43bc8533b",
-          "latex": "x\\le-169\\left\\{x\\ge-170\\right\\}\\left\\{-23\\le y\\le-22\\right\\}\\left\\{-14.5\\le z\\le0.0007271(x+505)^{2}-16\\right\\}",
-          "normalized_latex": "x<=-169{x>=-170}{-23<=y<=-22}{-14.5<=z<=0.0007271(x+505)^{2}-16}"
         },
         {
           "expression_id": "649",
@@ -1681,19 +1391,9 @@
           "family": "INEQUALITY_REGION",
           "status": "RECOGNIZED_UNSUPPORTED",
           "reason": "Inequality region recognized",
-          "fingerprint": "05512d97a1798818",
+          "fingerprint": "460a65d46a688041",
           "latex": "-x\\le-169\\left\\{-x\\ge-170\\right\\}\\left\\{-23\\le y\\le-22\\right\\}\\left\\{-14.5\\le z\\le0.0007271(x-505)^{2}-16\\right\\}",
           "normalized_latex": "-x<=-169{-x>=-170}{-23<=y<=-22}{-14.5<=z<=0.0007271(x-505)^{2}-16}"
-        },
-        {
-          "expression_id": "579",
-          "folder": null,
-          "family": "INEQUALITY_REGION",
-          "status": "RECOGNIZED_UNSUPPORTED",
-          "reason": "Inequality region recognized",
-          "fingerprint": "4f0421f5c4fcd4cb",
-          "latex": "x\\le-169\\left\\{x\\ge-170\\right\\}\\left\\{22\\le y\\le23\\right\\}\\left\\{-14.5\\le z\\le0.0007271(x+505)^{2}-16\\right\\}",
-          "normalized_latex": "x<=-169{x>=-170}{22<=y<=23}{-14.5<=z<=0.0007271(x+505)^{2}-16}"
         },
         {
           "expression_id": "648",
@@ -1701,19 +1401,9 @@
           "family": "INEQUALITY_REGION",
           "status": "RECOGNIZED_UNSUPPORTED",
           "reason": "Inequality region recognized",
-          "fingerprint": "706cddc3b138d397",
+          "fingerprint": "4bd7cd7ccb0454dc",
           "latex": "-x\\le-169\\left\\{-x\\ge-170\\right\\}\\left\\{22\\le y\\le23\\right\\}\\left\\{-14.5\\le z\\le0.0007271(x-505)^{2}-16\\right\\}",
           "normalized_latex": "-x<=-169{-x>=-170}{22<=y<=23}{-14.5<=z<=0.0007271(x-505)^{2}-16}"
-        },
-        {
-          "expression_id": "521",
-          "folder": null,
-          "family": "INEQUALITY_REGION",
-          "status": "RECOGNIZED_UNSUPPORTED",
-          "reason": "Inequality region recognized",
-          "fingerprint": "7ac20a6ef3754653",
-          "latex": "x\\le-180\\left\\{x\\ge-181\\right\\}\\left\\{-23\\le y\\le-22\\right\\}\\left\\{-14.5\\le z\\le0.0007271(x+505)^{2}-16\\right\\}",
-          "normalized_latex": "x<=-180{x>=-181}{-23<=y<=-22}{-14.5<=z<=0.0007271(x+505)^{2}-16}"
         },
         {
           "expression_id": "647",
@@ -1721,19 +1411,9 @@
           "family": "INEQUALITY_REGION",
           "status": "RECOGNIZED_UNSUPPORTED",
           "reason": "Inequality region recognized",
-          "fingerprint": "8ac979b90dd3ad64",
+          "fingerprint": "9f631dd2d4fb306a",
           "latex": "-x\\le-180\\left\\{-x\\ge-181\\right\\}\\left\\{-23\\le y\\le-22\\right\\}\\left\\{-14.5\\le z\\le0.0007271(x-505)^{2}-16\\right\\}",
           "normalized_latex": "-x<=-180{-x>=-181}{-23<=y<=-22}{-14.5<=z<=0.0007271(x-505)^{2}-16}"
-        },
-        {
-          "expression_id": "578",
-          "folder": null,
-          "family": "INEQUALITY_REGION",
-          "status": "RECOGNIZED_UNSUPPORTED",
-          "reason": "Inequality region recognized",
-          "fingerprint": "bffb18b20dca7440",
-          "latex": "x\\le-180\\left\\{x\\ge-181\\right\\}\\left\\{22\\le y\\le23\\right\\}\\left\\{-14.5\\le z\\le0.0007271(x+505)^{2}-16\\right\\}",
-          "normalized_latex": "x<=-180{x>=-181}{22<=y<=23}{-14.5<=z<=0.0007271(x+505)^{2}-16}"
         },
         {
           "expression_id": "646",
@@ -1741,19 +1421,9 @@
           "family": "INEQUALITY_REGION",
           "status": "RECOGNIZED_UNSUPPORTED",
           "reason": "Inequality region recognized",
-          "fingerprint": "221035f46e74b997",
+          "fingerprint": "fbd414e202bb3009",
           "latex": "-x\\le-180\\left\\{-x\\ge-181\\right\\}\\left\\{22\\le y\\le23\\right\\}\\left\\{-14.5\\le z\\le0.0007271(x-505)^{2}-16\\right\\}",
           "normalized_latex": "-x<=-180{-x>=-181}{22<=y<=23}{-14.5<=z<=0.0007271(x-505)^{2}-16}"
-        },
-        {
-          "expression_id": "522",
-          "folder": null,
-          "family": "INEQUALITY_REGION",
-          "status": "RECOGNIZED_UNSUPPORTED",
-          "reason": "Inequality region recognized",
-          "fingerprint": "1198465fae0f31e8",
-          "latex": "x\\le-191\\left\\{x\\ge-192\\right\\}\\left\\{-23\\le y\\le-22\\right\\}\\left\\{-14.5\\le z\\le0.0007271(x+505)^{2}-16\\right\\}",
-          "normalized_latex": "x<=-191{x>=-192}{-23<=y<=-22}{-14.5<=z<=0.0007271(x+505)^{2}-16}"
         },
         {
           "expression_id": "645",
@@ -1761,19 +1431,9 @@
           "family": "INEQUALITY_REGION",
           "status": "RECOGNIZED_UNSUPPORTED",
           "reason": "Inequality region recognized",
-          "fingerprint": "debd55fc88c8473d",
+          "fingerprint": "185cdb08329ac477",
           "latex": "-x\\le-191\\left\\{-x\\ge-192\\right\\}\\left\\{-23\\le y\\le-22\\right\\}\\left\\{-14.5\\le z\\le0.0007271(x-505)^{2}-16\\right\\}",
           "normalized_latex": "-x<=-191{-x>=-192}{-23<=y<=-22}{-14.5<=z<=0.0007271(x-505)^{2}-16}"
-        },
-        {
-          "expression_id": "577",
-          "folder": null,
-          "family": "INEQUALITY_REGION",
-          "status": "RECOGNIZED_UNSUPPORTED",
-          "reason": "Inequality region recognized",
-          "fingerprint": "1c1a26adedc4637f",
-          "latex": "x\\le-191\\left\\{x\\ge-192\\right\\}\\left\\{22\\le y\\le23\\right\\}\\left\\{-14.5\\le z\\le0.0007271(x+505)^{2}-16\\right\\}",
-          "normalized_latex": "x<=-191{x>=-192}{22<=y<=23}{-14.5<=z<=0.0007271(x+505)^{2}-16}"
         },
         {
           "expression_id": "644",
@@ -1781,19 +1441,9 @@
           "family": "INEQUALITY_REGION",
           "status": "RECOGNIZED_UNSUPPORTED",
           "reason": "Inequality region recognized",
-          "fingerprint": "c41851bd7c06b4fa",
+          "fingerprint": "b5aa72e560cbacfe",
           "latex": "-x\\le-191\\left\\{-x\\ge-192\\right\\}\\left\\{22\\le y\\le23\\right\\}\\left\\{-14.5\\le z\\le0.0007271(x-505)^{2}-16\\right\\}",
           "normalized_latex": "-x<=-191{-x>=-192}{22<=y<=23}{-14.5<=z<=0.0007271(x-505)^{2}-16}"
-        },
-        {
-          "expression_id": "523",
-          "folder": null,
-          "family": "INEQUALITY_REGION",
-          "status": "RECOGNIZED_UNSUPPORTED",
-          "reason": "Inequality region recognized",
-          "fingerprint": "534e620db37bb11d",
-          "latex": "x\\le-202\\left\\{x\\ge-203\\right\\}\\left\\{-23\\le y\\le-22\\right\\}\\left\\{-14.5\\le z\\le0.0007271(x+505)^{2}-16\\right\\}",
-          "normalized_latex": "x<=-202{x>=-203}{-23<=y<=-22}{-14.5<=z<=0.0007271(x+505)^{2}-16}"
         },
         {
           "expression_id": "643",
@@ -1801,19 +1451,9 @@
           "family": "INEQUALITY_REGION",
           "status": "RECOGNIZED_UNSUPPORTED",
           "reason": "Inequality region recognized",
-          "fingerprint": "ef17848b6399d2bd",
+          "fingerprint": "eb5c81146f7844bb",
           "latex": "-x\\le-202\\left\\{-x\\ge-203\\right\\}\\left\\{-23\\le y\\le-22\\right\\}\\left\\{-14.5\\le z\\le0.0007271(x-505)^{2}-16\\right\\}",
           "normalized_latex": "-x<=-202{-x>=-203}{-23<=y<=-22}{-14.5<=z<=0.0007271(x-505)^{2}-16}"
-        },
-        {
-          "expression_id": "576",
-          "folder": null,
-          "family": "INEQUALITY_REGION",
-          "status": "RECOGNIZED_UNSUPPORTED",
-          "reason": "Inequality region recognized",
-          "fingerprint": "f6d200e25f353753",
-          "latex": "x\\le-202\\left\\{x\\ge-203\\right\\}\\left\\{22\\le y\\le23\\right\\}\\left\\{-14.5\\le z\\le0.0007271(x+505)^{2}-16\\right\\}",
-          "normalized_latex": "x<=-202{x>=-203}{22<=y<=23}{-14.5<=z<=0.0007271(x+505)^{2}-16}"
         },
         {
           "expression_id": "642",
@@ -1821,19 +1461,9 @@
           "family": "INEQUALITY_REGION",
           "status": "RECOGNIZED_UNSUPPORTED",
           "reason": "Inequality region recognized",
-          "fingerprint": "e9a3fc16d204d0be",
+          "fingerprint": "e888afd92ab4ef3d",
           "latex": "-x\\le-202\\left\\{-x\\ge-203\\right\\}\\left\\{22\\le y\\le23\\right\\}\\left\\{-14.5\\le z\\le0.0007271(x-505)^{2}-16\\right\\}",
           "normalized_latex": "-x<=-202{-x>=-203}{22<=y<=23}{-14.5<=z<=0.0007271(x-505)^{2}-16}"
-        },
-        {
-          "expression_id": "524",
-          "folder": null,
-          "family": "INEQUALITY_REGION",
-          "status": "RECOGNIZED_UNSUPPORTED",
-          "reason": "Inequality region recognized",
-          "fingerprint": "98fe4147c69cfdbb",
-          "latex": "x\\le-213\\left\\{x\\ge-214\\right\\}\\left\\{-23\\le y\\le-22\\right\\}\\left\\{-14.5\\le z\\le0.0007271(x+505)^{2}-16\\right\\}",
-          "normalized_latex": "x<=-213{x>=-214}{-23<=y<=-22}{-14.5<=z<=0.0007271(x+505)^{2}-16}"
         },
         {
           "expression_id": "641",
@@ -1841,19 +1471,9 @@
           "family": "INEQUALITY_REGION",
           "status": "RECOGNIZED_UNSUPPORTED",
           "reason": "Inequality region recognized",
-          "fingerprint": "e088648dab3e1e76",
+          "fingerprint": "f5b7a51ebd5b1a7e",
           "latex": "-x\\le-213\\left\\{-x\\ge-214\\right\\}\\left\\{-23\\le y\\le-22\\right\\}\\left\\{-14.5\\le z\\le0.0007271(x-505)^{2}-16\\right\\}",
           "normalized_latex": "-x<=-213{-x>=-214}{-23<=y<=-22}{-14.5<=z<=0.0007271(x-505)^{2}-16}"
-        },
-        {
-          "expression_id": "575",
-          "folder": null,
-          "family": "INEQUALITY_REGION",
-          "status": "RECOGNIZED_UNSUPPORTED",
-          "reason": "Inequality region recognized",
-          "fingerprint": "f09be5bca69e77fe",
-          "latex": "x\\le-213\\left\\{x\\ge-214\\right\\}\\left\\{22\\le y\\le23\\right\\}\\left\\{-14.5\\le z\\le0.0007271(x+505)^{2}-16\\right\\}",
-          "normalized_latex": "x<=-213{x>=-214}{22<=y<=23}{-14.5<=z<=0.0007271(x+505)^{2}-16}"
         },
         {
           "expression_id": "640",
@@ -1861,19 +1481,9 @@
           "family": "INEQUALITY_REGION",
           "status": "RECOGNIZED_UNSUPPORTED",
           "reason": "Inequality region recognized",
-          "fingerprint": "058b0d20e588e9fc",
+          "fingerprint": "52a3181674a49b30",
           "latex": "-x\\le-213\\left\\{-x\\ge-214\\right\\}\\left\\{22\\le y\\le23\\right\\}\\left\\{-14.5\\le z\\le0.0007271(x-505)^{2}-16\\right\\}",
           "normalized_latex": "-x<=-213{-x>=-214}{22<=y<=23}{-14.5<=z<=0.0007271(x-505)^{2}-16}"
-        },
-        {
-          "expression_id": "525",
-          "folder": null,
-          "family": "INEQUALITY_REGION",
-          "status": "RECOGNIZED_UNSUPPORTED",
-          "reason": "Inequality region recognized",
-          "fingerprint": "b15b411687b14be8",
-          "latex": "x\\le-224\\left\\{x\\ge-225\\right\\}\\left\\{-23\\le y\\le-22\\right\\}\\left\\{-14.5\\le z\\le0.0007271(x+505)^{2}-16\\right\\}",
-          "normalized_latex": "x<=-224{x>=-225}{-23<=y<=-22}{-14.5<=z<=0.0007271(x+505)^{2}-16}"
         },
         {
           "expression_id": "639",
@@ -1881,19 +1491,9 @@
           "family": "INEQUALITY_REGION",
           "status": "RECOGNIZED_UNSUPPORTED",
           "reason": "Inequality region recognized",
-          "fingerprint": "6ce05511782ba3f4",
+          "fingerprint": "e0eeabb836db7dac",
           "latex": "-x\\le-224\\left\\{-x\\ge-225\\right\\}\\left\\{-23\\le y\\le-22\\right\\}\\left\\{-14.5\\le z\\le0.0007271(x-505)^{2}-16\\right\\}",
           "normalized_latex": "-x<=-224{-x>=-225}{-23<=y<=-22}{-14.5<=z<=0.0007271(x-505)^{2}-16}"
-        },
-        {
-          "expression_id": "574",
-          "folder": null,
-          "family": "INEQUALITY_REGION",
-          "status": "RECOGNIZED_UNSUPPORTED",
-          "reason": "Inequality region recognized",
-          "fingerprint": "3823102222ecd0ae",
-          "latex": "x\\le-224\\left\\{x\\ge-225\\right\\}\\left\\{22\\le y\\le23\\right\\}\\left\\{-14.5\\le z\\le0.0007271(x+505)^{2}-16\\right\\}",
-          "normalized_latex": "x<=-224{x>=-225}{22<=y<=23}{-14.5<=z<=0.0007271(x+505)^{2}-16}"
         },
         {
           "expression_id": "638",
@@ -1901,19 +1501,9 @@
           "family": "INEQUALITY_REGION",
           "status": "RECOGNIZED_UNSUPPORTED",
           "reason": "Inequality region recognized",
-          "fingerprint": "3968a007e5f9bff7",
+          "fingerprint": "356790e958783dfe",
           "latex": "-x\\le-224\\left\\{-x\\ge-225\\right\\}\\left\\{22\\le y\\le23\\right\\}\\left\\{-14.5\\le z\\le0.0007271(x-505)^{2}-16\\right\\}",
           "normalized_latex": "-x<=-224{-x>=-225}{22<=y<=23}{-14.5<=z<=0.0007271(x-505)^{2}-16}"
-        },
-        {
-          "expression_id": "526",
-          "folder": null,
-          "family": "INEQUALITY_REGION",
-          "status": "RECOGNIZED_UNSUPPORTED",
-          "reason": "Inequality region recognized",
-          "fingerprint": "90927639b1eaf49b",
-          "latex": "x\\le-235\\left\\{x\\ge-236\\right\\}\\left\\{-23\\le y\\le-22\\right\\}\\left\\{-14.5\\le z\\le0.0007271(x+505)^{2}-16\\right\\}",
-          "normalized_latex": "x<=-235{x>=-236}{-23<=y<=-22}{-14.5<=z<=0.0007271(x+505)^{2}-16}"
         },
         {
           "expression_id": "637",
@@ -1921,19 +1511,9 @@
           "family": "INEQUALITY_REGION",
           "status": "RECOGNIZED_UNSUPPORTED",
           "reason": "Inequality region recognized",
-          "fingerprint": "2bf5be7340b7d8dc",
+          "fingerprint": "1a956582aedd2fbf",
           "latex": "-x\\le-235\\left\\{-x\\ge-236\\right\\}\\left\\{-23\\le y\\le-22\\right\\}\\left\\{-14.5\\le z\\le0.0007271(x-505)^{2}-16\\right\\}",
           "normalized_latex": "-x<=-235{-x>=-236}{-23<=y<=-22}{-14.5<=z<=0.0007271(x-505)^{2}-16}"
-        },
-        {
-          "expression_id": "573",
-          "folder": null,
-          "family": "INEQUALITY_REGION",
-          "status": "RECOGNIZED_UNSUPPORTED",
-          "reason": "Inequality region recognized",
-          "fingerprint": "d934aaf19b7dafec",
-          "latex": "x\\le-235\\left\\{x\\ge-236\\right\\}\\left\\{22\\le y\\le23\\right\\}\\left\\{-14.5\\le z\\le0.0007271(x+505)^{2}-16\\right\\}",
-          "normalized_latex": "x<=-235{x>=-236}{22<=y<=23}{-14.5<=z<=0.0007271(x+505)^{2}-16}"
         },
         {
           "expression_id": "636",
@@ -1941,19 +1521,9 @@
           "family": "INEQUALITY_REGION",
           "status": "RECOGNIZED_UNSUPPORTED",
           "reason": "Inequality region recognized",
-          "fingerprint": "12c048924525a16c",
+          "fingerprint": "c06b8022abcb209f",
           "latex": "-x\\le-235\\left\\{-x\\ge-236\\right\\}\\left\\{22\\le y\\le23\\right\\}\\left\\{-14.5\\le z\\le0.0007271(x-505)^{2}-16\\right\\}",
           "normalized_latex": "-x<=-235{-x>=-236}{22<=y<=23}{-14.5<=z<=0.0007271(x-505)^{2}-16}"
-        },
-        {
-          "expression_id": "527",
-          "folder": null,
-          "family": "INEQUALITY_REGION",
-          "status": "RECOGNIZED_UNSUPPORTED",
-          "reason": "Inequality region recognized",
-          "fingerprint": "51bd1354918689f1",
-          "latex": "x\\le-246\\left\\{x\\ge-247\\right\\}\\left\\{-23\\le y\\le-22\\right\\}\\left\\{-14.5\\le z\\le0.0007271(x+505)^{2}-16\\right\\}",
-          "normalized_latex": "x<=-246{x>=-247}{-23<=y<=-22}{-14.5<=z<=0.0007271(x+505)^{2}-16}"
         },
         {
           "expression_id": "635",
@@ -1961,19 +1531,9 @@
           "family": "INEQUALITY_REGION",
           "status": "RECOGNIZED_UNSUPPORTED",
           "reason": "Inequality region recognized",
-          "fingerprint": "3d26ed0e2e23d6da",
+          "fingerprint": "7e7a4d2d43d20207",
           "latex": "-x\\le-246\\left\\{-x\\ge-247\\right\\}\\left\\{-23\\le y\\le-22\\right\\}\\left\\{-14.5\\le z\\le0.0007271(x-505)^{2}-16\\right\\}",
           "normalized_latex": "-x<=-246{-x>=-247}{-23<=y<=-22}{-14.5<=z<=0.0007271(x-505)^{2}-16}"
-        },
-        {
-          "expression_id": "572",
-          "folder": null,
-          "family": "INEQUALITY_REGION",
-          "status": "RECOGNIZED_UNSUPPORTED",
-          "reason": "Inequality region recognized",
-          "fingerprint": "ccbba1705aa4feec",
-          "latex": "x\\le-246\\left\\{x\\ge-247\\right\\}\\left\\{22\\le y\\le23\\right\\}\\left\\{-14.5\\le z\\le0.0007271(x+505)^{2}-16\\right\\}",
-          "normalized_latex": "x<=-246{x>=-247}{22<=y<=23}{-14.5<=z<=0.0007271(x+505)^{2}-16}"
         },
         {
           "expression_id": "634",
@@ -1981,19 +1541,9 @@
           "family": "INEQUALITY_REGION",
           "status": "RECOGNIZED_UNSUPPORTED",
           "reason": "Inequality region recognized",
-          "fingerprint": "00ccfc7fdd9c3d18",
+          "fingerprint": "39c0d35f447a94ca",
           "latex": "-x\\le-246\\left\\{-x\\ge-247\\right\\}\\left\\{22\\le y\\le23\\right\\}\\left\\{-14.5\\le z\\le0.0007271(x-505)^{2}-16\\right\\}",
           "normalized_latex": "-x<=-246{-x>=-247}{22<=y<=23}{-14.5<=z<=0.0007271(x-505)^{2}-16}"
-        },
-        {
-          "expression_id": "528",
-          "folder": null,
-          "family": "INEQUALITY_REGION",
-          "status": "RECOGNIZED_UNSUPPORTED",
-          "reason": "Inequality region recognized",
-          "fingerprint": "6e5cc759103e66cb",
-          "latex": "x\\le-257\\left\\{x\\ge-258\\right\\}\\left\\{-23\\le y\\le-22\\right\\}\\left\\{-14.5\\le z\\le0.0007271(x+505)^{2}-16\\right\\}",
-          "normalized_latex": "x<=-257{x>=-258}{-23<=y<=-22}{-14.5<=z<=0.0007271(x+505)^{2}-16}"
         },
         {
           "expression_id": "633",
@@ -2001,19 +1551,9 @@
           "family": "INEQUALITY_REGION",
           "status": "RECOGNIZED_UNSUPPORTED",
           "reason": "Inequality region recognized",
-          "fingerprint": "ec511826b630dd06",
+          "fingerprint": "4b8aec833c78d965",
           "latex": "-x\\le-257\\left\\{-x\\ge-258\\right\\}\\left\\{-23\\le y\\le-22\\right\\}\\left\\{-14.5\\le z\\le0.0007271(x-505)^{2}-16\\right\\}",
           "normalized_latex": "-x<=-257{-x>=-258}{-23<=y<=-22}{-14.5<=z<=0.0007271(x-505)^{2}-16}"
-        },
-        {
-          "expression_id": "571",
-          "folder": null,
-          "family": "INEQUALITY_REGION",
-          "status": "RECOGNIZED_UNSUPPORTED",
-          "reason": "Inequality region recognized",
-          "fingerprint": "58f637779dfbc92d",
-          "latex": "x\\le-257\\left\\{x\\ge-258\\right\\}\\left\\{22\\le y\\le23\\right\\}\\left\\{-14.5\\le z\\le0.0007271(x+505)^{2}-16\\right\\}",
-          "normalized_latex": "x<=-257{x>=-258}{22<=y<=23}{-14.5<=z<=0.0007271(x+505)^{2}-16}"
         },
         {
           "expression_id": "632",
@@ -2021,19 +1561,9 @@
           "family": "INEQUALITY_REGION",
           "status": "RECOGNIZED_UNSUPPORTED",
           "reason": "Inequality region recognized",
-          "fingerprint": "39a79e07418a38ef",
+          "fingerprint": "5935c6eab731e202",
           "latex": "-x\\le-257\\left\\{-x\\ge-258\\right\\}\\left\\{22\\le y\\le23\\right\\}\\left\\{-14.5\\le z\\le0.0007271(x-505)^{2}-16\\right\\}",
           "normalized_latex": "-x<=-257{-x>=-258}{22<=y<=23}{-14.5<=z<=0.0007271(x-505)^{2}-16}"
-        },
-        {
-          "expression_id": "529",
-          "folder": null,
-          "family": "INEQUALITY_REGION",
-          "status": "RECOGNIZED_UNSUPPORTED",
-          "reason": "Inequality region recognized",
-          "fingerprint": "91746550d3ca6338",
-          "latex": "x\\le-268\\left\\{x\\ge-269\\right\\}\\left\\{-23\\le y\\le-22\\right\\}\\left\\{-14.5\\le z\\le0.0007271(x+505)^{2}-16\\right\\}",
-          "normalized_latex": "x<=-268{x>=-269}{-23<=y<=-22}{-14.5<=z<=0.0007271(x+505)^{2}-16}"
         },
         {
           "expression_id": "631",
@@ -2041,19 +1571,9 @@
           "family": "INEQUALITY_REGION",
           "status": "RECOGNIZED_UNSUPPORTED",
           "reason": "Inequality region recognized",
-          "fingerprint": "4f4b0652316cdd37",
+          "fingerprint": "b7d9e5fc49794ee0",
           "latex": "-x\\le-268\\left\\{-x\\ge-269\\right\\}\\left\\{-23\\le y\\le-22\\right\\}\\left\\{-14.5\\le z\\le0.0007271(x-505)^{2}-16\\right\\}",
           "normalized_latex": "-x<=-268{-x>=-269}{-23<=y<=-22}{-14.5<=z<=0.0007271(x-505)^{2}-16}"
-        },
-        {
-          "expression_id": "570",
-          "folder": null,
-          "family": "INEQUALITY_REGION",
-          "status": "RECOGNIZED_UNSUPPORTED",
-          "reason": "Inequality region recognized",
-          "fingerprint": "c72493e1e6478fb9",
-          "latex": "x\\le-268\\left\\{x\\ge-269\\right\\}\\left\\{22\\le y\\le23\\right\\}\\left\\{-14.5\\le z\\le0.0007271(x+505)^{2}-16\\right\\}",
-          "normalized_latex": "x<=-268{x>=-269}{22<=y<=23}{-14.5<=z<=0.0007271(x+505)^{2}-16}"
         },
         {
           "expression_id": "630",
@@ -2061,19 +1581,9 @@
           "family": "INEQUALITY_REGION",
           "status": "RECOGNIZED_UNSUPPORTED",
           "reason": "Inequality region recognized",
-          "fingerprint": "38e5ab6a1e49321b",
+          "fingerprint": "9d69dfef398cb4eb",
           "latex": "-x\\le-268\\left\\{-x\\ge-269\\right\\}\\left\\{22\\le y\\le23\\right\\}\\left\\{-14.5\\le z\\le0.0007271(x-505)^{2}-16\\right\\}",
           "normalized_latex": "-x<=-268{-x>=-269}{22<=y<=23}{-14.5<=z<=0.0007271(x-505)^{2}-16}"
-        },
-        {
-          "expression_id": "530",
-          "folder": null,
-          "family": "INEQUALITY_REGION",
-          "status": "RECOGNIZED_UNSUPPORTED",
-          "reason": "Inequality region recognized",
-          "fingerprint": "95afa935fd8252b2",
-          "latex": "x\\le-279\\left\\{x\\ge-280\\right\\}\\left\\{-23\\le y\\le-22\\right\\}\\left\\{-14.5\\le z\\le0.0007271(x+505)^{2}-16\\right\\}",
-          "normalized_latex": "x<=-279{x>=-280}{-23<=y<=-22}{-14.5<=z<=0.0007271(x+505)^{2}-16}"
         },
         {
           "expression_id": "629",
@@ -2081,19 +1591,9 @@
           "family": "INEQUALITY_REGION",
           "status": "RECOGNIZED_UNSUPPORTED",
           "reason": "Inequality region recognized",
-          "fingerprint": "668820e4743d6703",
+          "fingerprint": "356cd06cd0ab5c50",
           "latex": "-x\\le-279\\left\\{-x\\ge-280\\right\\}\\left\\{-23\\le y\\le-22\\right\\}\\left\\{-14.5\\le z\\le0.0007271(x-505)^{2}-16\\right\\}",
           "normalized_latex": "-x<=-279{-x>=-280}{-23<=y<=-22}{-14.5<=z<=0.0007271(x-505)^{2}-16}"
-        },
-        {
-          "expression_id": "569",
-          "folder": null,
-          "family": "INEQUALITY_REGION",
-          "status": "RECOGNIZED_UNSUPPORTED",
-          "reason": "Inequality region recognized",
-          "fingerprint": "65f9565037125d0a",
-          "latex": "x\\le-279\\left\\{x\\ge-280\\right\\}\\left\\{22\\le y\\le23\\right\\}\\left\\{-14.5\\le z\\le0.0007271(x+505)^{2}-16\\right\\}",
-          "normalized_latex": "x<=-279{x>=-280}{22<=y<=23}{-14.5<=z<=0.0007271(x+505)^{2}-16}"
         },
         {
           "expression_id": "628",
@@ -2101,19 +1601,9 @@
           "family": "INEQUALITY_REGION",
           "status": "RECOGNIZED_UNSUPPORTED",
           "reason": "Inequality region recognized",
-          "fingerprint": "1d9e1e4dc4d37a80",
+          "fingerprint": "3c302b28ab17afcf",
           "latex": "-x\\le-279\\left\\{-x\\ge-280\\right\\}\\left\\{22\\le y\\le23\\right\\}\\left\\{-14.5\\le z\\le0.0007271(x-505)^{2}-16\\right\\}",
           "normalized_latex": "-x<=-279{-x>=-280}{22<=y<=23}{-14.5<=z<=0.0007271(x-505)^{2}-16}"
-        },
-        {
-          "expression_id": "531",
-          "folder": null,
-          "family": "INEQUALITY_REGION",
-          "status": "RECOGNIZED_UNSUPPORTED",
-          "reason": "Inequality region recognized",
-          "fingerprint": "9ca0caf2df54b799",
-          "latex": "x\\le-290\\left\\{x\\ge-291\\right\\}\\left\\{-23\\le y\\le-22\\right\\}\\left\\{-14.5\\le z\\le0.0007271(x+505)^{2}-16\\right\\}",
-          "normalized_latex": "x<=-290{x>=-291}{-23<=y<=-22}{-14.5<=z<=0.0007271(x+505)^{2}-16}"
         },
         {
           "expression_id": "627",
@@ -2121,19 +1611,9 @@
           "family": "INEQUALITY_REGION",
           "status": "RECOGNIZED_UNSUPPORTED",
           "reason": "Inequality region recognized",
-          "fingerprint": "99d41cde4f74f3bc",
+          "fingerprint": "f2fea642cabab01c",
           "latex": "-x\\le-290\\left\\{-x\\ge-291\\right\\}\\left\\{-23\\le y\\le-22\\right\\}\\left\\{-14.5\\le z\\le0.0007271(x-505)^{2}-16\\right\\}",
           "normalized_latex": "-x<=-290{-x>=-291}{-23<=y<=-22}{-14.5<=z<=0.0007271(x-505)^{2}-16}"
-        },
-        {
-          "expression_id": "568",
-          "folder": null,
-          "family": "INEQUALITY_REGION",
-          "status": "RECOGNIZED_UNSUPPORTED",
-          "reason": "Inequality region recognized",
-          "fingerprint": "554a9706e129c943",
-          "latex": "x\\le-290\\left\\{x\\ge-291\\right\\}\\left\\{22\\le y\\le23\\right\\}\\left\\{-14.5\\le z\\le0.0007271(x+505)^{2}-16\\right\\}",
-          "normalized_latex": "x<=-290{x>=-291}{22<=y<=23}{-14.5<=z<=0.0007271(x+505)^{2}-16}"
         },
         {
           "expression_id": "626",
@@ -2141,19 +1621,9 @@
           "family": "INEQUALITY_REGION",
           "status": "RECOGNIZED_UNSUPPORTED",
           "reason": "Inequality region recognized",
-          "fingerprint": "7373e36bad6828a6",
+          "fingerprint": "77410d9f854c0ad5",
           "latex": "-x\\le-290\\left\\{-x\\ge-291\\right\\}\\left\\{22\\le y\\le23\\right\\}\\left\\{-14.5\\le z\\le0.0007271(x-505)^{2}-16\\right\\}",
           "normalized_latex": "-x<=-290{-x>=-291}{22<=y<=23}{-14.5<=z<=0.0007271(x-505)^{2}-16}"
-        },
-        {
-          "expression_id": "532",
-          "folder": null,
-          "family": "INEQUALITY_REGION",
-          "status": "RECOGNIZED_UNSUPPORTED",
-          "reason": "Inequality region recognized",
-          "fingerprint": "de607811423713c3",
-          "latex": "x\\le-301\\left\\{x\\ge-302\\right\\}\\left\\{-23\\le y\\le-22\\right\\}\\left\\{-14.5\\le z\\le0.0007271(x+505)^{2}-16\\right\\}",
-          "normalized_latex": "x<=-301{x>=-302}{-23<=y<=-22}{-14.5<=z<=0.0007271(x+505)^{2}-16}"
         },
         {
           "expression_id": "625",
@@ -2161,19 +1631,9 @@
           "family": "INEQUALITY_REGION",
           "status": "RECOGNIZED_UNSUPPORTED",
           "reason": "Inequality region recognized",
-          "fingerprint": "e2b1d9f012c39544",
+          "fingerprint": "c50a387a27ed7268",
           "latex": "-x\\le-301\\left\\{-x\\ge-302\\right\\}\\left\\{-23\\le y\\le-22\\right\\}\\left\\{-14.5\\le z\\le0.0007271(x-505)^{2}-16\\right\\}",
           "normalized_latex": "-x<=-301{-x>=-302}{-23<=y<=-22}{-14.5<=z<=0.0007271(x-505)^{2}-16}"
-        },
-        {
-          "expression_id": "567",
-          "folder": null,
-          "family": "INEQUALITY_REGION",
-          "status": "RECOGNIZED_UNSUPPORTED",
-          "reason": "Inequality region recognized",
-          "fingerprint": "87025fd53aea0447",
-          "latex": "x\\le-301\\left\\{x\\ge-302\\right\\}\\left\\{22\\le y\\le23\\right\\}\\left\\{-14.5\\le z\\le0.0007271(x+505)^{2}-16\\right\\}",
-          "normalized_latex": "x<=-301{x>=-302}{22<=y<=23}{-14.5<=z<=0.0007271(x+505)^{2}-16}"
         },
         {
           "expression_id": "624",
@@ -2181,19 +1641,9 @@
           "family": "INEQUALITY_REGION",
           "status": "RECOGNIZED_UNSUPPORTED",
           "reason": "Inequality region recognized",
-          "fingerprint": "b62a5995a05635bd",
+          "fingerprint": "5d36eda13e03cf5b",
           "latex": "-x\\le-301\\left\\{-x\\ge-302\\right\\}\\left\\{22\\le y\\le23\\right\\}\\left\\{-14.5\\le z\\le0.0007271(x-505)^{2}-16\\right\\}",
           "normalized_latex": "-x<=-301{-x>=-302}{22<=y<=23}{-14.5<=z<=0.0007271(x-505)^{2}-16}"
-        },
-        {
-          "expression_id": "533",
-          "folder": null,
-          "family": "INEQUALITY_REGION",
-          "status": "RECOGNIZED_UNSUPPORTED",
-          "reason": "Inequality region recognized",
-          "fingerprint": "fc2414bfea3a2414",
-          "latex": "x\\le-312\\left\\{x\\ge-313\\right\\}\\left\\{-23\\le y\\le-22\\right\\}\\left\\{-14.5\\le z\\le0.0007271(x+505)^{2}-16\\right\\}",
-          "normalized_latex": "x<=-312{x>=-313}{-23<=y<=-22}{-14.5<=z<=0.0007271(x+505)^{2}-16}"
         },
         {
           "expression_id": "623",
@@ -2201,19 +1651,9 @@
           "family": "INEQUALITY_REGION",
           "status": "RECOGNIZED_UNSUPPORTED",
           "reason": "Inequality region recognized",
-          "fingerprint": "11f74e6b26928f9f",
+          "fingerprint": "2e1818d615ff1307",
           "latex": "-x\\le-312\\left\\{-x\\ge-313\\right\\}\\left\\{-23\\le y\\le-22\\right\\}\\left\\{-14.5\\le z\\le0.0007271(x-505)^{2}-16\\right\\}",
           "normalized_latex": "-x<=-312{-x>=-313}{-23<=y<=-22}{-14.5<=z<=0.0007271(x-505)^{2}-16}"
-        },
-        {
-          "expression_id": "566",
-          "folder": null,
-          "family": "INEQUALITY_REGION",
-          "status": "RECOGNIZED_UNSUPPORTED",
-          "reason": "Inequality region recognized",
-          "fingerprint": "cebff168a4a499df",
-          "latex": "x\\le-312\\left\\{x\\ge-313\\right\\}\\left\\{22\\le y\\le23\\right\\}\\left\\{-14.5\\le z\\le0.0007271(x+505)^{2}-16\\right\\}",
-          "normalized_latex": "x<=-312{x>=-313}{22<=y<=23}{-14.5<=z<=0.0007271(x+505)^{2}-16}"
         },
         {
           "expression_id": "622",
@@ -2221,19 +1661,9 @@
           "family": "INEQUALITY_REGION",
           "status": "RECOGNIZED_UNSUPPORTED",
           "reason": "Inequality region recognized",
-          "fingerprint": "27f28a27107bdbce",
+          "fingerprint": "fb8667b51708173c",
           "latex": "-x\\le-312\\left\\{-x\\ge-313\\right\\}\\left\\{22\\le y\\le23\\right\\}\\left\\{-14.5\\le z\\le0.0007271(x-505)^{2}-16\\right\\}",
           "normalized_latex": "-x<=-312{-x>=-313}{22<=y<=23}{-14.5<=z<=0.0007271(x-505)^{2}-16}"
-        },
-        {
-          "expression_id": "534",
-          "folder": null,
-          "family": "INEQUALITY_REGION",
-          "status": "RECOGNIZED_UNSUPPORTED",
-          "reason": "Inequality region recognized",
-          "fingerprint": "fd2e4ef86b31ca89",
-          "latex": "x\\le-323\\left\\{x\\ge-324\\right\\}\\left\\{-23\\le y\\le-22\\right\\}\\left\\{-14.5\\le z\\le0.0007271(x+505)^{2}-16\\right\\}",
-          "normalized_latex": "x<=-323{x>=-324}{-23<=y<=-22}{-14.5<=z<=0.0007271(x+505)^{2}-16}"
         },
         {
           "expression_id": "621",
@@ -2241,19 +1671,9 @@
           "family": "INEQUALITY_REGION",
           "status": "RECOGNIZED_UNSUPPORTED",
           "reason": "Inequality region recognized",
-          "fingerprint": "a74d4a0fc436223f",
+          "fingerprint": "9c5a8b2a41dedd4e",
           "latex": "-x\\le-323\\left\\{-x\\ge-324\\right\\}\\left\\{-23\\le y\\le-22\\right\\}\\left\\{-14.5\\le z\\le0.0007271(x-505)^{2}-16\\right\\}",
           "normalized_latex": "-x<=-323{-x>=-324}{-23<=y<=-22}{-14.5<=z<=0.0007271(x-505)^{2}-16}"
-        },
-        {
-          "expression_id": "565",
-          "folder": null,
-          "family": "INEQUALITY_REGION",
-          "status": "RECOGNIZED_UNSUPPORTED",
-          "reason": "Inequality region recognized",
-          "fingerprint": "64906ab72721297d",
-          "latex": "x\\le-323\\left\\{x\\ge-324\\right\\}\\left\\{22\\le y\\le23\\right\\}\\left\\{-14.5\\le z\\le0.0007271(x+505)^{2}-16\\right\\}",
-          "normalized_latex": "x<=-323{x>=-324}{22<=y<=23}{-14.5<=z<=0.0007271(x+505)^{2}-16}"
         },
         {
           "expression_id": "620",
@@ -2261,19 +1681,9 @@
           "family": "INEQUALITY_REGION",
           "status": "RECOGNIZED_UNSUPPORTED",
           "reason": "Inequality region recognized",
-          "fingerprint": "9a3791e8e3aa4696",
+          "fingerprint": "1b916b41718ad293",
           "latex": "-x\\le-323\\left\\{-x\\ge-324\\right\\}\\left\\{22\\le y\\le23\\right\\}\\left\\{-14.5\\le z\\le0.0007271(x-505)^{2}-16\\right\\}",
           "normalized_latex": "-x<=-323{-x>=-324}{22<=y<=23}{-14.5<=z<=0.0007271(x-505)^{2}-16}"
-        },
-        {
-          "expression_id": "535",
-          "folder": null,
-          "family": "INEQUALITY_REGION",
-          "status": "RECOGNIZED_UNSUPPORTED",
-          "reason": "Inequality region recognized",
-          "fingerprint": "6c21d369ebfe0fd2",
-          "latex": "x\\le-334\\left\\{x\\ge-335\\right\\}\\left\\{-23\\le y\\le-22\\right\\}\\left\\{-14.5\\le z\\le0.0007271(x+505)^{2}-16\\right\\}",
-          "normalized_latex": "x<=-334{x>=-335}{-23<=y<=-22}{-14.5<=z<=0.0007271(x+505)^{2}-16}"
         },
         {
           "expression_id": "619",
@@ -2281,19 +1691,9 @@
           "family": "INEQUALITY_REGION",
           "status": "RECOGNIZED_UNSUPPORTED",
           "reason": "Inequality region recognized",
-          "fingerprint": "03395544af1d33ee",
+          "fingerprint": "9bfb92e605213039",
           "latex": "-x\\le-334\\left\\{-x\\ge-335\\right\\}\\left\\{-23\\le y\\le-22\\right\\}\\left\\{-14.5\\le z\\le0.0007271(x-505)^{2}-16\\right\\}",
           "normalized_latex": "-x<=-334{-x>=-335}{-23<=y<=-22}{-14.5<=z<=0.0007271(x-505)^{2}-16}"
-        },
-        {
-          "expression_id": "564",
-          "folder": null,
-          "family": "INEQUALITY_REGION",
-          "status": "RECOGNIZED_UNSUPPORTED",
-          "reason": "Inequality region recognized",
-          "fingerprint": "b41eab62bb7f1744",
-          "latex": "x\\le-334\\left\\{x\\ge-335\\right\\}\\left\\{22\\le y\\le23\\right\\}\\left\\{-14.5\\le z\\le0.0007271(x+505)^{2}-16\\right\\}",
-          "normalized_latex": "x<=-334{x>=-335}{22<=y<=23}{-14.5<=z<=0.0007271(x+505)^{2}-16}"
         },
         {
           "expression_id": "618",
@@ -2301,19 +1701,9 @@
           "family": "INEQUALITY_REGION",
           "status": "RECOGNIZED_UNSUPPORTED",
           "reason": "Inequality region recognized",
-          "fingerprint": "952b6a67c257fb7d",
+          "fingerprint": "800c47afba36365a",
           "latex": "-x\\le-334\\left\\{-x\\ge-335\\right\\}\\left\\{22\\le y\\le23\\right\\}\\left\\{-14.5\\le z\\le0.0007271(x-505)^{2}-16\\right\\}",
           "normalized_latex": "-x<=-334{-x>=-335}{22<=y<=23}{-14.5<=z<=0.0007271(x-505)^{2}-16}"
-        },
-        {
-          "expression_id": "536",
-          "folder": null,
-          "family": "INEQUALITY_REGION",
-          "status": "RECOGNIZED_UNSUPPORTED",
-          "reason": "Inequality region recognized",
-          "fingerprint": "0d47a6024f334a65",
-          "latex": "x\\le-345\\left\\{x\\ge-346\\right\\}\\left\\{-23\\le y\\le-22\\right\\}\\left\\{-14.5\\le z\\le0.0007271(x+505)^{2}-16\\right\\}",
-          "normalized_latex": "x<=-345{x>=-346}{-23<=y<=-22}{-14.5<=z<=0.0007271(x+505)^{2}-16}"
         },
         {
           "expression_id": "617",
@@ -2321,19 +1711,9 @@
           "family": "INEQUALITY_REGION",
           "status": "RECOGNIZED_UNSUPPORTED",
           "reason": "Inequality region recognized",
-          "fingerprint": "b3f4c10475056ac4",
+          "fingerprint": "3d6cee9a9351de18",
           "latex": "-x\\le-345\\left\\{-x\\ge-346\\right\\}\\left\\{-23\\le y\\le-22\\right\\}\\left\\{-14.5\\le z\\le0.0007271(x-505)^{2}-16\\right\\}",
           "normalized_latex": "-x<=-345{-x>=-346}{-23<=y<=-22}{-14.5<=z<=0.0007271(x-505)^{2}-16}"
-        },
-        {
-          "expression_id": "563",
-          "folder": null,
-          "family": "INEQUALITY_REGION",
-          "status": "RECOGNIZED_UNSUPPORTED",
-          "reason": "Inequality region recognized",
-          "fingerprint": "d2beb58c8cc40ff6",
-          "latex": "x\\le-345\\left\\{x\\ge-346\\right\\}\\left\\{22\\le y\\le23\\right\\}\\left\\{-14.5\\le z\\le0.0007271(x+505)^{2}-16\\right\\}",
-          "normalized_latex": "x<=-345{x>=-346}{22<=y<=23}{-14.5<=z<=0.0007271(x+505)^{2}-16}"
         },
         {
           "expression_id": "616",
@@ -2341,19 +1721,9 @@
           "family": "INEQUALITY_REGION",
           "status": "RECOGNIZED_UNSUPPORTED",
           "reason": "Inequality region recognized",
-          "fingerprint": "527599c0b29258e9",
+          "fingerprint": "72c96544f7751334",
           "latex": "-x\\le-345\\left\\{-x\\ge-346\\right\\}\\left\\{22\\le y\\le23\\right\\}\\left\\{-14.5\\le z\\le0.0007271(x-505)^{2}-16\\right\\}",
           "normalized_latex": "-x<=-345{-x>=-346}{22<=y<=23}{-14.5<=z<=0.0007271(x-505)^{2}-16}"
-        },
-        {
-          "expression_id": "537",
-          "folder": null,
-          "family": "INEQUALITY_REGION",
-          "status": "RECOGNIZED_UNSUPPORTED",
-          "reason": "Inequality region recognized",
-          "fingerprint": "6b36c3ed58b24c9b",
-          "latex": "x\\le-356\\left\\{x\\ge-357\\right\\}\\left\\{-23\\le y\\le-22\\right\\}\\left\\{-14.5\\le z\\le0.0007271(x+505)^{2}-16\\right\\}",
-          "normalized_latex": "x<=-356{x>=-357}{-23<=y<=-22}{-14.5<=z<=0.0007271(x+505)^{2}-16}"
         },
         {
           "expression_id": "615",
@@ -2361,19 +1731,9 @@
           "family": "INEQUALITY_REGION",
           "status": "RECOGNIZED_UNSUPPORTED",
           "reason": "Inequality region recognized",
-          "fingerprint": "c7125a725054c6e6",
+          "fingerprint": "526d7ab39ccf9499",
           "latex": "-x\\le-356\\left\\{-x\\ge-357\\right\\}\\left\\{-23\\le y\\le-22\\right\\}\\left\\{-14.5\\le z\\le0.0007271(x-505)^{2}-16\\right\\}",
           "normalized_latex": "-x<=-356{-x>=-357}{-23<=y<=-22}{-14.5<=z<=0.0007271(x-505)^{2}-16}"
-        },
-        {
-          "expression_id": "562",
-          "folder": null,
-          "family": "INEQUALITY_REGION",
-          "status": "RECOGNIZED_UNSUPPORTED",
-          "reason": "Inequality region recognized",
-          "fingerprint": "baf3200b5bff35ee",
-          "latex": "x\\le-356\\left\\{x\\ge-357\\right\\}\\left\\{22\\le y\\le23\\right\\}\\left\\{-14.5\\le z\\le0.0007271(x+505)^{2}-16\\right\\}",
-          "normalized_latex": "x<=-356{x>=-357}{22<=y<=23}{-14.5<=z<=0.0007271(x+505)^{2}-16}"
         },
         {
           "expression_id": "614",
@@ -2381,19 +1741,9 @@
           "family": "INEQUALITY_REGION",
           "status": "RECOGNIZED_UNSUPPORTED",
           "reason": "Inequality region recognized",
-          "fingerprint": "c313b900de79b411",
+          "fingerprint": "86354bb68d705bf6",
           "latex": "-x\\le-356\\left\\{-x\\ge-357\\right\\}\\left\\{22\\le y\\le23\\right\\}\\left\\{-14.5\\le z\\le0.0007271(x-505)^{2}-16\\right\\}",
           "normalized_latex": "-x<=-356{-x>=-357}{22<=y<=23}{-14.5<=z<=0.0007271(x-505)^{2}-16}"
-        },
-        {
-          "expression_id": "538",
-          "folder": null,
-          "family": "INEQUALITY_REGION",
-          "status": "RECOGNIZED_UNSUPPORTED",
-          "reason": "Inequality region recognized",
-          "fingerprint": "2ffca124f5ebf091",
-          "latex": "x\\le-367\\left\\{x\\ge-368\\right\\}\\left\\{-23\\le y\\le-22\\right\\}\\left\\{-14.5\\le z\\le0.0007271(x+505)^{2}-16\\right\\}",
-          "normalized_latex": "x<=-367{x>=-368}{-23<=y<=-22}{-14.5<=z<=0.0007271(x+505)^{2}-16}"
         },
         {
           "expression_id": "613",
@@ -2401,19 +1751,9 @@
           "family": "INEQUALITY_REGION",
           "status": "RECOGNIZED_UNSUPPORTED",
           "reason": "Inequality region recognized",
-          "fingerprint": "f494d358abf107c3",
+          "fingerprint": "ad0e3a8a9c5a3dc4",
           "latex": "-x\\le-367\\left\\{-x\\ge-368\\right\\}\\left\\{-23\\le y\\le-22\\right\\}\\left\\{-14.5\\le z\\le0.0007271(x-505)^{2}-16\\right\\}",
           "normalized_latex": "-x<=-367{-x>=-368}{-23<=y<=-22}{-14.5<=z<=0.0007271(x-505)^{2}-16}"
-        },
-        {
-          "expression_id": "561",
-          "folder": null,
-          "family": "INEQUALITY_REGION",
-          "status": "RECOGNIZED_UNSUPPORTED",
-          "reason": "Inequality region recognized",
-          "fingerprint": "e6c1781111c959dd",
-          "latex": "x\\le-367\\left\\{x\\ge-368\\right\\}\\left\\{22\\le y\\le23\\right\\}\\left\\{-14.5\\le z\\le0.0007271(x+505)^{2}-16\\right\\}",
-          "normalized_latex": "x<=-367{x>=-368}{22<=y<=23}{-14.5<=z<=0.0007271(x+505)^{2}-16}"
         },
         {
           "expression_id": "612",
@@ -2421,19 +1761,9 @@
           "family": "INEQUALITY_REGION",
           "status": "RECOGNIZED_UNSUPPORTED",
           "reason": "Inequality region recognized",
-          "fingerprint": "35adf7f49def4fa2",
+          "fingerprint": "a98fb352a2241bdd",
           "latex": "-x\\le-367\\left\\{-x\\ge-368\\right\\}\\left\\{22\\le y\\le23\\right\\}\\left\\{-14.5\\le z\\le0.0007271(x-505)^{2}-16\\right\\}",
           "normalized_latex": "-x<=-367{-x>=-368}{22<=y<=23}{-14.5<=z<=0.0007271(x-505)^{2}-16}"
-        },
-        {
-          "expression_id": "539",
-          "folder": null,
-          "family": "INEQUALITY_REGION",
-          "status": "RECOGNIZED_UNSUPPORTED",
-          "reason": "Inequality region recognized",
-          "fingerprint": "3510cbfe1e58f207",
-          "latex": "x\\le-378\\left\\{x\\ge-379\\right\\}\\left\\{-23\\le y\\le-22\\right\\}\\left\\{-14.5\\le z\\le0.0007271(x+505)^{2}-16\\right\\}",
-          "normalized_latex": "x<=-378{x>=-379}{-23<=y<=-22}{-14.5<=z<=0.0007271(x+505)^{2}-16}"
         },
         {
           "expression_id": "611",
@@ -2441,19 +1771,9 @@
           "family": "INEQUALITY_REGION",
           "status": "RECOGNIZED_UNSUPPORTED",
           "reason": "Inequality region recognized",
-          "fingerprint": "ea3ebcfcba930c3f",
+          "fingerprint": "8c3d9bb35d3a586d",
           "latex": "-x\\le-378\\left\\{-x\\ge-379\\right\\}\\left\\{-23\\le y\\le-22\\right\\}\\left\\{-14.5\\le z\\le0.0007271(x-505)^{2}-16\\right\\}",
           "normalized_latex": "-x<=-378{-x>=-379}{-23<=y<=-22}{-14.5<=z<=0.0007271(x-505)^{2}-16}"
-        },
-        {
-          "expression_id": "560",
-          "folder": null,
-          "family": "INEQUALITY_REGION",
-          "status": "RECOGNIZED_UNSUPPORTED",
-          "reason": "Inequality region recognized",
-          "fingerprint": "617045e5dd199ed6",
-          "latex": "x\\le-378\\left\\{x\\ge-379\\right\\}\\left\\{22\\le y\\le23\\right\\}\\left\\{-14.5\\le z\\le0.0007271(x+505)^{2}-16\\right\\}",
-          "normalized_latex": "x<=-378{x>=-379}{22<=y<=23}{-14.5<=z<=0.0007271(x+505)^{2}-16}"
         },
         {
           "expression_id": "610",
@@ -2461,19 +1781,9 @@
           "family": "INEQUALITY_REGION",
           "status": "RECOGNIZED_UNSUPPORTED",
           "reason": "Inequality region recognized",
-          "fingerprint": "7d7be3fc18927e13",
+          "fingerprint": "a118931b091531cc",
           "latex": "-x\\le-378\\left\\{-x\\ge-379\\right\\}\\left\\{22\\le y\\le23\\right\\}\\left\\{-14.5\\le z\\le0.0007271(x-505)^{2}-16\\right\\}",
           "normalized_latex": "-x<=-378{-x>=-379}{22<=y<=23}{-14.5<=z<=0.0007271(x-505)^{2}-16}"
-        },
-        {
-          "expression_id": "540",
-          "folder": null,
-          "family": "INEQUALITY_REGION",
-          "status": "RECOGNIZED_UNSUPPORTED",
-          "reason": "Inequality region recognized",
-          "fingerprint": "4b65d5315d7921cd",
-          "latex": "x\\le-389\\left\\{x\\ge-390\\right\\}\\left\\{-23\\le y\\le-22\\right\\}\\left\\{-14.5\\le z\\le0.0007271(x+505)^{2}-16\\right\\}",
-          "normalized_latex": "x<=-389{x>=-390}{-23<=y<=-22}{-14.5<=z<=0.0007271(x+505)^{2}-16}"
         },
         {
           "expression_id": "609",
@@ -2481,19 +1791,9 @@
           "family": "INEQUALITY_REGION",
           "status": "RECOGNIZED_UNSUPPORTED",
           "reason": "Inequality region recognized",
-          "fingerprint": "991c081584af38ea",
+          "fingerprint": "2147ac985483f02d",
           "latex": "-x\\le-389\\left\\{-x\\ge-390\\right\\}\\left\\{-23\\le y\\le-22\\right\\}\\left\\{-14.5\\le z\\le0.0007271(x-505)^{2}-16\\right\\}",
           "normalized_latex": "-x<=-389{-x>=-390}{-23<=y<=-22}{-14.5<=z<=0.0007271(x-505)^{2}-16}"
-        },
-        {
-          "expression_id": "559",
-          "folder": null,
-          "family": "INEQUALITY_REGION",
-          "status": "RECOGNIZED_UNSUPPORTED",
-          "reason": "Inequality region recognized",
-          "fingerprint": "0a30fd73a6c65d98",
-          "latex": "x\\le-389\\left\\{x\\ge-390\\right\\}\\left\\{22\\le y\\le23\\right\\}\\left\\{-14.5\\le z\\le0.0007271(x+505)^{2}-16\\right\\}",
-          "normalized_latex": "x<=-389{x>=-390}{22<=y<=23}{-14.5<=z<=0.0007271(x+505)^{2}-16}"
         },
         {
           "expression_id": "608",
@@ -2501,19 +1801,9 @@
           "family": "INEQUALITY_REGION",
           "status": "RECOGNIZED_UNSUPPORTED",
           "reason": "Inequality region recognized",
-          "fingerprint": "93e8a12129032fc1",
+          "fingerprint": "0522a6105729cc7f",
           "latex": "-x\\le-389\\left\\{-x\\ge-390\\right\\}\\left\\{22\\le y\\le23\\right\\}\\left\\{-14.5\\le z\\le0.0007271(x-505)^{2}-16\\right\\}",
           "normalized_latex": "-x<=-389{-x>=-390}{22<=y<=23}{-14.5<=z<=0.0007271(x-505)^{2}-16}"
-        },
-        {
-          "expression_id": "541",
-          "folder": null,
-          "family": "INEQUALITY_REGION",
-          "status": "RECOGNIZED_UNSUPPORTED",
-          "reason": "Inequality region recognized",
-          "fingerprint": "06f952ffe96f9e7f",
-          "latex": "x\\le-400\\left\\{x\\ge-401\\right\\}\\left\\{-23\\le y\\le-22\\right\\}\\left\\{-14.5\\le z\\le0.0007271(x+505)^{2}-16\\right\\}",
-          "normalized_latex": "x<=-400{x>=-401}{-23<=y<=-22}{-14.5<=z<=0.0007271(x+505)^{2}-16}"
         },
         {
           "expression_id": "607",
@@ -2521,19 +1811,9 @@
           "family": "INEQUALITY_REGION",
           "status": "RECOGNIZED_UNSUPPORTED",
           "reason": "Inequality region recognized",
-          "fingerprint": "0d923bac8dd3f7bd",
+          "fingerprint": "617d287f6ead8360",
           "latex": "-x\\le-400\\left\\{-x\\ge-401\\right\\}\\left\\{-23\\le y\\le-22\\right\\}\\left\\{-14.5\\le z\\le0.0007271(x-505)^{2}-16\\right\\}",
           "normalized_latex": "-x<=-400{-x>=-401}{-23<=y<=-22}{-14.5<=z<=0.0007271(x-505)^{2}-16}"
-        },
-        {
-          "expression_id": "558",
-          "folder": null,
-          "family": "INEQUALITY_REGION",
-          "status": "RECOGNIZED_UNSUPPORTED",
-          "reason": "Inequality region recognized",
-          "fingerprint": "d89f5d87afc87d7a",
-          "latex": "x\\le-400\\left\\{x\\ge-401\\right\\}\\left\\{22\\le y\\le23\\right\\}\\left\\{-14.5\\le z\\le0.0007271(x+505)^{2}-16\\right\\}",
-          "normalized_latex": "x<=-400{x>=-401}{22<=y<=23}{-14.5<=z<=0.0007271(x+505)^{2}-16}"
         },
         {
           "expression_id": "606",
@@ -2541,19 +1821,9 @@
           "family": "INEQUALITY_REGION",
           "status": "RECOGNIZED_UNSUPPORTED",
           "reason": "Inequality region recognized",
-          "fingerprint": "39516c46b6fb9323",
+          "fingerprint": "38e66dcc23d7b22c",
           "latex": "-x\\le-400\\left\\{-x\\ge-401\\right\\}\\left\\{22\\le y\\le23\\right\\}\\left\\{-14.5\\le z\\le0.0007271(x-505)^{2}-16\\right\\}",
           "normalized_latex": "-x<=-400{-x>=-401}{22<=y<=23}{-14.5<=z<=0.0007271(x-505)^{2}-16}"
-        },
-        {
-          "expression_id": "542",
-          "folder": null,
-          "family": "INEQUALITY_REGION",
-          "status": "RECOGNIZED_UNSUPPORTED",
-          "reason": "Inequality region recognized",
-          "fingerprint": "cbdab36b7bd67530",
-          "latex": "x\\le-411\\left\\{x\\ge-412\\right\\}\\left\\{-23\\le y\\le-22\\right\\}\\left\\{-14.5\\le z\\le0.0007271(x+505)^{2}-16\\right\\}",
-          "normalized_latex": "x<=-411{x>=-412}{-23<=y<=-22}{-14.5<=z<=0.0007271(x+505)^{2}-16}"
         },
         {
           "expression_id": "605",
@@ -2561,19 +1831,9 @@
           "family": "INEQUALITY_REGION",
           "status": "RECOGNIZED_UNSUPPORTED",
           "reason": "Inequality region recognized",
-          "fingerprint": "c4d09b5dafbaf063",
+          "fingerprint": "94435d78f696f54e",
           "latex": "-x\\le-411\\left\\{-x\\ge-412\\right\\}\\left\\{-23\\le y\\le-22\\right\\}\\left\\{-14.5\\le z\\le0.0007271(x-505)^{2}-16\\right\\}",
           "normalized_latex": "-x<=-411{-x>=-412}{-23<=y<=-22}{-14.5<=z<=0.0007271(x-505)^{2}-16}"
-        },
-        {
-          "expression_id": "557",
-          "folder": null,
-          "family": "INEQUALITY_REGION",
-          "status": "RECOGNIZED_UNSUPPORTED",
-          "reason": "Inequality region recognized",
-          "fingerprint": "da029b717750751c",
-          "latex": "x\\le-411\\left\\{x\\ge-412\\right\\}\\left\\{22\\le y\\le23\\right\\}\\left\\{-14.5\\le z\\le0.0007271(x+505)^{2}-16\\right\\}",
-          "normalized_latex": "x<=-411{x>=-412}{22<=y<=23}{-14.5<=z<=0.0007271(x+505)^{2}-16}"
         },
         {
           "expression_id": "604",
@@ -2581,19 +1841,9 @@
           "family": "INEQUALITY_REGION",
           "status": "RECOGNIZED_UNSUPPORTED",
           "reason": "Inequality region recognized",
-          "fingerprint": "ec150b35fac4285a",
+          "fingerprint": "93c6762803fa097a",
           "latex": "-x\\le-411\\left\\{-x\\ge-412\\right\\}\\left\\{22\\le y\\le23\\right\\}\\left\\{-14.5\\le z\\le0.0007271(x-505)^{2}-16\\right\\}",
           "normalized_latex": "-x<=-411{-x>=-412}{22<=y<=23}{-14.5<=z<=0.0007271(x-505)^{2}-16}"
-        },
-        {
-          "expression_id": "543",
-          "folder": null,
-          "family": "INEQUALITY_REGION",
-          "status": "RECOGNIZED_UNSUPPORTED",
-          "reason": "Inequality region recognized",
-          "fingerprint": "4973f1de85f8e925",
-          "latex": "x\\le-422\\left\\{x\\ge-423\\right\\}\\left\\{-23\\le y\\le-22\\right\\}\\left\\{-14.5\\le z\\le0.0007271(x+505)^{2}-16\\right\\}",
-          "normalized_latex": "x<=-422{x>=-423}{-23<=y<=-22}{-14.5<=z<=0.0007271(x+505)^{2}-16}"
         },
         {
           "expression_id": "603",
@@ -2601,19 +1851,9 @@
           "family": "INEQUALITY_REGION",
           "status": "RECOGNIZED_UNSUPPORTED",
           "reason": "Inequality region recognized",
-          "fingerprint": "5a52f5e99f1b8206",
+          "fingerprint": "e0796b167bb375b2",
           "latex": "-x\\le-422\\left\\{-x\\ge-423\\right\\}\\left\\{-23\\le y\\le-22\\right\\}\\left\\{-14.5\\le z\\le0.0007271(x-505)^{2}-16\\right\\}",
           "normalized_latex": "-x<=-422{-x>=-423}{-23<=y<=-22}{-14.5<=z<=0.0007271(x-505)^{2}-16}"
-        },
-        {
-          "expression_id": "556",
-          "folder": null,
-          "family": "INEQUALITY_REGION",
-          "status": "RECOGNIZED_UNSUPPORTED",
-          "reason": "Inequality region recognized",
-          "fingerprint": "cb31f3a290ca4c14",
-          "latex": "x\\le-422\\left\\{x\\ge-423\\right\\}\\left\\{22\\le y\\le23\\right\\}\\left\\{-14.5\\le z\\le0.0007271(x+505)^{2}-16\\right\\}",
-          "normalized_latex": "x<=-422{x>=-423}{22<=y<=23}{-14.5<=z<=0.0007271(x+505)^{2}-16}"
         },
         {
           "expression_id": "602",
@@ -2621,19 +1861,9 @@
           "family": "INEQUALITY_REGION",
           "status": "RECOGNIZED_UNSUPPORTED",
           "reason": "Inequality region recognized",
-          "fingerprint": "a376c6964029b70b",
+          "fingerprint": "d81dd0a791f91b48",
           "latex": "-x\\le-422\\left\\{-x\\ge-423\\right\\}\\left\\{22\\le y\\le23\\right\\}\\left\\{-14.5\\le z\\le0.0007271(x-505)^{2}-16\\right\\}",
           "normalized_latex": "-x<=-422{-x>=-423}{22<=y<=23}{-14.5<=z<=0.0007271(x-505)^{2}-16}"
-        },
-        {
-          "expression_id": "544",
-          "folder": null,
-          "family": "INEQUALITY_REGION",
-          "status": "RECOGNIZED_UNSUPPORTED",
-          "reason": "Inequality region recognized",
-          "fingerprint": "3ac5eceef4ffde00",
-          "latex": "x\\le-433\\left\\{x\\ge-434\\right\\}\\left\\{-23\\le y\\le-22\\right\\}\\left\\{-14.5\\le z\\le0.0007271(x+505)^{2}-16\\right\\}",
-          "normalized_latex": "x<=-433{x>=-434}{-23<=y<=-22}{-14.5<=z<=0.0007271(x+505)^{2}-16}"
         },
         {
           "expression_id": "601",
@@ -2641,19 +1871,9 @@
           "family": "INEQUALITY_REGION",
           "status": "RECOGNIZED_UNSUPPORTED",
           "reason": "Inequality region recognized",
-          "fingerprint": "9bfbe56dc5ce2ff6",
+          "fingerprint": "17a50d1cd35cc2c7",
           "latex": "-x\\le-433\\left\\{-x\\ge-434\\right\\}\\left\\{-23\\le y\\le-22\\right\\}\\left\\{-14.5\\le z\\le0.0007271(x-505)^{2}-16\\right\\}",
           "normalized_latex": "-x<=-433{-x>=-434}{-23<=y<=-22}{-14.5<=z<=0.0007271(x-505)^{2}-16}"
-        },
-        {
-          "expression_id": "555",
-          "folder": null,
-          "family": "INEQUALITY_REGION",
-          "status": "RECOGNIZED_UNSUPPORTED",
-          "reason": "Inequality region recognized",
-          "fingerprint": "2c4470cb838c8ed9",
-          "latex": "x\\le-433\\left\\{x\\ge-434\\right\\}\\left\\{22\\le y\\le23\\right\\}\\left\\{-14.5\\le z\\le0.0007271(x+505)^{2}-16\\right\\}",
-          "normalized_latex": "x<=-433{x>=-434}{22<=y<=23}{-14.5<=z<=0.0007271(x+505)^{2}-16}"
         },
         {
           "expression_id": "600",
@@ -2661,19 +1881,9 @@
           "family": "INEQUALITY_REGION",
           "status": "RECOGNIZED_UNSUPPORTED",
           "reason": "Inequality region recognized",
-          "fingerprint": "057feea61a93a186",
+          "fingerprint": "3517308617060eea",
           "latex": "-x\\le-433\\left\\{-x\\ge-434\\right\\}\\left\\{22\\le y\\le23\\right\\}\\left\\{-14.5\\le z\\le0.0007271(x-505)^{2}-16\\right\\}",
           "normalized_latex": "-x<=-433{-x>=-434}{22<=y<=23}{-14.5<=z<=0.0007271(x-505)^{2}-16}"
-        },
-        {
-          "expression_id": "545",
-          "folder": null,
-          "family": "INEQUALITY_REGION",
-          "status": "RECOGNIZED_UNSUPPORTED",
-          "reason": "Inequality region recognized",
-          "fingerprint": "e3f75c6e2ca8d01c",
-          "latex": "x\\le-444\\left\\{x\\ge-445\\right\\}\\left\\{-23\\le y\\le-22\\right\\}\\left\\{-14.5\\le z\\le0.0007271(x+505)^{2}-16\\right\\}",
-          "normalized_latex": "x<=-444{x>=-445}{-23<=y<=-22}{-14.5<=z<=0.0007271(x+505)^{2}-16}"
         },
         {
           "expression_id": "599",
@@ -2681,19 +1891,9 @@
           "family": "INEQUALITY_REGION",
           "status": "RECOGNIZED_UNSUPPORTED",
           "reason": "Inequality region recognized",
-          "fingerprint": "67e5a4fa508a07a4",
+          "fingerprint": "64b4f3b846d5cbf8",
           "latex": "-x\\le-444\\left\\{-x\\ge-445\\right\\}\\left\\{-23\\le y\\le-22\\right\\}\\left\\{-14.5\\le z\\le0.0007271(x-505)^{2}-16\\right\\}",
           "normalized_latex": "-x<=-444{-x>=-445}{-23<=y<=-22}{-14.5<=z<=0.0007271(x-505)^{2}-16}"
-        },
-        {
-          "expression_id": "554",
-          "folder": null,
-          "family": "INEQUALITY_REGION",
-          "status": "RECOGNIZED_UNSUPPORTED",
-          "reason": "Inequality region recognized",
-          "fingerprint": "53d43ad9b8b5736c",
-          "latex": "x\\le-444\\left\\{x\\ge-445\\right\\}\\left\\{22\\le y\\le23\\right\\}\\left\\{-14.5\\le z\\le0.0007271(x+505)^{2}-16\\right\\}",
-          "normalized_latex": "x<=-444{x>=-445}{22<=y<=23}{-14.5<=z<=0.0007271(x+505)^{2}-16}"
         },
         {
           "expression_id": "598",
@@ -2701,19 +1901,9 @@
           "family": "INEQUALITY_REGION",
           "status": "RECOGNIZED_UNSUPPORTED",
           "reason": "Inequality region recognized",
-          "fingerprint": "37adf49c773b9d20",
+          "fingerprint": "99a8b7fd2d9c5510",
           "latex": "-x\\le-444\\left\\{-x\\ge-445\\right\\}\\left\\{22\\le y\\le23\\right\\}\\left\\{-14.5\\le z\\le0.0007271(x-505)^{2}-16\\right\\}",
           "normalized_latex": "-x<=-444{-x>=-445}{22<=y<=23}{-14.5<=z<=0.0007271(x-505)^{2}-16}"
-        },
-        {
-          "expression_id": "547",
-          "folder": null,
-          "family": "INEQUALITY_REGION",
-          "status": "RECOGNIZED_UNSUPPORTED",
-          "reason": "Inequality region recognized",
-          "fingerprint": "56420f1fb8490968",
-          "latex": "x\\le-455\\left\\{x\\ge-456\\right\\}\\left\\{-23\\le y\\le-22\\right\\}\\left\\{-14.5\\le z\\le0.0007271(x+505)^{2}-16\\right\\}",
-          "normalized_latex": "x<=-455{x>=-456}{-23<=y<=-22}{-14.5<=z<=0.0007271(x+505)^{2}-16}"
         },
         {
           "expression_id": "597",
@@ -2721,19 +1911,9 @@
           "family": "INEQUALITY_REGION",
           "status": "RECOGNIZED_UNSUPPORTED",
           "reason": "Inequality region recognized",
-          "fingerprint": "6422a0fb65eb0e96",
+          "fingerprint": "ba5f43aade2f1228",
           "latex": "-x\\le-455\\left\\{-x\\ge-456\\right\\}\\left\\{-23\\le y\\le-22\\right\\}\\left\\{-14.5\\le z\\le0.0007271(x-505)^{2}-16\\right\\}",
           "normalized_latex": "-x<=-455{-x>=-456}{-23<=y<=-22}{-14.5<=z<=0.0007271(x-505)^{2}-16}"
-        },
-        {
-          "expression_id": "553",
-          "folder": null,
-          "family": "INEQUALITY_REGION",
-          "status": "RECOGNIZED_UNSUPPORTED",
-          "reason": "Inequality region recognized",
-          "fingerprint": "a2344c40d69ba1b4",
-          "latex": "x\\le-455\\left\\{x\\ge-456\\right\\}\\left\\{22\\le y\\le23\\right\\}\\left\\{-14.5\\le z\\le0.0007271(x+505)^{2}-16\\right\\}",
-          "normalized_latex": "x<=-455{x>=-456}{22<=y<=23}{-14.5<=z<=0.0007271(x+505)^{2}-16}"
         },
         {
           "expression_id": "596",
@@ -2741,7 +1921,7 @@
           "family": "INEQUALITY_REGION",
           "status": "RECOGNIZED_UNSUPPORTED",
           "reason": "Inequality region recognized",
-          "fingerprint": "49d27ec5b16caa83",
+          "fingerprint": "4b110a359541a0e2",
           "latex": "-x\\le-455\\left\\{-x\\ge-456\\right\\}\\left\\{22\\le y\\le23\\right\\}\\left\\{-14.5\\le z\\le0.0007271(x-505)^{2}-16\\right\\}",
           "normalized_latex": "-x<=-455{-x>=-456}{22<=y<=23}{-14.5<=z<=0.0007271(x-505)^{2}-16}"
         }
@@ -2763,8 +1943,8 @@
     {
       "source_file": "JSONCali.json",
       "total_expressions": 366,
-      "supported_count": 292,
-      "recognized_unsupported_count": 72,
+      "supported_count": 317,
+      "recognized_unsupported_count": 47,
       "unrecognized_count": 2,
       "per_folder_summary": [
         {
@@ -2779,88 +1959,88 @@
           "folder_id": "474",
           "folder_name": "1 (left)",
           "total": 3,
-          "supported": 1,
-          "recognized_unsupported": 2,
+          "supported": 3,
+          "recognized_unsupported": 0,
           "unrecognized": 0
         },
         {
           "folder_id": "470",
           "folder_name": "1 (right)",
           "total": 3,
-          "supported": 1,
-          "recognized_unsupported": 2,
+          "supported": 3,
+          "recognized_unsupported": 0,
           "unrecognized": 0
         },
         {
           "folder_id": "495",
           "folder_name": "2 (left)",
           "total": 3,
-          "supported": 1,
-          "recognized_unsupported": 2,
+          "supported": 3,
+          "recognized_unsupported": 0,
           "unrecognized": 0
         },
         {
           "folder_id": "479",
           "folder_name": "2 (right)",
           "total": 3,
-          "supported": 1,
-          "recognized_unsupported": 2,
+          "supported": 3,
+          "recognized_unsupported": 0,
           "unrecognized": 0
         },
         {
           "folder_id": "499",
           "folder_name": "3 (left)",
           "total": 3,
-          "supported": 1,
-          "recognized_unsupported": 2,
+          "supported": 3,
+          "recognized_unsupported": 0,
           "unrecognized": 0
         },
         {
           "folder_id": "484",
           "folder_name": "3 (right)",
           "total": 3,
-          "supported": 1,
-          "recognized_unsupported": 2,
+          "supported": 3,
+          "recognized_unsupported": 0,
           "unrecognized": 0
         },
         {
           "folder_id": "503",
           "folder_name": "4 (left)",
           "total": 5,
-          "supported": 3,
-          "recognized_unsupported": 2,
+          "supported": 5,
+          "recognized_unsupported": 0,
           "unrecognized": 0
         },
         {
           "folder_id": "489",
           "folder_name": "4 (right)",
           "total": 5,
-          "supported": 3,
-          "recognized_unsupported": 2,
+          "supported": 5,
+          "recognized_unsupported": 0,
           "unrecognized": 0
         },
         {
           "folder_id": "3",
           "folder_name": "outline (-y)",
           "total": 3,
-          "supported": 0,
-          "recognized_unsupported": 3,
+          "supported": 3,
+          "recognized_unsupported": 0,
           "unrecognized": 0
         },
         {
           "folder_id": "137",
           "folder_name": "outline (y)",
           "total": 3,
-          "supported": 0,
-          "recognized_unsupported": 3,
+          "supported": 3,
+          "recognized_unsupported": 0,
           "unrecognized": 0
         },
         {
           "folder_id": "11",
           "folder_name": "road+railing",
           "total": 3,
-          "supported": 0,
-          "recognized_unsupported": 3,
+          "supported": 3,
+          "recognized_unsupported": 0,
           "unrecognized": 0
         },
         {
@@ -2972,36 +2152,6 @@
           "normalized_latex": ""
         },
         {
-          "expression_id": "1",
-          "folder": "road+railing",
-          "family": "INEQUALITY_REGION",
-          "status": "RECOGNIZED_UNSUPPORTED",
-          "reason": "Inequality region recognized",
-          "fingerprint": "afe6cf225e78d231",
-          "latex": "-0.000105x^{2}+7.7\\ge z\\ge-0.000105x^{2}+7.2\\left\\{-98.3<x<98.3\\right\\}\\left\\{-1.35\\le y\\le1.35\\right\\}",
-          "normalized_latex": "-0.000105x^{2}+7.7>=z>=-0.000105x^{2}+7.2{-98.3<x<98.3}{-1.35<=y<=1.35}"
-        },
-        {
-          "expression_id": "9",
-          "folder": "road+railing",
-          "family": "INEQUALITY_REGION",
-          "status": "RECOGNIZED_UNSUPPORTED",
-          "reason": "Inequality region recognized",
-          "fingerprint": "47741f153d2d99c0",
-          "latex": "-0.000105x^{2}+8\\ge z\\ge-0.000105x^{2}+7.7\\left\\{-98.3<x<98.3\\right\\}\\left\\{-1.35\\le y\\le-0.95\\right\\}",
-          "normalized_latex": "-0.000105x^{2}+8>=z>=-0.000105x^{2}+7.7{-98.3<x<98.3}{-1.35<=y<=-0.95}"
-        },
-        {
-          "expression_id": "10",
-          "folder": "road+railing",
-          "family": "INEQUALITY_REGION",
-          "status": "RECOGNIZED_UNSUPPORTED",
-          "reason": "Inequality region recognized",
-          "fingerprint": "d0e55a863c686b02",
-          "latex": "-0.000105x^{2}+8\\ge z\\ge-0.000105x^{2}+7.7\\left\\{-98.3<x<98.3\\right\\}\\left\\{1.35\\ge y\\ge0.95\\right\\}",
-          "normalized_latex": "-0.000105x^{2}+8>=z>=-0.000105x^{2}+7.7{-98.3<x<98.3}{1.35>=y>=0.95}"
-        },
-        {
           "expression_id": "3",
           "folder": null,
           "family": "TEXT_OR_FOLDER",
@@ -3010,36 +2160,6 @@
           "fingerprint": "d2b8c16a767d1df5",
           "latex": "",
           "normalized_latex": ""
-        },
-        {
-          "expression_id": "2",
-          "folder": "outline (-y)",
-          "family": "INEQUALITY_REGION",
-          "status": "RECOGNIZED_UNSUPPORTED",
-          "reason": "Inequality region recognized",
-          "fingerprint": "dd0d25c5de46a712",
-          "latex": "0.0035x^{2}+8.25\\le z\\le0.0035x^{2}+8.75\\left\\{-64<x<64\\right\\}\\left\\{-1.35\\le y\\le-1.3\\right\\}",
-          "normalized_latex": "0.0035x^{2}+8.25<=z<=0.0035x^{2}+8.75{-64<x<64}{-1.35<=y<=-1.3}"
-        },
-        {
-          "expression_id": "4",
-          "folder": "outline (-y)",
-          "family": "INEQUALITY_REGION",
-          "status": "RECOGNIZED_UNSUPPORTED",
-          "reason": "Inequality region recognized",
-          "fingerprint": "f30f7adada155372",
-          "latex": "0.003x^{2}-0.95x+71.1\\le z\\le0.003x^{2}-0.95x+71.6\\left\\{64<x<98.3\\right\\}\\left\\{-1.35\\le y\\le-1.3\\right\\}",
-          "normalized_latex": "0.003x^{2}-0.95x+71.1<=z<=0.003x^{2}-0.95x+71.6{64<x<98.3}{-1.35<=y<=-1.3}"
-        },
-        {
-          "expression_id": "6",
-          "folder": "outline (-y)",
-          "family": "INEQUALITY_REGION",
-          "status": "RECOGNIZED_UNSUPPORTED",
-          "reason": "Inequality region recognized",
-          "fingerprint": "dba5811f4a7e3fec",
-          "latex": "0.003x^{2}+0.95x+71.1\\le z\\le0.003x^{2}+0.95x+71.6\\left\\{-64>x>-98.3\\right\\}\\left\\{-1.35\\le y\\le-1.3\\right\\}",
-          "normalized_latex": "0.003x^{2}+0.95x+71.1<=z<=0.003x^{2}+0.95x+71.6{-64>x>-98.3}{-1.35<=y<=-1.3}"
         },
         {
           "expression_id": "53",
@@ -3090,36 +2210,6 @@
           "fingerprint": "d2b8c16a767d1df5",
           "latex": "",
           "normalized_latex": ""
-        },
-        {
-          "expression_id": "138",
-          "folder": "outline (y)",
-          "family": "INEQUALITY_REGION",
-          "status": "RECOGNIZED_UNSUPPORTED",
-          "reason": "Inequality region recognized",
-          "fingerprint": "ab4e1a98f767f581",
-          "latex": "0.0035x^{2}+8.25\\le z\\le0.0035x^{2}+8.75\\left\\{-64<x<64\\right\\}\\left\\{1.35\\ge y\\ge1.3\\right\\}",
-          "normalized_latex": "0.0035x^{2}+8.25<=z<=0.0035x^{2}+8.75{-64<x<64}{1.35>=y>=1.3}"
-        },
-        {
-          "expression_id": "139",
-          "folder": "outline (y)",
-          "family": "INEQUALITY_REGION",
-          "status": "RECOGNIZED_UNSUPPORTED",
-          "reason": "Inequality region recognized",
-          "fingerprint": "25fd1f74da2dc6c1",
-          "latex": "0.003x^{2}-0.95x+71.1\\le z\\le0.003x^{2}-0.95x+71.6\\left\\{64<x<98.3\\right\\}\\left\\{1.35\\ge y\\ge1.3\\right\\}",
-          "normalized_latex": "0.003x^{2}-0.95x+71.1<=z<=0.003x^{2}-0.95x+71.6{64<x<98.3}{1.35>=y>=1.3}"
-        },
-        {
-          "expression_id": "140",
-          "folder": "outline (y)",
-          "family": "INEQUALITY_REGION",
-          "status": "RECOGNIZED_UNSUPPORTED",
-          "reason": "Inequality region recognized",
-          "fingerprint": "b91ace926cf52124",
-          "latex": "0.003x^{2}+0.95x+71.1\\le z\\le0.003x^{2}+0.95x+71.6\\left\\{-64>x>-98.3\\right\\}\\left\\{1.35\\ge y\\ge1.3\\right\\}",
-          "normalized_latex": "0.003x^{2}+0.95x+71.1<=z<=0.003x^{2}+0.95x+71.6{-64>x>-98.3}{1.35>=y>=1.3}"
         },
         {
           "expression_id": "259",
@@ -3177,7 +2267,7 @@
           "family": "INEQUALITY_REGION",
           "status": "RECOGNIZED_UNSUPPORTED",
           "reason": "Inequality region recognized",
-          "fingerprint": "1fb9a7923654fa0b",
+          "fingerprint": "7947122ef662417e",
           "latex": "0.07\\ge\\left(y\\right)^{2}+\\left(z-3.2\\right)^{2}\\left\\{-63.525\\ge x\\ge-64.475\\right\\}",
           "normalized_latex": "0.07>=(y)^{2}+(z-3.2)^{2}{-63.525>=x>=-64.475}"
         },
@@ -3187,7 +2277,7 @@
           "family": "INEQUALITY_REGION",
           "status": "RECOGNIZED_UNSUPPORTED",
           "reason": "Inequality region recognized",
-          "fingerprint": "57f309e1f199a1a2",
+          "fingerprint": "51dcd3a0153c4b33",
           "latex": "0.07\\ge\\left(y\\right)^{2}+\\left(z-5.38\\right)^{2}\\left\\{-63.525\\ge x\\ge-64.475\\right\\}",
           "normalized_latex": "0.07>=(y)^{2}+(z-5.38)^{2}{-63.525>=x>=-64.475}"
         },
@@ -3197,7 +2287,7 @@
           "family": "INEQUALITY_REGION",
           "status": "RECOGNIZED_UNSUPPORTED",
           "reason": "Inequality region recognized",
-          "fingerprint": "e716e517de78f2d2",
+          "fingerprint": "5ea1703f0d710fc1",
           "latex": "0.07\\ge\\left(y+0.8\\right)^{2}+\\left(z-6.15\\right)^{2}\\left\\{-0.8\\le y\\right\\}\\left\\{z\\le6.15\\right\\}\\left\\{-63.525\\ge x\\ge-64.475\\right\\}",
           "normalized_latex": "0.07>=(y+0.8)^{2}+(z-6.15)^{2}{-0.8<=y}{z<=6.15}{-63.525>=x>=-64.475}"
         },
@@ -3207,7 +2297,7 @@
           "family": "INEQUALITY_REGION",
           "status": "RECOGNIZED_UNSUPPORTED",
           "reason": "Inequality region recognized",
-          "fingerprint": "226e705e47d6513e",
+          "fingerprint": "0191f7caa30ef85c",
           "latex": "0.07\\ge\\left(y-0.8\\right)^{2}+\\left(z-6.15\\right)^{2}\\left\\{0.8\\ge y\\right\\}\\left\\{z\\le6.15\\right\\}\\left\\{-63.525\\ge x\\ge-64.475\\right\\}",
           "normalized_latex": "0.07>=(y-0.8)^{2}+(z-6.15)^{2}{0.8>=y}{z<=6.15}{-63.525>=x>=-64.475}"
         },
@@ -3217,7 +2307,7 @@
           "family": "INEQUALITY_REGION",
           "status": "RECOGNIZED_UNSUPPORTED",
           "reason": "Inequality region recognized",
-          "fingerprint": "de10ee05215721a7",
+          "fingerprint": "07298ce4dac0c25f",
           "latex": "0.07\\ge\\left(y+0.8\\right)^{2}+\\left(z-4.6\\right)^{2}\\left\\{-0.8\\le y\\right\\}\\left\\{4.6\\le z\\right\\}\\left\\{-63.525\\ge x\\ge-64.475\\right\\}",
           "normalized_latex": "0.07>=(y+0.8)^{2}+(z-4.6)^{2}{-0.8<=y}{4.6<=z}{-63.525>=x>=-64.475}"
         },
@@ -3227,7 +2317,7 @@
           "family": "INEQUALITY_REGION",
           "status": "RECOGNIZED_UNSUPPORTED",
           "reason": "Inequality region recognized",
-          "fingerprint": "70ba189f386d5d86",
+          "fingerprint": "ca19fa95bd80b804",
           "latex": "0.07\\ge\\left(y+0.8\\right)^{2}+\\left(z-4\\right)^{2}\\left\\{-0.8\\le y\\right\\}\\left\\{z\\le4\\right\\}\\left\\{-63.525\\ge x\\ge-64.475\\right\\}",
           "normalized_latex": "0.07>=(y+0.8)^{2}+(z-4)^{2}{-0.8<=y}{z<=4}{-63.525>=x>=-64.475}"
         },
@@ -3237,7 +2327,7 @@
           "family": "INEQUALITY_REGION",
           "status": "RECOGNIZED_UNSUPPORTED",
           "reason": "Inequality region recognized",
-          "fingerprint": "e2495376d762e539",
+          "fingerprint": "c870e53610f5f142",
           "latex": "0.07\\ge\\left(y-0.8\\right)^{2}+\\left(z-4.6\\right)^{2}\\left\\{0.8\\ge y\\right\\}\\left\\{4.6\\le z\\right\\}\\left\\{-63.525\\ge x\\ge-64.475\\right\\}",
           "normalized_latex": "0.07>=(y-0.8)^{2}+(z-4.6)^{2}{0.8>=y}{4.6<=z}{-63.525>=x>=-64.475}"
         },
@@ -3247,7 +2337,7 @@
           "family": "INEQUALITY_REGION",
           "status": "RECOGNIZED_UNSUPPORTED",
           "reason": "Inequality region recognized",
-          "fingerprint": "cce448f2c17c77fb",
+          "fingerprint": "c9b3de7d5f91cee8",
           "latex": "0.07\\ge\\left(y-0.8\\right)^{2}+\\left(z-4\\right)^{2}\\left\\{0.8\\ge y\\right\\}\\left\\{z\\le4\\right\\}\\left\\{-63.525\\ge x\\ge-64.475\\right\\}",
           "normalized_latex": "0.07>=(y-0.8)^{2}+(z-4)^{2}{0.8>=y}{z<=4}{-63.525>=x>=-64.475}"
         },
@@ -3257,7 +2347,7 @@
           "family": "INEQUALITY_REGION",
           "status": "RECOGNIZED_UNSUPPORTED",
           "reason": "Inequality region recognized",
-          "fingerprint": "3f6cd68c2288d3b0",
+          "fingerprint": "69dc80a593b3684f",
           "latex": "0.07\\ge\\left(y-0.8\\right)^{2}+\\left(z-2.5\\right)^{2}\\left\\{2.5\\le z\\right\\}\\left\\{0.8\\ge y\\right\\}\\left\\{-63.525\\ge x\\ge-64.475\\right\\}",
           "normalized_latex": "0.07>=(y-0.8)^{2}+(z-2.5)^{2}{2.5<=z}{0.8>=y}{-63.525>=x>=-64.475}"
         },
@@ -3267,7 +2357,7 @@
           "family": "INEQUALITY_REGION",
           "status": "RECOGNIZED_UNSUPPORTED",
           "reason": "Inequality region recognized",
-          "fingerprint": "abd9622fe0ff6da9",
+          "fingerprint": "ca5aa6abbe718a07",
           "latex": "0.07\\ge\\left(y-0.8\\right)^{2}+\\left(z-2.1\\right)^{2}\\left\\{z\\le2.1\\right\\}\\left\\{0.9\\ge y\\right\\}\\left\\{-63.525\\ge x\\ge-64.475\\right\\}",
           "normalized_latex": "0.07>=(y-0.8)^{2}+(z-2.1)^{2}{z<=2.1}{0.9>=y}{-63.525>=x>=-64.475}"
         },
@@ -3277,7 +2367,7 @@
           "family": "INEQUALITY_REGION",
           "status": "RECOGNIZED_UNSUPPORTED",
           "reason": "Inequality region recognized",
-          "fingerprint": "6ef4d889b772fa68",
+          "fingerprint": "ad698e04e7dafafa",
           "latex": "0.07\\ge\\left(y+0.8\\right)^{2}+\\left(z-2.5\\right)^{2}\\left\\{2.5\\le z\\right\\}\\left\\{-0.8\\le y\\right\\}\\left\\{-63.525\\ge x\\ge-64.475\\right\\}",
           "normalized_latex": "0.07>=(y+0.8)^{2}+(z-2.5)^{2}{2.5<=z}{-0.8<=y}{-63.525>=x>=-64.475}"
         },
@@ -3287,7 +2377,7 @@
           "family": "INEQUALITY_REGION",
           "status": "RECOGNIZED_UNSUPPORTED",
           "reason": "Inequality region recognized",
-          "fingerprint": "3a43b7c0e8db6dd6",
+          "fingerprint": "dd57da1ac6f15f19",
           "latex": "0.07\\ge\\left(y+0.8\\right)^{2}+\\left(z-2.1\\right)^{2}\\left\\{z\\le2.1\\right\\}\\left\\{-0.9\\le y\\right\\}\\left\\{-63.525\\ge x\\ge-64.475\\right\\}",
           "normalized_latex": "0.07>=(y+0.8)^{2}+(z-2.1)^{2}{z<=2.1}{-0.9<=y}{-63.525>=x>=-64.475}"
         },
@@ -3302,26 +2392,6 @@
           "normalized_latex": ""
         },
         {
-          "expression_id": "475",
-          "folder": "1 (left)",
-          "family": "INEQUALITY_REGION",
-          "status": "RECOGNIZED_UNSUPPORTED",
-          "reason": "Inequality region recognized",
-          "fingerprint": "b8f4e20bdbe5f784",
-          "latex": "10.62563\\ge z\\ge-4y^{2}-1.9y+10.4\\left\\{-0.2375\\ge y>-0.9\\right\\}\\left\\{-63.525\\ge x\\ge-64.475\\right\\}",
-          "normalized_latex": "10.62563>=z>=-4y^{2}-1.9y+10.4{-0.2375>=y>-0.9}{-63.525>=x>=-64.475}"
-        },
-        {
-          "expression_id": "476",
-          "folder": "1 (left)",
-          "family": "INEQUALITY_REGION",
-          "status": "RECOGNIZED_UNSUPPORTED",
-          "reason": "Inequality region recognized",
-          "fingerprint": "6b151dd23e4730a7",
-          "latex": "10.62563\\ge z\\ge-4y^{2}+1.9y+10.4\\left\\{0.2375\\le y\\le0.9\\right\\}\\left\\{-63.525\\ge x\\ge-64.475\\right\\}",
-          "normalized_latex": "10.62563>=z>=-4y^{2}+1.9y+10.4{0.2375<=y<=0.9}{-63.525>=x>=-64.475}"
-        },
-        {
           "expression_id": "495",
           "folder": null,
           "family": "TEXT_OR_FOLDER",
@@ -3330,26 +2400,6 @@
           "fingerprint": "d2b8c16a767d1df5",
           "latex": "",
           "normalized_latex": ""
-        },
-        {
-          "expression_id": "496",
-          "folder": "2 (left)",
-          "family": "INEQUALITY_REGION",
-          "status": "RECOGNIZED_UNSUPPORTED",
-          "reason": "Inequality region recognized",
-          "fingerprint": "a6b964e4c4371202",
-          "latex": "14.93562\\ge z\\ge-4y^{2}-3.5y+14.17\\left\\{-0.4375\\ge y\\ge-0.9\\right\\}\\left\\{-63.525\\ge x\\ge-64.475\\right\\}",
-          "normalized_latex": "14.93562>=z>=-4y^{2}-3.5y+14.17{-0.4375>=y>=-0.9}{-63.525>=x>=-64.475}"
-        },
-        {
-          "expression_id": "497",
-          "folder": "2 (left)",
-          "family": "INEQUALITY_REGION",
-          "status": "RECOGNIZED_UNSUPPORTED",
-          "reason": "Inequality region recognized",
-          "fingerprint": "3ec0e6af47465e32",
-          "latex": "14.93562\\ge z\\ge-4y^{2}+3.5y+14.17\\left\\{0.4375<y<0.9\\right\\}\\left\\{-63.525\\ge x\\ge-64.475\\right\\}",
-          "normalized_latex": "14.93562>=z>=-4y^{2}+3.5y+14.17{0.4375<y<0.9}{-63.525>=x>=-64.475}"
         },
         {
           "expression_id": "499",
@@ -3362,26 +2412,6 @@
           "normalized_latex": ""
         },
         {
-          "expression_id": "500",
-          "folder": "3 (left)",
-          "family": "INEQUALITY_REGION",
-          "status": "RECOGNIZED_UNSUPPORTED",
-          "reason": "Inequality region recognized",
-          "fingerprint": "b815e8d8dfbc27a1",
-          "latex": "18.79405\\ge z\\ge-2.1y^{2}-2.5y+18.05\\left\\{-0.59524\\ge y\\ge-1\\right\\}\\left\\{-63.525\\ge x\\ge-64.475\\right\\}",
-          "normalized_latex": "18.79405>=z>=-2.1y^{2}-2.5y+18.05{-0.59524>=y>=-1}{-63.525>=x>=-64.475}"
-        },
-        {
-          "expression_id": "501",
-          "folder": "3 (left)",
-          "family": "INEQUALITY_REGION",
-          "status": "RECOGNIZED_UNSUPPORTED",
-          "reason": "Inequality region recognized",
-          "fingerprint": "63fef2a9bbedbb86",
-          "latex": "18.79405\\ge z\\ge-2.1y^{2}+2.5y+18.05\\left\\{0.59524\\le y\\le1\\right\\}\\left\\{-63.525\\ge x\\ge-64.475\\right\\}",
-          "normalized_latex": "18.79405>=z>=-2.1y^{2}+2.5y+18.05{0.59524<=y<=1}{-63.525>=x>=-64.475}"
-        },
-        {
           "expression_id": "503",
           "folder": null,
           "family": "TEXT_OR_FOLDER",
@@ -3390,26 +2420,6 @@
           "fingerprint": "d2b8c16a767d1df5",
           "latex": "",
           "normalized_latex": ""
-        },
-        {
-          "expression_id": "504",
-          "folder": "4 (left)",
-          "family": "INEQUALITY_REGION",
-          "status": "RECOGNIZED_UNSUPPORTED",
-          "reason": "Inequality region recognized",
-          "fingerprint": "764daaf529506fbd",
-          "latex": "21.9575\\ge z\\ge-3y^{2}-3.9y+20.69\\left\\{-0.65\\ge y\\ge-1.05\\right\\}\\left\\{-63.525\\ge x\\ge-64.475\\right\\}",
-          "normalized_latex": "21.9575>=z>=-3y^{2}-3.9y+20.69{-0.65>=y>=-1.05}{-63.525>=x>=-64.475}"
-        },
-        {
-          "expression_id": "505",
-          "folder": "4 (left)",
-          "family": "INEQUALITY_REGION",
-          "status": "RECOGNIZED_UNSUPPORTED",
-          "reason": "Inequality region recognized",
-          "fingerprint": "ac65673222f4ff78",
-          "latex": "21.9575\\ge z\\ge-3y^{2}+3.9y+20.69\\left\\{0.65\\le y\\le1.05\\right\\}\\left\\{-63.525\\ge x\\ge-64.475\\right\\}",
-          "normalized_latex": "21.9575>=z>=-3y^{2}+3.9y+20.69{0.65<=y<=1.05}{-63.525>=x>=-64.475}"
         },
         {
           "expression_id": "446",
@@ -3437,7 +2447,7 @@
           "family": "INEQUALITY_REGION",
           "status": "RECOGNIZED_UNSUPPORTED",
           "reason": "Inequality region recognized",
-          "fingerprint": "e6dd964edaa3b167",
+          "fingerprint": "a030eedcc5c4773e",
           "latex": "0.07\\ge\\left(y\\right)^{2}+\\left(z-3.2\\right)^{2}\\left\\{63.525\\le x\\le64.475\\right\\}",
           "normalized_latex": "0.07>=(y)^{2}+(z-3.2)^{2}{63.525<=x<=64.475}"
         },
@@ -3447,7 +2457,7 @@
           "family": "INEQUALITY_REGION",
           "status": "RECOGNIZED_UNSUPPORTED",
           "reason": "Inequality region recognized",
-          "fingerprint": "caf0f7b66cf6bc41",
+          "fingerprint": "48df9a27bf3e17cd",
           "latex": "0.07\\ge\\left(y\\right)^{2}+\\left(z-5.38\\right)^{2}\\left\\{63.525\\le x\\le64.475\\right\\}",
           "normalized_latex": "0.07>=(y)^{2}+(z-5.38)^{2}{63.525<=x<=64.475}"
         },
@@ -3457,7 +2467,7 @@
           "family": "INEQUALITY_REGION",
           "status": "RECOGNIZED_UNSUPPORTED",
           "reason": "Inequality region recognized",
-          "fingerprint": "00af1f42232950d4",
+          "fingerprint": "6bfd0de6a854b660",
           "latex": "0.07\\ge\\left(y+0.8\\right)^{2}+\\left(z-6.15\\right)^{2}\\left\\{-0.8\\le y\\right\\}\\left\\{z\\le6.15\\right\\}\\left\\{63.525\\le x\\le64.475\\right\\}",
           "normalized_latex": "0.07>=(y+0.8)^{2}+(z-6.15)^{2}{-0.8<=y}{z<=6.15}{63.525<=x<=64.475}"
         },
@@ -3467,7 +2477,7 @@
           "family": "INEQUALITY_REGION",
           "status": "RECOGNIZED_UNSUPPORTED",
           "reason": "Inequality region recognized",
-          "fingerprint": "b7185ad0ea979ba0",
+          "fingerprint": "c94a542a536221ce",
           "latex": "0.07\\ge\\left(y-0.8\\right)^{2}+\\left(z-6.15\\right)^{2}\\left\\{0.8\\ge y\\right\\}\\left\\{z\\le6.15\\right\\}\\left\\{63.525\\le x\\le64.475\\right\\}",
           "normalized_latex": "0.07>=(y-0.8)^{2}+(z-6.15)^{2}{0.8>=y}{z<=6.15}{63.525<=x<=64.475}"
         },
@@ -3477,7 +2487,7 @@
           "family": "INEQUALITY_REGION",
           "status": "RECOGNIZED_UNSUPPORTED",
           "reason": "Inequality region recognized",
-          "fingerprint": "d1651c92970c4dd1",
+          "fingerprint": "13b370e9825de9fb",
           "latex": "0.07\\ge\\left(y+0.8\\right)^{2}+\\left(z-4.6\\right)^{2}\\left\\{-0.8\\le y\\right\\}\\left\\{4.6\\le z\\right\\}\\left\\{63.525\\le x\\le64.475\\right\\}",
           "normalized_latex": "0.07>=(y+0.8)^{2}+(z-4.6)^{2}{-0.8<=y}{4.6<=z}{63.525<=x<=64.475}"
         },
@@ -3487,7 +2497,7 @@
           "family": "INEQUALITY_REGION",
           "status": "RECOGNIZED_UNSUPPORTED",
           "reason": "Inequality region recognized",
-          "fingerprint": "f215d56760b25843",
+          "fingerprint": "215131c54871548c",
           "latex": "0.07\\ge\\left(y+0.8\\right)^{2}+\\left(z-4\\right)^{2}\\left\\{-0.8\\le y\\right\\}\\left\\{z\\le4\\right\\}\\left\\{63.525\\le x\\le64.475\\right\\}",
           "normalized_latex": "0.07>=(y+0.8)^{2}+(z-4)^{2}{-0.8<=y}{z<=4}{63.525<=x<=64.475}"
         },
@@ -3497,7 +2507,7 @@
           "family": "INEQUALITY_REGION",
           "status": "RECOGNIZED_UNSUPPORTED",
           "reason": "Inequality region recognized",
-          "fingerprint": "c087b89abba9fdf6",
+          "fingerprint": "e425590184530305",
           "latex": "0.07\\ge\\left(y-0.8\\right)^{2}+\\left(z-4.6\\right)^{2}\\left\\{0.8\\ge y\\right\\}\\left\\{4.6\\le z\\right\\}\\left\\{63.525\\le x\\le64.475\\right\\}",
           "normalized_latex": "0.07>=(y-0.8)^{2}+(z-4.6)^{2}{0.8>=y}{4.6<=z}{63.525<=x<=64.475}"
         },
@@ -3507,7 +2517,7 @@
           "family": "INEQUALITY_REGION",
           "status": "RECOGNIZED_UNSUPPORTED",
           "reason": "Inequality region recognized",
-          "fingerprint": "d675367a056eacd9",
+          "fingerprint": "02d77594332b8fde",
           "latex": "0.07\\ge\\left(y-0.8\\right)^{2}+\\left(z-4\\right)^{2}\\left\\{0.8\\ge y\\right\\}\\left\\{z\\le4\\right\\}\\left\\{63.525\\le x\\le64.475\\right\\}",
           "normalized_latex": "0.07>=(y-0.8)^{2}+(z-4)^{2}{0.8>=y}{z<=4}{63.525<=x<=64.475}"
         },
@@ -3517,7 +2527,7 @@
           "family": "INEQUALITY_REGION",
           "status": "RECOGNIZED_UNSUPPORTED",
           "reason": "Inequality region recognized",
-          "fingerprint": "d1846ac852551d53",
+          "fingerprint": "4177fa89ba9ba2aa",
           "latex": "0.07\\ge\\left(y-0.8\\right)^{2}+\\left(z-2.5\\right)^{2}\\left\\{2.5\\le z\\right\\}\\left\\{0.8\\ge y\\right\\}\\left\\{63.525\\le x\\le64.475\\right\\}",
           "normalized_latex": "0.07>=(y-0.8)^{2}+(z-2.5)^{2}{2.5<=z}{0.8>=y}{63.525<=x<=64.475}"
         },
@@ -3527,7 +2537,7 @@
           "family": "INEQUALITY_REGION",
           "status": "RECOGNIZED_UNSUPPORTED",
           "reason": "Inequality region recognized",
-          "fingerprint": "43929f120b94bd01",
+          "fingerprint": "8a16f19d48a5c3b0",
           "latex": "0.07\\ge\\left(y-0.8\\right)^{2}+\\left(z-2.1\\right)^{2}\\left\\{z\\le2.1\\right\\}\\left\\{0.9\\ge y\\right\\}\\left\\{63.525\\le x\\le64.475\\right\\}",
           "normalized_latex": "0.07>=(y-0.8)^{2}+(z-2.1)^{2}{z<=2.1}{0.9>=y}{63.525<=x<=64.475}"
         },
@@ -3537,7 +2547,7 @@
           "family": "INEQUALITY_REGION",
           "status": "RECOGNIZED_UNSUPPORTED",
           "reason": "Inequality region recognized",
-          "fingerprint": "c1a5cfa673f627b1",
+          "fingerprint": "b621d046b31e8bec",
           "latex": "0.07\\ge\\left(y+0.8\\right)^{2}+\\left(z-2.5\\right)^{2}\\left\\{2.5\\le z\\right\\}\\left\\{-0.8\\le y\\right\\}\\left\\{63.525\\le x\\le64.475\\right\\}",
           "normalized_latex": "0.07>=(y+0.8)^{2}+(z-2.5)^{2}{2.5<=z}{-0.8<=y}{63.525<=x<=64.475}"
         },
@@ -3547,7 +2557,7 @@
           "family": "INEQUALITY_REGION",
           "status": "RECOGNIZED_UNSUPPORTED",
           "reason": "Inequality region recognized",
-          "fingerprint": "a1417ec08cd7dfec",
+          "fingerprint": "3b3d312f0650c33e",
           "latex": "0.07\\ge\\left(y+0.8\\right)^{2}+\\left(z-2.1\\right)^{2}\\left\\{z\\le2.1\\right\\}\\left\\{-0.9\\le y\\right\\}\\left\\{63.525\\le x\\le64.475\\right\\}",
           "normalized_latex": "0.07>=(y+0.8)^{2}+(z-2.1)^{2}{z<=2.1}{-0.9<=y}{63.525<=x<=64.475}"
         },
@@ -3562,26 +2572,6 @@
           "normalized_latex": ""
         },
         {
-          "expression_id": "471",
-          "folder": "1 (right)",
-          "family": "INEQUALITY_REGION",
-          "status": "RECOGNIZED_UNSUPPORTED",
-          "reason": "Inequality region recognized",
-          "fingerprint": "49817da2fee5eeb6",
-          "latex": "10.62563\\ge z\\ge-4y^{2}-1.9y+10.4\\left\\{-0.2375\\ge y>-0.9\\right\\}\\left\\{63.525\\le x\\le64.475\\right\\}",
-          "normalized_latex": "10.62563>=z>=-4y^{2}-1.9y+10.4{-0.2375>=y>-0.9}{63.525<=x<=64.475}"
-        },
-        {
-          "expression_id": "472",
-          "folder": "1 (right)",
-          "family": "INEQUALITY_REGION",
-          "status": "RECOGNIZED_UNSUPPORTED",
-          "reason": "Inequality region recognized",
-          "fingerprint": "9c14937b6f3d95b6",
-          "latex": "10.62563\\ge z\\ge-4y^{2}+1.9y+10.4\\left\\{0.2375\\le y\\le0.9\\right\\}\\left\\{63.525\\le x\\le64.475\\right\\}",
-          "normalized_latex": "10.62563>=z>=-4y^{2}+1.9y+10.4{0.2375<=y<=0.9}{63.525<=x<=64.475}"
-        },
-        {
           "expression_id": "479",
           "folder": null,
           "family": "TEXT_OR_FOLDER",
@@ -3590,26 +2580,6 @@
           "fingerprint": "d2b8c16a767d1df5",
           "latex": "",
           "normalized_latex": ""
-        },
-        {
-          "expression_id": "481",
-          "folder": "2 (right)",
-          "family": "INEQUALITY_REGION",
-          "status": "RECOGNIZED_UNSUPPORTED",
-          "reason": "Inequality region recognized",
-          "fingerprint": "c44fd39c0ef154e1",
-          "latex": "14.93562\\ge z\\ge-4y^{2}-3.5y+14.17\\left\\{-0.4375\\ge y\\ge-0.9\\right\\}\\left\\{63.525\\le x\\le64.475\\right\\}",
-          "normalized_latex": "14.93562>=z>=-4y^{2}-3.5y+14.17{-0.4375>=y>=-0.9}{63.525<=x<=64.475}"
-        },
-        {
-          "expression_id": "482",
-          "folder": "2 (right)",
-          "family": "INEQUALITY_REGION",
-          "status": "RECOGNIZED_UNSUPPORTED",
-          "reason": "Inequality region recognized",
-          "fingerprint": "fb454321f8002178",
-          "latex": "14.93562\\ge z\\ge-4y^{2}+3.5y+14.17\\left\\{0.4375<y<0.9\\right\\}\\left\\{63.525\\le x\\le64.475\\right\\}",
-          "normalized_latex": "14.93562>=z>=-4y^{2}+3.5y+14.17{0.4375<y<0.9}{63.525<=x<=64.475}"
         },
         {
           "expression_id": "484",
@@ -3622,26 +2592,6 @@
           "normalized_latex": ""
         },
         {
-          "expression_id": "485",
-          "folder": "3 (right)",
-          "family": "INEQUALITY_REGION",
-          "status": "RECOGNIZED_UNSUPPORTED",
-          "reason": "Inequality region recognized",
-          "fingerprint": "9858563327b27581",
-          "latex": "18.79405\\ge z\\ge-2.1y^{2}-2.5y+18.05\\left\\{-0.59524\\ge y\\ge-1\\right\\}\\left\\{63.525\\le x\\le64.475\\right\\}",
-          "normalized_latex": "18.79405>=z>=-2.1y^{2}-2.5y+18.05{-0.59524>=y>=-1}{63.525<=x<=64.475}"
-        },
-        {
-          "expression_id": "486",
-          "folder": "3 (right)",
-          "family": "INEQUALITY_REGION",
-          "status": "RECOGNIZED_UNSUPPORTED",
-          "reason": "Inequality region recognized",
-          "fingerprint": "0691bed3330d22a2",
-          "latex": "18.79405\\ge z\\ge-2.1y^{2}+2.5y+18.05\\left\\{0.59524\\le y\\le1\\right\\}\\left\\{63.525\\le x\\le64.475\\right\\}",
-          "normalized_latex": "18.79405>=z>=-2.1y^{2}+2.5y+18.05{0.59524<=y<=1}{63.525<=x<=64.475}"
-        },
-        {
           "expression_id": "489",
           "folder": null,
           "family": "TEXT_OR_FOLDER",
@@ -3650,26 +2600,6 @@
           "fingerprint": "d2b8c16a767d1df5",
           "latex": "",
           "normalized_latex": ""
-        },
-        {
-          "expression_id": "490",
-          "folder": "4 (right)",
-          "family": "INEQUALITY_REGION",
-          "status": "RECOGNIZED_UNSUPPORTED",
-          "reason": "Inequality region recognized",
-          "fingerprint": "3d00bfb9c741bb8a",
-          "latex": "21.9575\\ge z\\ge-3y^{2}-3.9y+20.69\\left\\{-0.65\\ge y\\ge-1.05\\right\\}\\left\\{63.525\\le x\\le64.475\\right\\}",
-          "normalized_latex": "21.9575>=z>=-3y^{2}-3.9y+20.69{-0.65>=y>=-1.05}{63.525<=x<=64.475}"
-        },
-        {
-          "expression_id": "491",
-          "folder": "4 (right)",
-          "family": "INEQUALITY_REGION",
-          "status": "RECOGNIZED_UNSUPPORTED",
-          "reason": "Inequality region recognized",
-          "fingerprint": "7d05483e5fdb165c",
-          "latex": "21.9575\\ge z\\ge-3y^{2}+3.9y+20.69\\left\\{0.65\\le y\\le1.05\\right\\}\\left\\{63.525\\le x\\le64.475\\right\\}",
-          "normalized_latex": "21.9575>=z>=-3y^{2}+3.9y+20.69{0.65<=y<=1.05}{63.525<=x<=64.475}"
         },
         {
           "expression_id": "458",
@@ -3721,8 +2651,8 @@
     {
       "source_file": "JSONLondon.json",
       "total_expressions": 265,
-      "supported_count": 209,
-      "recognized_unsupported_count": 37,
+      "supported_count": 213,
+      "recognized_unsupported_count": 33,
       "unrecognized_count": 19,
       "per_folder_summary": [
         {
@@ -3753,8 +2683,8 @@
           "folder_id": "40",
           "folder_name": "curve",
           "total": 16,
-          "supported": 0,
-          "recognized_unsupported": 7,
+          "supported": 4,
+          "recognized_unsupported": 3,
           "unrecognized": 9
         },
         {
@@ -4008,16 +2938,6 @@
           "normalized_latex": ""
         },
         {
-          "expression_id": "46",
-          "folder": "curve",
-          "family": "LINEAR_SURFACE_PATCH",
-          "status": "RECOGNIZED_UNSUPPORTED",
-          "reason": "Explicit z=f(x,y) surface",
-          "fingerprint": "935d3b850466d5dd",
-          "latex": "z=ax^{2}+bx+c\\left\\{-20<y<-16\\right\\}\\left\\{0<z<80\\right\\}\\left\\{-100>x>-225\\right\\}",
-          "normalized_latex": "z=ax^{2}+bx+c{-20<y<-16}{0<z<80}{-100>x>-225}"
-        },
-        {
           "expression_id": "76",
           "folder": "curve",
           "family": "PARAM_ASSIGNMENT",
@@ -4046,16 +2966,6 @@
           "fingerprint": "91f36c2ffdbb99b5",
           "latex": "c=214",
           "normalized_latex": "c=214"
-        },
-        {
-          "expression_id": "79",
-          "folder": "curve",
-          "family": "LINEAR_SURFACE_PATCH",
-          "status": "RECOGNIZED_UNSUPPORTED",
-          "reason": "Explicit z=f(x,y) surface",
-          "fingerprint": "cf1d70f46b4af72e",
-          "latex": "z=a_{1}x^{2}+b_{1}x+c_{1}\\left\\{16<y<20\\right\\}\\left\\{0<z<80\\right\\}\\left\\{-100>x>-225\\right\\}",
-          "normalized_latex": "z=a_{1}x^{2}+b_{1}x+c_{1}{16<y<20}{0<z<80}{-100>x>-225}"
         },
         {
           "expression_id": "82",
@@ -4088,16 +2998,6 @@
           "normalized_latex": "c_{1}=214"
         },
         {
-          "expression_id": "80",
-          "folder": "curve",
-          "family": "LINEAR_SURFACE_PATCH",
-          "status": "RECOGNIZED_UNSUPPORTED",
-          "reason": "Explicit z=f(x,y) surface",
-          "fingerprint": "edf5628fbb886096",
-          "latex": "z=a_{2}x^{2}+b_{2}x+c_{2}\\left\\{16<y<20\\right\\}\\left\\{0<z<80\\right\\}\\left\\{100<x<225\\right\\}",
-          "normalized_latex": "z=a_{2}x^{2}+b_{2}x+c_{2}{16<y<20}{0<z<80}{100<x<225}"
-        },
-        {
           "expression_id": "85",
           "folder": "curve",
           "family": "UNKNOWN",
@@ -4126,16 +3026,6 @@
           "fingerprint": "2aa616c36e9c18c5",
           "latex": "c_{2}=214",
           "normalized_latex": "c_{2}=214"
-        },
-        {
-          "expression_id": "81",
-          "folder": "curve",
-          "family": "LINEAR_SURFACE_PATCH",
-          "status": "RECOGNIZED_UNSUPPORTED",
-          "reason": "Explicit z=f(x,y) surface",
-          "fingerprint": "2e33c361841c3baf",
-          "latex": "z=a_{3}x^{2}+b_{3}x+c_{3}\\left\\{-20<y<-16\\right\\}\\left\\{0<z<80\\right\\}\\left\\{100<x<225\\right\\}",
-          "normalized_latex": "z=a_{3}x^{2}+b_{3}x+c_{3}{-20<y<-16}{0<z<80}{100<x<225}"
         },
         {
           "expression_id": "92",

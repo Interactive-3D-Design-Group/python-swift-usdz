@@ -4,7 +4,7 @@ from dataclasses import dataclass, field
 import re
 from typing import Iterable
 
-from desmos3d_pipeline.ir.models import BoxVolumeNode, GeometryNode, PlanePatchNode, PointNode, RangeConstraint, SampledSurfaceNode
+from desmos3d_pipeline.ir.models import BoxVolumeNode, GeometryNode, PlanePatchNode, PointNode, RangeConstraint, SampledSurfaceNode, ZSlabNode
 from desmos3d_pipeline.parse.math_eval import safe_eval, to_python_expr
 
 
@@ -36,6 +36,8 @@ def mesh_geometry_nodes(nodes: Iterable[GeometryNode]) -> tuple[list[Mesh], list
                 meshes.append(mesh_plane_patch(node))
             elif isinstance(node, BoxVolumeNode):
                 meshes.append(mesh_box_volume(node))
+            elif isinstance(node, ZSlabNode):
+                meshes.append(mesh_z_slab(node))
             elif isinstance(node, SampledSurfaceNode):
                 meshes.append(mesh_sampled_surface(node))
             elif isinstance(node, PointNode):
@@ -117,6 +119,86 @@ def mesh_sampled_surface(node: SampledSurfaceNode) -> Mesh:
             faces.append((a, d, c))
     if not faces:
         raise ValueError("No valid sampled cells after applying restrictions")
+    return Mesh(name=_mesh_name(node), color=node.color, vertices=verts, faces=faces, source_file=node.source_ref.source_file, expression_id=node.source_ref.expression_id, family=node.family.value)
+
+
+def mesh_z_slab(node: ZSlabNode) -> Mesh:
+    resolved = _resolve_axis_bounds(
+        node.bounds,
+        node.metadata,
+        include_axes={"x", "y"},
+        tolerate_unresolved=False,
+    )
+    x0, x1 = _require_bounds(resolved, "x")
+    y0, y1 = _require_bounds(resolved, "y")
+    xs, ys = node.sampling_hint
+    py_map = node.metadata.get("python_symbol_map", {})
+    env = dict(node.metadata.get("resolved_symbols", {}))
+    lower_py = to_python_expr(node.lower_expr, py_map)
+    upper_py = to_python_expr(node.upper_expr, py_map)
+
+    lower_verts: list[tuple[float, float, float]] = []
+    upper_verts: list[tuple[float, float, float]] = []
+    for yi in range(ys + 1):
+        y = y0 + (y1 - y0) * yi / ys
+        for xi in range(xs + 1):
+            x = x0 + (x1 - x0) * xi / xs
+            zlo = safe_eval(lower_py, {**env, "x": x, "y": y, "z": 0.0})
+            zhi = safe_eval(upper_py, {**env, "x": x, "y": y, "z": 0.0})
+            if zlo > zhi:
+                zlo, zhi = zhi, zlo
+            lower_verts.append((x, y, zlo))
+            upper_verts.append((x, y, zhi))
+
+    verts = lower_verts + upper_verts
+    faces: list[tuple[int, int, int]] = []
+    stride = xs + 1
+    base_upper = len(lower_verts)
+
+    # Bottom and top surfaces
+    for yi in range(ys):
+        for xi in range(xs):
+            a = yi * stride + xi
+            b = a + 1
+            c = a + stride
+            d = c + 1
+            # bottom (wind consistent)
+            faces.append((a + 1, c + 1, d + 1))
+            faces.append((a + 1, d + 1, b + 1))
+            # top
+            au = base_upper + a
+            bu = base_upper + b
+            cu = base_upper + c
+            du = base_upper + d
+            faces.append((au + 1, bu + 1, du + 1))
+            faces.append((au + 1, du + 1, cu + 1))
+
+    # Side walls around perimeter
+    def quad(i0, i1, j0, j1):
+        faces.append((i0 + 1, j0 + 1, j1 + 1))
+        faces.append((i0 + 1, j1 + 1, i1 + 1))
+
+    # y = y0 edge
+    for xi in range(xs):
+        a = 0 * stride + xi
+        b = a + 1
+        quad(a, b, base_upper + a, base_upper + b)
+    # y = y1 edge
+    for xi in range(xs):
+        a = ys * stride + xi
+        b = a + 1
+        quad(b, a, base_upper + b, base_upper + a)
+    # x = x0 edge
+    for yi in range(ys):
+        a = yi * stride + 0
+        b = (yi + 1) * stride + 0
+        quad(b, a, base_upper + b, base_upper + a)
+    # x = x1 edge
+    for yi in range(ys):
+        a = yi * stride + xs
+        b = (yi + 1) * stride + xs
+        quad(a, b, base_upper + a, base_upper + b)
+
     return Mesh(name=_mesh_name(node), color=node.color, vertices=verts, faces=faces, source_file=node.source_ref.source_file, expression_id=node.source_ref.expression_id, family=node.family.value)
 
 

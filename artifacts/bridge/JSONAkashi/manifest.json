@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "mesh_count": 287,
-  "failed_mesh_count": 0,
+  "failed_mesh_count": 82,
   "meshes": [
     {
       "name": "JSONAkashi_56",
@@ -5744,5 +5744,416 @@
       }
     }
   ],
-  "failures": []
+  "failures": [
+    {
+      "source_file": "JSONAkashi.json",
+      "expression_id": "506",
+      "error": "Missing finite bounds for axis x"
+    },
+    {
+      "source_file": "JSONAkashi.json",
+      "expression_id": "552",
+      "error": "Missing finite bounds for axis x"
+    },
+    {
+      "source_file": "JSONAkashi.json",
+      "expression_id": "507",
+      "error": "Missing finite bounds for axis x"
+    },
+    {
+      "source_file": "JSONAkashi.json",
+      "expression_id": "592",
+      "error": "Missing finite bounds for axis x"
+    },
+    {
+      "source_file": "JSONAkashi.json",
+      "expression_id": "508",
+      "error": "Missing finite bounds for axis x"
+    },
+    {
+      "source_file": "JSONAkashi.json",
+      "expression_id": "591",
+      "error": "Missing finite bounds for axis x"
+    },
+    {
+      "source_file": "JSONAkashi.json",
+      "expression_id": "509",
+      "error": "Missing finite bounds for axis x"
+    },
+    {
+      "source_file": "JSONAkashi.json",
+      "expression_id": "590",
+      "error": "Missing finite bounds for axis x"
+    },
+    {
+      "source_file": "JSONAkashi.json",
+      "expression_id": "510",
+      "error": "Missing finite bounds for axis x"
+    },
+    {
+      "source_file": "JSONAkashi.json",
+      "expression_id": "589",
+      "error": "Missing finite bounds for axis x"
+    },
+    {
+      "source_file": "JSONAkashi.json",
+      "expression_id": "511",
+      "error": "Missing finite bounds for axis x"
+    },
+    {
+      "source_file": "JSONAkashi.json",
+      "expression_id": "588",
+      "error": "Missing finite bounds for axis x"
+    },
+    {
+      "source_file": "JSONAkashi.json",
+      "expression_id": "512",
+      "error": "Missing finite bounds for axis x"
+    },
+    {
+      "source_file": "JSONAkashi.json",
+      "expression_id": "587",
+      "error": "Missing finite bounds for axis x"
+    },
+    {
+      "source_file": "JSONAkashi.json",
+      "expression_id": "513",
+      "error": "Missing finite bounds for axis x"
+    },
+    {
+      "source_file": "JSONAkashi.json",
+      "expression_id": "586",
+      "error": "Missing finite bounds for axis x"
+    },
+    {
+      "source_file": "JSONAkashi.json",
+      "expression_id": "514",
+      "error": "Missing finite bounds for axis x"
+    },
+    {
+      "source_file": "JSONAkashi.json",
+      "expression_id": "585",
+      "error": "Missing finite bounds for axis x"
+    },
+    {
+      "source_file": "JSONAkashi.json",
+      "expression_id": "515",
+      "error": "Missing finite bounds for axis x"
+    },
+    {
+      "source_file": "JSONAkashi.json",
+      "expression_id": "584",
+      "error": "Missing finite bounds for axis x"
+    },
+    {
+      "source_file": "JSONAkashi.json",
+      "expression_id": "516",
+      "error": "Missing finite bounds for axis x"
+    },
+    {
+      "source_file": "JSONAkashi.json",
+      "expression_id": "583",
+      "error": "Missing finite bounds for axis x"
+    },
+    {
+      "source_file": "JSONAkashi.json",
+      "expression_id": "517",
+      "error": "Missing finite bounds for axis x"
+    },
+    {
+      "source_file": "JSONAkashi.json",
+      "expression_id": "582",
+      "error": "Missing finite bounds for axis x"
+    },
+    {
+      "source_file": "JSONAkashi.json",
+      "expression_id": "518",
+      "error": "Missing finite bounds for axis x"
+    },
+    {
+      "source_file": "JSONAkashi.json",
+      "expression_id": "581",
+      "error": "Missing finite bounds for axis x"
+    },
+    {
+      "source_file": "JSONAkashi.json",
+      "expression_id": "519",
+      "error": "Missing finite bounds for axis x"
+    },
+    {
+      "source_file": "JSONAkashi.json",
+      "expression_id": "580",
+      "error": "Missing finite bounds for axis x"
+    },
+    {
+      "source_file": "JSONAkashi.json",
+      "expression_id": "520",
+      "error": "Missing finite bounds for axis x"
+    },
+    {
+      "source_file": "JSONAkashi.json",
+      "expression_id": "579",
+      "error": "Missing finite bounds for axis x"
+    },
+    {
+      "source_file": "JSONAkashi.json",
+      "expression_id": "521",
+      "error": "Missing finite bounds for axis x"
+    },
+    {
+      "source_file": "JSONAkashi.json",
+      "expression_id": "578",
+      "error": "Missing finite bounds for axis x"
+    },
+    {
+      "source_file": "JSONAkashi.json",
+      "expression_id": "522",
+      "error": "Missing finite bounds for axis x"
+    },
+    {
+      "source_file": "JSONAkashi.json",
+      "expression_id": "577",
+      "error": "Missing finite bounds for axis x"
+    },
+    {
+      "source_file": "JSONAkashi.json",
+      "expression_id": "523",
+      "error": "Missing finite bounds for axis x"
+    },
+    {
+      "source_file": "JSONAkashi.json",
+      "expression_id": "576",
+      "error": "Missing finite bounds for axis x"
+    },
+    {
+      "source_file": "JSONAkashi.json",
+      "expression_id": "524",
+      "error": "Missing finite bounds for axis x"
+    },
+    {
+      "source_file": "JSONAkashi.json",
+      "expression_id": "575",
+      "error": "Missing finite bounds for axis x"
+    },
+    {
+      "source_file": "JSONAkashi.json",
+      "expression_id": "525",
+      "error": "Missing finite bounds for axis x"
+    },
+    {
+      "source_file": "JSONAkashi.json",
+      "expression_id": "574",
+      "error": "Missing finite bounds for axis x"
+    },
+    {
+      "source_file": "JSONAkashi.json",
+      "expression_id": "526",
+      "error": "Missing finite bounds for axis x"
+    },
+    {
+      "source_file": "JSONAkashi.json",
+      "expression_id": "573",
+      "error": "Missing finite bounds for axis x"
+    },
+    {
+      "source_file": "JSONAkashi.json",
+      "expression_id": "527",
+      "error": "Missing finite bounds for axis x"
+    },
+    {
+      "source_file": "JSONAkashi.json",
+      "expression_id": "572",
+      "error": "Missing finite bounds for axis x"
+    },
+    {
+      "source_file": "JSONAkashi.json",
+      "expression_id": "528",
+      "error": "Missing finite bounds for axis x"
+    },
+    {
+      "source_file": "JSONAkashi.json",
+      "expression_id": "571",
+      "error": "Missing finite bounds for axis x"
+    },
+    {
+      "source_file": "JSONAkashi.json",
+      "expression_id": "529",
+      "error": "Missing finite bounds for axis x"
+    },
+    {
+      "source_file": "JSONAkashi.json",
+      "expression_id": "570",
+      "error": "Missing finite bounds for axis x"
+    },
+    {
+      "source_file": "JSONAkashi.json",
+      "expression_id": "530",
+      "error": "Missing finite bounds for axis x"
+    },
+    {
+      "source_file": "JSONAkashi.json",
+      "expression_id": "569",
+      "error": "Missing finite bounds for axis x"
+    },
+    {
+      "source_file": "JSONAkashi.json",
+      "expression_id": "531",
+      "error": "Missing finite bounds for axis x"
+    },
+    {
+      "source_file": "JSONAkashi.json",
+      "expression_id": "568",
+      "error": "Missing finite bounds for axis x"
+    },
+    {
+      "source_file": "JSONAkashi.json",
+      "expression_id": "532",
+      "error": "Missing finite bounds for axis x"
+    },
+    {
+      "source_file": "JSONAkashi.json",
+      "expression_id": "567",
+      "error": "Missing finite bounds for axis x"
+    },
+    {
+      "source_file": "JSONAkashi.json",
+      "expression_id": "533",
+      "error": "Missing finite bounds for axis x"
+    },
+    {
+      "source_file": "JSONAkashi.json",
+      "expression_id": "566",
+      "error": "Missing finite bounds for axis x"
+    },
+    {
+      "source_file": "JSONAkashi.json",
+      "expression_id": "534",
+      "error": "Missing finite bounds for axis x"
+    },
+    {
+      "source_file": "JSONAkashi.json",
+      "expression_id": "565",
+      "error": "Missing finite bounds for axis x"
+    },
+    {
+      "source_file": "JSONAkashi.json",
+      "expression_id": "535",
+      "error": "Missing finite bounds for axis x"
+    },
+    {
+      "source_file": "JSONAkashi.json",
+      "expression_id": "564",
+      "error": "Missing finite bounds for axis x"
+    },
+    {
+      "source_file": "JSONAkashi.json",
+      "expression_id": "536",
+      "error": "Missing finite bounds for axis x"
+    },
+    {
+      "source_file": "JSONAkashi.json",
+      "expression_id": "563",
+      "error": "Missing finite bounds for axis x"
+    },
+    {
+      "source_file": "JSONAkashi.json",
+      "expression_id": "537",
+      "error": "Missing finite bounds for axis x"
+    },
+    {
+      "source_file": "JSONAkashi.json",
+      "expression_id": "562",
+      "error": "Missing finite bounds for axis x"
+    },
+    {
+      "source_file": "JSONAkashi.json",
+      "expression_id": "538",
+      "error": "Missing finite bounds for axis x"
+    },
+    {
+      "source_file": "JSONAkashi.json",
+      "expression_id": "561",
+      "error": "Missing finite bounds for axis x"
+    },
+    {
+      "source_file": "JSONAkashi.json",
+      "expression_id": "539",
+      "error": "Missing finite bounds for axis x"
+    },
+    {
+      "source_file": "JSONAkashi.json",
+      "expression_id": "560",
+      "error": "Missing finite bounds for axis x"
+    },
+    {
+      "source_file": "JSONAkashi.json",
+      "expression_id": "540",
+      "error": "Missing finite bounds for axis x"
+    },
+    {
+      "source_file": "JSONAkashi.json",
+      "expression_id": "559",
+      "error": "Missing finite bounds for axis x"
+    },
+    {
+      "source_file": "JSONAkashi.json",
+      "expression_id": "541",
+      "error": "Missing finite bounds for axis x"
+    },
+    {
+      "source_file": "JSONAkashi.json",
+      "expression_id": "558",
+      "error": "Missing finite bounds for axis x"
+    },
+    {
+      "source_file": "JSONAkashi.json",
+      "expression_id": "542",
+      "error": "Missing finite bounds for axis x"
+    },
+    {
+      "source_file": "JSONAkashi.json",
+      "expression_id": "557",
+      "error": "Missing finite bounds for axis x"
+    },
+    {
+      "source_file": "JSONAkashi.json",
+      "expression_id": "543",
+      "error": "Missing finite bounds for axis x"
+    },
+    {
+      "source_file": "JSONAkashi.json",
+      "expression_id": "556",
+      "error": "Missing finite bounds for axis x"
+    },
+    {
+      "source_file": "JSONAkashi.json",
+      "expression_id": "544",
+      "error": "Missing finite bounds for axis x"
+    },
+    {
+      "source_file": "JSONAkashi.json",
+      "expression_id": "555",
+      "error": "Missing finite bounds for axis x"
+    },
+    {
+      "source_file": "JSONAkashi.json",
+      "expression_id": "545",
+      "error": "Missing finite bounds for axis x"
+    },
+    {
+      "source_file": "JSONAkashi.json",
+      "expression_id": "554",
+      "error": "Missing finite bounds for axis x"
+    },
+    {
+      "source_file": "JSONAkashi.json",
+      "expression_id": "547",
+      "error": "Missing finite bounds for axis x"
+    },
+    {
+      "source_file": "JSONAkashi.json",
+      "expression_id": "553",
+      "error": "Missing finite bounds for axis x"
+    }
+  ]
 }

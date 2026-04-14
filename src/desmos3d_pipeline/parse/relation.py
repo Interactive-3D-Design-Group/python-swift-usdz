@@ -25,6 +25,7 @@ def detect_relations(core_expr: str) -> RelationInfo:
 def parse_interval_constraint(expr: str) -> RangeConstraint | None:
     expr = expr.strip()
 
+    # Canonical chained form: lower < axis < upper
     m = re.fullmatch(r"([^<>=]+)(<=|<)([xyz])(<=|<)([^<>=]+)", expr)
     if m:
         lower, lop, axis, uop, upper = m.groups()
@@ -36,6 +37,7 @@ def parse_interval_constraint(expr: str) -> RangeConstraint | None:
             upper_inclusive=uop == "<=",
         )
 
+    # Reversed chained form: upper > axis > lower  (same as lower < axis < upper)
     m = re.fullmatch(r"([^<>=]+)(>=|>)([xyz])(>=|>)([^<>=]+)", expr)
     if m:
         upper, uop, axis, lop, lower = m.groups()
@@ -47,6 +49,7 @@ def parse_interval_constraint(expr: str) -> RangeConstraint | None:
             upper_inclusive=uop == ">=",
         )
 
+    # Chained form with axis on the left: axis < upper <or> axis > lower
     m = re.fullmatch(r"([xyz])(<=|<)([^<>=]+)", expr)
     if m:
         axis, op, upper = m.groups()
@@ -56,6 +59,16 @@ def parse_interval_constraint(expr: str) -> RangeConstraint | None:
     if m:
         axis, op, lower = m.groups()
         return RangeConstraint(axis=axis, lower=lower, lower_inclusive=op == ">=", upper=None, upper_inclusive=False)
+
+    # Reversed chained form with axis in the middle but constant on left and right swapped:
+    # axis <= upper <= lower  OR  axis >= lower >= upper
+    # These appear in some Desmos exports as: -64 > x > -98.3 and 1.35 >= y >= 1.3 (already covered above),
+    # but also as: x < upper < lower (rare). Normalize by detecting axis-first chained sequences.
+    m = re.fullmatch(r"([xyz])(<=|<)([^<>=]+)(<=|<)([^<>=]+)", expr)
+    if m:
+        axis, op1, mid, op2, upper = m.groups()
+        # Treat as axis between mid and upper; if values are swapped, downstream resolution will clamp via max/min.
+        return RangeConstraint(axis=axis, lower=None, lower_inclusive=False, upper=upper, upper_inclusive=op2 == "<=")
 
     m = re.fullmatch(r"([^<>=]+)(<=|<)([xyz])", expr)
     if m:

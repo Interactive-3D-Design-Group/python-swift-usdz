@@ -20,6 +20,7 @@ class ClassificationStatus(str, Enum):
 class ExpressionFamily(str, Enum):
     CONSTANT_PLANE = "CONSTANT_PLANE"
     BOX_BOUNDED_REGION = "BOX_BOUNDED_REGION"
+    Z_SLAB_REGION = "Z_SLAB_REGION"
     LINEAR_SURFACE_PATCH = "LINEAR_SURFACE_PATCH"
     QUADRATIC_SURFACE_PATCH = "QUADRATIC_SURFACE_PATCH"
     POINT_DEFINITION = "POINT_DEFINITION"
@@ -108,6 +109,14 @@ class PlanePatchNode(GeometryNode):
 @dataclass(slots=True)
 class BoxVolumeNode(GeometryNode):
     ranges: list[RangeConstraint] = field(default_factory=list)
+
+
+@dataclass(slots=True)
+class ZSlabNode(GeometryNode):
+    lower_expr: str = ""
+    upper_expr: str = ""
+    bounds: list[RangeConstraint] = field(default_factory=list)
+    sampling_hint: tuple[int, int] = (72, 24)
 
 
 @dataclass(slots=True)

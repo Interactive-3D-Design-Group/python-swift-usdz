@@ -1,8 +1,128 @@
 {
   "schema_version": 1,
-  "mesh_count": 292,
+  "mesh_count": 317,
   "failed_mesh_count": 0,
   "meshes": [
+    {
+      "name": "JSONCali_1",
+      "obj_file": "meshes/JSONCali_1.obj",
+      "color": "#c74440",
+      "source_file": "JSONCali.json",
+      "expression_id": "1",
+      "family": "Z_SLAB_REGION",
+      "bounds": {
+        "min": [
+          -98.3,
+          -1.35,
+          6.18539655
+        ],
+        "max": [
+          98.3,
+          1.35,
+          7.7
+        ]
+      }
+    },
+    {
+      "name": "JSONCali_9",
+      "obj_file": "meshes/JSONCali_9.obj",
+      "color": "#c74440",
+      "source_file": "JSONCali.json",
+      "expression_id": "9",
+      "family": "Z_SLAB_REGION",
+      "bounds": {
+        "min": [
+          -98.3,
+          -1.35,
+          6.68539655
+        ],
+        "max": [
+          98.3,
+          -0.95,
+          8.0
+        ]
+      }
+    },
+    {
+      "name": "JSONCali_10",
+      "obj_file": "meshes/JSONCali_10.obj",
+      "color": "#c74440",
+      "source_file": "JSONCali.json",
+      "expression_id": "10",
+      "family": "Z_SLAB_REGION",
+      "bounds": {
+        "min": [
+          -98.3,
+          0.95,
+          6.68539655
+        ],
+        "max": [
+          98.3,
+          1.35,
+          8.0
+        ]
+      }
+    },
+    {
+      "name": "JSONCali_2",
+      "obj_file": "meshes/JSONCali_2.obj",
+      "color": "#c74440",
+      "source_file": "JSONCali.json",
+      "expression_id": "2",
+      "family": "Z_SLAB_REGION",
+      "bounds": {
+        "min": [
+          -64.0,
+          -1.35,
+          8.25
+        ],
+        "max": [
+          64.0,
+          -1.3,
+          23.086
+        ]
+      }
+    },
+    {
+      "name": "JSONCali_4",
+      "obj_file": "meshes/JSONCali_4.obj",
+      "color": "#c74440",
+      "source_file": "JSONCali.json",
+      "expression_id": "4",
+      "family": "Z_SLAB_REGION",
+      "bounds": {
+        "min": [
+          64.0,
+          -1.35,
+          6.7036700000000025
+        ],
+        "max": [
+          98.3,
+          -1.3,
+          23.087999999999994
+        ]
+      }
+    },
+    {
+      "name": "JSONCali_6",
+      "obj_file": "meshes/JSONCali_6.obj",
+      "color": "#c74440",
+      "source_file": "JSONCali.json",
+      "expression_id": "6",
+      "family": "Z_SLAB_REGION",
+      "bounds": {
+        "min": [
+          -98.3,
+          -1.35,
+          6.7036700000000025
+        ],
+        "max": [
+          -64.0,
+          -1.3,
+          23.087999999999994
+        ]
+      }
+    },
     {
       "name": "JSONCali_54",
       "obj_file": "meshes/JSONCali_54.obj",
@@ -2280,6 +2400,66 @@
           94.65,
           -1.3,
           8.5
+        ]
+      }
+    },
+    {
+      "name": "JSONCali_138",
+      "obj_file": "meshes/JSONCali_138.obj",
+      "color": "#c74440",
+      "source_file": "JSONCali.json",
+      "expression_id": "138",
+      "family": "Z_SLAB_REGION",
+      "bounds": {
+        "min": [
+          -64.0,
+          1.3,
+          8.25
+        ],
+        "max": [
+          64.0,
+          1.35,
+          23.086
+        ]
+      }
+    },
+    {
+      "name": "JSONCali_139",
+      "obj_file": "meshes/JSONCali_139.obj",
+      "color": "#c74440",
+      "source_file": "JSONCali.json",
+      "expression_id": "139",
+      "family": "Z_SLAB_REGION",
+      "bounds": {
+        "min": [
+          64.0,
+          1.3,
+          6.7036700000000025
+        ],
+        "max": [
+          98.3,
+          1.35,
+          23.087999999999994
+        ]
+      }
+    },
+    {
+      "name": "JSONCali_140",
+      "obj_file": "meshes/JSONCali_140.obj",
+      "color": "#c74440",
+      "source_file": "JSONCali.json",
+      "expression_id": "140",
+      "family": "Z_SLAB_REGION",
+      "bounds": {
+        "min": [
+          -98.3,
+          1.3,
+          6.7036700000000025
+        ],
+        "max": [
+          -64.0,
+          1.35,
+          23.087999999999994
         ]
       }
     },
@@ -4569,7 +4749,7 @@
       "color": "#c74440",
       "source_file": "JSONCali.json",
       "expression_id": "455",
-      "family": "BOX_BOUNDED_REGION",
+      "family": "Z_SLAB_REGION",
       "bounds": {
         "min": [
           -64.475,
@@ -4609,7 +4789,7 @@
       "color": "#c74440",
       "source_file": "JSONCali.json",
       "expression_id": "390",
-      "family": "BOX_BOUNDED_REGION",
+      "family": "Z_SLAB_REGION",
       "bounds": {
         "min": [
           -64.475,
@@ -4649,7 +4829,7 @@
       "color": "#c74440",
       "source_file": "JSONCali.json",
       "expression_id": "393",
-      "family": "BOX_BOUNDED_REGION",
+      "family": "Z_SLAB_REGION",
       "bounds": {
         "min": [
           -64.475,
@@ -4689,7 +4869,7 @@
       "color": "#c74440",
       "source_file": "JSONCali.json",
       "expression_id": "397",
-      "family": "BOX_BOUNDED_REGION",
+      "family": "Z_SLAB_REGION",
       "bounds": {
         "min": [
           -64.475,
@@ -4729,7 +4909,7 @@
       "color": "#c74440",
       "source_file": "JSONCali.json",
       "expression_id": "401",
-      "family": "BOX_BOUNDED_REGION",
+      "family": "Z_SLAB_REGION",
       "bounds": {
         "min": [
           -64.475,
@@ -4769,7 +4949,7 @@
       "color": "#c74440",
       "source_file": "JSONCali.json",
       "expression_id": "405",
-      "family": "BOX_BOUNDED_REGION",
+      "family": "Z_SLAB_REGION",
       "bounds": {
         "min": [
           -64.475,
@@ -4809,7 +4989,7 @@
       "color": "#c74440",
       "source_file": "JSONCali.json",
       "expression_id": "409",
-      "family": "BOX_BOUNDED_REGION",
+      "family": "Z_SLAB_REGION",
       "bounds": {
         "min": [
           -64.475,
@@ -4829,17 +5009,17 @@
       "color": "#c74440",
       "source_file": "JSONCali.json",
       "expression_id": "410",
-      "family": "BOX_BOUNDED_REGION",
+      "family": "Z_SLAB_REGION",
       "bounds": {
         "min": [
-          -64.50812499999999,
-          -0.9275,
-          4.326499999999999
+          -64.475,
+          -0.9,
+          4.319999999999999
         ],
         "max": [
-          -63.491875,
-          0.9275,
-          6.4334999999999996
+          -63.525,
+          0.9,
+          6.44
         ]
       }
     },
@@ -4849,17 +5029,17 @@
       "color": "#c74440",
       "source_file": "JSONCali.json",
       "expression_id": "411",
-      "family": "BOX_BOUNDED_REGION",
+      "family": "Z_SLAB_REGION",
       "bounds": {
         "min": [
-          -64.50812499999999,
-          -0.9275,
-          4.326499999999999
+          -64.475,
+          -0.9,
+          4.319999999999999
         ],
         "max": [
-          -63.491875,
-          0.9275,
-          6.4334999999999996
+          -63.525,
+          0.9,
+          6.44
         ]
       }
     },
@@ -4869,17 +5049,17 @@
       "color": "#c74440",
       "source_file": "JSONCali.json",
       "expression_id": "412",
-      "family": "BOX_BOUNDED_REGION",
+      "family": "Z_SLAB_REGION",
       "bounds": {
         "min": [
-          -64.50812499999999,
-          -0.9275,
-          2.1565
+          -64.475,
+          -0.9,
+          2.15
         ],
         "max": [
-          -63.491875,
-          0.9275,
-          4.2635
+          -63.525,
+          0.9,
+          4.2700000000000005
         ]
       }
     },
@@ -4889,17 +5069,57 @@
       "color": "#c74440",
       "source_file": "JSONCali.json",
       "expression_id": "413",
-      "family": "BOX_BOUNDED_REGION",
+      "family": "Z_SLAB_REGION",
       "bounds": {
         "min": [
-          -64.50812499999999,
-          -0.9275,
-          2.1565
+          -64.475,
+          -0.9,
+          2.15
         ],
         "max": [
-          -63.491875,
-          0.9275,
-          4.2635
+          -63.525,
+          0.9,
+          4.2700000000000005
+        ]
+      }
+    },
+    {
+      "name": "JSONCali_475",
+      "obj_file": "meshes/JSONCali_475.obj",
+      "color": "#c74440",
+      "source_file": "JSONCali.json",
+      "expression_id": "475",
+      "family": "Z_SLAB_REGION",
+      "bounds": {
+        "min": [
+          -64.475,
+          -0.9,
+          8.870000000000001
+        ],
+        "max": [
+          -63.525,
+          -0.23749999999999993,
+          10.62563
+        ]
+      }
+    },
+    {
+      "name": "JSONCali_476",
+      "obj_file": "meshes/JSONCali_476.obj",
+      "color": "#c74440",
+      "source_file": "JSONCali.json",
+      "expression_id": "476",
+      "family": "Z_SLAB_REGION",
+      "bounds": {
+        "min": [
+          -64.475,
+          0.2375,
+          8.87
+        ],
+        "max": [
+          -63.525,
+          0.9000000000000001,
+          10.62563
         ]
       }
     },
@@ -4909,7 +5129,7 @@
       "color": "#c74440",
       "source_file": "JSONCali.json",
       "expression_id": "477",
-      "family": "BOX_BOUNDED_REGION",
+      "family": "Z_SLAB_REGION",
       "bounds": {
         "min": [
           -64.475,
@@ -4924,12 +5144,52 @@
       }
     },
     {
+      "name": "JSONCali_496",
+      "obj_file": "meshes/JSONCali_496.obj",
+      "color": "#c74440",
+      "source_file": "JSONCali.json",
+      "expression_id": "496",
+      "family": "Z_SLAB_REGION",
+      "bounds": {
+        "min": [
+          -64.475,
+          -0.9,
+          14.08
+        ],
+        "max": [
+          -63.525,
+          -0.4375,
+          14.935625
+        ]
+      }
+    },
+    {
+      "name": "JSONCali_497",
+      "obj_file": "meshes/JSONCali_497.obj",
+      "color": "#c74440",
+      "source_file": "JSONCali.json",
+      "expression_id": "497",
+      "family": "Z_SLAB_REGION",
+      "bounds": {
+        "min": [
+          -64.475,
+          0.4375,
+          14.08
+        ],
+        "max": [
+          -63.525,
+          0.9,
+          14.935625
+        ]
+      }
+    },
+    {
       "name": "JSONCali_498",
       "obj_file": "meshes/JSONCali_498.obj",
       "color": "#c74440",
       "source_file": "JSONCali.json",
       "expression_id": "498",
-      "family": "BOX_BOUNDED_REGION",
+      "family": "Z_SLAB_REGION",
       "bounds": {
         "min": [
           -64.475,
@@ -4944,12 +5204,52 @@
       }
     },
     {
+      "name": "JSONCali_500",
+      "obj_file": "meshes/JSONCali_500.obj",
+      "color": "#c74440",
+      "source_file": "JSONCali.json",
+      "expression_id": "500",
+      "family": "Z_SLAB_REGION",
+      "bounds": {
+        "min": [
+          -64.475,
+          -1.0,
+          18.45
+        ],
+        "max": [
+          -63.525,
+          -0.59524,
+          18.79405
+        ]
+      }
+    },
+    {
+      "name": "JSONCali_501",
+      "obj_file": "meshes/JSONCali_501.obj",
+      "color": "#c74440",
+      "source_file": "JSONCali.json",
+      "expression_id": "501",
+      "family": "Z_SLAB_REGION",
+      "bounds": {
+        "min": [
+          -64.475,
+          0.59524,
+          18.45
+        ],
+        "max": [
+          -63.525,
+          1.0,
+          18.79405
+        ]
+      }
+    },
+    {
       "name": "JSONCali_502",
       "obj_file": "meshes/JSONCali_502.obj",
       "color": "#c74440",
       "source_file": "JSONCali.json",
       "expression_id": "502",
-      "family": "BOX_BOUNDED_REGION",
+      "family": "Z_SLAB_REGION",
       "bounds": {
         "min": [
           -64.475,
@@ -4964,12 +5264,52 @@
       }
     },
     {
+      "name": "JSONCali_504",
+      "obj_file": "meshes/JSONCali_504.obj",
+      "color": "#c74440",
+      "source_file": "JSONCali.json",
+      "expression_id": "504",
+      "family": "Z_SLAB_REGION",
+      "bounds": {
+        "min": [
+          -64.475,
+          -1.05,
+          21.4775
+        ],
+        "max": [
+          -63.525,
+          -0.65,
+          21.957500000000003
+        ]
+      }
+    },
+    {
+      "name": "JSONCali_505",
+      "obj_file": "meshes/JSONCali_505.obj",
+      "color": "#c74440",
+      "source_file": "JSONCali.json",
+      "expression_id": "505",
+      "family": "Z_SLAB_REGION",
+      "bounds": {
+        "min": [
+          -64.475,
+          0.65,
+          21.4775
+        ],
+        "max": [
+          -63.525,
+          1.05,
+          21.957500000000003
+        ]
+      }
+    },
+    {
       "name": "JSONCali_506",
       "obj_file": "meshes/JSONCali_506.obj",
       "color": "#c74440",
       "source_file": "JSONCali.json",
       "expression_id": "506",
-      "family": "BOX_BOUNDED_REGION",
+      "family": "Z_SLAB_REGION",
       "bounds": {
         "min": [
           -64.475,
@@ -5209,7 +5549,7 @@
       "color": "#c74440",
       "source_file": "JSONCali.json",
       "expression_id": "456",
-      "family": "BOX_BOUNDED_REGION",
+      "family": "Z_SLAB_REGION",
       "bounds": {
         "min": [
           63.525,
@@ -5249,7 +5589,7 @@
       "color": "#c74440",
       "source_file": "JSONCali.json",
       "expression_id": "421",
-      "family": "BOX_BOUNDED_REGION",
+      "family": "Z_SLAB_REGION",
       "bounds": {
         "min": [
           63.525,
@@ -5289,7 +5629,7 @@
       "color": "#c74440",
       "source_file": "JSONCali.json",
       "expression_id": "424",
-      "family": "BOX_BOUNDED_REGION",
+      "family": "Z_SLAB_REGION",
       "bounds": {
         "min": [
           63.525,
@@ -5329,7 +5669,7 @@
       "color": "#c74440",
       "source_file": "JSONCali.json",
       "expression_id": "428",
-      "family": "BOX_BOUNDED_REGION",
+      "family": "Z_SLAB_REGION",
       "bounds": {
         "min": [
           63.525,
@@ -5369,7 +5709,7 @@
       "color": "#c74440",
       "source_file": "JSONCali.json",
       "expression_id": "432",
-      "family": "BOX_BOUNDED_REGION",
+      "family": "Z_SLAB_REGION",
       "bounds": {
         "min": [
           63.525,
@@ -5409,7 +5749,7 @@
       "color": "#c74440",
       "source_file": "JSONCali.json",
       "expression_id": "436",
-      "family": "BOX_BOUNDED_REGION",
+      "family": "Z_SLAB_REGION",
       "bounds": {
         "min": [
           63.525,
@@ -5449,7 +5789,7 @@
       "color": "#c74440",
       "source_file": "JSONCali.json",
       "expression_id": "440",
-      "family": "BOX_BOUNDED_REGION",
+      "family": "Z_SLAB_REGION",
       "bounds": {
         "min": [
           63.525,
@@ -5469,17 +5809,17 @@
       "color": "#c74440",
       "source_file": "JSONCali.json",
       "expression_id": "441",
-      "family": "BOX_BOUNDED_REGION",
+      "family": "Z_SLAB_REGION",
       "bounds": {
         "min": [
-          63.491875,
-          -0.9275,
-          4.326499999999999
+          63.525,
+          -0.9,
+          4.319999999999999
         ],
         "max": [
-          64.50812499999999,
-          0.9275,
-          6.4334999999999996
+          64.475,
+          0.9,
+          6.44
         ]
       }
     },
@@ -5489,17 +5829,17 @@
       "color": "#c74440",
       "source_file": "JSONCali.json",
       "expression_id": "442",
-      "family": "BOX_BOUNDED_REGION",
+      "family": "Z_SLAB_REGION",
       "bounds": {
         "min": [
-          63.491875,
-          -0.9275,
-          4.326499999999999
+          63.525,
+          -0.9,
+          4.319999999999999
         ],
         "max": [
-          64.50812499999999,
-          0.9275,
-          6.4334999999999996
+          64.475,
+          0.9,
+          6.44
         ]
       }
     },
@@ -5509,17 +5849,17 @@
       "color": "#c74440",
       "source_file": "JSONCali.json",
       "expression_id": "443",
-      "family": "BOX_BOUNDED_REGION",
+      "family": "Z_SLAB_REGION",
       "bounds": {
         "min": [
-          63.491875,
-          -0.9275,
-          2.1565
+          63.525,
+          -0.9,
+          2.15
         ],
         "max": [
-          64.50812499999999,
-          0.9275,
-          4.2635
+          64.475,
+          0.9,
+          4.2700000000000005
         ]
       }
     },
@@ -5529,17 +5869,57 @@
       "color": "#c74440",
       "source_file": "JSONCali.json",
       "expression_id": "444",
-      "family": "BOX_BOUNDED_REGION",
+      "family": "Z_SLAB_REGION",
       "bounds": {
         "min": [
-          63.491875,
-          -0.9275,
-          2.1565
+          63.525,
+          -0.9,
+          2.15
         ],
         "max": [
-          64.50812499999999,
-          0.9275,
-          4.2635
+          64.475,
+          0.9,
+          4.2700000000000005
+        ]
+      }
+    },
+    {
+      "name": "JSONCali_471",
+      "obj_file": "meshes/JSONCali_471.obj",
+      "color": "#c74440",
+      "source_file": "JSONCali.json",
+      "expression_id": "471",
+      "family": "Z_SLAB_REGION",
+      "bounds": {
+        "min": [
+          63.525,
+          -0.9,
+          8.870000000000001
+        ],
+        "max": [
+          64.475,
+          -0.23749999999999993,
+          10.62563
+        ]
+      }
+    },
+    {
+      "name": "JSONCali_472",
+      "obj_file": "meshes/JSONCali_472.obj",
+      "color": "#c74440",
+      "source_file": "JSONCali.json",
+      "expression_id": "472",
+      "family": "Z_SLAB_REGION",
+      "bounds": {
+        "min": [
+          63.525,
+          0.2375,
+          8.87
+        ],
+        "max": [
+          64.475,
+          0.9000000000000001,
+          10.62563
         ]
       }
     },
@@ -5549,7 +5929,7 @@
       "color": "#c74440",
       "source_file": "JSONCali.json",
       "expression_id": "473",
-      "family": "BOX_BOUNDED_REGION",
+      "family": "Z_SLAB_REGION",
       "bounds": {
         "min": [
           63.525,
@@ -5564,12 +5944,52 @@
       }
     },
     {
+      "name": "JSONCali_481",
+      "obj_file": "meshes/JSONCali_481.obj",
+      "color": "#c74440",
+      "source_file": "JSONCali.json",
+      "expression_id": "481",
+      "family": "Z_SLAB_REGION",
+      "bounds": {
+        "min": [
+          63.525,
+          -0.9,
+          14.08
+        ],
+        "max": [
+          64.475,
+          -0.4375,
+          14.935625
+        ]
+      }
+    },
+    {
+      "name": "JSONCali_482",
+      "obj_file": "meshes/JSONCali_482.obj",
+      "color": "#c74440",
+      "source_file": "JSONCali.json",
+      "expression_id": "482",
+      "family": "Z_SLAB_REGION",
+      "bounds": {
+        "min": [
+          63.525,
+          0.4375,
+          14.08
+        ],
+        "max": [
+          64.475,
+          0.9,
+          14.935625
+        ]
+      }
+    },
+    {
       "name": "JSONCali_483",
       "obj_file": "meshes/JSONCali_483.obj",
       "color": "#c74440",
       "source_file": "JSONCali.json",
       "expression_id": "483",
-      "family": "BOX_BOUNDED_REGION",
+      "family": "Z_SLAB_REGION",
       "bounds": {
         "min": [
           63.525,
@@ -5584,12 +6004,52 @@
       }
     },
     {
+      "name": "JSONCali_485",
+      "obj_file": "meshes/JSONCali_485.obj",
+      "color": "#c74440",
+      "source_file": "JSONCali.json",
+      "expression_id": "485",
+      "family": "Z_SLAB_REGION",
+      "bounds": {
+        "min": [
+          63.525,
+          -1.0,
+          18.45
+        ],
+        "max": [
+          64.475,
+          -0.59524,
+          18.79405
+        ]
+      }
+    },
+    {
+      "name": "JSONCali_486",
+      "obj_file": "meshes/JSONCali_486.obj",
+      "color": "#c74440",
+      "source_file": "JSONCali.json",
+      "expression_id": "486",
+      "family": "Z_SLAB_REGION",
+      "bounds": {
+        "min": [
+          63.525,
+          0.59524,
+          18.45
+        ],
+        "max": [
+          64.475,
+          1.0,
+          18.79405
+        ]
+      }
+    },
+    {
       "name": "JSONCali_487",
       "obj_file": "meshes/JSONCali_487.obj",
       "color": "#c74440",
       "source_file": "JSONCali.json",
       "expression_id": "487",
-      "family": "BOX_BOUNDED_REGION",
+      "family": "Z_SLAB_REGION",
       "bounds": {
         "min": [
           63.525,
@@ -5604,12 +6064,52 @@
       }
     },
     {
+      "name": "JSONCali_490",
+      "obj_file": "meshes/JSONCali_490.obj",
+      "color": "#c74440",
+      "source_file": "JSONCali.json",
+      "expression_id": "490",
+      "family": "Z_SLAB_REGION",
+      "bounds": {
+        "min": [
+          63.525,
+          -1.05,
+          21.4775
+        ],
+        "max": [
+          64.475,
+          -0.65,
+          21.957500000000003
+        ]
+      }
+    },
+    {
+      "name": "JSONCali_491",
+      "obj_file": "meshes/JSONCali_491.obj",
+      "color": "#c74440",
+      "source_file": "JSONCali.json",
+      "expression_id": "491",
+      "family": "Z_SLAB_REGION",
+      "bounds": {
+        "min": [
+          63.525,
+          0.65,
+          21.4775
+        ],
+        "max": [
+          64.475,
+          1.05,
+          21.957500000000003
+        ]
+      }
+    },
+    {
       "name": "JSONCali_492",
       "obj_file": "meshes/JSONCali_492.obj",
       "color": "#c74440",
       "source_file": "JSONCali.json",
       "expression_id": "492",
-      "family": "BOX_BOUNDED_REGION",
+      "family": "Z_SLAB_REGION",
       "bounds": {
         "min": [
           63.525,
