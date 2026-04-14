@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "mesh_count": 475,
+  "mesh_count": 557,
   "failed_mesh_count": 0,
   "meshes": [
     {
@@ -189,17 +189,17 @@
       "color": "#fa7e19",
       "source_file": "JSONAkashi.json",
       "expression_id": "500",
-      "family": "BOX_BOUNDED_REGION",
+      "family": "Z_SLAB_REGION",
       "bounds": {
         "min": [
-          -438.125,
+          -500.0,
           -23.0,
           -16.9818225
         ],
         "max": [
-          -407.1875,
+          -5.0,
           -22.0,
-          -5.497021093750002
+          166.77499999999998
         ]
       }
     },
@@ -209,17 +209,17 @@
       "color": "#fa7e19",
       "source_file": "JSONAkashi.json",
       "expression_id": "502",
-      "family": "BOX_BOUNDED_REGION",
+      "family": "Z_SLAB_REGION",
       "bounds": {
         "min": [
-          407.1875,
+          5.0,
           -23.0,
           -16.9818225
         ],
         "max": [
-          438.125,
+          500.0,
           -22.0,
-          -5.497021093750002
+          166.77499999999998
         ]
       }
     },
@@ -229,17 +229,17 @@
       "color": "#fa7e19",
       "source_file": "JSONAkashi.json",
       "expression_id": "501",
-      "family": "BOX_BOUNDED_REGION",
+      "family": "Z_SLAB_REGION",
       "bounds": {
         "min": [
-          -438.125,
+          -500.0,
           22.0,
           -16.9818225
         ],
         "max": [
-          -407.1875,
+          -5.0,
           23.0,
-          -5.497021093750002
+          166.77499999999998
         ]
       }
     },
@@ -249,17 +249,17 @@
       "color": "#fa7e19",
       "source_file": "JSONAkashi.json",
       "expression_id": "503",
-      "family": "BOX_BOUNDED_REGION",
+      "family": "Z_SLAB_REGION",
       "bounds": {
         "min": [
-          407.1875,
+          5.0,
           22.0,
           -16.9818225
         ],
         "max": [
-          438.125,
+          500.0,
           23.0,
-          -5.497021093750002
+          166.77499999999998
         ]
       }
     },
@@ -7884,6 +7884,26 @@
       }
     },
     {
+      "name": "JSONAkashi_594",
+      "obj_file": "meshes/JSONAkashi_594.obj",
+      "color": "#fa7e19",
+      "source_file": "JSONAkashi.json",
+      "expression_id": "594",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          14.975000000000001,
+          -23.025,
+          -9.740390475
+        ],
+        "max": [
+          16.025,
+          -21.975,
+          153.81710047499996
+        ]
+      }
+    },
+    {
       "name": "JSONAkashi_552",
       "obj_file": "meshes/JSONAkashi_552.obj",
       "color": "#fa7e19",
@@ -7898,6 +7918,26 @@
         ],
         "max": [
           -14.975000000000001,
+          23.025,
+          153.81710047499996
+        ]
+      }
+    },
+    {
+      "name": "JSONAkashi_595",
+      "obj_file": "meshes/JSONAkashi_595.obj",
+      "color": "#fa7e19",
+      "source_file": "JSONAkashi.json",
+      "expression_id": "595",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          14.975000000000001,
+          21.975,
+          -9.740390475
+        ],
+        "max": [
+          16.025,
           23.025,
           153.81710047499996
         ]
@@ -7924,6 +7964,26 @@
       }
     },
     {
+      "name": "JSONAkashi_675",
+      "obj_file": "meshes/JSONAkashi_675.obj",
+      "color": "#fa7e19",
+      "source_file": "JSONAkashi.json",
+      "expression_id": "675",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          25.975,
+          -23.025,
+          -9.95351984475
+        ],
+        "max": [
+          27.025,
+          -21.975,
+          146.28007094474998
+        ]
+      }
+    },
+    {
       "name": "JSONAkashi_592",
       "obj_file": "meshes/JSONAkashi_592.obj",
       "color": "#fa7e19",
@@ -7938,6 +7998,26 @@
         ],
         "max": [
           -25.975,
+          23.025,
+          146.28007094474998
+        ]
+      }
+    },
+    {
+      "name": "JSONAkashi_674",
+      "obj_file": "meshes/JSONAkashi_674.obj",
+      "color": "#fa7e19",
+      "source_file": "JSONAkashi.json",
+      "expression_id": "674",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          25.975,
+          21.975,
+          -9.95351984475
+        ],
+        "max": [
+          27.025,
           23.025,
           146.28007094474998
         ]
@@ -7964,6 +8044,26 @@
       }
     },
     {
+      "name": "JSONAkashi_673",
+      "obj_file": "meshes/JSONAkashi_673.obj",
+      "color": "#fa7e19",
+      "source_file": "JSONAkashi.json",
+      "expression_id": "673",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          36.974999999999994,
+          -23.025,
+          -10.161810364000004
+        ],
+        "max": [
+          38.025000000000006,
+          -21.975,
+          138.91416076399994
+        ]
+      }
+    },
+    {
       "name": "JSONAkashi_591",
       "obj_file": "meshes/JSONAkashi_591.obj",
       "color": "#fa7e19",
@@ -7978,6 +8078,26 @@
         ],
         "max": [
           -36.974999999999994,
+          23.025,
+          138.91416076399994
+        ]
+      }
+    },
+    {
+      "name": "JSONAkashi_672",
+      "obj_file": "meshes/JSONAkashi_672.obj",
+      "color": "#fa7e19",
+      "source_file": "JSONAkashi.json",
+      "expression_id": "672",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          36.974999999999994,
+          21.975,
+          -10.161810364000004
+        ],
+        "max": [
+          38.025000000000006,
           23.025,
           138.91416076399994
         ]
@@ -8004,6 +8124,26 @@
       }
     },
     {
+      "name": "JSONAkashi_671",
+      "obj_file": "meshes/JSONAkashi_671.obj",
+      "color": "#fa7e19",
+      "source_file": "JSONAkashi.json",
+      "expression_id": "671",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          47.974999999999994,
+          -23.025,
+          -10.36526203275
+        ],
+        "max": [
+          49.025000000000006,
+          -21.975,
+          131.71936993274997
+        ]
+      }
+    },
+    {
       "name": "JSONAkashi_590",
       "obj_file": "meshes/JSONAkashi_590.obj",
       "color": "#fa7e19",
@@ -8018,6 +8158,26 @@
         ],
         "max": [
           -47.974999999999994,
+          23.025,
+          131.71936993274997
+        ]
+      }
+    },
+    {
+      "name": "JSONAkashi_670",
+      "obj_file": "meshes/JSONAkashi_670.obj",
+      "color": "#fa7e19",
+      "source_file": "JSONAkashi.json",
+      "expression_id": "670",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          47.974999999999994,
+          21.975,
+          -10.36526203275
+        ],
+        "max": [
+          49.025000000000006,
           23.025,
           131.71936993274997
         ]
@@ -8044,6 +8204,26 @@
       }
     },
     {
+      "name": "JSONAkashi_669",
+      "obj_file": "meshes/JSONAkashi_669.obj",
+      "color": "#fa7e19",
+      "source_file": "JSONAkashi.json",
+      "expression_id": "669",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          58.974999999999994,
+          -23.025,
+          -10.563874851000003
+        ],
+        "max": [
+          60.025000000000006,
+          -21.975,
+          124.695698451
+        ]
+      }
+    },
+    {
       "name": "JSONAkashi_589",
       "obj_file": "meshes/JSONAkashi_589.obj",
       "color": "#fa7e19",
@@ -8058,6 +8238,26 @@
         ],
         "max": [
           -58.974999999999994,
+          23.025,
+          124.695698451
+        ]
+      }
+    },
+    {
+      "name": "JSONAkashi_668",
+      "obj_file": "meshes/JSONAkashi_668.obj",
+      "color": "#fa7e19",
+      "source_file": "JSONAkashi.json",
+      "expression_id": "668",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          58.974999999999994,
+          21.975,
+          -10.563874851000003
+        ],
+        "max": [
+          60.025000000000006,
           23.025,
           124.695698451
         ]
@@ -8084,6 +8284,26 @@
       }
     },
     {
+      "name": "JSONAkashi_667",
+      "obj_file": "meshes/JSONAkashi_667.obj",
+      "color": "#fa7e19",
+      "source_file": "JSONAkashi.json",
+      "expression_id": "667",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          69.975,
+          -23.025,
+          -10.757648818749999
+        ],
+        "max": [
+          71.025,
+          -21.975,
+          117.84314631874999
+        ]
+      }
+    },
+    {
       "name": "JSONAkashi_588",
       "obj_file": "meshes/JSONAkashi_588.obj",
       "color": "#fa7e19",
@@ -8098,6 +8318,26 @@
         ],
         "max": [
           -69.975,
+          23.025,
+          117.84314631874999
+        ]
+      }
+    },
+    {
+      "name": "JSONAkashi_666",
+      "obj_file": "meshes/JSONAkashi_666.obj",
+      "color": "#fa7e19",
+      "source_file": "JSONAkashi.json",
+      "expression_id": "666",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          69.975,
+          21.975,
+          -10.757648818749999
+        ],
+        "max": [
+          71.025,
           23.025,
           117.84314631874999
         ]
@@ -8124,6 +8364,26 @@
       }
     },
     {
+      "name": "JSONAkashi_665",
+      "obj_file": "meshes/JSONAkashi_665.obj",
+      "color": "#fa7e19",
+      "source_file": "JSONAkashi.json",
+      "expression_id": "665",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          80.975,
+          -23.025,
+          -10.946583936
+        ],
+        "max": [
+          82.025,
+          -21.975,
+          111.16171353600001
+        ]
+      }
+    },
+    {
       "name": "JSONAkashi_587",
       "obj_file": "meshes/JSONAkashi_587.obj",
       "color": "#fa7e19",
@@ -8138,6 +8398,26 @@
         ],
         "max": [
           -80.975,
+          23.025,
+          111.16171353600001
+        ]
+      }
+    },
+    {
+      "name": "JSONAkashi_664",
+      "obj_file": "meshes/JSONAkashi_664.obj",
+      "color": "#fa7e19",
+      "source_file": "JSONAkashi.json",
+      "expression_id": "664",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          80.975,
+          21.975,
+          -10.946583936
+        ],
+        "max": [
+          82.025,
           23.025,
           111.16171353600001
         ]
@@ -8164,6 +8444,26 @@
       }
     },
     {
+      "name": "JSONAkashi_663",
+      "obj_file": "meshes/JSONAkashi_663.obj",
+      "color": "#fa7e19",
+      "source_file": "JSONAkashi.json",
+      "expression_id": "663",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          91.975,
+          -23.025,
+          -11.130680202750002
+        ],
+        "max": [
+          93.025,
+          -21.975,
+          104.65140010275002
+        ]
+      }
+    },
+    {
       "name": "JSONAkashi_586",
       "obj_file": "meshes/JSONAkashi_586.obj",
       "color": "#fa7e19",
@@ -8178,6 +8478,26 @@
         ],
         "max": [
           -91.975,
+          23.025,
+          104.65140010275002
+        ]
+      }
+    },
+    {
+      "name": "JSONAkashi_662",
+      "obj_file": "meshes/JSONAkashi_662.obj",
+      "color": "#fa7e19",
+      "source_file": "JSONAkashi.json",
+      "expression_id": "662",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          91.975,
+          21.975,
+          -11.130680202750002
+        ],
+        "max": [
+          93.025,
           23.025,
           104.65140010275002
         ]
@@ -8204,6 +8524,26 @@
       }
     },
     {
+      "name": "JSONAkashi_661",
+      "obj_file": "meshes/JSONAkashi_661.obj",
+      "color": "#fa7e19",
+      "source_file": "JSONAkashi.json",
+      "expression_id": "661",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          102.975,
+          -23.025,
+          -11.309937619
+        ],
+        "max": [
+          104.025,
+          -21.975,
+          98.31220601900002
+        ]
+      }
+    },
+    {
       "name": "JSONAkashi_585",
       "obj_file": "meshes/JSONAkashi_585.obj",
       "color": "#fa7e19",
@@ -8218,6 +8558,26 @@
         ],
         "max": [
           -102.975,
+          23.025,
+          98.31220601900002
+        ]
+      }
+    },
+    {
+      "name": "JSONAkashi_660",
+      "obj_file": "meshes/JSONAkashi_660.obj",
+      "color": "#fa7e19",
+      "source_file": "JSONAkashi.json",
+      "expression_id": "660",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          102.975,
+          21.975,
+          -11.309937619
+        ],
+        "max": [
+          104.025,
           23.025,
           98.31220601900002
         ]
@@ -8244,6 +8604,26 @@
       }
     },
     {
+      "name": "JSONAkashi_659",
+      "obj_file": "meshes/JSONAkashi_659.obj",
+      "color": "#fa7e19",
+      "source_file": "JSONAkashi.json",
+      "expression_id": "659",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          113.975,
+          -23.025,
+          -11.484356184750002
+        ],
+        "max": [
+          115.025,
+          -21.975,
+          92.14413128474997
+        ]
+      }
+    },
+    {
       "name": "JSONAkashi_584",
       "obj_file": "meshes/JSONAkashi_584.obj",
       "color": "#fa7e19",
@@ -8258,6 +8638,26 @@
         ],
         "max": [
           -113.975,
+          23.025,
+          92.14413128474997
+        ]
+      }
+    },
+    {
+      "name": "JSONAkashi_658",
+      "obj_file": "meshes/JSONAkashi_658.obj",
+      "color": "#fa7e19",
+      "source_file": "JSONAkashi.json",
+      "expression_id": "658",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          113.975,
+          21.975,
+          -11.484356184750002
+        ],
+        "max": [
+          115.025,
           23.025,
           92.14413128474997
         ]
@@ -8284,6 +8684,26 @@
       }
     },
     {
+      "name": "JSONAkashi_657",
+      "obj_file": "meshes/JSONAkashi_657.obj",
+      "color": "#fa7e19",
+      "source_file": "JSONAkashi.json",
+      "expression_id": "657",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          124.975,
+          -23.025,
+          -11.6539359
+        ],
+        "max": [
+          126.025,
+          -21.975,
+          86.14717589999998
+        ]
+      }
+    },
+    {
       "name": "JSONAkashi_583",
       "obj_file": "meshes/JSONAkashi_583.obj",
       "color": "#fa7e19",
@@ -8298,6 +8718,26 @@
         ],
         "max": [
           -124.975,
+          23.025,
+          86.14717589999998
+        ]
+      }
+    },
+    {
+      "name": "JSONAkashi_656",
+      "obj_file": "meshes/JSONAkashi_656.obj",
+      "color": "#fa7e19",
+      "source_file": "JSONAkashi.json",
+      "expression_id": "656",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          124.975,
+          21.975,
+          -11.6539359
+        ],
+        "max": [
+          126.025,
           23.025,
           86.14717589999998
         ]
@@ -8324,6 +8764,26 @@
       }
     },
     {
+      "name": "JSONAkashi_655",
+      "obj_file": "meshes/JSONAkashi_655.obj",
+      "color": "#fa7e19",
+      "source_file": "JSONAkashi.json",
+      "expression_id": "655",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          135.97500000000002,
+          -23.025,
+          -11.818676764750002
+        ],
+        "max": [
+          137.02499999999998,
+          -21.975,
+          80.32133986475
+        ]
+      }
+    },
+    {
       "name": "JSONAkashi_582",
       "obj_file": "meshes/JSONAkashi_582.obj",
       "color": "#fa7e19",
@@ -8338,6 +8798,26 @@
         ],
         "max": [
           -135.97500000000002,
+          23.025,
+          80.32133986475
+        ]
+      }
+    },
+    {
+      "name": "JSONAkashi_654",
+      "obj_file": "meshes/JSONAkashi_654.obj",
+      "color": "#fa7e19",
+      "source_file": "JSONAkashi.json",
+      "expression_id": "654",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          135.97500000000002,
+          21.975,
+          -11.818676764750002
+        ],
+        "max": [
+          137.02499999999998,
           23.025,
           80.32133986475
         ]
@@ -8364,6 +8844,26 @@
       }
     },
     {
+      "name": "JSONAkashi_653",
+      "obj_file": "meshes/JSONAkashi_653.obj",
+      "color": "#fa7e19",
+      "source_file": "JSONAkashi.json",
+      "expression_id": "653",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          146.97500000000002,
+          -23.025,
+          -11.978578779000001
+        ],
+        "max": [
+          148.02499999999998,
+          -21.975,
+          74.666623179
+        ]
+      }
+    },
+    {
       "name": "JSONAkashi_581",
       "obj_file": "meshes/JSONAkashi_581.obj",
       "color": "#fa7e19",
@@ -8378,6 +8878,26 @@
         ],
         "max": [
           -146.97500000000002,
+          23.025,
+          74.666623179
+        ]
+      }
+    },
+    {
+      "name": "JSONAkashi_652",
+      "obj_file": "meshes/JSONAkashi_652.obj",
+      "color": "#fa7e19",
+      "source_file": "JSONAkashi.json",
+      "expression_id": "652",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          146.97500000000002,
+          21.975,
+          -11.978578779000001
+        ],
+        "max": [
+          148.02499999999998,
           23.025,
           74.666623179
         ]
@@ -8404,6 +8924,26 @@
       }
     },
     {
+      "name": "JSONAkashi_651",
+      "obj_file": "meshes/JSONAkashi_651.obj",
+      "color": "#fa7e19",
+      "source_file": "JSONAkashi.json",
+      "expression_id": "651",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          157.97500000000002,
+          -23.025,
+          -12.13364194275
+        ],
+        "max": [
+          159.02499999999998,
+          -21.975,
+          69.18302584275
+        ]
+      }
+    },
+    {
       "name": "JSONAkashi_580",
       "obj_file": "meshes/JSONAkashi_580.obj",
       "color": "#fa7e19",
@@ -8418,6 +8958,26 @@
         ],
         "max": [
           -157.97500000000002,
+          23.025,
+          69.18302584275
+        ]
+      }
+    },
+    {
+      "name": "JSONAkashi_650",
+      "obj_file": "meshes/JSONAkashi_650.obj",
+      "color": "#fa7e19",
+      "source_file": "JSONAkashi.json",
+      "expression_id": "650",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          157.97500000000002,
+          21.975,
+          -12.13364194275
+        ],
+        "max": [
+          159.02499999999998,
           23.025,
           69.18302584275
         ]
@@ -8444,6 +9004,26 @@
       }
     },
     {
+      "name": "JSONAkashi_649",
+      "obj_file": "meshes/JSONAkashi_649.obj",
+      "color": "#fa7e19",
+      "source_file": "JSONAkashi.json",
+      "expression_id": "649",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          168.97500000000002,
+          -23.025,
+          -12.283866256
+        ],
+        "max": [
+          170.02499999999998,
+          -21.975,
+          63.87054785600001
+        ]
+      }
+    },
+    {
       "name": "JSONAkashi_579",
       "obj_file": "meshes/JSONAkashi_579.obj",
       "color": "#fa7e19",
@@ -8458,6 +9038,26 @@
         ],
         "max": [
           -168.97500000000002,
+          23.025,
+          63.87054785600001
+        ]
+      }
+    },
+    {
+      "name": "JSONAkashi_648",
+      "obj_file": "meshes/JSONAkashi_648.obj",
+      "color": "#fa7e19",
+      "source_file": "JSONAkashi.json",
+      "expression_id": "648",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          168.97500000000002,
+          21.975,
+          -12.283866256
+        ],
+        "max": [
+          170.02499999999998,
           23.025,
           63.87054785600001
         ]
@@ -8484,6 +9084,26 @@
       }
     },
     {
+      "name": "JSONAkashi_647",
+      "obj_file": "meshes/JSONAkashi_647.obj",
+      "color": "#fa7e19",
+      "source_file": "JSONAkashi.json",
+      "expression_id": "647",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          179.97500000000002,
+          -23.025,
+          -12.429251718749999
+        ],
+        "max": [
+          181.02499999999998,
+          -21.975,
+          58.729189218750015
+        ]
+      }
+    },
+    {
       "name": "JSONAkashi_578",
       "obj_file": "meshes/JSONAkashi_578.obj",
       "color": "#fa7e19",
@@ -8498,6 +9118,26 @@
         ],
         "max": [
           -179.97500000000002,
+          23.025,
+          58.729189218750015
+        ]
+      }
+    },
+    {
+      "name": "JSONAkashi_646",
+      "obj_file": "meshes/JSONAkashi_646.obj",
+      "color": "#fa7e19",
+      "source_file": "JSONAkashi.json",
+      "expression_id": "646",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          179.97500000000002,
+          21.975,
+          -12.429251718749999
+        ],
+        "max": [
+          181.02499999999998,
           23.025,
           58.729189218750015
         ]
@@ -8524,6 +9164,26 @@
       }
     },
     {
+      "name": "JSONAkashi_645",
+      "obj_file": "meshes/JSONAkashi_645.obj",
+      "color": "#fa7e19",
+      "source_file": "JSONAkashi.json",
+      "expression_id": "645",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          190.97500000000002,
+          -23.025,
+          -12.569798331000001
+        ],
+        "max": [
+          192.02499999999998,
+          -21.975,
+          53.75894993099999
+        ]
+      }
+    },
+    {
       "name": "JSONAkashi_577",
       "obj_file": "meshes/JSONAkashi_577.obj",
       "color": "#fa7e19",
@@ -8538,6 +9198,26 @@
         ],
         "max": [
           -190.97500000000002,
+          23.025,
+          53.75894993099999
+        ]
+      }
+    },
+    {
+      "name": "JSONAkashi_644",
+      "obj_file": "meshes/JSONAkashi_644.obj",
+      "color": "#fa7e19",
+      "source_file": "JSONAkashi.json",
+      "expression_id": "644",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          190.97500000000002,
+          21.975,
+          -12.569798331000001
+        ],
+        "max": [
+          192.02499999999998,
           23.025,
           53.75894993099999
         ]
@@ -8564,6 +9244,26 @@
       }
     },
     {
+      "name": "JSONAkashi_643",
+      "obj_file": "meshes/JSONAkashi_643.obj",
+      "color": "#fa7e19",
+      "source_file": "JSONAkashi.json",
+      "expression_id": "643",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          201.97500000000002,
+          -23.025,
+          -12.70550609275
+        ],
+        "max": [
+          203.02499999999998,
+          -21.975,
+          48.95982999275
+        ]
+      }
+    },
+    {
       "name": "JSONAkashi_576",
       "obj_file": "meshes/JSONAkashi_576.obj",
       "color": "#fa7e19",
@@ -8578,6 +9278,26 @@
         ],
         "max": [
           -201.97500000000002,
+          23.025,
+          48.95982999275
+        ]
+      }
+    },
+    {
+      "name": "JSONAkashi_642",
+      "obj_file": "meshes/JSONAkashi_642.obj",
+      "color": "#fa7e19",
+      "source_file": "JSONAkashi.json",
+      "expression_id": "642",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          201.97500000000002,
+          21.975,
+          -12.70550609275
+        ],
+        "max": [
+          203.02499999999998,
           23.025,
           48.95982999275
         ]
@@ -8604,6 +9324,26 @@
       }
     },
     {
+      "name": "JSONAkashi_641",
+      "obj_file": "meshes/JSONAkashi_641.obj",
+      "color": "#fa7e19",
+      "source_file": "JSONAkashi.json",
+      "expression_id": "641",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          212.97500000000002,
+          -23.025,
+          -12.836375004
+        ],
+        "max": [
+          214.02499999999998,
+          -21.975,
+          44.331829404
+        ]
+      }
+    },
+    {
       "name": "JSONAkashi_575",
       "obj_file": "meshes/JSONAkashi_575.obj",
       "color": "#fa7e19",
@@ -8618,6 +9358,26 @@
         ],
         "max": [
           -212.97500000000002,
+          23.025,
+          44.331829404
+        ]
+      }
+    },
+    {
+      "name": "JSONAkashi_640",
+      "obj_file": "meshes/JSONAkashi_640.obj",
+      "color": "#fa7e19",
+      "source_file": "JSONAkashi.json",
+      "expression_id": "640",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          212.97500000000002,
+          21.975,
+          -12.836375004
+        ],
+        "max": [
+          214.02499999999998,
           23.025,
           44.331829404
         ]
@@ -8644,6 +9404,26 @@
       }
     },
     {
+      "name": "JSONAkashi_639",
+      "obj_file": "meshes/JSONAkashi_639.obj",
+      "color": "#fa7e19",
+      "source_file": "JSONAkashi.json",
+      "expression_id": "639",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          223.97500000000002,
+          -23.025,
+          -12.962405064750001
+        ],
+        "max": [
+          225.02499999999998,
+          -21.975,
+          39.874948164749995
+        ]
+      }
+    },
+    {
       "name": "JSONAkashi_574",
       "obj_file": "meshes/JSONAkashi_574.obj",
       "color": "#fa7e19",
@@ -8658,6 +9438,26 @@
         ],
         "max": [
           -223.97500000000002,
+          23.025,
+          39.874948164749995
+        ]
+      }
+    },
+    {
+      "name": "JSONAkashi_638",
+      "obj_file": "meshes/JSONAkashi_638.obj",
+      "color": "#fa7e19",
+      "source_file": "JSONAkashi.json",
+      "expression_id": "638",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          223.97500000000002,
+          21.975,
+          -12.962405064750001
+        ],
+        "max": [
+          225.02499999999998,
           23.025,
           39.874948164749995
         ]
@@ -8684,6 +9484,26 @@
       }
     },
     {
+      "name": "JSONAkashi_637",
+      "obj_file": "meshes/JSONAkashi_637.obj",
+      "color": "#fa7e19",
+      "source_file": "JSONAkashi.json",
+      "expression_id": "637",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          234.97500000000002,
+          -23.025,
+          -13.083596275000001
+        ],
+        "max": [
+          236.02499999999998,
+          -21.975,
+          35.589186274999996
+        ]
+      }
+    },
+    {
       "name": "JSONAkashi_573",
       "obj_file": "meshes/JSONAkashi_573.obj",
       "color": "#fa7e19",
@@ -8698,6 +9518,26 @@
         ],
         "max": [
           -234.97500000000002,
+          23.025,
+          35.589186274999996
+        ]
+      }
+    },
+    {
+      "name": "JSONAkashi_636",
+      "obj_file": "meshes/JSONAkashi_636.obj",
+      "color": "#fa7e19",
+      "source_file": "JSONAkashi.json",
+      "expression_id": "636",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          234.97500000000002,
+          21.975,
+          -13.083596275000001
+        ],
+        "max": [
+          236.02499999999998,
           23.025,
           35.589186274999996
         ]
@@ -8724,6 +9564,26 @@
       }
     },
     {
+      "name": "JSONAkashi_635",
+      "obj_file": "meshes/JSONAkashi_635.obj",
+      "color": "#fa7e19",
+      "source_file": "JSONAkashi.json",
+      "expression_id": "635",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          245.97500000000002,
+          -23.025,
+          -13.199948634750001
+        ],
+        "max": [
+          247.02499999999998,
+          -21.975,
+          31.474543734750007
+        ]
+      }
+    },
+    {
       "name": "JSONAkashi_572",
       "obj_file": "meshes/JSONAkashi_572.obj",
       "color": "#fa7e19",
@@ -8738,6 +9598,26 @@
         ],
         "max": [
           -245.97500000000002,
+          23.025,
+          31.474543734750007
+        ]
+      }
+    },
+    {
+      "name": "JSONAkashi_634",
+      "obj_file": "meshes/JSONAkashi_634.obj",
+      "color": "#fa7e19",
+      "source_file": "JSONAkashi.json",
+      "expression_id": "634",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          245.97500000000002,
+          21.975,
+          -13.199948634750001
+        ],
+        "max": [
+          247.02499999999998,
           23.025,
           31.474543734750007
         ]
@@ -8764,6 +9644,26 @@
       }
     },
     {
+      "name": "JSONAkashi_633",
+      "obj_file": "meshes/JSONAkashi_633.obj",
+      "color": "#fa7e19",
+      "source_file": "JSONAkashi.json",
+      "expression_id": "633",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          256.975,
+          -23.025,
+          -13.311462143999998
+        ],
+        "max": [
+          258.025,
+          -21.975,
+          27.531020543999997
+        ]
+      }
+    },
+    {
       "name": "JSONAkashi_571",
       "obj_file": "meshes/JSONAkashi_571.obj",
       "color": "#fa7e19",
@@ -8778,6 +9678,26 @@
         ],
         "max": [
           -256.975,
+          23.025,
+          27.531020543999997
+        ]
+      }
+    },
+    {
+      "name": "JSONAkashi_632",
+      "obj_file": "meshes/JSONAkashi_632.obj",
+      "color": "#fa7e19",
+      "source_file": "JSONAkashi.json",
+      "expression_id": "632",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          256.975,
+          21.975,
+          -13.311462143999998
+        ],
+        "max": [
+          258.025,
           23.025,
           27.531020543999997
         ]
@@ -8804,6 +9724,26 @@
       }
     },
     {
+      "name": "JSONAkashi_631",
+      "obj_file": "meshes/JSONAkashi_631.obj",
+      "color": "#fa7e19",
+      "source_file": "JSONAkashi.json",
+      "expression_id": "631",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          267.975,
+          -23.025,
+          -13.418136802749999
+        ],
+        "max": [
+          269.025,
+          -21.975,
+          23.75861670275
+        ]
+      }
+    },
+    {
       "name": "JSONAkashi_570",
       "obj_file": "meshes/JSONAkashi_570.obj",
       "color": "#fa7e19",
@@ -8818,6 +9758,26 @@
         ],
         "max": [
           -267.975,
+          23.025,
+          23.75861670275
+        ]
+      }
+    },
+    {
+      "name": "JSONAkashi_630",
+      "obj_file": "meshes/JSONAkashi_630.obj",
+      "color": "#fa7e19",
+      "source_file": "JSONAkashi.json",
+      "expression_id": "630",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          267.975,
+          21.975,
+          -13.418136802749999
+        ],
+        "max": [
+          269.025,
           23.025,
           23.75861670275
         ]
@@ -8844,6 +9804,26 @@
       }
     },
     {
+      "name": "JSONAkashi_629",
+      "obj_file": "meshes/JSONAkashi_629.obj",
+      "color": "#fa7e19",
+      "source_file": "JSONAkashi.json",
+      "expression_id": "629",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          278.975,
+          -23.025,
+          -13.519972611
+        ],
+        "max": [
+          280.025,
+          -21.975,
+          20.157332210999993
+        ]
+      }
+    },
+    {
       "name": "JSONAkashi_569",
       "obj_file": "meshes/JSONAkashi_569.obj",
       "color": "#fa7e19",
@@ -8858,6 +9838,26 @@
         ],
         "max": [
           -278.975,
+          23.025,
+          20.157332210999993
+        ]
+      }
+    },
+    {
+      "name": "JSONAkashi_628",
+      "obj_file": "meshes/JSONAkashi_628.obj",
+      "color": "#fa7e19",
+      "source_file": "JSONAkashi.json",
+      "expression_id": "628",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          278.975,
+          21.975,
+          -13.519972611
+        ],
+        "max": [
+          280.025,
           23.025,
           20.157332210999993
         ]
@@ -8884,6 +9884,26 @@
       }
     },
     {
+      "name": "JSONAkashi_627",
+      "obj_file": "meshes/JSONAkashi_627.obj",
+      "color": "#fa7e19",
+      "source_file": "JSONAkashi.json",
+      "expression_id": "627",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          289.975,
+          -23.025,
+          -13.616969568750001
+        ],
+        "max": [
+          291.025,
+          -21.975,
+          16.727167068749996
+        ]
+      }
+    },
+    {
       "name": "JSONAkashi_568",
       "obj_file": "meshes/JSONAkashi_568.obj",
       "color": "#fa7e19",
@@ -8898,6 +9918,26 @@
         ],
         "max": [
           -289.975,
+          23.025,
+          16.727167068749996
+        ]
+      }
+    },
+    {
+      "name": "JSONAkashi_626",
+      "obj_file": "meshes/JSONAkashi_626.obj",
+      "color": "#fa7e19",
+      "source_file": "JSONAkashi.json",
+      "expression_id": "626",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          289.975,
+          21.975,
+          -13.616969568750001
+        ],
+        "max": [
+          291.025,
           23.025,
           16.727167068749996
         ]
@@ -8924,6 +9964,26 @@
       }
     },
     {
+      "name": "JSONAkashi_625",
+      "obj_file": "meshes/JSONAkashi_625.obj",
+      "color": "#fa7e19",
+      "source_file": "JSONAkashi.json",
+      "expression_id": "625",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          300.975,
+          -23.025,
+          -13.709127676000001
+        ],
+        "max": [
+          302.025,
+          -21.975,
+          13.468121276
+        ]
+      }
+    },
+    {
       "name": "JSONAkashi_567",
       "obj_file": "meshes/JSONAkashi_567.obj",
       "color": "#fa7e19",
@@ -8938,6 +9998,26 @@
         ],
         "max": [
           -300.975,
+          23.025,
+          13.468121276
+        ]
+      }
+    },
+    {
+      "name": "JSONAkashi_624",
+      "obj_file": "meshes/JSONAkashi_624.obj",
+      "color": "#fa7e19",
+      "source_file": "JSONAkashi.json",
+      "expression_id": "624",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          300.975,
+          21.975,
+          -13.709127676000001
+        ],
+        "max": [
+          302.025,
           23.025,
           13.468121276
         ]
@@ -8964,6 +10044,26 @@
       }
     },
     {
+      "name": "JSONAkashi_623",
+      "obj_file": "meshes/JSONAkashi_623.obj",
+      "color": "#fa7e19",
+      "source_file": "JSONAkashi.json",
+      "expression_id": "623",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          311.975,
+          -23.025,
+          -13.796446932750001
+        ],
+        "max": [
+          313.025,
+          -21.975,
+          10.38019483275
+        ]
+      }
+    },
+    {
       "name": "JSONAkashi_566",
       "obj_file": "meshes/JSONAkashi_566.obj",
       "color": "#fa7e19",
@@ -8978,6 +10078,26 @@
         ],
         "max": [
           -311.975,
+          23.025,
+          10.38019483275
+        ]
+      }
+    },
+    {
+      "name": "JSONAkashi_622",
+      "obj_file": "meshes/JSONAkashi_622.obj",
+      "color": "#fa7e19",
+      "source_file": "JSONAkashi.json",
+      "expression_id": "622",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          311.975,
+          21.975,
+          -13.796446932750001
+        ],
+        "max": [
+          313.025,
           23.025,
           10.38019483275
         ]
@@ -9004,6 +10124,26 @@
       }
     },
     {
+      "name": "JSONAkashi_621",
+      "obj_file": "meshes/JSONAkashi_621.obj",
+      "color": "#fa7e19",
+      "source_file": "JSONAkashi.json",
+      "expression_id": "621",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          322.975,
+          -23.025,
+          -13.878927339
+        ],
+        "max": [
+          324.025,
+          -21.975,
+          7.463387738999996
+        ]
+      }
+    },
+    {
       "name": "JSONAkashi_565",
       "obj_file": "meshes/JSONAkashi_565.obj",
       "color": "#fa7e19",
@@ -9018,6 +10158,26 @@
         ],
         "max": [
           -322.975,
+          23.025,
+          7.463387738999996
+        ]
+      }
+    },
+    {
+      "name": "JSONAkashi_620",
+      "obj_file": "meshes/JSONAkashi_620.obj",
+      "color": "#fa7e19",
+      "source_file": "JSONAkashi.json",
+      "expression_id": "620",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          322.975,
+          21.975,
+          -13.878927339
+        ],
+        "max": [
+          324.025,
           23.025,
           7.463387738999996
         ]
@@ -9044,6 +10204,26 @@
       }
     },
     {
+      "name": "JSONAkashi_619",
+      "obj_file": "meshes/JSONAkashi_619.obj",
+      "color": "#fa7e19",
+      "source_file": "JSONAkashi.json",
+      "expression_id": "619",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          333.975,
+          -23.025,
+          -13.956568894750001
+        ],
+        "max": [
+          335.025,
+          -21.975,
+          4.717699994749999
+        ]
+      }
+    },
+    {
       "name": "JSONAkashi_564",
       "obj_file": "meshes/JSONAkashi_564.obj",
       "color": "#fa7e19",
@@ -9058,6 +10238,26 @@
         ],
         "max": [
           -333.975,
+          23.025,
+          4.717699994749999
+        ]
+      }
+    },
+    {
+      "name": "JSONAkashi_618",
+      "obj_file": "meshes/JSONAkashi_618.obj",
+      "color": "#fa7e19",
+      "source_file": "JSONAkashi.json",
+      "expression_id": "618",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          333.975,
+          21.975,
+          -13.956568894750001
+        ],
+        "max": [
+          335.025,
           23.025,
           4.717699994749999
         ]
@@ -9084,6 +10284,26 @@
       }
     },
     {
+      "name": "JSONAkashi_617",
+      "obj_file": "meshes/JSONAkashi_617.obj",
+      "color": "#fa7e19",
+      "source_file": "JSONAkashi.json",
+      "expression_id": "617",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          344.975,
+          -23.025,
+          -14.0293716
+        ],
+        "max": [
+          346.025,
+          -21.975,
+          2.1431315999999967
+        ]
+      }
+    },
+    {
       "name": "JSONAkashi_563",
       "obj_file": "meshes/JSONAkashi_563.obj",
       "color": "#fa7e19",
@@ -9098,6 +10318,26 @@
         ],
         "max": [
           -344.975,
+          23.025,
+          2.1431315999999967
+        ]
+      }
+    },
+    {
+      "name": "JSONAkashi_616",
+      "obj_file": "meshes/JSONAkashi_616.obj",
+      "color": "#fa7e19",
+      "source_file": "JSONAkashi.json",
+      "expression_id": "616",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          344.975,
+          21.975,
+          -14.0293716
+        ],
+        "max": [
+          346.025,
           23.025,
           2.1431315999999967
         ]
@@ -9124,6 +10364,26 @@
       }
     },
     {
+      "name": "JSONAkashi_615",
+      "obj_file": "meshes/JSONAkashi_615.obj",
+      "color": "#fa7e19",
+      "source_file": "JSONAkashi.json",
+      "expression_id": "615",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          355.975,
+          -23.025,
+          -14.09733545475
+        ],
+        "max": [
+          357.025,
+          -21.975,
+          -0.260317445250001
+        ]
+      }
+    },
+    {
       "name": "JSONAkashi_562",
       "obj_file": "meshes/JSONAkashi_562.obj",
       "color": "#fa7e19",
@@ -9138,6 +10398,26 @@
         ],
         "max": [
           -355.975,
+          23.025,
+          -0.260317445250001
+        ]
+      }
+    },
+    {
+      "name": "JSONAkashi_614",
+      "obj_file": "meshes/JSONAkashi_614.obj",
+      "color": "#fa7e19",
+      "source_file": "JSONAkashi.json",
+      "expression_id": "614",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          355.975,
+          21.975,
+          -14.09733545475
+        ],
+        "max": [
+          357.025,
           23.025,
           -0.260317445250001
         ]
@@ -9164,6 +10444,26 @@
       }
     },
     {
+      "name": "JSONAkashi_613",
+      "obj_file": "meshes/JSONAkashi_613.obj",
+      "color": "#fa7e19",
+      "source_file": "JSONAkashi.json",
+      "expression_id": "613",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          366.975,
+          -23.025,
+          -14.160460459
+        ],
+        "max": [
+          368.025,
+          -21.975,
+          -2.492647140999999
+        ]
+      }
+    },
+    {
       "name": "JSONAkashi_561",
       "obj_file": "meshes/JSONAkashi_561.obj",
       "color": "#fa7e19",
@@ -9178,6 +10478,26 @@
         ],
         "max": [
           -366.975,
+          23.025,
+          -2.492647140999999
+        ]
+      }
+    },
+    {
+      "name": "JSONAkashi_612",
+      "obj_file": "meshes/JSONAkashi_612.obj",
+      "color": "#fa7e19",
+      "source_file": "JSONAkashi.json",
+      "expression_id": "612",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          366.975,
+          21.975,
+          -14.160460459
+        ],
+        "max": [
+          368.025,
           23.025,
           -2.492647140999999
         ]
@@ -9204,6 +10524,26 @@
       }
     },
     {
+      "name": "JSONAkashi_611",
+      "obj_file": "meshes/JSONAkashi_611.obj",
+      "color": "#fa7e19",
+      "source_file": "JSONAkashi.json",
+      "expression_id": "611",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          377.975,
+          -23.025,
+          -14.21874661275
+        ],
+        "max": [
+          379.025,
+          -21.975,
+          -4.553857487249999
+        ]
+      }
+    },
+    {
       "name": "JSONAkashi_560",
       "obj_file": "meshes/JSONAkashi_560.obj",
       "color": "#fa7e19",
@@ -9218,6 +10558,26 @@
         ],
         "max": [
           -377.975,
+          23.025,
+          -4.553857487249999
+        ]
+      }
+    },
+    {
+      "name": "JSONAkashi_610",
+      "obj_file": "meshes/JSONAkashi_610.obj",
+      "color": "#fa7e19",
+      "source_file": "JSONAkashi.json",
+      "expression_id": "610",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          377.975,
+          21.975,
+          -14.21874661275
+        ],
+        "max": [
+          379.025,
           23.025,
           -4.553857487249999
         ]
@@ -9244,6 +10604,26 @@
       }
     },
     {
+      "name": "JSONAkashi_609",
+      "obj_file": "meshes/JSONAkashi_609.obj",
+      "color": "#fa7e19",
+      "source_file": "JSONAkashi.json",
+      "expression_id": "609",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          388.975,
+          -23.025,
+          -14.272193915999999
+        ],
+        "max": [
+          390.025,
+          -21.975,
+          -6.443948484000002
+        ]
+      }
+    },
+    {
       "name": "JSONAkashi_559",
       "obj_file": "meshes/JSONAkashi_559.obj",
       "color": "#fa7e19",
@@ -9258,6 +10638,26 @@
         ],
         "max": [
           -388.975,
+          23.025,
+          -6.443948484000002
+        ]
+      }
+    },
+    {
+      "name": "JSONAkashi_608",
+      "obj_file": "meshes/JSONAkashi_608.obj",
+      "color": "#fa7e19",
+      "source_file": "JSONAkashi.json",
+      "expression_id": "608",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          388.975,
+          21.975,
+          -14.272193915999999
+        ],
+        "max": [
+          390.025,
           23.025,
           -6.443948484000002
         ]
@@ -9284,6 +10684,26 @@
       }
     },
     {
+      "name": "JSONAkashi_607",
+      "obj_file": "meshes/JSONAkashi_607.obj",
+      "color": "#fa7e19",
+      "source_file": "JSONAkashi.json",
+      "expression_id": "607",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          399.975,
+          -23.025,
+          -14.32080236875
+        ],
+        "max": [
+          401.025,
+          -21.975,
+          -8.16292013125
+        ]
+      }
+    },
+    {
       "name": "JSONAkashi_558",
       "obj_file": "meshes/JSONAkashi_558.obj",
       "color": "#fa7e19",
@@ -9298,6 +10718,26 @@
         ],
         "max": [
           -399.975,
+          23.025,
+          -8.16292013125
+        ]
+      }
+    },
+    {
+      "name": "JSONAkashi_606",
+      "obj_file": "meshes/JSONAkashi_606.obj",
+      "color": "#fa7e19",
+      "source_file": "JSONAkashi.json",
+      "expression_id": "606",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          399.975,
+          21.975,
+          -14.32080236875
+        ],
+        "max": [
+          401.025,
           23.025,
           -8.16292013125
         ]
@@ -9324,6 +10764,26 @@
       }
     },
     {
+      "name": "JSONAkashi_605",
+      "obj_file": "meshes/JSONAkashi_605.obj",
+      "color": "#fa7e19",
+      "source_file": "JSONAkashi.json",
+      "expression_id": "605",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          410.975,
+          -23.025,
+          -14.364571971
+        ],
+        "max": [
+          412.025,
+          -21.975,
+          -9.710772429
+        ]
+      }
+    },
+    {
       "name": "JSONAkashi_557",
       "obj_file": "meshes/JSONAkashi_557.obj",
       "color": "#fa7e19",
@@ -9338,6 +10798,26 @@
         ],
         "max": [
           -410.975,
+          23.025,
+          -9.710772429
+        ]
+      }
+    },
+    {
+      "name": "JSONAkashi_604",
+      "obj_file": "meshes/JSONAkashi_604.obj",
+      "color": "#fa7e19",
+      "source_file": "JSONAkashi.json",
+      "expression_id": "604",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          410.975,
+          21.975,
+          -14.364571971
+        ],
+        "max": [
+          412.025,
           23.025,
           -9.710772429
         ]
@@ -9364,6 +10844,26 @@
       }
     },
     {
+      "name": "JSONAkashi_603",
+      "obj_file": "meshes/JSONAkashi_603.obj",
+      "color": "#fa7e19",
+      "source_file": "JSONAkashi.json",
+      "expression_id": "603",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          421.975,
+          -23.025,
+          -14.40350272275
+        ],
+        "max": [
+          423.025,
+          -21.975,
+          -11.08750537725
+        ]
+      }
+    },
+    {
       "name": "JSONAkashi_556",
       "obj_file": "meshes/JSONAkashi_556.obj",
       "color": "#fa7e19",
@@ -9378,6 +10878,26 @@
         ],
         "max": [
           -421.975,
+          23.025,
+          -11.08750537725
+        ]
+      }
+    },
+    {
+      "name": "JSONAkashi_602",
+      "obj_file": "meshes/JSONAkashi_602.obj",
+      "color": "#fa7e19",
+      "source_file": "JSONAkashi.json",
+      "expression_id": "602",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          421.975,
+          21.975,
+          -14.40350272275
+        ],
+        "max": [
+          423.025,
           23.025,
           -11.08750537725
         ]
@@ -9404,6 +10924,26 @@
       }
     },
     {
+      "name": "JSONAkashi_601",
+      "obj_file": "meshes/JSONAkashi_601.obj",
+      "color": "#fa7e19",
+      "source_file": "JSONAkashi.json",
+      "expression_id": "601",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          432.975,
+          -23.025,
+          -14.47763832
+        ],
+        "max": [
+          434.025,
+          -21.975,
+          -12.253075280000001
+        ]
+      }
+    },
+    {
       "name": "JSONAkashi_555",
       "obj_file": "meshes/JSONAkashi_555.obj",
       "color": "#fa7e19",
@@ -9418,6 +10958,26 @@
         ],
         "max": [
           -432.975,
+          23.025,
+          -12.253075280000001
+        ]
+      }
+    },
+    {
+      "name": "JSONAkashi_600",
+      "obj_file": "meshes/JSONAkashi_600.obj",
+      "color": "#fa7e19",
+      "source_file": "JSONAkashi.json",
+      "expression_id": "600",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          432.975,
+          21.975,
+          -14.47763832
+        ],
+        "max": [
+          434.025,
           23.025,
           -12.253075280000001
         ]
@@ -9444,6 +11004,26 @@
       }
     },
     {
+      "name": "JSONAkashi_599",
+      "obj_file": "meshes/JSONAkashi_599.obj",
+      "color": "#fa7e19",
+      "source_file": "JSONAkashi.json",
+      "expression_id": "599",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          443.975,
+          -23.025,
+          -14.491599896250001
+        ],
+        "max": [
+          445.025,
+          -21.975,
+          -13.30286100375
+        ]
+      }
+    },
+    {
       "name": "JSONAkashi_554",
       "obj_file": "meshes/JSONAkashi_554.obj",
       "color": "#fa7e19",
@@ -9458,6 +11038,26 @@
         ],
         "max": [
           -443.975,
+          23.025,
+          -13.30286100375
+        ]
+      }
+    },
+    {
+      "name": "JSONAkashi_598",
+      "obj_file": "meshes/JSONAkashi_598.obj",
+      "color": "#fa7e19",
+      "source_file": "JSONAkashi.json",
+      "expression_id": "598",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          443.975,
+          21.975,
+          -14.491599896250001
+        ],
+        "max": [
+          445.025,
           23.025,
           -13.30286100375
         ]
@@ -9484,6 +11084,26 @@
       }
     },
     {
+      "name": "JSONAkashi_597",
+      "obj_file": "meshes/JSONAkashi_597.obj",
+      "color": "#fa7e19",
+      "source_file": "JSONAkashi.json",
+      "expression_id": "597",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          454.975,
+          -23.025,
+          -14.4884953125
+        ],
+        "max": [
+          456.025,
+          -21.975,
+          -14.1937546875
+        ]
+      }
+    },
+    {
       "name": "JSONAkashi_553",
       "obj_file": "meshes/JSONAkashi_553.obj",
       "color": "#fa7e19",
@@ -9498,6 +11118,26 @@
         ],
         "max": [
           -454.975,
+          23.025,
+          -14.1937546875
+        ]
+      }
+    },
+    {
+      "name": "JSONAkashi_596",
+      "obj_file": "meshes/JSONAkashi_596.obj",
+      "color": "#fa7e19",
+      "source_file": "JSONAkashi.json",
+      "expression_id": "596",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          454.975,
+          21.975,
+          -14.4884953125
+        ],
+        "max": [
+          456.025,
           23.025,
           -14.1937546875
         ]

@@ -69,7 +69,7 @@ For another file, swap `JSONLondon` with `JSONreference`, `JSONCali`, or `JSONAk
 This generates fingerprint-grouped reports of expressions that are not currently meshed (plus a small markdown summary per file):
 
 ```bash
-PYTHONPATH=src python3 -m desmos3d_pipeline.cli coverage --input-glob "JSON*.json" --out artifacts/coverage
+cd /Users/careylai/Desktop/python-swift-usdz && PYTHONPATH=src python3 -m desmos3d_pipeline.cli coverage --input-glob "JSON*.json" --out artifacts/coverage
 ```
 
 Outputs:
@@ -81,7 +81,5 @@ Outputs:
 ### 8) Run full pipeline for all JSON files (single command)
 
 ```bash
-cd /Users/careylai/Desktop/python-swift-usdz && PYTHONPATH=src python3 -m pytest -q && PYTHONPATH=src python3 -m desmos3d_pipeline.cli audit --input-glob "JSON*.json" --out artifacts/audit && PYTHONPATH=src python3 -m desmos3d_pipeline.cli export-bridge --input-glob "JSON*.json" --out artifacts/bridge && cd swift-usdz-exporter && mkdir -p ../artifacts/usdz && for manifest in ../artifacts/bridge/*/manifest.json; do name="$(basename "$(dirname "$manifest")")"; swift run usdz-exporter --manifest "$manifest" --output "../artifacts/usdz/${name}.usdz"; done
+cd /Users/careylai/Desktop/python-swift-usdz && PYTHONPATH=src python3 -m pytest -q && PYTHONPATH=src python3 -m desmos3d_pipeline.cli audit --input-glob "JSON*.json" --out artifacts/audit && PYTHONPATH=src python3 -m desmos3d_pipeline.cli export-bridge --input-glob "JSON*.json" --out artifacts/bridge && cd swift-usdz-exporter && mkdir -p ../artifacts/usdz && for manifest in ../artifacts/bridge/*/manifest.json; do name="$(basename "$(dirname "$manifest")")"; swift run usdz-exporter --manifest "$manifest" --output "../artifacts/usdz/${name}.usdz"; done && cd .. && PYTHONPATH=src python3 -m desmos3d_pipeline.cli coverage --input-glob "JSON*.json" --out artifacts/coverage
 ```
-
-

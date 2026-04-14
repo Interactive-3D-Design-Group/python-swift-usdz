@@ -13,6 +13,11 @@ class RelationInfo:
     has_chained_inequality: bool
 
 
+def _negate_expr(expr: str) -> str:
+    text = expr.strip()
+    return f"-({text})"
+
+
 def detect_relations(core_expr: str) -> RelationInfo:
     ops = re.findall(r"<=|>=|=|<|>", core_expr)
     return RelationInfo(
@@ -24,6 +29,30 @@ def detect_relations(core_expr: str) -> RelationInfo:
 
 def parse_interval_constraint(expr: str) -> RangeConstraint | None:
     expr = expr.strip()
+
+    # Handle chained form with negated axis: lower < -x < upper  =>  -upper < x < -lower
+    m = re.fullmatch(r"([^<>=]+)(<=|<)-([xyz])(<=|<)([^<>=]+)", expr)
+    if m:
+        lower, lop, axis, uop, upper = m.groups()
+        return RangeConstraint(
+            axis=axis,
+            lower=_negate_expr(upper),
+            lower_inclusive=uop == "<=",
+            upper=_negate_expr(lower),
+            upper_inclusive=lop == "<=",
+        )
+
+    # Handle chained form with negated axis reversed: upper > -x > lower  =>  -upper < x < -lower
+    m = re.fullmatch(r"([^<>=]+)(>=|>)-([xyz])(>=|>)([^<>=]+)", expr)
+    if m:
+        upper, uop, axis, lop, lower = m.groups()
+        return RangeConstraint(
+            axis=axis,
+            lower=_negate_expr(upper),
+            lower_inclusive=uop == ">=",
+            upper=_negate_expr(lower),
+            upper_inclusive=lop == ">=",
+        )
 
     # Canonical chained form: lower < axis < upper
     m = re.fullmatch(r"([^<>=]+)(<=|<)([xyz])(<=|<)([^<>=]+)", expr)
@@ -55,10 +84,22 @@ def parse_interval_constraint(expr: str) -> RangeConstraint | None:
         axis, op, upper = m.groups()
         return RangeConstraint(axis=axis, lower=None, lower_inclusive=False, upper=upper, upper_inclusive=op == "<=")
 
+    m = re.fullmatch(r"-([xyz])(<=|<)([^<>=]+)", expr)
+    if m:
+        axis, op, upper = m.groups()
+        # -x <= c  <=>  x >= -c
+        return RangeConstraint(axis=axis, lower=_negate_expr(upper), lower_inclusive=op == "<=", upper=None, upper_inclusive=False)
+
     m = re.fullmatch(r"([xyz])(>=|>)([^<>=]+)", expr)
     if m:
         axis, op, lower = m.groups()
         return RangeConstraint(axis=axis, lower=lower, lower_inclusive=op == ">=", upper=None, upper_inclusive=False)
+
+    m = re.fullmatch(r"-([xyz])(>=|>)([^<>=]+)", expr)
+    if m:
+        axis, op, lower = m.groups()
+        # -x >= c  <=>  x <= -c
+        return RangeConstraint(axis=axis, lower=None, lower_inclusive=False, upper=_negate_expr(lower), upper_inclusive=op == ">=")
 
     # Reversed chained form with axis in the middle but constant on left and right swapped:
     # axis <= upper <= lower  OR  axis >= lower >= upper
@@ -75,9 +116,21 @@ def parse_interval_constraint(expr: str) -> RangeConstraint | None:
         lower, op, axis = m.groups()
         return RangeConstraint(axis=axis, lower=lower, lower_inclusive=op == "<=", upper=None, upper_inclusive=False)
 
+    m = re.fullmatch(r"([^<>=]+)(<=|<)-([xyz])", expr)
+    if m:
+        lower, op, axis = m.groups()
+        # c <= -x  <=>  x <= -c
+        return RangeConstraint(axis=axis, lower=None, lower_inclusive=False, upper=_negate_expr(lower), upper_inclusive=op == "<=")
+
     m = re.fullmatch(r"([^<>=]+)(>=|>)([xyz])", expr)
     if m:
         upper, op, axis = m.groups()
         return RangeConstraint(axis=axis, lower=None, lower_inclusive=False, upper=upper, upper_inclusive=op == ">=")
+
+    m = re.fullmatch(r"([^<>=]+)(>=|>)-([xyz])", expr)
+    if m:
+        upper, op, axis = m.groups()
+        # c >= -x  <=>  x >= -c
+        return RangeConstraint(axis=axis, lower=_negate_expr(upper), lower_inclusive=op == ">=", upper=None, upper_inclusive=False)
 
     return None

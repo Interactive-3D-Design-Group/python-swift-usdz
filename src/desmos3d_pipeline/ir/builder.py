@@ -186,6 +186,32 @@ def _build_node(
     if family == ExpressionFamily.BOX_BOUNDED_REGION:
         core_range = parse_interval_constraint(core)
         ranges = ([core_range] if core_range else []) + bounds
+        # Some Desmos exports encode "z between two functions with bounded x/y" as chained
+        # interval parts, which would otherwise fall into box voxel fallback and lose curve detail.
+        x_has_finite = any(r.axis == "x" and r.lower is not None and r.upper is not None for r in ranges)
+        y_has_finite = any(r.axis == "y" and r.lower is not None and r.upper is not None for r in ranges)
+        z_lowers = [r.lower for r in ranges if r.axis == "z" and r.lower is not None]
+        z_uppers = [r.upper for r in ranges if r.axis == "z" and r.upper is not None]
+        if x_has_finite and y_has_finite and z_lowers and z_uppers:
+            lower_expr = z_lowers[-1]
+            upper_expr = z_uppers[-1]
+            z_expr = f"{lower_expr} {upper_expr}"
+            if re.search(r"[xy]", z_expr):
+                return ZSlabNode(
+                    node_type="z_slab",
+                    source_ref=record.source_ref,
+                    family=ExpressionFamily.Z_SLAB_REGION,
+                    status=ClassificationStatus.SUPPORTED,
+                    original_latex=record.raw_latex,
+                    normalized_latex=record.normalized_latex,
+                    color=record.color,
+                    hidden=record.hidden,
+                    metadata=metadata,
+                    lower_expr=lower_expr,
+                    upper_expr=upper_expr,
+                    bounds=ranges,
+                    sampling_hint=(160, 20),
+                )
         return BoxVolumeNode(
             node_type="box_volume",
             source_ref=record.source_ref,

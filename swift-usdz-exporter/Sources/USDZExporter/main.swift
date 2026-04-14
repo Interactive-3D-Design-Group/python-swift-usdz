@@ -110,6 +110,8 @@ func applyMaterial(_ node: SCNNode, color: NSColor) {
         let material = SCNMaterial()
         material.diffuse.contents = color
         material.lightingModel = .physicallyBased
+        // Thin/planar meshes can be view-angle dependent if back-face culling is enabled.
+        material.isDoubleSided = true
         geometry.materials = [material]
     }
     for child in node.childNodes {
