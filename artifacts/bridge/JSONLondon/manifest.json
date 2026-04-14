@@ -1,0 +1,3688 @@
+{
+  "schema_version": 1,
+  "mesh_count": 184,
+  "failed_mesh_count": 0,
+  "meshes": [
+    {
+      "name": "JSONLondon_3",
+      "obj_file": "meshes/JSONLondon_3.obj",
+      "color": "#aaaaaa",
+      "source_file": "JSONLondon.json",
+      "expression_id": "3",
+      "family": "CONSTANT_PLANE",
+      "bounds": {
+        "min": [
+          -139.38696110832,
+          20.0,
+          -139.3869611083204
+        ],
+        "max": [
+          139.38696110832,
+          20.0,
+          139.3869611083204
+        ]
+      }
+    },
+    {
+      "name": "JSONLondon_10",
+      "obj_file": "meshes/JSONLondon_10.obj",
+      "color": "#aaaaaa",
+      "source_file": "JSONLondon.json",
+      "expression_id": "10",
+      "family": "CONSTANT_PLANE",
+      "bounds": {
+        "min": [
+          -139.38696110832,
+          -20.0,
+          -139.3869611083204
+        ],
+        "max": [
+          139.38696110832,
+          -20.0,
+          139.3869611083204
+        ]
+      }
+    },
+    {
+      "name": "JSONLondon_34",
+      "obj_file": "meshes/JSONLondon_34.obj",
+      "color": "#aaaaaa",
+      "source_file": "JSONLondon.json",
+      "expression_id": "34",
+      "family": "CONSTANT_PLANE",
+      "bounds": {
+        "min": [
+          -60.0,
+          -20.0,
+          55.0
+        ],
+        "max": [
+          60.0,
+          20.0,
+          55.0
+        ]
+      }
+    },
+    {
+      "name": "JSONLondon_36",
+      "obj_file": "meshes/JSONLondon_36.obj",
+      "color": "#388c46",
+      "source_file": "JSONLondon.json",
+      "expression_id": "36",
+      "family": "CONSTANT_PLANE",
+      "bounds": {
+        "min": [
+          -60.0,
+          -20.0,
+          63.0
+        ],
+        "max": [
+          60.0,
+          -20.0,
+          65.0
+        ]
+      }
+    },
+    {
+      "name": "JSONLondon_37",
+      "obj_file": "meshes/JSONLondon_37.obj",
+      "color": "#388c46",
+      "source_file": "JSONLondon.json",
+      "expression_id": "37",
+      "family": "CONSTANT_PLANE",
+      "bounds": {
+        "min": [
+          -60.0,
+          20.0,
+          63.0
+        ],
+        "max": [
+          60.0,
+          20.0,
+          65.0
+        ]
+      }
+    },
+    {
+      "name": "JSONLondon_324",
+      "obj_file": "meshes/JSONLondon_324.obj",
+      "color": "#388c46",
+      "source_file": "JSONLondon.json",
+      "expression_id": "324",
+      "family": "CONSTANT_PLANE",
+      "bounds": {
+        "min": [
+          -60.0,
+          -20.0,
+          58.0
+        ],
+        "max": [
+          60.0,
+          -20.0,
+          60.0
+        ]
+      }
+    },
+    {
+      "name": "JSONLondon_325",
+      "obj_file": "meshes/JSONLondon_325.obj",
+      "color": "#388c46",
+      "source_file": "JSONLondon.json",
+      "expression_id": "325",
+      "family": "CONSTANT_PLANE",
+      "bounds": {
+        "min": [
+          -60.0,
+          20.0,
+          58.0
+        ],
+        "max": [
+          60.0,
+          20.0,
+          60.0
+        ]
+      }
+    },
+    {
+      "name": "JSONLondon_326",
+      "obj_file": "meshes/JSONLondon_326.obj",
+      "color": "#c74440",
+      "source_file": "JSONLondon.json",
+      "expression_id": "326",
+      "family": "CONSTANT_PLANE",
+      "bounds": {
+        "min": [
+          -3.0,
+          20.0,
+          55.0
+        ],
+        "max": [
+          3.0,
+          20.0,
+          68.0
+        ]
+      }
+    },
+    {
+      "name": "JSONLondon_327",
+      "obj_file": "meshes/JSONLondon_327.obj",
+      "color": "#c74440",
+      "source_file": "JSONLondon.json",
+      "expression_id": "327",
+      "family": "CONSTANT_PLANE",
+      "bounds": {
+        "min": [
+          -3.0,
+          -20.0,
+          55.0
+        ],
+        "max": [
+          3.0,
+          -20.0,
+          68.0
+        ]
+      }
+    },
+    {
+      "name": "JSONLondon_17",
+      "obj_file": "meshes/JSONLondon_17.obj",
+      "color": "#388c46",
+      "source_file": "JSONLondon.json",
+      "expression_id": "17",
+      "family": "CONSTANT_PLANE",
+      "bounds": {
+        "min": [
+          60.0,
+          -20.0,
+          80.0
+        ],
+        "max": [
+          100.0,
+          20.0,
+          80.0
+        ]
+      }
+    },
+    {
+      "name": "JSONLondon_20",
+      "obj_file": "meshes/JSONLondon_20.obj",
+      "color": "#388c46",
+      "source_file": "JSONLondon.json",
+      "expression_id": "20",
+      "family": "CONSTANT_PLANE",
+      "bounds": {
+        "min": [
+          60.0,
+          -20.0,
+          0.0
+        ],
+        "max": [
+          100.0,
+          -20.0,
+          80.0
+        ]
+      }
+    },
+    {
+      "name": "JSONLondon_18",
+      "obj_file": "meshes/JSONLondon_18.obj",
+      "color": "#388c46",
+      "source_file": "JSONLondon.json",
+      "expression_id": "18",
+      "family": "CONSTANT_PLANE",
+      "bounds": {
+        "min": [
+          60.0,
+          20.0,
+          0.0
+        ],
+        "max": [
+          100.0,
+          20.0,
+          80.0
+        ]
+      }
+    },
+    {
+      "name": "JSONLondon_30",
+      "obj_file": "meshes/JSONLondon_30.obj",
+      "color": "#388c46",
+      "source_file": "JSONLondon.json",
+      "expression_id": "30",
+      "family": "CONSTANT_PLANE",
+      "bounds": {
+        "min": [
+          60.0,
+          -20.0,
+          0.0
+        ],
+        "max": [
+          60.0,
+          20.0,
+          80.0
+        ]
+      }
+    },
+    {
+      "name": "JSONLondon_31",
+      "obj_file": "meshes/JSONLondon_31.obj",
+      "color": "#388c46",
+      "source_file": "JSONLondon.json",
+      "expression_id": "31",
+      "family": "CONSTANT_PLANE",
+      "bounds": {
+        "min": [
+          100.0,
+          -20.0,
+          0.0
+        ],
+        "max": [
+          100.0,
+          20.0,
+          80.0
+        ]
+      }
+    },
+    {
+      "name": "JSONLondon_159",
+      "obj_file": "meshes/JSONLondon_159.obj",
+      "color": "#c74440",
+      "source_file": "JSONLondon.json",
+      "expression_id": "159",
+      "family": "CONSTANT_PLANE",
+      "bounds": {
+        "min": [
+          95.0,
+          -23.0,
+          90.0
+        ],
+        "max": [
+          108.0,
+          -10.0,
+          90.0
+        ]
+      }
+    },
+    {
+      "name": "JSONLondon_160",
+      "obj_file": "meshes/JSONLondon_160.obj",
+      "color": "#c74440",
+      "source_file": "JSONLondon.json",
+      "expression_id": "160",
+      "family": "CONSTANT_PLANE",
+      "bounds": {
+        "min": [
+          95.0,
+          -23.0,
+          0.0
+        ],
+        "max": [
+          108.0,
+          -23.0,
+          90.0
+        ]
+      }
+    },
+    {
+      "name": "JSONLondon_161",
+      "obj_file": "meshes/JSONLondon_161.obj",
+      "color": "#c74440",
+      "source_file": "JSONLondon.json",
+      "expression_id": "161",
+      "family": "CONSTANT_PLANE",
+      "bounds": {
+        "min": [
+          95.0,
+          -10.0,
+          0.0
+        ],
+        "max": [
+          108.0,
+          -10.0,
+          90.0
+        ]
+      }
+    },
+    {
+      "name": "JSONLondon_162",
+      "obj_file": "meshes/JSONLondon_162.obj",
+      "color": "#c74440",
+      "source_file": "JSONLondon.json",
+      "expression_id": "162",
+      "family": "CONSTANT_PLANE",
+      "bounds": {
+        "min": [
+          95.0,
+          -23.0,
+          0.0
+        ],
+        "max": [
+          95.0,
+          -10.0,
+          90.0
+        ]
+      }
+    },
+    {
+      "name": "JSONLondon_163",
+      "obj_file": "meshes/JSONLondon_163.obj",
+      "color": "#c74440",
+      "source_file": "JSONLondon.json",
+      "expression_id": "163",
+      "family": "CONSTANT_PLANE",
+      "bounds": {
+        "min": [
+          108.0,
+          -23.0,
+          0.0
+        ],
+        "max": [
+          108.0,
+          -10.0,
+          90.0
+        ]
+      }
+    },
+    {
+      "name": "JSONLondon_168",
+      "obj_file": "meshes/JSONLondon_168.obj",
+      "color": "#c74440",
+      "source_file": "JSONLondon.json",
+      "expression_id": "168",
+      "family": "CONSTANT_PLANE",
+      "bounds": {
+        "min": [
+          95.0,
+          10.0,
+          90.0
+        ],
+        "max": [
+          108.0,
+          23.0,
+          90.0
+        ]
+      }
+    },
+    {
+      "name": "JSONLondon_169",
+      "obj_file": "meshes/JSONLondon_169.obj",
+      "color": "#c74440",
+      "source_file": "JSONLondon.json",
+      "expression_id": "169",
+      "family": "CONSTANT_PLANE",
+      "bounds": {
+        "min": [
+          95.0,
+          23.0,
+          0.0
+        ],
+        "max": [
+          108.0,
+          23.0,
+          90.0
+        ]
+      }
+    },
+    {
+      "name": "JSONLondon_170",
+      "obj_file": "meshes/JSONLondon_170.obj",
+      "color": "#c74440",
+      "source_file": "JSONLondon.json",
+      "expression_id": "170",
+      "family": "CONSTANT_PLANE",
+      "bounds": {
+        "min": [
+          95.0,
+          10.0,
+          0.0
+        ],
+        "max": [
+          108.0,
+          10.0,
+          90.0
+        ]
+      }
+    },
+    {
+      "name": "JSONLondon_171",
+      "obj_file": "meshes/JSONLondon_171.obj",
+      "color": "#c74440",
+      "source_file": "JSONLondon.json",
+      "expression_id": "171",
+      "family": "CONSTANT_PLANE",
+      "bounds": {
+        "min": [
+          95.0,
+          10.0,
+          0.0
+        ],
+        "max": [
+          95.0,
+          23.0,
+          90.0
+        ]
+      }
+    },
+    {
+      "name": "JSONLondon_172",
+      "obj_file": "meshes/JSONLondon_172.obj",
+      "color": "#c74440",
+      "source_file": "JSONLondon.json",
+      "expression_id": "172",
+      "family": "CONSTANT_PLANE",
+      "bounds": {
+        "min": [
+          108.0,
+          10.0,
+          0.0
+        ],
+        "max": [
+          108.0,
+          23.0,
+          90.0
+        ]
+      }
+    },
+    {
+      "name": "JSONLondon_175",
+      "obj_file": "meshes/JSONLondon_175.obj",
+      "color": "#c74440",
+      "source_file": "JSONLondon.json",
+      "expression_id": "175",
+      "family": "CONSTANT_PLANE",
+      "bounds": {
+        "min": [
+          55.0,
+          10.0,
+          90.0
+        ],
+        "max": [
+          68.0,
+          23.0,
+          90.0
+        ]
+      }
+    },
+    {
+      "name": "JSONLondon_176",
+      "obj_file": "meshes/JSONLondon_176.obj",
+      "color": "#c74440",
+      "source_file": "JSONLondon.json",
+      "expression_id": "176",
+      "family": "CONSTANT_PLANE",
+      "bounds": {
+        "min": [
+          55.0,
+          23.0,
+          0.0
+        ],
+        "max": [
+          68.0,
+          23.0,
+          90.0
+        ]
+      }
+    },
+    {
+      "name": "JSONLondon_177",
+      "obj_file": "meshes/JSONLondon_177.obj",
+      "color": "#c74440",
+      "source_file": "JSONLondon.json",
+      "expression_id": "177",
+      "family": "CONSTANT_PLANE",
+      "bounds": {
+        "min": [
+          55.0,
+          10.0,
+          0.0
+        ],
+        "max": [
+          68.0,
+          10.0,
+          90.0
+        ]
+      }
+    },
+    {
+      "name": "JSONLondon_178",
+      "obj_file": "meshes/JSONLondon_178.obj",
+      "color": "#c74440",
+      "source_file": "JSONLondon.json",
+      "expression_id": "178",
+      "family": "CONSTANT_PLANE",
+      "bounds": {
+        "min": [
+          55.0,
+          10.0,
+          0.0
+        ],
+        "max": [
+          55.0,
+          23.0,
+          90.0
+        ]
+      }
+    },
+    {
+      "name": "JSONLondon_179",
+      "obj_file": "meshes/JSONLondon_179.obj",
+      "color": "#c74440",
+      "source_file": "JSONLondon.json",
+      "expression_id": "179",
+      "family": "CONSTANT_PLANE",
+      "bounds": {
+        "min": [
+          68.0,
+          10.0,
+          0.0
+        ],
+        "max": [
+          68.0,
+          23.0,
+          90.0
+        ]
+      }
+    },
+    {
+      "name": "JSONLondon_182",
+      "obj_file": "meshes/JSONLondon_182.obj",
+      "color": "#c74440",
+      "source_file": "JSONLondon.json",
+      "expression_id": "182",
+      "family": "CONSTANT_PLANE",
+      "bounds": {
+        "min": [
+          55.0,
+          -23.0,
+          90.0
+        ],
+        "max": [
+          68.0,
+          -10.0,
+          90.0
+        ]
+      }
+    },
+    {
+      "name": "JSONLondon_184",
+      "obj_file": "meshes/JSONLondon_184.obj",
+      "color": "#c74440",
+      "source_file": "JSONLondon.json",
+      "expression_id": "184",
+      "family": "CONSTANT_PLANE",
+      "bounds": {
+        "min": [
+          55.0,
+          -23.0,
+          0.0
+        ],
+        "max": [
+          68.0,
+          -23.0,
+          90.0
+        ]
+      }
+    },
+    {
+      "name": "JSONLondon_187",
+      "obj_file": "meshes/JSONLondon_187.obj",
+      "color": "#c74440",
+      "source_file": "JSONLondon.json",
+      "expression_id": "187",
+      "family": "CONSTANT_PLANE",
+      "bounds": {
+        "min": [
+          55.0,
+          -10.0,
+          0.0
+        ],
+        "max": [
+          68.0,
+          -10.0,
+          90.0
+        ]
+      }
+    },
+    {
+      "name": "JSONLondon_185",
+      "obj_file": "meshes/JSONLondon_185.obj",
+      "color": "#c74440",
+      "source_file": "JSONLondon.json",
+      "expression_id": "185",
+      "family": "CONSTANT_PLANE",
+      "bounds": {
+        "min": [
+          55.0,
+          -23.0,
+          0.0
+        ],
+        "max": [
+          55.0,
+          -10.0,
+          90.0
+        ]
+      }
+    },
+    {
+      "name": "JSONLondon_186",
+      "obj_file": "meshes/JSONLondon_186.obj",
+      "color": "#c74440",
+      "source_file": "JSONLondon.json",
+      "expression_id": "186",
+      "family": "CONSTANT_PLANE",
+      "bounds": {
+        "min": [
+          68.0,
+          -23.0,
+          0.0
+        ],
+        "max": [
+          68.0,
+          -10.0,
+          90.0
+        ]
+      }
+    },
+    {
+      "name": "JSONLondon_190",
+      "obj_file": "meshes/JSONLondon_190.obj",
+      "color": "#2d70b3",
+      "source_file": "JSONLondon.json",
+      "expression_id": "190",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          100.0,
+          -8.0,
+          57.0
+        ],
+        "max": [
+          102.0,
+          8.0,
+          75.0
+        ]
+      }
+    },
+    {
+      "name": "JSONLondon_191",
+      "obj_file": "meshes/JSONLondon_191.obj",
+      "color": "#2d70b3",
+      "source_file": "JSONLondon.json",
+      "expression_id": "191",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          100.0,
+          -8.0,
+          35.0
+        ],
+        "max": [
+          102.0,
+          8.0,
+          53.0
+        ]
+      }
+    },
+    {
+      "name": "JSONLondon_194",
+      "obj_file": "meshes/JSONLondon_194.obj",
+      "color": "#2d70b3",
+      "source_file": "JSONLondon.json",
+      "expression_id": "194",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          100.0,
+          -8.0,
+          13.0
+        ],
+        "max": [
+          102.0,
+          8.0,
+          31.0
+        ]
+      }
+    },
+    {
+      "name": "JSONLondon_192",
+      "obj_file": "meshes/JSONLondon_192.obj",
+      "color": "#2d70b3",
+      "source_file": "JSONLondon.json",
+      "expression_id": "192",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          72.0,
+          -22.0,
+          57.0
+        ],
+        "max": [
+          91.0,
+          22.0,
+          75.0
+        ]
+      }
+    },
+    {
+      "name": "JSONLondon_193",
+      "obj_file": "meshes/JSONLondon_193.obj",
+      "color": "#2d70b3",
+      "source_file": "JSONLondon.json",
+      "expression_id": "193",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          72.0,
+          -22.0,
+          35.0
+        ],
+        "max": [
+          91.0,
+          22.0,
+          53.0
+        ]
+      }
+    },
+    {
+      "name": "JSONLondon_195",
+      "obj_file": "meshes/JSONLondon_195.obj",
+      "color": "#2d70b3",
+      "source_file": "JSONLondon.json",
+      "expression_id": "195",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          72.0,
+          -22.0,
+          13.0
+        ],
+        "max": [
+          91.0,
+          22.0,
+          31.0
+        ]
+      }
+    },
+    {
+      "name": "JSONLondon_330",
+      "obj_file": "meshes/JSONLondon_330.obj",
+      "color": "#aaaaaa",
+      "source_file": "JSONLondon.json",
+      "expression_id": "330",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          100.0,
+          -8.0,
+          65.0
+        ],
+        "max": [
+          102.0,
+          8.0,
+          67.0
+        ]
+      }
+    },
+    {
+      "name": "JSONLondon_345",
+      "obj_file": "meshes/JSONLondon_345.obj",
+      "color": "#aaaaaa",
+      "source_file": "JSONLondon.json",
+      "expression_id": "345",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          100.0,
+          -8.0,
+          74.0
+        ],
+        "max": [
+          102.0,
+          8.0,
+          75.0
+        ]
+      }
+    },
+    {
+      "name": "JSONLondon_346",
+      "obj_file": "meshes/JSONLondon_346.obj",
+      "color": "#aaaaaa",
+      "source_file": "JSONLondon.json",
+      "expression_id": "346",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          100.0,
+          -8.0,
+          57.0
+        ],
+        "max": [
+          102.0,
+          8.0,
+          58.0
+        ]
+      }
+    },
+    {
+      "name": "JSONLondon_331",
+      "obj_file": "meshes/JSONLondon_331.obj",
+      "color": "#aaaaaa",
+      "source_file": "JSONLondon.json",
+      "expression_id": "331",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          100.0,
+          -8.0,
+          43.0
+        ],
+        "max": [
+          102.0,
+          8.0,
+          45.0
+        ]
+      }
+    },
+    {
+      "name": "JSONLondon_347",
+      "obj_file": "meshes/JSONLondon_347.obj",
+      "color": "#aaaaaa",
+      "source_file": "JSONLondon.json",
+      "expression_id": "347",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          100.0,
+          -8.0,
+          52.0
+        ],
+        "max": [
+          102.0,
+          8.0,
+          53.0
+        ]
+      }
+    },
+    {
+      "name": "JSONLondon_348",
+      "obj_file": "meshes/JSONLondon_348.obj",
+      "color": "#aaaaaa",
+      "source_file": "JSONLondon.json",
+      "expression_id": "348",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          100.0,
+          -8.0,
+          35.0
+        ],
+        "max": [
+          102.0,
+          8.0,
+          36.0
+        ]
+      }
+    },
+    {
+      "name": "JSONLondon_349",
+      "obj_file": "meshes/JSONLondon_349.obj",
+      "color": "#aaaaaa",
+      "source_file": "JSONLondon.json",
+      "expression_id": "349",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          100.0,
+          -8.0,
+          30.0
+        ],
+        "max": [
+          102.0,
+          8.0,
+          31.0
+        ]
+      }
+    },
+    {
+      "name": "JSONLondon_350",
+      "obj_file": "meshes/JSONLondon_350.obj",
+      "color": "#aaaaaa",
+      "source_file": "JSONLondon.json",
+      "expression_id": "350",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          100.0,
+          -8.0,
+          12.0
+        ],
+        "max": [
+          102.0,
+          8.0,
+          13.0
+        ]
+      }
+    },
+    {
+      "name": "JSONLondon_332",
+      "obj_file": "meshes/JSONLondon_332.obj",
+      "color": "#aaaaaa",
+      "source_file": "JSONLondon.json",
+      "expression_id": "332",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          100.0,
+          -8.0,
+          21.0
+        ],
+        "max": [
+          102.0,
+          8.0,
+          23.0
+        ]
+      }
+    },
+    {
+      "name": "JSONLondon_351",
+      "obj_file": "meshes/JSONLondon_351.obj",
+      "color": "#aaaaaa",
+      "source_file": "JSONLondon.json",
+      "expression_id": "351",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          100.0,
+          7.0,
+          57.0
+        ],
+        "max": [
+          102.0,
+          8.0,
+          75.0
+        ]
+      }
+    },
+    {
+      "name": "JSONLondon_359",
+      "obj_file": "meshes/JSONLondon_359.obj",
+      "color": "#aaaaaa",
+      "source_file": "JSONLondon.json",
+      "expression_id": "359",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          100.0,
+          -8.0,
+          57.0
+        ],
+        "max": [
+          102.0,
+          -7.0,
+          75.0
+        ]
+      }
+    },
+    {
+      "name": "JSONLondon_352",
+      "obj_file": "meshes/JSONLondon_352.obj",
+      "color": "#aaaaaa",
+      "source_file": "JSONLondon.json",
+      "expression_id": "352",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          100.0,
+          -8.0,
+          35.0
+        ],
+        "max": [
+          102.0,
+          -7.0,
+          53.0
+        ]
+      }
+    },
+    {
+      "name": "JSONLondon_353",
+      "obj_file": "meshes/JSONLondon_353.obj",
+      "color": "#aaaaaa",
+      "source_file": "JSONLondon.json",
+      "expression_id": "353",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          100.0,
+          7.0,
+          35.0
+        ],
+        "max": [
+          102.0,
+          8.0,
+          53.0
+        ]
+      }
+    },
+    {
+      "name": "JSONLondon_354",
+      "obj_file": "meshes/JSONLondon_354.obj",
+      "color": "#aaaaaa",
+      "source_file": "JSONLondon.json",
+      "expression_id": "354",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          100.0,
+          -8.0,
+          12.0
+        ],
+        "max": [
+          102.0,
+          -7.0,
+          31.0
+        ]
+      }
+    },
+    {
+      "name": "JSONLondon_355",
+      "obj_file": "meshes/JSONLondon_355.obj",
+      "color": "#aaaaaa",
+      "source_file": "JSONLondon.json",
+      "expression_id": "355",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          100.0,
+          7.0,
+          12.0
+        ],
+        "max": [
+          102.0,
+          8.0,
+          31.0
+        ]
+      }
+    },
+    {
+      "name": "JSONLondon_333",
+      "obj_file": "meshes/JSONLondon_333.obj",
+      "color": "#aaaaaa",
+      "source_file": "JSONLondon.json",
+      "expression_id": "333",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          100.0,
+          -1.0,
+          57.0
+        ],
+        "max": [
+          102.0,
+          1.0,
+          75.0
+        ]
+      }
+    },
+    {
+      "name": "JSONLondon_334",
+      "obj_file": "meshes/JSONLondon_334.obj",
+      "color": "#aaaaaa",
+      "source_file": "JSONLondon.json",
+      "expression_id": "334",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          100.0,
+          -1.0,
+          35.0
+        ],
+        "max": [
+          102.0,
+          1.0,
+          53.0
+        ]
+      }
+    },
+    {
+      "name": "JSONLondon_335",
+      "obj_file": "meshes/JSONLondon_335.obj",
+      "color": "#aaaaaa",
+      "source_file": "JSONLondon.json",
+      "expression_id": "335",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          100.0,
+          -1.0,
+          13.0
+        ],
+        "max": [
+          102.0,
+          1.0,
+          31.0
+        ]
+      }
+    },
+    {
+      "name": "JSONLondon_339",
+      "obj_file": "meshes/JSONLondon_339.obj",
+      "color": "#aaaaaa",
+      "source_file": "JSONLondon.json",
+      "expression_id": "339",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          72.0,
+          -22.0,
+          65.0
+        ],
+        "max": [
+          91.0,
+          22.0,
+          67.0
+        ]
+      }
+    },
+    {
+      "name": "JSONLondon_340",
+      "obj_file": "meshes/JSONLondon_340.obj",
+      "color": "#aaaaaa",
+      "source_file": "JSONLondon.json",
+      "expression_id": "340",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          72.0,
+          -22.0,
+          43.0
+        ],
+        "max": [
+          91.0,
+          22.0,
+          45.0
+        ]
+      }
+    },
+    {
+      "name": "JSONLondon_341",
+      "obj_file": "meshes/JSONLondon_341.obj",
+      "color": "#aaaaaa",
+      "source_file": "JSONLondon.json",
+      "expression_id": "341",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          72.0,
+          -22.0,
+          21.0
+        ],
+        "max": [
+          91.0,
+          22.0,
+          23.0
+        ]
+      }
+    },
+    {
+      "name": "JSONLondon_342",
+      "obj_file": "meshes/JSONLondon_342.obj",
+      "color": "#aaaaaa",
+      "source_file": "JSONLondon.json",
+      "expression_id": "342",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          80.5,
+          -22.0,
+          13.0
+        ],
+        "max": [
+          82.5,
+          22.0,
+          31.0
+        ]
+      }
+    },
+    {
+      "name": "JSONLondon_343",
+      "obj_file": "meshes/JSONLondon_343.obj",
+      "color": "#aaaaaa",
+      "source_file": "JSONLondon.json",
+      "expression_id": "343",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          80.5,
+          -22.0,
+          35.0
+        ],
+        "max": [
+          82.5,
+          22.0,
+          53.0
+        ]
+      }
+    },
+    {
+      "name": "JSONLondon_344",
+      "obj_file": "meshes/JSONLondon_344.obj",
+      "color": "#aaaaaa",
+      "source_file": "JSONLondon.json",
+      "expression_id": "344",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          80.5,
+          -22.0,
+          57.0
+        ],
+        "max": [
+          82.5,
+          22.0,
+          75.0
+        ]
+      }
+    },
+    {
+      "name": "JSONLondon_360",
+      "obj_file": "meshes/JSONLondon_360.obj",
+      "color": "#aaaaaa",
+      "source_file": "JSONLondon.json",
+      "expression_id": "360",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          90.0,
+          -22.0,
+          57.0
+        ],
+        "max": [
+          91.0,
+          22.0,
+          75.0
+        ]
+      }
+    },
+    {
+      "name": "JSONLondon_361",
+      "obj_file": "meshes/JSONLondon_361.obj",
+      "color": "#aaaaaa",
+      "source_file": "JSONLondon.json",
+      "expression_id": "361",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          72.0,
+          -22.0,
+          57.0
+        ],
+        "max": [
+          73.0,
+          22.0,
+          75.0
+        ]
+      }
+    },
+    {
+      "name": "JSONLondon_362",
+      "obj_file": "meshes/JSONLondon_362.obj",
+      "color": "#aaaaaa",
+      "source_file": "JSONLondon.json",
+      "expression_id": "362",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          90.0,
+          -22.0,
+          35.0
+        ],
+        "max": [
+          91.0,
+          22.0,
+          53.0
+        ]
+      }
+    },
+    {
+      "name": "JSONLondon_363",
+      "obj_file": "meshes/JSONLondon_363.obj",
+      "color": "#aaaaaa",
+      "source_file": "JSONLondon.json",
+      "expression_id": "363",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          72.0,
+          -22.0,
+          35.0
+        ],
+        "max": [
+          73.0,
+          22.0,
+          53.0
+        ]
+      }
+    },
+    {
+      "name": "JSONLondon_364",
+      "obj_file": "meshes/JSONLondon_364.obj",
+      "color": "#aaaaaa",
+      "source_file": "JSONLondon.json",
+      "expression_id": "364",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          72.0,
+          -22.0,
+          13.0
+        ],
+        "max": [
+          73.0,
+          22.0,
+          31.0
+        ]
+      }
+    },
+    {
+      "name": "JSONLondon_365",
+      "obj_file": "meshes/JSONLondon_365.obj",
+      "color": "#aaaaaa",
+      "source_file": "JSONLondon.json",
+      "expression_id": "365",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          90.0,
+          -22.0,
+          13.0
+        ],
+        "max": [
+          91.0,
+          22.0,
+          31.0
+        ]
+      }
+    },
+    {
+      "name": "JSONLondon_366",
+      "obj_file": "meshes/JSONLondon_366.obj",
+      "color": "#aaaaaa",
+      "source_file": "JSONLondon.json",
+      "expression_id": "366",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          72.0,
+          -22.0,
+          74.0
+        ],
+        "max": [
+          91.0,
+          22.0,
+          75.0
+        ]
+      }
+    },
+    {
+      "name": "JSONLondon_368",
+      "obj_file": "meshes/JSONLondon_368.obj",
+      "color": "#aaaaaa",
+      "source_file": "JSONLondon.json",
+      "expression_id": "368",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          72.0,
+          -22.0,
+          57.0
+        ],
+        "max": [
+          91.0,
+          22.0,
+          58.0
+        ]
+      }
+    },
+    {
+      "name": "JSONLondon_369",
+      "obj_file": "meshes/JSONLondon_369.obj",
+      "color": "#aaaaaa",
+      "source_file": "JSONLondon.json",
+      "expression_id": "369",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          72.0,
+          -22.0,
+          52.0
+        ],
+        "max": [
+          91.0,
+          22.0,
+          53.0
+        ]
+      }
+    },
+    {
+      "name": "JSONLondon_370",
+      "obj_file": "meshes/JSONLondon_370.obj",
+      "color": "#aaaaaa",
+      "source_file": "JSONLondon.json",
+      "expression_id": "370",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          72.0,
+          -22.0,
+          34.0
+        ],
+        "max": [
+          91.0,
+          22.0,
+          35.0
+        ]
+      }
+    },
+    {
+      "name": "JSONLondon_371",
+      "obj_file": "meshes/JSONLondon_371.obj",
+      "color": "#aaaaaa",
+      "source_file": "JSONLondon.json",
+      "expression_id": "371",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          72.0,
+          -22.0,
+          30.0
+        ],
+        "max": [
+          91.0,
+          22.0,
+          31.0
+        ]
+      }
+    },
+    {
+      "name": "JSONLondon_372",
+      "obj_file": "meshes/JSONLondon_372.obj",
+      "color": "#aaaaaa",
+      "source_file": "JSONLondon.json",
+      "expression_id": "372",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          72.0,
+          -22.0,
+          13.0
+        ],
+        "max": [
+          91.0,
+          22.0,
+          14.0
+        ]
+      }
+    },
+    {
+      "name": "JSONLondon_291",
+      "obj_file": "meshes/JSONLondon_291.obj",
+      "color": "#c74440",
+      "source_file": "JSONLondon.json",
+      "expression_id": "291",
+      "family": "CONSTANT_PLANE",
+      "bounds": {
+        "min": [
+          115.0,
+          -18.0,
+          0.0
+        ],
+        "max": [
+          117.0,
+          -18.0,
+          64.0
+        ]
+      }
+    },
+    {
+      "name": "JSONLondon_292",
+      "obj_file": "meshes/JSONLondon_292.obj",
+      "color": "#c74440",
+      "source_file": "JSONLondon.json",
+      "expression_id": "292",
+      "family": "CONSTANT_PLANE",
+      "bounds": {
+        "min": [
+          135.0,
+          -18.0,
+          0.0
+        ],
+        "max": [
+          137.0,
+          -18.0,
+          46.0
+        ]
+      }
+    },
+    {
+      "name": "JSONLondon_293",
+      "obj_file": "meshes/JSONLondon_293.obj",
+      "color": "#c74440",
+      "source_file": "JSONLondon.json",
+      "expression_id": "293",
+      "family": "CONSTANT_PLANE",
+      "bounds": {
+        "min": [
+          155.0,
+          -18.0,
+          0.0
+        ],
+        "max": [
+          157.0,
+          -18.0,
+          31.0
+        ]
+      }
+    },
+    {
+      "name": "JSONLondon_294",
+      "obj_file": "meshes/JSONLondon_294.obj",
+      "color": "#c74440",
+      "source_file": "JSONLondon.json",
+      "expression_id": "294",
+      "family": "CONSTANT_PLANE",
+      "bounds": {
+        "min": [
+          175.0,
+          -18.0,
+          0.0
+        ],
+        "max": [
+          177.0,
+          -18.0,
+          18.0
+        ]
+      }
+    },
+    {
+      "name": "JSONLondon_295",
+      "obj_file": "meshes/JSONLondon_295.obj",
+      "color": "#c74440",
+      "source_file": "JSONLondon.json",
+      "expression_id": "295",
+      "family": "CONSTANT_PLANE",
+      "bounds": {
+        "min": [
+          115.0,
+          18.0,
+          0.0
+        ],
+        "max": [
+          117.0,
+          18.0,
+          64.0
+        ]
+      }
+    },
+    {
+      "name": "JSONLondon_296",
+      "obj_file": "meshes/JSONLondon_296.obj",
+      "color": "#c74440",
+      "source_file": "JSONLondon.json",
+      "expression_id": "296",
+      "family": "CONSTANT_PLANE",
+      "bounds": {
+        "min": [
+          135.0,
+          18.0,
+          0.0
+        ],
+        "max": [
+          137.0,
+          18.0,
+          46.0
+        ]
+      }
+    },
+    {
+      "name": "JSONLondon_297",
+      "obj_file": "meshes/JSONLondon_297.obj",
+      "color": "#c74440",
+      "source_file": "JSONLondon.json",
+      "expression_id": "297",
+      "family": "CONSTANT_PLANE",
+      "bounds": {
+        "min": [
+          155.0,
+          18.0,
+          0.0
+        ],
+        "max": [
+          157.0,
+          18.0,
+          31.0
+        ]
+      }
+    },
+    {
+      "name": "JSONLondon_298",
+      "obj_file": "meshes/JSONLondon_298.obj",
+      "color": "#c74440",
+      "source_file": "JSONLondon.json",
+      "expression_id": "298",
+      "family": "CONSTANT_PLANE",
+      "bounds": {
+        "min": [
+          175.0,
+          18.0,
+          0.0
+        ],
+        "max": [
+          177.0,
+          18.0,
+          18.0
+        ]
+      }
+    },
+    {
+      "name": "JSONLondon_26",
+      "obj_file": "meshes/JSONLondon_26.obj",
+      "color": "#388c46",
+      "source_file": "JSONLondon.json",
+      "expression_id": "26",
+      "family": "CONSTANT_PLANE",
+      "bounds": {
+        "min": [
+          -100.0,
+          -20.0,
+          80.0
+        ],
+        "max": [
+          -60.0,
+          20.0,
+          80.0
+        ]
+      }
+    },
+    {
+      "name": "JSONLondon_24",
+      "obj_file": "meshes/JSONLondon_24.obj",
+      "color": "#388c46",
+      "source_file": "JSONLondon.json",
+      "expression_id": "24",
+      "family": "CONSTANT_PLANE",
+      "bounds": {
+        "min": [
+          -100.0,
+          -20.0,
+          0.0
+        ],
+        "max": [
+          -60.0,
+          -20.0,
+          80.0
+        ]
+      }
+    },
+    {
+      "name": "JSONLondon_25",
+      "obj_file": "meshes/JSONLondon_25.obj",
+      "color": "#388c46",
+      "source_file": "JSONLondon.json",
+      "expression_id": "25",
+      "family": "CONSTANT_PLANE",
+      "bounds": {
+        "min": [
+          -100.0,
+          20.0,
+          0.0
+        ],
+        "max": [
+          -60.0,
+          20.0,
+          80.0
+        ]
+      }
+    },
+    {
+      "name": "JSONLondon_27",
+      "obj_file": "meshes/JSONLondon_27.obj",
+      "color": "#388c46",
+      "source_file": "JSONLondon.json",
+      "expression_id": "27",
+      "family": "CONSTANT_PLANE",
+      "bounds": {
+        "min": [
+          -60.0,
+          -20.0,
+          0.0
+        ],
+        "max": [
+          -60.0,
+          20.0,
+          80.0
+        ]
+      }
+    },
+    {
+      "name": "JSONLondon_29",
+      "obj_file": "meshes/JSONLondon_29.obj",
+      "color": "#388c46",
+      "source_file": "JSONLondon.json",
+      "expression_id": "29",
+      "family": "CONSTANT_PLANE",
+      "bounds": {
+        "min": [
+          -100.0,
+          -20.0,
+          0.0
+        ],
+        "max": [
+          -100.0,
+          20.0,
+          80.0
+        ]
+      }
+    },
+    {
+      "name": "JSONLondon_131",
+      "obj_file": "meshes/JSONLondon_131.obj",
+      "color": "#c74440",
+      "source_file": "JSONLondon.json",
+      "expression_id": "131",
+      "family": "CONSTANT_PLANE",
+      "bounds": {
+        "min": [
+          -108.0,
+          -23.0,
+          90.0
+        ],
+        "max": [
+          -95.0,
+          -10.0,
+          90.0
+        ]
+      }
+    },
+    {
+      "name": "JSONLondon_132",
+      "obj_file": "meshes/JSONLondon_132.obj",
+      "color": "#c74440",
+      "source_file": "JSONLondon.json",
+      "expression_id": "132",
+      "family": "CONSTANT_PLANE",
+      "bounds": {
+        "min": [
+          -108.0,
+          -23.0,
+          0.0
+        ],
+        "max": [
+          -95.0,
+          -23.0,
+          90.0
+        ]
+      }
+    },
+    {
+      "name": "JSONLondon_133",
+      "obj_file": "meshes/JSONLondon_133.obj",
+      "color": "#c74440",
+      "source_file": "JSONLondon.json",
+      "expression_id": "133",
+      "family": "CONSTANT_PLANE",
+      "bounds": {
+        "min": [
+          -108.0,
+          -10.0,
+          0.0
+        ],
+        "max": [
+          -95.0,
+          -10.0,
+          90.0
+        ]
+      }
+    },
+    {
+      "name": "JSONLondon_134",
+      "obj_file": "meshes/JSONLondon_134.obj",
+      "color": "#c74440",
+      "source_file": "JSONLondon.json",
+      "expression_id": "134",
+      "family": "CONSTANT_PLANE",
+      "bounds": {
+        "min": [
+          -95.0,
+          -23.0,
+          0.0
+        ],
+        "max": [
+          -95.0,
+          -10.0,
+          90.0
+        ]
+      }
+    },
+    {
+      "name": "JSONLondon_135",
+      "obj_file": "meshes/JSONLondon_135.obj",
+      "color": "#c74440",
+      "source_file": "JSONLondon.json",
+      "expression_id": "135",
+      "family": "CONSTANT_PLANE",
+      "bounds": {
+        "min": [
+          -108.0,
+          -23.0,
+          0.0
+        ],
+        "max": [
+          -108.0,
+          -10.0,
+          90.0
+        ]
+      }
+    },
+    {
+      "name": "JSONLondon_138",
+      "obj_file": "meshes/JSONLondon_138.obj",
+      "color": "#c74440",
+      "source_file": "JSONLondon.json",
+      "expression_id": "138",
+      "family": "CONSTANT_PLANE",
+      "bounds": {
+        "min": [
+          -108.0,
+          10.0,
+          90.0
+        ],
+        "max": [
+          -95.0,
+          23.0,
+          90.0
+        ]
+      }
+    },
+    {
+      "name": "JSONLondon_139",
+      "obj_file": "meshes/JSONLondon_139.obj",
+      "color": "#c74440",
+      "source_file": "JSONLondon.json",
+      "expression_id": "139",
+      "family": "CONSTANT_PLANE",
+      "bounds": {
+        "min": [
+          -108.0,
+          23.0,
+          0.0
+        ],
+        "max": [
+          -95.0,
+          23.0,
+          90.0
+        ]
+      }
+    },
+    {
+      "name": "JSONLondon_140",
+      "obj_file": "meshes/JSONLondon_140.obj",
+      "color": "#c74440",
+      "source_file": "JSONLondon.json",
+      "expression_id": "140",
+      "family": "CONSTANT_PLANE",
+      "bounds": {
+        "min": [
+          -108.0,
+          10.0,
+          0.0
+        ],
+        "max": [
+          -95.0,
+          10.0,
+          90.0
+        ]
+      }
+    },
+    {
+      "name": "JSONLondon_141",
+      "obj_file": "meshes/JSONLondon_141.obj",
+      "color": "#c74440",
+      "source_file": "JSONLondon.json",
+      "expression_id": "141",
+      "family": "CONSTANT_PLANE",
+      "bounds": {
+        "min": [
+          -95.0,
+          10.0,
+          0.0
+        ],
+        "max": [
+          -95.0,
+          23.0,
+          90.0
+        ]
+      }
+    },
+    {
+      "name": "JSONLondon_142",
+      "obj_file": "meshes/JSONLondon_142.obj",
+      "color": "#c74440",
+      "source_file": "JSONLondon.json",
+      "expression_id": "142",
+      "family": "CONSTANT_PLANE",
+      "bounds": {
+        "min": [
+          -108.0,
+          10.0,
+          0.0
+        ],
+        "max": [
+          -108.0,
+          23.0,
+          90.0
+        ]
+      }
+    },
+    {
+      "name": "JSONLondon_144",
+      "obj_file": "meshes/JSONLondon_144.obj",
+      "color": "#c74440",
+      "source_file": "JSONLondon.json",
+      "expression_id": "144",
+      "family": "CONSTANT_PLANE",
+      "bounds": {
+        "min": [
+          -68.0,
+          10.0,
+          90.0
+        ],
+        "max": [
+          -55.0,
+          23.0,
+          90.0
+        ]
+      }
+    },
+    {
+      "name": "JSONLondon_145",
+      "obj_file": "meshes/JSONLondon_145.obj",
+      "color": "#c74440",
+      "source_file": "JSONLondon.json",
+      "expression_id": "145",
+      "family": "CONSTANT_PLANE",
+      "bounds": {
+        "min": [
+          -68.0,
+          23.0,
+          0.0
+        ],
+        "max": [
+          -55.0,
+          23.0,
+          90.0
+        ]
+      }
+    },
+    {
+      "name": "JSONLondon_146",
+      "obj_file": "meshes/JSONLondon_146.obj",
+      "color": "#c74440",
+      "source_file": "JSONLondon.json",
+      "expression_id": "146",
+      "family": "CONSTANT_PLANE",
+      "bounds": {
+        "min": [
+          -68.0,
+          10.0,
+          0.0
+        ],
+        "max": [
+          -55.0,
+          10.0,
+          90.0
+        ]
+      }
+    },
+    {
+      "name": "JSONLondon_147",
+      "obj_file": "meshes/JSONLondon_147.obj",
+      "color": "#c74440",
+      "source_file": "JSONLondon.json",
+      "expression_id": "147",
+      "family": "CONSTANT_PLANE",
+      "bounds": {
+        "min": [
+          -55.0,
+          10.0,
+          0.0
+        ],
+        "max": [
+          -55.0,
+          23.0,
+          90.0
+        ]
+      }
+    },
+    {
+      "name": "JSONLondon_148",
+      "obj_file": "meshes/JSONLondon_148.obj",
+      "color": "#c74440",
+      "source_file": "JSONLondon.json",
+      "expression_id": "148",
+      "family": "CONSTANT_PLANE",
+      "bounds": {
+        "min": [
+          -68.0,
+          10.0,
+          0.0
+        ],
+        "max": [
+          -68.0,
+          23.0,
+          90.0
+        ]
+      }
+    },
+    {
+      "name": "JSONLondon_152",
+      "obj_file": "meshes/JSONLondon_152.obj",
+      "color": "#c74440",
+      "source_file": "JSONLondon.json",
+      "expression_id": "152",
+      "family": "CONSTANT_PLANE",
+      "bounds": {
+        "min": [
+          -68.0,
+          -23.0,
+          90.0
+        ],
+        "max": [
+          -55.0,
+          -10.0,
+          90.0
+        ]
+      }
+    },
+    {
+      "name": "JSONLondon_153",
+      "obj_file": "meshes/JSONLondon_153.obj",
+      "color": "#c74440",
+      "source_file": "JSONLondon.json",
+      "expression_id": "153",
+      "family": "CONSTANT_PLANE",
+      "bounds": {
+        "min": [
+          -68.0,
+          -23.0,
+          0.0
+        ],
+        "max": [
+          -55.0,
+          -23.0,
+          90.0
+        ]
+      }
+    },
+    {
+      "name": "JSONLondon_154",
+      "obj_file": "meshes/JSONLondon_154.obj",
+      "color": "#c74440",
+      "source_file": "JSONLondon.json",
+      "expression_id": "154",
+      "family": "CONSTANT_PLANE",
+      "bounds": {
+        "min": [
+          -68.0,
+          -10.0,
+          0.0
+        ],
+        "max": [
+          -55.0,
+          -10.0,
+          90.0
+        ]
+      }
+    },
+    {
+      "name": "JSONLondon_155",
+      "obj_file": "meshes/JSONLondon_155.obj",
+      "color": "#c74440",
+      "source_file": "JSONLondon.json",
+      "expression_id": "155",
+      "family": "CONSTANT_PLANE",
+      "bounds": {
+        "min": [
+          -55.0,
+          -23.0,
+          0.0
+        ],
+        "max": [
+          -55.0,
+          -10.0,
+          90.0
+        ]
+      }
+    },
+    {
+      "name": "JSONLondon_156",
+      "obj_file": "meshes/JSONLondon_156.obj",
+      "color": "#c74440",
+      "source_file": "JSONLondon.json",
+      "expression_id": "156",
+      "family": "CONSTANT_PLANE",
+      "bounds": {
+        "min": [
+          -68.0,
+          -23.0,
+          0.0
+        ],
+        "max": [
+          -68.0,
+          -10.0,
+          90.0
+        ]
+      }
+    },
+    {
+      "name": "JSONLondon_209",
+      "obj_file": "meshes/JSONLondon_209.obj",
+      "color": "#388c46",
+      "source_file": "JSONLondon.json",
+      "expression_id": "209",
+      "family": "POINT_DEFINITION",
+      "bounds": {
+        "min": [
+          -95.0,
+          10.0,
+          90.0
+        ],
+        "max": [
+          -95.0,
+          10.0,
+          90.0
+        ]
+      }
+    },
+    {
+      "name": "JSONLondon_210",
+      "obj_file": "meshes/JSONLondon_210.obj",
+      "color": "#6042a6",
+      "source_file": "JSONLondon.json",
+      "expression_id": "210",
+      "family": "POINT_DEFINITION",
+      "bounds": {
+        "min": [
+          -95.0,
+          23.0,
+          90.0
+        ],
+        "max": [
+          -95.0,
+          23.0,
+          90.0
+        ]
+      }
+    },
+    {
+      "name": "JSONLondon_211",
+      "obj_file": "meshes/JSONLondon_211.obj",
+      "color": "#aaaaaa",
+      "source_file": "JSONLondon.json",
+      "expression_id": "211",
+      "family": "POINT_DEFINITION",
+      "bounds": {
+        "min": [
+          -108.0,
+          10.0,
+          90.0
+        ],
+        "max": [
+          -108.0,
+          10.0,
+          90.0
+        ]
+      }
+    },
+    {
+      "name": "JSONLondon_212",
+      "obj_file": "meshes/JSONLondon_212.obj",
+      "color": "#c74440",
+      "source_file": "JSONLondon.json",
+      "expression_id": "212",
+      "family": "POINT_DEFINITION",
+      "bounds": {
+        "min": [
+          -108.0,
+          23.0,
+          90.0
+        ],
+        "max": [
+          -108.0,
+          23.0,
+          90.0
+        ]
+      }
+    },
+    {
+      "name": "JSONLondon_213",
+      "obj_file": "meshes/JSONLondon_213.obj",
+      "color": "#2d70b3",
+      "source_file": "JSONLondon.json",
+      "expression_id": "213",
+      "family": "POINT_DEFINITION",
+      "bounds": {
+        "min": [
+          -101.5,
+          16.5,
+          105.0
+        ],
+        "max": [
+          -101.5,
+          16.5,
+          105.0
+        ]
+      }
+    },
+    {
+      "name": "JSONLondon_217",
+      "obj_file": "meshes/JSONLondon_217.obj",
+      "color": "#aaaaaa",
+      "source_file": "JSONLondon.json",
+      "expression_id": "217",
+      "family": "POINT_DEFINITION",
+      "bounds": {
+        "min": [
+          -55.0,
+          10.0,
+          90.0
+        ],
+        "max": [
+          -55.0,
+          10.0,
+          90.0
+        ]
+      }
+    },
+    {
+      "name": "JSONLondon_218",
+      "obj_file": "meshes/JSONLondon_218.obj",
+      "color": "#c74440",
+      "source_file": "JSONLondon.json",
+      "expression_id": "218",
+      "family": "POINT_DEFINITION",
+      "bounds": {
+        "min": [
+          -68.0,
+          10.0,
+          90.0
+        ],
+        "max": [
+          -68.0,
+          10.0,
+          90.0
+        ]
+      }
+    },
+    {
+      "name": "JSONLondon_219",
+      "obj_file": "meshes/JSONLondon_219.obj",
+      "color": "#2d70b3",
+      "source_file": "JSONLondon.json",
+      "expression_id": "219",
+      "family": "POINT_DEFINITION",
+      "bounds": {
+        "min": [
+          -55.0,
+          23.0,
+          90.0
+        ],
+        "max": [
+          -55.0,
+          23.0,
+          90.0
+        ]
+      }
+    },
+    {
+      "name": "JSONLondon_220",
+      "obj_file": "meshes/JSONLondon_220.obj",
+      "color": "#388c46",
+      "source_file": "JSONLondon.json",
+      "expression_id": "220",
+      "family": "POINT_DEFINITION",
+      "bounds": {
+        "min": [
+          -68.0,
+          23.0,
+          90.0
+        ],
+        "max": [
+          -68.0,
+          23.0,
+          90.0
+        ]
+      }
+    },
+    {
+      "name": "JSONLondon_221",
+      "obj_file": "meshes/JSONLondon_221.obj",
+      "color": "#6042a6",
+      "source_file": "JSONLondon.json",
+      "expression_id": "221",
+      "family": "POINT_DEFINITION",
+      "bounds": {
+        "min": [
+          -61.5,
+          16.5,
+          105.0
+        ],
+        "max": [
+          -61.5,
+          16.5,
+          105.0
+        ]
+      }
+    },
+    {
+      "name": "JSONLondon_225",
+      "obj_file": "meshes/JSONLondon_225.obj",
+      "color": "#2d70b3",
+      "source_file": "JSONLondon.json",
+      "expression_id": "225",
+      "family": "POINT_DEFINITION",
+      "bounds": {
+        "min": [
+          -55.0,
+          -10.0,
+          90.0
+        ],
+        "max": [
+          -55.0,
+          -10.0,
+          90.0
+        ]
+      }
+    },
+    {
+      "name": "JSONLondon_226",
+      "obj_file": "meshes/JSONLondon_226.obj",
+      "color": "#388c46",
+      "source_file": "JSONLondon.json",
+      "expression_id": "226",
+      "family": "POINT_DEFINITION",
+      "bounds": {
+        "min": [
+          -68.0,
+          -10.0,
+          90.0
+        ],
+        "max": [
+          -68.0,
+          -10.0,
+          90.0
+        ]
+      }
+    },
+    {
+      "name": "JSONLondon_227",
+      "obj_file": "meshes/JSONLondon_227.obj",
+      "color": "#6042a6",
+      "source_file": "JSONLondon.json",
+      "expression_id": "227",
+      "family": "POINT_DEFINITION",
+      "bounds": {
+        "min": [
+          -55.0,
+          -23.0,
+          90.0
+        ],
+        "max": [
+          -55.0,
+          -23.0,
+          90.0
+        ]
+      }
+    },
+    {
+      "name": "JSONLondon_228",
+      "obj_file": "meshes/JSONLondon_228.obj",
+      "color": "#aaaaaa",
+      "source_file": "JSONLondon.json",
+      "expression_id": "228",
+      "family": "POINT_DEFINITION",
+      "bounds": {
+        "min": [
+          -68.0,
+          -23.0,
+          90.0
+        ],
+        "max": [
+          -68.0,
+          -23.0,
+          90.0
+        ]
+      }
+    },
+    {
+      "name": "JSONLondon_229",
+      "obj_file": "meshes/JSONLondon_229.obj",
+      "color": "#c74440",
+      "source_file": "JSONLondon.json",
+      "expression_id": "229",
+      "family": "POINT_DEFINITION",
+      "bounds": {
+        "min": [
+          -61.5,
+          -16.5,
+          105.0
+        ],
+        "max": [
+          -61.5,
+          -16.5,
+          105.0
+        ]
+      }
+    },
+    {
+      "name": "JSONLondon_233",
+      "obj_file": "meshes/JSONLondon_233.obj",
+      "color": "#6042a6",
+      "source_file": "JSONLondon.json",
+      "expression_id": "233",
+      "family": "POINT_DEFINITION",
+      "bounds": {
+        "min": [
+          -95.0,
+          -10.0,
+          90.0
+        ],
+        "max": [
+          -95.0,
+          -10.0,
+          90.0
+        ]
+      }
+    },
+    {
+      "name": "JSONLondon_234",
+      "obj_file": "meshes/JSONLondon_234.obj",
+      "color": "#aaaaaa",
+      "source_file": "JSONLondon.json",
+      "expression_id": "234",
+      "family": "POINT_DEFINITION",
+      "bounds": {
+        "min": [
+          -108.0,
+          -10.0,
+          90.0
+        ],
+        "max": [
+          -108.0,
+          -10.0,
+          90.0
+        ]
+      }
+    },
+    {
+      "name": "JSONLondon_235",
+      "obj_file": "meshes/JSONLondon_235.obj",
+      "color": "#c74440",
+      "source_file": "JSONLondon.json",
+      "expression_id": "235",
+      "family": "POINT_DEFINITION",
+      "bounds": {
+        "min": [
+          -95.0,
+          -23.0,
+          90.0
+        ],
+        "max": [
+          -95.0,
+          -23.0,
+          90.0
+        ]
+      }
+    },
+    {
+      "name": "JSONLondon_236",
+      "obj_file": "meshes/JSONLondon_236.obj",
+      "color": "#2d70b3",
+      "source_file": "JSONLondon.json",
+      "expression_id": "236",
+      "family": "POINT_DEFINITION",
+      "bounds": {
+        "min": [
+          -108.0,
+          -23.0,
+          90.0
+        ],
+        "max": [
+          -108.0,
+          -23.0,
+          90.0
+        ]
+      }
+    },
+    {
+      "name": "JSONLondon_237",
+      "obj_file": "meshes/JSONLondon_237.obj",
+      "color": "#388c46",
+      "source_file": "JSONLondon.json",
+      "expression_id": "237",
+      "family": "POINT_DEFINITION",
+      "bounds": {
+        "min": [
+          -101.5,
+          -16.5,
+          105.0
+        ],
+        "max": [
+          -101.5,
+          -16.5,
+          105.0
+        ]
+      }
+    },
+    {
+      "name": "JSONLondon_242",
+      "obj_file": "meshes/JSONLondon_242.obj",
+      "color": "#c74440",
+      "source_file": "JSONLondon.json",
+      "expression_id": "242",
+      "family": "POINT_DEFINITION",
+      "bounds": {
+        "min": [
+          -95.0,
+          -23.0,
+          80.0
+        ],
+        "max": [
+          -95.0,
+          -23.0,
+          80.0
+        ]
+      }
+    },
+    {
+      "name": "JSONLondon_243",
+      "obj_file": "meshes/JSONLondon_243.obj",
+      "color": "#2d70b3",
+      "source_file": "JSONLondon.json",
+      "expression_id": "243",
+      "family": "POINT_DEFINITION",
+      "bounds": {
+        "min": [
+          -95.0,
+          23.0,
+          80.0
+        ],
+        "max": [
+          -95.0,
+          23.0,
+          80.0
+        ]
+      }
+    },
+    {
+      "name": "JSONLondon_244",
+      "obj_file": "meshes/JSONLondon_244.obj",
+      "color": "#388c46",
+      "source_file": "JSONLondon.json",
+      "expression_id": "244",
+      "family": "POINT_DEFINITION",
+      "bounds": {
+        "min": [
+          -68.0,
+          -23.0,
+          80.0
+        ],
+        "max": [
+          -68.0,
+          -23.0,
+          80.0
+        ]
+      }
+    },
+    {
+      "name": "JSONLondon_245",
+      "obj_file": "meshes/JSONLondon_245.obj",
+      "color": "#6042a6",
+      "source_file": "JSONLondon.json",
+      "expression_id": "245",
+      "family": "POINT_DEFINITION",
+      "bounds": {
+        "min": [
+          -68.0,
+          23.0,
+          80.0
+        ],
+        "max": [
+          -68.0,
+          23.0,
+          80.0
+        ]
+      }
+    },
+    {
+      "name": "JSONLondon_246",
+      "obj_file": "meshes/JSONLondon_246.obj",
+      "color": "#aaaaaa",
+      "source_file": "JSONLondon.json",
+      "expression_id": "246",
+      "family": "POINT_DEFINITION",
+      "bounds": {
+        "min": [
+          -81.5,
+          0.0,
+          125.0
+        ],
+        "max": [
+          -81.5,
+          0.0,
+          125.0
+        ]
+      }
+    },
+    {
+      "name": "JSONLondon_199",
+      "obj_file": "meshes/JSONLondon_199.obj",
+      "color": "#2d70b3",
+      "source_file": "JSONLondon.json",
+      "expression_id": "199",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -102.0,
+          -8.0,
+          57.0
+        ],
+        "max": [
+          -100.0,
+          8.0,
+          75.0
+        ]
+      }
+    },
+    {
+      "name": "JSONLondon_200",
+      "obj_file": "meshes/JSONLondon_200.obj",
+      "color": "#2d70b3",
+      "source_file": "JSONLondon.json",
+      "expression_id": "200",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -102.0,
+          -8.0,
+          35.0
+        ],
+        "max": [
+          -100.0,
+          8.0,
+          53.0
+        ]
+      }
+    },
+    {
+      "name": "JSONLondon_201",
+      "obj_file": "meshes/JSONLondon_201.obj",
+      "color": "#2d70b3",
+      "source_file": "JSONLondon.json",
+      "expression_id": "201",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -102.0,
+          -8.0,
+          13.0
+        ],
+        "max": [
+          -100.0,
+          8.0,
+          31.0
+        ]
+      }
+    },
+    {
+      "name": "JSONLondon_202",
+      "obj_file": "meshes/JSONLondon_202.obj",
+      "color": "#2d70b3",
+      "source_file": "JSONLondon.json",
+      "expression_id": "202",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -91.0,
+          -22.0,
+          57.0
+        ],
+        "max": [
+          -72.0,
+          22.0,
+          75.0
+        ]
+      }
+    },
+    {
+      "name": "JSONLondon_203",
+      "obj_file": "meshes/JSONLondon_203.obj",
+      "color": "#2d70b3",
+      "source_file": "JSONLondon.json",
+      "expression_id": "203",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -91.0,
+          -22.0,
+          35.0
+        ],
+        "max": [
+          -72.0,
+          22.0,
+          53.0
+        ]
+      }
+    },
+    {
+      "name": "JSONLondon_204",
+      "obj_file": "meshes/JSONLondon_204.obj",
+      "color": "#2d70b3",
+      "source_file": "JSONLondon.json",
+      "expression_id": "204",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -91.0,
+          -22.0,
+          13.0
+        ],
+        "max": [
+          -72.0,
+          22.0,
+          31.0
+        ]
+      }
+    },
+    {
+      "name": "JSONLondon_376",
+      "obj_file": "meshes/JSONLondon_376.obj",
+      "color": "#aaaaaa",
+      "source_file": "JSONLondon.json",
+      "expression_id": "376",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -102.0,
+          -8.0,
+          65.0
+        ],
+        "max": [
+          -100.0,
+          8.0,
+          67.0
+        ]
+      }
+    },
+    {
+      "name": "JSONLondon_377",
+      "obj_file": "meshes/JSONLondon_377.obj",
+      "color": "#aaaaaa",
+      "source_file": "JSONLondon.json",
+      "expression_id": "377",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -102.0,
+          -8.0,
+          74.0
+        ],
+        "max": [
+          -100.0,
+          8.0,
+          75.0
+        ]
+      }
+    },
+    {
+      "name": "JSONLondon_378",
+      "obj_file": "meshes/JSONLondon_378.obj",
+      "color": "#aaaaaa",
+      "source_file": "JSONLondon.json",
+      "expression_id": "378",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -102.0,
+          -8.0,
+          57.0
+        ],
+        "max": [
+          -100.0,
+          8.0,
+          58.0
+        ]
+      }
+    },
+    {
+      "name": "JSONLondon_379",
+      "obj_file": "meshes/JSONLondon_379.obj",
+      "color": "#aaaaaa",
+      "source_file": "JSONLondon.json",
+      "expression_id": "379",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -102.0,
+          -8.0,
+          43.0
+        ],
+        "max": [
+          -100.0,
+          8.0,
+          45.0
+        ]
+      }
+    },
+    {
+      "name": "JSONLondon_380",
+      "obj_file": "meshes/JSONLondon_380.obj",
+      "color": "#aaaaaa",
+      "source_file": "JSONLondon.json",
+      "expression_id": "380",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -102.0,
+          -8.0,
+          52.0
+        ],
+        "max": [
+          -100.0,
+          8.0,
+          53.0
+        ]
+      }
+    },
+    {
+      "name": "JSONLondon_381",
+      "obj_file": "meshes/JSONLondon_381.obj",
+      "color": "#aaaaaa",
+      "source_file": "JSONLondon.json",
+      "expression_id": "381",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -102.0,
+          -8.0,
+          35.0
+        ],
+        "max": [
+          -100.0,
+          8.0,
+          36.0
+        ]
+      }
+    },
+    {
+      "name": "JSONLondon_382",
+      "obj_file": "meshes/JSONLondon_382.obj",
+      "color": "#aaaaaa",
+      "source_file": "JSONLondon.json",
+      "expression_id": "382",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -102.0,
+          -8.0,
+          30.0
+        ],
+        "max": [
+          -100.0,
+          8.0,
+          31.0
+        ]
+      }
+    },
+    {
+      "name": "JSONLondon_383",
+      "obj_file": "meshes/JSONLondon_383.obj",
+      "color": "#aaaaaa",
+      "source_file": "JSONLondon.json",
+      "expression_id": "383",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -102.0,
+          -8.0,
+          12.0
+        ],
+        "max": [
+          -100.0,
+          8.0,
+          13.0
+        ]
+      }
+    },
+    {
+      "name": "JSONLondon_384",
+      "obj_file": "meshes/JSONLondon_384.obj",
+      "color": "#aaaaaa",
+      "source_file": "JSONLondon.json",
+      "expression_id": "384",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -102.0,
+          -8.0,
+          21.0
+        ],
+        "max": [
+          -100.0,
+          8.0,
+          23.0
+        ]
+      }
+    },
+    {
+      "name": "JSONLondon_385",
+      "obj_file": "meshes/JSONLondon_385.obj",
+      "color": "#aaaaaa",
+      "source_file": "JSONLondon.json",
+      "expression_id": "385",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -102.0,
+          7.0,
+          57.0
+        ],
+        "max": [
+          -100.0,
+          8.0,
+          75.0
+        ]
+      }
+    },
+    {
+      "name": "JSONLondon_386",
+      "obj_file": "meshes/JSONLondon_386.obj",
+      "color": "#aaaaaa",
+      "source_file": "JSONLondon.json",
+      "expression_id": "386",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -102.0,
+          -8.0,
+          57.0
+        ],
+        "max": [
+          -100.0,
+          -7.0,
+          75.0
+        ]
+      }
+    },
+    {
+      "name": "JSONLondon_388",
+      "obj_file": "meshes/JSONLondon_388.obj",
+      "color": "#aaaaaa",
+      "source_file": "JSONLondon.json",
+      "expression_id": "388",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -102.0,
+          -8.0,
+          35.0
+        ],
+        "max": [
+          -100.0,
+          -7.0,
+          53.0
+        ]
+      }
+    },
+    {
+      "name": "JSONLondon_389",
+      "obj_file": "meshes/JSONLondon_389.obj",
+      "color": "#aaaaaa",
+      "source_file": "JSONLondon.json",
+      "expression_id": "389",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -102.0,
+          7.0,
+          35.0
+        ],
+        "max": [
+          -100.0,
+          8.0,
+          53.0
+        ]
+      }
+    },
+    {
+      "name": "JSONLondon_390",
+      "obj_file": "meshes/JSONLondon_390.obj",
+      "color": "#aaaaaa",
+      "source_file": "JSONLondon.json",
+      "expression_id": "390",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -102.0,
+          -8.0,
+          12.0
+        ],
+        "max": [
+          -100.0,
+          -7.0,
+          31.0
+        ]
+      }
+    },
+    {
+      "name": "JSONLondon_391",
+      "obj_file": "meshes/JSONLondon_391.obj",
+      "color": "#aaaaaa",
+      "source_file": "JSONLondon.json",
+      "expression_id": "391",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -102.0,
+          7.0,
+          12.0
+        ],
+        "max": [
+          -100.0,
+          8.0,
+          31.0
+        ]
+      }
+    },
+    {
+      "name": "JSONLondon_392",
+      "obj_file": "meshes/JSONLondon_392.obj",
+      "color": "#aaaaaa",
+      "source_file": "JSONLondon.json",
+      "expression_id": "392",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -102.0,
+          -1.0,
+          57.0
+        ],
+        "max": [
+          -100.0,
+          1.0,
+          75.0
+        ]
+      }
+    },
+    {
+      "name": "JSONLondon_393",
+      "obj_file": "meshes/JSONLondon_393.obj",
+      "color": "#aaaaaa",
+      "source_file": "JSONLondon.json",
+      "expression_id": "393",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -102.0,
+          -1.0,
+          35.0
+        ],
+        "max": [
+          -100.0,
+          1.0,
+          53.0
+        ]
+      }
+    },
+    {
+      "name": "JSONLondon_394",
+      "obj_file": "meshes/JSONLondon_394.obj",
+      "color": "#aaaaaa",
+      "source_file": "JSONLondon.json",
+      "expression_id": "394",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -102.0,
+          -1.0,
+          13.0
+        ],
+        "max": [
+          -100.0,
+          1.0,
+          31.0
+        ]
+      }
+    },
+    {
+      "name": "JSONLondon_395",
+      "obj_file": "meshes/JSONLondon_395.obj",
+      "color": "#aaaaaa",
+      "source_file": "JSONLondon.json",
+      "expression_id": "395",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -91.0,
+          -22.0,
+          65.0
+        ],
+        "max": [
+          -72.0,
+          22.0,
+          67.0
+        ]
+      }
+    },
+    {
+      "name": "JSONLondon_396",
+      "obj_file": "meshes/JSONLondon_396.obj",
+      "color": "#aaaaaa",
+      "source_file": "JSONLondon.json",
+      "expression_id": "396",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -91.0,
+          -22.0,
+          43.0
+        ],
+        "max": [
+          -72.0,
+          22.0,
+          45.0
+        ]
+      }
+    },
+    {
+      "name": "JSONLondon_397",
+      "obj_file": "meshes/JSONLondon_397.obj",
+      "color": "#aaaaaa",
+      "source_file": "JSONLondon.json",
+      "expression_id": "397",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -91.0,
+          -22.0,
+          21.0
+        ],
+        "max": [
+          -72.0,
+          22.0,
+          23.0
+        ]
+      }
+    },
+    {
+      "name": "JSONLondon_398",
+      "obj_file": "meshes/JSONLondon_398.obj",
+      "color": "#aaaaaa",
+      "source_file": "JSONLondon.json",
+      "expression_id": "398",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -82.5,
+          -22.0,
+          13.0
+        ],
+        "max": [
+          -80.5,
+          22.0,
+          31.0
+        ]
+      }
+    },
+    {
+      "name": "JSONLondon_399",
+      "obj_file": "meshes/JSONLondon_399.obj",
+      "color": "#aaaaaa",
+      "source_file": "JSONLondon.json",
+      "expression_id": "399",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -82.5,
+          -22.0,
+          35.0
+        ],
+        "max": [
+          -80.5,
+          22.0,
+          53.0
+        ]
+      }
+    },
+    {
+      "name": "JSONLondon_400",
+      "obj_file": "meshes/JSONLondon_400.obj",
+      "color": "#aaaaaa",
+      "source_file": "JSONLondon.json",
+      "expression_id": "400",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -82.5,
+          -22.0,
+          57.0
+        ],
+        "max": [
+          -80.5,
+          22.0,
+          75.0
+        ]
+      }
+    },
+    {
+      "name": "JSONLondon_401",
+      "obj_file": "meshes/JSONLondon_401.obj",
+      "color": "#aaaaaa",
+      "source_file": "JSONLondon.json",
+      "expression_id": "401",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -91.0,
+          -22.0,
+          57.0
+        ],
+        "max": [
+          -90.0,
+          22.0,
+          75.0
+        ]
+      }
+    },
+    {
+      "name": "JSONLondon_402",
+      "obj_file": "meshes/JSONLondon_402.obj",
+      "color": "#aaaaaa",
+      "source_file": "JSONLondon.json",
+      "expression_id": "402",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -73.0,
+          -22.0,
+          57.0
+        ],
+        "max": [
+          -72.0,
+          22.0,
+          75.0
+        ]
+      }
+    },
+    {
+      "name": "JSONLondon_403",
+      "obj_file": "meshes/JSONLondon_403.obj",
+      "color": "#aaaaaa",
+      "source_file": "JSONLondon.json",
+      "expression_id": "403",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -91.0,
+          -22.0,
+          35.0
+        ],
+        "max": [
+          -90.0,
+          22.0,
+          53.0
+        ]
+      }
+    },
+    {
+      "name": "JSONLondon_404",
+      "obj_file": "meshes/JSONLondon_404.obj",
+      "color": "#aaaaaa",
+      "source_file": "JSONLondon.json",
+      "expression_id": "404",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -73.0,
+          -22.0,
+          35.0
+        ],
+        "max": [
+          -72.0,
+          22.0,
+          53.0
+        ]
+      }
+    },
+    {
+      "name": "JSONLondon_405",
+      "obj_file": "meshes/JSONLondon_405.obj",
+      "color": "#aaaaaa",
+      "source_file": "JSONLondon.json",
+      "expression_id": "405",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -73.0,
+          -22.0,
+          13.0
+        ],
+        "max": [
+          -72.0,
+          22.0,
+          31.0
+        ]
+      }
+    },
+    {
+      "name": "JSONLondon_406",
+      "obj_file": "meshes/JSONLondon_406.obj",
+      "color": "#aaaaaa",
+      "source_file": "JSONLondon.json",
+      "expression_id": "406",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -91.0,
+          -22.0,
+          13.0
+        ],
+        "max": [
+          -90.0,
+          22.0,
+          31.0
+        ]
+      }
+    },
+    {
+      "name": "JSONLondon_407",
+      "obj_file": "meshes/JSONLondon_407.obj",
+      "color": "#aaaaaa",
+      "source_file": "JSONLondon.json",
+      "expression_id": "407",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -91.0,
+          -22.0,
+          74.0
+        ],
+        "max": [
+          -72.0,
+          22.0,
+          75.0
+        ]
+      }
+    },
+    {
+      "name": "JSONLondon_408",
+      "obj_file": "meshes/JSONLondon_408.obj",
+      "color": "#aaaaaa",
+      "source_file": "JSONLondon.json",
+      "expression_id": "408",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -91.0,
+          -22.0,
+          57.0
+        ],
+        "max": [
+          -72.0,
+          22.0,
+          58.0
+        ]
+      }
+    },
+    {
+      "name": "JSONLondon_409",
+      "obj_file": "meshes/JSONLondon_409.obj",
+      "color": "#aaaaaa",
+      "source_file": "JSONLondon.json",
+      "expression_id": "409",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -91.0,
+          -22.0,
+          52.0
+        ],
+        "max": [
+          -72.0,
+          22.0,
+          53.0
+        ]
+      }
+    },
+    {
+      "name": "JSONLondon_410",
+      "obj_file": "meshes/JSONLondon_410.obj",
+      "color": "#aaaaaa",
+      "source_file": "JSONLondon.json",
+      "expression_id": "410",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -91.0,
+          -22.0,
+          34.0
+        ],
+        "max": [
+          -72.0,
+          22.0,
+          35.0
+        ]
+      }
+    },
+    {
+      "name": "JSONLondon_411",
+      "obj_file": "meshes/JSONLondon_411.obj",
+      "color": "#aaaaaa",
+      "source_file": "JSONLondon.json",
+      "expression_id": "411",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -91.0,
+          -22.0,
+          30.0
+        ],
+        "max": [
+          -72.0,
+          22.0,
+          31.0
+        ]
+      }
+    },
+    {
+      "name": "JSONLondon_412",
+      "obj_file": "meshes/JSONLondon_412.obj",
+      "color": "#aaaaaa",
+      "source_file": "JSONLondon.json",
+      "expression_id": "412",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -91.0,
+          -22.0,
+          13.0
+        ],
+        "max": [
+          -72.0,
+          22.0,
+          14.0
+        ]
+      }
+    },
+    {
+      "name": "JSONLondon_309",
+      "obj_file": "meshes/JSONLondon_309.obj",
+      "color": "#c74440",
+      "source_file": "JSONLondon.json",
+      "expression_id": "309",
+      "family": "CONSTANT_PLANE",
+      "bounds": {
+        "min": [
+          -117.0,
+          -18.0,
+          0.0
+        ],
+        "max": [
+          -115.0,
+          -18.0,
+          64.0
+        ]
+      }
+    },
+    {
+      "name": "JSONLondon_310",
+      "obj_file": "meshes/JSONLondon_310.obj",
+      "color": "#c74440",
+      "source_file": "JSONLondon.json",
+      "expression_id": "310",
+      "family": "CONSTANT_PLANE",
+      "bounds": {
+        "min": [
+          -137.0,
+          -18.0,
+          0.0
+        ],
+        "max": [
+          -135.0,
+          -18.0,
+          46.0
+        ]
+      }
+    },
+    {
+      "name": "JSONLondon_311",
+      "obj_file": "meshes/JSONLondon_311.obj",
+      "color": "#c74440",
+      "source_file": "JSONLondon.json",
+      "expression_id": "311",
+      "family": "CONSTANT_PLANE",
+      "bounds": {
+        "min": [
+          -157.0,
+          -18.0,
+          0.0
+        ],
+        "max": [
+          -155.0,
+          -18.0,
+          31.0
+        ]
+      }
+    },
+    {
+      "name": "JSONLondon_312",
+      "obj_file": "meshes/JSONLondon_312.obj",
+      "color": "#c74440",
+      "source_file": "JSONLondon.json",
+      "expression_id": "312",
+      "family": "CONSTANT_PLANE",
+      "bounds": {
+        "min": [
+          -177.0,
+          -18.0,
+          0.0
+        ],
+        "max": [
+          -175.0,
+          -18.0,
+          18.0
+        ]
+      }
+    },
+    {
+      "name": "JSONLondon_313",
+      "obj_file": "meshes/JSONLondon_313.obj",
+      "color": "#c74440",
+      "source_file": "JSONLondon.json",
+      "expression_id": "313",
+      "family": "CONSTANT_PLANE",
+      "bounds": {
+        "min": [
+          -117.0,
+          18.0,
+          0.0
+        ],
+        "max": [
+          -115.0,
+          18.0,
+          64.0
+        ]
+      }
+    },
+    {
+      "name": "JSONLondon_314",
+      "obj_file": "meshes/JSONLondon_314.obj",
+      "color": "#c74440",
+      "source_file": "JSONLondon.json",
+      "expression_id": "314",
+      "family": "CONSTANT_PLANE",
+      "bounds": {
+        "min": [
+          -137.0,
+          18.0,
+          0.0
+        ],
+        "max": [
+          -135.0,
+          18.0,
+          46.0
+        ]
+      }
+    },
+    {
+      "name": "JSONLondon_315",
+      "obj_file": "meshes/JSONLondon_315.obj",
+      "color": "#c74440",
+      "source_file": "JSONLondon.json",
+      "expression_id": "315",
+      "family": "CONSTANT_PLANE",
+      "bounds": {
+        "min": [
+          -157.0,
+          18.0,
+          0.0
+        ],
+        "max": [
+          -155.0,
+          18.0,
+          31.0
+        ]
+      }
+    },
+    {
+      "name": "JSONLondon_323",
+      "obj_file": "meshes/JSONLondon_323.obj",
+      "color": "#c74440",
+      "source_file": "JSONLondon.json",
+      "expression_id": "323",
+      "family": "CONSTANT_PLANE",
+      "bounds": {
+        "min": [
+          -177.0,
+          18.0,
+          0.0
+        ],
+        "max": [
+          -175.0,
+          18.0,
+          18.0
+        ]
+      }
+    }
+  ],
+  "failures": []
+}

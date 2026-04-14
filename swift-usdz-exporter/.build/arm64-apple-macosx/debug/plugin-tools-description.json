@@ -1,0 +1,674 @@
+{
+  "builtTestProducts" : [
+    {
+      "binaryPath" : "/Users/careylai/Desktop/python-swift-usdz/swift-usdz-exporter/.build/arm64-apple-macosx/debug/USDZExporterPackageTests.xctest/Contents/MacOS/USDZExporterPackageTests",
+      "packagePath" : "/Users/careylai/Desktop/python-swift-usdz/swift-usdz-exporter",
+      "productName" : "USDZExporterPackageTests"
+    }
+  ],
+  "copyCommands" : {
+
+  },
+  "explicitTargetDependencyImportCheckingMode" : {
+    "none" : {
+
+    }
+  },
+  "generatedSourceTargetSet" : [
+
+  ],
+  "pluginDescriptions" : [
+
+  ],
+  "swiftCommands" : {
+    "C.USDZExporter-arm64-apple-macosx26.0-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/careylai/Desktop/python-swift-usdz/swift-usdz-exporter/.build/arm64-apple-macosx/debug/USDZExporter.build/sources",
+      "importPath" : "/Users/careylai/Desktop/python-swift-usdz/swift-usdz-exporter/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/careylai/Desktop/python-swift-usdz/swift-usdz-exporter/Sources/USDZExporter/main.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/careylai/Desktop/python-swift-usdz/swift-usdz-exporter/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/careylai/Desktop/python-swift-usdz/swift-usdz-exporter/.build/arm64-apple-macosx/debug/USDZExporter.build/sources"
+        }
+      ],
+      "isLibrary" : false,
+      "moduleName" : "USDZExporter",
+      "moduleOutputPath" : "/Users/careylai/Desktop/python-swift-usdz/swift-usdz-exporter/.build/arm64-apple-macosx/debug/Modules/USDZExporter.swiftmodule",
+      "objects" : [
+        "/Users/careylai/Desktop/python-swift-usdz/swift-usdz-exporter/.build/arm64-apple-macosx/debug/USDZExporter.build/main.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx13.0",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/Users/careylai/Desktop/python-swift-usdz/swift-usdz-exporter/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j14",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Users/careylai/Desktop/python-swift-usdz/swift-usdz-exporter/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-Xfrontend",
+        "-entry-point-function-name",
+        "-Xfrontend",
+        "USDZExporter_main",
+        "-parse-as-library",
+        "-color-diagnostics",
+        "-swift-version",
+        "5",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "swift_usdz_exporter"
+      ],
+      "outputFileMapPath" : "/Users/careylai/Desktop/python-swift-usdz/swift-usdz-exporter/.build/arm64-apple-macosx/debug/USDZExporter.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/careylai/Desktop/python-swift-usdz/swift-usdz-exporter/.build/arm64-apple-macosx/debug/USDZExporter.build/main.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/careylai/Desktop/python-swift-usdz/swift-usdz-exporter/.build/arm64-apple-macosx/debug/Modules/USDZExporter.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/careylai/Desktop/python-swift-usdz/swift-usdz-exporter/Sources/USDZExporter/main.swift"
+      ],
+      "tempsPath" : "/Users/careylai/Desktop/python-swift-usdz/swift-usdz-exporter/.build/arm64-apple-macosx/debug/USDZExporter.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.USDZExporterPackageTests-arm64-apple-macosx26.0-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/careylai/Desktop/python-swift-usdz/swift-usdz-exporter/.build/arm64-apple-macosx/debug/USDZExporterPackageTests.build/sources",
+      "importPath" : "/Users/careylai/Desktop/python-swift-usdz/swift-usdz-exporter/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/careylai/Desktop/python-swift-usdz/swift-usdz-exporter/.build/arm64-apple-macosx/debug/USDZExporterPackageTests.derived/runner.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/careylai/Desktop/python-swift-usdz/swift-usdz-exporter/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/careylai/Desktop/python-swift-usdz/swift-usdz-exporter/.build/arm64-apple-macosx/debug/Modules/USDZExporterTests.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/careylai/Desktop/python-swift-usdz/swift-usdz-exporter/.build/arm64-apple-macosx/debug/USDZExporterPackageTests.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "USDZExporterPackageTests",
+      "moduleOutputPath" : "/Users/careylai/Desktop/python-swift-usdz/swift-usdz-exporter/.build/arm64-apple-macosx/debug/Modules/USDZExporterPackageTests.swiftmodule",
+      "objects" : [
+        "/Users/careylai/Desktop/python-swift-usdz/swift-usdz-exporter/.build/arm64-apple-macosx/debug/USDZExporterPackageTests.build/runner.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx13.0",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/Users/careylai/Desktop/python-swift-usdz/swift-usdz-exporter/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-Xfrontend",
+        "-enable-cross-import-overlays",
+        "-j14",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Users/careylai/Desktop/python-swift-usdz/swift-usdz-exporter/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/careylai/Desktop/python-swift-usdz/swift-usdz-exporter/.build/arm64-apple-macosx/debug/USDZExporterPackageTests.build/include/USDZExporterPackageTests-Swift.h",
+        "-color-diagnostics",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "swift_usdz_exporter"
+      ],
+      "outputFileMapPath" : "/Users/careylai/Desktop/python-swift-usdz/swift-usdz-exporter/.build/arm64-apple-macosx/debug/USDZExporterPackageTests.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/careylai/Desktop/python-swift-usdz/swift-usdz-exporter/.build/arm64-apple-macosx/debug/USDZExporterPackageTests.build/runner.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/careylai/Desktop/python-swift-usdz/swift-usdz-exporter/.build/arm64-apple-macosx/debug/Modules/USDZExporterPackageTests.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/careylai/Desktop/python-swift-usdz/swift-usdz-exporter/.build/arm64-apple-macosx/debug/USDZExporterPackageTests.derived/runner.swift"
+      ],
+      "tempsPath" : "/Users/careylai/Desktop/python-swift-usdz/swift-usdz-exporter/.build/arm64-apple-macosx/debug/USDZExporterPackageTests.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.USDZExporterTests-arm64-apple-macosx26.0-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/careylai/Desktop/python-swift-usdz/swift-usdz-exporter/.build/arm64-apple-macosx/debug/USDZExporterTests.build/sources",
+      "importPath" : "/Users/careylai/Desktop/python-swift-usdz/swift-usdz-exporter/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/careylai/Desktop/python-swift-usdz/swift-usdz-exporter/Tests/USDZExporterTests/USDZExporterTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/careylai/Desktop/python-swift-usdz/swift-usdz-exporter/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/careylai/Desktop/python-swift-usdz/swift-usdz-exporter/.build/arm64-apple-macosx/debug/usdz-exporter"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/careylai/Desktop/python-swift-usdz/swift-usdz-exporter/.build/arm64-apple-macosx/debug/USDZExporterTests.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "USDZExporterTests",
+      "moduleOutputPath" : "/Users/careylai/Desktop/python-swift-usdz/swift-usdz-exporter/.build/arm64-apple-macosx/debug/Modules/USDZExporterTests.swiftmodule",
+      "objects" : [
+        "/Users/careylai/Desktop/python-swift-usdz/swift-usdz-exporter/.build/arm64-apple-macosx/debug/USDZExporterTests.build/USDZExporterTests.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx14.0",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/Users/careylai/Desktop/python-swift-usdz/swift-usdz-exporter/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-Xfrontend",
+        "-enable-cross-import-overlays",
+        "-j14",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Users/careylai/Desktop/python-swift-usdz/swift-usdz-exporter/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-color-diagnostics",
+        "-swift-version",
+        "5",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "swift_usdz_exporter"
+      ],
+      "outputFileMapPath" : "/Users/careylai/Desktop/python-swift-usdz/swift-usdz-exporter/.build/arm64-apple-macosx/debug/USDZExporterTests.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/careylai/Desktop/python-swift-usdz/swift-usdz-exporter/.build/arm64-apple-macosx/debug/USDZExporterTests.build/USDZExporterTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/careylai/Desktop/python-swift-usdz/swift-usdz-exporter/.build/arm64-apple-macosx/debug/Modules/USDZExporterTests.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/careylai/Desktop/python-swift-usdz/swift-usdz-exporter/Tests/USDZExporterTests/USDZExporterTests.swift"
+      ],
+      "tempsPath" : "/Users/careylai/Desktop/python-swift-usdz/swift-usdz-exporter/.build/arm64-apple-macosx/debug/USDZExporterTests.build",
+      "wholeModuleOptimization" : false
+    }
+  },
+  "swiftFrontendCommands" : {
+
+  },
+  "swiftTargetScanArgs" : {
+    "USDZExporter" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "USDZExporter",
+      "-package-name",
+      "swift_usdz_exporter",
+      "-c",
+      "/Users/careylai/Desktop/python-swift-usdz/swift-usdz-exporter/Sources/USDZExporter/main.swift",
+      "-I",
+      "/Users/careylai/Desktop/python-swift-usdz/swift-usdz-exporter/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx13.0",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/Users/careylai/Desktop/python-swift-usdz/swift-usdz-exporter/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-j14",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Users/careylai/Desktop/python-swift-usdz/swift-usdz-exporter/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-Xfrontend",
+      "-entry-point-function-name",
+      "-Xfrontend",
+      "USDZExporter_main",
+      "-parse-as-library",
+      "-color-diagnostics",
+      "-swift-version",
+      "5",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "swift_usdz_exporter",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ],
+    "USDZExporterPackageTests" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "USDZExporterPackageTests",
+      "-package-name",
+      "swift_usdz_exporter",
+      "-c",
+      "/Users/careylai/Desktop/python-swift-usdz/swift-usdz-exporter/.build/arm64-apple-macosx/debug/USDZExporterPackageTests.derived/runner.swift",
+      "-I",
+      "/Users/careylai/Desktop/python-swift-usdz/swift-usdz-exporter/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx13.0",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/Users/careylai/Desktop/python-swift-usdz/swift-usdz-exporter/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-Xfrontend",
+      "-enable-cross-import-overlays",
+      "-j14",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Users/careylai/Desktop/python-swift-usdz/swift-usdz-exporter/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/Users/careylai/Desktop/python-swift-usdz/swift-usdz-exporter/.build/arm64-apple-macosx/debug/USDZExporterPackageTests.build/include/USDZExporterPackageTests-Swift.h",
+      "-color-diagnostics",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "swift_usdz_exporter",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ],
+    "USDZExporterTests" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "USDZExporterTests",
+      "-package-name",
+      "swift_usdz_exporter",
+      "-c",
+      "/Users/careylai/Desktop/python-swift-usdz/swift-usdz-exporter/Tests/USDZExporterTests/USDZExporterTests.swift",
+      "-I",
+      "/Users/careylai/Desktop/python-swift-usdz/swift-usdz-exporter/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx14.0",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/Users/careylai/Desktop/python-swift-usdz/swift-usdz-exporter/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-Xfrontend",
+      "-enable-cross-import-overlays",
+      "-j14",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Users/careylai/Desktop/python-swift-usdz/swift-usdz-exporter/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-color-diagnostics",
+      "-swift-version",
+      "5",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "swift_usdz_exporter",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ]
+  },
+  "targetDependencyMap" : {
+    "USDZExporter" : [
+
+    ],
+    "USDZExporterPackageTests" : [
+      "USDZExporterTests",
+      "USDZExporter"
+    ],
+    "USDZExporterTests" : [
+      "USDZExporter"
+    ]
+  },
+  "testDiscoveryCommands" : {
+
+  },
+  "testEntryPointCommands" : {
+    "/Users/careylai/Desktop/python-swift-usdz/swift-usdz-exporter/.build/arm64-apple-macosx/debug/USDZExporterPackageTests.derived/runner.swift" : {
+      "inputs" : [
+
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/careylai/Desktop/python-swift-usdz/swift-usdz-exporter/.build/arm64-apple-macosx/debug/USDZExporterPackageTests.derived/runner.swift"
+        }
+      ]
+    }
+  },
+  "traitConfiguration" : {
+    "default" : {
+
+    }
+  },
+  "writeCommands" : {
+    "/Users/careylai/Desktop/python-swift-usdz/swift-usdz-exporter/.build/arm64-apple-macosx/debug/USDZExporter.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/careylai/Desktop/python-swift-usdz/swift-usdz-exporter/Sources/USDZExporter/main.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/careylai/Desktop/python-swift-usdz/swift-usdz-exporter/.build/arm64-apple-macosx/debug/USDZExporter.build/sources"
+    },
+    "/Users/careylai/Desktop/python-swift-usdz/swift-usdz-exporter/.build/arm64-apple-macosx/debug/USDZExporterPackageTests.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/careylai/Desktop/python-swift-usdz/swift-usdz-exporter/.build/arm64-apple-macosx/debug/USDZExporterPackageTests.derived/runner.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/careylai/Desktop/python-swift-usdz/swift-usdz-exporter/.build/arm64-apple-macosx/debug/USDZExporterPackageTests.build/sources"
+    },
+    "/Users/careylai/Desktop/python-swift-usdz/swift-usdz-exporter/.build/arm64-apple-macosx/debug/USDZExporterPackageTests.product/Objects.LinkFileList" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<link-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/careylai/Desktop/python-swift-usdz/swift-usdz-exporter/.build/arm64-apple-macosx/debug/USDZExporter.build/main.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/careylai/Desktop/python-swift-usdz/swift-usdz-exporter/.build/arm64-apple-macosx/debug/USDZExporterPackageTests.build/runner.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/careylai/Desktop/python-swift-usdz/swift-usdz-exporter/.build/arm64-apple-macosx/debug/USDZExporterTests.build/USDZExporterTests.swift.o"
+        }
+      ],
+      "outputFilePath" : "/Users/careylai/Desktop/python-swift-usdz/swift-usdz-exporter/.build/arm64-apple-macosx/debug/USDZExporterPackageTests.product/Objects.LinkFileList"
+    },
+    "/Users/careylai/Desktop/python-swift-usdz/swift-usdz-exporter/.build/arm64-apple-macosx/debug/USDZExporterTests.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/careylai/Desktop/python-swift-usdz/swift-usdz-exporter/Tests/USDZExporterTests/USDZExporterTests.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/careylai/Desktop/python-swift-usdz/swift-usdz-exporter/.build/arm64-apple-macosx/debug/USDZExporterTests.build/sources"
+    },
+    "/Users/careylai/Desktop/python-swift-usdz/swift-usdz-exporter/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt" : {
+      "alwaysOutOfDate" : true,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<swift-get-version>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+        }
+      ],
+      "outputFilePath" : "/Users/careylai/Desktop/python-swift-usdz/swift-usdz-exporter/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+    },
+    "/Users/careylai/Desktop/python-swift-usdz/swift-usdz-exporter/.build/arm64-apple-macosx/debug/usdz-exporter-entitlement.plist" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<entitlement-plist>"
+        },
+        {
+          "kind" : "virtual",
+          "name" : "<com.apple.security.get-task-allow>"
+        }
+      ],
+      "outputFilePath" : "/Users/careylai/Desktop/python-swift-usdz/swift-usdz-exporter/.build/arm64-apple-macosx/debug/usdz-exporter-entitlement.plist"
+    },
+    "/Users/careylai/Desktop/python-swift-usdz/swift-usdz-exporter/.build/arm64-apple-macosx/debug/usdz-exporter.product/Objects.LinkFileList" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<link-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/careylai/Desktop/python-swift-usdz/swift-usdz-exporter/.build/arm64-apple-macosx/debug/USDZExporter.build/main.swift.o"
+        }
+      ],
+      "outputFilePath" : "/Users/careylai/Desktop/python-swift-usdz/swift-usdz-exporter/.build/arm64-apple-macosx/debug/usdz-exporter.product/Objects.LinkFileList"
+    }
+  }
+}

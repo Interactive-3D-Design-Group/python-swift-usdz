@@ -1,0 +1,20 @@
+{
+  "source_file": "JSONreference.json",
+  "total_expressions": 0,
+  "supported_count": 0,
+  "recognized_unsupported_count": 0,
+  "unrecognized_count": 0,
+  "per_folder_summary": [],
+  "unsupported_expressions": [],
+  "unknown_fingerprints": [],
+  "diagnostics": [
+    {
+      "severity": "ERROR",
+      "code": "IO_READ_FAILED",
+      "message": "[Errno 2] No such file or directory: '/Users/careylai/Desktop/python-swift-usdz/swift-usdz-exporter/JSONreference.json'",
+      "source_ref": null,
+      "details": {}
+    }
+  ],
+  "status": "FAIL"
+}

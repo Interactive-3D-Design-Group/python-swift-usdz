@@ -1,0 +1,1946 @@
+{
+  "version": 11,
+  "randomSeed": "393116f38cbc79dfa234707053ebe31b",
+  "graph": {
+    "viewport": {
+      "xmin": -139.38696110832,
+      "ymin": -139.3869611083204,
+      "zmin": -139.3869611083204,
+      "xmax": 139.38696110832,
+      "ymax": 139.3869611083204,
+      "zmax": 139.3869611083204
+    },
+    "worldRotation3D": [
+      5.681729482829779e-17,
+      1,
+      2.2829683857840183e-17,
+      -0.9278968412420007,
+      6.123233995736766e-17,
+      -0.37283703144016866,
+      -0.37283703144016866,
+      0,
+      0.9278968412420007
+    ],
+    "axis3D": [
+      -0.9999999999988368,
+      -6.1232339957296e-17,
+      -1.981216534585169e-30
+    ],
+    "product": "graphing-3d",
+    "threeDMode": true,
+    "__v12ViewportLatexStash": {
+      "xmin": "-139.38696110832",
+      "xmax": "139.38696110832",
+      "ymin": "-139.3869611083204",
+      "ymax": "139.3869611083204",
+      "zmin": "-139.3869611083204",
+      "zmax": "139.3869611083204"
+    }
+  },
+  "expressions": {
+    "list": [
+      {
+        "type": "folder",
+        "id": "2",
+        "title": "road",
+        "collapsed": true
+      },
+      {
+        "type": "expression",
+        "id": "3",
+        "folderId": "2",
+        "color": "#aaaaaa",
+        "latex": "y=20\\left\\{-225<x<225\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "10",
+        "folderId": "2",
+        "color": "#aaaaaa",
+        "latex": "y=-20\\left\\{-225<x<225\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "13",
+        "folderId": "2",
+        "color": "#2d70b3",
+        "latex": "20>y>-20\\left\\{-225<x<225\\right\\}"
+      },
+      {
+        "type": "folder",
+        "id": "33",
+        "title": "small road",
+        "collapsed": true
+      },
+      {
+        "type": "expression",
+        "id": "34",
+        "folderId": "33",
+        "color": "#aaaaaa",
+        "latex": "z=55\\left\\{20>y>-20\\right\\}\\left\\{60>x>-60\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "36",
+        "folderId": "33",
+        "color": "#388c46",
+        "latex": "y=-20\\left\\{63<z<65\\right\\}\\left\\{60>x>-60\\right\\}",
+        "extendTo3D": true
+      },
+      {
+        "type": "expression",
+        "id": "37",
+        "folderId": "33",
+        "color": "#388c46",
+        "latex": "y=20\\left\\{63<z<65\\right\\}\\left\\{60>x>-60\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "324",
+        "folderId": "33",
+        "color": "#388c46",
+        "latex": "y=-20\\left\\{58<z<60\\right\\}\\left\\{60>x>-60\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "325",
+        "folderId": "33",
+        "color": "#388c46",
+        "latex": "y=20\\left\\{58<z<60\\right\\}\\left\\{60>x>-60\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "326",
+        "folderId": "33",
+        "color": "#c74440",
+        "latex": "y=20\\left\\{55<z<68\\right\\}\\left\\{3>x>-3\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "327",
+        "folderId": "33",
+        "color": "#c74440",
+        "latex": "y=-20\\left\\{55<z<68\\right\\}\\left\\{3>x>-3\\right\\}"
+      },
+      {
+        "type": "folder",
+        "id": "40",
+        "title": "curve",
+        "collapsed": true
+      },
+      {
+        "type": "expression",
+        "id": "46",
+        "folderId": "40",
+        "color": "#c74440",
+        "latex": "z=ax^{2}+bx+c\\left\\{-20<y<-16\\right\\}\\left\\{0<z<80\\right\\}\\left\\{-100>x>-225\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "76",
+        "folderId": "40",
+        "color": "#c74440",
+        "latex": "a=0.003",
+        "hidden": true,
+        "slider": {
+          "hardMin": true
+        }
+      },
+      {
+        "type": "expression",
+        "id": "77",
+        "folderId": "40",
+        "color": "#2d70b3",
+        "latex": "b=1.64",
+        "hidden": true
+      },
+      {
+        "type": "expression",
+        "id": "78",
+        "folderId": "40",
+        "color": "#388c46",
+        "latex": "c=214",
+        "hidden": true,
+        "slider": {
+          "max": "395"
+        }
+      },
+      {
+        "type": "expression",
+        "id": "79",
+        "folderId": "40",
+        "color": "#c74440",
+        "latex": "z=a_{1}x^{2}+b_{1}x+c_{1}\\left\\{16<y<20\\right\\}\\left\\{0<z<80\\right\\}\\left\\{-100>x>-225\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "82",
+        "folderId": "40",
+        "color": "#2d70b3",
+        "latex": "a_{1}=0.003",
+        "hidden": true
+      },
+      {
+        "type": "expression",
+        "id": "83",
+        "folderId": "40",
+        "color": "#388c46",
+        "latex": "b_{1}=1.64",
+        "hidden": true
+      },
+      {
+        "type": "expression",
+        "id": "84",
+        "folderId": "40",
+        "color": "#6042a6",
+        "latex": "c_{1}=214",
+        "hidden": true,
+        "slider": {
+          "max": "214"
+        }
+      },
+      {
+        "type": "expression",
+        "id": "80",
+        "folderId": "40",
+        "color": "#c74440",
+        "latex": "z=a_{2}x^{2}+b_{2}x+c_{2}\\left\\{16<y<20\\right\\}\\left\\{0<z<80\\right\\}\\left\\{100<x<225\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "85",
+        "folderId": "40",
+        "color": "#aaaaaa",
+        "latex": "a_{2}=0.003",
+        "hidden": true
+      },
+      {
+        "type": "expression",
+        "id": "86",
+        "folderId": "40",
+        "color": "#c74440",
+        "latex": "b_{2}=-1.64",
+        "hidden": true
+      },
+      {
+        "type": "expression",
+        "id": "87",
+        "folderId": "40",
+        "color": "#2d70b3",
+        "latex": "c_{2}=214",
+        "hidden": true
+      },
+      {
+        "type": "expression",
+        "id": "81",
+        "folderId": "40",
+        "color": "#c74440",
+        "latex": "z=a_{3}x^{2}+b_{3}x+c_{3}\\left\\{-20<y<-16\\right\\}\\left\\{0<z<80\\right\\}\\left\\{100<x<225\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "92",
+        "folderId": "40",
+        "color": "#2d70b3",
+        "latex": "a_{3}=0.003",
+        "hidden": true
+      },
+      {
+        "type": "expression",
+        "id": "93",
+        "folderId": "40",
+        "color": "#388c46",
+        "latex": "b_{3}=-1.64",
+        "hidden": true
+      },
+      {
+        "type": "expression",
+        "id": "94",
+        "folderId": "40",
+        "color": "#6042a6",
+        "latex": "c_{3}=214",
+        "hidden": true
+      },
+      {
+        "type": "folder",
+        "id": "15",
+        "title": "tower 1"
+      },
+      {
+        "type": "expression",
+        "id": "17",
+        "folderId": "15",
+        "color": "#388c46",
+        "latex": "z=80\\left\\{100>x>60\\right\\}\\left\\{20>y>-20\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "20",
+        "folderId": "15",
+        "color": "#388c46",
+        "latex": "y=-20\\left\\{100>x>60\\right\\}\\left\\{0<z<80\\right\\}",
+        "extendTo3D": true
+      },
+      {
+        "type": "expression",
+        "id": "18",
+        "folderId": "15",
+        "color": "#388c46",
+        "latex": "y=20\\left\\{100>x>60\\right\\}\\left\\{0<z<80\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "30",
+        "folderId": "15",
+        "color": "#388c46",
+        "latex": "x=60\\left\\{20>y>-20\\right\\}\\left\\{0<z<80\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "31",
+        "folderId": "15",
+        "color": "#388c46",
+        "latex": "x=100\\left\\{20>y>-20\\right\\}\\left\\{0<z<80\\right\\}"
+      },
+      {
+        "type": "folder",
+        "id": "158",
+        "title": "pillar 1 (tower 1)",
+        "collapsed": true
+      },
+      {
+        "type": "expression",
+        "id": "159",
+        "folderId": "158",
+        "color": "#c74440",
+        "latex": "z=90\\left\\{95<x<108\\right\\}\\left\\{-10>y>-23\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "160",
+        "folderId": "158",
+        "color": "#c74440",
+        "latex": "y=-23\\left\\{95<x<108\\right\\}\\left\\{0<z<90\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "161",
+        "folderId": "158",
+        "color": "#c74440",
+        "latex": "y=-10\\left\\{95<x<108\\right\\}\\left\\{0<z<90\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "162",
+        "folderId": "158",
+        "color": "#c74440",
+        "latex": "x=95\\left\\{-10>y>-23\\right\\}\\left\\{0<z<90\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "163",
+        "folderId": "158",
+        "color": "#c74440",
+        "latex": "x=108\\left\\{-10>y>-23\\right\\}\\left\\{0<z<90\\right\\}"
+      },
+      {
+        "type": "folder",
+        "id": "166",
+        "title": "pillar 2 (tower 1)",
+        "collapsed": true
+      },
+      {
+        "type": "expression",
+        "id": "168",
+        "folderId": "166",
+        "color": "#c74440",
+        "latex": "z=90\\left\\{95<x<108\\right\\}\\left\\{10<y<23\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "169",
+        "folderId": "166",
+        "color": "#c74440",
+        "latex": "y=23\\left\\{95<x<108\\right\\}\\left\\{0<z<90\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "170",
+        "folderId": "166",
+        "color": "#c74440",
+        "latex": "y=10\\left\\{95<x<108\\right\\}\\left\\{0<z<90\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "171",
+        "folderId": "166",
+        "color": "#c74440",
+        "latex": "x=95\\left\\{10<y<23\\right\\}\\left\\{0<z<90\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "172",
+        "folderId": "166",
+        "color": "#c74440",
+        "latex": "x=108\\left\\{10<y<23\\right\\}\\left\\{0<z<90\\right\\}"
+      },
+      {
+        "type": "folder",
+        "id": "174",
+        "title": "pillar 3 (tower 1)"
+      },
+      {
+        "type": "expression",
+        "id": "175",
+        "folderId": "174",
+        "color": "#c74440",
+        "latex": "z=90\\left\\{55<x<68\\right\\}\\left\\{10<y<23\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "176",
+        "folderId": "174",
+        "color": "#c74440",
+        "latex": "y=23\\left\\{55<x<68\\right\\}\\left\\{0<z<90\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "177",
+        "folderId": "174",
+        "color": "#c74440",
+        "latex": "y=10\\left\\{55<x<68\\right\\}\\left\\{0<z<90\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "178",
+        "folderId": "174",
+        "color": "#c74440",
+        "latex": "x=55\\left\\{10<y<23\\right\\}\\left\\{0<z<90\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "179",
+        "folderId": "174",
+        "color": "#c74440",
+        "latex": "x=68\\left\\{10<y<23\\right\\}\\left\\{0<z<90\\right\\}"
+      },
+      {
+        "type": "folder",
+        "id": "181",
+        "title": "pillar 4 (tower 1)",
+        "collapsed": true
+      },
+      {
+        "type": "expression",
+        "id": "182",
+        "folderId": "181",
+        "color": "#c74440",
+        "latex": "z=90\\left\\{55<x<68\\right\\}\\left\\{-10>y>-23\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "184",
+        "folderId": "181",
+        "color": "#c74440",
+        "latex": "y=-23\\left\\{55<x<68\\right\\}\\left\\{0<z<90\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "187",
+        "folderId": "181",
+        "color": "#c74440",
+        "latex": "y=-10\\left\\{55<x<68\\right\\}\\left\\{0<z<90\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "185",
+        "folderId": "181",
+        "color": "#c74440",
+        "latex": "x=55\\left\\{-10>y>-23\\right\\}\\left\\{0<z<90\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "186",
+        "folderId": "181",
+        "color": "#c74440",
+        "latex": "x=68\\left\\{-10>y>-23\\right\\}\\left\\{0<z<90\\right\\}"
+      },
+      {
+        "type": "folder",
+        "id": "253",
+        "title": "pyramid 1 (tower 1)",
+        "collapsed": true
+      },
+      {
+        "type": "expression",
+        "id": "254",
+        "folderId": "253",
+        "color": "#2d70b3",
+        "latex": "a_{5}\\ =\\ \\left(55,\\ \\ 10,\\ 90\\right)",
+        "hidden": true
+      },
+      {
+        "type": "expression",
+        "id": "255",
+        "folderId": "253",
+        "color": "#388c46",
+        "latex": "b_{5}\\ =\\ \\left(55,\\ \\ 23,\\ 90\\right)",
+        "hidden": true
+      },
+      {
+        "type": "expression",
+        "id": "256",
+        "folderId": "253",
+        "color": "#6042a6",
+        "latex": "c_{5}=\\ \\left(68,\\ \\ 10,\\ 90\\right)",
+        "hidden": true
+      },
+      {
+        "type": "expression",
+        "id": "257",
+        "folderId": "253",
+        "color": "#aaaaaa",
+        "latex": "d_{5}=\\ \\left(68,\\ \\ 23,\\ 90\\right)",
+        "hidden": true
+      },
+      {
+        "type": "expression",
+        "id": "258",
+        "folderId": "253",
+        "color": "#c74440",
+        "latex": "w_{5}\\ =\\ (61.5,16.5,105)",
+        "hidden": true
+      },
+      {
+        "type": "expression",
+        "id": "259",
+        "folderId": "253",
+        "color": "#aaaaaa",
+        "latex": "\\operatorname{triangle}\\left(w_{5},\\left[a_{5},b_{5},d_{5},c_{5}\\right],\\left[b_{5},d_{5},c_{5},a_{5}\\right]\\right)"
+      },
+      {
+        "type": "folder",
+        "id": "260",
+        "title": "pyramid 2 (tower 1)",
+        "collapsed": true
+      },
+      {
+        "type": "expression",
+        "id": "261",
+        "folderId": "260",
+        "color": "#388c46",
+        "latex": "e_{5}\\ =\\ \\left(95,23,90\\right)",
+        "hidden": true
+      },
+      {
+        "type": "expression",
+        "id": "262",
+        "folderId": "260",
+        "color": "#6042a6",
+        "latex": "f_{5}=\\ \\left(108,23,90\\right)",
+        "hidden": true
+      },
+      {
+        "type": "expression",
+        "id": "263",
+        "folderId": "260",
+        "color": "#aaaaaa",
+        "latex": "g_{5}=\\ \\left(95,10,90\\right)",
+        "hidden": true
+      },
+      {
+        "type": "expression",
+        "id": "264",
+        "folderId": "260",
+        "color": "#c74440",
+        "latex": "h_{5}=\\left(108,10,90\\right)",
+        "hidden": true
+      },
+      {
+        "type": "expression",
+        "id": "266",
+        "folderId": "260",
+        "color": "#388c46",
+        "latex": "x_{5}\\ =\\ \\left(101.5,\\ 16.5,105\\right)",
+        "hidden": true
+      },
+      {
+        "type": "expression",
+        "id": "265",
+        "folderId": "260",
+        "color": "#aaaaaa",
+        "latex": "\\operatorname{triangle}\\left(x_{5},\\left[e_{5},\\ f_{5}\\ ,\\ g_{5},\\ h_{5}\\ \\right],\\left[f_{5},h_{5},e_{5},g_{5}\\right]\\right)"
+      },
+      {
+        "type": "folder",
+        "id": "267",
+        "title": "pyramid 3 (tower 1)",
+        "collapsed": true
+      },
+      {
+        "type": "expression",
+        "id": "268",
+        "folderId": "267",
+        "color": "#6042a6",
+        "latex": "\\ i_{5}=\\ \\left(55,-10,\\ 90\\right)",
+        "hidden": true
+      },
+      {
+        "type": "expression",
+        "id": "269",
+        "folderId": "267",
+        "color": "#aaaaaa",
+        "latex": "j_{5}=\\ \\left(68,-10,90\\right)",
+        "hidden": true
+      },
+      {
+        "type": "expression",
+        "id": "270",
+        "folderId": "267",
+        "color": "#c74440",
+        "latex": "k_{5}=\\ \\left(55,-23,90\\right)",
+        "hidden": true
+      },
+      {
+        "type": "expression",
+        "id": "271",
+        "folderId": "267",
+        "color": "#2d70b3",
+        "latex": "l_{5}=\\ \\left(68,-23,90\\right)",
+        "hidden": true
+      },
+      {
+        "type": "expression",
+        "id": "272",
+        "folderId": "267",
+        "color": "#388c46",
+        "latex": "u_{5}\\ =\\ \\left(61.5,-16.5,105\\right)",
+        "hidden": true
+      },
+      {
+        "type": "expression",
+        "id": "273",
+        "folderId": "267",
+        "color": "#aaaaaa",
+        "latex": "\\operatorname{triangle}\\left(u_{5},\\left[i_{5},j_{5},k_{5},l_{5}\\right],\\left[j_{5},l_{5},i_{5},k_{5}\\right]\\right)"
+      },
+      {
+        "type": "folder",
+        "id": "274",
+        "title": "pyramid 4 (tower 1)",
+        "collapsed": true
+      },
+      {
+        "type": "expression",
+        "id": "275",
+        "folderId": "274",
+        "color": "#aaaaaa",
+        "latex": "\\ m_{5}=\\ \\left(95,-10,\\ 90\\right)",
+        "hidden": true
+      },
+      {
+        "type": "expression",
+        "id": "276",
+        "folderId": "274",
+        "color": "#c74440",
+        "latex": "n_{5}=\\ \\left(108,-10,\\ 90\\right)",
+        "hidden": true
+      },
+      {
+        "type": "expression",
+        "id": "277",
+        "folderId": "274",
+        "color": "#2d70b3",
+        "latex": "o_{5}=\\ \\left(95,-23,90\\right)",
+        "hidden": true
+      },
+      {
+        "type": "expression",
+        "id": "278",
+        "folderId": "274",
+        "color": "#388c46",
+        "latex": "p_{5}=\\ \\left(108,-23,\\ 90\\right)",
+        "hidden": true
+      },
+      {
+        "type": "expression",
+        "id": "279",
+        "folderId": "274",
+        "color": "#6042a6",
+        "latex": "v_{5}\\ =\\ \\left(101.5,-16.5,105\\right)",
+        "hidden": true
+      },
+      {
+        "type": "expression",
+        "id": "280",
+        "folderId": "274",
+        "color": "#aaaaaa",
+        "latex": "\\operatorname{triangle}\\left(v_{5},\\left[m_{5},n_{5},o_{5},p_{5}\\right],\\left[n_{5},p_{5},m_{5},o_{5}\\right]\\right)"
+      },
+      {
+        "type": "folder",
+        "id": "282",
+        "title": "centre pyramid (tower 1)",
+        "collapsed": true
+      },
+      {
+        "type": "expression",
+        "id": "283",
+        "folderId": "282",
+        "color": "#2d70b3",
+        "latex": "\\ q_{5}=\\ \\left(95,-23,\\ 80\\right)",
+        "hidden": true
+      },
+      {
+        "type": "expression",
+        "id": "284",
+        "folderId": "282",
+        "color": "#388c46",
+        "latex": "r_{5}=\\ \\left(95,23,\\ 80\\right)",
+        "hidden": true
+      },
+      {
+        "type": "expression",
+        "id": "285",
+        "folderId": "282",
+        "color": "#6042a6",
+        "latex": "s_{5}=\\ \\left(68,-23,80\\right)",
+        "hidden": true
+      },
+      {
+        "type": "expression",
+        "id": "286",
+        "folderId": "282",
+        "color": "#aaaaaa",
+        "latex": "t_{5}=\\ \\left(68,\\ 23,\\ 80\\right)",
+        "hidden": true
+      },
+      {
+        "type": "expression",
+        "id": "287",
+        "folderId": "282",
+        "color": "#c74440",
+        "latex": "y_{5}\\ =\\ \\left(81.5,0,125\\right)",
+        "hidden": true
+      },
+      {
+        "type": "expression",
+        "id": "289",
+        "folderId": "282",
+        "color": "#6042a6",
+        "latex": "\\operatorname{triangle}\\left(y_{5},\\left[q_{5},r_{5},s_{5},t_{5}\\right],\\left[r_{5},t_{5},q_{5},s_{5}\\right]\\right)"
+      },
+      {
+        "type": "folder",
+        "id": "189",
+        "title": "windows (tower 1)",
+        "collapsed": true
+      },
+      {
+        "type": "expression",
+        "id": "190",
+        "folderId": "189",
+        "color": "#2d70b3",
+        "latex": "100\\le x\\le102\\left\\{-8<y<8\\right\\}\\left\\{57<z<75\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "191",
+        "folderId": "189",
+        "color": "#2d70b3",
+        "latex": "100\\le x\\le102\\left\\{-8<y<8\\right\\}\\left\\{35<z<53\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "194",
+        "folderId": "189",
+        "color": "#2d70b3",
+        "latex": "100\\le x\\le102\\left\\{-8<y<8\\right\\}\\left\\{13<z<31\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "192",
+        "folderId": "189",
+        "color": "#2d70b3",
+        "latex": "-22\\le y\\le22\\left\\{72<x<91\\right\\}\\left\\{57<z<75\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "193",
+        "folderId": "189",
+        "color": "#2d70b3",
+        "latex": "-22\\le y\\le22\\left\\{72<x<91\\right\\}\\left\\{35<z<53\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "195",
+        "folderId": "189",
+        "color": "#2d70b3",
+        "latex": "-22\\le y\\le22\\left\\{72<x<91\\right\\}\\left\\{13<z<31\\right\\}"
+      },
+      {
+        "type": "folder",
+        "id": "329",
+        "title": "outline of windows (tower 1)",
+        "collapsed": true
+      },
+      {
+        "type": "expression",
+        "id": "330",
+        "folderId": "329",
+        "color": "#aaaaaa",
+        "latex": "100\\le x\\le102\\left\\{-8<y<8\\right\\}\\left\\{65<z<67\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "345",
+        "folderId": "329",
+        "color": "#aaaaaa",
+        "latex": "100\\le x\\le102\\left\\{-8<y<8\\right\\}\\left\\{74<z<75\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "346",
+        "folderId": "329",
+        "color": "#aaaaaa",
+        "latex": "100\\le x\\le102\\left\\{-8<y<8\\right\\}\\left\\{57<z<58\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "331",
+        "folderId": "329",
+        "color": "#aaaaaa",
+        "latex": "100\\le x\\le102\\left\\{-8<y<8\\right\\}\\left\\{43<z<45\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "347",
+        "folderId": "329",
+        "color": "#aaaaaa",
+        "latex": "100\\le x\\le102\\left\\{-8<y<8\\right\\}\\left\\{52<z<53\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "348",
+        "folderId": "329",
+        "color": "#aaaaaa",
+        "latex": "100\\le x\\le102\\left\\{-8<y<8\\right\\}\\left\\{35<z<36\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "349",
+        "folderId": "329",
+        "color": "#aaaaaa",
+        "latex": "100\\le x\\le102\\left\\{-8<y<8\\right\\}\\left\\{30<z<31\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "350",
+        "folderId": "329",
+        "color": "#aaaaaa",
+        "latex": "100\\le x\\le102\\left\\{-8<y<8\\right\\}\\left\\{12<z<13\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "332",
+        "folderId": "329",
+        "color": "#aaaaaa",
+        "latex": "100\\le x\\le102\\left\\{-8<y<8\\right\\}\\left\\{21<z<23\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "351",
+        "folderId": "329",
+        "color": "#aaaaaa",
+        "latex": "100\\le x\\le102\\left\\{7<y<8\\right\\}\\left\\{57<z<75\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "359",
+        "folderId": "329",
+        "color": "#aaaaaa",
+        "latex": "100\\le x\\le102\\left\\{-8<y<-7\\right\\}\\left\\{57<z<75\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "352",
+        "folderId": "329",
+        "color": "#aaaaaa",
+        "latex": "100\\le x\\le102\\left\\{-8<y<-7\\right\\}\\left\\{35<z<53\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "353",
+        "folderId": "329",
+        "color": "#aaaaaa",
+        "latex": "100\\le x\\le102\\left\\{7<y<8\\right\\}\\left\\{35<z<53\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "354",
+        "folderId": "329",
+        "color": "#aaaaaa",
+        "latex": "100\\le x\\le102\\left\\{-8<y<-7\\right\\}\\left\\{12<z<31\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "355",
+        "folderId": "329",
+        "color": "#aaaaaa",
+        "latex": "100\\le x\\le102\\left\\{7<y<8\\right\\}\\left\\{12<z<31\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "333",
+        "folderId": "329",
+        "color": "#aaaaaa",
+        "latex": "100\\le x\\le102\\left\\{1>y>-1\\right\\}\\left\\{57<z<75\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "334",
+        "folderId": "329",
+        "color": "#aaaaaa",
+        "latex": "100\\le x\\le102\\left\\{1>y>-1\\right\\}\\left\\{35<z<53\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "335",
+        "folderId": "329",
+        "color": "#aaaaaa",
+        "latex": "100\\le x\\le102\\left\\{1>y>-1\\right\\}\\left\\{13<z<31\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "339",
+        "folderId": "329",
+        "color": "#aaaaaa",
+        "latex": "-22\\le y\\le22\\left\\{72<x<91\\right\\}\\left\\{65<z<67\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "340",
+        "folderId": "329",
+        "color": "#aaaaaa",
+        "latex": "-22\\le y\\le22\\left\\{72<x<91\\right\\}\\left\\{43<z<45\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "341",
+        "folderId": "329",
+        "color": "#aaaaaa",
+        "latex": "-22\\le y\\le22\\left\\{72<x<91\\right\\}\\left\\{21<z<23\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "342",
+        "folderId": "329",
+        "color": "#aaaaaa",
+        "latex": "-22<y<22\\left\\{80.5<x<82.5\\right\\}\\left\\{13<z<31\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "343",
+        "folderId": "329",
+        "color": "#aaaaaa",
+        "latex": "-22<y<22\\left\\{80.5<x<82.5\\right\\}\\left\\{35<z<53\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "344",
+        "folderId": "329",
+        "color": "#aaaaaa",
+        "latex": "-22<y<22\\left\\{80.5<x<82.5\\right\\}\\left\\{57<z<75\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "360",
+        "folderId": "329",
+        "color": "#aaaaaa",
+        "latex": "90<x<91\\left\\{57<z<75\\right\\}\\left\\{-22\\le y\\le22\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "361",
+        "folderId": "329",
+        "color": "#aaaaaa",
+        "latex": "73>x>72\\left\\{57<z<75\\right\\}\\left\\{-22\\le y\\le22\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "362",
+        "folderId": "329",
+        "color": "#aaaaaa",
+        "latex": "90<x<91\\left\\{35<z<53\\right\\}\\left\\{-22\\le y\\le22\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "363",
+        "folderId": "329",
+        "color": "#aaaaaa",
+        "latex": "73>x>72\\left\\{35<z<53\\right\\}\\left\\{-22\\le y\\le22\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "364",
+        "folderId": "329",
+        "color": "#aaaaaa",
+        "latex": "73>x>72\\left\\{13<z<31\\right\\}\\left\\{-22\\le y\\le22\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "365",
+        "folderId": "329",
+        "color": "#aaaaaa",
+        "latex": "90<x<91\\left\\{13<z<31\\right\\}\\left\\{-22\\le y\\le22\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "366",
+        "folderId": "329",
+        "color": "#aaaaaa",
+        "latex": "-22\\le y\\le22\\left\\{72<x<91\\right\\}\\left\\{74<z<75\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "368",
+        "folderId": "329",
+        "color": "#aaaaaa",
+        "latex": "-22\\le y\\le22\\left\\{72<x<91\\right\\}\\left\\{57<z<58\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "369",
+        "folderId": "329",
+        "color": "#aaaaaa",
+        "latex": "-22\\le y\\le22\\left\\{72<x<91\\right\\}\\left\\{52<z<53\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "370",
+        "folderId": "329",
+        "color": "#aaaaaa",
+        "latex": "-22\\le y\\le22\\left\\{72<x<91\\right\\}\\left\\{34<z<35\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "371",
+        "folderId": "329",
+        "color": "#aaaaaa",
+        "latex": "-22\\le y\\le22\\left\\{72<x<91\\right\\}\\left\\{30<z<31\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "372",
+        "folderId": "329",
+        "color": "#aaaaaa",
+        "latex": "-22\\le y\\le22\\left\\{72<x<91\\right\\}\\left\\{13<z<14\\right\\}"
+      },
+      {
+        "type": "folder",
+        "id": "290",
+        "title": "wires  (tower 1)",
+        "collapsed": true
+      },
+      {
+        "type": "expression",
+        "id": "291",
+        "folderId": "290",
+        "color": "#c74440",
+        "latex": "y=-18\\left\\{0<z<64\\right\\}\\left\\{115<x<117\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "292",
+        "folderId": "290",
+        "color": "#c74440",
+        "latex": "y=-18\\left\\{0<z<46\\right\\}\\left\\{135<x<137\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "293",
+        "folderId": "290",
+        "color": "#c74440",
+        "latex": "y=-18\\left\\{0<z<31\\right\\}\\left\\{155<x<157\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "294",
+        "folderId": "290",
+        "color": "#c74440",
+        "latex": "y=-18\\left\\{0<z<18\\right\\}\\left\\{175<x<177\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "295",
+        "folderId": "290",
+        "color": "#c74440",
+        "latex": "y=18\\left\\{0<z<64\\right\\}\\left\\{115<x<117\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "296",
+        "folderId": "290",
+        "color": "#c74440",
+        "latex": "y=18\\left\\{0<z<46\\right\\}\\left\\{135<x<137\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "297",
+        "folderId": "290",
+        "color": "#c74440",
+        "latex": "y=18\\left\\{0<z<31\\right\\}\\left\\{155<x<157\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "298",
+        "folderId": "290",
+        "color": "#c74440",
+        "latex": "y=18\\left\\{0<z<18\\right\\}\\left\\{175<x<177\\right\\}"
+      },
+      {
+        "type": "folder",
+        "id": "21",
+        "title": "tower 2",
+        "collapsed": true
+      },
+      {
+        "type": "expression",
+        "id": "26",
+        "folderId": "21",
+        "color": "#388c46",
+        "latex": "z=80\\left\\{-60>x>-100\\right\\}\\left\\{20>y>-20\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "24",
+        "folderId": "21",
+        "color": "#388c46",
+        "latex": "y=-20\\left\\{-60>x>-100\\right\\}\\left\\{0<z<80\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "25",
+        "folderId": "21",
+        "color": "#388c46",
+        "latex": "y=20\\left\\{-60>x>-100\\right\\}\\left\\{0<z<80\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "27",
+        "folderId": "21",
+        "color": "#388c46",
+        "latex": "x=-60\\left\\{20>y>-20\\right\\}\\left\\{0<z<80\\right\\}",
+        "extendTo3D": true
+      },
+      {
+        "type": "expression",
+        "id": "29",
+        "folderId": "21",
+        "color": "#388c46",
+        "latex": "x=-100\\left\\{20>y>-20\\right\\}\\left\\{0<z<80\\right\\}"
+      },
+      {
+        "type": "folder",
+        "id": "114",
+        "title": "pillar 1 (tower 2)",
+        "collapsed": true
+      },
+      {
+        "type": "expression",
+        "id": "131",
+        "folderId": "114",
+        "color": "#c74440",
+        "latex": "z=90\\left\\{-95>x>-108\\right\\}\\left\\{-10>y>-23\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "132",
+        "folderId": "114",
+        "color": "#c74440",
+        "latex": "y=-23\\left\\{-95>x>-108\\right\\}\\left\\{0<z<90\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "133",
+        "folderId": "114",
+        "color": "#c74440",
+        "latex": "y=-10\\left\\{-95>x>-108\\right\\}\\left\\{0<z<90\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "134",
+        "folderId": "114",
+        "color": "#c74440",
+        "latex": "x=-95\\left\\{-10>y>-23\\right\\}\\left\\{0<z<90\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "135",
+        "folderId": "114",
+        "color": "#c74440",
+        "latex": "x=-108\\left\\{-10>y>-23\\right\\}\\left\\{0<z<90\\right\\}"
+      },
+      {
+        "type": "folder",
+        "id": "137",
+        "title": "pillar 2 (tower 2)",
+        "collapsed": true
+      },
+      {
+        "type": "expression",
+        "id": "138",
+        "folderId": "137",
+        "color": "#c74440",
+        "latex": "z=90\\left\\{-95>x>-108\\right\\}\\left\\{10<y<23\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "139",
+        "folderId": "137",
+        "color": "#c74440",
+        "latex": "y=23\\left\\{-95>x>-108\\right\\}\\left\\{0<z<90\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "140",
+        "folderId": "137",
+        "color": "#c74440",
+        "latex": "y=10\\left\\{-95>x>-108\\right\\}\\left\\{0<z<90\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "141",
+        "folderId": "137",
+        "color": "#c74440",
+        "latex": "x=-95\\left\\{10<y<23\\right\\}\\left\\{0<z<90\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "142",
+        "folderId": "137",
+        "color": "#c74440",
+        "latex": "x=-108\\left\\{10<y<23\\right\\}\\left\\{0<z<90\\right\\}"
+      },
+      {
+        "type": "folder",
+        "id": "143",
+        "title": "pillar 3 (tower 2)",
+        "collapsed": true
+      },
+      {
+        "type": "expression",
+        "id": "144",
+        "folderId": "143",
+        "color": "#c74440",
+        "latex": "z=90\\left\\{-55>x>-68\\right\\}\\left\\{10<y<23\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "145",
+        "folderId": "143",
+        "color": "#c74440",
+        "latex": "y=23\\left\\{-55>x>-68\\right\\}\\left\\{0<z<90\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "146",
+        "folderId": "143",
+        "color": "#c74440",
+        "latex": "y=10\\left\\{-55>x>-68\\right\\}\\left\\{0<z<90\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "147",
+        "folderId": "143",
+        "color": "#c74440",
+        "latex": "x=-55\\left\\{10<y<23\\right\\}\\left\\{0<z<90\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "148",
+        "folderId": "143",
+        "color": "#c74440",
+        "latex": "x=-68\\left\\{10<y<23\\right\\}\\left\\{0<z<90\\right\\}"
+      },
+      {
+        "type": "folder",
+        "id": "151",
+        "title": "pillar 4 (tower 2)",
+        "collapsed": true
+      },
+      {
+        "type": "expression",
+        "id": "152",
+        "folderId": "151",
+        "color": "#c74440",
+        "latex": "z=90\\left\\{-55>x>-68\\right\\}\\left\\{-10>y>-23\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "153",
+        "folderId": "151",
+        "color": "#c74440",
+        "latex": "y=-23\\left\\{-55>x>-68\\right\\}\\left\\{0<z<90\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "154",
+        "folderId": "151",
+        "color": "#c74440",
+        "latex": "y=-10\\left\\{-55>x>-68\\right\\}\\left\\{0<z<90\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "155",
+        "folderId": "151",
+        "color": "#c74440",
+        "latex": "x=-55\\left\\{-10>y>-23\\right\\}\\left\\{0<z<90\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "156",
+        "folderId": "151",
+        "color": "#c74440",
+        "latex": "x=-68\\left\\{-10>y>-23\\right\\}\\left\\{0<z<90\\right\\}",
+        "lines": true
+      },
+      {
+        "type": "folder",
+        "id": "208",
+        "title": "pyramid 1 (tower 2)",
+        "collapsed": true
+      },
+      {
+        "type": "expression",
+        "id": "209",
+        "folderId": "208",
+        "color": "#388c46",
+        "latex": "A\\ =\\ \\left(-95,10,90\\right)",
+        "hidden": true
+      },
+      {
+        "type": "expression",
+        "id": "210",
+        "folderId": "208",
+        "color": "#6042a6",
+        "latex": "B\\ =\\ \\left(-95,23,90\\right)",
+        "hidden": true
+      },
+      {
+        "type": "expression",
+        "id": "211",
+        "folderId": "208",
+        "color": "#aaaaaa",
+        "latex": "C\\ =\\ \\left(-108,10,90\\right)",
+        "hidden": true
+      },
+      {
+        "type": "expression",
+        "id": "212",
+        "folderId": "208",
+        "color": "#c74440",
+        "latex": "D=\\ \\left(-108,23,90\\right)",
+        "hidden": true
+      },
+      {
+        "type": "expression",
+        "id": "213",
+        "folderId": "208",
+        "color": "#2d70b3",
+        "latex": "W=(-101.5,16.5,105)",
+        "hidden": true
+      },
+      {
+        "type": "expression",
+        "id": "214",
+        "folderId": "208",
+        "color": "#aaaaaa",
+        "latex": "\\operatorname{triangle}\\left(W,\\left[A,B,D,C\\right],\\left[B,D,C,A\\right]\\right)"
+      },
+      {
+        "type": "folder",
+        "id": "216",
+        "title": "pyramid 2 (tower 2)",
+        "collapsed": true
+      },
+      {
+        "type": "expression",
+        "id": "217",
+        "folderId": "216",
+        "color": "#aaaaaa",
+        "latex": "E=\\ \\left(-55,10,90\\right)",
+        "hidden": true
+      },
+      {
+        "type": "expression",
+        "id": "218",
+        "folderId": "216",
+        "color": "#c74440",
+        "latex": "F=\\ \\left(-68,10,90\\right)",
+        "hidden": true
+      },
+      {
+        "type": "expression",
+        "id": "219",
+        "folderId": "216",
+        "color": "#2d70b3",
+        "latex": "G=\\ \\left(-55,23,90\\right)",
+        "hidden": true
+      },
+      {
+        "type": "expression",
+        "id": "220",
+        "folderId": "216",
+        "color": "#388c46",
+        "latex": "H=\\ \\left(-68,23,90\\right)",
+        "hidden": true
+      },
+      {
+        "type": "expression",
+        "id": "221",
+        "folderId": "216",
+        "color": "#6042a6",
+        "latex": "X\\ =\\ \\left(-61.5,16.5,105\\right)",
+        "hidden": true
+      },
+      {
+        "type": "expression",
+        "id": "222",
+        "folderId": "216",
+        "color": "#aaaaaa",
+        "latex": "\\operatorname{triangle}\\left(X,\\left[E,F,G,H\\right],\\left[F,H,E,G\\right]\\right)"
+      },
+      {
+        "type": "folder",
+        "id": "224",
+        "title": "pyramid 3 (tower 2)",
+        "collapsed": true
+      },
+      {
+        "type": "expression",
+        "id": "225",
+        "folderId": "224",
+        "color": "#2d70b3",
+        "latex": "\\ I=\\ \\left(-55,-10,\\ 90\\right)",
+        "hidden": true
+      },
+      {
+        "type": "expression",
+        "id": "226",
+        "folderId": "224",
+        "color": "#388c46",
+        "latex": "J=\\ \\left(-68,-10,90\\right)",
+        "hidden": true
+      },
+      {
+        "type": "expression",
+        "id": "227",
+        "folderId": "224",
+        "color": "#6042a6",
+        "latex": "K=\\ \\left(-55,-23,90\\right)",
+        "hidden": true
+      },
+      {
+        "type": "expression",
+        "id": "228",
+        "folderId": "224",
+        "color": "#aaaaaa",
+        "latex": "L=\\ \\left(-68,-23,90\\right)",
+        "hidden": true
+      },
+      {
+        "type": "expression",
+        "id": "229",
+        "folderId": "224",
+        "color": "#c74440",
+        "latex": "U\\ =\\ \\left(-61.5,-16.5,105\\right)",
+        "hidden": true
+      },
+      {
+        "type": "expression",
+        "id": "230",
+        "folderId": "224",
+        "color": "#aaaaaa",
+        "latex": "\\operatorname{triangle}\\left(U,\\left[I,J,K,L\\right],\\left[J,L,I,K\\right]\\right)"
+      },
+      {
+        "type": "folder",
+        "id": "232",
+        "title": "pyramid 4 (tower 2)",
+        "collapsed": true
+      },
+      {
+        "type": "expression",
+        "id": "233",
+        "folderId": "232",
+        "color": "#6042a6",
+        "latex": "\\ M=\\ \\left(-95,-10,\\ 90\\right)",
+        "hidden": true
+      },
+      {
+        "type": "expression",
+        "id": "234",
+        "folderId": "232",
+        "color": "#aaaaaa",
+        "latex": "N=\\ \\left(-108,-10,\\ 90\\right)",
+        "hidden": true
+      },
+      {
+        "type": "expression",
+        "id": "235",
+        "folderId": "232",
+        "color": "#c74440",
+        "latex": "O=\\ \\left(-95,-23,90\\right)",
+        "hidden": true
+      },
+      {
+        "type": "expression",
+        "id": "236",
+        "folderId": "232",
+        "color": "#2d70b3",
+        "latex": "P=\\ \\left(-108,-23,\\ 90\\right)",
+        "hidden": true
+      },
+      {
+        "type": "expression",
+        "id": "237",
+        "folderId": "232",
+        "color": "#388c46",
+        "latex": "V\\ =\\ \\left(-101.5,-16.5,105\\right)",
+        "hidden": true
+      },
+      {
+        "type": "expression",
+        "id": "238",
+        "folderId": "232",
+        "color": "#aaaaaa",
+        "latex": "\\operatorname{triangle}\\left(V,\\left[M,N,O,P\\right],\\left[N,P,M,O\\right]\\right)"
+      },
+      {
+        "type": "folder",
+        "id": "241",
+        "title": "centre pyramid (tower 2)",
+        "collapsed": true
+      },
+      {
+        "type": "expression",
+        "id": "242",
+        "folderId": "241",
+        "color": "#c74440",
+        "latex": "\\ Q=\\ \\left(-95,-23,\\ 80\\right)",
+        "hidden": true
+      },
+      {
+        "type": "expression",
+        "id": "243",
+        "folderId": "241",
+        "color": "#2d70b3",
+        "latex": "R=\\ \\left(-95,23,\\ 80\\right)",
+        "hidden": true
+      },
+      {
+        "type": "expression",
+        "id": "244",
+        "folderId": "241",
+        "color": "#388c46",
+        "latex": "S=\\ \\left(-68,-23,80\\right)",
+        "hidden": true
+      },
+      {
+        "type": "expression",
+        "id": "245",
+        "folderId": "241",
+        "color": "#6042a6",
+        "latex": "T=\\ \\left(-68,\\ 23,\\ 80\\right)",
+        "hidden": true
+      },
+      {
+        "type": "expression",
+        "id": "246",
+        "folderId": "241",
+        "color": "#aaaaaa",
+        "latex": "Y\\ =\\ \\left(-81.5,0,125\\right)",
+        "hidden": true
+      },
+      {
+        "type": "expression",
+        "id": "247",
+        "folderId": "241",
+        "color": "#6042a6",
+        "latex": "\\operatorname{triangle}\\left(Y,\\left[Q,R,S,T\\right],\\left[R,T,Q,S\\right]\\right)"
+      },
+      {
+        "type": "folder",
+        "id": "198",
+        "title": "windows (tower 2)",
+        "collapsed": true
+      },
+      {
+        "type": "expression",
+        "id": "199",
+        "folderId": "198",
+        "color": "#2d70b3",
+        "latex": "-100\\ge x\\ge-102\\left\\{-8<y<8\\right\\}\\left\\{57<z<75\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "200",
+        "folderId": "198",
+        "color": "#2d70b3",
+        "latex": "-100\\ge x\\ge-102\\left\\{-8<y<8\\right\\}\\left\\{35<z<53\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "201",
+        "folderId": "198",
+        "color": "#2d70b3",
+        "latex": "-100\\ge x\\ge-102\\left\\{-8<y<8\\right\\}\\left\\{13<z<31\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "202",
+        "folderId": "198",
+        "color": "#2d70b3",
+        "latex": "-22\\le y\\le22\\left\\{-72>x>-91\\right\\}\\left\\{57<z<75\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "203",
+        "folderId": "198",
+        "color": "#2d70b3",
+        "latex": "-22\\le y\\le22\\left\\{-72>x>-91\\right\\}\\left\\{35<z<53\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "204",
+        "folderId": "198",
+        "color": "#2d70b3",
+        "latex": "-22\\le y\\le22\\left\\{-72>x>-91\\right\\}\\left\\{13<z<31\\right\\}"
+      },
+      {
+        "type": "folder",
+        "id": "375",
+        "title": "outline of windows (tower 2)",
+        "collapsed": true
+      },
+      {
+        "type": "expression",
+        "id": "376",
+        "folderId": "375",
+        "color": "#aaaaaa",
+        "latex": "-100\\ge x\\ge-102\\left\\{-8<y<8\\right\\}\\left\\{65<z<67\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "377",
+        "folderId": "375",
+        "color": "#aaaaaa",
+        "latex": "-100\\ge x\\ge-102\\left\\{-8<y<8\\right\\}\\left\\{74<z<75\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "378",
+        "folderId": "375",
+        "color": "#aaaaaa",
+        "latex": "-100\\ge x\\ge-102\\left\\{-8<y<8\\right\\}\\left\\{57<z<58\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "379",
+        "folderId": "375",
+        "color": "#aaaaaa",
+        "latex": "-100\\ge x\\ge-102\\left\\{-8<y<8\\right\\}\\left\\{43<z<45\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "380",
+        "folderId": "375",
+        "color": "#aaaaaa",
+        "latex": "-100\\ge x\\ge-102\\left\\{-8<y<8\\right\\}\\left\\{52<z<53\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "381",
+        "folderId": "375",
+        "color": "#aaaaaa",
+        "latex": "-100\\ge x\\ge-102\\left\\{-8<y<8\\right\\}\\left\\{35<z<36\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "382",
+        "folderId": "375",
+        "color": "#aaaaaa",
+        "latex": "-100\\ge x\\ge-102\\left\\{-8<y<8\\right\\}\\left\\{30<z<31\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "383",
+        "folderId": "375",
+        "color": "#aaaaaa",
+        "latex": "-100\\ge x\\ge-102\\left\\{-8<y<8\\right\\}\\left\\{12<z<13\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "384",
+        "folderId": "375",
+        "color": "#aaaaaa",
+        "latex": "-100\\ge x\\ge-102\\left\\{-8<y<8\\right\\}\\left\\{21<z<23\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "385",
+        "folderId": "375",
+        "color": "#aaaaaa",
+        "latex": "-100\\ge x\\ge-102\\left\\{7<y<8\\right\\}\\left\\{57<z<75\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "386",
+        "folderId": "375",
+        "color": "#aaaaaa",
+        "latex": "-100\\ge x\\ge-102\\left\\{-8<y<-7\\right\\}\\left\\{57<z<75\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "388",
+        "folderId": "375",
+        "color": "#aaaaaa",
+        "latex": "-100\\ge x\\ge-102\\left\\{-8<y<-7\\right\\}\\left\\{35<z<53\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "389",
+        "folderId": "375",
+        "color": "#aaaaaa",
+        "latex": "-100\\ge x\\ge-102\\left\\{7<y<8\\right\\}\\left\\{35<z<53\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "390",
+        "folderId": "375",
+        "color": "#aaaaaa",
+        "latex": "-100\\ge x\\ge-102\\left\\{-8<y<-7\\right\\}\\left\\{12<z<31\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "391",
+        "folderId": "375",
+        "color": "#aaaaaa",
+        "latex": "-100\\ge x\\ge-102\\left\\{7<y<8\\right\\}\\left\\{12<z<31\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "392",
+        "folderId": "375",
+        "color": "#aaaaaa",
+        "latex": "-100\\ge x\\ge-102\\left\\{1>y>-1\\right\\}\\left\\{57<z<75\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "393",
+        "folderId": "375",
+        "color": "#aaaaaa",
+        "latex": "-100\\ge x\\ge-102\\left\\{1>y>-1\\right\\}\\left\\{35<z<53\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "394",
+        "folderId": "375",
+        "color": "#aaaaaa",
+        "latex": "-100\\ge x\\ge-102\\left\\{1>y>-1\\right\\}\\left\\{13<z<31\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "395",
+        "folderId": "375",
+        "color": "#aaaaaa",
+        "latex": "-22\\le y\\le22\\left\\{-72>x>-91\\right\\}\\left\\{65<z<67\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "396",
+        "folderId": "375",
+        "color": "#aaaaaa",
+        "latex": "-22\\le y\\le22\\left\\{-72>x>-91\\right\\}\\left\\{43<z<45\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "397",
+        "folderId": "375",
+        "color": "#aaaaaa",
+        "latex": "-22\\le y\\le22\\left\\{-72>x>-91\\right\\}\\left\\{21<z<23\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "398",
+        "folderId": "375",
+        "color": "#aaaaaa",
+        "latex": "-22<y<22\\left\\{-80.5>x>-82.5\\right\\}\\left\\{13<z<31\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "399",
+        "folderId": "375",
+        "color": "#aaaaaa",
+        "latex": "-22<y<22\\left\\{-80.5>x>-82.5\\right\\}\\left\\{35<z<53\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "400",
+        "folderId": "375",
+        "color": "#aaaaaa",
+        "latex": "-22<y<22\\left\\{-80.5>x>-82.5\\right\\}\\left\\{57<z<75\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "401",
+        "folderId": "375",
+        "color": "#aaaaaa",
+        "latex": "-90>x>-91\\left\\{57<z<75\\right\\}\\left\\{-22\\le y\\le22\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "402",
+        "folderId": "375",
+        "color": "#aaaaaa",
+        "latex": "-73<x<-72\\left\\{57<z<75\\right\\}\\left\\{-22\\le y\\le22\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "403",
+        "folderId": "375",
+        "color": "#aaaaaa",
+        "latex": "-90>x>-91\\left\\{35<z<53\\right\\}\\left\\{-22\\le y\\le22\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "404",
+        "folderId": "375",
+        "color": "#aaaaaa",
+        "latex": "-73<x<-72\\left\\{35<z<53\\right\\}\\left\\{-22\\le y\\le22\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "405",
+        "folderId": "375",
+        "color": "#aaaaaa",
+        "latex": "-73<x<-72\\left\\{13<z<31\\right\\}\\left\\{-22\\le y\\le22\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "406",
+        "folderId": "375",
+        "color": "#aaaaaa",
+        "latex": "-90>x>-91\\left\\{13<z<31\\right\\}\\left\\{-22\\le y\\le22\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "407",
+        "folderId": "375",
+        "color": "#aaaaaa",
+        "latex": "-22\\le y\\le22\\left\\{-72>x>-91\\right\\}\\left\\{74<z<75\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "408",
+        "folderId": "375",
+        "color": "#aaaaaa",
+        "latex": "-22\\le y\\le22\\left\\{-72>x>-91\\right\\}\\left\\{57<z<58\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "409",
+        "folderId": "375",
+        "color": "#aaaaaa",
+        "latex": "-22\\le y\\le22\\left\\{-72>x>-91\\right\\}\\left\\{52<z<53\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "410",
+        "folderId": "375",
+        "color": "#aaaaaa",
+        "latex": "-22\\le y\\le22\\left\\{-72>x>-91\\right\\}\\left\\{34<z<35\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "411",
+        "folderId": "375",
+        "color": "#aaaaaa",
+        "latex": "-22\\le y\\le22\\left\\{-72>x>-91\\right\\}\\left\\{30<z<31\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "412",
+        "folderId": "375",
+        "color": "#aaaaaa",
+        "latex": "-22\\le y\\le22\\left\\{-72>x>-91\\right\\}\\left\\{13<z<14\\right\\}"
+      },
+      {
+        "type": "folder",
+        "id": "308",
+        "title": "wires (tower 2)",
+        "collapsed": true
+      },
+      {
+        "type": "expression",
+        "id": "309",
+        "folderId": "308",
+        "color": "#c74440",
+        "latex": "y=-18\\left\\{0<z<64\\right\\}\\left\\{-115>x>-117\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "310",
+        "folderId": "308",
+        "color": "#c74440",
+        "latex": "y=-18\\left\\{0<z<46\\right\\}\\left\\{-135>x>-137\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "311",
+        "folderId": "308",
+        "color": "#c74440",
+        "latex": "y=-18\\left\\{0<z<31\\right\\}\\left\\{-155>x>-157\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "312",
+        "folderId": "308",
+        "color": "#c74440",
+        "latex": "y=-18\\left\\{0<z<18\\right\\}\\left\\{-175>x>-177\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "313",
+        "folderId": "308",
+        "color": "#c74440",
+        "latex": "y=18\\left\\{0<z<64\\right\\}\\left\\{-115>x>-117\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "314",
+        "folderId": "308",
+        "color": "#c74440",
+        "latex": "y=18\\left\\{0<z<46\\right\\}\\left\\{-135>x>-137\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "315",
+        "folderId": "308",
+        "color": "#c74440",
+        "latex": "y=18\\left\\{0<z<31\\right\\}\\left\\{-155>x>-157\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "323",
+        "folderId": "308",
+        "color": "#c74440",
+        "latex": "y=18\\left\\{0<z<18\\right\\}\\left\\{-175>x>-177\\right\\}"
+      }
+    ]
+  },
+  "includeFunctionParametersInRandomSeed": true,
+  "doNotMigrate3dLineWidthZero": true,
+  "doNotMigrateMovablePointStyle": true
+}

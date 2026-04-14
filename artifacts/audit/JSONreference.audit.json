@@ -1,0 +1,654 @@
+{
+  "source_file": "JSONreference.json",
+  "total_expressions": 278,
+  "supported_count": 216,
+  "recognized_unsupported_count": 53,
+  "unrecognized_count": 9,
+  "per_folder_summary": [
+    {
+      "folder_id": null,
+      "folder_name": null,
+      "total": 278,
+      "supported": 216,
+      "recognized_unsupported": 53,
+      "unrecognized": 9
+    }
+  ],
+  "unsupported_expressions": [
+    {
+      "expression_id": "165",
+      "folder": null,
+      "family": "TEXT_OR_FOLDER",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Non-geometry Desmos item",
+      "fingerprint": "eb728b38026c848b",
+      "latex": "",
+      "normalized_latex": ""
+    },
+    {
+      "expression_id": "91",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "c46f24883308ec70",
+      "latex": "",
+      "normalized_latex": ""
+    },
+    {
+      "expression_id": "110",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "c46f24883308ec70",
+      "latex": "",
+      "normalized_latex": ""
+    },
+    {
+      "expression_id": "171",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "c46f24883308ec70",
+      "latex": "",
+      "normalized_latex": ""
+    },
+    {
+      "expression_id": "204",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "c46f24883308ec70",
+      "latex": "",
+      "normalized_latex": ""
+    },
+    {
+      "expression_id": "238",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "c46f24883308ec70",
+      "latex": "",
+      "normalized_latex": ""
+    },
+    {
+      "expression_id": "245",
+      "folder": null,
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Equation recognized but not yet meshable",
+      "fingerprint": "3023431659f79481",
+      "latex": "y=-32-7\\left\\{2<x<3\\right\\}\\left\\{0.26y+10<z<-0.22y\\right\\}",
+      "normalized_latex": "y=-32-7{2<x<3}{0.26y+10<z<-0.22y}"
+    },
+    {
+      "expression_id": "371",
+      "folder": null,
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Equation recognized but not yet meshable",
+      "fingerprint": "84466ad96c288a51",
+      "latex": "y=-32-7\\left\\{-3<x<-2\\right\\}\\left\\{0.26y+10<z<-0.22y\\right\\}",
+      "normalized_latex": "y=-32-7{-3<x<-2}{0.26y+10<z<-0.22y}"
+    },
+    {
+      "expression_id": "247",
+      "folder": null,
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Equation recognized but not yet meshable",
+      "fingerprint": "b2443590fda226e4",
+      "latex": "y=-32-14\\left\\{2<x<3\\right\\}\\left\\{0.26y+10<z<-0.22y\\right\\}",
+      "normalized_latex": "y=-32-14{2<x<3}{0.26y+10<z<-0.22y}"
+    },
+    {
+      "expression_id": "378",
+      "folder": null,
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Equation recognized but not yet meshable",
+      "fingerprint": "a6ba01253e7f46a7",
+      "latex": "y=-32-14\\left\\{-3<x<-2\\right\\}\\left\\{0.26y+10<z<-0.22y\\right\\}",
+      "normalized_latex": "y=-32-14{-3<x<-2}{0.26y+10<z<-0.22y}"
+    },
+    {
+      "expression_id": "249",
+      "folder": null,
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Equation recognized but not yet meshable",
+      "fingerprint": "c6780c76f50534a3",
+      "latex": "y=-32-21\\left\\{2<x<3\\right\\}\\left\\{0.26y+10<z<-0.22y\\right\\}",
+      "normalized_latex": "y=-32-21{2<x<3}{0.26y+10<z<-0.22y}"
+    },
+    {
+      "expression_id": "384",
+      "folder": null,
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Equation recognized but not yet meshable",
+      "fingerprint": "481526fbce3453be",
+      "latex": "y=-32-21\\left\\{-3<x<-2\\right\\}\\left\\{0.26y+10<z<-0.22y\\right\\}",
+      "normalized_latex": "y=-32-21{-3<x<-2}{0.26y+10<z<-0.22y}"
+    },
+    {
+      "expression_id": "251",
+      "folder": null,
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Equation recognized but not yet meshable",
+      "fingerprint": "7d10116a3318aca1",
+      "latex": "y=-32-28\\left\\{2<x<3\\right\\}\\left\\{0.26y+10<z<-0.22y\\right\\}",
+      "normalized_latex": "y=-32-28{2<x<3}{0.26y+10<z<-0.22y}"
+    },
+    {
+      "expression_id": "390",
+      "folder": null,
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Equation recognized but not yet meshable",
+      "fingerprint": "5304a1816856b86e",
+      "latex": "y=-32-28\\left\\{-3<x<-2\\right\\}\\left\\{0.26y+10<z<-0.22y\\right\\}",
+      "normalized_latex": "y=-32-28{-3<x<-2}{0.26y+10<z<-0.22y}"
+    },
+    {
+      "expression_id": "253",
+      "folder": null,
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Equation recognized but not yet meshable",
+      "fingerprint": "598bf056e635477d",
+      "latex": "y=-32-35\\left\\{2<x<3\\right\\}\\left\\{0.26y+10<z<-0.22y\\right\\}",
+      "normalized_latex": "y=-32-35{2<x<3}{0.26y+10<z<-0.22y}"
+    },
+    {
+      "expression_id": "396",
+      "folder": null,
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Equation recognized but not yet meshable",
+      "fingerprint": "91fb4c1a381d799c",
+      "latex": "y=-32-35\\left\\{-3<x<-2\\right\\}\\left\\{0.26y+10<z<-0.22y\\right\\}",
+      "normalized_latex": "y=-32-35{-3<x<-2}{0.26y+10<z<-0.22y}"
+    },
+    {
+      "expression_id": "255",
+      "folder": null,
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Equation recognized but not yet meshable",
+      "fingerprint": "1df8ebf2acf0d766",
+      "latex": "y=-32-42\\left\\{2<x<3\\right\\}\\left\\{0.26y+10<z<-0.22y\\right\\}",
+      "normalized_latex": "y=-32-42{2<x<3}{0.26y+10<z<-0.22y}"
+    },
+    {
+      "expression_id": "402",
+      "folder": null,
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Equation recognized but not yet meshable",
+      "fingerprint": "a5be4846ccdf2e7e",
+      "latex": "y=-32-42\\left\\{-3<x<-2\\right\\}\\left\\{0.26y+10<z<-0.22y\\right\\}",
+      "normalized_latex": "y=-32-42{-3<x<-2}{0.26y+10<z<-0.22y}"
+    },
+    {
+      "expression_id": "257",
+      "folder": null,
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Equation recognized but not yet meshable",
+      "fingerprint": "68d89aab93d64a1d",
+      "latex": "y=-32-49\\left\\{2<x<3\\right\\}\\left\\{0.26y+10<z<-0.22y\\right\\}",
+      "normalized_latex": "y=-32-49{2<x<3}{0.26y+10<z<-0.22y}"
+    },
+    {
+      "expression_id": "408",
+      "folder": null,
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Equation recognized but not yet meshable",
+      "fingerprint": "19f47feb21e75619",
+      "latex": "y=-32-49\\left\\{-3<x<-2\\right\\}\\left\\{0.26y+10<z<-0.22y\\right\\}",
+      "normalized_latex": "y=-32-49{-3<x<-2}{0.26y+10<z<-0.22y}"
+    },
+    {
+      "expression_id": "312",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "c46f24883308ec70",
+      "latex": "",
+      "normalized_latex": ""
+    },
+    {
+      "expression_id": "326",
+      "folder": null,
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Equation recognized but not yet meshable",
+      "fingerprint": "f9ded6ee203a72f4",
+      "latex": "y=32+7\\left\\{2<x<3\\right\\}\\left\\{-0.26y+10<z<0.22y\\right\\}",
+      "normalized_latex": "y=32+7{2<x<3}{-0.26y+10<z<0.22y}"
+    },
+    {
+      "expression_id": "418",
+      "folder": null,
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Equation recognized but not yet meshable",
+      "fingerprint": "c095f087f35711a0",
+      "latex": "y=32+7\\left\\{-3<x<-2\\right\\}\\left\\{-0.26y+10<z<0.22y\\right\\}",
+      "normalized_latex": "y=32+7{-3<x<-2}{-0.26y+10<z<0.22y}"
+    },
+    {
+      "expression_id": "331",
+      "folder": null,
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Equation recognized but not yet meshable",
+      "fingerprint": "d04675fcf0077006",
+      "latex": "y=+32+14\\left\\{2<x<3\\right\\}\\left\\{-0.26y+10<z<0.22y\\right\\}",
+      "normalized_latex": "y=+32+14{2<x<3}{-0.26y+10<z<0.22y}"
+    },
+    {
+      "expression_id": "424",
+      "folder": null,
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Equation recognized but not yet meshable",
+      "fingerprint": "9b536417fb622442",
+      "latex": "y=+32+14\\left\\{-3<x<-2\\right\\}\\left\\{-0.26y+10<z<0.22y\\right\\}",
+      "normalized_latex": "y=+32+14{-3<x<-2}{-0.26y+10<z<0.22y}"
+    },
+    {
+      "expression_id": "337",
+      "folder": null,
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Equation recognized but not yet meshable",
+      "fingerprint": "c718ad52c748755f",
+      "latex": "y=+32+21\\left\\{2<x<3\\right\\}\\left\\{-0.26y+10<z<0.22y\\right\\}",
+      "normalized_latex": "y=+32+21{2<x<3}{-0.26y+10<z<0.22y}"
+    },
+    {
+      "expression_id": "430",
+      "folder": null,
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Equation recognized but not yet meshable",
+      "fingerprint": "3a53ff5ee3325d2f",
+      "latex": "y=+32+21\\left\\{-3<x<-2\\right\\}\\left\\{-0.26y+10<z<0.22y\\right\\}",
+      "normalized_latex": "y=+32+21{-3<x<-2}{-0.26y+10<z<0.22y}"
+    },
+    {
+      "expression_id": "343",
+      "folder": null,
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Equation recognized but not yet meshable",
+      "fingerprint": "83ea81d12c3fc6c2",
+      "latex": "y=+32+28\\left\\{2<x<3\\right\\}\\left\\{-0.26y+10<z<0.22y\\right\\}",
+      "normalized_latex": "y=+32+28{2<x<3}{-0.26y+10<z<0.22y}"
+    },
+    {
+      "expression_id": "436",
+      "folder": null,
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Equation recognized but not yet meshable",
+      "fingerprint": "ef9ce32476cedb9f",
+      "latex": "y=+32+28\\left\\{-3<x<-2\\right\\}\\left\\{-0.26y+10<z<0.22y\\right\\}",
+      "normalized_latex": "y=+32+28{-3<x<-2}{-0.26y+10<z<0.22y}"
+    },
+    {
+      "expression_id": "349",
+      "folder": null,
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Equation recognized but not yet meshable",
+      "fingerprint": "82337aba6d678c80",
+      "latex": "y=+32+35\\left\\{2<x<3\\right\\}\\left\\{-0.26y+10<z<0.22y\\right\\}",
+      "normalized_latex": "y=+32+35{2<x<3}{-0.26y+10<z<0.22y}"
+    },
+    {
+      "expression_id": "442",
+      "folder": null,
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Equation recognized but not yet meshable",
+      "fingerprint": "2d176796a9f48f90",
+      "latex": "y=+32+35\\left\\{-3<x<-2\\right\\}\\left\\{-0.26y+10<z<0.22y\\right\\}",
+      "normalized_latex": "y=+32+35{-3<x<-2}{-0.26y+10<z<0.22y}"
+    },
+    {
+      "expression_id": "355",
+      "folder": null,
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Equation recognized but not yet meshable",
+      "fingerprint": "89a9524e2188dde5",
+      "latex": "y=+32+42\\left\\{2<x<3\\right\\}\\left\\{-0.26y+10<z<0.22y\\right\\}",
+      "normalized_latex": "y=+32+42{2<x<3}{-0.26y+10<z<0.22y}"
+    },
+    {
+      "expression_id": "448",
+      "folder": null,
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Equation recognized but not yet meshable",
+      "fingerprint": "63b416d142c69194",
+      "latex": "y=+32+42\\left\\{-3<x<-2\\right\\}\\left\\{-0.26y+10<z<0.22y\\right\\}",
+      "normalized_latex": "y=+32+42{-3<x<-2}{-0.26y+10<z<0.22y}"
+    },
+    {
+      "expression_id": "361",
+      "folder": null,
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Equation recognized but not yet meshable",
+      "fingerprint": "7a6b8b70ade32b79",
+      "latex": "y=+32+49\\left\\{2<x<3\\right\\}\\left\\{-0.26y+10<z<0.22y\\right\\}",
+      "normalized_latex": "y=+32+49{2<x<3}{-0.26y+10<z<0.22y}"
+    },
+    {
+      "expression_id": "455",
+      "folder": null,
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Equation recognized but not yet meshable",
+      "fingerprint": "6d8e17f22a7015d0",
+      "latex": "y=+32+49\\left\\{-3<x<-2\\right\\}\\left\\{-0.26y+10<z<0.22y\\right\\}",
+      "normalized_latex": "y=+32+49{-3<x<-2}{-0.26y+10<z<0.22y}"
+    },
+    {
+      "expression_id": "459",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "c46f24883308ec70",
+      "latex": "",
+      "normalized_latex": ""
+    },
+    {
+      "expression_id": "468",
+      "folder": null,
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Equation recognized but not yet meshable",
+      "fingerprint": "547ca815683325b7",
+      "latex": "y=-90-7\\left\\{2<x<3\\right\\}\\left\\{-0.32y-42.1<z<0.248y+42.1\\right\\}",
+      "normalized_latex": "y=-90-7{2<x<3}{-0.32y-42.1<z<0.248y+42.1}"
+    },
+    {
+      "expression_id": "514",
+      "folder": null,
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Equation recognized but not yet meshable",
+      "fingerprint": "7ba1da13230c381d",
+      "latex": "y=-90-7\\left\\{-3<x<-2\\right\\}\\left\\{-0.32y-42.1<z<0.248y+42.1\\right\\}",
+      "normalized_latex": "y=-90-7{-3<x<-2}{-0.32y-42.1<z<0.248y+42.1}"
+    },
+    {
+      "expression_id": "469",
+      "folder": null,
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Equation recognized but not yet meshable",
+      "fingerprint": "0b841bb065fee230",
+      "latex": "y=-90-14\\left\\{2<x<3\\right\\}\\left\\{-0.32y-42.1<z<0.248y+42.1\\right\\}",
+      "normalized_latex": "y=-90-14{2<x<3}{-0.32y-42.1<z<0.248y+42.1}"
+    },
+    {
+      "expression_id": "517",
+      "folder": null,
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Equation recognized but not yet meshable",
+      "fingerprint": "4e49fcf5b6ced5d7",
+      "latex": "y=-90-14\\left\\{-3<x<-2\\right\\}\\left\\{-0.32y-42.1<z<0.248y+42.1\\right\\}",
+      "normalized_latex": "y=-90-14{-3<x<-2}{-0.32y-42.1<z<0.248y+42.1}"
+    },
+    {
+      "expression_id": "470",
+      "folder": null,
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Equation recognized but not yet meshable",
+      "fingerprint": "70f5782b4117024f",
+      "latex": "y=-90-21\\left\\{2<x<3\\right\\}\\left\\{-0.32y-42.1<z<0.248y+42.1\\right\\}",
+      "normalized_latex": "y=-90-21{2<x<3}{-0.32y-42.1<z<0.248y+42.1}"
+    },
+    {
+      "expression_id": "520",
+      "folder": null,
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Equation recognized but not yet meshable",
+      "fingerprint": "647a0c9216ce241b",
+      "latex": "y=-90-21\\left\\{-3<x<-2\\right\\}\\left\\{-0.32y-42.1<z<0.248y+42.1\\right\\}",
+      "normalized_latex": "y=-90-21{-3<x<-2}{-0.32y-42.1<z<0.248y+42.1}"
+    },
+    {
+      "expression_id": "471",
+      "folder": null,
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Equation recognized but not yet meshable",
+      "fingerprint": "2bbe4f8f1b6cdd99",
+      "latex": "y=-90-28\\left\\{2<x<3\\right\\}\\left\\{-0.32y-42.1<z<0.248y+42.1\\right\\}",
+      "normalized_latex": "y=-90-28{2<x<3}{-0.32y-42.1<z<0.248y+42.1}"
+    },
+    {
+      "expression_id": "523",
+      "folder": null,
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Equation recognized but not yet meshable",
+      "fingerprint": "7f5949024ca5149a",
+      "latex": "y=-90-28\\left\\{-3<x<-2\\right\\}\\left\\{-0.32y-42.1<z<0.248y+42.1\\right\\}",
+      "normalized_latex": "y=-90-28{-3<x<-2}{-0.32y-42.1<z<0.248y+42.1}"
+    },
+    {
+      "expression_id": "472",
+      "folder": null,
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Equation recognized but not yet meshable",
+      "fingerprint": "93aa17d25f9efa0a",
+      "latex": "y=-90-35\\left\\{2<x<3\\right\\}\\left\\{-0.32y-42.1<z<0.248y+42.1\\right\\}",
+      "normalized_latex": "y=-90-35{2<x<3}{-0.32y-42.1<z<0.248y+42.1}"
+    },
+    {
+      "expression_id": "527",
+      "folder": null,
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Equation recognized but not yet meshable",
+      "fingerprint": "3f1e3abb6e5fdb71",
+      "latex": "y=-90-35\\left\\{-3<x<-2\\right\\}\\left\\{-0.32y-42.1<z<0.248y+42.1\\right\\}",
+      "normalized_latex": "y=-90-35{-3<x<-2}{-0.32y-42.1<z<0.248y+42.1}"
+    },
+    {
+      "expression_id": "473",
+      "folder": null,
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Equation recognized but not yet meshable",
+      "fingerprint": "b281f0a870eed3f4",
+      "latex": "y=-90-42\\left\\{2<x<3\\right\\}\\left\\{-0.32y-42.1<z<0.248y+42.1\\right\\}",
+      "normalized_latex": "y=-90-42{2<x<3}{-0.32y-42.1<z<0.248y+42.1}"
+    },
+    {
+      "expression_id": "531",
+      "folder": null,
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Equation recognized but not yet meshable",
+      "fingerprint": "ef72ea7e9b4381e2",
+      "latex": "y=-90-42\\left\\{-3<x<-2\\right\\}\\left\\{-0.32y-42.1<z<0.248y+42.1\\right\\}",
+      "normalized_latex": "y=-90-42{-3<x<-2}{-0.32y-42.1<z<0.248y+42.1}"
+    },
+    {
+      "expression_id": "534",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "c46f24883308ec70",
+      "latex": "",
+      "normalized_latex": ""
+    },
+    {
+      "expression_id": "546",
+      "folder": null,
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Equation recognized but not yet meshable",
+      "fingerprint": "df9d93b90ddc3e58",
+      "latex": "y=90+7\\left\\{2<x<3\\right\\}\\left\\{0.32y-42.1<z<-0.248y+42.1\\right\\}",
+      "normalized_latex": "y=90+7{2<x<3}{0.32y-42.1<z<-0.248y+42.1}"
+    },
+    {
+      "expression_id": "548",
+      "folder": null,
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Equation recognized but not yet meshable",
+      "fingerprint": "fd2d444f59f6f39a",
+      "latex": "y=90+7\\left\\{-3<x<-2\\right\\}\\left\\{0.32y-42.1<z<-0.248y+42.1\\right\\}",
+      "normalized_latex": "y=90+7{-3<x<-2}{0.32y-42.1<z<-0.248y+42.1}"
+    },
+    {
+      "expression_id": "558",
+      "folder": null,
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Equation recognized but not yet meshable",
+      "fingerprint": "af61d2f368e928a9",
+      "latex": "y=90+14\\left\\{2<x<3\\right\\}\\left\\{0.32y-42.1<z<-0.248y+42.1\\right\\}",
+      "normalized_latex": "y=90+14{2<x<3}{0.32y-42.1<z<-0.248y+42.1}"
+    },
+    {
+      "expression_id": "560",
+      "folder": null,
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Equation recognized but not yet meshable",
+      "fingerprint": "7e4802707c5c89fb",
+      "latex": "y=90+14\\left\\{-3<x<-2\\right\\}\\left\\{0.32y-42.1<z<-0.248y+42.1\\right\\}",
+      "normalized_latex": "y=90+14{-3<x<-2}{0.32y-42.1<z<-0.248y+42.1}"
+    },
+    {
+      "expression_id": "572",
+      "folder": null,
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Equation recognized but not yet meshable",
+      "fingerprint": "70f5782b4117024f",
+      "latex": "y=-90-21\\left\\{2<x<3\\right\\}\\left\\{-0.32y-42.1<z<0.248y+42.1\\right\\}",
+      "normalized_latex": "y=-90-21{2<x<3}{-0.32y-42.1<z<0.248y+42.1}"
+    },
+    {
+      "expression_id": "574",
+      "folder": null,
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Equation recognized but not yet meshable",
+      "fingerprint": "647a0c9216ce241b",
+      "latex": "y=-90-21\\left\\{-3<x<-2\\right\\}\\left\\{-0.32y-42.1<z<0.248y+42.1\\right\\}",
+      "normalized_latex": "y=-90-21{-3<x<-2}{-0.32y-42.1<z<0.248y+42.1}"
+    },
+    {
+      "expression_id": "584",
+      "folder": null,
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Equation recognized but not yet meshable",
+      "fingerprint": "410cd6a7ac8f1add",
+      "latex": "y=90+28\\left\\{2<x<3\\right\\}\\left\\{0.32y-42.1<z<-0.248y+42.1\\right\\}",
+      "normalized_latex": "y=90+28{2<x<3}{0.32y-42.1<z<-0.248y+42.1}"
+    },
+    {
+      "expression_id": "590",
+      "folder": null,
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Equation recognized but not yet meshable",
+      "fingerprint": "0bd5233e59ca5fdd",
+      "latex": "y=90+28\\left\\{-3<x<-2\\right\\}\\left\\{0.32y-42.1<z<-0.248y+42.1\\right\\}",
+      "normalized_latex": "y=90+28{-3<x<-2}{0.32y-42.1<z<-0.248y+42.1}"
+    },
+    {
+      "expression_id": "596",
+      "folder": null,
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Equation recognized but not yet meshable",
+      "fingerprint": "fbf83adf9f770094",
+      "latex": "y=90+35\\left\\{2<x<3\\right\\}\\left\\{0.32y-42.1<z<-0.248y+42.1\\right\\}",
+      "normalized_latex": "y=90+35{2<x<3}{0.32y-42.1<z<-0.248y+42.1}"
+    },
+    {
+      "expression_id": "615",
+      "folder": null,
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Equation recognized but not yet meshable",
+      "fingerprint": "a6f76c04958de854",
+      "latex": "y=90+35\\left\\{-3<x<-2\\right\\}\\left\\{0.32y-42.1<z<-0.248y+42.1\\right\\}",
+      "normalized_latex": "y=90+35{-3<x<-2}{0.32y-42.1<z<-0.248y+42.1}"
+    },
+    {
+      "expression_id": "602",
+      "folder": null,
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Equation recognized but not yet meshable",
+      "fingerprint": "4264d6f9fc6af6d7",
+      "latex": "y=90+42\\left\\{2<x<3\\right\\}\\left\\{0.32y-42.1<z<-0.248y+42.1\\right\\}",
+      "normalized_latex": "y=90+42{2<x<3}{0.32y-42.1<z<-0.248y+42.1}"
+    },
+    {
+      "expression_id": "609",
+      "folder": null,
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Equation recognized but not yet meshable",
+      "fingerprint": "f976a3fa88969029",
+      "latex": "y=90+42\\left\\{-3<x<-2\\right\\}\\left\\{0.32y-42.1<z<-0.248y+42.1\\right\\}",
+      "normalized_latex": "y=90+42{-3<x<-2}{0.32y-42.1<z<-0.248y+42.1}"
+    },
+    {
+      "expression_id": "620",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "c46f24883308ec70",
+      "latex": "",
+      "normalized_latex": ""
+    }
+  ],
+  "unknown_fingerprints": [
+    "c46f24883308ec70"
+  ],
+  "diagnostics": [
+    {
+      "severity": "INFO",
+      "code": "AUDIT_COMPLETE",
+      "message": "Audit classification complete",
+      "source_ref": null,
+      "details": {
+        "file": "JSONreference.json"
+      }
+    }
+  ],
+  "status": "PARTIAL"
+}
