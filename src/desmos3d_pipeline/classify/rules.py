@@ -53,6 +53,119 @@ def classify_expression(normalized_latex: str, expression_type: str) -> Classifi
 
     rel = detect_relations(context.core_expr)
 
+    def _is_constant_bound_expr(s: str | None) -> bool:
+        if s is None:
+            return False
+        return re.search(r"[A-Za-z]", s) is None
+
+    def _has_const_interval(intervals, axis: str) -> bool:
+        for iv in intervals:
+            if iv is None or iv.axis != axis:
+                continue
+            if _is_constant_bound_expr(iv.lower) and _is_constant_bound_expr(iv.upper):
+                return True
+        return False
+
+    # X slab: x bounded between two functions/constants with finite y/z bounds.
+    # Example (after normalization): -x<=(z)/(1.8)-479 { -x>=(z)/(1.8)-482 } { z-bounds } { y-bounds }
+    if rel.operators and any(op in rel.operators for op in ["<", ">", "<=", ">="]):
+        parts = [context.core_expr] + list(context.restrictions)
+        intervals = [parse_interval_constraint(p) for p in parts]
+        by_axis = {}
+        for iv in intervals:
+            if iv is None:
+                continue
+            by_axis.setdefault(iv.axis, 0)
+            by_axis[iv.axis] += 1
+
+        # Must have finite y and z bounds that do NOT depend on variables.
+        has_yz_intervals = _has_const_interval(intervals, "y") and _has_const_interval(intervals, "z")
+
+        def _parse_x_ineq(s: str):
+            m = re.fullmatch(r"(-?)x(<=|>=|<|>)(.+)", s)
+            if not m:
+                return None
+            sign, op, rhs = m.groups()
+            rhs = rhs.strip()
+            # normalize to x >= lower or x <= upper
+            if sign == "-":
+                # -x <= rhs  -> x >= -rhs ;  -x >= rhs -> x <= -rhs
+                if op in {"<", "<="}:
+                    return ("lower", f"-({rhs})")
+                return ("upper", f"-({rhs})")
+            if op in {"<", "<="}:
+                return ("upper", rhs)
+            return ("lower", rhs)
+
+        x_lower = None
+        x_upper = None
+        for p in parts:
+            parsed = _parse_x_ineq(p)
+            if parsed is None:
+                continue
+            kind, expr = parsed
+            if kind == "lower":
+                x_lower = expr
+            else:
+                x_upper = expr
+
+        # Only accept if both bounds exist and (a) depend on z or are numeric.
+        if has_yz_intervals and x_lower and x_upper:
+            def _safe_expr(e: str) -> bool:
+                return re.fullmatch(r"[-+0-9.*/()z]+", e.replace(" ", "")) is not None
+            if _safe_expr(x_lower) and _safe_expr(x_upper):
+                return ClassificationResult(ExpressionFamily.X_SLAB_REGION, ClassificationStatus.SUPPORTED, "x bounded between two functions/constants", 0.9, _fingerprint(context.core_expr, context.restrictions))
+
+    # Y slab: y bounded between two functions/constants of z with finite x bounds and a z range
+    # (explicit z interval preferred; viewport inference allowed downstream if x bounds exist).
+    if rel.operators and any(op in rel.operators for op in ["<", ">", "<=", ">="]):
+        parts = [context.core_expr] + list(context.restrictions)
+        intervals = [parse_interval_constraint(p) for p in parts]
+
+        def _parse_y_ineq(s: str):
+            m = re.fullmatch(r"(-?)y(<=|>=|<|>)(.+)", s.replace(" ", ""))
+            if not m:
+                return None
+            sign, op, rhs = m.groups()
+            rhs = rhs.strip()
+            if sign == "-":
+                # -y <= rhs -> y >= -rhs ; -y >= rhs -> y <= -rhs
+                if op in {"<", "<="}:
+                    return ("lower", f"-({rhs})")
+                return ("upper", f"-({rhs})")
+            if op in {"<", "<="}:
+                return ("upper", rhs)
+            return ("lower", rhs)
+
+        y_lower = None
+        y_upper = None
+        for p in parts:
+            parsed = _parse_y_ineq(p)
+            if not parsed:
+                continue
+            kind, expr = parsed
+            if kind == "lower":
+                y_lower = expr
+            else:
+                y_upper = expr
+
+        def _safe_y_expr(e: str) -> bool:
+            # Only allow numeric + z dependence (no x/y).
+            return re.fullmatch(r"[-+0-9.*/()z]+", e.replace(" ", "")) is not None
+
+        has_x_interval = _has_const_interval(intervals, "x")
+        has_z_interval = _has_const_interval(intervals, "z")
+
+        if has_x_interval and y_lower and y_upper and _safe_y_expr(y_lower) and _safe_y_expr(y_upper):
+            # z interval may be absent; mesher will fall back to viewport zmin/zmax.
+            return ClassificationResult(
+                ExpressionFamily.Y_SLAB_REGION,
+                ClassificationStatus.SUPPORTED,
+                "y bounded between two functions/constants",
+                0.88 if has_z_interval else 0.78,
+                _fingerprint(context.core_expr, context.restrictions),
+            )
+
     # Chained inequality slab: f(x,y,...) >= z >= g(x,y,...)
     mslab = re.fullmatch(r"(.+?)(<=|>=|<|>)z(<=|>=|<|>)(.+)", context.core_expr.replace(" ", ""))
     if mslab:

@@ -2,49 +2,13 @@
   {
     "source_file": "JSONAkashi.json",
     "total_expressions": 559,
-    "meshed_expression_count": 373,
-    "supported_expression_count": 373,
+    "meshed_expression_count": 475,
+    "supported_expression_count": 475,
     "supported_but_not_meshed_count": 0,
-    "recognized_unsupported_count": 186,
+    "recognized_unsupported_count": 84,
     "unrecognized_count": 0,
-    "group_count": 183,
+    "group_count": 83,
     "report": "JSONAkashi.coverage.json",
     "markdown": "JSONAkashi.coverage.md"
-  },
-  {
-    "source_file": "JSONCali.json",
-    "total_expressions": 343,
-    "meshed_expression_count": 317,
-    "supported_expression_count": 317,
-    "supported_but_not_meshed_count": 0,
-    "recognized_unsupported_count": 24,
-    "unrecognized_count": 2,
-    "group_count": 25,
-    "report": "JSONCali.coverage.json",
-    "markdown": "JSONCali.coverage.md"
-  },
-  {
-    "source_file": "JSONLondon.json",
-    "total_expressions": 236,
-    "meshed_expression_count": 213,
-    "supported_expression_count": 213,
-    "supported_but_not_meshed_count": 0,
-    "recognized_unsupported_count": 13,
-    "unrecognized_count": 10,
-    "group_count": 11,
-    "report": "JSONLondon.coverage.json",
-    "markdown": "JSONLondon.coverage.md"
-  },
-  {
-    "source_file": "JSONreference.json",
-    "total_expressions": 277,
-    "meshed_expression_count": 268,
-    "supported_expression_count": 268,
-    "supported_but_not_meshed_count": 0,
-    "recognized_unsupported_count": 0,
-    "unrecognized_count": 9,
-    "group_count": 1,
-    "report": "JSONreference.coverage.json",
-    "markdown": "JSONreference.coverage.md"
   }
 ]

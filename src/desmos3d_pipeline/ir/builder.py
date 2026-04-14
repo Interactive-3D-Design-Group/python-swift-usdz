@@ -14,6 +14,8 @@ from desmos3d_pipeline.ir.models import (
     ExpressionFamily,
     ExpressionRecord,
     GeometryNode,
+    XSlabNode,
+    YSlabNode,
     PlanePatchNode,
     PointNode,
     ZSlabNode,
@@ -222,6 +224,100 @@ def _build_node(
             upper_expr=upper_expr,
             bounds=bounds,
             sampling_hint=(96, 32),
+        )
+
+    if family == ExpressionFamily.X_SLAB_REGION:
+        parts = [core] + restrictions
+
+        def _parse_x_ineq(s: str):
+            m = re.fullmatch(r"(-?)x(<=|>=|<|>)(.+)", s.replace(" ", ""))
+            if not m:
+                return None
+            sign, op, rhs = m.groups()
+            if sign == "-":
+                if op in {"<", "<="}:
+                    return ("lower", f"-({rhs})")
+                return ("upper", f"-({rhs})")
+            if op in {"<", "<="}:
+                return ("upper", rhs)
+            return ("lower", rhs)
+
+        x_lower = None
+        x_upper = None
+        for p in parts:
+            parsed = _parse_x_ineq(p)
+            if not parsed:
+                continue
+            kind, expr = parsed
+            if kind == "lower":
+                x_lower = expr
+            else:
+                x_upper = expr
+
+        if not (x_lower and x_upper):
+            return None
+
+        return XSlabNode(
+            node_type="x_slab",
+            source_ref=record.source_ref,
+            family=family,
+            status=ClassificationStatus.SUPPORTED,
+            original_latex=record.raw_latex,
+            normalized_latex=record.normalized_latex,
+            color=record.color,
+            hidden=record.hidden,
+            metadata=metadata,
+            lower_expr=x_lower,
+            upper_expr=x_upper,
+            bounds=bounds,
+            sampling_hint=(48, 48),
+        )
+
+    if family == ExpressionFamily.Y_SLAB_REGION:
+        parts = [core] + restrictions
+
+        def _parse_y_ineq(s: str):
+            m = re.fullmatch(r"(-?)y(<=|>=|<|>)(.+)", s.replace(" ", ""))
+            if not m:
+                return None
+            sign, op, rhs = m.groups()
+            if sign == "-":
+                if op in {"<", "<="}:
+                    return ("lower", f"-({rhs})")
+                return ("upper", f"-({rhs})")
+            if op in {"<", "<="}:
+                return ("upper", rhs)
+            return ("lower", rhs)
+
+        y_lower = None
+        y_upper = None
+        for p in parts:
+            parsed = _parse_y_ineq(p)
+            if not parsed:
+                continue
+            kind, expr = parsed
+            if kind == "lower":
+                y_lower = expr
+            else:
+                y_upper = expr
+
+        if not (y_lower and y_upper):
+            return None
+
+        return YSlabNode(
+            node_type="y_slab",
+            source_ref=record.source_ref,
+            family=family,
+            status=ClassificationStatus.SUPPORTED,
+            original_latex=record.raw_latex,
+            normalized_latex=record.normalized_latex,
+            color=record.color,
+            hidden=record.hidden,
+            metadata=metadata,
+            lower_expr=y_lower,
+            upper_expr=y_upper,
+            bounds=bounds,
+            sampling_hint=(48, 256),
         )
 
     if family in {ExpressionFamily.LINEAR_SURFACE_PATCH, ExpressionFamily.QUADRATIC_SURFACE_PATCH}:

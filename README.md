@@ -83,3 +83,5 @@ Outputs:
 ```bash
 cd /Users/careylai/Desktop/python-swift-usdz && PYTHONPATH=src python3 -m pytest -q && PYTHONPATH=src python3 -m desmos3d_pipeline.cli audit --input-glob "JSON*.json" --out artifacts/audit && PYTHONPATH=src python3 -m desmos3d_pipeline.cli export-bridge --input-glob "JSON*.json" --out artifacts/bridge && cd swift-usdz-exporter && mkdir -p ../artifacts/usdz && for manifest in ../artifacts/bridge/*/manifest.json; do name="$(basename "$(dirname "$manifest")")"; swift run usdz-exporter --manifest "$manifest" --output "../artifacts/usdz/${name}.usdz"; done
 ```
+
+

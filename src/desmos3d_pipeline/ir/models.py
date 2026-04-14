@@ -21,6 +21,8 @@ class ExpressionFamily(str, Enum):
     CONSTANT_PLANE = "CONSTANT_PLANE"
     BOX_BOUNDED_REGION = "BOX_BOUNDED_REGION"
     Z_SLAB_REGION = "Z_SLAB_REGION"
+    X_SLAB_REGION = "X_SLAB_REGION"
+    Y_SLAB_REGION = "Y_SLAB_REGION"
     LINEAR_SURFACE_PATCH = "LINEAR_SURFACE_PATCH"
     QUADRATIC_SURFACE_PATCH = "QUADRATIC_SURFACE_PATCH"
     POINT_DEFINITION = "POINT_DEFINITION"
@@ -117,6 +119,22 @@ class ZSlabNode(GeometryNode):
     upper_expr: str = ""
     bounds: list[RangeConstraint] = field(default_factory=list)
     sampling_hint: tuple[int, int] = (72, 24)
+
+
+@dataclass(slots=True)
+class XSlabNode(GeometryNode):
+    lower_expr: str = ""
+    upper_expr: str = ""
+    bounds: list[RangeConstraint] = field(default_factory=list)
+    sampling_hint: tuple[int, int] = (48, 48)
+
+
+@dataclass(slots=True)
+class YSlabNode(GeometryNode):
+    lower_expr: str = ""
+    upper_expr: str = ""
+    bounds: list[RangeConstraint] = field(default_factory=list)
+    sampling_hint: tuple[int, int] = (48, 256)
 
 
 @dataclass(slots=True)

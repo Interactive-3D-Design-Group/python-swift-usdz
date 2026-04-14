@@ -4,7 +4,7 @@ from dataclasses import dataclass, field
 import re
 from typing import Iterable
 
-from desmos3d_pipeline.ir.models import BoxVolumeNode, GeometryNode, PlanePatchNode, PointNode, RangeConstraint, SampledSurfaceNode, ZSlabNode
+from desmos3d_pipeline.ir.models import BoxVolumeNode, GeometryNode, PlanePatchNode, PointNode, RangeConstraint, SampledSurfaceNode, ZSlabNode, XSlabNode, YSlabNode
 from desmos3d_pipeline.parse.math_eval import safe_eval, to_python_expr
 
 
@@ -38,6 +38,10 @@ def mesh_geometry_nodes(nodes: Iterable[GeometryNode]) -> tuple[list[Mesh], list
                 meshes.append(mesh_box_volume(node))
             elif isinstance(node, ZSlabNode):
                 meshes.append(mesh_z_slab(node))
+            elif isinstance(node, XSlabNode):
+                meshes.append(mesh_x_slab(node))
+            elif isinstance(node, YSlabNode):
+                meshes.append(mesh_y_slab(node))
             elif isinstance(node, SampledSurfaceNode):
                 meshes.append(mesh_sampled_surface(node))
             elif isinstance(node, PointNode):
@@ -198,6 +202,202 @@ def mesh_z_slab(node: ZSlabNode) -> Mesh:
         a = yi * stride + xs
         b = (yi + 1) * stride + xs
         quad(a, b, base_upper + a, base_upper + b)
+
+    return Mesh(name=_mesh_name(node), color=node.color, vertices=verts, faces=faces, source_file=node.source_ref.source_file, expression_id=node.source_ref.expression_id, family=node.family.value)
+
+
+def mesh_x_slab(node: XSlabNode) -> Mesh:
+    # Sample x-lower/x-upper across (y,z) grid within finite y/z bounds.
+    resolved = _resolve_axis_bounds(
+        node.bounds,
+        node.metadata,
+        include_axes={"y", "z"},
+        tolerate_unresolved=False,
+    )
+    y0, y1 = _require_bounds(resolved, "y")
+    z0, z1 = _require_bounds(resolved, "z")
+    ys, zs = node.sampling_hint
+
+    py_map = node.metadata.get("python_symbol_map", {})
+    env = dict(node.metadata.get("resolved_symbols", {}))
+    lower_py = to_python_expr(node.lower_expr, py_map)
+    upper_py = to_python_expr(node.upper_expr, py_map)
+
+    lower_verts: list[tuple[float, float, float]] = []
+    upper_verts: list[tuple[float, float, float]] = []
+    for zi in range(zs + 1):
+        z = z0 + (z1 - z0) * zi / zs
+        for yi in range(ys + 1):
+            y = y0 + (y1 - y0) * yi / ys
+            xlo = safe_eval(lower_py, {**env, "x": 0.0, "y": y, "z": z})
+            xhi = safe_eval(upper_py, {**env, "x": 0.0, "y": y, "z": z})
+            if xlo > xhi:
+                xlo, xhi = xhi, xlo
+            lower_verts.append((xlo, y, z))
+            upper_verts.append((xhi, y, z))
+
+    verts = lower_verts + upper_verts
+    faces: list[tuple[int, int, int]] = []
+    stride = ys + 1
+    base_upper = len(lower_verts)
+
+    # Left and right surfaces (x = lower/upper)
+    for zi in range(zs):
+        for yi in range(ys):
+            a = zi * stride + yi
+            b = a + 1
+            c = a + stride
+            d = c + 1
+            # lower surface
+            faces.append((a + 1, c + 1, d + 1))
+            faces.append((a + 1, d + 1, b + 1))
+            # upper surface
+            au = base_upper + a
+            bu = base_upper + b
+            cu = base_upper + c
+            du = base_upper + d
+            faces.append((au + 1, bu + 1, du + 1))
+            faces.append((au + 1, du + 1, cu + 1))
+
+    # Side walls around perimeter in (y,z)
+    def quad(i0, i1, j0, j1):
+        faces.append((i0 + 1, j0 + 1, j1 + 1))
+        faces.append((i0 + 1, j1 + 1, i1 + 1))
+
+    # z = z0 edge
+    for yi in range(ys):
+        a = 0 * stride + yi
+        b = a + 1
+        quad(a, b, base_upper + a, base_upper + b)
+    # z = z1 edge
+    for yi in range(ys):
+        a = zs * stride + yi
+        b = a + 1
+        quad(b, a, base_upper + b, base_upper + a)
+    # y = y0 edge
+    for zi in range(zs):
+        a = zi * stride + 0
+        b = (zi + 1) * stride + 0
+        quad(b, a, base_upper + b, base_upper + a)
+    # y = y1 edge
+    for zi in range(zs):
+        a = zi * stride + ys
+        b = (zi + 1) * stride + ys
+        quad(a, b, base_upper + a, base_upper + b)
+
+    return Mesh(name=_mesh_name(node), color=node.color, vertices=verts, faces=faces, source_file=node.source_ref.source_file, expression_id=node.source_ref.expression_id, family=node.family.value)
+
+
+def mesh_y_slab(node: YSlabNode) -> Mesh:
+    # Sample y-lower/y-upper across (x,z) grid within finite x bounds and a z range.
+    resolved = _resolve_axis_bounds(
+        node.bounds,
+        node.metadata,
+        include_axes={"x", "y", "z"},
+        tolerate_unresolved=True,
+    )
+    x0, x1 = _require_bounds(resolved, "x")
+    y_clip = None
+    y_bounds = resolved.get("y")
+    if y_bounds and y_bounds["lower"] is not None and y_bounds["upper"] is not None:
+        y_clip = (y_bounds["lower"], y_bounds["upper"])
+    z_bounds = resolved.get("z")
+    if z_bounds and z_bounds["lower"] is not None and z_bounds["upper"] is not None:
+        z0, z1 = z_bounds["lower"], z_bounds["upper"]
+    else:
+        viewport = node.metadata.get("viewport", {})
+        if "zmin" not in viewport or "zmax" not in viewport:
+            raise ValueError("Missing finite bounds for axis z")
+        z0, z1 = float(viewport["zmin"]), float(viewport["zmax"])
+
+    xs, zs = node.sampling_hint
+
+    py_map = node.metadata.get("python_symbol_map", {})
+    env = dict(node.metadata.get("resolved_symbols", {}))
+    lower_py = to_python_expr(node.lower_expr, py_map)
+    upper_py = to_python_expr(node.upper_expr, py_map)
+
+    lower_verts: list[tuple[float, float, float]] = []
+    upper_verts: list[tuple[float, float, float]] = []
+    valid: list[bool] = []
+    for zi in range(zs + 1):
+        z = z0 + (z1 - z0) * zi / zs
+        for xi in range(xs + 1):
+            x = x0 + (x1 - x0) * xi / xs
+            ylo = safe_eval(lower_py, {**env, "x": x, "y": 0.0, "z": z})
+            yhi = safe_eval(upper_py, {**env, "x": x, "y": 0.0, "z": z})
+            if ylo > yhi:
+                ylo, yhi = yhi, ylo
+            if y_clip is not None:
+                c0, c1 = y_clip
+                ylo = max(ylo, c0)
+                yhi = min(yhi, c1)
+            is_valid = ylo < yhi
+            valid.append(is_valid)
+            lower_verts.append((x, ylo, z))
+            upper_verts.append((x, yhi, z))
+
+    verts = lower_verts + upper_verts
+    faces: list[tuple[int, int, int]] = []
+    stride = xs + 1
+    base_upper = len(lower_verts)
+
+    # Lower and upper surfaces
+    for zi in range(zs):
+        for xi in range(xs):
+            a = zi * stride + xi
+            b = a + 1
+            c = a + stride
+            d = c + 1
+            if not (valid[a] and valid[b] and valid[c] and valid[d]):
+                continue
+            # lower surface
+            faces.append((a + 1, c + 1, d + 1))
+            faces.append((a + 1, d + 1, b + 1))
+            # upper surface
+            au = base_upper + a
+            bu = base_upper + b
+            cu = base_upper + c
+            du = base_upper + d
+            faces.append((au + 1, bu + 1, du + 1))
+            faces.append((au + 1, du + 1, cu + 1))
+
+    # Side walls around perimeter in (x,z)
+    def quad(i0, i1, j0, j1):
+        faces.append((i0 + 1, j0 + 1, j1 + 1))
+        faces.append((i0 + 1, j1 + 1, i1 + 1))
+
+    # z = z0 edge
+    for xi in range(xs):
+        a = 0 * stride + xi
+        b = a + 1
+        if not (valid[a] and valid[b]):
+            continue
+        quad(a, b, base_upper + a, base_upper + b)
+    # z = z1 edge
+    for xi in range(xs):
+        a = zs * stride + xi
+        b = a + 1
+        if not (valid[a] and valid[b]):
+            continue
+        quad(b, a, base_upper + b, base_upper + a)
+    # x = x0 edge
+    for zi in range(zs):
+        a = zi * stride + 0
+        b = (zi + 1) * stride + 0
+        if not (valid[a] and valid[b]):
+            continue
+        quad(b, a, base_upper + b, base_upper + a)
+    # x = x1 edge
+    for zi in range(zs):
+        a = zi * stride + xs
+        b = (zi + 1) * stride + xs
+        if not (valid[a] and valid[b]):
+            continue
+        quad(a, b, base_upper + a, base_upper + b)
+
+    if not faces:
+        raise ValueError("No valid sampled cells after applying y-slab clipping")
 
     return Mesh(name=_mesh_name(node), color=node.color, vertices=verts, faces=faces, source_file=node.source_ref.source_file, expression_id=node.source_ref.expression_id, family=node.family.value)
 
