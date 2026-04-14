@@ -10,6 +10,7 @@ from desmos3d_pipeline.ir.builder import build_geometry_for_file
 from desmos3d_pipeline.ir.models import BatchAuditSummary
 from desmos3d_pipeline.mesh.meshers import mesh_geometry_nodes
 from desmos3d_pipeline.qa.audit import run_audit_for_file
+from desmos3d_pipeline.qa.coverage import run_coverage_for_file
 
 
 def _resolve_inputs(single_input: str | None, input_glob: str | None, base_dir: Path) -> list[Path]:
@@ -80,6 +81,69 @@ def cmd_export_bridge(args: argparse.Namespace) -> int:
     return 0
 
 
+def cmd_coverage(args: argparse.Namespace) -> int:
+    cwd = Path.cwd()
+    inputs = _resolve_inputs(args.input, args.input_glob, cwd)
+    if not inputs:
+        raise SystemExit("No input files matched. Use --input or --input-glob.")
+
+    out_dir = Path(args.out)
+    if not out_dir.is_absolute():
+        out_dir = cwd / out_dir
+    out_dir.mkdir(parents=True, exist_ok=True)
+
+    summary: list[dict[str, object]] = []
+    for path in inputs:
+        report = run_coverage_for_file(path)
+        out_path = out_dir / f"{path.stem}.coverage.json"
+        out_path.write_text(json.dumps(report.to_dict(), indent=2, default=str), encoding="utf-8")
+        # Also write a concise markdown summary for quick review.
+        md_path = out_dir / f"{path.stem}.coverage.md"
+        top = report.groups[:15]
+        lines = [
+            f"## Coverage summary: {path.name}",
+            "",
+            f"- total expressions: **{report.total_expressions}**",
+            f"- meshed expression ids: **{report.meshed_expression_count}**",
+            f"- supported expressions: **{report.supported_expression_count}**",
+            f"- supported but not meshed: **{report.supported_but_not_meshed_count}**",
+            f"- recognized unsupported: **{report.recognized_unsupported_count}**",
+            f"- unrecognized: **{report.unrecognized_count}**",
+            "",
+            "## Top missing groups",
+            "",
+            "| missing | total | family | status | fingerprint | example ids | example normalized |",
+            "|---:|---:|---|---|---|---|---|",
+        ]
+        for g in top:
+            missing = g.count - g.meshed_count
+            if missing <= 0:
+                continue
+            ex_ids = ",".join(g.example_expression_ids[:3])
+            ex_norm = (g.example_normalized[0] if g.example_normalized else "").replace("|", "\\|")
+            ex_norm = (ex_norm[:120] + "…") if len(ex_norm) > 120 else ex_norm
+            lines.append(f"| {missing} | {g.count} | {g.family} | {g.status} | `{g.fingerprint}` | `{ex_ids}` | `{ex_norm}` |")
+        md_path.write_text("\n".join(lines) + "\n", encoding="utf-8")
+        summary.append(
+            {
+                "source_file": path.name,
+                "total_expressions": report.total_expressions,
+                "meshed_expression_count": report.meshed_expression_count,
+                "supported_expression_count": report.supported_expression_count,
+                "supported_but_not_meshed_count": report.supported_but_not_meshed_count,
+                "recognized_unsupported_count": report.recognized_unsupported_count,
+                "unrecognized_count": report.unrecognized_count,
+                "group_count": len(report.groups),
+                "report": str(out_path.relative_to(out_dir)),
+                "markdown": str(md_path.relative_to(out_dir)),
+            }
+        )
+
+    (out_dir / "coverage_summary.json").write_text(json.dumps(summary, indent=2), encoding="utf-8")
+    print(f"Coverage reports complete: {len(summary)} file(s). Reports in {out_dir}")
+    return 0
+
+
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(prog="desmos3d")
     sub = parser.add_subparsers(dest="command", required=True)
@@ -95,6 +159,12 @@ def build_parser() -> argparse.ArgumentParser:
     bridge.add_argument("--input-glob", type=str, default=None, help="Glob for multiple files")
     bridge.add_argument("--out", type=str, default="artifacts/bridge", help="Output bridge directory")
     bridge.set_defaults(func=cmd_export_bridge)
+
+    cov = sub.add_parser("coverage", help="Report what expressions are missing from meshing, grouped by fingerprint")
+    cov.add_argument("--input", type=str, default=None, help="Single input JSON file")
+    cov.add_argument("--input-glob", type=str, default=None, help="Glob for multiple files")
+    cov.add_argument("--out", type=str, default="artifacts/coverage", help="Output coverage report directory")
+    cov.set_defaults(func=cmd_coverage)
 
     return parser
 

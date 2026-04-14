@@ -32,6 +32,8 @@ def to_python_expr(expr: str, symbol_map: Mapping[str, str] | None = None) -> st
             text = text.replace(src, dst)
     text = re.sub(r"([0-9)])([A-Za-z(])", r"\1*\2", text)
     text = re.sub(r"([xyz])([A-Za-z(])", r"\1*\2", text)
+    # Implicit multiplication: symbol followed by axis, e.g. ax -> a*x, a_1x -> a_1*x
+    text = re.sub(r"([A-Za-z0-9_}])([xyz])", r"\1*\2", text)
     text = re.sub(r"([0-9xyz}])\(", r"\1*(", text)
     text = text.replace("}(", "}*(")
     text = text.replace(")(", ")*(")

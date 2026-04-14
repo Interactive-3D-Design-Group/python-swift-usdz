@@ -64,6 +64,20 @@ swift run usdz-exporter --manifest ../artifacts/bridge/JSONLondon/manifest.json 
 
 For another file, swap `JSONLondon` with `JSONreference`, `JSONCali`, or `JSONAkashi`.
 
+### 7.5) Coverage report (what’s still missing)
+
+This generates fingerprint-grouped reports of expressions that are not currently meshed (plus a small markdown summary per file):
+
+```bash
+PYTHONPATH=src python3 -m desmos3d_pipeline.cli coverage --input-glob "JSON*.json" --out artifacts/coverage
+```
+
+Outputs:
+
+- `artifacts/coverage/<file>.coverage.json`
+- `artifacts/coverage/<file>.coverage.md`
+- `artifacts/coverage/coverage_summary.json`
+
 ### 8) Run full pipeline for all JSON files (single command)
 
 ```bash

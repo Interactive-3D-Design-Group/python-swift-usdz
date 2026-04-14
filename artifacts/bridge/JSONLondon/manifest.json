@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "mesh_count": 207,
-  "failed_mesh_count": 4,
+  "mesh_count": 211,
+  "failed_mesh_count": 0,
   "meshes": [
     {
       "name": "JSONLondon_34",
@@ -140,6 +140,86 @@
           3.0,
           -20.0,
           68.0
+        ]
+      }
+    },
+    {
+      "name": "JSONLondon_46",
+      "obj_file": "meshes/JSONLondon_46.obj",
+      "color": "#c74440",
+      "source_file": "JSONLondon.json",
+      "expression_id": "46",
+      "family": "QUADRATIC_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          -225.0,
+          -20.0,
+          -3.125
+        ],
+        "max": [
+          -100.0,
+          -16.0,
+          80.0
+        ]
+      }
+    },
+    {
+      "name": "JSONLondon_79",
+      "obj_file": "meshes/JSONLondon_79.obj",
+      "color": "#c74440",
+      "source_file": "JSONLondon.json",
+      "expression_id": "79",
+      "family": "QUADRATIC_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          -225.0,
+          16.0,
+          -3.125
+        ],
+        "max": [
+          -100.0,
+          20.0,
+          80.0
+        ]
+      }
+    },
+    {
+      "name": "JSONLondon_80",
+      "obj_file": "meshes/JSONLondon_80.obj",
+      "color": "#c74440",
+      "source_file": "JSONLondon.json",
+      "expression_id": "80",
+      "family": "QUADRATIC_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          100.0,
+          16.0,
+          -3.125
+        ],
+        "max": [
+          225.0,
+          20.0,
+          80.0
+        ]
+      }
+    },
+    {
+      "name": "JSONLondon_81",
+      "obj_file": "meshes/JSONLondon_81.obj",
+      "color": "#c74440",
+      "source_file": "JSONLondon.json",
+      "expression_id": "81",
+      "family": "QUADRATIC_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          100.0,
+          -20.0,
+          -3.125
+        ],
+        "max": [
+          225.0,
+          -16.0,
+          80.0
         ]
       }
     },
@@ -4144,26 +4224,5 @@
       }
     }
   ],
-  "failures": [
-    {
-      "source_file": "JSONLondon.json",
-      "expression_id": "46",
-      "error": "Unknown symbol: ax"
-    },
-    {
-      "source_file": "JSONLondon.json",
-      "expression_id": "79",
-      "error": "Unknown symbol: a_1x"
-    },
-    {
-      "source_file": "JSONLondon.json",
-      "expression_id": "80",
-      "error": "Unknown symbol: a_2x"
-    },
-    {
-      "source_file": "JSONLondon.json",
-      "expression_id": "81",
-      "error": "Unknown symbol: a_3x"
-    }
-  ]
+  "failures": []
 }

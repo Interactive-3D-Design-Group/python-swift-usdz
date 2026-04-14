@@ -68,7 +68,10 @@ def classify_expression(normalized_latex: str, expression_type: str) -> Classifi
     if m:
         axis, rhs = m.groups()
         has_intervals = all(parse_interval_constraint(r) is not None for r in restrictions)
-        if axis in {"x", "y", "z"} and re.fullmatch(r"[-+]?\d+(?:\.\d+)?", rhs):
+        is_constant_numeric = re.fullmatch(r"[-+]?\d+(?:\.\d+)?", rhs) is not None
+        # Also treat simple arithmetic numeric expressions (e.g. -90-21, 32+7, 90+42) as constants.
+        is_constant_arith = re.fullmatch(r"[-+0-9.*/()]+", rhs) is not None and not re.search(r"[A-Za-z]", rhs)
+        if axis in {"x", "y", "z"} and (is_constant_numeric or is_constant_arith):
             status = ClassificationStatus.SUPPORTED if has_intervals else ClassificationStatus.RECOGNIZED_UNSUPPORTED
             return ClassificationResult(ExpressionFamily.CONSTANT_PLANE, status, "Constant plane", 0.95, _fingerprint(core, restrictions))
         if axis == "z" and ("x" in rhs or "y" in rhs):

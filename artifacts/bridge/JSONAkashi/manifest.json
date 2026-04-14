@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "mesh_count": 287,
-  "failed_mesh_count": 82,
+  "mesh_count": 373,
+  "failed_mesh_count": 0,
   "meshes": [
     {
       "name": "JSONAkashi_56",
@@ -180,6 +180,86 @@
           480.0,
           -20.0,
           -53.78125
+        ]
+      }
+    },
+    {
+      "name": "JSONAkashi_500",
+      "obj_file": "meshes/JSONAkashi_500.obj",
+      "color": "#fa7e19",
+      "source_file": "JSONAkashi.json",
+      "expression_id": "500",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -438.125,
+          -23.0,
+          -16.9818225
+        ],
+        "max": [
+          -407.1875,
+          -22.0,
+          -5.497021093750002
+        ]
+      }
+    },
+    {
+      "name": "JSONAkashi_502",
+      "obj_file": "meshes/JSONAkashi_502.obj",
+      "color": "#fa7e19",
+      "source_file": "JSONAkashi.json",
+      "expression_id": "502",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          407.1875,
+          -23.0,
+          -16.9818225
+        ],
+        "max": [
+          438.125,
+          -22.0,
+          -5.497021093750002
+        ]
+      }
+    },
+    {
+      "name": "JSONAkashi_501",
+      "obj_file": "meshes/JSONAkashi_501.obj",
+      "color": "#fa7e19",
+      "source_file": "JSONAkashi.json",
+      "expression_id": "501",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -438.125,
+          22.0,
+          -16.9818225
+        ],
+        "max": [
+          -407.1875,
+          23.0,
+          -5.497021093750002
+        ]
+      }
+    },
+    {
+      "name": "JSONAkashi_503",
+      "obj_file": "meshes/JSONAkashi_503.obj",
+      "color": "#fa7e19",
+      "source_file": "JSONAkashi.json",
+      "expression_id": "503",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          407.1875,
+          22.0,
+          -16.9818225
+        ],
+        "max": [
+          438.125,
+          23.0,
+          -5.497021093750002
         ]
       }
     },
@@ -5742,418 +5822,1647 @@
           -17.5
         ]
       }
-    }
-  ],
-  "failures": [
+    },
     {
+      "name": "JSONAkashi_506",
+      "obj_file": "meshes/JSONAkashi_506.obj",
+      "color": "#fa7e19",
       "source_file": "JSONAkashi.json",
       "expression_id": "506",
-      "error": "Missing finite bounds for axis x"
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -16.025,
+          -23.025,
+          -9.740390475
+        ],
+        "max": [
+          -14.975000000000001,
+          -21.975,
+          153.81710047499996
+        ]
+      }
     },
     {
+      "name": "JSONAkashi_552",
+      "obj_file": "meshes/JSONAkashi_552.obj",
+      "color": "#fa7e19",
       "source_file": "JSONAkashi.json",
       "expression_id": "552",
-      "error": "Missing finite bounds for axis x"
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -16.025,
+          21.975,
+          -9.740390475
+        ],
+        "max": [
+          -14.975000000000001,
+          23.025,
+          153.81710047499996
+        ]
+      }
     },
     {
+      "name": "JSONAkashi_507",
+      "obj_file": "meshes/JSONAkashi_507.obj",
+      "color": "#fa7e19",
       "source_file": "JSONAkashi.json",
       "expression_id": "507",
-      "error": "Missing finite bounds for axis x"
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -27.025,
+          -23.025,
+          -9.95351984475
+        ],
+        "max": [
+          -25.975,
+          -21.975,
+          146.28007094474998
+        ]
+      }
     },
     {
+      "name": "JSONAkashi_592",
+      "obj_file": "meshes/JSONAkashi_592.obj",
+      "color": "#fa7e19",
       "source_file": "JSONAkashi.json",
       "expression_id": "592",
-      "error": "Missing finite bounds for axis x"
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -27.025,
+          21.975,
+          -9.95351984475
+        ],
+        "max": [
+          -25.975,
+          23.025,
+          146.28007094474998
+        ]
+      }
     },
     {
+      "name": "JSONAkashi_508",
+      "obj_file": "meshes/JSONAkashi_508.obj",
+      "color": "#fa7e19",
       "source_file": "JSONAkashi.json",
       "expression_id": "508",
-      "error": "Missing finite bounds for axis x"
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -38.025000000000006,
+          -23.025,
+          -10.161810364000004
+        ],
+        "max": [
+          -36.974999999999994,
+          -21.975,
+          138.91416076399994
+        ]
+      }
     },
     {
+      "name": "JSONAkashi_591",
+      "obj_file": "meshes/JSONAkashi_591.obj",
+      "color": "#fa7e19",
       "source_file": "JSONAkashi.json",
       "expression_id": "591",
-      "error": "Missing finite bounds for axis x"
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -38.025000000000006,
+          21.975,
+          -10.161810364000004
+        ],
+        "max": [
+          -36.974999999999994,
+          23.025,
+          138.91416076399994
+        ]
+      }
     },
     {
+      "name": "JSONAkashi_509",
+      "obj_file": "meshes/JSONAkashi_509.obj",
+      "color": "#fa7e19",
       "source_file": "JSONAkashi.json",
       "expression_id": "509",
-      "error": "Missing finite bounds for axis x"
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -49.025000000000006,
+          -23.025,
+          -10.36526203275
+        ],
+        "max": [
+          -47.974999999999994,
+          -21.975,
+          131.71936993274997
+        ]
+      }
     },
     {
+      "name": "JSONAkashi_590",
+      "obj_file": "meshes/JSONAkashi_590.obj",
+      "color": "#fa7e19",
       "source_file": "JSONAkashi.json",
       "expression_id": "590",
-      "error": "Missing finite bounds for axis x"
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -49.025000000000006,
+          21.975,
+          -10.36526203275
+        ],
+        "max": [
+          -47.974999999999994,
+          23.025,
+          131.71936993274997
+        ]
+      }
     },
     {
+      "name": "JSONAkashi_510",
+      "obj_file": "meshes/JSONAkashi_510.obj",
+      "color": "#fa7e19",
       "source_file": "JSONAkashi.json",
       "expression_id": "510",
-      "error": "Missing finite bounds for axis x"
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -60.025000000000006,
+          -23.025,
+          -10.563874851000003
+        ],
+        "max": [
+          -58.974999999999994,
+          -21.975,
+          124.695698451
+        ]
+      }
     },
     {
+      "name": "JSONAkashi_589",
+      "obj_file": "meshes/JSONAkashi_589.obj",
+      "color": "#fa7e19",
       "source_file": "JSONAkashi.json",
       "expression_id": "589",
-      "error": "Missing finite bounds for axis x"
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -60.025000000000006,
+          21.975,
+          -10.563874851000003
+        ],
+        "max": [
+          -58.974999999999994,
+          23.025,
+          124.695698451
+        ]
+      }
     },
     {
+      "name": "JSONAkashi_511",
+      "obj_file": "meshes/JSONAkashi_511.obj",
+      "color": "#fa7e19",
       "source_file": "JSONAkashi.json",
       "expression_id": "511",
-      "error": "Missing finite bounds for axis x"
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -71.025,
+          -23.025,
+          -10.757648818749999
+        ],
+        "max": [
+          -69.975,
+          -21.975,
+          117.84314631874999
+        ]
+      }
     },
     {
+      "name": "JSONAkashi_588",
+      "obj_file": "meshes/JSONAkashi_588.obj",
+      "color": "#fa7e19",
       "source_file": "JSONAkashi.json",
       "expression_id": "588",
-      "error": "Missing finite bounds for axis x"
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -71.025,
+          21.975,
+          -10.757648818749999
+        ],
+        "max": [
+          -69.975,
+          23.025,
+          117.84314631874999
+        ]
+      }
     },
     {
+      "name": "JSONAkashi_512",
+      "obj_file": "meshes/JSONAkashi_512.obj",
+      "color": "#fa7e19",
       "source_file": "JSONAkashi.json",
       "expression_id": "512",
-      "error": "Missing finite bounds for axis x"
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -82.025,
+          -23.025,
+          -10.946583936
+        ],
+        "max": [
+          -80.975,
+          -21.975,
+          111.16171353600001
+        ]
+      }
     },
     {
+      "name": "JSONAkashi_587",
+      "obj_file": "meshes/JSONAkashi_587.obj",
+      "color": "#fa7e19",
       "source_file": "JSONAkashi.json",
       "expression_id": "587",
-      "error": "Missing finite bounds for axis x"
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -82.025,
+          21.975,
+          -10.946583936
+        ],
+        "max": [
+          -80.975,
+          23.025,
+          111.16171353600001
+        ]
+      }
     },
     {
+      "name": "JSONAkashi_513",
+      "obj_file": "meshes/JSONAkashi_513.obj",
+      "color": "#fa7e19",
       "source_file": "JSONAkashi.json",
       "expression_id": "513",
-      "error": "Missing finite bounds for axis x"
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -93.025,
+          -23.025,
+          -11.130680202750002
+        ],
+        "max": [
+          -91.975,
+          -21.975,
+          104.65140010275002
+        ]
+      }
     },
     {
+      "name": "JSONAkashi_586",
+      "obj_file": "meshes/JSONAkashi_586.obj",
+      "color": "#fa7e19",
       "source_file": "JSONAkashi.json",
       "expression_id": "586",
-      "error": "Missing finite bounds for axis x"
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -93.025,
+          21.975,
+          -11.130680202750002
+        ],
+        "max": [
+          -91.975,
+          23.025,
+          104.65140010275002
+        ]
+      }
     },
     {
+      "name": "JSONAkashi_514",
+      "obj_file": "meshes/JSONAkashi_514.obj",
+      "color": "#fa7e19",
       "source_file": "JSONAkashi.json",
       "expression_id": "514",
-      "error": "Missing finite bounds for axis x"
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -104.025,
+          -23.025,
+          -11.309937619
+        ],
+        "max": [
+          -102.975,
+          -21.975,
+          98.31220601900002
+        ]
+      }
     },
     {
+      "name": "JSONAkashi_585",
+      "obj_file": "meshes/JSONAkashi_585.obj",
+      "color": "#fa7e19",
       "source_file": "JSONAkashi.json",
       "expression_id": "585",
-      "error": "Missing finite bounds for axis x"
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -104.025,
+          21.975,
+          -11.309937619
+        ],
+        "max": [
+          -102.975,
+          23.025,
+          98.31220601900002
+        ]
+      }
     },
     {
+      "name": "JSONAkashi_515",
+      "obj_file": "meshes/JSONAkashi_515.obj",
+      "color": "#fa7e19",
       "source_file": "JSONAkashi.json",
       "expression_id": "515",
-      "error": "Missing finite bounds for axis x"
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -115.025,
+          -23.025,
+          -11.484356184750002
+        ],
+        "max": [
+          -113.975,
+          -21.975,
+          92.14413128474997
+        ]
+      }
     },
     {
+      "name": "JSONAkashi_584",
+      "obj_file": "meshes/JSONAkashi_584.obj",
+      "color": "#fa7e19",
       "source_file": "JSONAkashi.json",
       "expression_id": "584",
-      "error": "Missing finite bounds for axis x"
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -115.025,
+          21.975,
+          -11.484356184750002
+        ],
+        "max": [
+          -113.975,
+          23.025,
+          92.14413128474997
+        ]
+      }
     },
     {
+      "name": "JSONAkashi_516",
+      "obj_file": "meshes/JSONAkashi_516.obj",
+      "color": "#fa7e19",
       "source_file": "JSONAkashi.json",
       "expression_id": "516",
-      "error": "Missing finite bounds for axis x"
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -126.025,
+          -23.025,
+          -11.6539359
+        ],
+        "max": [
+          -124.975,
+          -21.975,
+          86.14717589999998
+        ]
+      }
     },
     {
+      "name": "JSONAkashi_583",
+      "obj_file": "meshes/JSONAkashi_583.obj",
+      "color": "#fa7e19",
       "source_file": "JSONAkashi.json",
       "expression_id": "583",
-      "error": "Missing finite bounds for axis x"
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -126.025,
+          21.975,
+          -11.6539359
+        ],
+        "max": [
+          -124.975,
+          23.025,
+          86.14717589999998
+        ]
+      }
     },
     {
+      "name": "JSONAkashi_517",
+      "obj_file": "meshes/JSONAkashi_517.obj",
+      "color": "#fa7e19",
       "source_file": "JSONAkashi.json",
       "expression_id": "517",
-      "error": "Missing finite bounds for axis x"
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -137.02499999999998,
+          -23.025,
+          -11.818676764750002
+        ],
+        "max": [
+          -135.97500000000002,
+          -21.975,
+          80.32133986475
+        ]
+      }
     },
     {
+      "name": "JSONAkashi_582",
+      "obj_file": "meshes/JSONAkashi_582.obj",
+      "color": "#fa7e19",
       "source_file": "JSONAkashi.json",
       "expression_id": "582",
-      "error": "Missing finite bounds for axis x"
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -137.02499999999998,
+          21.975,
+          -11.818676764750002
+        ],
+        "max": [
+          -135.97500000000002,
+          23.025,
+          80.32133986475
+        ]
+      }
     },
     {
+      "name": "JSONAkashi_518",
+      "obj_file": "meshes/JSONAkashi_518.obj",
+      "color": "#fa7e19",
       "source_file": "JSONAkashi.json",
       "expression_id": "518",
-      "error": "Missing finite bounds for axis x"
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -148.02499999999998,
+          -23.025,
+          -11.978578779000001
+        ],
+        "max": [
+          -146.97500000000002,
+          -21.975,
+          74.666623179
+        ]
+      }
     },
     {
+      "name": "JSONAkashi_581",
+      "obj_file": "meshes/JSONAkashi_581.obj",
+      "color": "#fa7e19",
       "source_file": "JSONAkashi.json",
       "expression_id": "581",
-      "error": "Missing finite bounds for axis x"
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -148.02499999999998,
+          21.975,
+          -11.978578779000001
+        ],
+        "max": [
+          -146.97500000000002,
+          23.025,
+          74.666623179
+        ]
+      }
     },
     {
+      "name": "JSONAkashi_519",
+      "obj_file": "meshes/JSONAkashi_519.obj",
+      "color": "#fa7e19",
       "source_file": "JSONAkashi.json",
       "expression_id": "519",
-      "error": "Missing finite bounds for axis x"
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -159.02499999999998,
+          -23.025,
+          -12.13364194275
+        ],
+        "max": [
+          -157.97500000000002,
+          -21.975,
+          69.18302584275
+        ]
+      }
     },
     {
+      "name": "JSONAkashi_580",
+      "obj_file": "meshes/JSONAkashi_580.obj",
+      "color": "#fa7e19",
       "source_file": "JSONAkashi.json",
       "expression_id": "580",
-      "error": "Missing finite bounds for axis x"
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -159.02499999999998,
+          21.975,
+          -12.13364194275
+        ],
+        "max": [
+          -157.97500000000002,
+          23.025,
+          69.18302584275
+        ]
+      }
     },
     {
+      "name": "JSONAkashi_520",
+      "obj_file": "meshes/JSONAkashi_520.obj",
+      "color": "#fa7e19",
       "source_file": "JSONAkashi.json",
       "expression_id": "520",
-      "error": "Missing finite bounds for axis x"
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -170.02499999999998,
+          -23.025,
+          -12.283866256
+        ],
+        "max": [
+          -168.97500000000002,
+          -21.975,
+          63.87054785600001
+        ]
+      }
     },
     {
+      "name": "JSONAkashi_579",
+      "obj_file": "meshes/JSONAkashi_579.obj",
+      "color": "#fa7e19",
       "source_file": "JSONAkashi.json",
       "expression_id": "579",
-      "error": "Missing finite bounds for axis x"
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -170.02499999999998,
+          21.975,
+          -12.283866256
+        ],
+        "max": [
+          -168.97500000000002,
+          23.025,
+          63.87054785600001
+        ]
+      }
     },
     {
+      "name": "JSONAkashi_521",
+      "obj_file": "meshes/JSONAkashi_521.obj",
+      "color": "#fa7e19",
       "source_file": "JSONAkashi.json",
       "expression_id": "521",
-      "error": "Missing finite bounds for axis x"
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -181.02499999999998,
+          -23.025,
+          -12.429251718749999
+        ],
+        "max": [
+          -179.97500000000002,
+          -21.975,
+          58.729189218750015
+        ]
+      }
     },
     {
+      "name": "JSONAkashi_578",
+      "obj_file": "meshes/JSONAkashi_578.obj",
+      "color": "#fa7e19",
       "source_file": "JSONAkashi.json",
       "expression_id": "578",
-      "error": "Missing finite bounds for axis x"
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -181.02499999999998,
+          21.975,
+          -12.429251718749999
+        ],
+        "max": [
+          -179.97500000000002,
+          23.025,
+          58.729189218750015
+        ]
+      }
     },
     {
+      "name": "JSONAkashi_522",
+      "obj_file": "meshes/JSONAkashi_522.obj",
+      "color": "#fa7e19",
       "source_file": "JSONAkashi.json",
       "expression_id": "522",
-      "error": "Missing finite bounds for axis x"
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -192.02499999999998,
+          -23.025,
+          -12.569798331000001
+        ],
+        "max": [
+          -190.97500000000002,
+          -21.975,
+          53.75894993099999
+        ]
+      }
     },
     {
+      "name": "JSONAkashi_577",
+      "obj_file": "meshes/JSONAkashi_577.obj",
+      "color": "#fa7e19",
       "source_file": "JSONAkashi.json",
       "expression_id": "577",
-      "error": "Missing finite bounds for axis x"
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -192.02499999999998,
+          21.975,
+          -12.569798331000001
+        ],
+        "max": [
+          -190.97500000000002,
+          23.025,
+          53.75894993099999
+        ]
+      }
     },
     {
+      "name": "JSONAkashi_523",
+      "obj_file": "meshes/JSONAkashi_523.obj",
+      "color": "#fa7e19",
       "source_file": "JSONAkashi.json",
       "expression_id": "523",
-      "error": "Missing finite bounds for axis x"
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -203.02499999999998,
+          -23.025,
+          -12.70550609275
+        ],
+        "max": [
+          -201.97500000000002,
+          -21.975,
+          48.95982999275
+        ]
+      }
     },
     {
+      "name": "JSONAkashi_576",
+      "obj_file": "meshes/JSONAkashi_576.obj",
+      "color": "#fa7e19",
       "source_file": "JSONAkashi.json",
       "expression_id": "576",
-      "error": "Missing finite bounds for axis x"
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -203.02499999999998,
+          21.975,
+          -12.70550609275
+        ],
+        "max": [
+          -201.97500000000002,
+          23.025,
+          48.95982999275
+        ]
+      }
     },
     {
+      "name": "JSONAkashi_524",
+      "obj_file": "meshes/JSONAkashi_524.obj",
+      "color": "#fa7e19",
       "source_file": "JSONAkashi.json",
       "expression_id": "524",
-      "error": "Missing finite bounds for axis x"
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -214.02499999999998,
+          -23.025,
+          -12.836375004
+        ],
+        "max": [
+          -212.97500000000002,
+          -21.975,
+          44.331829404
+        ]
+      }
     },
     {
+      "name": "JSONAkashi_575",
+      "obj_file": "meshes/JSONAkashi_575.obj",
+      "color": "#fa7e19",
       "source_file": "JSONAkashi.json",
       "expression_id": "575",
-      "error": "Missing finite bounds for axis x"
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -214.02499999999998,
+          21.975,
+          -12.836375004
+        ],
+        "max": [
+          -212.97500000000002,
+          23.025,
+          44.331829404
+        ]
+      }
     },
     {
+      "name": "JSONAkashi_525",
+      "obj_file": "meshes/JSONAkashi_525.obj",
+      "color": "#fa7e19",
       "source_file": "JSONAkashi.json",
       "expression_id": "525",
-      "error": "Missing finite bounds for axis x"
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -225.02499999999998,
+          -23.025,
+          -12.962405064750001
+        ],
+        "max": [
+          -223.97500000000002,
+          -21.975,
+          39.874948164749995
+        ]
+      }
     },
     {
+      "name": "JSONAkashi_574",
+      "obj_file": "meshes/JSONAkashi_574.obj",
+      "color": "#fa7e19",
       "source_file": "JSONAkashi.json",
       "expression_id": "574",
-      "error": "Missing finite bounds for axis x"
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -225.02499999999998,
+          21.975,
+          -12.962405064750001
+        ],
+        "max": [
+          -223.97500000000002,
+          23.025,
+          39.874948164749995
+        ]
+      }
     },
     {
+      "name": "JSONAkashi_526",
+      "obj_file": "meshes/JSONAkashi_526.obj",
+      "color": "#fa7e19",
       "source_file": "JSONAkashi.json",
       "expression_id": "526",
-      "error": "Missing finite bounds for axis x"
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -236.02499999999998,
+          -23.025,
+          -13.083596275000001
+        ],
+        "max": [
+          -234.97500000000002,
+          -21.975,
+          35.589186274999996
+        ]
+      }
     },
     {
+      "name": "JSONAkashi_573",
+      "obj_file": "meshes/JSONAkashi_573.obj",
+      "color": "#fa7e19",
       "source_file": "JSONAkashi.json",
       "expression_id": "573",
-      "error": "Missing finite bounds for axis x"
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -236.02499999999998,
+          21.975,
+          -13.083596275000001
+        ],
+        "max": [
+          -234.97500000000002,
+          23.025,
+          35.589186274999996
+        ]
+      }
     },
     {
+      "name": "JSONAkashi_527",
+      "obj_file": "meshes/JSONAkashi_527.obj",
+      "color": "#fa7e19",
       "source_file": "JSONAkashi.json",
       "expression_id": "527",
-      "error": "Missing finite bounds for axis x"
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -247.02499999999998,
+          -23.025,
+          -13.199948634750001
+        ],
+        "max": [
+          -245.97500000000002,
+          -21.975,
+          31.474543734750007
+        ]
+      }
     },
     {
+      "name": "JSONAkashi_572",
+      "obj_file": "meshes/JSONAkashi_572.obj",
+      "color": "#fa7e19",
       "source_file": "JSONAkashi.json",
       "expression_id": "572",
-      "error": "Missing finite bounds for axis x"
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -247.02499999999998,
+          21.975,
+          -13.199948634750001
+        ],
+        "max": [
+          -245.97500000000002,
+          23.025,
+          31.474543734750007
+        ]
+      }
     },
     {
+      "name": "JSONAkashi_528",
+      "obj_file": "meshes/JSONAkashi_528.obj",
+      "color": "#fa7e19",
       "source_file": "JSONAkashi.json",
       "expression_id": "528",
-      "error": "Missing finite bounds for axis x"
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -258.025,
+          -23.025,
+          -13.311462143999998
+        ],
+        "max": [
+          -256.975,
+          -21.975,
+          27.531020543999997
+        ]
+      }
     },
     {
+      "name": "JSONAkashi_571",
+      "obj_file": "meshes/JSONAkashi_571.obj",
+      "color": "#fa7e19",
       "source_file": "JSONAkashi.json",
       "expression_id": "571",
-      "error": "Missing finite bounds for axis x"
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -258.025,
+          21.975,
+          -13.311462143999998
+        ],
+        "max": [
+          -256.975,
+          23.025,
+          27.531020543999997
+        ]
+      }
     },
     {
+      "name": "JSONAkashi_529",
+      "obj_file": "meshes/JSONAkashi_529.obj",
+      "color": "#fa7e19",
       "source_file": "JSONAkashi.json",
       "expression_id": "529",
-      "error": "Missing finite bounds for axis x"
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -269.025,
+          -23.025,
+          -13.418136802749999
+        ],
+        "max": [
+          -267.975,
+          -21.975,
+          23.75861670275
+        ]
+      }
     },
     {
+      "name": "JSONAkashi_570",
+      "obj_file": "meshes/JSONAkashi_570.obj",
+      "color": "#fa7e19",
       "source_file": "JSONAkashi.json",
       "expression_id": "570",
-      "error": "Missing finite bounds for axis x"
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -269.025,
+          21.975,
+          -13.418136802749999
+        ],
+        "max": [
+          -267.975,
+          23.025,
+          23.75861670275
+        ]
+      }
     },
     {
+      "name": "JSONAkashi_530",
+      "obj_file": "meshes/JSONAkashi_530.obj",
+      "color": "#fa7e19",
       "source_file": "JSONAkashi.json",
       "expression_id": "530",
-      "error": "Missing finite bounds for axis x"
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -280.025,
+          -23.025,
+          -13.519972611
+        ],
+        "max": [
+          -278.975,
+          -21.975,
+          20.157332210999993
+        ]
+      }
     },
     {
+      "name": "JSONAkashi_569",
+      "obj_file": "meshes/JSONAkashi_569.obj",
+      "color": "#fa7e19",
       "source_file": "JSONAkashi.json",
       "expression_id": "569",
-      "error": "Missing finite bounds for axis x"
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -280.025,
+          21.975,
+          -13.519972611
+        ],
+        "max": [
+          -278.975,
+          23.025,
+          20.157332210999993
+        ]
+      }
     },
     {
+      "name": "JSONAkashi_531",
+      "obj_file": "meshes/JSONAkashi_531.obj",
+      "color": "#fa7e19",
       "source_file": "JSONAkashi.json",
       "expression_id": "531",
-      "error": "Missing finite bounds for axis x"
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -291.025,
+          -23.025,
+          -13.616969568750001
+        ],
+        "max": [
+          -289.975,
+          -21.975,
+          16.727167068749996
+        ]
+      }
     },
     {
+      "name": "JSONAkashi_568",
+      "obj_file": "meshes/JSONAkashi_568.obj",
+      "color": "#fa7e19",
       "source_file": "JSONAkashi.json",
       "expression_id": "568",
-      "error": "Missing finite bounds for axis x"
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -291.025,
+          21.975,
+          -13.616969568750001
+        ],
+        "max": [
+          -289.975,
+          23.025,
+          16.727167068749996
+        ]
+      }
     },
     {
+      "name": "JSONAkashi_532",
+      "obj_file": "meshes/JSONAkashi_532.obj",
+      "color": "#fa7e19",
       "source_file": "JSONAkashi.json",
       "expression_id": "532",
-      "error": "Missing finite bounds for axis x"
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -302.025,
+          -23.025,
+          -13.709127676000001
+        ],
+        "max": [
+          -300.975,
+          -21.975,
+          13.468121276
+        ]
+      }
     },
     {
+      "name": "JSONAkashi_567",
+      "obj_file": "meshes/JSONAkashi_567.obj",
+      "color": "#fa7e19",
       "source_file": "JSONAkashi.json",
       "expression_id": "567",
-      "error": "Missing finite bounds for axis x"
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -302.025,
+          21.975,
+          -13.709127676000001
+        ],
+        "max": [
+          -300.975,
+          23.025,
+          13.468121276
+        ]
+      }
     },
     {
+      "name": "JSONAkashi_533",
+      "obj_file": "meshes/JSONAkashi_533.obj",
+      "color": "#fa7e19",
       "source_file": "JSONAkashi.json",
       "expression_id": "533",
-      "error": "Missing finite bounds for axis x"
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -313.025,
+          -23.025,
+          -13.796446932750001
+        ],
+        "max": [
+          -311.975,
+          -21.975,
+          10.38019483275
+        ]
+      }
     },
     {
+      "name": "JSONAkashi_566",
+      "obj_file": "meshes/JSONAkashi_566.obj",
+      "color": "#fa7e19",
       "source_file": "JSONAkashi.json",
       "expression_id": "566",
-      "error": "Missing finite bounds for axis x"
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -313.025,
+          21.975,
+          -13.796446932750001
+        ],
+        "max": [
+          -311.975,
+          23.025,
+          10.38019483275
+        ]
+      }
     },
     {
+      "name": "JSONAkashi_534",
+      "obj_file": "meshes/JSONAkashi_534.obj",
+      "color": "#fa7e19",
       "source_file": "JSONAkashi.json",
       "expression_id": "534",
-      "error": "Missing finite bounds for axis x"
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -324.025,
+          -23.025,
+          -13.878927339
+        ],
+        "max": [
+          -322.975,
+          -21.975,
+          7.463387738999996
+        ]
+      }
     },
     {
+      "name": "JSONAkashi_565",
+      "obj_file": "meshes/JSONAkashi_565.obj",
+      "color": "#fa7e19",
       "source_file": "JSONAkashi.json",
       "expression_id": "565",
-      "error": "Missing finite bounds for axis x"
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -324.025,
+          21.975,
+          -13.878927339
+        ],
+        "max": [
+          -322.975,
+          23.025,
+          7.463387738999996
+        ]
+      }
     },
     {
+      "name": "JSONAkashi_535",
+      "obj_file": "meshes/JSONAkashi_535.obj",
+      "color": "#fa7e19",
       "source_file": "JSONAkashi.json",
       "expression_id": "535",
-      "error": "Missing finite bounds for axis x"
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -335.025,
+          -23.025,
+          -13.956568894750001
+        ],
+        "max": [
+          -333.975,
+          -21.975,
+          4.717699994749999
+        ]
+      }
     },
     {
+      "name": "JSONAkashi_564",
+      "obj_file": "meshes/JSONAkashi_564.obj",
+      "color": "#fa7e19",
       "source_file": "JSONAkashi.json",
       "expression_id": "564",
-      "error": "Missing finite bounds for axis x"
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -335.025,
+          21.975,
+          -13.956568894750001
+        ],
+        "max": [
+          -333.975,
+          23.025,
+          4.717699994749999
+        ]
+      }
     },
     {
+      "name": "JSONAkashi_536",
+      "obj_file": "meshes/JSONAkashi_536.obj",
+      "color": "#fa7e19",
       "source_file": "JSONAkashi.json",
       "expression_id": "536",
-      "error": "Missing finite bounds for axis x"
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -346.025,
+          -23.025,
+          -14.0293716
+        ],
+        "max": [
+          -344.975,
+          -21.975,
+          2.1431315999999967
+        ]
+      }
     },
     {
+      "name": "JSONAkashi_563",
+      "obj_file": "meshes/JSONAkashi_563.obj",
+      "color": "#fa7e19",
       "source_file": "JSONAkashi.json",
       "expression_id": "563",
-      "error": "Missing finite bounds for axis x"
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -346.025,
+          21.975,
+          -14.0293716
+        ],
+        "max": [
+          -344.975,
+          23.025,
+          2.1431315999999967
+        ]
+      }
     },
     {
+      "name": "JSONAkashi_537",
+      "obj_file": "meshes/JSONAkashi_537.obj",
+      "color": "#fa7e19",
       "source_file": "JSONAkashi.json",
       "expression_id": "537",
-      "error": "Missing finite bounds for axis x"
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -357.025,
+          -23.025,
+          -14.09733545475
+        ],
+        "max": [
+          -355.975,
+          -21.975,
+          -0.260317445250001
+        ]
+      }
     },
     {
+      "name": "JSONAkashi_562",
+      "obj_file": "meshes/JSONAkashi_562.obj",
+      "color": "#fa7e19",
       "source_file": "JSONAkashi.json",
       "expression_id": "562",
-      "error": "Missing finite bounds for axis x"
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -357.025,
+          21.975,
+          -14.09733545475
+        ],
+        "max": [
+          -355.975,
+          23.025,
+          -0.260317445250001
+        ]
+      }
     },
     {
+      "name": "JSONAkashi_538",
+      "obj_file": "meshes/JSONAkashi_538.obj",
+      "color": "#fa7e19",
       "source_file": "JSONAkashi.json",
       "expression_id": "538",
-      "error": "Missing finite bounds for axis x"
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -368.025,
+          -23.025,
+          -14.160460459
+        ],
+        "max": [
+          -366.975,
+          -21.975,
+          -2.492647140999999
+        ]
+      }
     },
     {
+      "name": "JSONAkashi_561",
+      "obj_file": "meshes/JSONAkashi_561.obj",
+      "color": "#fa7e19",
       "source_file": "JSONAkashi.json",
       "expression_id": "561",
-      "error": "Missing finite bounds for axis x"
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -368.025,
+          21.975,
+          -14.160460459
+        ],
+        "max": [
+          -366.975,
+          23.025,
+          -2.492647140999999
+        ]
+      }
     },
     {
+      "name": "JSONAkashi_539",
+      "obj_file": "meshes/JSONAkashi_539.obj",
+      "color": "#fa7e19",
       "source_file": "JSONAkashi.json",
       "expression_id": "539",
-      "error": "Missing finite bounds for axis x"
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -379.025,
+          -23.025,
+          -14.21874661275
+        ],
+        "max": [
+          -377.975,
+          -21.975,
+          -4.553857487249999
+        ]
+      }
     },
     {
+      "name": "JSONAkashi_560",
+      "obj_file": "meshes/JSONAkashi_560.obj",
+      "color": "#fa7e19",
       "source_file": "JSONAkashi.json",
       "expression_id": "560",
-      "error": "Missing finite bounds for axis x"
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -379.025,
+          21.975,
+          -14.21874661275
+        ],
+        "max": [
+          -377.975,
+          23.025,
+          -4.553857487249999
+        ]
+      }
     },
     {
+      "name": "JSONAkashi_540",
+      "obj_file": "meshes/JSONAkashi_540.obj",
+      "color": "#fa7e19",
       "source_file": "JSONAkashi.json",
       "expression_id": "540",
-      "error": "Missing finite bounds for axis x"
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -390.025,
+          -23.025,
+          -14.272193915999999
+        ],
+        "max": [
+          -388.975,
+          -21.975,
+          -6.443948484000002
+        ]
+      }
     },
     {
+      "name": "JSONAkashi_559",
+      "obj_file": "meshes/JSONAkashi_559.obj",
+      "color": "#fa7e19",
       "source_file": "JSONAkashi.json",
       "expression_id": "559",
-      "error": "Missing finite bounds for axis x"
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -390.025,
+          21.975,
+          -14.272193915999999
+        ],
+        "max": [
+          -388.975,
+          23.025,
+          -6.443948484000002
+        ]
+      }
     },
     {
+      "name": "JSONAkashi_541",
+      "obj_file": "meshes/JSONAkashi_541.obj",
+      "color": "#fa7e19",
       "source_file": "JSONAkashi.json",
       "expression_id": "541",
-      "error": "Missing finite bounds for axis x"
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -401.025,
+          -23.025,
+          -14.32080236875
+        ],
+        "max": [
+          -399.975,
+          -21.975,
+          -8.16292013125
+        ]
+      }
     },
     {
+      "name": "JSONAkashi_558",
+      "obj_file": "meshes/JSONAkashi_558.obj",
+      "color": "#fa7e19",
       "source_file": "JSONAkashi.json",
       "expression_id": "558",
-      "error": "Missing finite bounds for axis x"
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -401.025,
+          21.975,
+          -14.32080236875
+        ],
+        "max": [
+          -399.975,
+          23.025,
+          -8.16292013125
+        ]
+      }
     },
     {
+      "name": "JSONAkashi_542",
+      "obj_file": "meshes/JSONAkashi_542.obj",
+      "color": "#fa7e19",
       "source_file": "JSONAkashi.json",
       "expression_id": "542",
-      "error": "Missing finite bounds for axis x"
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -412.025,
+          -23.025,
+          -14.364571971
+        ],
+        "max": [
+          -410.975,
+          -21.975,
+          -9.710772429
+        ]
+      }
     },
     {
+      "name": "JSONAkashi_557",
+      "obj_file": "meshes/JSONAkashi_557.obj",
+      "color": "#fa7e19",
       "source_file": "JSONAkashi.json",
       "expression_id": "557",
-      "error": "Missing finite bounds for axis x"
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -412.025,
+          21.975,
+          -14.364571971
+        ],
+        "max": [
+          -410.975,
+          23.025,
+          -9.710772429
+        ]
+      }
     },
     {
+      "name": "JSONAkashi_543",
+      "obj_file": "meshes/JSONAkashi_543.obj",
+      "color": "#fa7e19",
       "source_file": "JSONAkashi.json",
       "expression_id": "543",
-      "error": "Missing finite bounds for axis x"
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -423.025,
+          -23.025,
+          -14.40350272275
+        ],
+        "max": [
+          -421.975,
+          -21.975,
+          -11.08750537725
+        ]
+      }
     },
     {
+      "name": "JSONAkashi_556",
+      "obj_file": "meshes/JSONAkashi_556.obj",
+      "color": "#fa7e19",
       "source_file": "JSONAkashi.json",
       "expression_id": "556",
-      "error": "Missing finite bounds for axis x"
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -423.025,
+          21.975,
+          -14.40350272275
+        ],
+        "max": [
+          -421.975,
+          23.025,
+          -11.08750537725
+        ]
+      }
     },
     {
+      "name": "JSONAkashi_544",
+      "obj_file": "meshes/JSONAkashi_544.obj",
+      "color": "#fa7e19",
       "source_file": "JSONAkashi.json",
       "expression_id": "544",
-      "error": "Missing finite bounds for axis x"
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -434.025,
+          -23.025,
+          -14.47763832
+        ],
+        "max": [
+          -432.975,
+          -21.975,
+          -12.253075280000001
+        ]
+      }
     },
     {
+      "name": "JSONAkashi_555",
+      "obj_file": "meshes/JSONAkashi_555.obj",
+      "color": "#fa7e19",
       "source_file": "JSONAkashi.json",
       "expression_id": "555",
-      "error": "Missing finite bounds for axis x"
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -434.025,
+          21.975,
+          -14.47763832
+        ],
+        "max": [
+          -432.975,
+          23.025,
+          -12.253075280000001
+        ]
+      }
     },
     {
+      "name": "JSONAkashi_545",
+      "obj_file": "meshes/JSONAkashi_545.obj",
+      "color": "#fa7e19",
       "source_file": "JSONAkashi.json",
       "expression_id": "545",
-      "error": "Missing finite bounds for axis x"
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -445.025,
+          -23.025,
+          -14.491599896250001
+        ],
+        "max": [
+          -443.975,
+          -21.975,
+          -13.30286100375
+        ]
+      }
     },
     {
+      "name": "JSONAkashi_554",
+      "obj_file": "meshes/JSONAkashi_554.obj",
+      "color": "#fa7e19",
       "source_file": "JSONAkashi.json",
       "expression_id": "554",
-      "error": "Missing finite bounds for axis x"
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -445.025,
+          21.975,
+          -14.491599896250001
+        ],
+        "max": [
+          -443.975,
+          23.025,
+          -13.30286100375
+        ]
+      }
     },
     {
+      "name": "JSONAkashi_547",
+      "obj_file": "meshes/JSONAkashi_547.obj",
+      "color": "#fa7e19",
       "source_file": "JSONAkashi.json",
       "expression_id": "547",
-      "error": "Missing finite bounds for axis x"
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -456.025,
+          -23.025,
+          -14.4884953125
+        ],
+        "max": [
+          -454.975,
+          -21.975,
+          -14.1937546875
+        ]
+      }
     },
     {
+      "name": "JSONAkashi_553",
+      "obj_file": "meshes/JSONAkashi_553.obj",
+      "color": "#fa7e19",
       "source_file": "JSONAkashi.json",
       "expression_id": "553",
-      "error": "Missing finite bounds for axis x"
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -456.025,
+          21.975,
+          -14.4884953125
+        ],
+        "max": [
+          -454.975,
+          23.025,
+          -14.1937546875
+        ]
+      }
     }
-  ]
+  ],
+  "failures": []
 }

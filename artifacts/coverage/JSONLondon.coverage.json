@@ -1,0 +1,268 @@
+{
+  "source_file": "JSONLondon.json",
+  "total_items": 265,
+  "total_expressions": 236,
+  "meshed_expression_count": 213,
+  "supported_expression_count": 213,
+  "supported_but_not_meshed_count": 0,
+  "recognized_unsupported_count": 13,
+  "unrecognized_count": 10,
+  "groups": [
+    {
+      "fingerprint": "bf7c4276ad9b91ba",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Partial axis bounds only",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "13"
+      ],
+      "example_latex": [
+        "20>y>-20\\left\\{-225<x<225\\right\\}"
+      ],
+      "example_normalized": [
+        "20>y>-20{-225<x<225}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "07765bb28eaf0a35",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "259"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}\\left(w_{5},\\left[a_{5},b_{5},d_{5},c_{5}\\right],\\left[b_{5},d_{5},c_{5},a_{5}\\right]\\right)"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}(w_{5},[a_{5},b_{5},d_{5},c_{5}],[b_{5},d_{5},c_{5},a_{5}])"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "530a7f4a2e48523b",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "280"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}\\left(v_{5},\\left[m_{5},n_{5},o_{5},p_{5}\\right],\\left[n_{5},p_{5},m_{5},o_{5}\\right]\\right)"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}(v_{5},[m_{5},n_{5},o_{5},p_{5}],[n_{5},p_{5},m_{5},o_{5}])"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "76c230c1f9b725d6",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "265"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}\\left(x_{5},\\left[e_{5},\\ f_{5}\\ ,\\ g_{5},\\ h_{5}\\ \\right],\\left[f_{5},h_{5},e_{5},g_{5}\\right]\\right)"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}(x_{5},[e_{5},f_{5},g_{5},h_{5}],[f_{5},h_{5},e_{5},g_{5}])"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "a5448ec81d8cad30",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "289"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}\\left(y_{5},\\left[q_{5},r_{5},s_{5},t_{5}\\right],\\left[r_{5},t_{5},q_{5},s_{5}\\right]\\right)"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}(y_{5},[q_{5},r_{5},s_{5},t_{5}],[r_{5},t_{5},q_{5},s_{5}])"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "b4c22a8c5c64c2bb",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "222"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}\\left(X,\\left[E,F,G,H\\right],\\left[F,H,E,G\\right]\\right)"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}(X,[E,F,G,H],[F,H,E,G])"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "bbe44e5ebd1bf7d4",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "230"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}\\left(U,\\left[I,J,K,L\\right],\\left[J,L,I,K\\right]\\right)"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}(U,[I,J,K,L],[J,L,I,K])"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "bf6bb6ff92126f3f",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "273"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}\\left(u_{5},\\left[i_{5},j_{5},k_{5},l_{5}\\right],\\left[j_{5},l_{5},i_{5},k_{5}\\right]\\right)"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}(u_{5},[i_{5},j_{5},k_{5},l_{5}],[j_{5},l_{5},i_{5},k_{5}])"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "cfee241d41c7828c",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "238"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}\\left(V,\\left[M,N,O,P\\right],\\left[N,P,M,O\\right]\\right)"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}(V,[M,N,O,P],[N,P,M,O])"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "f83e06c6c695b834",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "247"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}\\left(Y,\\left[Q,R,S,T\\right],\\left[R,T,Q,S\\right]\\right)"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}(Y,[Q,R,S,T],[R,T,Q,S])"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "f9f0595165066fe4",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "214"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}\\left(W,\\left[A,B,D,C\\right],\\left[B,D,C,A\\right]\\right)"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}(W,[A,B,D,C],[B,D,C,A])"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    }
+  ],
+  "diagnostics": [
+    {
+      "severity": "INFO",
+      "code": "COVERAGE_COMPLETE",
+      "message": "Coverage report complete",
+      "source_ref": null,
+      "details": {
+        "file": "JSONLondon.json",
+        "meshed_expression_ids": 213,
+        "supported_but_not_meshed": 0,
+        "group_count": 11
+      }
+    }
+  ]
+}
