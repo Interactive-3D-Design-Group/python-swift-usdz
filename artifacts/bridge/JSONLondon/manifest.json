@@ -1,48 +1,8 @@
 {
   "schema_version": 1,
-  "mesh_count": 184,
+  "mesh_count": 207,
   "failed_mesh_count": 0,
   "meshes": [
-    {
-      "name": "JSONLondon_3",
-      "obj_file": "meshes/JSONLondon_3.obj",
-      "color": "#aaaaaa",
-      "source_file": "JSONLondon.json",
-      "expression_id": "3",
-      "family": "CONSTANT_PLANE",
-      "bounds": {
-        "min": [
-          -139.38696110832,
-          20.0,
-          -139.3869611083204
-        ],
-        "max": [
-          139.38696110832,
-          20.0,
-          139.3869611083204
-        ]
-      }
-    },
-    {
-      "name": "JSONLondon_10",
-      "obj_file": "meshes/JSONLondon_10.obj",
-      "color": "#aaaaaa",
-      "source_file": "JSONLondon.json",
-      "expression_id": "10",
-      "family": "CONSTANT_PLANE",
-      "bounds": {
-        "min": [
-          -139.38696110832,
-          -20.0,
-          -139.3869611083204
-        ],
-        "max": [
-          139.38696110832,
-          -20.0,
-          139.3869611083204
-        ]
-      }
-    },
     {
       "name": "JSONLondon_34",
       "obj_file": "meshes/JSONLondon_34.obj",
@@ -680,6 +640,506 @@
           68.0,
           -10.0,
           90.0
+        ]
+      }
+    },
+    {
+      "name": "JSONLondon_254",
+      "obj_file": "meshes/JSONLondon_254.obj",
+      "color": "#ffffff",
+      "source_file": "JSONLondon.json",
+      "expression_id": "254",
+      "family": "POINT_DEFINITION",
+      "bounds": {
+        "min": [
+          53.88490431113344,
+          8.91286208817037,
+          90.0
+        ],
+        "max": [
+          56.11509568886656,
+          11.08713791182963,
+          93.3452870665997
+        ]
+      }
+    },
+    {
+      "name": "JSONLondon_255",
+      "obj_file": "meshes/JSONLondon_255.obj",
+      "color": "#ffffff",
+      "source_file": "JSONLondon.json",
+      "expression_id": "255",
+      "family": "POINT_DEFINITION",
+      "bounds": {
+        "min": [
+          53.88490431113344,
+          21.912862088170368,
+          90.0
+        ],
+        "max": [
+          56.11509568886656,
+          24.087137911829632,
+          93.3452870665997
+        ]
+      }
+    },
+    {
+      "name": "JSONLondon_256",
+      "obj_file": "meshes/JSONLondon_256.obj",
+      "color": "#6042a6",
+      "source_file": "JSONLondon.json",
+      "expression_id": "256",
+      "family": "POINT_DEFINITION",
+      "bounds": {
+        "min": [
+          66.88490431113344,
+          8.91286208817037,
+          90.0
+        ],
+        "max": [
+          69.11509568886656,
+          11.08713791182963,
+          93.3452870665997
+        ]
+      }
+    },
+    {
+      "name": "JSONLondon_257",
+      "obj_file": "meshes/JSONLondon_257.obj",
+      "color": "#ffffff",
+      "source_file": "JSONLondon.json",
+      "expression_id": "257",
+      "family": "POINT_DEFINITION",
+      "bounds": {
+        "min": [
+          66.88490431113344,
+          21.912862088170368,
+          90.0
+        ],
+        "max": [
+          69.11509568886656,
+          24.087137911829632,
+          93.3452870665997
+        ]
+      }
+    },
+    {
+      "name": "JSONLondon_258",
+      "obj_file": "meshes/JSONLondon_258.obj",
+      "color": "#ffffff",
+      "source_file": "JSONLondon.json",
+      "expression_id": "258",
+      "family": "POINT_DEFINITION",
+      "bounds": {
+        "min": [
+          60.38490431113344,
+          15.41286208817037,
+          105.0
+        ],
+        "max": [
+          62.61509568886656,
+          17.587137911829632,
+          108.3452870665997
+        ]
+      }
+    },
+    {
+      "name": "JSONLondon_261",
+      "obj_file": "meshes/JSONLondon_261.obj",
+      "color": "#ffffff",
+      "source_file": "JSONLondon.json",
+      "expression_id": "261",
+      "family": "POINT_DEFINITION",
+      "bounds": {
+        "min": [
+          93.88490431113344,
+          21.912862088170368,
+          90.0
+        ],
+        "max": [
+          96.11509568886656,
+          24.087137911829632,
+          93.3452870665997
+        ]
+      }
+    },
+    {
+      "name": "JSONLondon_262",
+      "obj_file": "meshes/JSONLondon_262.obj",
+      "color": "#6042a6",
+      "source_file": "JSONLondon.json",
+      "expression_id": "262",
+      "family": "POINT_DEFINITION",
+      "bounds": {
+        "min": [
+          106.88490431113344,
+          21.912862088170368,
+          90.0
+        ],
+        "max": [
+          109.11509568886656,
+          24.087137911829632,
+          93.3452870665997
+        ]
+      }
+    },
+    {
+      "name": "JSONLondon_263",
+      "obj_file": "meshes/JSONLondon_263.obj",
+      "color": "#ffffff",
+      "source_file": "JSONLondon.json",
+      "expression_id": "263",
+      "family": "POINT_DEFINITION",
+      "bounds": {
+        "min": [
+          93.88490431113344,
+          8.91286208817037,
+          90.0
+        ],
+        "max": [
+          96.11509568886656,
+          11.08713791182963,
+          93.3452870665997
+        ]
+      }
+    },
+    {
+      "name": "JSONLondon_264",
+      "obj_file": "meshes/JSONLondon_264.obj",
+      "color": "#ffffff",
+      "source_file": "JSONLondon.json",
+      "expression_id": "264",
+      "family": "POINT_DEFINITION",
+      "bounds": {
+        "min": [
+          106.88490431113344,
+          8.91286208817037,
+          90.0
+        ],
+        "max": [
+          109.11509568886656,
+          11.08713791182963,
+          93.3452870665997
+        ]
+      }
+    },
+    {
+      "name": "JSONLondon_266",
+      "obj_file": "meshes/JSONLondon_266.obj",
+      "color": "#ffffff",
+      "source_file": "JSONLondon.json",
+      "expression_id": "266",
+      "family": "POINT_DEFINITION",
+      "bounds": {
+        "min": [
+          100.38490431113344,
+          15.41286208817037,
+          105.0
+        ],
+        "max": [
+          102.61509568886656,
+          17.587137911829632,
+          108.3452870665997
+        ]
+      }
+    },
+    {
+      "name": "JSONLondon_268",
+      "obj_file": "meshes/JSONLondon_268.obj",
+      "color": "#6042a6",
+      "source_file": "JSONLondon.json",
+      "expression_id": "268",
+      "family": "POINT_DEFINITION",
+      "bounds": {
+        "min": [
+          53.88490431113344,
+          -11.08713791182963,
+          90.0
+        ],
+        "max": [
+          56.11509568886656,
+          -8.91286208817037,
+          93.3452870665997
+        ]
+      }
+    },
+    {
+      "name": "JSONLondon_269",
+      "obj_file": "meshes/JSONLondon_269.obj",
+      "color": "#ffffff",
+      "source_file": "JSONLondon.json",
+      "expression_id": "269",
+      "family": "POINT_DEFINITION",
+      "bounds": {
+        "min": [
+          66.88490431113344,
+          -11.08713791182963,
+          90.0
+        ],
+        "max": [
+          69.11509568886656,
+          -8.91286208817037,
+          93.3452870665997
+        ]
+      }
+    },
+    {
+      "name": "JSONLondon_270",
+      "obj_file": "meshes/JSONLondon_270.obj",
+      "color": "#ffffff",
+      "source_file": "JSONLondon.json",
+      "expression_id": "270",
+      "family": "POINT_DEFINITION",
+      "bounds": {
+        "min": [
+          53.88490431113344,
+          -24.087137911829632,
+          90.0
+        ],
+        "max": [
+          56.11509568886656,
+          -21.912862088170368,
+          93.3452870665997
+        ]
+      }
+    },
+    {
+      "name": "JSONLondon_271",
+      "obj_file": "meshes/JSONLondon_271.obj",
+      "color": "#ffffff",
+      "source_file": "JSONLondon.json",
+      "expression_id": "271",
+      "family": "POINT_DEFINITION",
+      "bounds": {
+        "min": [
+          66.88490431113344,
+          -24.087137911829632,
+          90.0
+        ],
+        "max": [
+          69.11509568886656,
+          -21.912862088170368,
+          93.3452870665997
+        ]
+      }
+    },
+    {
+      "name": "JSONLondon_272",
+      "obj_file": "meshes/JSONLondon_272.obj",
+      "color": "#ffffff",
+      "source_file": "JSONLondon.json",
+      "expression_id": "272",
+      "family": "POINT_DEFINITION",
+      "bounds": {
+        "min": [
+          60.38490431113344,
+          -17.587137911829632,
+          105.0
+        ],
+        "max": [
+          62.61509568886656,
+          -15.41286208817037,
+          108.3452870665997
+        ]
+      }
+    },
+    {
+      "name": "JSONLondon_275",
+      "obj_file": "meshes/JSONLondon_275.obj",
+      "color": "#ffffff",
+      "source_file": "JSONLondon.json",
+      "expression_id": "275",
+      "family": "POINT_DEFINITION",
+      "bounds": {
+        "min": [
+          93.88490431113344,
+          -11.08713791182963,
+          90.0
+        ],
+        "max": [
+          96.11509568886656,
+          -8.91286208817037,
+          93.3452870665997
+        ]
+      }
+    },
+    {
+      "name": "JSONLondon_276",
+      "obj_file": "meshes/JSONLondon_276.obj",
+      "color": "#ffffff",
+      "source_file": "JSONLondon.json",
+      "expression_id": "276",
+      "family": "POINT_DEFINITION",
+      "bounds": {
+        "min": [
+          106.88490431113344,
+          -11.08713791182963,
+          90.0
+        ],
+        "max": [
+          109.11509568886656,
+          -8.91286208817037,
+          93.3452870665997
+        ]
+      }
+    },
+    {
+      "name": "JSONLondon_277",
+      "obj_file": "meshes/JSONLondon_277.obj",
+      "color": "#ffffff",
+      "source_file": "JSONLondon.json",
+      "expression_id": "277",
+      "family": "POINT_DEFINITION",
+      "bounds": {
+        "min": [
+          93.88490431113344,
+          -24.087137911829632,
+          90.0
+        ],
+        "max": [
+          96.11509568886656,
+          -21.912862088170368,
+          93.3452870665997
+        ]
+      }
+    },
+    {
+      "name": "JSONLondon_278",
+      "obj_file": "meshes/JSONLondon_278.obj",
+      "color": "#ffffff",
+      "source_file": "JSONLondon.json",
+      "expression_id": "278",
+      "family": "POINT_DEFINITION",
+      "bounds": {
+        "min": [
+          106.88490431113344,
+          -24.087137911829632,
+          90.0
+        ],
+        "max": [
+          109.11509568886656,
+          -21.912862088170368,
+          93.3452870665997
+        ]
+      }
+    },
+    {
+      "name": "JSONLondon_279",
+      "obj_file": "meshes/JSONLondon_279.obj",
+      "color": "#6042a6",
+      "source_file": "JSONLondon.json",
+      "expression_id": "279",
+      "family": "POINT_DEFINITION",
+      "bounds": {
+        "min": [
+          100.38490431113344,
+          -17.587137911829632,
+          105.0
+        ],
+        "max": [
+          102.61509568886656,
+          -15.41286208817037,
+          108.3452870665997
+        ]
+      }
+    },
+    {
+      "name": "JSONLondon_283",
+      "obj_file": "meshes/JSONLondon_283.obj",
+      "color": "#ffffff",
+      "source_file": "JSONLondon.json",
+      "expression_id": "283",
+      "family": "POINT_DEFINITION",
+      "bounds": {
+        "min": [
+          93.88490431113344,
+          -24.087137911829632,
+          80.0
+        ],
+        "max": [
+          96.11509568886656,
+          -21.912862088170368,
+          83.3452870665997
+        ]
+      }
+    },
+    {
+      "name": "JSONLondon_284",
+      "obj_file": "meshes/JSONLondon_284.obj",
+      "color": "#ffffff",
+      "source_file": "JSONLondon.json",
+      "expression_id": "284",
+      "family": "POINT_DEFINITION",
+      "bounds": {
+        "min": [
+          93.88490431113344,
+          21.912862088170368,
+          80.0
+        ],
+        "max": [
+          96.11509568886656,
+          24.087137911829632,
+          83.3452870665997
+        ]
+      }
+    },
+    {
+      "name": "JSONLondon_285",
+      "obj_file": "meshes/JSONLondon_285.obj",
+      "color": "#6042a6",
+      "source_file": "JSONLondon.json",
+      "expression_id": "285",
+      "family": "POINT_DEFINITION",
+      "bounds": {
+        "min": [
+          66.88490431113344,
+          -24.087137911829632,
+          80.0
+        ],
+        "max": [
+          69.11509568886656,
+          -21.912862088170368,
+          83.3452870665997
+        ]
+      }
+    },
+    {
+      "name": "JSONLondon_286",
+      "obj_file": "meshes/JSONLondon_286.obj",
+      "color": "#ffffff",
+      "source_file": "JSONLondon.json",
+      "expression_id": "286",
+      "family": "POINT_DEFINITION",
+      "bounds": {
+        "min": [
+          66.88490431113344,
+          21.912862088170368,
+          80.0
+        ],
+        "max": [
+          69.11509568886656,
+          24.087137911829632,
+          83.3452870665997
+        ]
+      }
+    },
+    {
+      "name": "JSONLondon_287",
+      "obj_file": "meshes/JSONLondon_287.obj",
+      "color": "#ffffff",
+      "source_file": "JSONLondon.json",
+      "expression_id": "287",
+      "family": "POINT_DEFINITION",
+      "bounds": {
+        "min": [
+          80.38490431113344,
+          -1.0871379118296312,
+          125.0
+        ],
+        "max": [
+          82.61509568886656,
+          1.087137911829631,
+          128.3452870665997
         ]
       }
     },
@@ -2186,20 +2646,20 @@
     {
       "name": "JSONLondon_209",
       "obj_file": "meshes/JSONLondon_209.obj",
-      "color": "#388c46",
+      "color": "#ffffff",
       "source_file": "JSONLondon.json",
       "expression_id": "209",
       "family": "POINT_DEFINITION",
       "bounds": {
         "min": [
-          -95.0,
-          10.0,
+          -96.11509568886656,
+          8.91286208817037,
           90.0
         ],
         "max": [
-          -95.0,
-          10.0,
-          90.0
+          -93.88490431113344,
+          11.08713791182963,
+          93.3452870665997
         ]
       }
     },
@@ -2212,154 +2672,154 @@
       "family": "POINT_DEFINITION",
       "bounds": {
         "min": [
-          -95.0,
-          23.0,
+          -96.11509568886656,
+          21.912862088170368,
           90.0
         ],
         "max": [
-          -95.0,
-          23.0,
-          90.0
+          -93.88490431113344,
+          24.087137911829632,
+          93.3452870665997
         ]
       }
     },
     {
       "name": "JSONLondon_211",
       "obj_file": "meshes/JSONLondon_211.obj",
-      "color": "#aaaaaa",
+      "color": "#ffffff",
       "source_file": "JSONLondon.json",
       "expression_id": "211",
       "family": "POINT_DEFINITION",
       "bounds": {
         "min": [
-          -108.0,
-          10.0,
+          -109.11509568886656,
+          8.91286208817037,
           90.0
         ],
         "max": [
-          -108.0,
-          10.0,
-          90.0
+          -106.88490431113344,
+          11.08713791182963,
+          93.3452870665997
         ]
       }
     },
     {
       "name": "JSONLondon_212",
       "obj_file": "meshes/JSONLondon_212.obj",
-      "color": "#c74440",
+      "color": "#ffffff",
       "source_file": "JSONLondon.json",
       "expression_id": "212",
       "family": "POINT_DEFINITION",
       "bounds": {
         "min": [
-          -108.0,
-          23.0,
+          -109.11509568886656,
+          21.912862088170368,
           90.0
         ],
         "max": [
-          -108.0,
-          23.0,
-          90.0
+          -106.88490431113344,
+          24.087137911829632,
+          93.3452870665997
         ]
       }
     },
     {
       "name": "JSONLondon_213",
       "obj_file": "meshes/JSONLondon_213.obj",
-      "color": "#2d70b3",
+      "color": "#ffffff",
       "source_file": "JSONLondon.json",
       "expression_id": "213",
       "family": "POINT_DEFINITION",
       "bounds": {
         "min": [
-          -101.5,
-          16.5,
+          -102.61509568886656,
+          15.41286208817037,
           105.0
         ],
         "max": [
-          -101.5,
-          16.5,
-          105.0
+          -100.38490431113344,
+          17.587137911829632,
+          108.3452870665997
         ]
       }
     },
     {
       "name": "JSONLondon_217",
       "obj_file": "meshes/JSONLondon_217.obj",
-      "color": "#aaaaaa",
+      "color": "#ffffff",
       "source_file": "JSONLondon.json",
       "expression_id": "217",
       "family": "POINT_DEFINITION",
       "bounds": {
         "min": [
-          -55.0,
-          10.0,
+          -56.11509568886656,
+          8.91286208817037,
           90.0
         ],
         "max": [
-          -55.0,
-          10.0,
-          90.0
+          -53.88490431113344,
+          11.08713791182963,
+          93.3452870665997
         ]
       }
     },
     {
       "name": "JSONLondon_218",
       "obj_file": "meshes/JSONLondon_218.obj",
-      "color": "#c74440",
+      "color": "#ffffff",
       "source_file": "JSONLondon.json",
       "expression_id": "218",
       "family": "POINT_DEFINITION",
       "bounds": {
         "min": [
-          -68.0,
-          10.0,
+          -69.11509568886656,
+          8.91286208817037,
           90.0
         ],
         "max": [
-          -68.0,
-          10.0,
-          90.0
+          -66.88490431113344,
+          11.08713791182963,
+          93.3452870665997
         ]
       }
     },
     {
       "name": "JSONLondon_219",
       "obj_file": "meshes/JSONLondon_219.obj",
-      "color": "#2d70b3",
+      "color": "#ffffff",
       "source_file": "JSONLondon.json",
       "expression_id": "219",
       "family": "POINT_DEFINITION",
       "bounds": {
         "min": [
-          -55.0,
-          23.0,
+          -56.11509568886656,
+          21.912862088170368,
           90.0
         ],
         "max": [
-          -55.0,
-          23.0,
-          90.0
+          -53.88490431113344,
+          24.087137911829632,
+          93.3452870665997
         ]
       }
     },
     {
       "name": "JSONLondon_220",
       "obj_file": "meshes/JSONLondon_220.obj",
-      "color": "#388c46",
+      "color": "#ffffff",
       "source_file": "JSONLondon.json",
       "expression_id": "220",
       "family": "POINT_DEFINITION",
       "bounds": {
         "min": [
-          -68.0,
-          23.0,
+          -69.11509568886656,
+          21.912862088170368,
           90.0
         ],
         "max": [
-          -68.0,
-          23.0,
-          90.0
+          -66.88490431113344,
+          24.087137911829632,
+          93.3452870665997
         ]
       }
     },
@@ -2372,54 +2832,54 @@
       "family": "POINT_DEFINITION",
       "bounds": {
         "min": [
-          -61.5,
-          16.5,
+          -62.61509568886656,
+          15.41286208817037,
           105.0
         ],
         "max": [
-          -61.5,
-          16.5,
-          105.0
+          -60.38490431113344,
+          17.587137911829632,
+          108.3452870665997
         ]
       }
     },
     {
       "name": "JSONLondon_225",
       "obj_file": "meshes/JSONLondon_225.obj",
-      "color": "#2d70b3",
+      "color": "#ffffff",
       "source_file": "JSONLondon.json",
       "expression_id": "225",
       "family": "POINT_DEFINITION",
       "bounds": {
         "min": [
-          -55.0,
-          -10.0,
+          -56.11509568886656,
+          -11.08713791182963,
           90.0
         ],
         "max": [
-          -55.0,
-          -10.0,
-          90.0
+          -53.88490431113344,
+          -8.91286208817037,
+          93.3452870665997
         ]
       }
     },
     {
       "name": "JSONLondon_226",
       "obj_file": "meshes/JSONLondon_226.obj",
-      "color": "#388c46",
+      "color": "#ffffff",
       "source_file": "JSONLondon.json",
       "expression_id": "226",
       "family": "POINT_DEFINITION",
       "bounds": {
         "min": [
-          -68.0,
-          -10.0,
+          -69.11509568886656,
+          -11.08713791182963,
           90.0
         ],
         "max": [
-          -68.0,
-          -10.0,
-          90.0
+          -66.88490431113344,
+          -8.91286208817037,
+          93.3452870665997
         ]
       }
     },
@@ -2432,54 +2892,54 @@
       "family": "POINT_DEFINITION",
       "bounds": {
         "min": [
-          -55.0,
-          -23.0,
+          -56.11509568886656,
+          -24.087137911829632,
           90.0
         ],
         "max": [
-          -55.0,
-          -23.0,
-          90.0
+          -53.88490431113344,
+          -21.912862088170368,
+          93.3452870665997
         ]
       }
     },
     {
       "name": "JSONLondon_228",
       "obj_file": "meshes/JSONLondon_228.obj",
-      "color": "#aaaaaa",
+      "color": "#ffffff",
       "source_file": "JSONLondon.json",
       "expression_id": "228",
       "family": "POINT_DEFINITION",
       "bounds": {
         "min": [
-          -68.0,
-          -23.0,
+          -69.11509568886656,
+          -24.087137911829632,
           90.0
         ],
         "max": [
-          -68.0,
-          -23.0,
-          90.0
+          -66.88490431113344,
+          -21.912862088170368,
+          93.3452870665997
         ]
       }
     },
     {
       "name": "JSONLondon_229",
       "obj_file": "meshes/JSONLondon_229.obj",
-      "color": "#c74440",
+      "color": "#ffffff",
       "source_file": "JSONLondon.json",
       "expression_id": "229",
       "family": "POINT_DEFINITION",
       "bounds": {
         "min": [
-          -61.5,
-          -16.5,
+          -62.61509568886656,
+          -17.587137911829632,
           105.0
         ],
         "max": [
-          -61.5,
-          -16.5,
-          105.0
+          -60.38490431113344,
+          -15.41286208817037,
+          108.3452870665997
         ]
       }
     },
@@ -2492,154 +2952,154 @@
       "family": "POINT_DEFINITION",
       "bounds": {
         "min": [
-          -95.0,
-          -10.0,
+          -96.11509568886656,
+          -11.08713791182963,
           90.0
         ],
         "max": [
-          -95.0,
-          -10.0,
-          90.0
+          -93.88490431113344,
+          -8.91286208817037,
+          93.3452870665997
         ]
       }
     },
     {
       "name": "JSONLondon_234",
       "obj_file": "meshes/JSONLondon_234.obj",
-      "color": "#aaaaaa",
+      "color": "#ffffff",
       "source_file": "JSONLondon.json",
       "expression_id": "234",
       "family": "POINT_DEFINITION",
       "bounds": {
         "min": [
-          -108.0,
-          -10.0,
+          -109.11509568886656,
+          -11.08713791182963,
           90.0
         ],
         "max": [
-          -108.0,
-          -10.0,
-          90.0
+          -106.88490431113344,
+          -8.91286208817037,
+          93.3452870665997
         ]
       }
     },
     {
       "name": "JSONLondon_235",
       "obj_file": "meshes/JSONLondon_235.obj",
-      "color": "#c74440",
+      "color": "#ffffff",
       "source_file": "JSONLondon.json",
       "expression_id": "235",
       "family": "POINT_DEFINITION",
       "bounds": {
         "min": [
-          -95.0,
-          -23.0,
+          -96.11509568886656,
+          -24.087137911829632,
           90.0
         ],
         "max": [
-          -95.0,
-          -23.0,
-          90.0
+          -93.88490431113344,
+          -21.912862088170368,
+          93.3452870665997
         ]
       }
     },
     {
       "name": "JSONLondon_236",
       "obj_file": "meshes/JSONLondon_236.obj",
-      "color": "#2d70b3",
+      "color": "#ffffff",
       "source_file": "JSONLondon.json",
       "expression_id": "236",
       "family": "POINT_DEFINITION",
       "bounds": {
         "min": [
-          -108.0,
-          -23.0,
+          -109.11509568886656,
+          -24.087137911829632,
           90.0
         ],
         "max": [
-          -108.0,
-          -23.0,
-          90.0
+          -106.88490431113344,
+          -21.912862088170368,
+          93.3452870665997
         ]
       }
     },
     {
       "name": "JSONLondon_237",
       "obj_file": "meshes/JSONLondon_237.obj",
-      "color": "#388c46",
+      "color": "#ffffff",
       "source_file": "JSONLondon.json",
       "expression_id": "237",
       "family": "POINT_DEFINITION",
       "bounds": {
         "min": [
-          -101.5,
-          -16.5,
+          -102.61509568886656,
+          -17.587137911829632,
           105.0
         ],
         "max": [
-          -101.5,
-          -16.5,
-          105.0
+          -100.38490431113344,
+          -15.41286208817037,
+          108.3452870665997
         ]
       }
     },
     {
       "name": "JSONLondon_242",
       "obj_file": "meshes/JSONLondon_242.obj",
-      "color": "#c74440",
+      "color": "#ffffff",
       "source_file": "JSONLondon.json",
       "expression_id": "242",
       "family": "POINT_DEFINITION",
       "bounds": {
         "min": [
-          -95.0,
-          -23.0,
+          -96.11509568886656,
+          -24.087137911829632,
           80.0
         ],
         "max": [
-          -95.0,
-          -23.0,
-          80.0
+          -93.88490431113344,
+          -21.912862088170368,
+          83.3452870665997
         ]
       }
     },
     {
       "name": "JSONLondon_243",
       "obj_file": "meshes/JSONLondon_243.obj",
-      "color": "#2d70b3",
+      "color": "#ffffff",
       "source_file": "JSONLondon.json",
       "expression_id": "243",
       "family": "POINT_DEFINITION",
       "bounds": {
         "min": [
-          -95.0,
-          23.0,
+          -96.11509568886656,
+          21.912862088170368,
           80.0
         ],
         "max": [
-          -95.0,
-          23.0,
-          80.0
+          -93.88490431113344,
+          24.087137911829632,
+          83.3452870665997
         ]
       }
     },
     {
       "name": "JSONLondon_244",
       "obj_file": "meshes/JSONLondon_244.obj",
-      "color": "#388c46",
+      "color": "#ffffff",
       "source_file": "JSONLondon.json",
       "expression_id": "244",
       "family": "POINT_DEFINITION",
       "bounds": {
         "min": [
-          -68.0,
-          -23.0,
+          -69.11509568886656,
+          -24.087137911829632,
           80.0
         ],
         "max": [
-          -68.0,
-          -23.0,
-          80.0
+          -66.88490431113344,
+          -21.912862088170368,
+          83.3452870665997
         ]
       }
     },
@@ -2652,34 +3112,34 @@
       "family": "POINT_DEFINITION",
       "bounds": {
         "min": [
-          -68.0,
-          23.0,
+          -69.11509568886656,
+          21.912862088170368,
           80.0
         ],
         "max": [
-          -68.0,
-          23.0,
-          80.0
+          -66.88490431113344,
+          24.087137911829632,
+          83.3452870665997
         ]
       }
     },
     {
       "name": "JSONLondon_246",
       "obj_file": "meshes/JSONLondon_246.obj",
-      "color": "#aaaaaa",
+      "color": "#ffffff",
       "source_file": "JSONLondon.json",
       "expression_id": "246",
       "family": "POINT_DEFINITION",
       "bounds": {
         "min": [
-          -81.5,
-          0.0,
+          -82.61509568886656,
+          -1.0871379118296312,
           125.0
         ],
         "max": [
-          -81.5,
-          0.0,
-          125.0
+          -80.38490431113344,
+          1.087137911829631,
+          128.3452870665997
         ]
       }
     },

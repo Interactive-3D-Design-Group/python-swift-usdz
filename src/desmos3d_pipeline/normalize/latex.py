@@ -29,7 +29,8 @@ def normalize_latex(raw: str) -> str:
 
 def extract_brace_restrictions(normalized: str) -> tuple[str, list[str]]:
     text = re.sub(r"-\{([0-9]+(?:\.[0-9]+)?<=)", r"{-\1", normalized)
-    restrictions = re.findall(r"\{([^{}]+)\}", text)
-    core = re.sub(r"\{[^{}]+\}", "", text)
+    # Do not treat subscript braces (e.g. a_{5}) as domain restrictions.
+    restrictions = re.findall(r"(?<!_)\{([^{}]+)\}", text)
+    core = re.sub(r"(?<!_)\{[^{}]+\}", "", text)
     core = core.rstrip("-")
     return core, restrictions

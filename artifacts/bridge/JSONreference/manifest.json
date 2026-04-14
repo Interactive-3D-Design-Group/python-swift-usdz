@@ -1,28 +1,8 @@
 {
   "schema_version": 1,
-  "mesh_count": 216,
+  "mesh_count": 211,
   "failed_mesh_count": 0,
   "meshes": [
-    {
-      "name": "JSONreference_1",
-      "obj_file": "meshes/JSONreference_1.obj",
-      "color": "#c74440",
-      "source_file": "JSONreference.json",
-      "expression_id": "1",
-      "family": "CONSTANT_PLANE",
-      "bounds": {
-        "min": [
-          -3.0,
-          -32.0,
-          0.0
-        ],
-        "max": [
-          3.0,
-          32.0,
-          0.0
-        ]
-      }
-    },
     {
       "name": "JSONreference_29",
       "obj_file": "meshes/JSONreference_29.obj",
@@ -1764,26 +1744,6 @@
       }
     },
     {
-      "name": "JSONreference_240",
-      "obj_file": "meshes/JSONreference_240.obj",
-      "color": "#c74440",
-      "source_file": "JSONreference.json",
-      "expression_id": "240",
-      "family": "CONSTANT_PLANE",
-      "bounds": {
-        "min": [
-          -3.0,
-          -90.0,
-          0.0
-        ],
-        "max": [
-          3.0,
-          -32.0,
-          0.0
-        ]
-      }
-    },
-    {
       "name": "JSONreference_242",
       "obj_file": "meshes/JSONreference_242.obj",
       "color": "#c74440",
@@ -2460,26 +2420,6 @@
           -2.0,
           -74.79829610813667,
           14.883237394540345
-        ]
-      }
-    },
-    {
-      "name": "JSONreference_314",
-      "obj_file": "meshes/JSONreference_314.obj",
-      "color": "#c74440",
-      "source_file": "JSONreference.json",
-      "expression_id": "314",
-      "family": "CONSTANT_PLANE",
-      "bounds": {
-        "min": [
-          -3.0,
-          32.0,
-          0.0
-        ],
-        "max": [
-          3.0,
-          90.0,
-          0.0
         ]
       }
     },
@@ -3164,26 +3104,6 @@
       }
     },
     {
-      "name": "JSONreference_460",
-      "obj_file": "meshes/JSONreference_460.obj",
-      "color": "#c74440",
-      "source_file": "JSONreference.json",
-      "expression_id": "460",
-      "family": "CONSTANT_PLANE",
-      "bounds": {
-        "min": [
-          -3.0,
-          -141.5,
-          0.0
-        ],
-        "max": [
-          3.0,
-          -90.0,
-          0.0
-        ]
-      }
-    },
-    {
       "name": "JSONreference_462",
       "obj_file": "meshes/JSONreference_462.obj",
       "color": "#c74440",
@@ -3740,26 +3660,6 @@
           -2.0,
           -125.50900533399206,
           5.304050546083332
-        ]
-      }
-    },
-    {
-      "name": "JSONreference_536",
-      "obj_file": "meshes/JSONreference_536.obj",
-      "color": "#c74440",
-      "source_file": "JSONreference.json",
-      "expression_id": "536",
-      "family": "CONSTANT_PLANE",
-      "bounds": {
-        "min": [
-          -3.0,
-          90.0,
-          0.0
-        ],
-        "max": [
-          3.0,
-          141.5,
-          0.0
         ]
       }
     },

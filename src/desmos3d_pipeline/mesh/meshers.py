@@ -124,7 +124,44 @@ def mesh_point(node: PointNode) -> Mesh:
     x = _eval_expr(node.x, node.metadata)
     y = _eval_expr(node.y, node.metadata)
     z = _eval_expr(node.z, node.metadata)
-    return Mesh(name=_mesh_name(node), color=node.color, vertices=[(x, y, z)], faces=[], source_file=node.source_ref.source_file, expression_id=node.source_ref.expression_id, family=node.family.value)
+    viewport = node.metadata.get("viewport", {})
+    span = max(
+        abs(viewport.get("xmax", 100.0) - viewport.get("xmin", -100.0)),
+        abs(viewport.get("ymax", 100.0) - viewport.get("ymin", -100.0)),
+        abs(viewport.get("zmax", 100.0) - viewport.get("zmin", -100.0)),
+    )
+    radius = max(span * 0.004, 0.08)
+    height = radius * 3.0
+    segments = 14
+    cone_color = "#6042a6" if (node.color or "").lower() == "#6042a6" else "#ffffff"
+
+    verts: list[tuple[float, float, float]] = [(x, y, z + height)]
+    for i in range(segments):
+        a = 2.0 * 3.141592653589793 * i / segments
+        verts.append((x + radius * __import__("math").cos(a), y + radius * __import__("math").sin(a), z))
+    verts.append((x, y, z))
+
+    tip_idx = 1
+    base_center_idx = len(verts)
+    faces: list[tuple[int, int, int]] = []
+    for i in range(segments):
+        a = 2 + i
+        b = 2 + ((i + 1) % segments)
+        faces.append((tip_idx, a, b))
+    for i in range(segments):
+        a = 2 + i
+        b = 2 + ((i + 1) % segments)
+        faces.append((base_center_idx, b, a))
+
+    return Mesh(
+        name=_mesh_name(node),
+        color=cone_color,
+        vertices=verts,
+        faces=faces,
+        source_file=node.source_ref.source_file,
+        expression_id=node.source_ref.expression_id,
+        family=node.family.value,
+    )
 
 
 def _resolve_axis_bounds(

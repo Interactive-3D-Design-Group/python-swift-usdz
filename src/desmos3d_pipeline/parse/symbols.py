@@ -31,7 +31,10 @@ def parse_assignment(core_expr: str) -> SymbolAssignment | None:
 
 
 def parse_point_definition(core_expr: str) -> PointDefinition | None:
-    m = re.fullmatch(r"([A-Za-z](?:_[A-Za-z0-9]+|\{[^{}]+\})?)=\(([^,]+),([^,]+),([^\)]+)\)", core_expr)
+    m = re.fullmatch(
+        r"([A-Za-z](?:(?:_[A-Za-z0-9]+)|(?:_\{[^{}]+\})|(?:\{[^{}]+\}))?)=\(([^,]+),([^,]+),([^\)]+)\)",
+        core_expr,
+    )
     if not m:
         return None
     name, x, y, z = m.groups()
