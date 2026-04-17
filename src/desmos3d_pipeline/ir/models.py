@@ -15,6 +15,8 @@ class ClassificationStatus(str, Enum):
     SUPPORTED = "SUPPORTED"
     RECOGNIZED_UNSUPPORTED = "RECOGNIZED_UNSUPPORTED"
     UNRECOGNIZED = "UNRECOGNIZED"
+    # Valid Desmos items that are not meshed by design (parameters, colors, etc.).
+    GEOMETRY_INELIGIBLE = "GEOMETRY_INELIGIBLE"
 
 
 class ExpressionFamily(str, Enum):
@@ -29,6 +31,7 @@ class ExpressionFamily(str, Enum):
     TRIANGLE_CALL = "TRIANGLE_CALL"
     POLYGON_CALL = "POLYGON_CALL"
     INEQUALITY_REGION = "INEQUALITY_REGION"
+    DISK_EXTRUSION_SOLID = "DISK_EXTRUSION_SOLID"
     PARAM_ASSIGNMENT = "PARAM_ASSIGNMENT"
     TEXT_OR_FOLDER = "TEXT_OR_FOLDER"
     UNKNOWN = "UNKNOWN"
@@ -109,6 +112,24 @@ class PlanePatchNode(GeometryNode):
 
 
 @dataclass(slots=True)
+class DiskExtrusionSolidNode(GeometryNode):
+    """Voxel-meshed solid (u-cu)^2+(v-cv)^2<=radius_sq within an axis-aligned bbox."""
+
+    axis_u: str = "x"
+    axis_v: str = "y"
+    center_u: float = 0.0
+    center_v: float = 0.0
+    radius_sq: float = 1.0
+    x_min: float = -1.0
+    x_max: float = 1.0
+    y_min: float = -1.0
+    y_max: float = 1.0
+    z_min: float = -1.0
+    z_max: float = 1.0
+    voxel_resolution: int = 28
+
+
+@dataclass(slots=True)
 class BoxVolumeNode(GeometryNode):
     ranges: list[RangeConstraint] = field(default_factory=list)
 
@@ -179,6 +200,7 @@ class FolderSummary:
     supported: int = 0
     recognized_unsupported: int = 0
     unrecognized: int = 0
+    geometry_ineligible: int = 0
 
 
 @dataclass(slots=True)
@@ -188,6 +210,7 @@ class FileAuditReport:
     supported_count: int
     recognized_unsupported_count: int
     unrecognized_count: int
+    geometry_ineligible_count: int
     per_folder_summary: list[FolderSummary]
     unsupported_expressions: list[dict[str, Any]]
     unknown_fingerprints: list[str]
@@ -211,6 +234,7 @@ class BatchAuditSummary:
                 "supported": sum(r["supported_count"] for r in reports),
                 "recognized_unsupported": sum(r["recognized_unsupported_count"] for r in reports),
                 "unrecognized": sum(r["unrecognized_count"] for r in reports),
+                "geometry_ineligible": sum(r["geometry_ineligible_count"] for r in reports),
             },
             "blocked_files": [r["source_file"] for r in reports if r["status"] == AuditStatus.FAIL],
             "files": reports,

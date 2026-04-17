@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "mesh_count": 317,
+  "mesh_count": 341,
   "failed_mesh_count": 0,
   "meshes": [
     {
@@ -4764,6 +4764,66 @@
       }
     },
     {
+      "name": "JSONCali_379",
+      "obj_file": "meshes/JSONCali_379.obj",
+      "color": "#c74440",
+      "source_file": "JSONCali.json",
+      "expression_id": "379",
+      "family": "DISK_EXTRUSION_SOLID",
+      "bounds": {
+        "min": [
+          -64.475,
+          -0.2645851311064591,
+          2.935414868893541
+        ],
+        "max": [
+          -63.525,
+          0.2645851311064591,
+          3.4645851311064595
+        ]
+      }
+    },
+    {
+      "name": "JSONCali_387",
+      "obj_file": "meshes/JSONCali_387.obj",
+      "color": "#c74440",
+      "source_file": "JSONCali.json",
+      "expression_id": "387",
+      "family": "DISK_EXTRUSION_SOLID",
+      "bounds": {
+        "min": [
+          -64.475,
+          -0.2645851311064591,
+          5.115414868893541
+        ],
+        "max": [
+          -63.525,
+          0.2645851311064591,
+          5.644585131106459
+        ]
+      }
+    },
+    {
+      "name": "JSONCali_388",
+      "obj_file": "meshes/JSONCali_388.obj",
+      "color": "#c74440",
+      "source_file": "JSONCali.json",
+      "expression_id": "388",
+      "family": "DISK_EXTRUSION_SOLID",
+      "bounds": {
+        "min": [
+          -64.475,
+          -0.8,
+          5.885414868893541
+        ],
+        "max": [
+          -63.525,
+          -0.535414868893541,
+          6.15
+        ]
+      }
+    },
+    {
       "name": "JSONCali_389",
       "obj_file": "meshes/JSONCali_389.obj",
       "color": "#c74440",
@@ -4799,6 +4859,26 @@
         "max": [
           -63.525,
           -0.8,
+          6.15
+        ]
+      }
+    },
+    {
+      "name": "JSONCali_391",
+      "obj_file": "meshes/JSONCali_391.obj",
+      "color": "#c74440",
+      "source_file": "JSONCali.json",
+      "expression_id": "391",
+      "family": "DISK_EXTRUSION_SOLID",
+      "bounds": {
+        "min": [
+          -64.475,
+          0.535414868893541,
+          5.885414868893541
+        ],
+        "max": [
+          -63.525,
+          0.8,
           6.15
         ]
       }
@@ -4844,6 +4924,46 @@
       }
     },
     {
+      "name": "JSONCali_394",
+      "obj_file": "meshes/JSONCali_394.obj",
+      "color": "#c74440",
+      "source_file": "JSONCali.json",
+      "expression_id": "394",
+      "family": "DISK_EXTRUSION_SOLID",
+      "bounds": {
+        "min": [
+          -64.475,
+          -0.8,
+          4.6
+        ],
+        "max": [
+          -63.525,
+          -0.535414868893541,
+          4.864585131106459
+        ]
+      }
+    },
+    {
+      "name": "JSONCali_395",
+      "obj_file": "meshes/JSONCali_395.obj",
+      "color": "#c74440",
+      "source_file": "JSONCali.json",
+      "expression_id": "395",
+      "family": "DISK_EXTRUSION_SOLID",
+      "bounds": {
+        "min": [
+          -64.475,
+          -0.8,
+          3.7354148688935407
+        ],
+        "max": [
+          -63.525,
+          -0.535414868893541,
+          4.0
+        ]
+      }
+    },
+    {
       "name": "JSONCali_396",
       "obj_file": "meshes/JSONCali_396.obj",
       "color": "#c74440",
@@ -4880,6 +5000,46 @@
           -63.525,
           -0.8,
           4.86458
+        ]
+      }
+    },
+    {
+      "name": "JSONCali_398",
+      "obj_file": "meshes/JSONCali_398.obj",
+      "color": "#c74440",
+      "source_file": "JSONCali.json",
+      "expression_id": "398",
+      "family": "DISK_EXTRUSION_SOLID",
+      "bounds": {
+        "min": [
+          -64.475,
+          0.535414868893541,
+          4.6
+        ],
+        "max": [
+          -63.525,
+          0.8,
+          4.864585131106459
+        ]
+      }
+    },
+    {
+      "name": "JSONCali_399",
+      "obj_file": "meshes/JSONCali_399.obj",
+      "color": "#c74440",
+      "source_file": "JSONCali.json",
+      "expression_id": "399",
+      "family": "DISK_EXTRUSION_SOLID",
+      "bounds": {
+        "min": [
+          -64.475,
+          0.535414868893541,
+          3.7354148688935407
+        ],
+        "max": [
+          -63.525,
+          0.8,
+          4.0
         ]
       }
     },
@@ -4924,6 +5084,46 @@
       }
     },
     {
+      "name": "JSONCali_402",
+      "obj_file": "meshes/JSONCali_402.obj",
+      "color": "#c74440",
+      "source_file": "JSONCali.json",
+      "expression_id": "402",
+      "family": "DISK_EXTRUSION_SOLID",
+      "bounds": {
+        "min": [
+          -64.475,
+          0.535414868893541,
+          2.5
+        ],
+        "max": [
+          -63.525,
+          0.8,
+          2.7645851311064593
+        ]
+      }
+    },
+    {
+      "name": "JSONCali_403",
+      "obj_file": "meshes/JSONCali_403.obj",
+      "color": "#c74440",
+      "source_file": "JSONCali.json",
+      "expression_id": "403",
+      "family": "DISK_EXTRUSION_SOLID",
+      "bounds": {
+        "min": [
+          -64.475,
+          0.535414868893541,
+          1.835414868893541
+        ],
+        "max": [
+          -63.525,
+          0.9,
+          2.1
+        ]
+      }
+    },
+    {
       "name": "JSONCali_404",
       "obj_file": "meshes/JSONCali_404.obj",
       "color": "#c74440",
@@ -4960,6 +5160,46 @@
           -63.525,
           0.9,
           2.76458
+        ]
+      }
+    },
+    {
+      "name": "JSONCali_406",
+      "obj_file": "meshes/JSONCali_406.obj",
+      "color": "#c74440",
+      "source_file": "JSONCali.json",
+      "expression_id": "406",
+      "family": "DISK_EXTRUSION_SOLID",
+      "bounds": {
+        "min": [
+          -64.475,
+          -0.8,
+          2.5
+        ],
+        "max": [
+          -63.525,
+          -0.535414868893541,
+          2.7645851311064593
+        ]
+      }
+    },
+    {
+      "name": "JSONCali_407",
+      "obj_file": "meshes/JSONCali_407.obj",
+      "color": "#c74440",
+      "source_file": "JSONCali.json",
+      "expression_id": "407",
+      "family": "DISK_EXTRUSION_SOLID",
+      "bounds": {
+        "min": [
+          -64.475,
+          -0.9,
+          1.835414868893541
+        ],
+        "max": [
+          -63.525,
+          -0.535414868893541,
+          2.1
         ]
       }
     },
@@ -5564,6 +5804,66 @@
       }
     },
     {
+      "name": "JSONCali_417",
+      "obj_file": "meshes/JSONCali_417.obj",
+      "color": "#c74440",
+      "source_file": "JSONCali.json",
+      "expression_id": "417",
+      "family": "DISK_EXTRUSION_SOLID",
+      "bounds": {
+        "min": [
+          63.525,
+          -0.2645851311064591,
+          2.935414868893541
+        ],
+        "max": [
+          64.475,
+          0.2645851311064591,
+          3.4645851311064595
+        ]
+      }
+    },
+    {
+      "name": "JSONCali_418",
+      "obj_file": "meshes/JSONCali_418.obj",
+      "color": "#c74440",
+      "source_file": "JSONCali.json",
+      "expression_id": "418",
+      "family": "DISK_EXTRUSION_SOLID",
+      "bounds": {
+        "min": [
+          63.525,
+          -0.2645851311064591,
+          5.115414868893541
+        ],
+        "max": [
+          64.475,
+          0.2645851311064591,
+          5.644585131106459
+        ]
+      }
+    },
+    {
+      "name": "JSONCali_419",
+      "obj_file": "meshes/JSONCali_419.obj",
+      "color": "#c74440",
+      "source_file": "JSONCali.json",
+      "expression_id": "419",
+      "family": "DISK_EXTRUSION_SOLID",
+      "bounds": {
+        "min": [
+          63.525,
+          -0.8,
+          5.885414868893541
+        ],
+        "max": [
+          64.475,
+          -0.535414868893541,
+          6.15
+        ]
+      }
+    },
+    {
       "name": "JSONCali_420",
       "obj_file": "meshes/JSONCali_420.obj",
       "color": "#c74440",
@@ -5599,6 +5899,26 @@
         "max": [
           64.475,
           -0.8,
+          6.15
+        ]
+      }
+    },
+    {
+      "name": "JSONCali_422",
+      "obj_file": "meshes/JSONCali_422.obj",
+      "color": "#c74440",
+      "source_file": "JSONCali.json",
+      "expression_id": "422",
+      "family": "DISK_EXTRUSION_SOLID",
+      "bounds": {
+        "min": [
+          63.525,
+          0.535414868893541,
+          5.885414868893541
+        ],
+        "max": [
+          64.475,
+          0.8,
           6.15
         ]
       }
@@ -5644,6 +5964,46 @@
       }
     },
     {
+      "name": "JSONCali_425",
+      "obj_file": "meshes/JSONCali_425.obj",
+      "color": "#c74440",
+      "source_file": "JSONCali.json",
+      "expression_id": "425",
+      "family": "DISK_EXTRUSION_SOLID",
+      "bounds": {
+        "min": [
+          63.525,
+          -0.8,
+          4.6
+        ],
+        "max": [
+          64.475,
+          -0.535414868893541,
+          4.864585131106459
+        ]
+      }
+    },
+    {
+      "name": "JSONCali_426",
+      "obj_file": "meshes/JSONCali_426.obj",
+      "color": "#c74440",
+      "source_file": "JSONCali.json",
+      "expression_id": "426",
+      "family": "DISK_EXTRUSION_SOLID",
+      "bounds": {
+        "min": [
+          63.525,
+          -0.8,
+          3.7354148688935407
+        ],
+        "max": [
+          64.475,
+          -0.535414868893541,
+          4.0
+        ]
+      }
+    },
+    {
       "name": "JSONCali_427",
       "obj_file": "meshes/JSONCali_427.obj",
       "color": "#c74440",
@@ -5680,6 +6040,46 @@
           64.475,
           -0.8,
           4.86458
+        ]
+      }
+    },
+    {
+      "name": "JSONCali_429",
+      "obj_file": "meshes/JSONCali_429.obj",
+      "color": "#c74440",
+      "source_file": "JSONCali.json",
+      "expression_id": "429",
+      "family": "DISK_EXTRUSION_SOLID",
+      "bounds": {
+        "min": [
+          63.525,
+          0.535414868893541,
+          4.6
+        ],
+        "max": [
+          64.475,
+          0.8,
+          4.864585131106459
+        ]
+      }
+    },
+    {
+      "name": "JSONCali_430",
+      "obj_file": "meshes/JSONCali_430.obj",
+      "color": "#c74440",
+      "source_file": "JSONCali.json",
+      "expression_id": "430",
+      "family": "DISK_EXTRUSION_SOLID",
+      "bounds": {
+        "min": [
+          63.525,
+          0.535414868893541,
+          3.7354148688935407
+        ],
+        "max": [
+          64.475,
+          0.8,
+          4.0
         ]
       }
     },
@@ -5724,6 +6124,46 @@
       }
     },
     {
+      "name": "JSONCali_433",
+      "obj_file": "meshes/JSONCali_433.obj",
+      "color": "#c74440",
+      "source_file": "JSONCali.json",
+      "expression_id": "433",
+      "family": "DISK_EXTRUSION_SOLID",
+      "bounds": {
+        "min": [
+          63.525,
+          0.535414868893541,
+          2.5
+        ],
+        "max": [
+          64.475,
+          0.8,
+          2.7645851311064593
+        ]
+      }
+    },
+    {
+      "name": "JSONCali_434",
+      "obj_file": "meshes/JSONCali_434.obj",
+      "color": "#c74440",
+      "source_file": "JSONCali.json",
+      "expression_id": "434",
+      "family": "DISK_EXTRUSION_SOLID",
+      "bounds": {
+        "min": [
+          63.525,
+          0.535414868893541,
+          1.835414868893541
+        ],
+        "max": [
+          64.475,
+          0.9,
+          2.1
+        ]
+      }
+    },
+    {
       "name": "JSONCali_435",
       "obj_file": "meshes/JSONCali_435.obj",
       "color": "#c74440",
@@ -5760,6 +6200,46 @@
           64.475,
           0.9,
           2.76458
+        ]
+      }
+    },
+    {
+      "name": "JSONCali_437",
+      "obj_file": "meshes/JSONCali_437.obj",
+      "color": "#c74440",
+      "source_file": "JSONCali.json",
+      "expression_id": "437",
+      "family": "DISK_EXTRUSION_SOLID",
+      "bounds": {
+        "min": [
+          63.525,
+          -0.8,
+          2.5
+        ],
+        "max": [
+          64.475,
+          -0.535414868893541,
+          2.7645851311064593
+        ]
+      }
+    },
+    {
+      "name": "JSONCali_438",
+      "obj_file": "meshes/JSONCali_438.obj",
+      "color": "#c74440",
+      "source_file": "JSONCali.json",
+      "expression_id": "438",
+      "family": "DISK_EXTRUSION_SOLID",
+      "bounds": {
+        "min": [
+          63.525,
+          -0.9,
+          1.835414868893541
+        ],
+        "max": [
+          64.475,
+          -0.535414868893541,
+          2.1
         ]
       }
     },

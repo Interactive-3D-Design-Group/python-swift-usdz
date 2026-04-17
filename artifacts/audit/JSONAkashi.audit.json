@@ -1,41 +1,22 @@
 {
   "source_file": "JSONAkashi.json",
   "total_expressions": 559,
-  "supported_count": 557,
-  "recognized_unsupported_count": 2,
+  "supported_count": 558,
+  "recognized_unsupported_count": 0,
   "unrecognized_count": 0,
+  "geometry_ineligible_count": 1,
   "per_folder_summary": [
     {
       "folder_id": null,
       "folder_name": null,
       "total": 559,
-      "supported": 557,
-      "recognized_unsupported": 2,
-      "unrecognized": 0
+      "supported": 558,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 1
     }
   ],
-  "unsupported_expressions": [
-    {
-      "expression_id": "121",
-      "folder": null,
-      "family": "PARAM_ASSIGNMENT",
-      "status": "RECOGNIZED_UNSUPPORTED",
-      "reason": "Parameter assignment captured",
-      "fingerprint": "4ffd98ea726dbee6",
-      "latex": "d=8",
-      "normalized_latex": "d=8"
-    },
-    {
-      "expression_id": "28",
-      "folder": null,
-      "family": "INEQUALITY_REGION",
-      "status": "RECOGNIZED_UNSUPPORTED",
-      "reason": "Inequality region recognized",
-      "fingerprint": "9eefc537dbf1fc1a",
-      "latex": "x^{2}+y^{2}\\le2000\\left\\{-90\\le z\\le-80\\right\\}",
-      "normalized_latex": "x^{2}+y^{2}<=2000{-90<=z<=-80}"
-    }
-  ],
+  "unsupported_expressions": [],
   "unknown_fingerprints": [],
   "diagnostics": [
     {
@@ -48,5 +29,5 @@
       }
     }
   ],
-  "status": "PARTIAL"
+  "status": "PASS"
 }

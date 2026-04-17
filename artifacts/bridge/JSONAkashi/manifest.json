@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "mesh_count": 557,
+  "mesh_count": 558,
   "failed_mesh_count": 0,
   "meshes": [
     {
@@ -180,6 +180,26 @@
           480.0,
           -20.0,
           -53.78125
+        ]
+      }
+    },
+    {
+      "name": "JSONAkashi_28",
+      "obj_file": "meshes/JSONAkashi_28.obj",
+      "color": "#388c46",
+      "source_file": "JSONAkashi.json",
+      "expression_id": "28",
+      "family": "DISK_EXTRUSION_SOLID",
+      "bounds": {
+        "min": [
+          -44.7213695499958,
+          -44.7213695499958,
+          -90.0
+        ],
+        "max": [
+          44.7213695499958,
+          44.7213695499958,
+          -80.0
         ]
       }
     },

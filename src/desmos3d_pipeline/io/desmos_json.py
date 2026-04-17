@@ -38,6 +38,19 @@ def load_desmos_json(path: Path) -> tuple[DesmosFile | None, list[Diagnostic]]:
     return DesmosFile(path=path, data=data), diagnostics
 
 
+def extract_viewport(data: dict[str, Any]) -> dict[str, float]:
+    """Return numeric graph.viewport bounds when present (xmin/xmax/ymin/ymax/zmin/zmax)."""
+    viewport = data.get("graph", {}).get("viewport", {})
+    out: dict[str, float] = {}
+    if not isinstance(viewport, dict):
+        return out
+    for key in ("xmin", "xmax", "ymin", "ymax", "zmin", "zmax"):
+        value = viewport.get(key)
+        if isinstance(value, (int, float)):
+            out[key] = float(value)
+    return out
+
+
 def extract_expression_list(data: dict[str, Any]) -> list[dict[str, Any]]:
     expressions = data.get("expressions", {})
     items = expressions.get("list", []) if isinstance(expressions, dict) else []

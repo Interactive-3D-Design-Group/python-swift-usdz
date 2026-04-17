@@ -5,7 +5,7 @@ from pathlib import Path
 from typing import Any
 
 from desmos3d_pipeline.classify.rules import classify_expression
-from desmos3d_pipeline.io.desmos_json import extract_expression_list, load_desmos_json
+from desmos3d_pipeline.io.desmos_json import extract_expression_list, extract_viewport, load_desmos_json
 from desmos3d_pipeline.ir.builder import build_geometry_for_file
 from desmos3d_pipeline.ir.models import ClassificationStatus, Diagnostic, ExpressionRecord, Severity, SourceRef
 from desmos3d_pipeline.mesh.meshers import mesh_geometry_nodes
@@ -36,6 +36,7 @@ class CoverageReport:
     supported_but_not_meshed_count: int
     recognized_unsupported_count: int
     unrecognized_count: int
+    geometry_ineligible_count: int
     groups: list[CoverageGroup]
     diagnostics: list[Diagnostic]
 
@@ -63,11 +64,13 @@ def run_coverage_for_file(path: Path) -> CoverageReport:
             supported_but_not_meshed_count=0,
             recognized_unsupported_count=0,
             unrecognized_count=0,
+            geometry_ineligible_count=0,
             groups=[],
             diagnostics=diagnostics,
         )
 
     items = extract_expression_list(desmos_file.data)
+    viewport = extract_viewport(desmos_file.data)
 
     # Determine what actually got meshed.
     geometry = build_geometry_for_file(path)
@@ -120,11 +123,14 @@ def run_coverage_for_file(path: Path) -> CoverageReport:
         )
         if item_type == "expression":
             expr_count += 1
-        classification = classify_expression(normalized, item_type)
+        classification = classify_expression(normalized, item_type, viewport)
         audited.append((record, classification))
 
     supported = [a for a in audited if a[1].status == ClassificationStatus.SUPPORTED and a[0].expression_type == "expression"]
     supported_count = len(supported)
+    gelig = sum(
+        1 for a in audited if a[1].status == ClassificationStatus.GEOMETRY_INELIGIBLE and a[0].expression_type == "expression"
+    )
     supported_but_not_meshed = [
         a
         for a in supported
@@ -176,6 +182,8 @@ def run_coverage_for_file(path: Path) -> CoverageReport:
             continue
         if record.hidden:
             continue
+        if classification.status == ClassificationStatus.GEOMETRY_INELIGIBLE:
+            continue
 
         expr_id = record.source_ref.expression_id
         is_meshed = expr_id is not None and expr_id in meshed_ids
@@ -223,6 +231,7 @@ def run_coverage_for_file(path: Path) -> CoverageReport:
         supported_but_not_meshed_count=len(supported_but_not_meshed),
         recognized_unsupported_count=rec_unsup,
         unrecognized_count=unrec,
+        geometry_ineligible_count=gelig,
         groups=group_objs,
         diagnostics=diagnostics,
     )

@@ -6,6 +6,7 @@ from dataclasses import dataclass
 
 from desmos3d_pipeline.ir.models import ClassificationResult, ClassificationStatus, ExpressionFamily
 from desmos3d_pipeline.normalize.latex import extract_brace_restrictions
+from desmos3d_pipeline.parse.disk_extrusion import try_disk_extrusion_world_bbox, try_parse_axis_aligned_disk_inequality
 from desmos3d_pipeline.parse.relation import detect_relations, parse_interval_constraint
 from desmos3d_pipeline.parse.symbols import parse_assignment, parse_point_definition
 
@@ -24,7 +25,11 @@ def _fingerprint(core: str, restrictions: list[str]) -> str:
     return hashlib.sha1(payload.encode("utf-8")).hexdigest()[:16]
 
 
-def classify_expression(normalized_latex: str, expression_type: str) -> ClassificationResult:
+def classify_expression(
+    normalized_latex: str,
+    expression_type: str,
+    viewport: dict[str, float] | None = None,
+) -> ClassificationResult:
     if expression_type in {"folder", "text"}:
         return ClassificationResult(
             family=ExpressionFamily.TEXT_OR_FOLDER,
@@ -43,7 +48,13 @@ def classify_expression(normalized_latex: str, expression_type: str) -> Classifi
 
     assign = parse_assignment(context.core_expr)
     if assign:
-        return ClassificationResult(ExpressionFamily.PARAM_ASSIGNMENT, ClassificationStatus.RECOGNIZED_UNSUPPORTED, "Parameter assignment captured", 0.95, _fingerprint(core, restrictions))
+        return ClassificationResult(
+            ExpressionFamily.PARAM_ASSIGNMENT,
+            ClassificationStatus.GEOMETRY_INELIGIBLE,
+            "Parameter or color assignment (not meshed)",
+            0.95,
+            _fingerprint(core, restrictions),
+        )
 
     if context.core_expr.startswith("triangle("):
         return ClassificationResult(ExpressionFamily.TRIANGLE_CALL, ClassificationStatus.RECOGNIZED_UNSUPPORTED, "Triangle function recognized", 0.95, _fingerprint(core, restrictions))
@@ -202,7 +213,23 @@ def classify_expression(normalized_latex: str, expression_type: str) -> Classifi
             axes = {p.axis for p in all_parts if p is not None}
             if axes.issuperset({"x", "y", "z"}):
                 return ClassificationResult(ExpressionFamily.BOX_BOUNDED_REGION, ClassificationStatus.SUPPORTED, "Box/prism bounded region", 0.93, _fingerprint(core, restrictions))
+            # Do not infer a missing axis from graph viewport: it produces huge solids that do not
+            # match Desmos 3D for slab-like inequalities (e.g. y-band + x-band without explicit z).
             return ClassificationResult(ExpressionFamily.INEQUALITY_REGION, ClassificationStatus.RECOGNIZED_UNSUPPORTED, "Partial axis bounds only", 0.8, _fingerprint(core, restrictions))
+
+    # Axis-aligned disk (two squared linear terms) extruded along the third axis, with brace bounds.
+    if rel.operators and any(op in rel.operators for op in ["<", ">", "<=", ">="]):
+        disk = try_parse_axis_aligned_disk_inequality(context.core_expr)
+        if disk is not None:
+            bbox = try_disk_extrusion_world_bbox(list(context.restrictions), disk, viewport or {})
+            if bbox is not None:
+                return ClassificationResult(
+                    ExpressionFamily.DISK_EXTRUSION_SOLID,
+                    ClassificationStatus.SUPPORTED,
+                    "Axis-aligned disk extrusion (quadratic inequality solid)",
+                    0.82,
+                    _fingerprint(core, restrictions),
+                )
 
     # General inequalities are recognized but unsupported in first meshing phase.
     if rel.operators and any(op in rel.operators for op in ["<", ">", "<=", ">="]):

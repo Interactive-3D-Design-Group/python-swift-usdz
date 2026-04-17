@@ -2,34 +2,13 @@
   "source_file": "JSONLondon.json",
   "total_items": 265,
   "total_expressions": 236,
-  "meshed_expression_count": 213,
-  "supported_expression_count": 213,
+  "meshed_expression_count": 214,
+  "supported_expression_count": 214,
   "supported_but_not_meshed_count": 0,
-  "recognized_unsupported_count": 13,
+  "recognized_unsupported_count": 0,
   "unrecognized_count": 10,
+  "geometry_ineligible_count": 12,
   "groups": [
-    {
-      "fingerprint": "bf7c4276ad9b91ba",
-      "family": "INEQUALITY_REGION",
-      "status": "RECOGNIZED_UNSUPPORTED",
-      "reason": "Partial axis bounds only",
-      "count": 1,
-      "meshed_count": 0,
-      "example_expression_ids": [
-        "13"
-      ],
-      "example_latex": [
-        "20>y>-20\\left\\{-225<x<225\\right\\}"
-      ],
-      "example_normalized": [
-        "20>y>-20{-225<x<225}"
-      ],
-      "flags": {
-        "lines": 0,
-        "extendTo3D": 0,
-        "has_color": 1
-      }
-    },
     {
       "fingerprint": "07765bb28eaf0a35",
       "family": "UNKNOWN",
@@ -259,9 +238,9 @@
       "source_ref": null,
       "details": {
         "file": "JSONLondon.json",
-        "meshed_expression_ids": 213,
+        "meshed_expression_ids": 214,
         "supported_but_not_meshed": 0,
-        "group_count": 11
+        "group_count": 10
       }
     }
   ]

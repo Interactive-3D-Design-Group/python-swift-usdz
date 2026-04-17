@@ -1,10 +1,22 @@
 from __future__ import annotations
 
 from dataclasses import dataclass, field
+import math
 import re
 from typing import Iterable
 
-from desmos3d_pipeline.ir.models import BoxVolumeNode, GeometryNode, PlanePatchNode, PointNode, RangeConstraint, SampledSurfaceNode, ZSlabNode, XSlabNode, YSlabNode
+from desmos3d_pipeline.ir.models import (
+    BoxVolumeNode,
+    DiskExtrusionSolidNode,
+    GeometryNode,
+    PlanePatchNode,
+    PointNode,
+    RangeConstraint,
+    SampledSurfaceNode,
+    XSlabNode,
+    YSlabNode,
+    ZSlabNode,
+)
 from desmos3d_pipeline.parse.math_eval import safe_eval, to_python_expr
 
 
@@ -36,6 +48,8 @@ def mesh_geometry_nodes(nodes: Iterable[GeometryNode]) -> tuple[list[Mesh], list
                 meshes.append(mesh_plane_patch(node))
             elif isinstance(node, BoxVolumeNode):
                 meshes.append(mesh_box_volume(node))
+            elif isinstance(node, DiskExtrusionSolidNode):
+                meshes.append(mesh_disk_extrusion_solid(node))
             elif isinstance(node, ZSlabNode):
                 meshes.append(mesh_z_slab(node))
             elif isinstance(node, XSlabNode):
@@ -78,6 +92,89 @@ def mesh_box_volume(node: BoxVolumeNode) -> Mesh:
         return Mesh(name=_mesh_name(node), color=node.color, vertices=verts, faces=faces, source_file=node.source_ref.source_file, expression_id=node.source_ref.expression_id, family=node.family.value)
     except Exception:
         return _mesh_box_volume_voxel_fallback(node)
+
+
+def mesh_disk_extrusion_solid(node: DiskExtrusionSolidNode) -> Mesh:
+    """Voxel surface of (u-cu)^2+(v-cv)^2<=radius_sq clipped to the node bbox."""
+
+    def _inside(x: float, y: float, z: float) -> bool:
+        u = {"x": x, "y": y, "z": z}[node.axis_u]
+        v = {"x": x, "y": y, "z": z}[node.axis_v]
+        du = u - node.center_u
+        dv = v - node.center_v
+        return du * du + dv * dv <= node.radius_sq + 1e-9
+
+    x0, x1 = node.x_min, node.x_max
+    y0, y1 = node.y_min, node.y_max
+    z0, z1 = node.z_min, node.z_max
+    dx, dy, dz = x1 - x0, y1 - y0, z1 - z0
+    vol_scale = max((max(dx, 1e-9) * max(dy, 1e-9) * max(dz, 1e-9)) ** (1.0 / 3.0), 1e-9)
+    r = math.sqrt(max(node.radius_sq, 1e-15))
+    # Finer grid when the disk radius is small relative to the bbox (small solid in a large box).
+    nx = ny = nz = int(max(10, min(48, round(10 + 34 * r / vol_scale))))
+    filled = [[[False for _ in range(nz)] for _ in range(ny)] for _ in range(nx)]
+
+    for i in range(nx):
+        x = x0 + (x1 - x0) * (i + 0.5) / nx
+        for j in range(ny):
+            y = y0 + (y1 - y0) * (j + 0.5) / ny
+            for k in range(nz):
+                z = z0 + (z1 - z0) * (k + 0.5) / nz
+                if _inside(x, y, z):
+                    filled[i][j][k] = True
+
+    vertices: list[tuple[float, float, float]] = []
+    faces: list[tuple[int, int, int]] = []
+    vertex_map: dict[tuple[float, float, float], int] = {}
+
+    def vid(v: tuple[float, float, float]) -> int:
+        key = (round(v[0], 6), round(v[1], 6), round(v[2], 6))
+        idx = vertex_map.get(key)
+        if idx is None:
+            vertices.append(v)
+            idx = len(vertices)
+            vertex_map[key] = idx
+        return idx
+
+    def add_quad(a, b, c, d):
+        ia, ib, ic, id_ = vid(a), vid(b), vid(c), vid(d)
+        faces.append((ia, ib, ic))
+        faces.append((ia, ic, id_))
+
+    for i in range(nx):
+        xa = x0 + (x1 - x0) * i / nx
+        xb = x0 + (x1 - x0) * (i + 1) / nx
+        for j in range(ny):
+            ya = y0 + (y1 - y0) * j / ny
+            yb = y0 + (y1 - y0) * (j + 1) / ny
+            for k in range(nz):
+                if not filled[i][j][k]:
+                    continue
+                za = z0 + (z1 - z0) * k / nz
+                zb = z0 + (z1 - z0) * (k + 1) / nz
+                neighbors = [
+                    (i - 1, j, k, ((xa, ya, za), (xa, yb, za), (xa, yb, zb), (xa, ya, zb))),
+                    (i + 1, j, k, ((xb, ya, za), (xb, ya, zb), (xb, yb, zb), (xb, yb, za))),
+                    (i, j - 1, k, ((xa, ya, za), (xb, ya, za), (xb, ya, zb), (xa, ya, zb))),
+                    (i, j + 1, k, ((xa, yb, za), (xa, yb, zb), (xb, yb, zb), (xb, yb, za))),
+                    (i, j, k - 1, ((xa, ya, za), (xa, yb, za), (xb, yb, za), (xb, ya, za))),
+                    (i, j, k + 1, ((xa, ya, zb), (xb, ya, zb), (xb, yb, zb), (xa, yb, zb))),
+                ]
+                for ni, nj, nk, quad in neighbors:
+                    if ni < 0 or nj < 0 or nk < 0 or ni >= nx or nj >= ny or nk >= nz or not filled[ni][nj][nk]:
+                        add_quad(*quad)
+
+    if not faces:
+        raise ValueError("disk extrusion voxel mesher produced no faces")
+    return Mesh(
+        name=_mesh_name(node),
+        color=node.color,
+        vertices=vertices,
+        faces=faces,
+        source_file=node.source_ref.source_file,
+        expression_id=node.source_ref.expression_id,
+        family=node.family.value,
+    )
 
 
 def mesh_sampled_surface(node: SampledSurfaceNode) -> Mesh:

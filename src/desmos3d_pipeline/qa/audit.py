@@ -6,7 +6,7 @@ from pathlib import Path
 from typing import Any
 
 from desmos3d_pipeline.classify.rules import classify_expression
-from desmos3d_pipeline.io.desmos_json import extract_expression_list, load_desmos_json
+from desmos3d_pipeline.io.desmos_json import extract_expression_list, extract_viewport, load_desmos_json
 from desmos3d_pipeline.ir.models import (
     AuditExpressionItem,
     AuditStatus,
@@ -30,6 +30,7 @@ def run_audit_for_file(path: Path) -> FileAuditReport:
             supported_count=0,
             recognized_unsupported_count=0,
             unrecognized_count=0,
+            geometry_ineligible_count=0,
             per_folder_summary=[],
             unsupported_expressions=[],
             unknown_fingerprints=[],
@@ -38,6 +39,7 @@ def run_audit_for_file(path: Path) -> FileAuditReport:
         )
 
     items = extract_expression_list(desmos_file.data)
+    viewport = extract_viewport(desmos_file.data)
     folders: dict[str, str] = {}
     audited: list[AuditExpressionItem] = []
 
@@ -74,12 +76,13 @@ def run_audit_for_file(path: Path) -> FileAuditReport:
             lines=bool(item.get("lines", False)),
         )
 
-        classification = classify_expression(normalized, item_type)
+        classification = classify_expression(normalized, item_type, viewport)
         audited.append(AuditExpressionItem(record=record, classification=classification))
 
     supported = sum(1 for a in audited if a.classification.status == ClassificationStatus.SUPPORTED)
     rec_unsup = sum(1 for a in audited if a.classification.status == ClassificationStatus.RECOGNIZED_UNSUPPORTED)
     unrec = sum(1 for a in audited if a.classification.status == ClassificationStatus.UNRECOGNIZED)
+    gelig = sum(1 for a in audited if a.classification.status == ClassificationStatus.GEOMETRY_INELIGIBLE)
 
     folder_stats: dict[tuple[str | None, str | None], FolderSummary] = {}
     for a in audited:
@@ -92,13 +95,15 @@ def run_audit_for_file(path: Path) -> FileAuditReport:
             fs.supported += 1
         elif a.classification.status == ClassificationStatus.RECOGNIZED_UNSUPPORTED:
             fs.recognized_unsupported += 1
-        else:
+        elif a.classification.status == ClassificationStatus.UNRECOGNIZED:
             fs.unrecognized += 1
+        elif a.classification.status == ClassificationStatus.GEOMETRY_INELIGIBLE:
+            fs.geometry_ineligible += 1
 
     unsupported = []
     unknown_fingerprints = []
     for a in audited:
-        if a.classification.status != ClassificationStatus.SUPPORTED:
+        if a.classification.status not in (ClassificationStatus.SUPPORTED, ClassificationStatus.GEOMETRY_INELIGIBLE):
             unsupported.append(
                 {
                     "expression_id": a.record.source_ref.expression_id,
@@ -134,6 +139,7 @@ def run_audit_for_file(path: Path) -> FileAuditReport:
         supported_count=supported,
         recognized_unsupported_count=rec_unsup,
         unrecognized_count=unrec,
+        geometry_ineligible_count=gelig,
         per_folder_summary=sorted(folder_stats.values(), key=lambda x: (x.folder_name or "", x.folder_id or "")),
         unsupported_expressions=unsupported,
         unknown_fingerprints=sorted(set(unknown_fingerprints)),

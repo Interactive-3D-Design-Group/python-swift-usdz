@@ -1,0 +1,8848 @@
+{
+  "schema_version": 1,
+  "mesh_count": 442,
+  "failed_mesh_count": 0,
+  "meshes": [
+    {
+      "name": "JSONmeth_191",
+      "obj_file": "meshes/JSONmeth_191.obj",
+      "color": "#6042a6",
+      "source_file": "JSONmeth.json",
+      "expression_id": "191",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          15.0,
+          -8.0,
+          20.0
+        ],
+        "max": [
+          25.0,
+          8.0,
+          40.0
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_1030",
+      "obj_file": "meshes/JSONmeth_1030.obj",
+      "color": "#388c46",
+      "source_file": "JSONmeth.json",
+      "expression_id": "1030",
+      "family": "Z_SLAB_REGION",
+      "bounds": {
+        "min": [
+          15.0,
+          -8.0,
+          9.0
+        ],
+        "max": [
+          25.0,
+          8.0,
+          20.0
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_1031",
+      "obj_file": "meshes/JSONmeth_1031.obj",
+      "color": "#6042a6",
+      "source_file": "JSONmeth.json",
+      "expression_id": "1031",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          15.0,
+          -8.0,
+          9.0
+        ],
+        "max": [
+          25.0,
+          -4.0,
+          40.0
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_1032",
+      "obj_file": "meshes/JSONmeth_1032.obj",
+      "color": "#aaaaaa",
+      "source_file": "JSONmeth.json",
+      "expression_id": "1032",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          15.0,
+          4.0,
+          9.0
+        ],
+        "max": [
+          25.0,
+          8.0,
+          40.0
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_944",
+      "obj_file": "meshes/JSONmeth_944.obj",
+      "color": "#aaaaaa",
+      "source_file": "JSONmeth.json",
+      "expression_id": "944",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          -20.0,
+          -8.0,
+          42.5
+        ],
+        "max": [
+          -18.0,
+          8.0,
+          46.5
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_945",
+      "obj_file": "meshes/JSONmeth_945.obj",
+      "color": "#aaaaaa",
+      "source_file": "JSONmeth.json",
+      "expression_id": "945",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          -22.0,
+          -8.0,
+          42.5
+        ],
+        "max": [
+          -20.0,
+          8.0,
+          46.5
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_946",
+      "obj_file": "meshes/JSONmeth_946.obj",
+      "color": "#aaaaaa",
+      "source_file": "JSONmeth.json",
+      "expression_id": "946",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          -25.0,
+          -3.0,
+          42.0
+        ],
+        "max": [
+          -15.0,
+          0.0,
+          46.5
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_947",
+      "obj_file": "meshes/JSONmeth_947.obj",
+      "color": "#aaaaaa",
+      "source_file": "JSONmeth.json",
+      "expression_id": "947",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          -25.0,
+          0.0,
+          42.0
+        ],
+        "max": [
+          -15.0,
+          3.0,
+          46.5
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_948",
+      "obj_file": "meshes/JSONmeth_948.obj",
+      "color": "#aaaaaa",
+      "source_file": "JSONmeth.json",
+      "expression_id": "948",
+      "family": "CONSTANT_PLANE",
+      "bounds": {
+        "min": [
+          -18.0,
+          -8.0,
+          40.0
+        ],
+        "max": [
+          -18.0,
+          8.0,
+          42.5
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_949",
+      "obj_file": "meshes/JSONmeth_949.obj",
+      "color": "#aaaaaa",
+      "source_file": "JSONmeth.json",
+      "expression_id": "949",
+      "family": "CONSTANT_PLANE",
+      "bounds": {
+        "min": [
+          -22.0,
+          -8.0,
+          40.0
+        ],
+        "max": [
+          -22.0,
+          8.0,
+          42.5
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_950",
+      "obj_file": "meshes/JSONmeth_950.obj",
+      "color": "#aaaaaa",
+      "source_file": "JSONmeth.json",
+      "expression_id": "950",
+      "family": "CONSTANT_PLANE",
+      "bounds": {
+        "min": [
+          -25.0,
+          -3.0,
+          40.0
+        ],
+        "max": [
+          -15.0,
+          -3.0,
+          42.0
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_956",
+      "obj_file": "meshes/JSONmeth_956.obj",
+      "color": "#aaaaaa",
+      "source_file": "JSONmeth.json",
+      "expression_id": "956",
+      "family": "CONSTANT_PLANE",
+      "bounds": {
+        "min": [
+          -25.0,
+          3.0,
+          40.0
+        ],
+        "max": [
+          -15.0,
+          3.0,
+          42.0
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_1013",
+      "obj_file": "meshes/JSONmeth_1013.obj",
+      "color": "#c74440",
+      "source_file": "JSONmeth.json",
+      "expression_id": "1013",
+      "family": "CONSTANT_PLANE",
+      "bounds": {
+        "min": [
+          -15.0,
+          -3.0,
+          40.0
+        ],
+        "max": [
+          -15.0,
+          3.0,
+          42.0
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_1014",
+      "obj_file": "meshes/JSONmeth_1014.obj",
+      "color": "#2d70b3",
+      "source_file": "JSONmeth.json",
+      "expression_id": "1014",
+      "family": "CONSTANT_PLANE",
+      "bounds": {
+        "min": [
+          -25.0,
+          -3.0,
+          40.0
+        ],
+        "max": [
+          -25.0,
+          3.0,
+          42.0
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_1015",
+      "obj_file": "meshes/JSONmeth_1015.obj",
+      "color": "#388c46",
+      "source_file": "JSONmeth.json",
+      "expression_id": "1015",
+      "family": "CONSTANT_PLANE",
+      "bounds": {
+        "min": [
+          -22.0,
+          -8.0,
+          40.0
+        ],
+        "max": [
+          -18.0,
+          -8.0,
+          42.5
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_1016",
+      "obj_file": "meshes/JSONmeth_1016.obj",
+      "color": "#6042a6",
+      "source_file": "JSONmeth.json",
+      "expression_id": "1016",
+      "family": "CONSTANT_PLANE",
+      "bounds": {
+        "min": [
+          -22.0,
+          8.0,
+          40.0
+        ],
+        "max": [
+          -18.0,
+          8.0,
+          42.5
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_1017",
+      "obj_file": "meshes/JSONmeth_1017.obj",
+      "color": "#aaaaaa",
+      "source_file": "JSONmeth.json",
+      "expression_id": "1017",
+      "family": "CONSTANT_PLANE",
+      "bounds": {
+        "min": [
+          15.0,
+          -3.0,
+          40.0
+        ],
+        "max": [
+          15.0,
+          3.0,
+          42.0
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_1018",
+      "obj_file": "meshes/JSONmeth_1018.obj",
+      "color": "#c74440",
+      "source_file": "JSONmeth.json",
+      "expression_id": "1018",
+      "family": "CONSTANT_PLANE",
+      "bounds": {
+        "min": [
+          25.0,
+          -3.0,
+          40.0
+        ],
+        "max": [
+          25.0,
+          3.0,
+          42.0
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_1019",
+      "obj_file": "meshes/JSONmeth_1019.obj",
+      "color": "#2d70b3",
+      "source_file": "JSONmeth.json",
+      "expression_id": "1019",
+      "family": "CONSTANT_PLANE",
+      "bounds": {
+        "min": [
+          18.0,
+          -8.0,
+          40.0
+        ],
+        "max": [
+          20.0,
+          -8.0,
+          42.5
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_1020",
+      "obj_file": "meshes/JSONmeth_1020.obj",
+      "color": "#388c46",
+      "source_file": "JSONmeth.json",
+      "expression_id": "1020",
+      "family": "CONSTANT_PLANE",
+      "bounds": {
+        "min": [
+          18.0,
+          8.0,
+          40.0
+        ],
+        "max": [
+          22.0,
+          8.0,
+          42.5
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_302",
+      "obj_file": "meshes/JSONmeth_302.obj",
+      "color": "#2d70b3",
+      "source_file": "JSONmeth.json",
+      "expression_id": "302",
+      "family": "DISK_EXTRUSION_SOLID",
+      "bounds": {
+        "min": [
+          13.585776437626905,
+          6.585776437626905,
+          9.0
+        ],
+        "max": [
+          16.414223562373095,
+          9.414223562373095,
+          43.0
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_420",
+      "obj_file": "meshes/JSONmeth_420.obj",
+      "color": "#aaaaaa",
+      "source_file": "JSONmeth.json",
+      "expression_id": "420",
+      "family": "DISK_EXTRUSION_SOLID",
+      "bounds": {
+        "min": [
+          13.585776437626905,
+          -9.414223562373095,
+          9.0
+        ],
+        "max": [
+          16.414223562373095,
+          -6.585776437626905,
+          43.0
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_421",
+      "obj_file": "meshes/JSONmeth_421.obj",
+      "color": "#c74440",
+      "source_file": "JSONmeth.json",
+      "expression_id": "421",
+      "family": "DISK_EXTRUSION_SOLID",
+      "bounds": {
+        "min": [
+          23.585776437626905,
+          6.585776437626905,
+          9.0
+        ],
+        "max": [
+          26.414223562373095,
+          9.414223562373095,
+          43.0
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_422",
+      "obj_file": "meshes/JSONmeth_422.obj",
+      "color": "#2d70b3",
+      "source_file": "JSONmeth.json",
+      "expression_id": "422",
+      "family": "DISK_EXTRUSION_SOLID",
+      "bounds": {
+        "min": [
+          23.585776437626905,
+          -9.414223562373095,
+          9.0
+        ],
+        "max": [
+          26.414223562373095,
+          -6.585776437626905,
+          43.0
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_192",
+      "obj_file": "meshes/JSONmeth_192.obj",
+      "color": "#6042a6",
+      "source_file": "JSONmeth.json",
+      "expression_id": "192",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -25.0,
+          -8.0,
+          20.0
+        ],
+        "max": [
+          -15.0,
+          8.0,
+          40.0
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_1033",
+      "obj_file": "meshes/JSONmeth_1033.obj",
+      "color": "#c74440",
+      "source_file": "JSONmeth.json",
+      "expression_id": "1033",
+      "family": "Z_SLAB_REGION",
+      "bounds": {
+        "min": [
+          -25.0,
+          -8.0,
+          9.0
+        ],
+        "max": [
+          -15.0,
+          8.0,
+          20.0
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_1034",
+      "obj_file": "meshes/JSONmeth_1034.obj",
+      "color": "#2d70b3",
+      "source_file": "JSONmeth.json",
+      "expression_id": "1034",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -25.0,
+          -8.0,
+          9.0
+        ],
+        "max": [
+          -15.0,
+          -4.0,
+          40.0
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_1035",
+      "obj_file": "meshes/JSONmeth_1035.obj",
+      "color": "#388c46",
+      "source_file": "JSONmeth.json",
+      "expression_id": "1035",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -25.0,
+          4.0,
+          9.0
+        ],
+        "max": [
+          -15.0,
+          8.0,
+          40.0
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_908",
+      "obj_file": "meshes/JSONmeth_908.obj",
+      "color": "#aaaaaa",
+      "source_file": "JSONmeth.json",
+      "expression_id": "908",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          18.0,
+          -8.0,
+          42.5
+        ],
+        "max": [
+          20.0,
+          8.0,
+          46.5
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_911",
+      "obj_file": "meshes/JSONmeth_911.obj",
+      "color": "#aaaaaa",
+      "source_file": "JSONmeth.json",
+      "expression_id": "911",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          20.0,
+          -8.0,
+          42.5
+        ],
+        "max": [
+          22.0,
+          8.0,
+          46.5
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_913",
+      "obj_file": "meshes/JSONmeth_913.obj",
+      "color": "#aaaaaa",
+      "source_file": "JSONmeth.json",
+      "expression_id": "913",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          15.0,
+          -3.0,
+          42.0
+        ],
+        "max": [
+          25.0,
+          0.0,
+          46.5
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_914",
+      "obj_file": "meshes/JSONmeth_914.obj",
+      "color": "#aaaaaa",
+      "source_file": "JSONmeth.json",
+      "expression_id": "914",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          15.0,
+          0.0,
+          42.0
+        ],
+        "max": [
+          25.0,
+          3.0,
+          46.5
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_916",
+      "obj_file": "meshes/JSONmeth_916.obj",
+      "color": "#aaaaaa",
+      "source_file": "JSONmeth.json",
+      "expression_id": "916",
+      "family": "CONSTANT_PLANE",
+      "bounds": {
+        "min": [
+          18.0,
+          -8.0,
+          40.0
+        ],
+        "max": [
+          18.0,
+          8.0,
+          42.5
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_917",
+      "obj_file": "meshes/JSONmeth_917.obj",
+      "color": "#aaaaaa",
+      "source_file": "JSONmeth.json",
+      "expression_id": "917",
+      "family": "CONSTANT_PLANE",
+      "bounds": {
+        "min": [
+          22.0,
+          -8.0,
+          40.0
+        ],
+        "max": [
+          22.0,
+          8.0,
+          42.5
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_918",
+      "obj_file": "meshes/JSONmeth_918.obj",
+      "color": "#aaaaaa",
+      "source_file": "JSONmeth.json",
+      "expression_id": "918",
+      "family": "CONSTANT_PLANE",
+      "bounds": {
+        "min": [
+          15.0,
+          -3.0,
+          40.0
+        ],
+        "max": [
+          25.0,
+          -3.0,
+          42.0
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_919",
+      "obj_file": "meshes/JSONmeth_919.obj",
+      "color": "#aaaaaa",
+      "source_file": "JSONmeth.json",
+      "expression_id": "919",
+      "family": "CONSTANT_PLANE",
+      "bounds": {
+        "min": [
+          15.0,
+          3.0,
+          40.0
+        ],
+        "max": [
+          25.0,
+          3.0,
+          42.0
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_425",
+      "obj_file": "meshes/JSONmeth_425.obj",
+      "color": "#6042a6",
+      "source_file": "JSONmeth.json",
+      "expression_id": "425",
+      "family": "DISK_EXTRUSION_SOLID",
+      "bounds": {
+        "min": [
+          -16.414223562373095,
+          6.585776437626905,
+          9.0
+        ],
+        "max": [
+          -13.585776437626905,
+          9.414223562373095,
+          43.0
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_426",
+      "obj_file": "meshes/JSONmeth_426.obj",
+      "color": "#aaaaaa",
+      "source_file": "JSONmeth.json",
+      "expression_id": "426",
+      "family": "DISK_EXTRUSION_SOLID",
+      "bounds": {
+        "min": [
+          -16.414223562373095,
+          -9.414223562373095,
+          9.0
+        ],
+        "max": [
+          -13.585776437626905,
+          -6.585776437626905,
+          43.0
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_427",
+      "obj_file": "meshes/JSONmeth_427.obj",
+      "color": "#c74440",
+      "source_file": "JSONmeth.json",
+      "expression_id": "427",
+      "family": "DISK_EXTRUSION_SOLID",
+      "bounds": {
+        "min": [
+          -26.414223562373095,
+          6.585776437626905,
+          9.0
+        ],
+        "max": [
+          -23.585776437626905,
+          9.414223562373095,
+          43.0
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_428",
+      "obj_file": "meshes/JSONmeth_428.obj",
+      "color": "#2d70b3",
+      "source_file": "JSONmeth.json",
+      "expression_id": "428",
+      "family": "DISK_EXTRUSION_SOLID",
+      "bounds": {
+        "min": [
+          -26.414223562373095,
+          -9.414223562373095,
+          9.0
+        ],
+        "max": [
+          -23.585776437626905,
+          -6.585776437626905,
+          43.0
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_786",
+      "obj_file": "meshes/JSONmeth_786.obj",
+      "color": "#aaaaaa",
+      "source_file": "JSONmeth.json",
+      "expression_id": "786",
+      "family": "Z_SLAB_REGION",
+      "bounds": {
+        "min": [
+          -67.0,
+          -7.0,
+          9.0
+        ],
+        "max": [
+          -57.0,
+          7.0,
+          20.0
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_794",
+      "obj_file": "meshes/JSONmeth_794.obj",
+      "color": "#2d70b3",
+      "source_file": "JSONmeth.json",
+      "expression_id": "794",
+      "family": "Z_SLAB_REGION",
+      "bounds": {
+        "min": [
+          -67.0,
+          -7.0,
+          9.0
+        ],
+        "max": [
+          -57.0,
+          -3.8,
+          20.0
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_795",
+      "obj_file": "meshes/JSONmeth_795.obj",
+      "color": "#388c46",
+      "source_file": "JSONmeth.json",
+      "expression_id": "795",
+      "family": "Z_SLAB_REGION",
+      "bounds": {
+        "min": [
+          -67.0,
+          3.8,
+          9.0
+        ],
+        "max": [
+          -57.0,
+          7.0,
+          20.0
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_788",
+      "obj_file": "meshes/JSONmeth_788.obj",
+      "color": "#aaaaaa",
+      "source_file": "JSONmeth.json",
+      "expression_id": "788",
+      "family": "DISK_EXTRUSION_SOLID",
+      "bounds": {
+        "min": [
+          -65.16228766016837,
+          -10.16228766016838,
+          9.0
+        ],
+        "max": [
+          -58.83771233983162,
+          -3.8377123398316204,
+          20.0
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_789",
+      "obj_file": "meshes/JSONmeth_789.obj",
+      "color": "#aaaaaa",
+      "source_file": "JSONmeth.json",
+      "expression_id": "789",
+      "family": "DISK_EXTRUSION_SOLID",
+      "bounds": {
+        "min": [
+          -65.16228766016837,
+          3.8377123398316204,
+          9.0
+        ],
+        "max": [
+          -58.83771233983162,
+          10.16228766016838,
+          20.0
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_790",
+      "obj_file": "meshes/JSONmeth_790.obj",
+      "color": "#aaaaaa",
+      "source_file": "JSONmeth.json",
+      "expression_id": "790",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -67.0,
+          -8.0,
+          9.0
+        ],
+        "max": [
+          -57.0,
+          -7.0,
+          20.0
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_791",
+      "obj_file": "meshes/JSONmeth_791.obj",
+      "color": "#6042a6",
+      "source_file": "JSONmeth.json",
+      "expression_id": "791",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -67.0,
+          7.0,
+          9.0
+        ],
+        "max": [
+          -57.0,
+          8.0,
+          20.0
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_792",
+      "obj_file": "meshes/JSONmeth_792.obj",
+      "color": "#aaaaaa",
+      "source_file": "JSONmeth.json",
+      "expression_id": "792",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -67.0,
+          -5.5,
+          20.0
+        ],
+        "max": [
+          -57.0,
+          5.5,
+          21.75
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_793",
+      "obj_file": "meshes/JSONmeth_793.obj",
+      "color": "#c74440",
+      "source_file": "JSONmeth.json",
+      "expression_id": "793",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -67.0,
+          -8.0,
+          20.0
+        ],
+        "max": [
+          -57.0,
+          -5.5,
+          23.0
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_796",
+      "obj_file": "meshes/JSONmeth_796.obj",
+      "color": "#aaaaaa",
+      "source_file": "JSONmeth.json",
+      "expression_id": "796",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -67.0,
+          5.5,
+          20.0
+        ],
+        "max": [
+          -57.0,
+          8.0,
+          23.0
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_797",
+      "obj_file": "meshes/JSONmeth_797.obj",
+      "color": "#aaaaaa",
+      "source_file": "JSONmeth.json",
+      "expression_id": "797",
+      "family": "DISK_EXTRUSION_SOLID",
+      "bounds": {
+        "min": [
+          -65.16228766016837,
+          -10.16228766016838,
+          20.0
+        ],
+        "max": [
+          -58.83771233983162,
+          -3.8377123398316204,
+          23.0
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_798",
+      "obj_file": "meshes/JSONmeth_798.obj",
+      "color": "#aaaaaa",
+      "source_file": "JSONmeth.json",
+      "expression_id": "798",
+      "family": "DISK_EXTRUSION_SOLID",
+      "bounds": {
+        "min": [
+          -65.16228766016837,
+          3.8377123398316204,
+          20.0
+        ],
+        "max": [
+          -58.83771233983162,
+          10.16228766016838,
+          23.0
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_800",
+      "obj_file": "meshes/JSONmeth_800.obj",
+      "color": "#aaaaaa",
+      "source_file": "JSONmeth.json",
+      "expression_id": "800",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          -67.0,
+          -7.0,
+          19.5
+        ],
+        "max": [
+          -62.0,
+          7.0,
+          27.0
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_801",
+      "obj_file": "meshes/JSONmeth_801.obj",
+      "color": "#aaaaaa",
+      "source_file": "JSONmeth.json",
+      "expression_id": "801",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          -62.0,
+          -7.0,
+          19.5
+        ],
+        "max": [
+          -57.0,
+          7.0,
+          27.0
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_803",
+      "obj_file": "meshes/JSONmeth_803.obj",
+      "color": "#c74440",
+      "source_file": "JSONmeth.json",
+      "expression_id": "803",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          -67.0,
+          -7.0,
+          14.5
+        ],
+        "max": [
+          -57.0,
+          0.0,
+          25.0
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_804",
+      "obj_file": "meshes/JSONmeth_804.obj",
+      "color": "#2d70b3",
+      "source_file": "JSONmeth.json",
+      "expression_id": "804",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          -67.0,
+          0.0,
+          14.5
+        ],
+        "max": [
+          -57.0,
+          7.0,
+          25.0
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_808",
+      "obj_file": "meshes/JSONmeth_808.obj",
+      "color": "#c74440",
+      "source_file": "JSONmeth.json",
+      "expression_id": "808",
+      "family": "CONSTANT_PLANE",
+      "bounds": {
+        "min": [
+          -67.0,
+          -1.65,
+          21.0
+        ],
+        "max": [
+          -57.0,
+          -1.65,
+          22.5
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_809",
+      "obj_file": "meshes/JSONmeth_809.obj",
+      "color": "#2d70b3",
+      "source_file": "JSONmeth.json",
+      "expression_id": "809",
+      "family": "CONSTANT_PLANE",
+      "bounds": {
+        "min": [
+          -67.0,
+          1.65,
+          21.0
+        ],
+        "max": [
+          -57.0,
+          1.65,
+          22.5
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_811",
+      "obj_file": "meshes/JSONmeth_811.obj",
+      "color": "#6042a6",
+      "source_file": "JSONmeth.json",
+      "expression_id": "811",
+      "family": "CONSTANT_PLANE",
+      "bounds": {
+        "min": [
+          -67.0,
+          -1.65,
+          21.5
+        ],
+        "max": [
+          -67.0,
+          1.65,
+          22.5
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_812",
+      "obj_file": "meshes/JSONmeth_812.obj",
+      "color": "#aaaaaa",
+      "source_file": "JSONmeth.json",
+      "expression_id": "812",
+      "family": "CONSTANT_PLANE",
+      "bounds": {
+        "min": [
+          -57.0,
+          -1.65,
+          21.5
+        ],
+        "max": [
+          -57.0,
+          1.65,
+          22.5
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_189",
+      "obj_file": "meshes/JSONmeth_189.obj",
+      "color": "#c74440",
+      "source_file": "JSONmeth.json",
+      "expression_id": "189",
+      "family": "Z_SLAB_REGION",
+      "bounds": {
+        "min": [
+          57.0,
+          -7.0,
+          11.1
+        ],
+        "max": [
+          67.0,
+          7.0,
+          20.0
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_864",
+      "obj_file": "meshes/JSONmeth_864.obj",
+      "color": "#2d70b3",
+      "source_file": "JSONmeth.json",
+      "expression_id": "864",
+      "family": "Z_SLAB_REGION",
+      "bounds": {
+        "min": [
+          57.0,
+          -7.0,
+          9.0
+        ],
+        "max": [
+          67.0,
+          -3.8,
+          20.0
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_865",
+      "obj_file": "meshes/JSONmeth_865.obj",
+      "color": "#388c46",
+      "source_file": "JSONmeth.json",
+      "expression_id": "865",
+      "family": "Z_SLAB_REGION",
+      "bounds": {
+        "min": [
+          57.0,
+          3.8,
+          9.0
+        ],
+        "max": [
+          67.0,
+          7.0,
+          20.0
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_816",
+      "obj_file": "meshes/JSONmeth_816.obj",
+      "color": "#aaaaaa",
+      "source_file": "JSONmeth.json",
+      "expression_id": "816",
+      "family": "DISK_EXTRUSION_SOLID",
+      "bounds": {
+        "min": [
+          58.83771233983162,
+          -10.16228766016838,
+          9.0
+        ],
+        "max": [
+          65.16228766016837,
+          -3.8377123398316204,
+          20.0
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_817",
+      "obj_file": "meshes/JSONmeth_817.obj",
+      "color": "#aaaaaa",
+      "source_file": "JSONmeth.json",
+      "expression_id": "817",
+      "family": "DISK_EXTRUSION_SOLID",
+      "bounds": {
+        "min": [
+          58.83771233983162,
+          3.8377123398316204,
+          9.0
+        ],
+        "max": [
+          65.16228766016837,
+          10.16228766016838,
+          20.0
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_821",
+      "obj_file": "meshes/JSONmeth_821.obj",
+      "color": "#388c46",
+      "source_file": "JSONmeth.json",
+      "expression_id": "821",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          57.0,
+          -8.0,
+          9.0
+        ],
+        "max": [
+          67.0,
+          -7.0,
+          20.0
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_822",
+      "obj_file": "meshes/JSONmeth_822.obj",
+      "color": "#6042a6",
+      "source_file": "JSONmeth.json",
+      "expression_id": "822",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          57.0,
+          7.0,
+          9.0
+        ],
+        "max": [
+          67.0,
+          8.0,
+          20.0
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_823",
+      "obj_file": "meshes/JSONmeth_823.obj",
+      "color": "#aaaaaa",
+      "source_file": "JSONmeth.json",
+      "expression_id": "823",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          57.0,
+          -5.5,
+          20.0
+        ],
+        "max": [
+          67.0,
+          5.5,
+          21.75
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_829",
+      "obj_file": "meshes/JSONmeth_829.obj",
+      "color": "#c74440",
+      "source_file": "JSONmeth.json",
+      "expression_id": "829",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          57.0,
+          -8.0,
+          20.0
+        ],
+        "max": [
+          67.0,
+          -5.5,
+          23.0
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_830",
+      "obj_file": "meshes/JSONmeth_830.obj",
+      "color": "#6042a6",
+      "source_file": "JSONmeth.json",
+      "expression_id": "830",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          57.0,
+          5.5,
+          20.0
+        ],
+        "max": [
+          67.0,
+          8.0,
+          23.0
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_831",
+      "obj_file": "meshes/JSONmeth_831.obj",
+      "color": "#aaaaaa",
+      "source_file": "JSONmeth.json",
+      "expression_id": "831",
+      "family": "DISK_EXTRUSION_SOLID",
+      "bounds": {
+        "min": [
+          58.83771233983162,
+          -10.16228766016838,
+          20.0
+        ],
+        "max": [
+          65.16228766016837,
+          -3.8377123398316204,
+          23.0
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_835",
+      "obj_file": "meshes/JSONmeth_835.obj",
+      "color": "#388c46",
+      "source_file": "JSONmeth.json",
+      "expression_id": "835",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          62.0,
+          -7.0,
+          213.0
+        ],
+        "max": [
+          67.0,
+          7.0,
+          220.5
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_834",
+      "obj_file": "meshes/JSONmeth_834.obj",
+      "color": "#aaaaaa",
+      "source_file": "JSONmeth.json",
+      "expression_id": "834",
+      "family": "DISK_EXTRUSION_SOLID",
+      "bounds": {
+        "min": [
+          58.83771233983162,
+          3.8377123398316204,
+          20.0
+        ],
+        "max": [
+          65.16228766016837,
+          10.16228766016838,
+          23.0
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_861",
+      "obj_file": "meshes/JSONmeth_861.obj",
+      "color": "#6042a6",
+      "source_file": "JSONmeth.json",
+      "expression_id": "861",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          57.0,
+          -7.0,
+          19.5
+        ],
+        "max": [
+          62.0,
+          7.0,
+          27.0
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_836",
+      "obj_file": "meshes/JSONmeth_836.obj",
+      "color": "#6042a6",
+      "source_file": "JSONmeth.json",
+      "expression_id": "836",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          62.0,
+          -7.0,
+          22.5
+        ],
+        "max": [
+          65.0,
+          7.0,
+          27.0
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_846",
+      "obj_file": "meshes/JSONmeth_846.obj",
+      "color": "#c74440",
+      "source_file": "JSONmeth.json",
+      "expression_id": "846",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          57.0,
+          -7.0,
+          14.5
+        ],
+        "max": [
+          67.0,
+          0.0,
+          25.0
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_847",
+      "obj_file": "meshes/JSONmeth_847.obj",
+      "color": "#2d70b3",
+      "source_file": "JSONmeth.json",
+      "expression_id": "847",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          57.0,
+          0.0,
+          14.5
+        ],
+        "max": [
+          67.0,
+          7.0,
+          25.0
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_850",
+      "obj_file": "meshes/JSONmeth_850.obj",
+      "color": "#c74440",
+      "source_file": "JSONmeth.json",
+      "expression_id": "850",
+      "family": "CONSTANT_PLANE",
+      "bounds": {
+        "min": [
+          57.0,
+          -1.65,
+          21.0
+        ],
+        "max": [
+          67.0,
+          -1.65,
+          22.5
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_854",
+      "obj_file": "meshes/JSONmeth_854.obj",
+      "color": "#2d70b3",
+      "source_file": "JSONmeth.json",
+      "expression_id": "854",
+      "family": "CONSTANT_PLANE",
+      "bounds": {
+        "min": [
+          57.0,
+          1.65,
+          21.0
+        ],
+        "max": [
+          67.0,
+          1.65,
+          22.5
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_855",
+      "obj_file": "meshes/JSONmeth_855.obj",
+      "color": "#6042a6",
+      "source_file": "JSONmeth.json",
+      "expression_id": "855",
+      "family": "CONSTANT_PLANE",
+      "bounds": {
+        "min": [
+          67.0,
+          -1.65,
+          21.5
+        ],
+        "max": [
+          67.0,
+          1.65,
+          22.5
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_856",
+      "obj_file": "meshes/JSONmeth_856.obj",
+      "color": "#aaaaaa",
+      "source_file": "JSONmeth.json",
+      "expression_id": "856",
+      "family": "CONSTANT_PLANE",
+      "bounds": {
+        "min": [
+          57.0,
+          -1.65,
+          21.5
+        ],
+        "max": [
+          57.0,
+          1.65,
+          22.5
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_196",
+      "obj_file": "meshes/JSONmeth_196.obj",
+      "color": "#2d70b3",
+      "source_file": "JSONmeth.json",
+      "expression_id": "196",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -69.0,
+          -10.0,
+          0.0
+        ],
+        "max": [
+          -55.0,
+          10.0,
+          9.0
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_202",
+      "obj_file": "meshes/JSONmeth_202.obj",
+      "color": "#2d70b3",
+      "source_file": "JSONmeth.json",
+      "expression_id": "202",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          55.0,
+          -10.0,
+          0.0
+        ],
+        "max": [
+          69.0,
+          10.0,
+          9.0
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_199",
+      "obj_file": "meshes/JSONmeth_199.obj",
+      "color": "#aaaaaa",
+      "source_file": "JSONmeth.json",
+      "expression_id": "199",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          12.0,
+          -12.5,
+          0.0
+        ],
+        "max": [
+          28.0,
+          12.5,
+          9.0
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_200",
+      "obj_file": "meshes/JSONmeth_200.obj",
+      "color": "#aaaaaa",
+      "source_file": "JSONmeth.json",
+      "expression_id": "200",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -28.0,
+          -12.5,
+          0.0
+        ],
+        "max": [
+          -12.0,
+          12.5,
+          9.0
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_201",
+      "obj_file": "meshes/JSONmeth_201.obj",
+      "color": "#2d70b3",
+      "source_file": "JSONmeth.json",
+      "expression_id": "201",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -55.0,
+          -3.5,
+          8.0
+        ],
+        "max": [
+          -28.0,
+          3.5,
+          9.0
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_1038",
+      "obj_file": "meshes/JSONmeth_1038.obj",
+      "color": "#2d70b3",
+      "source_file": "JSONmeth.json",
+      "expression_id": "1038",
+      "family": "CONSTANT_PLANE",
+      "bounds": {
+        "min": [
+          -55.0,
+          -3.5,
+          9.0
+        ],
+        "max": [
+          -28.0,
+          -3.5,
+          11.0
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_1039",
+      "obj_file": "meshes/JSONmeth_1039.obj",
+      "color": "#2d70b3",
+      "source_file": "JSONmeth.json",
+      "expression_id": "1039",
+      "family": "CONSTANT_PLANE",
+      "bounds": {
+        "min": [
+          -55.0,
+          3.5,
+          9.0
+        ],
+        "max": [
+          -28.0,
+          3.5,
+          11.0
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_197",
+      "obj_file": "meshes/JSONmeth_197.obj",
+      "color": "#388c46",
+      "source_file": "JSONmeth.json",
+      "expression_id": "197",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          28.0,
+          -3.5,
+          8.0
+        ],
+        "max": [
+          55.0,
+          3.5,
+          9.0
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_1036",
+      "obj_file": "meshes/JSONmeth_1036.obj",
+      "color": "#2d70b3",
+      "source_file": "JSONmeth.json",
+      "expression_id": "1036",
+      "family": "CONSTANT_PLANE",
+      "bounds": {
+        "min": [
+          28.0,
+          -3.5,
+          9.0
+        ],
+        "max": [
+          55.0,
+          -3.5,
+          11.0
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_1037",
+      "obj_file": "meshes/JSONmeth_1037.obj",
+      "color": "#2d70b3",
+      "source_file": "JSONmeth.json",
+      "expression_id": "1037",
+      "family": "CONSTANT_PLANE",
+      "bounds": {
+        "min": [
+          28.0,
+          3.5,
+          9.0
+        ],
+        "max": [
+          55.0,
+          3.5,
+          11.0
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_198",
+      "obj_file": "meshes/JSONmeth_198.obj",
+      "color": "#6042a6",
+      "source_file": "JSONmeth.json",
+      "expression_id": "198",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -12.0,
+          -8.0,
+          8.0
+        ],
+        "max": [
+          12.0,
+          8.0,
+          9.0
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_308",
+      "obj_file": "meshes/JSONmeth_308.obj",
+      "color": "#388c46",
+      "source_file": "JSONmeth.json",
+      "expression_id": "308",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          -12.0,
+          -8.0,
+          5.6
+        ],
+        "max": [
+          0.0,
+          -7.0,
+          8.0
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_316",
+      "obj_file": "meshes/JSONmeth_316.obj",
+      "color": "#c74440",
+      "source_file": "JSONmeth.json",
+      "expression_id": "316",
+      "family": "Z_SLAB_REGION",
+      "bounds": {
+        "min": [
+          -12.0,
+          -8.0,
+          5.6
+        ],
+        "max": [
+          -11.75,
+          -7.0,
+          8.0
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_331",
+      "obj_file": "meshes/JSONmeth_331.obj",
+      "color": "#c74440",
+      "source_file": "JSONmeth.json",
+      "expression_id": "331",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          -12.0,
+          7.0,
+          5.6
+        ],
+        "max": [
+          0.0,
+          8.0,
+          8.0
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_330",
+      "obj_file": "meshes/JSONmeth_330.obj",
+      "color": "#aaaaaa",
+      "source_file": "JSONmeth.json",
+      "expression_id": "330",
+      "family": "Z_SLAB_REGION",
+      "bounds": {
+        "min": [
+          -12.0,
+          7.0,
+          5.6
+        ],
+        "max": [
+          -11.75,
+          8.0,
+          8.0
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_342",
+      "obj_file": "meshes/JSONmeth_342.obj",
+      "color": "#2d70b3",
+      "source_file": "JSONmeth.json",
+      "expression_id": "342",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          -12.0,
+          -0.5,
+          5.6
+        ],
+        "max": [
+          0.0,
+          0.5,
+          8.0
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_341",
+      "obj_file": "meshes/JSONmeth_341.obj",
+      "color": "#c74440",
+      "source_file": "JSONmeth.json",
+      "expression_id": "341",
+      "family": "Z_SLAB_REGION",
+      "bounds": {
+        "min": [
+          -12.0,
+          -0.5,
+          5.6
+        ],
+        "max": [
+          -11.75,
+          0.5,
+          8.0
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_332",
+      "obj_file": "meshes/JSONmeth_332.obj",
+      "color": "#2d70b3",
+      "source_file": "JSONmeth.json",
+      "expression_id": "332",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          0.0,
+          -8.0,
+          5.6
+        ],
+        "max": [
+          12.0,
+          -7.0,
+          8.0
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_334",
+      "obj_file": "meshes/JSONmeth_334.obj",
+      "color": "#6042a6",
+      "source_file": "JSONmeth.json",
+      "expression_id": "334",
+      "family": "Z_SLAB_REGION",
+      "bounds": {
+        "min": [
+          0.95,
+          -8.0,
+          7.76
+        ],
+        "max": [
+          1.2,
+          -7.0,
+          8.0
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_339",
+      "obj_file": "meshes/JSONmeth_339.obj",
+      "color": "#6042a6",
+      "source_file": "JSONmeth.json",
+      "expression_id": "339",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          0.0,
+          7.0,
+          5.6
+        ],
+        "max": [
+          12.0,
+          8.0,
+          8.0
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_340",
+      "obj_file": "meshes/JSONmeth_340.obj",
+      "color": "#aaaaaa",
+      "source_file": "JSONmeth.json",
+      "expression_id": "340",
+      "family": "Z_SLAB_REGION",
+      "bounds": {
+        "min": [
+          0.95,
+          7.0,
+          7.76
+        ],
+        "max": [
+          1.2,
+          8.0,
+          8.0
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_343",
+      "obj_file": "meshes/JSONmeth_343.obj",
+      "color": "#388c46",
+      "source_file": "JSONmeth.json",
+      "expression_id": "343",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          0.0,
+          -0.5,
+          5.6
+        ],
+        "max": [
+          12.0,
+          0.5,
+          8.0
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_344",
+      "obj_file": "meshes/JSONmeth_344.obj",
+      "color": "#6042a6",
+      "source_file": "JSONmeth.json",
+      "expression_id": "344",
+      "family": "Z_SLAB_REGION",
+      "bounds": {
+        "min": [
+          0.95,
+          -0.5,
+          7.76
+        ],
+        "max": [
+          1.2,
+          0.5,
+          8.0
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_350",
+      "obj_file": "meshes/JSONmeth_350.obj",
+      "color": "#aaaaaa",
+      "source_file": "JSONmeth.json",
+      "expression_id": "350",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          -12.0,
+          -8.0,
+          5.828000000000003
+        ],
+        "max": [
+          -10.8,
+          -7.0,
+          8.720000000000002
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_345",
+      "obj_file": "meshes/JSONmeth_345.obj",
+      "color": "#aaaaaa",
+      "source_file": "JSONmeth.json",
+      "expression_id": "345",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          -10.8,
+          -8.0,
+          6.0959999999999965
+        ],
+        "max": [
+          -9.6,
+          -7.0,
+          8.508
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_346",
+      "obj_file": "meshes/JSONmeth_346.obj",
+      "color": "#c74440",
+      "source_file": "JSONmeth.json",
+      "expression_id": "346",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          -9.6,
+          -8.0,
+          6.350000000000001
+        ],
+        "max": [
+          -8.4,
+          -7.0,
+          8.450000000000001
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_347",
+      "obj_file": "meshes/JSONmeth_347.obj",
+      "color": "#2d70b3",
+      "source_file": "JSONmeth.json",
+      "expression_id": "347",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          -8.4,
+          -8.0,
+          6.5600000000000005
+        ],
+        "max": [
+          -7.2,
+          -7.0,
+          8.420000000000002
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_355",
+      "obj_file": "meshes/JSONmeth_355.obj",
+      "color": "#aaaaaa",
+      "source_file": "JSONmeth.json",
+      "expression_id": "355",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          -7.2,
+          -8.0,
+          6.789999999999999
+        ],
+        "max": [
+          -6.0,
+          -7.0,
+          8.278
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_356",
+      "obj_file": "meshes/JSONmeth_356.obj",
+      "color": "#c74440",
+      "source_file": "JSONmeth.json",
+      "expression_id": "356",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          -6.0,
+          -8.0,
+          7.05
+        ],
+        "max": [
+          -4.8,
+          -7.0,
+          8.25
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_361",
+      "obj_file": "meshes/JSONmeth_361.obj",
+      "color": "#c74440",
+      "source_file": "JSONmeth.json",
+      "expression_id": "361",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          -4.8,
+          -8.0,
+          7.286
+        ],
+        "max": [
+          -3.6,
+          -7.0,
+          8.198
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_366",
+      "obj_file": "meshes/JSONmeth_366.obj",
+      "color": "#c74440",
+      "source_file": "JSONmeth.json",
+      "expression_id": "366",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          -3.6,
+          -8.0,
+          7.55
+        ],
+        "max": [
+          -2.4,
+          -7.0,
+          8.15
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_367",
+      "obj_file": "meshes/JSONmeth_367.obj",
+      "color": "#2d70b3",
+      "source_file": "JSONmeth.json",
+      "expression_id": "367",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          -2.4,
+          -8.0,
+          7.77
+        ],
+        "max": [
+          -1.2,
+          -7.0,
+          8.07
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_362",
+      "obj_file": "meshes/JSONmeth_362.obj",
+      "color": "#2d70b3",
+      "source_file": "JSONmeth.json",
+      "expression_id": "362",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          -12.0,
+          -0.5,
+          5.828000000000003
+        ],
+        "max": [
+          -10.8,
+          0.5,
+          8.720000000000002
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_363",
+      "obj_file": "meshes/JSONmeth_363.obj",
+      "color": "#388c46",
+      "source_file": "JSONmeth.json",
+      "expression_id": "363",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          -10.8,
+          -0.5,
+          6.0959999999999965
+        ],
+        "max": [
+          -9.6,
+          0.5,
+          8.508
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_368",
+      "obj_file": "meshes/JSONmeth_368.obj",
+      "color": "#388c46",
+      "source_file": "JSONmeth.json",
+      "expression_id": "368",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          -9.6,
+          -0.5,
+          6.350000000000001
+        ],
+        "max": [
+          -8.4,
+          0.5,
+          8.450000000000001
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_369",
+      "obj_file": "meshes/JSONmeth_369.obj",
+      "color": "#6042a6",
+      "source_file": "JSONmeth.json",
+      "expression_id": "369",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          -8.4,
+          -0.5,
+          6.5600000000000005
+        ],
+        "max": [
+          -7.2,
+          0.5,
+          8.420000000000002
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_370",
+      "obj_file": "meshes/JSONmeth_370.obj",
+      "color": "#aaaaaa",
+      "source_file": "JSONmeth.json",
+      "expression_id": "370",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          -7.2,
+          -0.5,
+          6.789999999999999
+        ],
+        "max": [
+          -6.0,
+          0.5,
+          8.278
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_371",
+      "obj_file": "meshes/JSONmeth_371.obj",
+      "color": "#c74440",
+      "source_file": "JSONmeth.json",
+      "expression_id": "371",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          -6.0,
+          -0.5,
+          7.05
+        ],
+        "max": [
+          -4.8,
+          0.5,
+          8.25
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_372",
+      "obj_file": "meshes/JSONmeth_372.obj",
+      "color": "#2d70b3",
+      "source_file": "JSONmeth.json",
+      "expression_id": "372",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          -4.8,
+          -0.5,
+          7.286
+        ],
+        "max": [
+          -3.6,
+          0.5,
+          8.198
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_373",
+      "obj_file": "meshes/JSONmeth_373.obj",
+      "color": "#388c46",
+      "source_file": "JSONmeth.json",
+      "expression_id": "373",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          -3.6,
+          -0.5,
+          7.55
+        ],
+        "max": [
+          -2.4,
+          0.5,
+          8.15
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_374",
+      "obj_file": "meshes/JSONmeth_374.obj",
+      "color": "#6042a6",
+      "source_file": "JSONmeth.json",
+      "expression_id": "374",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          -2.4,
+          -0.5,
+          7.77
+        ],
+        "max": [
+          -1.2,
+          0.5,
+          8.07
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_377",
+      "obj_file": "meshes/JSONmeth_377.obj",
+      "color": "#2d70b3",
+      "source_file": "JSONmeth.json",
+      "expression_id": "377",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          -12.0,
+          7.0,
+          5.828000000000003
+        ],
+        "max": [
+          -10.8,
+          8.0,
+          8.720000000000002
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_378",
+      "obj_file": "meshes/JSONmeth_378.obj",
+      "color": "#388c46",
+      "source_file": "JSONmeth.json",
+      "expression_id": "378",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          -10.8,
+          7.0,
+          6.0959999999999965
+        ],
+        "max": [
+          -9.6,
+          8.0,
+          8.508
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_379",
+      "obj_file": "meshes/JSONmeth_379.obj",
+      "color": "#6042a6",
+      "source_file": "JSONmeth.json",
+      "expression_id": "379",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          -9.6,
+          7.0,
+          6.350000000000001
+        ],
+        "max": [
+          -8.4,
+          8.0,
+          8.450000000000001
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_380",
+      "obj_file": "meshes/JSONmeth_380.obj",
+      "color": "#aaaaaa",
+      "source_file": "JSONmeth.json",
+      "expression_id": "380",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          -8.4,
+          7.0,
+          6.5600000000000005
+        ],
+        "max": [
+          -7.2,
+          8.0,
+          8.420000000000002
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_381",
+      "obj_file": "meshes/JSONmeth_381.obj",
+      "color": "#c74440",
+      "source_file": "JSONmeth.json",
+      "expression_id": "381",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          -7.2,
+          7.0,
+          6.789999999999999
+        ],
+        "max": [
+          -6.0,
+          8.0,
+          8.278
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_382",
+      "obj_file": "meshes/JSONmeth_382.obj",
+      "color": "#2d70b3",
+      "source_file": "JSONmeth.json",
+      "expression_id": "382",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          -6.0,
+          7.0,
+          7.05
+        ],
+        "max": [
+          -4.8,
+          8.0,
+          8.25
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_383",
+      "obj_file": "meshes/JSONmeth_383.obj",
+      "color": "#388c46",
+      "source_file": "JSONmeth.json",
+      "expression_id": "383",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          -4.8,
+          7.0,
+          7.286
+        ],
+        "max": [
+          -3.6,
+          8.0,
+          8.198
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_384",
+      "obj_file": "meshes/JSONmeth_384.obj",
+      "color": "#6042a6",
+      "source_file": "JSONmeth.json",
+      "expression_id": "384",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          -3.6,
+          7.0,
+          7.55
+        ],
+        "max": [
+          -2.4,
+          8.0,
+          8.15
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_385",
+      "obj_file": "meshes/JSONmeth_385.obj",
+      "color": "#aaaaaa",
+      "source_file": "JSONmeth.json",
+      "expression_id": "385",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          -2.4,
+          7.0,
+          7.77
+        ],
+        "max": [
+          -1.2,
+          8.0,
+          8.07
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_387",
+      "obj_file": "meshes/JSONmeth_387.obj",
+      "color": "#2d70b3",
+      "source_file": "JSONmeth.json",
+      "expression_id": "387",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          10.8,
+          -8.0,
+          5.828000000000003
+        ],
+        "max": [
+          12.0,
+          -7.0,
+          8.720000000000002
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_388",
+      "obj_file": "meshes/JSONmeth_388.obj",
+      "color": "#388c46",
+      "source_file": "JSONmeth.json",
+      "expression_id": "388",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          9.6,
+          -8.0,
+          6.0959999999999965
+        ],
+        "max": [
+          10.8,
+          -7.0,
+          8.508
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_389",
+      "obj_file": "meshes/JSONmeth_389.obj",
+      "color": "#6042a6",
+      "source_file": "JSONmeth.json",
+      "expression_id": "389",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          8.4,
+          -8.0,
+          6.350000000000001
+        ],
+        "max": [
+          9.6,
+          -7.0,
+          8.450000000000001
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_390",
+      "obj_file": "meshes/JSONmeth_390.obj",
+      "color": "#aaaaaa",
+      "source_file": "JSONmeth.json",
+      "expression_id": "390",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          7.2,
+          -8.0,
+          6.5600000000000005
+        ],
+        "max": [
+          8.4,
+          -7.0,
+          8.420000000000002
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_391",
+      "obj_file": "meshes/JSONmeth_391.obj",
+      "color": "#c74440",
+      "source_file": "JSONmeth.json",
+      "expression_id": "391",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          6.0,
+          -8.0,
+          6.789999999999999
+        ],
+        "max": [
+          7.2,
+          -7.0,
+          8.278
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_392",
+      "obj_file": "meshes/JSONmeth_392.obj",
+      "color": "#2d70b3",
+      "source_file": "JSONmeth.json",
+      "expression_id": "392",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          4.8,
+          -8.0,
+          7.05
+        ],
+        "max": [
+          6.0,
+          -7.0,
+          8.25
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_393",
+      "obj_file": "meshes/JSONmeth_393.obj",
+      "color": "#388c46",
+      "source_file": "JSONmeth.json",
+      "expression_id": "393",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          3.6,
+          -8.0,
+          7.286
+        ],
+        "max": [
+          4.8,
+          -7.0,
+          8.198
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_394",
+      "obj_file": "meshes/JSONmeth_394.obj",
+      "color": "#6042a6",
+      "source_file": "JSONmeth.json",
+      "expression_id": "394",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          2.4,
+          -8.0,
+          7.55
+        ],
+        "max": [
+          3.6,
+          -7.0,
+          8.15
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_395",
+      "obj_file": "meshes/JSONmeth_395.obj",
+      "color": "#aaaaaa",
+      "source_file": "JSONmeth.json",
+      "expression_id": "395",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          1.2,
+          -8.0,
+          7.77
+        ],
+        "max": [
+          2.4,
+          -7.0,
+          8.07
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_397",
+      "obj_file": "meshes/JSONmeth_397.obj",
+      "color": "#2d70b3",
+      "source_file": "JSONmeth.json",
+      "expression_id": "397",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          10.8,
+          -0.5,
+          5.828000000000003
+        ],
+        "max": [
+          12.0,
+          0.5,
+          8.720000000000002
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_398",
+      "obj_file": "meshes/JSONmeth_398.obj",
+      "color": "#388c46",
+      "source_file": "JSONmeth.json",
+      "expression_id": "398",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          9.6,
+          -0.5,
+          6.0959999999999965
+        ],
+        "max": [
+          10.8,
+          0.5,
+          8.508
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_399",
+      "obj_file": "meshes/JSONmeth_399.obj",
+      "color": "#6042a6",
+      "source_file": "JSONmeth.json",
+      "expression_id": "399",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          8.4,
+          -0.5,
+          6.350000000000001
+        ],
+        "max": [
+          9.6,
+          0.5,
+          8.450000000000001
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_400",
+      "obj_file": "meshes/JSONmeth_400.obj",
+      "color": "#aaaaaa",
+      "source_file": "JSONmeth.json",
+      "expression_id": "400",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          7.2,
+          -0.5,
+          6.5600000000000005
+        ],
+        "max": [
+          8.4,
+          0.5,
+          8.420000000000002
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_401",
+      "obj_file": "meshes/JSONmeth_401.obj",
+      "color": "#c74440",
+      "source_file": "JSONmeth.json",
+      "expression_id": "401",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          6.0,
+          -0.5,
+          6.789999999999999
+        ],
+        "max": [
+          7.2,
+          0.5,
+          8.278
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_402",
+      "obj_file": "meshes/JSONmeth_402.obj",
+      "color": "#2d70b3",
+      "source_file": "JSONmeth.json",
+      "expression_id": "402",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          4.8,
+          -0.5,
+          7.05
+        ],
+        "max": [
+          6.0,
+          0.5,
+          8.25
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_403",
+      "obj_file": "meshes/JSONmeth_403.obj",
+      "color": "#388c46",
+      "source_file": "JSONmeth.json",
+      "expression_id": "403",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          3.6,
+          -0.5,
+          7.286
+        ],
+        "max": [
+          4.8,
+          0.5,
+          8.198
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_404",
+      "obj_file": "meshes/JSONmeth_404.obj",
+      "color": "#6042a6",
+      "source_file": "JSONmeth.json",
+      "expression_id": "404",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          2.4,
+          -0.5,
+          7.55
+        ],
+        "max": [
+          3.6,
+          0.5,
+          8.15
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_405",
+      "obj_file": "meshes/JSONmeth_405.obj",
+      "color": "#aaaaaa",
+      "source_file": "JSONmeth.json",
+      "expression_id": "405",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          1.2,
+          -0.5,
+          7.77
+        ],
+        "max": [
+          2.4,
+          0.5,
+          8.07
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_407",
+      "obj_file": "meshes/JSONmeth_407.obj",
+      "color": "#2d70b3",
+      "source_file": "JSONmeth.json",
+      "expression_id": "407",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          10.8,
+          7.0,
+          5.828000000000003
+        ],
+        "max": [
+          12.0,
+          8.0,
+          8.720000000000002
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_408",
+      "obj_file": "meshes/JSONmeth_408.obj",
+      "color": "#388c46",
+      "source_file": "JSONmeth.json",
+      "expression_id": "408",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          9.6,
+          7.0,
+          6.0959999999999965
+        ],
+        "max": [
+          10.8,
+          8.0,
+          8.508
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_411",
+      "obj_file": "meshes/JSONmeth_411.obj",
+      "color": "#c74440",
+      "source_file": "JSONmeth.json",
+      "expression_id": "411",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          8.4,
+          7.0,
+          6.350000000000001
+        ],
+        "max": [
+          9.6,
+          8.0,
+          8.450000000000001
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_410",
+      "obj_file": "meshes/JSONmeth_410.obj",
+      "color": "#aaaaaa",
+      "source_file": "JSONmeth.json",
+      "expression_id": "410",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          7.2,
+          7.0,
+          6.5600000000000005
+        ],
+        "max": [
+          8.4,
+          8.0,
+          8.420000000000002
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_412",
+      "obj_file": "meshes/JSONmeth_412.obj",
+      "color": "#2d70b3",
+      "source_file": "JSONmeth.json",
+      "expression_id": "412",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          6.0,
+          7.0,
+          6.789999999999999
+        ],
+        "max": [
+          7.2,
+          8.0,
+          8.278
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_413",
+      "obj_file": "meshes/JSONmeth_413.obj",
+      "color": "#388c46",
+      "source_file": "JSONmeth.json",
+      "expression_id": "413",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          4.8,
+          7.0,
+          7.05
+        ],
+        "max": [
+          6.0,
+          8.0,
+          8.25
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_414",
+      "obj_file": "meshes/JSONmeth_414.obj",
+      "color": "#6042a6",
+      "source_file": "JSONmeth.json",
+      "expression_id": "414",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          3.6,
+          7.0,
+          7.286
+        ],
+        "max": [
+          4.8,
+          8.0,
+          8.198
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_415",
+      "obj_file": "meshes/JSONmeth_415.obj",
+      "color": "#aaaaaa",
+      "source_file": "JSONmeth.json",
+      "expression_id": "415",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          2.4,
+          7.0,
+          7.55
+        ],
+        "max": [
+          3.6,
+          8.0,
+          8.15
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_416",
+      "obj_file": "meshes/JSONmeth_416.obj",
+      "color": "#c74440",
+      "source_file": "JSONmeth.json",
+      "expression_id": "416",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          1.2,
+          7.0,
+          7.77
+        ],
+        "max": [
+          2.4,
+          8.0,
+          8.07
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_1026",
+      "obj_file": "meshes/JSONmeth_1026.obj",
+      "color": "#2d70b3",
+      "source_file": "JSONmeth.json",
+      "expression_id": "1026",
+      "family": "CONSTANT_PLANE",
+      "bounds": {
+        "min": [
+          -15.0,
+          8.0,
+          9.0
+        ],
+        "max": [
+          15.0,
+          8.0,
+          11.0
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_1027",
+      "obj_file": "meshes/JSONmeth_1027.obj",
+      "color": "#2d70b3",
+      "source_file": "JSONmeth.json",
+      "expression_id": "1027",
+      "family": "CONSTANT_PLANE",
+      "bounds": {
+        "min": [
+          -15.0,
+          -8.0,
+          9.0
+        ],
+        "max": [
+          15.0,
+          -8.0,
+          11.0
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_430",
+      "obj_file": "meshes/JSONmeth_430.obj",
+      "color": "#6042a6",
+      "source_file": "JSONmeth.json",
+      "expression_id": "430",
+      "family": "Z_SLAB_REGION",
+      "bounds": {
+        "min": [
+          -15.0,
+          -6.0,
+          34.0
+        ],
+        "max": [
+          15.0,
+          -3.0,
+          35.0
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_429",
+      "obj_file": "meshes/JSONmeth_429.obj",
+      "color": "#2d70b3",
+      "source_file": "JSONmeth.json",
+      "expression_id": "429",
+      "family": "Z_SLAB_REGION",
+      "bounds": {
+        "min": [
+          -15.0,
+          -6.0,
+          37.5
+        ],
+        "max": [
+          15.0,
+          -3.0,
+          38.0
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_434",
+      "obj_file": "meshes/JSONmeth_434.obj",
+      "color": "#2d70b3",
+      "source_file": "JSONmeth.json",
+      "expression_id": "434",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          -14.8976310582417,
+          -6.0,
+          35.3071068252749
+        ],
+        "max": [
+          -14.374317221044649,
+          -5.5,
+          36.87704833686605
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_439",
+      "obj_file": "meshes/JSONmeth_439.obj",
+      "color": "#2d70b3",
+      "source_file": "JSONmeth.json",
+      "expression_id": "439",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          -14.8976310582417,
+          -6.0,
+          35.62295166313395
+        ],
+        "max": [
+          -14.374317221044649,
+          -5.5,
+          37.1928931747251
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_440",
+      "obj_file": "meshes/JSONmeth_440.obj",
+      "color": "#388c46",
+      "source_file": "JSONmeth.json",
+      "expression_id": "440",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          -13.851003383847598,
+          -6.0,
+          35.94698984845721
+        ],
+        "max": [
+          -13.851003383847598,
+          -5.5,
+          35.94698984845721
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_441",
+      "obj_file": "meshes/JSONmeth_441.obj",
+      "color": "#6042a6",
+      "source_file": "JSONmeth.json",
+      "expression_id": "441",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          -13.851003383847598,
+          -6.0,
+          36.55301015154279
+        ],
+        "max": [
+          -13.851003383847598,
+          -5.5,
+          36.55301015154279
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_442",
+      "obj_file": "meshes/JSONmeth_442.obj",
+      "color": "#aaaaaa",
+      "source_file": "JSONmeth.json",
+      "expression_id": "442",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          -13.327689546650554,
+          -6.0,
+          35.01693136004834
+        ],
+        "max": [
+          -12.804375709453502,
+          -5.5,
+          36.58687287163949
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_443",
+      "obj_file": "meshes/JSONmeth_443.obj",
+      "color": "#388c46",
+      "source_file": "JSONmeth.json",
+      "expression_id": "443",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          -13.327689546650554,
+          -6.0,
+          35.91312712836051
+        ],
+        "max": [
+          -12.804375709453502,
+          -5.5,
+          37.48306863995166
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_444",
+      "obj_file": "meshes/JSONmeth_444.obj",
+      "color": "#2d70b3",
+      "source_file": "JSONmeth.json",
+      "expression_id": "444",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          -12.281061872256451,
+          -6.0,
+          35.656814383230646
+        ],
+        "max": [
+          -11.757748035059407,
+          -5.5,
+          37.22675589482178
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_445",
+      "obj_file": "meshes/JSONmeth_445.obj",
+      "color": "#388c46",
+      "source_file": "JSONmeth.json",
+      "expression_id": "445",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          -12.281061872256451,
+          -6.0,
+          35.27324410517822
+        ],
+        "max": [
+          -11.757748035059407,
+          -5.5,
+          36.843185616769354
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_446",
+      "obj_file": "meshes/JSONmeth_446.obj",
+      "color": "#6042a6",
+      "source_file": "JSONmeth.json",
+      "expression_id": "446",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          -11.234434197862356,
+          -6.0,
+          36.29669740641293
+        ],
+        "max": [
+          -11.234434197862356,
+          -5.5,
+          36.29669740641293
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_447",
+      "obj_file": "meshes/JSONmeth_447.obj",
+      "color": "#aaaaaa",
+      "source_file": "JSONmeth.json",
+      "expression_id": "447",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          -11.234434197862356,
+          -6.0,
+          36.20330259358707
+        ],
+        "max": [
+          -11.234434197862356,
+          -5.5,
+          36.20330259358707
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_448",
+      "obj_file": "meshes/JSONmeth_448.obj",
+      "color": "#c74440",
+      "source_file": "JSONmeth.json",
+      "expression_id": "448",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          -10.711120360665305,
+          -6.0,
+          35.366638918004085
+        ],
+        "max": [
+          -10.187806523468254,
+          -5.5,
+          36.93658042959524
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_450",
+      "obj_file": "meshes/JSONmeth_450.obj",
+      "color": "#388c46",
+      "source_file": "JSONmeth.json",
+      "expression_id": "450",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          -10.711120360665305,
+          -6.0,
+          35.56341957040476
+        ],
+        "max": [
+          -10.187806523468254,
+          -5.5,
+          37.133361081995915
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_431",
+      "obj_file": "meshes/JSONmeth_431.obj",
+      "color": "#c74440",
+      "source_file": "JSONmeth.json",
+      "expression_id": "431",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -10.0,
+          -6.25,
+          35.0
+        ],
+        "max": [
+          -7.0,
+          -5.5,
+          38.25
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_459",
+      "obj_file": "meshes/JSONmeth_459.obj",
+      "color": "#2d70b3",
+      "source_file": "JSONmeth.json",
+      "expression_id": "459",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          -6.52460966308891,
+          -6.0,
+          36.42617101073327
+        ],
+        "max": [
+          -6.52460966308891,
+          -5.5,
+          36.42617101073327
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_451",
+      "obj_file": "meshes/JSONmeth_451.obj",
+      "color": "#6042a6",
+      "source_file": "JSONmeth.json",
+      "expression_id": "451",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          -6.52460966308891,
+          -6.0,
+          36.07382898926673
+        ],
+        "max": [
+          -6.52460966308891,
+          -5.5,
+          36.07382898926673
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_452",
+      "obj_file": "meshes/JSONmeth_452.obj",
+      "color": "#aaaaaa",
+      "source_file": "JSONmeth.json",
+      "expression_id": "452",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          -6.001295825891866,
+          -6.0,
+          35.4961125223244
+        ],
+        "max": [
+          -5.477981988694815,
+          -5.5,
+          37.066054033915556
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_453",
+      "obj_file": "meshes/JSONmeth_453.obj",
+      "color": "#c74440",
+      "source_file": "JSONmeth.json",
+      "expression_id": "453",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          -6.001295825891866,
+          -6.0,
+          35.433945966084444
+        ],
+        "max": [
+          -5.477981988694815,
+          -5.5,
+          37.0038874776756
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_454",
+      "obj_file": "meshes/JSONmeth_454.obj",
+      "color": "#2d70b3",
+      "source_file": "JSONmeth.json",
+      "expression_id": "454",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          -4.9546681514977635,
+          -6.0,
+          36.13599554550671
+        ],
+        "max": [
+          -4.9546681514977635,
+          -5.5,
+          36.13599554550671
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_455",
+      "obj_file": "meshes/JSONmeth_455.obj",
+      "color": "#388c46",
+      "source_file": "JSONmeth.json",
+      "expression_id": "455",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          -4.9546681514977635,
+          -6.0,
+          36.36400445449329
+        ],
+        "max": [
+          -4.9546681514977635,
+          -5.5,
+          36.36400445449329
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_456",
+      "obj_file": "meshes/JSONmeth_456.obj",
+      "color": "#6042a6",
+      "source_file": "JSONmeth.json",
+      "expression_id": "456",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          -4.431354314300712,
+          -6.0,
+          35.20593705709786
+        ],
+        "max": [
+          -3.908040477103661,
+          -5.5,
+          36.775878568689016
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_457",
+      "obj_file": "meshes/JSONmeth_457.obj",
+      "color": "#aaaaaa",
+      "source_file": "JSONmeth.json",
+      "expression_id": "457",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          -4.431354314300712,
+          -6.0,
+          35.724121431310984
+        ],
+        "max": [
+          -3.908040477103661,
+          -5.5,
+          37.29406294290214
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_458",
+      "obj_file": "meshes/JSONmeth_458.obj",
+      "color": "#c74440",
+      "source_file": "JSONmeth.json",
+      "expression_id": "458",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          -3.38472663990661,
+          -6.0,
+          35.84582008028017
+        ],
+        "max": [
+          -2.861412802709566,
+          -5.5,
+          37.4157615918713
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_460",
+      "obj_file": "meshes/JSONmeth_460.obj",
+      "color": "#388c46",
+      "source_file": "JSONmeth.json",
+      "expression_id": "460",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          -3.38472663990661,
+          -6.0,
+          35.0842384081287
+        ],
+        "max": [
+          -2.861412802709566,
+          -5.5,
+          36.65417991971983
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_461",
+      "obj_file": "meshes/JSONmeth_461.obj",
+      "color": "#c74440",
+      "source_file": "JSONmeth.json",
+      "expression_id": "461",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          -2.338098965512522,
+          -6.0,
+          36.485703103462434
+        ],
+        "max": [
+          -2.338098965512522,
+          -5.5,
+          36.485703103462434
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_462",
+      "obj_file": "meshes/JSONmeth_462.obj",
+      "color": "#c74440",
+      "source_file": "JSONmeth.json",
+      "expression_id": "462",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          -2.338098965512522,
+          -6.0,
+          36.014296896537566
+        ],
+        "max": [
+          -2.338098965512522,
+          -5.5,
+          36.014296896537566
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_193",
+      "obj_file": "meshes/JSONmeth_193.obj",
+      "color": "#2d70b3",
+      "source_file": "JSONmeth.json",
+      "expression_id": "193",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -2.0,
+          -6.25,
+          35.0
+        ],
+        "max": [
+          2.0,
+          -5.5,
+          38.0
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_463",
+      "obj_file": "meshes/JSONmeth_463.obj",
+      "color": "#c74440",
+      "source_file": "JSONmeth.json",
+      "expression_id": "463",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          2.3717255692609314,
+          -6.0,
+          36.115176707782794
+        ],
+        "max": [
+          2.3717255692609314,
+          -5.5,
+          36.115176707782794
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_464",
+      "obj_file": "meshes/JSONmeth_464.obj",
+      "color": "#2d70b3",
+      "source_file": "JSONmeth.json",
+      "expression_id": "464",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          2.3717255692609314,
+          -6.0,
+          36.384823292217206
+        ],
+        "max": [
+          2.3717255692609314,
+          -5.5,
+          36.384823292217206
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_465",
+      "obj_file": "meshes/JSONmeth_465.obj",
+      "color": "#388c46",
+      "source_file": "JSONmeth.json",
+      "expression_id": "465",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          2.8950394064579825,
+          -6.0,
+          35.18511821937395
+        ],
+        "max": [
+          3.4183532436550195,
+          -5.5,
+          36.75505973096506
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_466",
+      "obj_file": "meshes/JSONmeth_466.obj",
+      "color": "#6042a6",
+      "source_file": "JSONmeth.json",
+      "expression_id": "466",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          2.8950394064579825,
+          -6.0,
+          35.74494026903494
+        ],
+        "max": [
+          3.4183532436550195,
+          -5.5,
+          37.31488178062605
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_467",
+      "obj_file": "meshes/JSONmeth_467.obj",
+      "color": "#aaaaaa",
+      "source_file": "JSONmeth.json",
+      "expression_id": "467",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          3.9416670808520706,
+          -6.0,
+          35.82500124255621
+        ],
+        "max": [
+          4.464980918049122,
+          -5.5,
+          37.394942754147365
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_468",
+      "obj_file": "meshes/JSONmeth_468.obj",
+      "color": "#c74440",
+      "source_file": "JSONmeth.json",
+      "expression_id": "468",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          3.9416670808520706,
+          -6.0,
+          35.105057245852635
+        ],
+        "max": [
+          4.464980918049122,
+          -5.5,
+          36.67499875744379
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_469",
+      "obj_file": "meshes/JSONmeth_469.obj",
+      "color": "#2d70b3",
+      "source_file": "JSONmeth.json",
+      "expression_id": "469",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          4.988294755246173,
+          -6.0,
+          36.46488426573852
+        ],
+        "max": [
+          4.988294755246173,
+          -5.5,
+          36.46488426573852
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_470",
+      "obj_file": "meshes/JSONmeth_470.obj",
+      "color": "#388c46",
+      "source_file": "JSONmeth.json",
+      "expression_id": "470",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          4.988294755246173,
+          -6.0,
+          36.03511573426148
+        ],
+        "max": [
+          4.988294755246173,
+          -5.5,
+          36.03511573426148
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_471",
+      "obj_file": "meshes/JSONmeth_471.obj",
+      "color": "#6042a6",
+      "source_file": "JSONmeth.json",
+      "expression_id": "471",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          5.511608592443224,
+          -6.0,
+          35.53482577732967
+        ],
+        "max": [
+          6.034922429640275,
+          -5.5,
+          37.104767288920826
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_472",
+      "obj_file": "meshes/JSONmeth_472.obj",
+      "color": "#aaaaaa",
+      "source_file": "JSONmeth.json",
+      "expression_id": "472",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          5.511608592443224,
+          -6.0,
+          35.395232711079174
+        ],
+        "max": [
+          6.034922429640275,
+          -5.5,
+          36.96517422267033
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_473",
+      "obj_file": "meshes/JSONmeth_473.obj",
+      "color": "#c74440",
+      "source_file": "JSONmeth.json",
+      "expression_id": "473",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          6.558236266837326,
+          -6.0,
+          36.17470880051198
+        ],
+        "max": [
+          6.558236266837326,
+          -5.5,
+          36.17470880051198
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_474",
+      "obj_file": "meshes/JSONmeth_474.obj",
+      "color": "#2d70b3",
+      "source_file": "JSONmeth.json",
+      "expression_id": "474",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          6.558236266837326,
+          -6.0,
+          36.32529119948802
+        ],
+        "max": [
+          6.558236266837326,
+          -5.5,
+          36.32529119948802
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_432",
+      "obj_file": "meshes/JSONmeth_432.obj",
+      "color": "#2d70b3",
+      "source_file": "JSONmeth.json",
+      "expression_id": "432",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          7.0,
+          -6.25,
+          35.0
+        ],
+        "max": [
+          10.0,
+          -5.5,
+          38.25
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_475",
+      "obj_file": "meshes/JSONmeth_475.obj",
+      "color": "#388c46",
+      "source_file": "JSONmeth.json",
+      "expression_id": "475",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          10.22143312721667,
+          -6.0,
+          35.66429938165001
+        ],
+        "max": [
+          10.744746964413721,
+          -5.5,
+          37.234240893241164
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_476",
+      "obj_file": "meshes/JSONmeth_476.obj",
+      "color": "#6042a6",
+      "source_file": "JSONmeth.json",
+      "expression_id": "476",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          10.22143312721667,
+          -6.0,
+          35.265759106758836
+        ],
+        "max": [
+          10.744746964413721,
+          -5.5,
+          36.83570061834999
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_477",
+      "obj_file": "meshes/JSONmeth_477.obj",
+      "color": "#aaaaaa",
+      "source_file": "JSONmeth.json",
+      "expression_id": "477",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          11.268060801610773,
+          -6.0,
+          36.30418240483232
+        ],
+        "max": [
+          11.268060801610773,
+          -5.5,
+          36.30418240483232
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_478",
+      "obj_file": "meshes/JSONmeth_478.obj",
+      "color": "#c74440",
+      "source_file": "JSONmeth.json",
+      "expression_id": "478",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          11.268060801610773,
+          -6.0,
+          36.19581759516768
+        ],
+        "max": [
+          11.268060801610773,
+          -5.5,
+          36.19581759516768
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_479",
+      "obj_file": "meshes/JSONmeth_479.obj",
+      "color": "#2d70b3",
+      "source_file": "JSONmeth.json",
+      "expression_id": "479",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          11.791374638807824,
+          -6.0,
+          35.37412391642347
+        ],
+        "max": [
+          12.314688476004875,
+          -5.5,
+          36.944065428014625
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_480",
+      "obj_file": "meshes/JSONmeth_480.obj",
+      "color": "#388c46",
+      "source_file": "JSONmeth.json",
+      "expression_id": "480",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          11.791374638807824,
+          -6.0,
+          35.555934571985375
+        ],
+        "max": [
+          12.314688476004875,
+          -5.5,
+          37.12587608357653
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_481",
+      "obj_file": "meshes/JSONmeth_481.obj",
+      "color": "#6042a6",
+      "source_file": "JSONmeth.json",
+      "expression_id": "481",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          12.838002313201912,
+          -6.0,
+          36.014006939605736
+        ],
+        "max": [
+          12.838002313201912,
+          -5.5,
+          36.014006939605736
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_482",
+      "obj_file": "meshes/JSONmeth_482.obj",
+      "color": "#aaaaaa",
+      "source_file": "JSONmeth.json",
+      "expression_id": "482",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          12.838002313201912,
+          -6.0,
+          36.485993060394264
+        ],
+        "max": [
+          12.838002313201912,
+          -5.5,
+          36.485993060394264
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_483",
+      "obj_file": "meshes/JSONmeth_483.obj",
+      "color": "#c74440",
+      "source_file": "JSONmeth.json",
+      "expression_id": "483",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          13.361316150398963,
+          -6.0,
+          35.08394845119689
+        ],
+        "max": [
+          13.884629987596014,
+          -5.5,
+          36.65388996278804
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_484",
+      "obj_file": "meshes/JSONmeth_484.obj",
+      "color": "#2d70b3",
+      "source_file": "JSONmeth.json",
+      "expression_id": "484",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          13.361316150398963,
+          -6.0,
+          35.84611003721196
+        ],
+        "max": [
+          13.884629987596014,
+          -5.5,
+          37.41605154880311
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_485",
+      "obj_file": "meshes/JSONmeth_485.obj",
+      "color": "#388c46",
+      "source_file": "JSONmeth.json",
+      "expression_id": "485",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          14.407943824793051,
+          -6.0,
+          35.72383147437915
+        ],
+        "max": [
+          14.931257661990102,
+          -5.5,
+          37.29377298597031
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_486",
+      "obj_file": "meshes/JSONmeth_486.obj",
+      "color": "#6042a6",
+      "source_file": "JSONmeth.json",
+      "expression_id": "486",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          14.407943824793051,
+          -6.0,
+          35.20622701402969
+        ],
+        "max": [
+          14.931257661990102,
+          -5.5,
+          36.77616852562085
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_494",
+      "obj_file": "meshes/JSONmeth_494.obj",
+      "color": "#c74440",
+      "source_file": "JSONmeth.json",
+      "expression_id": "494",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          -14.8976310582417,
+          -3.5,
+          35.3071068252749
+        ],
+        "max": [
+          -14.374317221044649,
+          -3.0,
+          36.87704833686605
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_495",
+      "obj_file": "meshes/JSONmeth_495.obj",
+      "color": "#2d70b3",
+      "source_file": "JSONmeth.json",
+      "expression_id": "495",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          -14.8976310582417,
+          -3.5,
+          35.62295166313395
+        ],
+        "max": [
+          -14.374317221044649,
+          -3.0,
+          37.1928931747251
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_503",
+      "obj_file": "meshes/JSONmeth_503.obj",
+      "color": "#aaaaaa",
+      "source_file": "JSONmeth.json",
+      "expression_id": "503",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          -13.851003383847598,
+          -3.5,
+          35.94698984845721
+        ],
+        "max": [
+          -13.851003383847598,
+          -3.0,
+          35.94698984845721
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_504",
+      "obj_file": "meshes/JSONmeth_504.obj",
+      "color": "#c74440",
+      "source_file": "JSONmeth.json",
+      "expression_id": "504",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          -13.851003383847598,
+          -3.5,
+          36.55301015154279
+        ],
+        "max": [
+          -13.851003383847598,
+          -3.0,
+          36.55301015154279
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_505",
+      "obj_file": "meshes/JSONmeth_505.obj",
+      "color": "#2d70b3",
+      "source_file": "JSONmeth.json",
+      "expression_id": "505",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          -13.327689546650554,
+          -3.5,
+          35.01693136004834
+        ],
+        "max": [
+          -12.804375709453502,
+          -3.0,
+          36.58687287163949
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_506",
+      "obj_file": "meshes/JSONmeth_506.obj",
+      "color": "#388c46",
+      "source_file": "JSONmeth.json",
+      "expression_id": "506",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          -13.327689546650554,
+          -3.5,
+          35.91312712836051
+        ],
+        "max": [
+          -12.804375709453502,
+          -3.0,
+          37.48306863995166
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_507",
+      "obj_file": "meshes/JSONmeth_507.obj",
+      "color": "#6042a6",
+      "source_file": "JSONmeth.json",
+      "expression_id": "507",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          -12.281061872256451,
+          -3.5,
+          35.656814383230646
+        ],
+        "max": [
+          -11.757748035059407,
+          -3.0,
+          37.22675589482178
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_508",
+      "obj_file": "meshes/JSONmeth_508.obj",
+      "color": "#aaaaaa",
+      "source_file": "JSONmeth.json",
+      "expression_id": "508",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          -12.281061872256451,
+          -3.5,
+          35.27324410517822
+        ],
+        "max": [
+          -11.757748035059407,
+          -3.0,
+          36.843185616769354
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_509",
+      "obj_file": "meshes/JSONmeth_509.obj",
+      "color": "#c74440",
+      "source_file": "JSONmeth.json",
+      "expression_id": "509",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          -11.234434197862356,
+          -3.5,
+          36.29669740641293
+        ],
+        "max": [
+          -11.234434197862356,
+          -3.0,
+          36.29669740641293
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_510",
+      "obj_file": "meshes/JSONmeth_510.obj",
+      "color": "#2d70b3",
+      "source_file": "JSONmeth.json",
+      "expression_id": "510",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          -11.234434197862356,
+          -3.5,
+          36.20330259358707
+        ],
+        "max": [
+          -11.234434197862356,
+          -3.0,
+          36.20330259358707
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_511",
+      "obj_file": "meshes/JSONmeth_511.obj",
+      "color": "#388c46",
+      "source_file": "JSONmeth.json",
+      "expression_id": "511",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          -10.711120360665305,
+          -3.5,
+          35.366638918004085
+        ],
+        "max": [
+          -10.187806523468254,
+          -3.0,
+          36.93658042959524
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_512",
+      "obj_file": "meshes/JSONmeth_512.obj",
+      "color": "#6042a6",
+      "source_file": "JSONmeth.json",
+      "expression_id": "512",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          -10.711120360665305,
+          -3.5,
+          35.56341957040476
+        ],
+        "max": [
+          -10.187806523468254,
+          -3.0,
+          37.133361081995915
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_546",
+      "obj_file": "meshes/JSONmeth_546.obj",
+      "color": "#388c46",
+      "source_file": "JSONmeth.json",
+      "expression_id": "546",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          -9.66449268627121,
+          -3.5,
+          36.00652194118637
+        ],
+        "max": [
+          -9.66449268627121,
+          -3.0,
+          36.00652194118637
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_547",
+      "obj_file": "meshes/JSONmeth_547.obj",
+      "color": "#6042a6",
+      "source_file": "JSONmeth.json",
+      "expression_id": "547",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          -9.66449268627121,
+          -3.5,
+          36.49347805881363
+        ],
+        "max": [
+          -9.66449268627121,
+          -3.0,
+          36.49347805881363
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_696",
+      "obj_file": "meshes/JSONmeth_696.obj",
+      "color": "#2d70b3",
+      "source_file": "JSONmeth.json",
+      "expression_id": "696",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          -9.141178849074159,
+          -3.5,
+          35.076463452777524
+        ],
+        "max": [
+          -8.617865011877107,
+          -3.0,
+          36.64640496436868
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_697",
+      "obj_file": "meshes/JSONmeth_697.obj",
+      "color": "#388c46",
+      "source_file": "JSONmeth.json",
+      "expression_id": "697",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          -9.141178849074159,
+          -3.5,
+          35.85359503563132
+        ],
+        "max": [
+          -8.617865011877107,
+          -3.0,
+          37.423536547222476
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_698",
+      "obj_file": "meshes/JSONmeth_698.obj",
+      "color": "#6042a6",
+      "source_file": "JSONmeth.json",
+      "expression_id": "698",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          -8.094551174680056,
+          -3.5,
+          35.71634647595983
+        ],
+        "max": [
+          -7.571237337483012,
+          -3.0,
+          37.28628798755096
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_699",
+      "obj_file": "meshes/JSONmeth_699.obj",
+      "color": "#aaaaaa",
+      "source_file": "JSONmeth.json",
+      "expression_id": "699",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          -8.094551174680056,
+          -3.5,
+          35.21371201244904
+        ],
+        "max": [
+          -7.571237337483012,
+          -3.0,
+          36.78365352404017
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_700",
+      "obj_file": "meshes/JSONmeth_700.obj",
+      "color": "#c74440",
+      "source_file": "JSONmeth.json",
+      "expression_id": "700",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          -7.047923500285961,
+          -3.5,
+          36.35622949914212
+        ],
+        "max": [
+          -7.047923500285961,
+          -3.0,
+          36.35622949914212
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_701",
+      "obj_file": "meshes/JSONmeth_701.obj",
+      "color": "#2d70b3",
+      "source_file": "JSONmeth.json",
+      "expression_id": "701",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          -7.047923500285961,
+          -3.5,
+          36.14377050085788
+        ],
+        "max": [
+          -7.047923500285961,
+          -3.0,
+          36.14377050085788
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_702",
+      "obj_file": "meshes/JSONmeth_702.obj",
+      "color": "#388c46",
+      "source_file": "JSONmeth.json",
+      "expression_id": "702",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          -6.52460966308891,
+          -3.5,
+          35.42617101073327
+        ],
+        "max": [
+          -6.001295825891866,
+          -3.0,
+          36.9961125223244
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_703",
+      "obj_file": "meshes/JSONmeth_703.obj",
+      "color": "#6042a6",
+      "source_file": "JSONmeth.json",
+      "expression_id": "703",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          -6.52460966308891,
+          -3.5,
+          35.5038874776756
+        ],
+        "max": [
+          -6.001295825891866,
+          -3.0,
+          37.07382898926673
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_704",
+      "obj_file": "meshes/JSONmeth_704.obj",
+      "color": "#aaaaaa",
+      "source_file": "JSONmeth.json",
+      "expression_id": "704",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          -5.477981988694815,
+          -3.5,
+          36.066054033915556
+        ],
+        "max": [
+          -5.477981988694815,
+          -3.0,
+          36.066054033915556
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_705",
+      "obj_file": "meshes/JSONmeth_705.obj",
+      "color": "#c74440",
+      "source_file": "JSONmeth.json",
+      "expression_id": "705",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          -5.477981988694815,
+          -3.5,
+          36.433945966084444
+        ],
+        "max": [
+          -5.477981988694815,
+          -3.0,
+          36.433945966084444
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_706",
+      "obj_file": "meshes/JSONmeth_706.obj",
+      "color": "#2d70b3",
+      "source_file": "JSONmeth.json",
+      "expression_id": "706",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          -4.9546681514977635,
+          -3.5,
+          35.13599554550671
+        ],
+        "max": [
+          -4.431354314300712,
+          -3.0,
+          36.70593705709786
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_707",
+      "obj_file": "meshes/JSONmeth_707.obj",
+      "color": "#388c46",
+      "source_file": "JSONmeth.json",
+      "expression_id": "707",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          -4.9546681514977635,
+          -3.5,
+          35.79406294290214
+        ],
+        "max": [
+          -4.431354314300712,
+          -3.0,
+          37.36400445449329
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_708",
+      "obj_file": "meshes/JSONmeth_708.obj",
+      "color": "#6042a6",
+      "source_file": "JSONmeth.json",
+      "expression_id": "708",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          -3.908040477103661,
+          -3.5,
+          35.775878568689016
+        ],
+        "max": [
+          -3.38472663990661,
+          -3.0,
+          37.34582008028017
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_709",
+      "obj_file": "meshes/JSONmeth_709.obj",
+      "color": "#aaaaaa",
+      "source_file": "JSONmeth.json",
+      "expression_id": "709",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          -3.908040477103661,
+          -3.5,
+          35.15417991971983
+        ],
+        "max": [
+          -3.38472663990661,
+          -3.0,
+          36.724121431310984
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_710",
+      "obj_file": "meshes/JSONmeth_710.obj",
+      "color": "#c74440",
+      "source_file": "JSONmeth.json",
+      "expression_id": "710",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          -2.861412802709566,
+          -3.5,
+          36.4157615918713
+        ],
+        "max": [
+          -2.861412802709566,
+          -3.0,
+          36.4157615918713
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_711",
+      "obj_file": "meshes/JSONmeth_711.obj",
+      "color": "#2d70b3",
+      "source_file": "JSONmeth.json",
+      "expression_id": "711",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          -2.861412802709566,
+          -3.5,
+          36.0842384081287
+        ],
+        "max": [
+          -2.861412802709566,
+          -3.0,
+          36.0842384081287
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_712",
+      "obj_file": "meshes/JSONmeth_712.obj",
+      "color": "#388c46",
+      "source_file": "JSONmeth.json",
+      "expression_id": "712",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          -2.338098965512522,
+          -3.5,
+          35.485703103462434
+        ],
+        "max": [
+          -1.8147851283154708,
+          -3.0,
+          37.05564461505359
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_713",
+      "obj_file": "meshes/JSONmeth_713.obj",
+      "color": "#6042a6",
+      "source_file": "JSONmeth.json",
+      "expression_id": "713",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          -2.338098965512522,
+          -3.5,
+          35.44435538494641
+        ],
+        "max": [
+          -1.8147851283154708,
+          -3.0,
+          37.014296896537566
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_714",
+      "obj_file": "meshes/JSONmeth_714.obj",
+      "color": "#aaaaaa",
+      "source_file": "JSONmeth.json",
+      "expression_id": "714",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          -1.2914712911184196,
+          -3.5,
+          36.12558612664474
+        ],
+        "max": [
+          -1.2914712911184196,
+          -3.0,
+          36.12558612664474
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_715",
+      "obj_file": "meshes/JSONmeth_715.obj",
+      "color": "#c74440",
+      "source_file": "JSONmeth.json",
+      "expression_id": "715",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          -1.2914712911184196,
+          -3.5,
+          36.37441387335526
+        ],
+        "max": [
+          -1.2914712911184196,
+          -3.0,
+          36.37441387335526
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_716",
+      "obj_file": "meshes/JSONmeth_716.obj",
+      "color": "#2d70b3",
+      "source_file": "JSONmeth.json",
+      "expression_id": "716",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          -0.7681574539213685,
+          -3.5,
+          35.195527638235895
+        ],
+        "max": [
+          -0.24484361672431731,
+          -3.0,
+          36.76546914982705
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_717",
+      "obj_file": "meshes/JSONmeth_717.obj",
+      "color": "#388c46",
+      "source_file": "JSONmeth.json",
+      "expression_id": "717",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          -0.7681574539213685,
+          -3.5,
+          35.73453085017295
+        ],
+        "max": [
+          -0.24484361672431731,
+          -3.0,
+          37.304472361764105
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_718",
+      "obj_file": "meshes/JSONmeth_718.obj",
+      "color": "#6042a6",
+      "source_file": "JSONmeth.json",
+      "expression_id": "718",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          0.27847022047273384,
+          -3.5,
+          35.8354106614182
+        ],
+        "max": [
+          0.8017840576697779,
+          -3.0,
+          37.405352173009334
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_719",
+      "obj_file": "meshes/JSONmeth_719.obj",
+      "color": "#aaaaaa",
+      "source_file": "JSONmeth.json",
+      "expression_id": "719",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          0.27847022047273384,
+          -3.5,
+          35.094647826990666
+        ],
+        "max": [
+          0.8017840576697779,
+          -3.0,
+          36.6645893385818
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_720",
+      "obj_file": "meshes/JSONmeth_720.obj",
+      "color": "#c74440",
+      "source_file": "JSONmeth.json",
+      "expression_id": "720",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          1.325097894866829,
+          -3.5,
+          36.47529368460049
+        ],
+        "max": [
+          1.325097894866829,
+          -3.0,
+          36.47529368460049
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_721",
+      "obj_file": "meshes/JSONmeth_721.obj",
+      "color": "#2d70b3",
+      "source_file": "JSONmeth.json",
+      "expression_id": "721",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          1.325097894866829,
+          -3.5,
+          36.02470631539951
+        ],
+        "max": [
+          1.325097894866829,
+          -3.0,
+          36.02470631539951
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_722",
+      "obj_file": "meshes/JSONmeth_722.obj",
+      "color": "#388c46",
+      "source_file": "JSONmeth.json",
+      "expression_id": "722",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          1.8484117320638802,
+          -3.5,
+          35.54523519619164
+        ],
+        "max": [
+          2.3717255692609314,
+          -3.0,
+          37.115176707782794
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_726",
+      "obj_file": "meshes/JSONmeth_726.obj",
+      "color": "#2d70b3",
+      "source_file": "JSONmeth.json",
+      "expression_id": "726",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          1.8484117320638802,
+          -3.5,
+          35.384823292217206
+        ],
+        "max": [
+          2.3717255692609314,
+          -3.0,
+          36.95476480380836
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_727",
+      "obj_file": "meshes/JSONmeth_727.obj",
+      "color": "#388c46",
+      "source_file": "JSONmeth.json",
+      "expression_id": "727",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          2.8950394064579825,
+          -3.5,
+          36.18511821937395
+        ],
+        "max": [
+          2.8950394064579825,
+          -3.0,
+          36.18511821937395
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_728",
+      "obj_file": "meshes/JSONmeth_728.obj",
+      "color": "#6042a6",
+      "source_file": "JSONmeth.json",
+      "expression_id": "728",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          2.8950394064579825,
+          -3.5,
+          36.31488178062605
+        ],
+        "max": [
+          2.8950394064579825,
+          -3.0,
+          36.31488178062605
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_729",
+      "obj_file": "meshes/JSONmeth_729.obj",
+      "color": "#aaaaaa",
+      "source_file": "JSONmeth.json",
+      "expression_id": "729",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          3.4183532436550195,
+          -3.5,
+          35.25505973096506
+        ],
+        "max": [
+          3.9416670808520706,
+          -3.0,
+          36.82500124255621
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_730",
+      "obj_file": "meshes/JSONmeth_730.obj",
+      "color": "#c74440",
+      "source_file": "JSONmeth.json",
+      "expression_id": "730",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          3.4183532436550195,
+          -3.5,
+          35.67499875744379
+        ],
+        "max": [
+          3.9416670808520706,
+          -3.0,
+          37.24494026903494
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_731",
+      "obj_file": "meshes/JSONmeth_731.obj",
+      "color": "#2d70b3",
+      "source_file": "JSONmeth.json",
+      "expression_id": "731",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          4.464980918049122,
+          -3.5,
+          35.894942754147365
+        ],
+        "max": [
+          4.988294755246173,
+          -3.0,
+          37.46488426573852
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_732",
+      "obj_file": "meshes/JSONmeth_732.obj",
+      "color": "#388c46",
+      "source_file": "JSONmeth.json",
+      "expression_id": "732",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          4.464980918049122,
+          -3.5,
+          35.03511573426148
+        ],
+        "max": [
+          4.988294755246173,
+          -3.0,
+          36.605057245852635
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_723",
+      "obj_file": "meshes/JSONmeth_723.obj",
+      "color": "#6042a6",
+      "source_file": "JSONmeth.json",
+      "expression_id": "723",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          5.511608592443224,
+          -3.5,
+          36.53482577732967
+        ],
+        "max": [
+          5.511608592443224,
+          -3.0,
+          36.53482577732967
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_724",
+      "obj_file": "meshes/JSONmeth_724.obj",
+      "color": "#aaaaaa",
+      "source_file": "JSONmeth.json",
+      "expression_id": "724",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          5.511608592443224,
+          -3.5,
+          35.96517422267033
+        ],
+        "max": [
+          5.511608592443224,
+          -3.0,
+          35.96517422267033
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_725",
+      "obj_file": "meshes/JSONmeth_725.obj",
+      "color": "#c74440",
+      "source_file": "JSONmeth.json",
+      "expression_id": "725",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          6.034922429640275,
+          -3.5,
+          35.604767288920826
+        ],
+        "max": [
+          6.558236266837326,
+          -3.0,
+          37.17470880051198
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_733",
+      "obj_file": "meshes/JSONmeth_733.obj",
+      "color": "#6042a6",
+      "source_file": "JSONmeth.json",
+      "expression_id": "733",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          6.034922429640275,
+          -3.5,
+          35.32529119948802
+        ],
+        "max": [
+          6.558236266837326,
+          -3.0,
+          36.895232711079174
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_734",
+      "obj_file": "meshes/JSONmeth_734.obj",
+      "color": "#aaaaaa",
+      "source_file": "JSONmeth.json",
+      "expression_id": "734",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          7.081550104034363,
+          -3.5,
+          36.24465031210309
+        ],
+        "max": [
+          7.081550104034363,
+          -3.0,
+          36.24465031210309
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_735",
+      "obj_file": "meshes/JSONmeth_735.obj",
+      "color": "#c74440",
+      "source_file": "JSONmeth.json",
+      "expression_id": "735",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          7.081550104034363,
+          -3.5,
+          36.25534968789691
+        ],
+        "max": [
+          7.081550104034363,
+          -3.0,
+          36.25534968789691
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_736",
+      "obj_file": "meshes/JSONmeth_736.obj",
+      "color": "#2d70b3",
+      "source_file": "JSONmeth.json",
+      "expression_id": "736",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          7.6048639412314145,
+          -3.5,
+          35.31459182369424
+        ],
+        "max": [
+          8.128177778428466,
+          -3.0,
+          36.8845333352854
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_737",
+      "obj_file": "meshes/JSONmeth_737.obj",
+      "color": "#388c46",
+      "source_file": "JSONmeth.json",
+      "expression_id": "737",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          7.6048639412314145,
+          -3.5,
+          35.6154666647146
+        ],
+        "max": [
+          8.128177778428466,
+          -3.0,
+          37.18540817630576
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_738",
+      "obj_file": "meshes/JSONmeth_738.obj",
+      "color": "#6042a6",
+      "source_file": "JSONmeth.json",
+      "expression_id": "738",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          8.651491615625517,
+          -3.5,
+          35.95447484687655
+        ],
+        "max": [
+          8.651491615625517,
+          -3.0,
+          35.95447484687655
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_739",
+      "obj_file": "meshes/JSONmeth_739.obj",
+      "color": "#aaaaaa",
+      "source_file": "JSONmeth.json",
+      "expression_id": "739",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          8.651491615625517,
+          -3.5,
+          36.54552515312345
+        ],
+        "max": [
+          8.651491615625517,
+          -3.0,
+          36.54552515312345
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_740",
+      "obj_file": "meshes/JSONmeth_740.obj",
+      "color": "#c74440",
+      "source_file": "JSONmeth.json",
+      "expression_id": "740",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          9.174805452822568,
+          -3.5,
+          35.024416358467704
+        ],
+        "max": [
+          9.69811929001962,
+          -3.0,
+          36.59435787005886
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_741",
+      "obj_file": "meshes/JSONmeth_741.obj",
+      "color": "#2d70b3",
+      "source_file": "JSONmeth.json",
+      "expression_id": "741",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          9.174805452822568,
+          -3.5,
+          35.90564212994114
+        ],
+        "max": [
+          9.69811929001962,
+          -3.0,
+          37.475583641532296
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_742",
+      "obj_file": "meshes/JSONmeth_742.obj",
+      "color": "#388c46",
+      "source_file": "JSONmeth.json",
+      "expression_id": "742",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          10.22143312721667,
+          -3.5,
+          35.66429938165001
+        ],
+        "max": [
+          10.744746964413721,
+          -3.0,
+          37.234240893241164
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_743",
+      "obj_file": "meshes/JSONmeth_743.obj",
+      "color": "#6042a6",
+      "source_file": "JSONmeth.json",
+      "expression_id": "743",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          10.22143312721667,
+          -3.5,
+          35.265759106758836
+        ],
+        "max": [
+          10.744746964413721,
+          -3.0,
+          36.83570061834999
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_744",
+      "obj_file": "meshes/JSONmeth_744.obj",
+      "color": "#aaaaaa",
+      "source_file": "JSONmeth.json",
+      "expression_id": "744",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          11.268060801610773,
+          -3.5,
+          36.30418240483232
+        ],
+        "max": [
+          11.268060801610773,
+          -3.0,
+          36.30418240483232
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_745",
+      "obj_file": "meshes/JSONmeth_745.obj",
+      "color": "#c74440",
+      "source_file": "JSONmeth.json",
+      "expression_id": "745",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          11.268060801610773,
+          -3.5,
+          36.19581759516768
+        ],
+        "max": [
+          11.268060801610773,
+          -3.0,
+          36.19581759516768
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_746",
+      "obj_file": "meshes/JSONmeth_746.obj",
+      "color": "#2d70b3",
+      "source_file": "JSONmeth.json",
+      "expression_id": "746",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          11.791374638807824,
+          -3.5,
+          35.37412391642347
+        ],
+        "max": [
+          12.314688476004875,
+          -3.0,
+          36.944065428014625
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_752",
+      "obj_file": "meshes/JSONmeth_752.obj",
+      "color": "#388c46",
+      "source_file": "JSONmeth.json",
+      "expression_id": "752",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          11.791374638807824,
+          -3.5,
+          35.555934571985375
+        ],
+        "max": [
+          12.314688476004875,
+          -3.0,
+          37.12587608357653
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_748",
+      "obj_file": "meshes/JSONmeth_748.obj",
+      "color": "#6042a6",
+      "source_file": "JSONmeth.json",
+      "expression_id": "748",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          12.838002313201912,
+          -3.5,
+          36.014006939605736
+        ],
+        "max": [
+          12.838002313201912,
+          -3.0,
+          36.014006939605736
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_749",
+      "obj_file": "meshes/JSONmeth_749.obj",
+      "color": "#aaaaaa",
+      "source_file": "JSONmeth.json",
+      "expression_id": "749",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          12.838002313201912,
+          -3.5,
+          36.485993060394264
+        ],
+        "max": [
+          12.838002313201912,
+          -3.0,
+          36.485993060394264
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_750",
+      "obj_file": "meshes/JSONmeth_750.obj",
+      "color": "#c74440",
+      "source_file": "JSONmeth.json",
+      "expression_id": "750",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          13.361316150398963,
+          -3.5,
+          35.08394845119689
+        ],
+        "max": [
+          13.884629987596014,
+          -3.0,
+          36.65388996278804
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_751",
+      "obj_file": "meshes/JSONmeth_751.obj",
+      "color": "#2d70b3",
+      "source_file": "JSONmeth.json",
+      "expression_id": "751",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          13.361316150398963,
+          -3.5,
+          35.84611003721196
+        ],
+        "max": [
+          13.884629987596014,
+          -3.0,
+          37.41605154880311
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_753",
+      "obj_file": "meshes/JSONmeth_753.obj",
+      "color": "#6042a6",
+      "source_file": "JSONmeth.json",
+      "expression_id": "753",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          14.407943824793051,
+          -3.5,
+          35.72383147437915
+        ],
+        "max": [
+          14.931257661990102,
+          -3.0,
+          37.29377298597031
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_754",
+      "obj_file": "meshes/JSONmeth_754.obj",
+      "color": "#aaaaaa",
+      "source_file": "JSONmeth.json",
+      "expression_id": "754",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          14.407943824793051,
+          -3.5,
+          35.20622701402969
+        ],
+        "max": [
+          14.931257661990102,
+          -3.0,
+          36.77616852562085
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_304",
+      "obj_file": "meshes/JSONmeth_304.obj",
+      "color": "#6042a6",
+      "source_file": "JSONmeth.json",
+      "expression_id": "304",
+      "family": "Z_SLAB_REGION",
+      "bounds": {
+        "min": [
+          -15.0,
+          3.0,
+          34.0
+        ],
+        "max": [
+          15.0,
+          6.0,
+          35.0
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_548",
+      "obj_file": "meshes/JSONmeth_548.obj",
+      "color": "#aaaaaa",
+      "source_file": "JSONmeth.json",
+      "expression_id": "548",
+      "family": "Z_SLAB_REGION",
+      "bounds": {
+        "min": [
+          -15.0,
+          3.0,
+          37.5
+        ],
+        "max": [
+          15.0,
+          6.0,
+          38.0
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_562",
+      "obj_file": "meshes/JSONmeth_562.obj",
+      "color": "#6042a6",
+      "source_file": "JSONmeth.json",
+      "expression_id": "562",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          -14.8976310582417,
+          5.5,
+          35.3071068252749
+        ],
+        "max": [
+          -14.374317221044649,
+          6.0,
+          36.87704833686605
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_563",
+      "obj_file": "meshes/JSONmeth_563.obj",
+      "color": "#aaaaaa",
+      "source_file": "JSONmeth.json",
+      "expression_id": "563",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          -14.8976310582417,
+          5.5,
+          35.62295166313395
+        ],
+        "max": [
+          -14.374317221044649,
+          6.0,
+          37.1928931747251
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_564",
+      "obj_file": "meshes/JSONmeth_564.obj",
+      "color": "#c74440",
+      "source_file": "JSONmeth.json",
+      "expression_id": "564",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          -13.851003383847598,
+          5.5,
+          35.94698984845721
+        ],
+        "max": [
+          -13.851003383847598,
+          6.0,
+          35.94698984845721
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_565",
+      "obj_file": "meshes/JSONmeth_565.obj",
+      "color": "#2d70b3",
+      "source_file": "JSONmeth.json",
+      "expression_id": "565",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          -13.851003383847598,
+          5.5,
+          36.55301015154279
+        ],
+        "max": [
+          -13.851003383847598,
+          6.0,
+          36.55301015154279
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_566",
+      "obj_file": "meshes/JSONmeth_566.obj",
+      "color": "#388c46",
+      "source_file": "JSONmeth.json",
+      "expression_id": "566",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          -13.327689546650554,
+          5.5,
+          35.01693136004834
+        ],
+        "max": [
+          -12.804375709453502,
+          6.0,
+          36.58687287163949
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_567",
+      "obj_file": "meshes/JSONmeth_567.obj",
+      "color": "#6042a6",
+      "source_file": "JSONmeth.json",
+      "expression_id": "567",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          -13.327689546650554,
+          5.5,
+          35.91312712836051
+        ],
+        "max": [
+          -12.804375709453502,
+          6.0,
+          37.48306863995166
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_568",
+      "obj_file": "meshes/JSONmeth_568.obj",
+      "color": "#aaaaaa",
+      "source_file": "JSONmeth.json",
+      "expression_id": "568",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          -12.281061872256451,
+          5.5,
+          35.656814383230646
+        ],
+        "max": [
+          -11.757748035059407,
+          6.0,
+          37.22675589482178
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_569",
+      "obj_file": "meshes/JSONmeth_569.obj",
+      "color": "#c74440",
+      "source_file": "JSONmeth.json",
+      "expression_id": "569",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          -12.281061872256451,
+          5.5,
+          35.27324410517822
+        ],
+        "max": [
+          -11.757748035059407,
+          6.0,
+          36.843185616769354
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_570",
+      "obj_file": "meshes/JSONmeth_570.obj",
+      "color": "#2d70b3",
+      "source_file": "JSONmeth.json",
+      "expression_id": "570",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          -11.234434197862356,
+          5.5,
+          36.29669740641293
+        ],
+        "max": [
+          -11.234434197862356,
+          6.0,
+          36.29669740641293
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_571",
+      "obj_file": "meshes/JSONmeth_571.obj",
+      "color": "#388c46",
+      "source_file": "JSONmeth.json",
+      "expression_id": "571",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          -11.234434197862356,
+          5.5,
+          36.20330259358707
+        ],
+        "max": [
+          -11.234434197862356,
+          6.0,
+          36.20330259358707
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_572",
+      "obj_file": "meshes/JSONmeth_572.obj",
+      "color": "#6042a6",
+      "source_file": "JSONmeth.json",
+      "expression_id": "572",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          -10.711120360665305,
+          5.5,
+          35.366638918004085
+        ],
+        "max": [
+          -10.187806523468254,
+          6.0,
+          36.93658042959524
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_573",
+      "obj_file": "meshes/JSONmeth_573.obj",
+      "color": "#aaaaaa",
+      "source_file": "JSONmeth.json",
+      "expression_id": "573",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          -10.711120360665305,
+          5.5,
+          35.56341957040476
+        ],
+        "max": [
+          -10.187806523468254,
+          6.0,
+          37.133361081995915
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_549",
+      "obj_file": "meshes/JSONmeth_549.obj",
+      "color": "#aaaaaa",
+      "source_file": "JSONmeth.json",
+      "expression_id": "549",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -10.0,
+          5.5,
+          35.0
+        ],
+        "max": [
+          -7.0,
+          6.25,
+          38.25
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_574",
+      "obj_file": "meshes/JSONmeth_574.obj",
+      "color": "#c74440",
+      "source_file": "JSONmeth.json",
+      "expression_id": "574",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          -6.52460966308891,
+          5.5,
+          36.42617101073327
+        ],
+        "max": [
+          -6.52460966308891,
+          6.0,
+          36.42617101073327
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_575",
+      "obj_file": "meshes/JSONmeth_575.obj",
+      "color": "#2d70b3",
+      "source_file": "JSONmeth.json",
+      "expression_id": "575",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          -6.52460966308891,
+          5.5,
+          36.07382898926673
+        ],
+        "max": [
+          -6.52460966308891,
+          6.0,
+          36.07382898926673
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_576",
+      "obj_file": "meshes/JSONmeth_576.obj",
+      "color": "#388c46",
+      "source_file": "JSONmeth.json",
+      "expression_id": "576",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          -6.001295825891866,
+          5.5,
+          35.4961125223244
+        ],
+        "max": [
+          -5.477981988694815,
+          6.0,
+          37.066054033915556
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_577",
+      "obj_file": "meshes/JSONmeth_577.obj",
+      "color": "#6042a6",
+      "source_file": "JSONmeth.json",
+      "expression_id": "577",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          -6.001295825891866,
+          5.5,
+          35.433945966084444
+        ],
+        "max": [
+          -5.477981988694815,
+          6.0,
+          37.0038874776756
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_578",
+      "obj_file": "meshes/JSONmeth_578.obj",
+      "color": "#aaaaaa",
+      "source_file": "JSONmeth.json",
+      "expression_id": "578",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          -4.9546681514977635,
+          5.5,
+          36.13599554550671
+        ],
+        "max": [
+          -4.9546681514977635,
+          6.0,
+          36.13599554550671
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_579",
+      "obj_file": "meshes/JSONmeth_579.obj",
+      "color": "#c74440",
+      "source_file": "JSONmeth.json",
+      "expression_id": "579",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          -4.9546681514977635,
+          5.5,
+          36.36400445449329
+        ],
+        "max": [
+          -4.9546681514977635,
+          6.0,
+          36.36400445449329
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_580",
+      "obj_file": "meshes/JSONmeth_580.obj",
+      "color": "#2d70b3",
+      "source_file": "JSONmeth.json",
+      "expression_id": "580",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          -4.431354314300712,
+          5.5,
+          35.20593705709786
+        ],
+        "max": [
+          -3.908040477103661,
+          6.0,
+          36.775878568689016
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_581",
+      "obj_file": "meshes/JSONmeth_581.obj",
+      "color": "#388c46",
+      "source_file": "JSONmeth.json",
+      "expression_id": "581",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          -4.431354314300712,
+          5.5,
+          35.724121431310984
+        ],
+        "max": [
+          -3.908040477103661,
+          6.0,
+          37.29406294290214
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_582",
+      "obj_file": "meshes/JSONmeth_582.obj",
+      "color": "#6042a6",
+      "source_file": "JSONmeth.json",
+      "expression_id": "582",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          -3.38472663990661,
+          5.5,
+          35.84582008028017
+        ],
+        "max": [
+          -2.861412802709566,
+          6.0,
+          37.4157615918713
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_583",
+      "obj_file": "meshes/JSONmeth_583.obj",
+      "color": "#aaaaaa",
+      "source_file": "JSONmeth.json",
+      "expression_id": "583",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          -3.38472663990661,
+          5.5,
+          35.0842384081287
+        ],
+        "max": [
+          -2.861412802709566,
+          6.0,
+          36.65417991971983
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_584",
+      "obj_file": "meshes/JSONmeth_584.obj",
+      "color": "#c74440",
+      "source_file": "JSONmeth.json",
+      "expression_id": "584",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          -2.338098965512522,
+          5.5,
+          36.485703103462434
+        ],
+        "max": [
+          -2.338098965512522,
+          6.0,
+          36.485703103462434
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_585",
+      "obj_file": "meshes/JSONmeth_585.obj",
+      "color": "#2d70b3",
+      "source_file": "JSONmeth.json",
+      "expression_id": "585",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          -2.338098965512522,
+          5.5,
+          36.014296896537566
+        ],
+        "max": [
+          -2.338098965512522,
+          6.0,
+          36.014296896537566
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_560",
+      "obj_file": "meshes/JSONmeth_560.obj",
+      "color": "#2d70b3",
+      "source_file": "JSONmeth.json",
+      "expression_id": "560",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -2.0,
+          5.5,
+          35.0
+        ],
+        "max": [
+          2.0,
+          6.25,
+          38.0
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_586",
+      "obj_file": "meshes/JSONmeth_586.obj",
+      "color": "#388c46",
+      "source_file": "JSONmeth.json",
+      "expression_id": "586",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          2.3717255692609314,
+          5.5,
+          36.115176707782794
+        ],
+        "max": [
+          2.3717255692609314,
+          6.0,
+          36.115176707782794
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_587",
+      "obj_file": "meshes/JSONmeth_587.obj",
+      "color": "#6042a6",
+      "source_file": "JSONmeth.json",
+      "expression_id": "587",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          2.3717255692609314,
+          5.5,
+          36.384823292217206
+        ],
+        "max": [
+          2.3717255692609314,
+          6.0,
+          36.384823292217206
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_588",
+      "obj_file": "meshes/JSONmeth_588.obj",
+      "color": "#aaaaaa",
+      "source_file": "JSONmeth.json",
+      "expression_id": "588",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          2.8950394064579825,
+          5.5,
+          35.18511821937395
+        ],
+        "max": [
+          3.4183532436550195,
+          6.0,
+          36.75505973096506
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_589",
+      "obj_file": "meshes/JSONmeth_589.obj",
+      "color": "#c74440",
+      "source_file": "JSONmeth.json",
+      "expression_id": "589",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          2.8950394064579825,
+          5.5,
+          35.74494026903494
+        ],
+        "max": [
+          3.4183532436550195,
+          6.0,
+          37.31488178062605
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_590",
+      "obj_file": "meshes/JSONmeth_590.obj",
+      "color": "#2d70b3",
+      "source_file": "JSONmeth.json",
+      "expression_id": "590",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          3.9416670808520706,
+          5.5,
+          35.82500124255621
+        ],
+        "max": [
+          4.464980918049122,
+          6.0,
+          37.394942754147365
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_591",
+      "obj_file": "meshes/JSONmeth_591.obj",
+      "color": "#388c46",
+      "source_file": "JSONmeth.json",
+      "expression_id": "591",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          3.9416670808520706,
+          5.5,
+          35.105057245852635
+        ],
+        "max": [
+          4.464980918049122,
+          6.0,
+          36.67499875744379
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_592",
+      "obj_file": "meshes/JSONmeth_592.obj",
+      "color": "#6042a6",
+      "source_file": "JSONmeth.json",
+      "expression_id": "592",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          4.988294755246173,
+          5.5,
+          36.46488426573852
+        ],
+        "max": [
+          4.988294755246173,
+          6.0,
+          36.46488426573852
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_593",
+      "obj_file": "meshes/JSONmeth_593.obj",
+      "color": "#aaaaaa",
+      "source_file": "JSONmeth.json",
+      "expression_id": "593",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          4.988294755246173,
+          5.5,
+          36.03511573426148
+        ],
+        "max": [
+          4.988294755246173,
+          6.0,
+          36.03511573426148
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_594",
+      "obj_file": "meshes/JSONmeth_594.obj",
+      "color": "#c74440",
+      "source_file": "JSONmeth.json",
+      "expression_id": "594",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          5.511608592443224,
+          5.5,
+          35.53482577732967
+        ],
+        "max": [
+          6.034922429640275,
+          6.0,
+          37.104767288920826
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_595",
+      "obj_file": "meshes/JSONmeth_595.obj",
+      "color": "#2d70b3",
+      "source_file": "JSONmeth.json",
+      "expression_id": "595",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          5.511608592443224,
+          5.5,
+          35.395232711079174
+        ],
+        "max": [
+          6.034922429640275,
+          6.0,
+          36.96517422267033
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_596",
+      "obj_file": "meshes/JSONmeth_596.obj",
+      "color": "#388c46",
+      "source_file": "JSONmeth.json",
+      "expression_id": "596",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          6.558236266837326,
+          5.5,
+          36.17470880051198
+        ],
+        "max": [
+          6.558236266837326,
+          6.0,
+          36.17470880051198
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_597",
+      "obj_file": "meshes/JSONmeth_597.obj",
+      "color": "#6042a6",
+      "source_file": "JSONmeth.json",
+      "expression_id": "597",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          6.558236266837326,
+          5.5,
+          36.32529119948802
+        ],
+        "max": [
+          6.558236266837326,
+          6.0,
+          36.32529119948802
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_561",
+      "obj_file": "meshes/JSONmeth_561.obj",
+      "color": "#2d70b3",
+      "source_file": "JSONmeth.json",
+      "expression_id": "561",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          7.0,
+          5.5,
+          35.0
+        ],
+        "max": [
+          10.0,
+          6.25,
+          38.25
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_551",
+      "obj_file": "meshes/JSONmeth_551.obj",
+      "color": "#388c46",
+      "source_file": "JSONmeth.json",
+      "expression_id": "551",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          10.22143312721667,
+          5.5,
+          35.66429938165001
+        ],
+        "max": [
+          10.744746964413721,
+          6.0,
+          37.234240893241164
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_552",
+      "obj_file": "meshes/JSONmeth_552.obj",
+      "color": "#6042a6",
+      "source_file": "JSONmeth.json",
+      "expression_id": "552",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          10.22143312721667,
+          5.5,
+          35.265759106758836
+        ],
+        "max": [
+          10.744746964413721,
+          6.0,
+          36.83570061834999
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_553",
+      "obj_file": "meshes/JSONmeth_553.obj",
+      "color": "#aaaaaa",
+      "source_file": "JSONmeth.json",
+      "expression_id": "553",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          11.268060801610773,
+          5.5,
+          36.30418240483232
+        ],
+        "max": [
+          11.268060801610773,
+          6.0,
+          36.30418240483232
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_554",
+      "obj_file": "meshes/JSONmeth_554.obj",
+      "color": "#c74440",
+      "source_file": "JSONmeth.json",
+      "expression_id": "554",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          11.268060801610773,
+          5.5,
+          36.19581759516768
+        ],
+        "max": [
+          11.268060801610773,
+          6.0,
+          36.19581759516768
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_555",
+      "obj_file": "meshes/JSONmeth_555.obj",
+      "color": "#2d70b3",
+      "source_file": "JSONmeth.json",
+      "expression_id": "555",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          11.791374638807824,
+          5.5,
+          35.37412391642347
+        ],
+        "max": [
+          12.314688476004875,
+          6.0,
+          36.944065428014625
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_556",
+      "obj_file": "meshes/JSONmeth_556.obj",
+      "color": "#388c46",
+      "source_file": "JSONmeth.json",
+      "expression_id": "556",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          11.791374638807824,
+          5.5,
+          35.555934571985375
+        ],
+        "max": [
+          12.314688476004875,
+          6.0,
+          37.12587608357653
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_557",
+      "obj_file": "meshes/JSONmeth_557.obj",
+      "color": "#6042a6",
+      "source_file": "JSONmeth.json",
+      "expression_id": "557",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          12.838002313201912,
+          5.5,
+          36.014006939605736
+        ],
+        "max": [
+          12.838002313201912,
+          6.0,
+          36.014006939605736
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_558",
+      "obj_file": "meshes/JSONmeth_558.obj",
+      "color": "#aaaaaa",
+      "source_file": "JSONmeth.json",
+      "expression_id": "558",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          12.838002313201912,
+          5.5,
+          36.485993060394264
+        ],
+        "max": [
+          12.838002313201912,
+          6.0,
+          36.485993060394264
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_559",
+      "obj_file": "meshes/JSONmeth_559.obj",
+      "color": "#c74440",
+      "source_file": "JSONmeth.json",
+      "expression_id": "559",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          13.361316150398963,
+          5.5,
+          35.08394845119689
+        ],
+        "max": [
+          13.884629987596014,
+          6.0,
+          36.65388996278804
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_598",
+      "obj_file": "meshes/JSONmeth_598.obj",
+      "color": "#aaaaaa",
+      "source_file": "JSONmeth.json",
+      "expression_id": "598",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          13.361316150398963,
+          5.5,
+          35.84611003721196
+        ],
+        "max": [
+          13.884629987596014,
+          6.0,
+          37.41605154880311
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_599",
+      "obj_file": "meshes/JSONmeth_599.obj",
+      "color": "#c74440",
+      "source_file": "JSONmeth.json",
+      "expression_id": "599",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          14.407943824793051,
+          5.5,
+          35.72383147437915
+        ],
+        "max": [
+          14.931257661990102,
+          6.0,
+          37.29377298597031
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_600",
+      "obj_file": "meshes/JSONmeth_600.obj",
+      "color": "#2d70b3",
+      "source_file": "JSONmeth.json",
+      "expression_id": "600",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          14.407943824793051,
+          5.5,
+          35.20622701402969
+        ],
+        "max": [
+          14.931257661990102,
+          6.0,
+          36.77616852562085
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_602",
+      "obj_file": "meshes/JSONmeth_602.obj",
+      "color": "#388c46",
+      "source_file": "JSONmeth.json",
+      "expression_id": "602",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          -14.8976310582417,
+          3.0,
+          35.3071068252749
+        ],
+        "max": [
+          -14.374317221044649,
+          3.5,
+          36.87704833686605
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_603",
+      "obj_file": "meshes/JSONmeth_603.obj",
+      "color": "#6042a6",
+      "source_file": "JSONmeth.json",
+      "expression_id": "603",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          -14.8976310582417,
+          3.0,
+          35.62295166313395
+        ],
+        "max": [
+          -14.374317221044649,
+          3.5,
+          37.1928931747251
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_604",
+      "obj_file": "meshes/JSONmeth_604.obj",
+      "color": "#aaaaaa",
+      "source_file": "JSONmeth.json",
+      "expression_id": "604",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          -13.851003383847598,
+          3.0,
+          35.94698984845721
+        ],
+        "max": [
+          -13.851003383847598,
+          3.5,
+          35.94698984845721
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_605",
+      "obj_file": "meshes/JSONmeth_605.obj",
+      "color": "#c74440",
+      "source_file": "JSONmeth.json",
+      "expression_id": "605",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          -13.851003383847598,
+          3.0,
+          36.55301015154279
+        ],
+        "max": [
+          -13.851003383847598,
+          3.5,
+          36.55301015154279
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_606",
+      "obj_file": "meshes/JSONmeth_606.obj",
+      "color": "#2d70b3",
+      "source_file": "JSONmeth.json",
+      "expression_id": "606",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          -13.327689546650554,
+          3.0,
+          35.01693136004834
+        ],
+        "max": [
+          -12.804375709453502,
+          3.5,
+          36.58687287163949
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_607",
+      "obj_file": "meshes/JSONmeth_607.obj",
+      "color": "#388c46",
+      "source_file": "JSONmeth.json",
+      "expression_id": "607",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          -13.327689546650554,
+          3.0,
+          35.91312712836051
+        ],
+        "max": [
+          -12.804375709453502,
+          3.5,
+          37.48306863995166
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_608",
+      "obj_file": "meshes/JSONmeth_608.obj",
+      "color": "#6042a6",
+      "source_file": "JSONmeth.json",
+      "expression_id": "608",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          -12.281061872256451,
+          3.0,
+          35.656814383230646
+        ],
+        "max": [
+          -11.757748035059407,
+          3.5,
+          37.22675589482178
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_609",
+      "obj_file": "meshes/JSONmeth_609.obj",
+      "color": "#aaaaaa",
+      "source_file": "JSONmeth.json",
+      "expression_id": "609",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          -12.281061872256451,
+          3.0,
+          35.27324410517822
+        ],
+        "max": [
+          -11.757748035059407,
+          3.5,
+          36.843185616769354
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_610",
+      "obj_file": "meshes/JSONmeth_610.obj",
+      "color": "#c74440",
+      "source_file": "JSONmeth.json",
+      "expression_id": "610",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          -11.234434197862356,
+          3.0,
+          36.29669740641293
+        ],
+        "max": [
+          -11.234434197862356,
+          3.5,
+          36.29669740641293
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_611",
+      "obj_file": "meshes/JSONmeth_611.obj",
+      "color": "#2d70b3",
+      "source_file": "JSONmeth.json",
+      "expression_id": "611",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          -11.234434197862356,
+          3.0,
+          36.20330259358707
+        ],
+        "max": [
+          -11.234434197862356,
+          3.5,
+          36.20330259358707
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_612",
+      "obj_file": "meshes/JSONmeth_612.obj",
+      "color": "#388c46",
+      "source_file": "JSONmeth.json",
+      "expression_id": "612",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          -10.711120360665305,
+          3.0,
+          35.366638918004085
+        ],
+        "max": [
+          -10.187806523468254,
+          3.5,
+          36.93658042959524
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_613",
+      "obj_file": "meshes/JSONmeth_613.obj",
+      "color": "#6042a6",
+      "source_file": "JSONmeth.json",
+      "expression_id": "613",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          -10.711120360665305,
+          3.0,
+          35.56341957040476
+        ],
+        "max": [
+          -10.187806523468254,
+          3.5,
+          37.133361081995915
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_636",
+      "obj_file": "meshes/JSONmeth_636.obj",
+      "color": "#2d70b3",
+      "source_file": "JSONmeth.json",
+      "expression_id": "636",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          -9.66449268627121,
+          3.0,
+          36.00652194118637
+        ],
+        "max": [
+          -9.66449268627121,
+          3.5,
+          36.00652194118637
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_637",
+      "obj_file": "meshes/JSONmeth_637.obj",
+      "color": "#388c46",
+      "source_file": "JSONmeth.json",
+      "expression_id": "637",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          -9.66449268627121,
+          3.0,
+          36.49347805881363
+        ],
+        "max": [
+          -9.66449268627121,
+          3.5,
+          36.49347805881363
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_638",
+      "obj_file": "meshes/JSONmeth_638.obj",
+      "color": "#6042a6",
+      "source_file": "JSONmeth.json",
+      "expression_id": "638",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          -9.141178849074159,
+          3.0,
+          35.076463452777524
+        ],
+        "max": [
+          -8.617865011877107,
+          3.5,
+          36.64640496436868
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_639",
+      "obj_file": "meshes/JSONmeth_639.obj",
+      "color": "#aaaaaa",
+      "source_file": "JSONmeth.json",
+      "expression_id": "639",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          -9.141178849074159,
+          3.0,
+          35.85359503563132
+        ],
+        "max": [
+          -8.617865011877107,
+          3.5,
+          37.423536547222476
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_640",
+      "obj_file": "meshes/JSONmeth_640.obj",
+      "color": "#c74440",
+      "source_file": "JSONmeth.json",
+      "expression_id": "640",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          -8.094551174680056,
+          3.0,
+          35.71634647595983
+        ],
+        "max": [
+          -7.571237337483012,
+          3.5,
+          37.28628798755096
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_641",
+      "obj_file": "meshes/JSONmeth_641.obj",
+      "color": "#2d70b3",
+      "source_file": "JSONmeth.json",
+      "expression_id": "641",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          -8.094551174680056,
+          3.0,
+          35.21371201244904
+        ],
+        "max": [
+          -7.571237337483012,
+          3.5,
+          36.78365352404017
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_642",
+      "obj_file": "meshes/JSONmeth_642.obj",
+      "color": "#388c46",
+      "source_file": "JSONmeth.json",
+      "expression_id": "642",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          -7.047923500285961,
+          3.0,
+          36.35622949914212
+        ],
+        "max": [
+          -7.047923500285961,
+          3.5,
+          36.35622949914212
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_643",
+      "obj_file": "meshes/JSONmeth_643.obj",
+      "color": "#6042a6",
+      "source_file": "JSONmeth.json",
+      "expression_id": "643",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          -7.047923500285961,
+          3.0,
+          36.14377050085788
+        ],
+        "max": [
+          -7.047923500285961,
+          3.5,
+          36.14377050085788
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_644",
+      "obj_file": "meshes/JSONmeth_644.obj",
+      "color": "#aaaaaa",
+      "source_file": "JSONmeth.json",
+      "expression_id": "644",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          -6.52460966308891,
+          3.0,
+          35.42617101073327
+        ],
+        "max": [
+          -6.001295825891866,
+          3.5,
+          36.9961125223244
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_617",
+      "obj_file": "meshes/JSONmeth_617.obj",
+      "color": "#388c46",
+      "source_file": "JSONmeth.json",
+      "expression_id": "617",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          -6.52460966308891,
+          3.0,
+          35.5038874776756
+        ],
+        "max": [
+          -6.001295825891866,
+          3.5,
+          37.07382898926673
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_618",
+      "obj_file": "meshes/JSONmeth_618.obj",
+      "color": "#6042a6",
+      "source_file": "JSONmeth.json",
+      "expression_id": "618",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          -5.477981988694815,
+          3.0,
+          36.066054033915556
+        ],
+        "max": [
+          -5.477981988694815,
+          3.5,
+          36.066054033915556
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_619",
+      "obj_file": "meshes/JSONmeth_619.obj",
+      "color": "#aaaaaa",
+      "source_file": "JSONmeth.json",
+      "expression_id": "619",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          -5.477981988694815,
+          3.0,
+          36.433945966084444
+        ],
+        "max": [
+          -5.477981988694815,
+          3.5,
+          36.433945966084444
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_620",
+      "obj_file": "meshes/JSONmeth_620.obj",
+      "color": "#c74440",
+      "source_file": "JSONmeth.json",
+      "expression_id": "620",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          -4.9546681514977635,
+          3.0,
+          35.13599554550671
+        ],
+        "max": [
+          -4.431354314300712,
+          3.5,
+          36.70593705709786
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_621",
+      "obj_file": "meshes/JSONmeth_621.obj",
+      "color": "#2d70b3",
+      "source_file": "JSONmeth.json",
+      "expression_id": "621",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          -4.9546681514977635,
+          3.0,
+          35.79406294290214
+        ],
+        "max": [
+          -4.431354314300712,
+          3.5,
+          37.36400445449329
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_645",
+      "obj_file": "meshes/JSONmeth_645.obj",
+      "color": "#c74440",
+      "source_file": "JSONmeth.json",
+      "expression_id": "645",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          -3.908040477103661,
+          3.0,
+          35.775878568689016
+        ],
+        "max": [
+          -3.38472663990661,
+          3.5,
+          37.34582008028017
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_646",
+      "obj_file": "meshes/JSONmeth_646.obj",
+      "color": "#2d70b3",
+      "source_file": "JSONmeth.json",
+      "expression_id": "646",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          -3.908040477103661,
+          3.0,
+          35.15417991971983
+        ],
+        "max": [
+          -3.38472663990661,
+          3.5,
+          36.724121431310984
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_647",
+      "obj_file": "meshes/JSONmeth_647.obj",
+      "color": "#388c46",
+      "source_file": "JSONmeth.json",
+      "expression_id": "647",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          -2.861412802709566,
+          3.0,
+          36.4157615918713
+        ],
+        "max": [
+          -2.861412802709566,
+          3.5,
+          36.4157615918713
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_648",
+      "obj_file": "meshes/JSONmeth_648.obj",
+      "color": "#6042a6",
+      "source_file": "JSONmeth.json",
+      "expression_id": "648",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          -2.861412802709566,
+          3.0,
+          36.0842384081287
+        ],
+        "max": [
+          -2.861412802709566,
+          3.5,
+          36.0842384081287
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_649",
+      "obj_file": "meshes/JSONmeth_649.obj",
+      "color": "#aaaaaa",
+      "source_file": "JSONmeth.json",
+      "expression_id": "649",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          -2.338098965512522,
+          3.0,
+          35.485703103462434
+        ],
+        "max": [
+          -1.8147851283154708,
+          3.5,
+          37.05564461505359
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_650",
+      "obj_file": "meshes/JSONmeth_650.obj",
+      "color": "#c74440",
+      "source_file": "JSONmeth.json",
+      "expression_id": "650",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          -2.338098965512522,
+          3.0,
+          35.44435538494641
+        ],
+        "max": [
+          -1.8147851283154708,
+          3.5,
+          37.014296896537566
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_651",
+      "obj_file": "meshes/JSONmeth_651.obj",
+      "color": "#2d70b3",
+      "source_file": "JSONmeth.json",
+      "expression_id": "651",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          -1.2914712911184196,
+          3.0,
+          36.12558612664474
+        ],
+        "max": [
+          -1.2914712911184196,
+          3.5,
+          36.12558612664474
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_652",
+      "obj_file": "meshes/JSONmeth_652.obj",
+      "color": "#388c46",
+      "source_file": "JSONmeth.json",
+      "expression_id": "652",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          -1.2914712911184196,
+          3.0,
+          36.37441387335526
+        ],
+        "max": [
+          -1.2914712911184196,
+          3.5,
+          36.37441387335526
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_653",
+      "obj_file": "meshes/JSONmeth_653.obj",
+      "color": "#6042a6",
+      "source_file": "JSONmeth.json",
+      "expression_id": "653",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          -0.7681574539213685,
+          3.0,
+          35.195527638235895
+        ],
+        "max": [
+          -0.24484361672431731,
+          3.5,
+          36.76546914982705
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_654",
+      "obj_file": "meshes/JSONmeth_654.obj",
+      "color": "#aaaaaa",
+      "source_file": "JSONmeth.json",
+      "expression_id": "654",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          -0.7681574539213685,
+          3.0,
+          35.73453085017295
+        ],
+        "max": [
+          -0.24484361672431731,
+          3.5,
+          37.304472361764105
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_655",
+      "obj_file": "meshes/JSONmeth_655.obj",
+      "color": "#c74440",
+      "source_file": "JSONmeth.json",
+      "expression_id": "655",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          0.27847022047273384,
+          3.0,
+          35.8354106614182
+        ],
+        "max": [
+          0.8017840576697779,
+          3.5,
+          37.405352173009334
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_656",
+      "obj_file": "meshes/JSONmeth_656.obj",
+      "color": "#2d70b3",
+      "source_file": "JSONmeth.json",
+      "expression_id": "656",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          0.27847022047273384,
+          3.0,
+          35.094647826990666
+        ],
+        "max": [
+          0.8017840576697779,
+          3.5,
+          36.6645893385818
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_657",
+      "obj_file": "meshes/JSONmeth_657.obj",
+      "color": "#388c46",
+      "source_file": "JSONmeth.json",
+      "expression_id": "657",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          1.325097894866829,
+          3.0,
+          36.47529368460049
+        ],
+        "max": [
+          1.325097894866829,
+          3.5,
+          36.47529368460049
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_658",
+      "obj_file": "meshes/JSONmeth_658.obj",
+      "color": "#6042a6",
+      "source_file": "JSONmeth.json",
+      "expression_id": "658",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          1.325097894866829,
+          3.0,
+          36.02470631539951
+        ],
+        "max": [
+          1.325097894866829,
+          3.5,
+          36.02470631539951
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_659",
+      "obj_file": "meshes/JSONmeth_659.obj",
+      "color": "#aaaaaa",
+      "source_file": "JSONmeth.json",
+      "expression_id": "659",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          1.8484117320638802,
+          3.0,
+          35.54523519619164
+        ],
+        "max": [
+          2.3717255692609314,
+          3.5,
+          37.115176707782794
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_660",
+      "obj_file": "meshes/JSONmeth_660.obj",
+      "color": "#c74440",
+      "source_file": "JSONmeth.json",
+      "expression_id": "660",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          1.8484117320638802,
+          3.0,
+          35.384823292217206
+        ],
+        "max": [
+          2.3717255692609314,
+          3.5,
+          36.95476480380836
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_661",
+      "obj_file": "meshes/JSONmeth_661.obj",
+      "color": "#2d70b3",
+      "source_file": "JSONmeth.json",
+      "expression_id": "661",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          2.8950394064579825,
+          3.0,
+          36.18511821937395
+        ],
+        "max": [
+          2.8950394064579825,
+          3.5,
+          36.18511821937395
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_662",
+      "obj_file": "meshes/JSONmeth_662.obj",
+      "color": "#388c46",
+      "source_file": "JSONmeth.json",
+      "expression_id": "662",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          2.8950394064579825,
+          3.0,
+          36.31488178062605
+        ],
+        "max": [
+          2.8950394064579825,
+          3.5,
+          36.31488178062605
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_663",
+      "obj_file": "meshes/JSONmeth_663.obj",
+      "color": "#6042a6",
+      "source_file": "JSONmeth.json",
+      "expression_id": "663",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          3.4183532436550195,
+          3.0,
+          35.25505973096506
+        ],
+        "max": [
+          3.9416670808520706,
+          3.5,
+          36.82500124255621
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_664",
+      "obj_file": "meshes/JSONmeth_664.obj",
+      "color": "#aaaaaa",
+      "source_file": "JSONmeth.json",
+      "expression_id": "664",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          3.4183532436550195,
+          3.0,
+          35.67499875744379
+        ],
+        "max": [
+          3.9416670808520706,
+          3.5,
+          37.24494026903494
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_665",
+      "obj_file": "meshes/JSONmeth_665.obj",
+      "color": "#c74440",
+      "source_file": "JSONmeth.json",
+      "expression_id": "665",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          4.464980918049122,
+          3.0,
+          35.894942754147365
+        ],
+        "max": [
+          4.988294755246173,
+          3.5,
+          37.46488426573852
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_666",
+      "obj_file": "meshes/JSONmeth_666.obj",
+      "color": "#2d70b3",
+      "source_file": "JSONmeth.json",
+      "expression_id": "666",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          4.464980918049122,
+          3.0,
+          35.03511573426148
+        ],
+        "max": [
+          4.988294755246173,
+          3.5,
+          36.605057245852635
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_671",
+      "obj_file": "meshes/JSONmeth_671.obj",
+      "color": "#2d70b3",
+      "source_file": "JSONmeth.json",
+      "expression_id": "671",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          5.511608592443224,
+          3.0,
+          36.53482577732967
+        ],
+        "max": [
+          5.511608592443224,
+          3.5,
+          36.53482577732967
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_668",
+      "obj_file": "meshes/JSONmeth_668.obj",
+      "color": "#6042a6",
+      "source_file": "JSONmeth.json",
+      "expression_id": "668",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          5.511608592443224,
+          3.0,
+          35.96517422267033
+        ],
+        "max": [
+          5.511608592443224,
+          3.5,
+          35.96517422267033
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_673",
+      "obj_file": "meshes/JSONmeth_673.obj",
+      "color": "#6042a6",
+      "source_file": "JSONmeth.json",
+      "expression_id": "673",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          6.034922429640275,
+          3.0,
+          35.604767288920826
+        ],
+        "max": [
+          6.558236266837326,
+          3.5,
+          37.17470880051198
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_670",
+      "obj_file": "meshes/JSONmeth_670.obj",
+      "color": "#c74440",
+      "source_file": "JSONmeth.json",
+      "expression_id": "670",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          6.034922429640275,
+          3.0,
+          35.32529119948802
+        ],
+        "max": [
+          6.558236266837326,
+          3.5,
+          36.895232711079174
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_675",
+      "obj_file": "meshes/JSONmeth_675.obj",
+      "color": "#c74440",
+      "source_file": "JSONmeth.json",
+      "expression_id": "675",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          7.081550104034363,
+          3.0,
+          36.24465031210309
+        ],
+        "max": [
+          7.081550104034363,
+          3.5,
+          36.24465031210309
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_672",
+      "obj_file": "meshes/JSONmeth_672.obj",
+      "color": "#388c46",
+      "source_file": "JSONmeth.json",
+      "expression_id": "672",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          7.081550104034363,
+          3.0,
+          36.25534968789691
+        ],
+        "max": [
+          7.081550104034363,
+          3.5,
+          36.25534968789691
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_677",
+      "obj_file": "meshes/JSONmeth_677.obj",
+      "color": "#388c46",
+      "source_file": "JSONmeth.json",
+      "expression_id": "677",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          7.6048639412314145,
+          3.0,
+          35.31459182369424
+        ],
+        "max": [
+          8.128177778428466,
+          3.5,
+          36.8845333352854
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_674",
+      "obj_file": "meshes/JSONmeth_674.obj",
+      "color": "#aaaaaa",
+      "source_file": "JSONmeth.json",
+      "expression_id": "674",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          7.6048639412314145,
+          3.0,
+          35.6154666647146
+        ],
+        "max": [
+          8.128177778428466,
+          3.5,
+          37.18540817630576
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_679",
+      "obj_file": "meshes/JSONmeth_679.obj",
+      "color": "#aaaaaa",
+      "source_file": "JSONmeth.json",
+      "expression_id": "679",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          8.651491615625517,
+          3.0,
+          35.95447484687655
+        ],
+        "max": [
+          8.651491615625517,
+          3.5,
+          35.95447484687655
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_676",
+      "obj_file": "meshes/JSONmeth_676.obj",
+      "color": "#2d70b3",
+      "source_file": "JSONmeth.json",
+      "expression_id": "676",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          8.651491615625517,
+          3.0,
+          36.54552515312345
+        ],
+        "max": [
+          8.651491615625517,
+          3.5,
+          36.54552515312345
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_681",
+      "obj_file": "meshes/JSONmeth_681.obj",
+      "color": "#2d70b3",
+      "source_file": "JSONmeth.json",
+      "expression_id": "681",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          9.174805452822568,
+          3.0,
+          35.024416358467704
+        ],
+        "max": [
+          9.69811929001962,
+          3.5,
+          36.59435787005886
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_678",
+      "obj_file": "meshes/JSONmeth_678.obj",
+      "color": "#6042a6",
+      "source_file": "JSONmeth.json",
+      "expression_id": "678",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          9.174805452822568,
+          3.0,
+          35.90564212994114
+        ],
+        "max": [
+          9.69811929001962,
+          3.5,
+          37.475583641532296
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_683",
+      "obj_file": "meshes/JSONmeth_683.obj",
+      "color": "#6042a6",
+      "source_file": "JSONmeth.json",
+      "expression_id": "683",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          10.22143312721667,
+          3.0,
+          35.66429938165001
+        ],
+        "max": [
+          10.744746964413721,
+          3.5,
+          37.234240893241164
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_680",
+      "obj_file": "meshes/JSONmeth_680.obj",
+      "color": "#c74440",
+      "source_file": "JSONmeth.json",
+      "expression_id": "680",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          10.22143312721667,
+          3.0,
+          35.265759106758836
+        ],
+        "max": [
+          10.744746964413721,
+          3.5,
+          36.83570061834999
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_685",
+      "obj_file": "meshes/JSONmeth_685.obj",
+      "color": "#c74440",
+      "source_file": "JSONmeth.json",
+      "expression_id": "685",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          11.268060801610773,
+          3.0,
+          36.30418240483232
+        ],
+        "max": [
+          11.268060801610773,
+          3.5,
+          36.30418240483232
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_682",
+      "obj_file": "meshes/JSONmeth_682.obj",
+      "color": "#388c46",
+      "source_file": "JSONmeth.json",
+      "expression_id": "682",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          11.268060801610773,
+          3.0,
+          36.19581759516768
+        ],
+        "max": [
+          11.268060801610773,
+          3.5,
+          36.19581759516768
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_687",
+      "obj_file": "meshes/JSONmeth_687.obj",
+      "color": "#388c46",
+      "source_file": "JSONmeth.json",
+      "expression_id": "687",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          11.791374638807824,
+          3.0,
+          35.37412391642347
+        ],
+        "max": [
+          12.314688476004875,
+          3.5,
+          36.944065428014625
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_684",
+      "obj_file": "meshes/JSONmeth_684.obj",
+      "color": "#aaaaaa",
+      "source_file": "JSONmeth.json",
+      "expression_id": "684",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          11.791374638807824,
+          3.0,
+          35.555934571985375
+        ],
+        "max": [
+          12.314688476004875,
+          3.5,
+          37.12587608357653
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_689",
+      "obj_file": "meshes/JSONmeth_689.obj",
+      "color": "#aaaaaa",
+      "source_file": "JSONmeth.json",
+      "expression_id": "689",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          12.838002313201912,
+          3.0,
+          36.014006939605736
+        ],
+        "max": [
+          12.838002313201912,
+          3.5,
+          36.014006939605736
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_686",
+      "obj_file": "meshes/JSONmeth_686.obj",
+      "color": "#2d70b3",
+      "source_file": "JSONmeth.json",
+      "expression_id": "686",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          12.838002313201912,
+          3.0,
+          36.485993060394264
+        ],
+        "max": [
+          12.838002313201912,
+          3.5,
+          36.485993060394264
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_691",
+      "obj_file": "meshes/JSONmeth_691.obj",
+      "color": "#2d70b3",
+      "source_file": "JSONmeth.json",
+      "expression_id": "691",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          13.361316150398963,
+          3.0,
+          35.08394845119689
+        ],
+        "max": [
+          13.884629987596014,
+          3.5,
+          36.65388996278804
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_688",
+      "obj_file": "meshes/JSONmeth_688.obj",
+      "color": "#6042a6",
+      "source_file": "JSONmeth.json",
+      "expression_id": "688",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          13.361316150398963,
+          3.0,
+          35.84611003721196
+        ],
+        "max": [
+          13.884629987596014,
+          3.5,
+          37.41605154880311
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_693",
+      "obj_file": "meshes/JSONmeth_693.obj",
+      "color": "#6042a6",
+      "source_file": "JSONmeth.json",
+      "expression_id": "693",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          14.407943824793051,
+          3.0,
+          35.72383147437915
+        ],
+        "max": [
+          14.931257661990102,
+          3.5,
+          37.29377298597031
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_690",
+      "obj_file": "meshes/JSONmeth_690.obj",
+      "color": "#6042a6",
+      "source_file": "JSONmeth.json",
+      "expression_id": "690",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          14.407943824793051,
+          3.0,
+          35.20622701402969
+        ],
+        "max": [
+          14.931257661990102,
+          3.5,
+          36.77616852562085
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_772",
+      "obj_file": "meshes/JSONmeth_772.obj",
+      "color": "#c74440",
+      "source_file": "JSONmeth.json",
+      "expression_id": "772",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -2.25,
+          -6.25,
+          35.0
+        ],
+        "max": [
+          -1.5,
+          -5.5,
+          38.75
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_773",
+      "obj_file": "meshes/JSONmeth_773.obj",
+      "color": "#2d70b3",
+      "source_file": "JSONmeth.json",
+      "expression_id": "773",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          1.5,
+          -6.25,
+          35.0
+        ],
+        "max": [
+          2.25,
+          -5.5,
+          38.75
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_774",
+      "obj_file": "meshes/JSONmeth_774.obj",
+      "color": "#388c46",
+      "source_file": "JSONmeth.json",
+      "expression_id": "774",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -1.5,
+          -6.25,
+          38.0
+        ],
+        "max": [
+          1.5,
+          -5.5,
+          38.25
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_775",
+      "obj_file": "meshes/JSONmeth_775.obj",
+      "color": "#6042a6",
+      "source_file": "JSONmeth.json",
+      "expression_id": "775",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -0.5,
+          -6.25,
+          38.25
+        ],
+        "max": [
+          0.5,
+          -5.5,
+          38.75
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_776",
+      "obj_file": "meshes/JSONmeth_776.obj",
+      "color": "#aaaaaa",
+      "source_file": "JSONmeth.json",
+      "expression_id": "776",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -0.2,
+          -6.25,
+          38.75
+        ],
+        "max": [
+          0.2,
+          -5.5,
+          39.75
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_777",
+      "obj_file": "meshes/JSONmeth_777.obj",
+      "color": "#c74440",
+      "source_file": "JSONmeth.json",
+      "expression_id": "777",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -0.4,
+          -6.25,
+          39.0
+        ],
+        "max": [
+          0.4,
+          -5.5,
+          39.25
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_778",
+      "obj_file": "meshes/JSONmeth_778.obj",
+      "color": "#2d70b3",
+      "source_file": "JSONmeth.json",
+      "expression_id": "778",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          7.0,
+          -6.25,
+          35.0
+        ],
+        "max": [
+          7.5,
+          -5.5,
+          38.25
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_779",
+      "obj_file": "meshes/JSONmeth_779.obj",
+      "color": "#388c46",
+      "source_file": "JSONmeth.json",
+      "expression_id": "779",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          9.5,
+          -6.25,
+          35.0
+        ],
+        "max": [
+          10.0,
+          -5.5,
+          38.25
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_780",
+      "obj_file": "meshes/JSONmeth_780.obj",
+      "color": "#6042a6",
+      "source_file": "JSONmeth.json",
+      "expression_id": "780",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          7.0,
+          -6.25,
+          38.25
+        ],
+        "max": [
+          10.0,
+          -5.5,
+          38.5
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_781",
+      "obj_file": "meshes/JSONmeth_781.obj",
+      "color": "#aaaaaa",
+      "source_file": "JSONmeth.json",
+      "expression_id": "781",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          7.0,
+          -6.25,
+          35.0
+        ],
+        "max": [
+          10.0,
+          -5.5,
+          35.25
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_782",
+      "obj_file": "meshes/JSONmeth_782.obj",
+      "color": "#c74440",
+      "source_file": "JSONmeth.json",
+      "expression_id": "782",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -7.5,
+          -6.25,
+          35.0
+        ],
+        "max": [
+          -7.0,
+          -5.5,
+          38.25
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_785",
+      "obj_file": "meshes/JSONmeth_785.obj",
+      "color": "#6042a6",
+      "source_file": "JSONmeth.json",
+      "expression_id": "785",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -10.0,
+          -6.25,
+          35.0
+        ],
+        "max": [
+          -9.5,
+          -5.5,
+          38.25
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_783",
+      "obj_file": "meshes/JSONmeth_783.obj",
+      "color": "#2d70b3",
+      "source_file": "JSONmeth.json",
+      "expression_id": "783",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -10.0,
+          -6.25,
+          38.25
+        ],
+        "max": [
+          -7.0,
+          -5.5,
+          38.5
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_784",
+      "obj_file": "meshes/JSONmeth_784.obj",
+      "color": "#388c46",
+      "source_file": "JSONmeth.json",
+      "expression_id": "784",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -10.0,
+          -6.25,
+          35.0
+        ],
+        "max": [
+          -7.0,
+          -5.5,
+          35.25
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_757",
+      "obj_file": "meshes/JSONmeth_757.obj",
+      "color": "#2d70b3",
+      "source_file": "JSONmeth.json",
+      "expression_id": "757",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -2.25,
+          5.5,
+          35.0
+        ],
+        "max": [
+          -1.5,
+          6.25,
+          38.75
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_758",
+      "obj_file": "meshes/JSONmeth_758.obj",
+      "color": "#388c46",
+      "source_file": "JSONmeth.json",
+      "expression_id": "758",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          1.5,
+          5.5,
+          35.0
+        ],
+        "max": [
+          2.25,
+          6.25,
+          38.75
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_770",
+      "obj_file": "meshes/JSONmeth_770.obj",
+      "color": "#aaaaaa",
+      "source_file": "JSONmeth.json",
+      "expression_id": "770",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -1.5,
+          5.5,
+          38.0
+        ],
+        "max": [
+          1.5,
+          6.25,
+          38.25
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_759",
+      "obj_file": "meshes/JSONmeth_759.obj",
+      "color": "#6042a6",
+      "source_file": "JSONmeth.json",
+      "expression_id": "759",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -0.5,
+          5.5,
+          38.25
+        ],
+        "max": [
+          0.5,
+          6.25,
+          38.75
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_760",
+      "obj_file": "meshes/JSONmeth_760.obj",
+      "color": "#c74440",
+      "source_file": "JSONmeth.json",
+      "expression_id": "760",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -0.2,
+          5.5,
+          38.75
+        ],
+        "max": [
+          0.2,
+          6.25,
+          39.75
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_761",
+      "obj_file": "meshes/JSONmeth_761.obj",
+      "color": "#c74440",
+      "source_file": "JSONmeth.json",
+      "expression_id": "761",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -0.4,
+          5.5,
+          39.0
+        ],
+        "max": [
+          0.4,
+          6.25,
+          39.25
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_762",
+      "obj_file": "meshes/JSONmeth_762.obj",
+      "color": "#2d70b3",
+      "source_file": "JSONmeth.json",
+      "expression_id": "762",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          7.0,
+          5.5,
+          35.0
+        ],
+        "max": [
+          7.5,
+          6.25,
+          38.25
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_763",
+      "obj_file": "meshes/JSONmeth_763.obj",
+      "color": "#c74440",
+      "source_file": "JSONmeth.json",
+      "expression_id": "763",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          9.5,
+          5.5,
+          35.0
+        ],
+        "max": [
+          10.0,
+          6.25,
+          38.25
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_764",
+      "obj_file": "meshes/JSONmeth_764.obj",
+      "color": "#6042a6",
+      "source_file": "JSONmeth.json",
+      "expression_id": "764",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          7.0,
+          5.5,
+          38.25
+        ],
+        "max": [
+          10.0,
+          6.25,
+          38.5
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_765",
+      "obj_file": "meshes/JSONmeth_765.obj",
+      "color": "#aaaaaa",
+      "source_file": "JSONmeth.json",
+      "expression_id": "765",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          7.0,
+          5.5,
+          35.0
+        ],
+        "max": [
+          10.0,
+          6.25,
+          35.25
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_766",
+      "obj_file": "meshes/JSONmeth_766.obj",
+      "color": "#2d70b3",
+      "source_file": "JSONmeth.json",
+      "expression_id": "766",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -7.5,
+          5.5,
+          35.0
+        ],
+        "max": [
+          -7.0,
+          6.25,
+          38.25
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_767",
+      "obj_file": "meshes/JSONmeth_767.obj",
+      "color": "#2d70b3",
+      "source_file": "JSONmeth.json",
+      "expression_id": "767",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -10.0,
+          5.5,
+          35.0
+        ],
+        "max": [
+          -9.5,
+          6.25,
+          38.25
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_768",
+      "obj_file": "meshes/JSONmeth_768.obj",
+      "color": "#388c46",
+      "source_file": "JSONmeth.json",
+      "expression_id": "768",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -10.0,
+          5.5,
+          38.25
+        ],
+        "max": [
+          -7.0,
+          6.25,
+          38.5
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_769",
+      "obj_file": "meshes/JSONmeth_769.obj",
+      "color": "#6042a6",
+      "source_file": "JSONmeth.json",
+      "expression_id": "769",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -10.0,
+          5.5,
+          35.0
+        ],
+        "max": [
+          -7.0,
+          6.25,
+          35.25
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_284",
+      "obj_file": "meshes/JSONmeth_284.obj",
+      "color": "#2d70b3",
+      "source_file": "JSONmeth.json",
+      "expression_id": "284",
+      "family": "QUADRATIC_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          -57.0,
+          -7.0,
+          13.437777777777796
+        ],
+        "max": [
+          -25.0,
+          -6.0,
+          27.5
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_305",
+      "obj_file": "meshes/JSONmeth_305.obj",
+      "color": "#aaaaaa",
+      "source_file": "JSONmeth.json",
+      "expression_id": "305",
+      "family": "QUADRATIC_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          -57.0,
+          6.0,
+          13.437777777777796
+        ],
+        "max": [
+          -25.0,
+          7.0,
+          27.5
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_306",
+      "obj_file": "meshes/JSONmeth_306.obj",
+      "color": "#c74440",
+      "source_file": "JSONmeth.json",
+      "expression_id": "306",
+      "family": "QUADRATIC_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          25.0,
+          -7.0,
+          13.437777777777796
+        ],
+        "max": [
+          57.0,
+          -6.0,
+          27.5
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_307",
+      "obj_file": "meshes/JSONmeth_307.obj",
+      "color": "#2d70b3",
+      "source_file": "JSONmeth.json",
+      "expression_id": "307",
+      "family": "QUADRATIC_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          25.0,
+          6.0,
+          13.437777777777796
+        ],
+        "max": [
+          57.0,
+          7.0,
+          27.5
+        ]
+      }
+    }
+  ],
+  "failures": []
+}

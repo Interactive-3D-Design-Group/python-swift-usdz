@@ -1,9 +1,10 @@
 {
   "source_file": "JSONLondon.json",
   "total_expressions": 265,
-  "supported_count": 213,
-  "recognized_unsupported_count": 42,
+  "supported_count": 214,
+  "recognized_unsupported_count": 29,
   "unrecognized_count": 10,
+  "geometry_ineligible_count": 12,
   "per_folder_summary": [
     {
       "folder_id": null,
@@ -11,7 +12,8 @@
       "total": 29,
       "supported": 0,
       "recognized_unsupported": 29,
-      "unrecognized": 0
+      "unrecognized": 0,
+      "geometry_ineligible": 0
     },
     {
       "folder_id": "282",
@@ -19,7 +21,8 @@
       "total": 6,
       "supported": 5,
       "recognized_unsupported": 0,
-      "unrecognized": 1
+      "unrecognized": 1,
+      "geometry_ineligible": 0
     },
     {
       "folder_id": "241",
@@ -27,15 +30,17 @@
       "total": 6,
       "supported": 5,
       "recognized_unsupported": 0,
-      "unrecognized": 1
+      "unrecognized": 1,
+      "geometry_ineligible": 0
     },
     {
       "folder_id": "40",
       "folder_name": "curve",
       "total": 16,
       "supported": 4,
-      "recognized_unsupported": 12,
-      "unrecognized": 0
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 12
     },
     {
       "folder_id": "329",
@@ -43,7 +48,8 @@
       "total": 36,
       "supported": 36,
       "recognized_unsupported": 0,
-      "unrecognized": 0
+      "unrecognized": 0,
+      "geometry_ineligible": 0
     },
     {
       "folder_id": "375",
@@ -51,7 +57,8 @@
       "total": 36,
       "supported": 36,
       "recognized_unsupported": 0,
-      "unrecognized": 0
+      "unrecognized": 0,
+      "geometry_ineligible": 0
     },
     {
       "folder_id": "158",
@@ -59,7 +66,8 @@
       "total": 5,
       "supported": 5,
       "recognized_unsupported": 0,
-      "unrecognized": 0
+      "unrecognized": 0,
+      "geometry_ineligible": 0
     },
     {
       "folder_id": "114",
@@ -67,7 +75,8 @@
       "total": 5,
       "supported": 5,
       "recognized_unsupported": 0,
-      "unrecognized": 0
+      "unrecognized": 0,
+      "geometry_ineligible": 0
     },
     {
       "folder_id": "166",
@@ -75,7 +84,8 @@
       "total": 5,
       "supported": 5,
       "recognized_unsupported": 0,
-      "unrecognized": 0
+      "unrecognized": 0,
+      "geometry_ineligible": 0
     },
     {
       "folder_id": "137",
@@ -83,7 +93,8 @@
       "total": 5,
       "supported": 5,
       "recognized_unsupported": 0,
-      "unrecognized": 0
+      "unrecognized": 0,
+      "geometry_ineligible": 0
     },
     {
       "folder_id": "174",
@@ -91,7 +102,8 @@
       "total": 5,
       "supported": 5,
       "recognized_unsupported": 0,
-      "unrecognized": 0
+      "unrecognized": 0,
+      "geometry_ineligible": 0
     },
     {
       "folder_id": "143",
@@ -99,7 +111,8 @@
       "total": 5,
       "supported": 5,
       "recognized_unsupported": 0,
-      "unrecognized": 0
+      "unrecognized": 0,
+      "geometry_ineligible": 0
     },
     {
       "folder_id": "181",
@@ -107,7 +120,8 @@
       "total": 5,
       "supported": 5,
       "recognized_unsupported": 0,
-      "unrecognized": 0
+      "unrecognized": 0,
+      "geometry_ineligible": 0
     },
     {
       "folder_id": "151",
@@ -115,7 +129,8 @@
       "total": 5,
       "supported": 5,
       "recognized_unsupported": 0,
-      "unrecognized": 0
+      "unrecognized": 0,
+      "geometry_ineligible": 0
     },
     {
       "folder_id": "253",
@@ -123,7 +138,8 @@
       "total": 6,
       "supported": 5,
       "recognized_unsupported": 0,
-      "unrecognized": 1
+      "unrecognized": 1,
+      "geometry_ineligible": 0
     },
     {
       "folder_id": "208",
@@ -131,7 +147,8 @@
       "total": 6,
       "supported": 5,
       "recognized_unsupported": 0,
-      "unrecognized": 1
+      "unrecognized": 1,
+      "geometry_ineligible": 0
     },
     {
       "folder_id": "260",
@@ -139,7 +156,8 @@
       "total": 6,
       "supported": 5,
       "recognized_unsupported": 0,
-      "unrecognized": 1
+      "unrecognized": 1,
+      "geometry_ineligible": 0
     },
     {
       "folder_id": "216",
@@ -147,7 +165,8 @@
       "total": 6,
       "supported": 5,
       "recognized_unsupported": 0,
-      "unrecognized": 1
+      "unrecognized": 1,
+      "geometry_ineligible": 0
     },
     {
       "folder_id": "267",
@@ -155,7 +174,8 @@
       "total": 6,
       "supported": 5,
       "recognized_unsupported": 0,
-      "unrecognized": 1
+      "unrecognized": 1,
+      "geometry_ineligible": 0
     },
     {
       "folder_id": "224",
@@ -163,7 +183,8 @@
       "total": 6,
       "supported": 5,
       "recognized_unsupported": 0,
-      "unrecognized": 1
+      "unrecognized": 1,
+      "geometry_ineligible": 0
     },
     {
       "folder_id": "274",
@@ -171,7 +192,8 @@
       "total": 6,
       "supported": 5,
       "recognized_unsupported": 0,
-      "unrecognized": 1
+      "unrecognized": 1,
+      "geometry_ineligible": 0
     },
     {
       "folder_id": "232",
@@ -179,15 +201,17 @@
       "total": 6,
       "supported": 5,
       "recognized_unsupported": 0,
-      "unrecognized": 1
+      "unrecognized": 1,
+      "geometry_ineligible": 0
     },
     {
       "folder_id": "2",
       "folder_name": "road",
       "total": 3,
-      "supported": 2,
-      "recognized_unsupported": 1,
-      "unrecognized": 0
+      "supported": 3,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 0
     },
     {
       "folder_id": "33",
@@ -195,7 +219,8 @@
       "total": 7,
       "supported": 7,
       "recognized_unsupported": 0,
-      "unrecognized": 0
+      "unrecognized": 0,
+      "geometry_ineligible": 0
     },
     {
       "folder_id": "15",
@@ -203,7 +228,8 @@
       "total": 5,
       "supported": 5,
       "recognized_unsupported": 0,
-      "unrecognized": 0
+      "unrecognized": 0,
+      "geometry_ineligible": 0
     },
     {
       "folder_id": "21",
@@ -211,7 +237,8 @@
       "total": 5,
       "supported": 5,
       "recognized_unsupported": 0,
-      "unrecognized": 0
+      "unrecognized": 0,
+      "geometry_ineligible": 0
     },
     {
       "folder_id": "189",
@@ -219,7 +246,8 @@
       "total": 6,
       "supported": 6,
       "recognized_unsupported": 0,
-      "unrecognized": 0
+      "unrecognized": 0,
+      "geometry_ineligible": 0
     },
     {
       "folder_id": "198",
@@ -227,7 +255,8 @@
       "total": 6,
       "supported": 6,
       "recognized_unsupported": 0,
-      "unrecognized": 0
+      "unrecognized": 0,
+      "geometry_ineligible": 0
     },
     {
       "folder_id": "290",
@@ -235,7 +264,8 @@
       "total": 8,
       "supported": 8,
       "recognized_unsupported": 0,
-      "unrecognized": 0
+      "unrecognized": 0,
+      "geometry_ineligible": 0
     },
     {
       "folder_id": "308",
@@ -243,7 +273,8 @@
       "total": 8,
       "supported": 8,
       "recognized_unsupported": 0,
-      "unrecognized": 0
+      "unrecognized": 0,
+      "geometry_ineligible": 0
     }
   ],
   "unsupported_expressions": [
@@ -256,16 +287,6 @@
       "fingerprint": "d2b8c16a767d1df5",
       "latex": "",
       "normalized_latex": ""
-    },
-    {
-      "expression_id": "13",
-      "folder": "road",
-      "family": "INEQUALITY_REGION",
-      "status": "RECOGNIZED_UNSUPPORTED",
-      "reason": "Partial axis bounds only",
-      "fingerprint": "bf7c4276ad9b91ba",
-      "latex": "20>y>-20\\left\\{-225<x<225\\right\\}",
-      "normalized_latex": "20>y>-20{-225<x<225}"
     },
     {
       "expression_id": "33",
@@ -286,126 +307,6 @@
       "fingerprint": "d2b8c16a767d1df5",
       "latex": "",
       "normalized_latex": ""
-    },
-    {
-      "expression_id": "76",
-      "folder": "curve",
-      "family": "PARAM_ASSIGNMENT",
-      "status": "RECOGNIZED_UNSUPPORTED",
-      "reason": "Parameter assignment captured",
-      "fingerprint": "3b18c4db5bd16c31",
-      "latex": "a=0.003",
-      "normalized_latex": "a=0.003"
-    },
-    {
-      "expression_id": "77",
-      "folder": "curve",
-      "family": "PARAM_ASSIGNMENT",
-      "status": "RECOGNIZED_UNSUPPORTED",
-      "reason": "Parameter assignment captured",
-      "fingerprint": "a0917e5618acfded",
-      "latex": "b=1.64",
-      "normalized_latex": "b=1.64"
-    },
-    {
-      "expression_id": "78",
-      "folder": "curve",
-      "family": "PARAM_ASSIGNMENT",
-      "status": "RECOGNIZED_UNSUPPORTED",
-      "reason": "Parameter assignment captured",
-      "fingerprint": "91f36c2ffdbb99b5",
-      "latex": "c=214",
-      "normalized_latex": "c=214"
-    },
-    {
-      "expression_id": "82",
-      "folder": "curve",
-      "family": "PARAM_ASSIGNMENT",
-      "status": "RECOGNIZED_UNSUPPORTED",
-      "reason": "Parameter assignment captured",
-      "fingerprint": "ccfd102d296e0e83",
-      "latex": "a_{1}=0.003",
-      "normalized_latex": "a_{1}=0.003"
-    },
-    {
-      "expression_id": "83",
-      "folder": "curve",
-      "family": "PARAM_ASSIGNMENT",
-      "status": "RECOGNIZED_UNSUPPORTED",
-      "reason": "Parameter assignment captured",
-      "fingerprint": "9c9fa249a1388b65",
-      "latex": "b_{1}=1.64",
-      "normalized_latex": "b_{1}=1.64"
-    },
-    {
-      "expression_id": "84",
-      "folder": "curve",
-      "family": "PARAM_ASSIGNMENT",
-      "status": "RECOGNIZED_UNSUPPORTED",
-      "reason": "Parameter assignment captured",
-      "fingerprint": "6af33f90505e9d24",
-      "latex": "c_{1}=214",
-      "normalized_latex": "c_{1}=214"
-    },
-    {
-      "expression_id": "85",
-      "folder": "curve",
-      "family": "PARAM_ASSIGNMENT",
-      "status": "RECOGNIZED_UNSUPPORTED",
-      "reason": "Parameter assignment captured",
-      "fingerprint": "3c13e663cb5de57a",
-      "latex": "a_{2}=0.003",
-      "normalized_latex": "a_{2}=0.003"
-    },
-    {
-      "expression_id": "86",
-      "folder": "curve",
-      "family": "PARAM_ASSIGNMENT",
-      "status": "RECOGNIZED_UNSUPPORTED",
-      "reason": "Parameter assignment captured",
-      "fingerprint": "6d3c2efcec93262f",
-      "latex": "b_{2}=-1.64",
-      "normalized_latex": "b_{2}=-1.64"
-    },
-    {
-      "expression_id": "87",
-      "folder": "curve",
-      "family": "PARAM_ASSIGNMENT",
-      "status": "RECOGNIZED_UNSUPPORTED",
-      "reason": "Parameter assignment captured",
-      "fingerprint": "a3fc0ce52a7f6f6a",
-      "latex": "c_{2}=214",
-      "normalized_latex": "c_{2}=214"
-    },
-    {
-      "expression_id": "92",
-      "folder": "curve",
-      "family": "PARAM_ASSIGNMENT",
-      "status": "RECOGNIZED_UNSUPPORTED",
-      "reason": "Parameter assignment captured",
-      "fingerprint": "8a26a7fa75bd7043",
-      "latex": "a_{3}=0.003",
-      "normalized_latex": "a_{3}=0.003"
-    },
-    {
-      "expression_id": "93",
-      "folder": "curve",
-      "family": "PARAM_ASSIGNMENT",
-      "status": "RECOGNIZED_UNSUPPORTED",
-      "reason": "Parameter assignment captured",
-      "fingerprint": "6ac9568bf943376b",
-      "latex": "b_{3}=-1.64",
-      "normalized_latex": "b_{3}=-1.64"
-    },
-    {
-      "expression_id": "94",
-      "folder": "curve",
-      "family": "PARAM_ASSIGNMENT",
-      "status": "RECOGNIZED_UNSUPPORTED",
-      "reason": "Parameter assignment captured",
-      "fingerprint": "accb06373bc001b4",
-      "latex": "c_{3}=214",
-      "normalized_latex": "c_{3}=214"
     },
     {
       "expression_id": "15",

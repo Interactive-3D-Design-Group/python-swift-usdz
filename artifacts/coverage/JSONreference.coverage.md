@@ -5,6 +5,7 @@
 - supported expressions: **268**
 - supported but not meshed: **0**
 - recognized unsupported: **0**
+- geometry ineligible (non-mesh): **0**
 - unrecognized: **9**
 
 ## Top missing groups

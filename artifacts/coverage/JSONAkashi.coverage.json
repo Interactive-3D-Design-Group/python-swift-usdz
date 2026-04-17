@@ -2,35 +2,13 @@
   "source_file": "JSONAkashi.json",
   "total_items": 559,
   "total_expressions": 559,
-  "meshed_expression_count": 557,
-  "supported_expression_count": 557,
+  "meshed_expression_count": 558,
+  "supported_expression_count": 558,
   "supported_but_not_meshed_count": 0,
-  "recognized_unsupported_count": 2,
+  "recognized_unsupported_count": 0,
   "unrecognized_count": 0,
-  "groups": [
-    {
-      "fingerprint": "9eefc537dbf1fc1a",
-      "family": "INEQUALITY_REGION",
-      "status": "RECOGNIZED_UNSUPPORTED",
-      "reason": "Inequality region recognized",
-      "count": 1,
-      "meshed_count": 0,
-      "example_expression_ids": [
-        "28"
-      ],
-      "example_latex": [
-        "x^{2}+y^{2}\\le2000\\left\\{-90\\le z\\le-80\\right\\}"
-      ],
-      "example_normalized": [
-        "x^{2}+y^{2}<=2000{-90<=z<=-80}"
-      ],
-      "flags": {
-        "lines": 0,
-        "extendTo3D": 1,
-        "has_color": 1
-      }
-    }
-  ],
+  "geometry_ineligible_count": 1,
+  "groups": [],
   "diagnostics": [
     {
       "severity": "INFO",
@@ -39,9 +17,9 @@
       "source_ref": null,
       "details": {
         "file": "JSONAkashi.json",
-        "meshed_expression_ids": 557,
+        "meshed_expression_ids": 558,
         "supported_but_not_meshed": 0,
-        "group_count": 1
+        "group_count": 0
       }
     }
   ]

@@ -1,0 +1,2714 @@
+{
+  "source_file": "JSONmeth.json",
+  "total_items": 594,
+  "total_expressions": 575,
+  "meshed_expression_count": 442,
+  "supported_expression_count": 442,
+  "supported_but_not_meshed_count": 0,
+  "recognized_unsupported_count": 0,
+  "unrecognized_count": 123,
+  "geometry_ineligible_count": 10,
+  "groups": [
+    {
+      "fingerprint": "c46f24883308ec70",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 2,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "1028",
+        "1029"
+      ],
+      "example_latex": [
+        "",
+        ""
+      ],
+      "example_normalized": [
+        "",
+        ""
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 2
+      }
+    },
+    {
+      "fingerprint": "00e91192dbdc4f8e",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "897"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}((-14,-6.5,43),(-15,-8,48),(-13.5,-8,43))"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}((-14,-6.5,43),(-15,-8,48),(-13.5,-8,43))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "02c52a4006982618",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "1009"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}((-18,8,42.5),(-20,8,46.5),(-22,8,42.5))"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}((-18,8,42.5),(-20,8,46.5),(-22,8,42.5))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "033eb568910efb7e",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "169"
+      ],
+      "example_latex": [
+        "\\left(25,-8,9\\right)+t*(\\left(15,-8,10\\right)-\\left(25,-8,9\\right))"
+      ],
+      "example_normalized": [
+        "(25,-8,9)+t*((15,-8,10)-(25,-8,9))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "04caab51bdc6156c",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "144"
+      ],
+      "example_latex": [
+        "(-25,8,40)+t*(\\left(-25,8,9\\right)-(-25,8,40))"
+      ],
+      "example_normalized": [
+        "(-25,8,40)+t*((-25,8,9)-(-25,8,40))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "0701a1b742ce11d8",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "108"
+      ],
+      "example_latex": [
+        "(-67,7,20)+t*(\\left(-67,-7,20\\right)-(-67,7,20))"
+      ],
+      "example_normalized": [
+        "(-67,7,20)+t*((-67,-7,20)-(-67,7,20))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "098b54c9d77d1821",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "173"
+      ],
+      "example_latex": [
+        "\\left(25,-8,9\\right)+t*(\\left(25,8,9\\right)-\\left(25,-8,9\\right))"
+      ],
+      "example_normalized": [
+        "(25,-8,9)+t*((25,8,9)-(25,-8,9))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "107d101a92387616",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "900"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}((-24,-9.5,43),(-25,-8,48),(-26,-9.5,43))"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}((-24,-9.5,43),(-25,-8,48),(-26,-9.5,43))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "12d7082e530a616b",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "149"
+      ],
+      "example_latex": [
+        "(-25,8,40)+t*(\\left(-25,-8,40\\right)-(-25,8,40))"
+      ],
+      "example_normalized": [
+        "(-25,8,40)+t*((-25,-8,40)-(-25,8,40))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "14c04659ae740341",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "972"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}((24,9.5,43),(25,8,48),(26,9.5,43))"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}((24,9.5,43),(25,8,48),(26,9.5,43))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "15600d1321c762e4",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "845"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}((65,7,22.5),(59,7,22.5),(62,7,27))"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}((65,7,22.5),(59,7,22.5),(62,7,27))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "16f066b9ac44b1f7",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "884"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}((-14,6.5,43),(-15,8,48),(-13.5,8,43))"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}((-14,6.5,43),(-15,8,48),(-13.5,8,43))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "1d43ba581d18a928",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "175"
+      ],
+      "example_latex": [
+        "(25,8,40)+t*\\left(\\left(25,-8,40\\right)-(25,8,40)\\right)"
+      ],
+      "example_normalized": [
+        "(25,8,40)+t*((25,-8,40)-(25,8,40))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "1eb980b2b7b15ef5",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "895"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}((-14,-6.5,43),(-15,-8,48),(-16,-6.5,43))"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}((-14,-6.5,43),(-15,-8,48),(-16,-6.5,43))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "1f8c3b754603c0e3",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "802"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}((-65,-7,22.5),(-59,-7,22.5),(-62,-7,27))"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}((-65,-7,22.5),(-59,-7,22.5),(-62,-7,27))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "1f9ab2cfcabf6189",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "906"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}((-24,-9.5,43),(-25,-8,48),(-23.5,-8,43))"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}((-24,-9.5,43),(-25,-8,48),(-23.5,-8,43))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "23cdfdbe770751ee",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "131"
+      ],
+      "example_latex": [
+        "\\left(67,-7,20\\right)+t*(\\left(67,-7,10\\right)-\\left(67,-7,20\\right))"
+      ],
+      "example_normalized": [
+        "(67,-7,20)+t*((67,-7,10)-(67,-7,20))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "247e808e09ed211a",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "894"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}((-14,-9.5,43),(-15,-8,48),(-16,-9.5,43))"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}((-14,-9.5,43),(-15,-8,48),(-16,-9.5,43))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "24d016e91319dd94",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "942"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}((-15,8,40),(-20,0,50),(-15,-8,40))"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}((-15,8,40),(-20,0,50),(-15,-8,40))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "2676b7ca94bd2575",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "1010"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}((-18,-8,42.5),(-20,-8,46.5),(-22,-8,42.5))"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}((-18,-8,42.5),(-20,-8,46.5),(-22,-8,42.5))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "28005659276d5941",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "101"
+      ],
+      "example_latex": [
+        "\\ \\left(-57,-7,20\\right)+t*(\\left(-67,-7,20\\right)-\\ \\left(-57,-7,20\\right))"
+      ],
+      "example_normalized": [
+        "(-57,-7,20)+t*((-67,-7,20)-(-57,-7,20))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "2ae3bab815ca07d2",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "905"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}((-24,-6.5,43),(-25,-8,48),(-26,-6.5,43))"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}((-24,-6.5,43),(-25,-8,48),(-26,-6.5,43))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "2c2481f0272f7353",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "1022"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}((18,-8,42.5),(20,-8,46.5),(22,-8,42.5))"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}((18,-8,42.5),(20,-8,46.5),(22,-8,42.5))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "2d7e9ac8b8900370",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "993"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}((14,-6.5,43),(15,-8,48),(16,-6.5,43))"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}((14,-6.5,43),(15,-8,48),(16,-6.5,43))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "2defe1861acc1cf7",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "105"
+      ],
+      "example_latex": [
+        "\\ \\left(-57,-7,20\\right)+t*(\\left(-57,-7,9\\right)-\\ \\left(-57,-7,20\\right))"
+      ],
+      "example_normalized": [
+        "(-57,-7,20)+t*((-57,-7,9)-(-57,-7,20))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "2e1396f6d945f7d7",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "890"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}((-24,9.5,43),(-25,8,48),(-23.5,8,43))"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}((-24,9.5,43),(-25,8,48),(-23.5,8,43))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "2f3ce42a0673c765",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "129"
+      ],
+      "example_latex": [
+        "\\left(57,7,10\\right)+t*(\\left(57,-7,10\\right)-\\left(57,7,10\\right))"
+      ],
+      "example_normalized": [
+        "(57,7,10)+t*((57,-7,10)-(57,7,10))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "324419ffbc83b56c",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "984"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}((14,-9.5,43),(15,-8,48),(16,-9.5,43))"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}((14,-9.5,43),(15,-8,48),(16,-9.5,43))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "37826d0db494fc88",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "178"
+      ],
+      "example_latex": [
+        "\\left(15,8,9\\right)+t*(\\left(15,-8,9\\right)-\\left(15,8,9\\right))"
+      ],
+      "example_normalized": [
+        "(15,8,9)+t*((15,-8,9)-(15,8,9))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "3ab5715556f9ad5b",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "107"
+      ],
+      "example_latex": [
+        "(-57,7,20)+t*(\\ \\left(-57,-7,20\\right)-(-57,7,20))"
+      ],
+      "example_normalized": [
+        "(-57,7,20)+t*((-57,-7,20)-(-57,7,20))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "3e790d09477b05d7",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "168"
+      ],
+      "example_latex": [
+        "\\left(15,-8,40\\right)+t*(\\left(25,-8,40\\right)-\\left(15,-8,40\\right))"
+      ],
+      "example_normalized": [
+        "(15,-8,40)+t*((25,-8,40)-(15,-8,40))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "44f3ea15a1959970",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "141"
+      ],
+      "example_latex": [
+        "\\left(-15,8,9\\right)+t*(\\left(-25,8,9\\right)-\\left(-15,8,9\\right))"
+      ],
+      "example_normalized": [
+        "(-15,8,9)+t*((-25,8,9)-(-15,8,9))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "4723bc62a225ee92",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "896"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}((-14,-9.5,43),(-15,-8,48),(-13.5,-8,43))"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}((-14,-9.5,43),(-15,-8,48),(-13.5,-8,43))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "473867b7ca4a91f8",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "982"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}((26.5,8,43),(25,8,48),(26,9.5,43))"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}((26.5,8,43),(25,8,48),(26,9.5,43))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "4791b5cebc008bc0",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "903"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}((-26.5,-8,43),(-25,-8,48),(-26,-6.5,43))"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}((-26.5,-8,43),(-25,-8,48),(-26,-6.5,43))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "4994c808a2d2808c",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "145"
+      ],
+      "example_latex": [
+        "\\left(-15,8,9\\right)+t*\\left((-15,8,40)-\\left(-15,8,9\\right))\\right)"
+      ],
+      "example_normalized": [
+        "(-15,8,9)+t*((-15,8,40)-(-15,8,9)))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "4ab8e24d5d024007",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "99"
+      ],
+      "example_latex": [
+        "(-67,7,20)+t*((-57,7,20)-(-67,7,20))"
+      ],
+      "example_normalized": [
+        "(-67,7,20)+t*((-57,7,20)-(-67,7,20))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "50a9b2a7143b9d5d",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "126"
+      ],
+      "example_latex": [
+        "\\left(57,-7,20\\right)+t*(\\left(57,-7,10\\right)-\\left(57,-7,25\\right))"
+      ],
+      "example_normalized": [
+        "(57,-7,20)+t*((57,-7,10)-(57,-7,25))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "5152841f1d97629c",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "1023"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}((25,3,42),(25,0,46.5),(25,-3,42))"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}((25,3,42),(25,0,46.5),(25,-3,42))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "51adc9a71c220dfe",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "871"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}((25,8,40),(20,0,50),(25,-8,40))"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}((25,8,40),(20,0,50),(25,-8,40))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "543e1b0ce153fcdf",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "1001"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}((24,-9.5,43),\\left(25,-8,48),(26,-9.5,43))\\right)"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}((24,-9.5,43),(25,-8,48),(26,-9.5,43)))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "547094d6209c14b5",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "980"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}((24,9.5,43),(25,8,48),(23.5,8,43))"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}((24,9.5,43),(25,8,48),(23.5,8,43))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "54c31464fb06a409",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "128"
+      ],
+      "example_latex": [
+        "\\left(57,7,20\\right)+t*(\\left(57,-7,20\\right)-\\left(57,7,20\\right))"
+      ],
+      "example_normalized": [
+        "(57,7,20)+t*((57,-7,20)-(57,7,20))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "54de12e1490ead14",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "849"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}((57,-1.65,22.5),(57,1.65,22.5),(57,0,25))"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}((57,-1.65,22.5),(57,1.65,22.5),(57,0,25))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "5654fd1636a8db5b",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "140"
+      ],
+      "example_latex": [
+        "(-25,8,40)+t*((-15,8,40)-(-25,8,40))"
+      ],
+      "example_normalized": [
+        "(-25,8,40)+t*((-15,8,40)-(-25,8,40))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "58feeb7d6a7f609d",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "104"
+      ],
+      "example_latex": [
+        "(-57,7,20)+t*(\\left(-57,7,9\\right)-(-57,7,20))"
+      ],
+      "example_normalized": [
+        "(-57,7,20)+t*((-57,7,9)-(-57,7,20))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "59246da489df88c3",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "879"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}((-14,9.5,43),(-15,8,48),(-16,9.5,43))"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}((-14,9.5,43),(-15,8,48),(-16,9.5,43))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "5dbeeb6310c81b4d",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "1006"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}((26.5,-8,43),(25,-8,48),(26,-9.5,43))"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}((26.5,-8,43),(25,-8,48),(26,-9.5,43))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "5de122cf56c1e772",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "902"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}((-26.5,-8,43),(-25,-8,48),(-26,-9.5,43))"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}((-26.5,-8,43),(-25,-8,48),(-26,-9.5,43))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "6029caa525427dba",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "889"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}((-24,6.5,43),(-25,8,48),(-26,6.5,43))"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}((-24,6.5,43),(-25,8,48),(-26,6.5,43))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "62ba2af0993e2215",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "968"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}((14,9.5,43),(15,8,48),(13.5,8,43))"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}((14,9.5,43),(15,8,48),(13.5,8,43))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "653d69bf731f3588",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "870"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}((15,8,40),(20,0,50),(15,-8,40))"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}((15,8,40),(20,0,50),(15,-8,40))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "676c12838405168f",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "970"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}((16.5,8,43),(15,8,48),(16,9.5,43))"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}((16.5,8,43),(15,8,48),(16,9.5,43))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "67fa962233773932",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "102"
+      ],
+      "example_latex": [
+        "\\left(-67,-7,9\\right)+t*(\\left(-57,-7,9\\right)-\\left(-67,-7,9\\right))"
+      ],
+      "example_normalized": [
+        "(-67,-7,9)+t*((-57,-7,9)-(-67,-7,9))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "6c0296144c8b804f",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "941"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}((-15,-8,40),(-20,0,50),(-25,-8,40))"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}((-15,-8,40),(-20,0,50),(-25,-8,40))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "6d19c623e44dcc03",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "170"
+      ],
+      "example_latex": [
+        "(25,8,40)+t*\\left(\\left(25,8,9\\right)-(25,8,40)\\right)"
+      ],
+      "example_normalized": [
+        "(25,8,40)+t*((25,8,9)-(25,8,40))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "6dfc446bfa17a7f1",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "143"
+      ],
+      "example_latex": [
+        "\\left(-25,-8,9\\right)+t*(\\left(-15,-8,9\\right)-\\left(-25,-8,9\\right))"
+      ],
+      "example_normalized": [
+        "(-25,-8,9)+t*((-15,-8,9)-(-25,-8,9))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "6e5d86eefff1bfe0",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "888"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}((-24,9.5,43),(-25,8,48),(-26,9.5,43))"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}((-24,9.5,43),(-25,8,48),(-26,9.5,43))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "731848336cf1c828",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "167"
+      ],
+      "example_latex": [
+        "\\left(15,8,9\\right)+t*(\\left(25,8,9\\right)-\\left(15,8,9\\right))"
+      ],
+      "example_normalized": [
+        "(15,8,9)+t*((25,8,9)-(15,8,9))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "735197300c8d8d64",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "869"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}((15,-8,40),(20,0,50),(25,-8,40))"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}((15,-8,40),(20,0,50),(25,-8,40))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "7d82ad5d4085f8b4",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "971"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}((16.5,8,43),(15,8,48),(16,6.5,43))"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}((16.5,8,43),(15,8,48),(16,6.5,43))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "7ea3f9d530389ef2",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "848"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}((67,-1.65,22.5),(67,1.65,22.5),(67,0,25))"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}((67,-1.65,22.5),(67,1.65,22.5),(67,0,25))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "7f4ed3a4817f7790",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "147"
+      ],
+      "example_latex": [
+        "\\left(-15,-8,9\\right)+t*(\\left(-15,-8,40\\right)-\\left(-15,-8,9\\right))"
+      ],
+      "example_normalized": [
+        "(-15,-8,9)+t*((-15,-8,40)-(-15,-8,9))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "82c32fac033dfb6e",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "899"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}((-16.5,-8,43),(-15,-8,48),(-16,-6.5,43))"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}((-16.5,-8,43),(-15,-8,48),(-16,-6.5,43))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "8314fcb4a0146637",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "813"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}((-57,-1.65,22.5),(-57,1.65,22.5),(-57,0,25))"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}((-57,-1.65,22.5),(-57,1.65,22.5),(-57,0,25))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "846b3b14bbdc805c",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "174"
+      ],
+      "example_latex": [
+        "\\left(25,-8,40\\right)+t*\\left(\\left(25,-8,10\\right)-\\left(25,-8,40\\right)\\right)"
+      ],
+      "example_normalized": [
+        "(25,-8,40)+t*((25,-8,10)-(25,-8,40))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "857c18f28e3ba261",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "891"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}((-24,6.5,43),(-25,8,48),(-23.5,8,43))"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}((-24,6.5,43),(-25,8,48),(-23.5,8,43))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "861fd6ac529b5723",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "892"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}((-26.5,8,43),(-25,8,48),(-26,9.5,43))"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}((-26.5,8,43),(-25,8,48),(-26,9.5,43))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "88c5a802925acae4",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "110"
+      ],
+      "example_latex": [
+        "\\left(-67,7,9\\right)+t*(\\left(-67,-7,9\\right)-\\left(-67,7,9\\right))"
+      ],
+      "example_normalized": [
+        "(-67,7,9)+t*((-67,-7,9)-(-67,7,9))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "8cd7ddcbe1f10ac3",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "124"
+      ],
+      "example_latex": [
+        "\\left(67,7,20\\right)+t*(\\left(67,7,10\\right)-\\left(67,7,20\\right))"
+      ],
+      "example_normalized": [
+        "(67,7,20)+t*((67,7,10)-(67,7,20))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "911b3ac765827745",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "1002"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}((24,-6.5,43),(25,-8,48),(26,-6.5,43))"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}((24,-6.5,43),(25,-8,48),(26,-6.5,43))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "932096e85b615f03",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "805"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}((-67,-1.65,22.5),(-67,1.65,22.5),(-67,0,25))"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}((-67,-1.65,22.5),(-67,1.65,22.5),(-67,0,25))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "9a6007a5b29218ce",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "885"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}((-16.5,8,43),(-15,8,48),(-16,9.5,43))"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}((-16.5,8,43),(-15,8,48),(-16,9.5,43))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "9e977050a8f59472",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "1024"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}((15,3,42),(15,0,46.5),(15,-3,42))"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}((15,3,42),(15,0,46.5),(15,-3,42))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "9ff8111f95f96ca4",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "883"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}((-14,9.5,43),(-15,8,48),(-13.5,8,43))"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}((-14,9.5,43),(-15,8,48),(-13.5,8,43))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "a441f01c39a3d1ec",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "177"
+      ],
+      "example_latex": [
+        "\\left(15,8,9\\right)+t*((15,8,40)-\\left(15,8,9\\right))"
+      ],
+      "example_normalized": [
+        "(15,8,9)+t*((15,8,40)-(15,8,9))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "a7b5731a4e6d6bb3",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "983"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}((26.5,8,43),(25,8,48),(26,6.5,43))"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}((26.5,8,43),(25,8,48),(26,6.5,43))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "a8b386d16cf86776",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "152"
+      ],
+      "example_latex": [
+        "\\left(-25,-8,9\\right)+t*(\\left(-25,8,9\\right)-\\left(-25,-8,9\\right))"
+      ],
+      "example_normalized": [
+        "(-25,-8,9)+t*((-25,8,9)-(-25,-8,9))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "a99c9bd42c7fdc6c",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "120"
+      ],
+      "example_latex": [
+        "\\left(57,7,10\\right)+t*(\\left(67,7,10\\right)-\\left(57,7,10\\right))"
+      ],
+      "example_normalized": [
+        "(57,7,10)+t*((67,7,10)-(57,7,10))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "ac6f5bc15dbbcf5e",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "1007"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}((26.5,-8,43),(25,-8,48),(26,-6.5,43))"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}((26.5,-8,43),(25,-8,48),(26,-6.5,43))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "aed5a33d91df5220",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "898"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}((-16.5,-8,43),(-15,-8,48),(-16,-9.5,43))"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}((-16.5,-8,43),(-15,-8,48),(-16,-9.5,43))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "b14844682d0c98a1",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "109"
+      ],
+      "example_latex": [
+        "\\left(-57,7,9\\right)+t*(\\left(-57,-7,9\\right)-\\left(-57,7,9\\right))"
+      ],
+      "example_normalized": [
+        "(-57,7,9)+t*((-57,-7,9)-(-57,7,9))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "b2f9a6bd8d3b56e8",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "150"
+      ],
+      "example_latex": [
+        "\\left(-15,8,9\\right)+t*(\\left(-15,-8,9\\right)-\\left(-15,8,9\\right))"
+      ],
+      "example_normalized": [
+        "(-15,8,9)+t*((-15,-8,9)-(-15,8,9))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "b3a44cafe677cd09",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "125"
+      ],
+      "example_latex": [
+        "\\left(57,7,20\\right)+t*(\\left(57,7,10\\right)-\\left(57,7,20\\right))"
+      ],
+      "example_normalized": [
+        "(57,7,20)+t*((57,7,10)-(57,7,20))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "b402f13fef79d580",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "996"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}(\\left(14,-6.5,43),(15,-8,48),(13.5,-8,43))\\right)"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}((14,-6.5,43),(15,-8,48),(13.5,-8,43)))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "b5acb856824db51b",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "123"
+      ],
+      "example_latex": [
+        "\\left(67,-7,10\\right)+t*(\\left(57,-7,10\\right)-\\left(67,-7,10\\right))"
+      ],
+      "example_normalized": [
+        "(67,-7,10)+t*((57,-7,10)-(67,-7,10))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "b61adecec9e557f5",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "943"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}((-25,8,40),(-20,0,50),(-25,-8,40))"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}((-25,8,40),(-20,0,50),(-25,-8,40))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "b6460d5f759f6bae",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "979"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}((24,6.5,43),(25,8,48),(26,6.5,43))"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}((24,6.5,43),(25,8,48),(26,6.5,43))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "b88b64c14a5220db",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "1005"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}((24,-6.5,43),(25,-8,48),(23.5,-8,43))"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}((24,-6.5,43),(25,-8,48),(23.5,-8,43))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "bb4a7a3b4b7d4c32",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "901"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}((-24,-6.5,43),(-25,-8,48),(-23.5,-8,43))"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}((-24,-6.5,43),(-25,-8,48),(-23.5,-8,43))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "bf27d369e02363db",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "148"
+      ],
+      "example_latex": [
+        "\\left(-15,-8,40\\right)+t*((-15,8,40)-\\left(-15,-8,40\\right))"
+      ],
+      "example_normalized": [
+        "(-15,-8,40)+t*((-15,8,40)-(-15,-8,40))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "c0e3cf5a92a0a45d",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "1012"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}((-15,3,42),(-15,0,46.5),(-15,-3,42))"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}((-15,3,42),(-15,0,46.5),(-15,-3,42))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "c17147ce4f9e5118",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "844"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}((65,-7,22.5),(59,-7,22.5),(62,-7,27))"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}((65,-7,22.5),(59,-7,22.5),(62,-7,27))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "c187cf7f47e2adbc",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "172"
+      ],
+      "example_latex": [
+        "\\left(15,-8,40\\right)+t*(\\left(15,-8,9\\right)-\\left(15,-8,40\\right))"
+      ],
+      "example_normalized": [
+        "(15,-8,40)+t*((15,-8,9)-(15,-8,40))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "c25a083ea0e06814",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "868"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}((15,8,40),(20,0,50),(25,8,40))"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}((15,8,40),(20,0,50),(25,8,40))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "c82b61fd651a7d34",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "176"
+      ],
+      "example_latex": [
+        "\\left(15,0-8,40\\right)+t*((15,8,40)-\\left(15,-8,40\\right))"
+      ],
+      "example_normalized": [
+        "(15,0-8,40)+t*((15,8,40)-(15,-8,40))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "c84d515f632d8d56",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "195"
+      ],
+      "example_latex": [
+        "\\left(67,7,20\\right)+t*(\\left(57,7,20\\right)-\\left(67,7,20\\right))"
+      ],
+      "example_normalized": [
+        "(67,7,20)+t*((57,7,20)-(67,7,20))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "c95aa235cf555f11",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "966"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}((14,9.5,43),(15,8,48),(16,9.5,43))"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}((14,9.5,43),(15,8,48),(16,9.5,43))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "c95fd5f14a3486b5",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "1021"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}((18,8,42.5),(20,8,46.5),(22,8,42.5))"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}((18,8,42.5),(20,8,46.5),(22,8,42.5))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "cb31cb1c4cd8cc30",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "997"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}((16.5,-8,43),(15,-8,48),(16,-9.5,43))"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}((16.5,-8,43),(15,-8,48),(16,-9.5,43))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "cb3a3784342b2dfe",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "995"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}((14,-9.5,43),(15,-8,48),(13.5,-8,43))"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}((14,-9.5,43),(15,-8,48),(13.5,-8,43))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "cb4460cd25984543",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "100"
+      ],
+      "example_latex": [
+        "\\left(-57,7,9\\right)+t*(\\left(-67,7,9\\right)-\\left(-57,7,9\\right))"
+      ],
+      "example_normalized": [
+        "(-57,7,9)+t*((-67,7,9)-(-57,7,9))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "cdad413aa4fbd61f",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "122"
+      ],
+      "example_latex": [
+        "\\left(57,-7,20\\right)+t*(\\left(67,-7,20\\right)-\\left(57,-7,20\\right))"
+      ],
+      "example_normalized": [
+        "(57,-7,20)+t*((67,-7,20)-(57,-7,20))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "ce7e04ea69ec7dd1",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "981"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}((24,6.5,43),(25,8,48),(23.5,8,43))"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}((24,6.5,43),(25,8,48),(23.5,8,43))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "cfb80141905cb676",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "1003"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}((24,-9.5,43),(25,-8,48),\\left(23.5,-8,43))\\right)"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}((24,-9.5,43),(25,-8,48),(23.5,-8,43)))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "d5ba0d515fb9eef2",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "1011"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}((-25,3,42),(-25,0,46.5),(-25,-3,42))"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}((-25,3,42),(-25,0,46.5),(-25,-3,42))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "d6ee8085a673a515",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "967"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}((14,6.5,43),(15,8,48),\\left(16,6.5,43))\\right)"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}((14,6.5,43),(15,8,48),(16,6.5,43)))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "d830d3bb943a7507",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "142"
+      ],
+      "example_latex": [
+        "\\left(-15,-8,40\\right)+t*(\\left(-25,-8,40\\right)-\\left(-15,-8,40\\right))"
+      ],
+      "example_normalized": [
+        "(-15,-8,40)+t*((-25,-8,40)-(-15,-8,40))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "dbad2e44f182b228",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "127"
+      ],
+      "example_latex": [
+        "\\left(67,7,20\\right)+t*(\\left(67,-7,20\\right)-\\left(67,7,20\\right))"
+      ],
+      "example_normalized": [
+        "(67,7,20)+t*((67,-7,20)-(67,7,20))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "dd12291b1d0c0777",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "969"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}((14,6.5,43),(15,8,48),(13.5,8,43))"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}((14,6.5,43),(15,8,48),(13.5,8,43))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "e6c980d91d48598e",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "130"
+      ],
+      "example_latex": [
+        "\\left(67,7,10\\right)+t*(\\left(67,-7,10\\right)-\\left(67,7,10\\right))"
+      ],
+      "example_normalized": [
+        "(67,7,10)+t*((67,-7,10)-(67,7,10))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "eb19d56c52a229aa",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "998"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}((16.5,-8,43),(15,-8,48),(16,-6.5,43))"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}((16.5,-8,43),(15,-8,48),(16,-6.5,43))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "ec0a85a4ba45ea93",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "171"
+      ],
+      "example_latex": [
+        "\\left(15,8,10\\right)+t*((15,8,40)-\\left(15,8,9\\right))"
+      ],
+      "example_normalized": [
+        "(15,8,10)+t*((15,8,40)-(15,8,9))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "ee0a3a445390f560",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "893"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}((-26.5,8,43),(-25,8,48),(-26,6.5,43))"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}((-26.5,8,43),(-25,8,48),(-26,6.5,43))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "ef7883640e68392f",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "146"
+      ],
+      "example_latex": [
+        "\\left(-25,-8,9\\right)+t*(\\left(-25,-8,40\\right)-\\left(-25,-8,9\\right))"
+      ],
+      "example_normalized": [
+        "(-25,-8,9)+t*((-25,-8,40)-(-25,-8,9))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "f1c8d50f2f6978d5",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "103"
+      ],
+      "example_latex": [
+        "(-67,7,20)+t*(\\left(-67,7,9\\right)-(-67,7,20))"
+      ],
+      "example_normalized": [
+        "(-67,7,20)+t*((-67,7,9)-(-67,7,20))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "f24d5729538b610a",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "887"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}((-16.5,8,43),(-15,8,48),(-16,6.5,43))"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}((-16.5,8,43),(-15,8,48),(-16,6.5,43))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "f2555424f3a50b67",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "881"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}((-14,6.5,43),(-15,8,48),(-16,6.5,43))"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}((-14,6.5,43),(-15,8,48),(-16,6.5,43))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "fc3b39f0a06931a6",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "940"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}((-15,8,40),(-20,0,50),(-25,8,40))"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}((-15,8,40),(-20,0,50),(-25,8,40))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "fd6f4a477718affd",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "166"
+      ],
+      "example_latex": [
+        "(25,8,40)+t*((15,8,40)-(25,8,40))"
+      ],
+      "example_normalized": [
+        "(25,8,40)+t*((15,8,40)-(25,8,40))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "fec15ba208c89820",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "810"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}((-65,7,22.5),(-59,7,22.5),(-62,7,27))"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}((-65,7,22.5),(-59,7,22.5),(-62,7,27))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "fff60c82c56ef9d7",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "106"
+      ],
+      "example_latex": [
+        "\\left(-67,-7,20\\right)+t*(\\left(-67,-7,9\\right)-\\left(-67,-7,20\\right))"
+      ],
+      "example_normalized": [
+        "(-67,-7,20)+t*((-67,-7,9)-(-67,-7,20))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    }
+  ],
+  "diagnostics": [
+    {
+      "severity": "INFO",
+      "code": "COVERAGE_COMPLETE",
+      "message": "Coverage report complete",
+      "source_ref": null,
+      "details": {
+        "file": "JSONmeth.json",
+        "meshed_expression_ids": 442,
+        "supported_but_not_meshed": 0,
+        "group_count": 122
+      }
+    }
+  ]
+}

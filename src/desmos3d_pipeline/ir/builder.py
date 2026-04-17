@@ -6,11 +6,12 @@ from pathlib import Path
 from typing import Any
 
 from desmos3d_pipeline.classify.rules import classify_expression
-from desmos3d_pipeline.io.desmos_json import extract_expression_list, load_desmos_json
+from desmos3d_pipeline.io.desmos_json import extract_expression_list, extract_viewport, load_desmos_json
 from desmos3d_pipeline.ir.models import (
     BoxVolumeNode,
     ClassificationStatus,
     Diagnostic,
+    DiskExtrusionSolidNode,
     ExpressionFamily,
     ExpressionRecord,
     GeometryNode,
@@ -25,6 +26,7 @@ from desmos3d_pipeline.ir.models import (
 )
 from desmos3d_pipeline.normalize.latex import extract_brace_restrictions, normalize_latex
 from desmos3d_pipeline.parse.math_eval import normalize_symbol_name, safe_eval, to_python_expr
+from desmos3d_pipeline.parse.disk_extrusion import try_disk_extrusion_world_bbox, try_parse_axis_aligned_disk_inequality
 from desmos3d_pipeline.parse.relation import parse_interval_constraint
 from desmos3d_pipeline.parse.symbols import parse_assignment, parse_point_definition
 
@@ -43,7 +45,7 @@ def build_geometry_for_file(path: Path) -> GeometryBuildResult:
         return GeometryBuildResult(source_file=path.name, nodes=[], diagnostics=diagnostics, symbol_table={})
 
     items = extract_expression_list(desmos_file.data)
-    viewport = _extract_viewport(desmos_file.data)
+    viewport = extract_viewport(desmos_file.data)
     folders: dict[str, str] = {}
     symbol_table: dict[str, str] = {}
     records: list[tuple[ExpressionRecord, Any]] = []
@@ -70,7 +72,7 @@ def build_geometry_for_file(path: Path) -> GeometryBuildResult:
             extend_to_3d=bool(item.get("extendTo3D", False)),
             lines=bool(item.get("lines", False)),
         )
-        classification = classify_expression(normalized, item_type)
+        classification = classify_expression(normalized, item_type, viewport)
         records.append((record, classification))
 
         core, _ = extract_brace_restrictions(normalized)
@@ -105,6 +107,30 @@ def build_geometry_for_file(path: Path) -> GeometryBuildResult:
     return GeometryBuildResult(source_file=path.name, nodes=nodes, diagnostics=diagnostics, symbol_table=symbol_table)
 
 
+def _first_scalar_from_desmos_bracket_list(expr: str) -> float | None:
+    """Desmos exports multi-stop sliders as ``name=[v0,v1,...]`` after normalization.
+
+    We pick the first numeric entry so meshing is deterministic when the JSON
+    does not include a separate current slider value.
+    """
+    expr = expr.strip()
+    if not (expr.startswith("[") and expr.endswith("]")):
+        return None
+    inner = expr[1:-1].strip()
+    if not inner:
+        return None
+    values: list[float] = []
+    for part in inner.split(","):
+        token = part.strip()
+        if not token:
+            return None
+        try:
+            values.append(float(token))
+        except ValueError:
+            return None
+    return values[0] if values else None
+
+
 def _resolve_symbol_table(symbol_table: dict[str, str]) -> dict[str, float]:
     resolved: dict[str, float] = {}
     python_names = {name: normalize_symbol_name(name) for name in symbol_table}
@@ -112,6 +138,12 @@ def _resolve_symbol_table(symbol_table: dict[str, str]) -> dict[str, float]:
     for _ in range(len(pending) + 2):
         progress = False
         for name, expr in list(pending.items()):
+            list_scalar = _first_scalar_from_desmos_bracket_list(expr)
+            if list_scalar is not None:
+                resolved[normalize_symbol_name(name)] = list_scalar
+                pending.pop(name)
+                progress = True
+                continue
             py_expr = to_python_expr(expr, python_names)
             try:
                 value = safe_eval(py_expr, resolved)
@@ -346,6 +378,38 @@ def _build_node(
             sampling_hint=(48, 256),
         )
 
+    if family == ExpressionFamily.DISK_EXTRUSION_SOLID:
+        spec = try_parse_axis_aligned_disk_inequality(core)
+        if spec is None:
+            return None
+        bbox = try_disk_extrusion_world_bbox(restrictions, spec, viewport)
+        if bbox is None:
+            return None
+        xmin, xmax, ymin, ymax, zmin, zmax = bbox
+        return DiskExtrusionSolidNode(
+            node_type="disk_extrusion_solid",
+            source_ref=record.source_ref,
+            family=family,
+            status=ClassificationStatus.SUPPORTED,
+            original_latex=record.raw_latex,
+            normalized_latex=record.normalized_latex,
+            color=record.color,
+            hidden=record.hidden,
+            metadata=metadata,
+            axis_u=spec.axis_u,
+            axis_v=spec.axis_v,
+            center_u=spec.center_u,
+            center_v=spec.center_v,
+            radius_sq=spec.radius_sq,
+            x_min=xmin,
+            x_max=xmax,
+            y_min=ymin,
+            y_max=ymax,
+            z_min=zmin,
+            z_max=zmax,
+            voxel_resolution=30,
+        )
+
     if family in {ExpressionFamily.LINEAR_SURFACE_PATCH, ExpressionFamily.QUADRATIC_SURFACE_PATCH}:
         axis, rhs = core.split("=", 1)
         return SampledSurfaceNode(
@@ -365,13 +429,3 @@ def _build_node(
         )
 
     return None
-
-
-def _extract_viewport(data: dict[str, Any]) -> dict[str, float]:
-    viewport = data.get("graph", {}).get("viewport", {})
-    out: dict[str, float] = {}
-    for key in ("xmin", "xmax", "ymin", "ymax", "zmin", "zmax"):
-        value = viewport.get(key)
-        if isinstance(value, (int, float)):
-            out[key] = float(value)
-    return out
