@@ -1,0 +1,484 @@
+{
+  "source_file": "[4B] 3D Diagram - S2-09 Group G.json",
+  "total_items": 94,
+  "total_expressions": 91,
+  "meshed_expression_count": 65,
+  "supported_expression_count": 83,
+  "supported_but_not_meshed_count": 18,
+  "recognized_unsupported_count": 0,
+  "unrecognized_count": 0,
+  "geometry_ineligible_count": 8,
+  "groups": [
+    {
+      "fingerprint": "1083149e0e25cd43",
+      "family": "Z_SLAB_REGION",
+      "status": "SUPPORTED",
+      "reason": "z bounded between two functions",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "261"
+      ],
+      "example_latex": [
+        "\\operatorname{abs}\\left(x\\right)<4\\left\\{12<y<12.5\\right\\}\\left\\{32<z<39.5\\right\\}"
+      ],
+      "example_normalized": [
+        "-(4{12<y<12.5)<x<4{12<y<12.5}{32<z<39.5}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "3b8acffb37fc604b",
+      "family": "Z_SLAB_REGION",
+      "status": "SUPPORTED",
+      "reason": "z bounded between two functions",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "77"
+      ],
+      "example_latex": [
+        "\\operatorname{abs}\\left(x\\right)<30\\left\\{28<y<29\\right\\}\\left\\{19<z<21\\right\\}"
+      ],
+      "example_normalized": [
+        "-(30{28<y<29)<x<30{28<y<29}{19<z<21}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "44dd5a157669c0d6",
+      "family": "Z_SLAB_REGION",
+      "status": "SUPPORTED",
+      "reason": "z bounded between two functions",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "47"
+      ],
+      "example_latex": [
+        "\\operatorname{abs}\\left(x\\right)<24.5\\left\\{-13.5>y>-14.5\\right\\}\\left\\{2<z<6\\right\\}"
+      ],
+      "example_normalized": [
+        "-(24.5{-13.5>y>-14.5)<x<24.5{-13.5>y>-14.5}{2<z<6}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "4f6fccc9da96bf43",
+      "family": "Z_SLAB_REGION",
+      "status": "SUPPORTED",
+      "reason": "z bounded between two functions",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "249"
+      ],
+      "example_latex": [
+        "\\operatorname{abs}\\left(x\\right)<16\\left\\{\\operatorname{abs}\\left(y\\right)<16\\right\\}\\left\\{28<z<32\\right\\}"
+      ],
+      "example_normalized": [
+        "-(16{operatorname{abs)<x<16{operatorname{abs}(y)<16}{28<z<32}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "64e9eba368073de2",
+      "family": "Z_SLAB_REGION",
+      "status": "SUPPORTED",
+      "reason": "z bounded between two functions",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "2"
+      ],
+      "example_latex": [
+        "\\operatorname{abs}\\left(x\\right)<30\\left\\{\\operatorname{abs}\\left(y\\right)<30\\right\\}\\left\\{0<z<2\\right\\}"
+      ],
+      "example_normalized": [
+        "-(30{operatorname{abs)<x<30{operatorname{abs}(y)<30}{0<z<2}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "681d958410745e08",
+      "family": "Z_SLAB_REGION",
+      "status": "SUPPORTED",
+      "reason": "z bounded between two functions",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "52"
+      ],
+      "example_latex": [
+        "\\operatorname{abs}\\left(x\\right)<30\\left\\{\\operatorname{abs}\\left(y\\right)<30\\right\\}\\left\\{18<z<18.5\\right\\}"
+      ],
+      "example_normalized": [
+        "-(30{operatorname{abs)<x<30{operatorname{abs}(y)<30}{18<z<18.5}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "99f4ec3e5b90909b",
+      "family": "Z_SLAB_REGION",
+      "status": "SUPPORTED",
+      "reason": "z bounded between two functions",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "253"
+      ],
+      "example_latex": [
+        "\\operatorname{abs}\\left(x\\right)<15.5\\left\\{14.5<y<15.5\\right\\}\\left\\{32<z<33\\right\\}"
+      ],
+      "example_normalized": [
+        "-(15.5{14.5<y<15.5)<x<15.5{14.5<y<15.5}{32<z<33}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "9f4349f4647bae11",
+      "family": "Z_SLAB_REGION",
+      "status": "SUPPORTED",
+      "reason": "z bounded between two functions",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "263"
+      ],
+      "example_latex": [
+        "\\operatorname{abs}\\left(x\\right)<4\\left\\{-12>y>-12.5\\right\\}\\left\\{32<z<39.5\\right\\}"
+      ],
+      "example_normalized": [
+        "-(4{-12>y>-12.5)<x<4{-12>y>-12.5}{32<z<39.5}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "a0e1177a3b2abbee",
+      "family": "Z_SLAB_REGION",
+      "status": "SUPPORTED",
+      "reason": "z bounded between two functions",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "314"
+      ],
+      "example_latex": [
+        "\\operatorname{abs}\\left(x\\right)<30\\left\\{\\operatorname{abs}\\left(y\\right)<30\\right\\}\\left\\{18.5<z<19\\right\\}"
+      ],
+      "example_normalized": [
+        "-(30{operatorname{abs)<x<30{operatorname{abs}(y)<30}{18.5<z<19}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "a0f37f88c7842959",
+      "family": "Z_SLAB_REGION",
+      "status": "SUPPORTED",
+      "reason": "z bounded between two functions",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "67"
+      ],
+      "example_latex": [
+        "\\operatorname{abs}\\left(x\\right)<24.5\\left\\{23.5<y<24.5\\right\\}\\left\\{19<z<28\\right\\}"
+      ],
+      "example_normalized": [
+        "-(24.5{23.5<y<24.5)<x<24.5{23.5<y<24.5}{19<z<28}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "ac33c5eacfd1f6ba",
+      "family": "Z_SLAB_REGION",
+      "status": "SUPPORTED",
+      "reason": "z bounded between two functions",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "34"
+      ],
+      "example_latex": [
+        "\\operatorname{abs}\\left(x\\right)<24.5\\left\\{-23.5>y>-24.5\\right\\}\\left\\{14<z<18\\right\\}"
+      ],
+      "example_normalized": [
+        "-(24.5{-23.5>y>-24.5)<x<24.5{-23.5>y>-24.5}{14<z<18}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "b5501623d9f67248",
+      "family": "Z_SLAB_REGION",
+      "status": "SUPPORTED",
+      "reason": "z bounded between two functions",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "55"
+      ],
+      "example_latex": [
+        "\\operatorname{abs}\\left(x\\right)<30\\left\\{-28>y>-29\\right\\}\\left\\{19<z<21\\right\\}"
+      ],
+      "example_normalized": [
+        "-(30{-28>y>-29)<x<30{-28>y>-29}{19<z<21}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "bbd54b799597b944",
+      "family": "Z_SLAB_REGION",
+      "status": "SUPPORTED",
+      "reason": "z bounded between two functions",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "259"
+      ],
+      "example_latex": [
+        "\\operatorname{abs}\\left(x\\right)<12\\left\\{\\operatorname{abs}\\left(y\\right)<12\\right\\}\\left\\{32<z<42\\right\\}"
+      ],
+      "example_normalized": [
+        "-(12{operatorname{abs)<x<12{operatorname{abs}(y)<12}{32<z<42}"
+      ],
+      "flags": {
+        "lines": 1,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "cc5232e3dad4497a",
+      "family": "Z_SLAB_REGION",
+      "status": "SUPPORTED",
+      "reason": "z bounded between two functions",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "51"
+      ],
+      "example_latex": [
+        "\\operatorname{abs}\\left(x\\right)<24.5\\left\\{23.5<y<24.5\\right\\}\\left\\{2<z<14\\right\\}"
+      ],
+      "example_normalized": [
+        "-(24.5{23.5<y<24.5)<x<24.5{23.5<y<24.5}{2<z<14}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "f49b8b7ab14d7a9d",
+      "family": "Z_SLAB_REGION",
+      "status": "SUPPORTED",
+      "reason": "z bounded between two functions",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "251"
+      ],
+      "example_latex": [
+        "\\operatorname{abs}\\left(x\\right)<15.5\\left\\{-14.5>y>-15.5\\right\\}\\left\\{32<z<33\\right\\}"
+      ],
+      "example_normalized": [
+        "-(15.5{-14.5>y>-15.5)<x<15.5{-14.5>y>-15.5}{32<z<33}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "f4a218d6ba51bd0a",
+      "family": "Z_SLAB_REGION",
+      "status": "SUPPORTED",
+      "reason": "z bounded between two functions",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "30"
+      ],
+      "example_latex": [
+        "\\operatorname{abs}\\left(x\\right)<28\\left\\{-27>y>-28\\right\\}\\left\\{2<z<4\\right\\}"
+      ],
+      "example_normalized": [
+        "-(28{-27>y>-28)<x<28{-27>y>-28}{2<z<4}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "f59cf3a00089c413",
+      "family": "Z_SLAB_REGION",
+      "status": "SUPPORTED",
+      "reason": "z bounded between two functions",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "29"
+      ],
+      "example_latex": [
+        "\\operatorname{abs}\\left(x\\right)<28\\left\\{27<y<28\\right\\}\\left\\{2<z<4\\right\\}"
+      ],
+      "example_normalized": [
+        "-(28{27<y<28)<x<28{27<y<28}{2<z<4}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "f611c8f76371d21c",
+      "family": "Z_SLAB_REGION",
+      "status": "SUPPORTED",
+      "reason": "z bounded between two functions",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "33"
+      ],
+      "example_latex": [
+        "\\operatorname{abs}\\left(x\\right)<24.5\\left\\{23.5<y<24.5\\right\\}\\left\\{14<z<18\\right\\}"
+      ],
+      "example_normalized": [
+        "-(24.5{23.5<y<24.5)<x<24.5{23.5<y<24.5}{14<z<18}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 1,
+        "has_color": 1
+      }
+    }
+  ],
+  "diagnostics": [
+    {
+      "severity": "WARNING",
+      "code": "COVERAGE_MESH_FAILURES",
+      "message": "Some meshes failed during coverage pass (these items may be missing)",
+      "source_ref": null,
+      "details": {
+        "failed_mesh_count": 18,
+        "failures": [
+          {
+            "source_file": "[4B] 3D Diagram - S2-09 Group G.json",
+            "expression_id": "2",
+            "error": "unmatched ')' (<unknown>, line 1)"
+          },
+          {
+            "source_file": "[4B] 3D Diagram - S2-09 Group G.json",
+            "expression_id": "29",
+            "error": "unmatched ')' (<unknown>, line 1)"
+          },
+          {
+            "source_file": "[4B] 3D Diagram - S2-09 Group G.json",
+            "expression_id": "30",
+            "error": "unmatched ')' (<unknown>, line 1)"
+          },
+          {
+            "source_file": "[4B] 3D Diagram - S2-09 Group G.json",
+            "expression_id": "33",
+            "error": "unmatched ')' (<unknown>, line 1)"
+          },
+          {
+            "source_file": "[4B] 3D Diagram - S2-09 Group G.json",
+            "expression_id": "34",
+            "error": "unmatched ')' (<unknown>, line 1)"
+          },
+          {
+            "source_file": "[4B] 3D Diagram - S2-09 Group G.json",
+            "expression_id": "47",
+            "error": "unmatched ')' (<unknown>, line 1)"
+          },
+          {
+            "source_file": "[4B] 3D Diagram - S2-09 Group G.json",
+            "expression_id": "51",
+            "error": "unmatched ')' (<unknown>, line 1)"
+          },
+          {
+            "source_file": "[4B] 3D Diagram - S2-09 Group G.json",
+            "expression_id": "52",
+            "error": "unmatched ')' (<unknown>, line 1)"
+          },
+          {
+            "source_file": "[4B] 3D Diagram - S2-09 Group G.json",
+            "expression_id": "314",
+            "error": "unmatched ')' (<unknown>, line 1)"
+          },
+          {
+            "source_file": "[4B] 3D Diagram - S2-09 Group G.json",
+            "expression_id": "77",
+            "error": "unmatched ')' (<unknown>, line 1)"
+          }
+        ]
+      }
+    },
+    {
+      "severity": "INFO",
+      "code": "COVERAGE_COMPLETE",
+      "message": "Coverage report complete",
+      "source_ref": null,
+      "details": {
+        "file": "[4B] 3D Diagram - S2-09 Group G.json",
+        "meshed_expression_ids": 65,
+        "supported_but_not_meshed": 18,
+        "group_count": 18
+      }
+    }
+  ]
+}

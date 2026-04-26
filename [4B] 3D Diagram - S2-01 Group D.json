@@ -1,0 +1,177 @@
+{
+  "version": 11,
+  "randomSeed": "7800ed4bc2f9988e4ad041449cc9dfba",
+  "graph": {
+    "viewport": {
+      "xmin": -12.033096168455357,
+      "ymin": -12.033096168455357,
+      "zmin": -12.033096168455371,
+      "xmax": 12.033096168455357,
+      "ymax": 12.033096168455357,
+      "zmax": 12.033096168455371
+    },
+    "worldRotation3D": [
+      0.6644921400247109,
+      0.7436222183121437,
+      0.0740012991641187,
+      -0.7390533937783145,
+      0.6686000272454381,
+      -0.08230482800073613,
+      -0.1106809694130294,
+      1.3283644025197165e-12,
+      0.9938559870574155
+    ],
+    "axis3D": [
+      0,
+      0,
+      1.0000000000036564
+    ],
+    "speed3D": 0.22725641299280785,
+    "disableLighting": true,
+    "showPlane3D": false,
+    "showAxis3D": false,
+    "product": "graphing-3d",
+    "threeDMode": true,
+    "__v12ViewportLatexStash": {
+      "xmin": "-12.033096168455357",
+      "xmax": "12.033096168455357",
+      "ymin": "-12.033096168455357",
+      "ymax": "12.033096168455357",
+      "zmin": "-12.033096168455371",
+      "zmax": "12.033096168455371"
+    }
+  },
+  "expressions": {
+    "list": [
+      {
+        "type": "expression",
+        "id": "1",
+        "color": "#aaaaaa",
+        "latex": "-0.5\\le x\\le0.5\\left\\{-0.5\\le y\\le0.5\\right\\}\\left\\{0.1<z<0.2\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "2",
+        "color": "#aaaaaa",
+        "latex": "\\operatorname{segment}\\ \\left(\\left(2,\\ -2,\\ 1\\right),\\ \\left(0.5,\\ -0.5,0.1\\right)\\right)"
+      },
+      {
+        "type": "expression",
+        "id": "3",
+        "color": "#aaaaaa",
+        "latex": "\\operatorname{segment}\\ \\left(\\left(2,\\ 2,\\ 1\\right),\\ \\left(0.5,\\ 0.5,0.1\\right)\\right)"
+      },
+      {
+        "type": "expression",
+        "id": "4",
+        "color": "#aaaaaa",
+        "latex": "\\operatorname{segment}\\ \\left(\\left(-2,\\ -2,\\ 1\\right),\\ \\left(-0.5,\\ -0.5,0.1\\right)\\right)"
+      },
+      {
+        "type": "expression",
+        "id": "5",
+        "color": "#aaaaaa",
+        "latex": "\\operatorname{segment}\\ \\left(\\left(-2,\\ 2,\\ 1\\right),\\ \\left(-0.5,\\ 0.5,0.1\\right)\\right)"
+      },
+      {
+        "type": "expression",
+        "id": "6",
+        "color": "#aaaaaa",
+        "latex": "-2\\le x\\le2\\left\\{-2\\le y\\le2\\right\\}\\left\\{1<z<1.1\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "7",
+        "color": "#aaaaaa",
+        "latex": "-0.5\\le x\\le0.5\\left\\{-0.5\\le y\\le0.5\\right\\}\\left\\{1.1<z<1.2\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "9",
+        "color": "#aaaaaa",
+        "latex": "\\operatorname{segment}\\ \\left(\\left(-0.5,0.5,1.1\\right),\\ \\left(-0.3,0.3,7\\right)\\right)"
+      },
+      {
+        "type": "expression",
+        "id": "10",
+        "color": "#aaaaaa",
+        "latex": "\\operatorname{segment}\\ \\left(\\left(-0.5,-0.5,1.1\\right),\\ \\left(\\left(-0.3,-0.3,7\\right)\\right)\\right)"
+      },
+      {
+        "type": "expression",
+        "id": "11",
+        "color": "#aaaaaa",
+        "latex": "\\operatorname{segment}\\ \\left(\\left(0.5,0.5,1.1\\right),\\ \\left(\\left(0.3,0.3,7\\right)\\right)\\right)"
+      },
+      {
+        "type": "expression",
+        "id": "12",
+        "color": "#aaaaaa",
+        "latex": "\\operatorname{segment}\\ \\left(\\left(0.5,-0.5,1.1\\right),\\ \\left(\\left(0.3,-0.3,7\\right)\\right)\\right)"
+      },
+      {
+        "type": "expression",
+        "id": "13",
+        "color": "#aaaaaa",
+        "latex": "-0.5\\le x\\le0.5\\left\\{-0.5\\le y\\le0.5\\right\\}\\left\\{7<z<7.3\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "17",
+        "color": "#fa7e19",
+        "latex": "\\left(0,0.4-0.1t+0.05\\left(4t\\left(1-t\\right)-1\\right),7.3+0.7t\\right)\\left\\{0\\le t\\le1\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "18",
+        "color": "#fa7e19",
+        "latex": "\\left(0,-0.4+0.1t-0.05\\left(4t\\left(1-t\\right)-1\\right),7.3+0.7t\\right)\\left\\{0\\le t\\le1\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "19",
+        "color": "#fa7e19",
+        "latex": "\\left(0.4-0.1t+0.05\\left(4t\\left(1-t\\right)-1\\right),0,7.3+0.7t\\right)\\left\\{0\\le t\\le1\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "20",
+        "color": "#fa7e19",
+        "latex": "\\left(-\\left(0.4-0.1t+0.05\\left(4t\\left(1-t\\right)-1\\right)\\right),0,7.3+0.7t\\right)\\left\\{0\\le t\\le1\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "22",
+        "color": "#fa7e19",
+        "latex": "\\left(0,0.3-0.3t+0.15\\left(4t\\left(1-t\\right)\\right),8+t\\right)\\left\\{0\\le t\\le1\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "24",
+        "color": "#fa7e19",
+        "latex": "(0,-(0.3-0.3t+0.15(4t(1-t))),8+t)\\left\\{0\\le t\\le1\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "25",
+        "color": "#fa7e19",
+        "latex": "(0.3-0.3t+0.15(4t(1-t)),0,8+t)\\left\\{0\\le t\\le1\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "26",
+        "color": "#fa7e19",
+        "latex": "(-(0.3-0.3t+0.15(4t(1-t))),0,8+t)\\left\\{0\\le t\\le1\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "27",
+        "color": "#388c46",
+        "latex": "-4\\le x\\le4\\left\\{-4\\le y\\le4\\right\\}\\left\\{0<z<0.1\\right\\}"
+      }
+    ]
+  },
+  "includeFunctionParametersInRandomSeed": true,
+  "doNotMigrate3dLineWidthZero": true,
+  "doNotMigrateMovablePointStyle": true
+}

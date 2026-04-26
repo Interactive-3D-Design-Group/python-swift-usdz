@@ -1,0 +1,104 @@
+{
+  "source_file": "[4B] 3D Diagram - S2-10 Group C.json",
+  "total_expressions": 17,
+  "supported_count": 1,
+  "recognized_unsupported_count": 0,
+  "unrecognized_count": 3,
+  "geometry_ineligible_count": 13,
+  "per_folder_summary": [
+    {
+      "folder_id": null,
+      "folder_name": null,
+      "total": 9,
+      "supported": 0,
+      "recognized_unsupported": 0,
+      "unrecognized": 2,
+      "geometry_ineligible": 7
+    },
+    {
+      "folder_id": "51",
+      "folder_name": "USDZ: supported fallback (pipeline)",
+      "total": 1,
+      "supported": 1,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 0
+    },
+    {
+      "folder_id": "48",
+      "folder_name": "arena",
+      "total": 3,
+      "supported": 0,
+      "recognized_unsupported": 0,
+      "unrecognized": 1,
+      "geometry_ineligible": 2
+    },
+    {
+      "folder_id": "42",
+      "folder_name": "colours",
+      "total": 1,
+      "supported": 0,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 1
+    },
+    {
+      "folder_id": "45",
+      "folder_name": "walls",
+      "total": 3,
+      "supported": 0,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 3
+    }
+  ],
+  "unsupported_expressions": [
+    {
+      "expression_id": "14",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "db1b71d338e008e5",
+      "latex": "g\\left(x,y\\right)=32\\left(\\operatorname{mod}\\left(\\frac{\\left(\\arctan\\left(156x,198y\\right)+\\pi\\right)}{2\\pi},\\frac{1}{16}\\right)-\\frac{1}{32}\\right)",
+      "normalized_latex": "g(x,y)=32(operatorname{mod}(((arctan(156x,198y)+pi))/(2pi),(1)/(16))-(1)/(32))"
+    },
+    {
+      "expression_id": "30",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "477621724613f110",
+      "latex": "h\\left(p_{1},p_{2}\\right)=\\operatorname{mod}\\left(43758.5453\\sin\\left(12.9898p_{1}+78.233p_{2}\\right),1\\right)",
+      "normalized_latex": "h(p_1,p_2)=operatorname{mod}(43758.5453sin(12.9898p_1+78.233p_2),1)"
+    },
+    {
+      "expression_id": "39",
+      "folder": "arena",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "d11b437b9467ca9c",
+      "latex": "h\\left(x+238,y+058\\right)\\left\\{-100\\le y\\le100\\right\\}\\left\\{-100\\le x\\le100\\right\\}",
+      "normalized_latex": "h(x+238,y+058){-100<=y<=100}{-100<=x<=100}"
+    }
+  ],
+  "unknown_fingerprints": [
+    "477621724613f110",
+    "d11b437b9467ca9c",
+    "db1b71d338e008e5"
+  ],
+  "diagnostics": [
+    {
+      "severity": "INFO",
+      "code": "AUDIT_COMPLETE",
+      "message": "Audit classification complete",
+      "source_ref": null,
+      "details": {
+        "file": "[4B] 3D Diagram - S2-10 Group C.json"
+      }
+    }
+  ],
+  "status": "PARTIAL"
+}

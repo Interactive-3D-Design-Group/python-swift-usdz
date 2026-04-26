@@ -1,0 +1,342 @@
+{
+  "version": 11,
+  "randomSeed": "662cd634367a2bbba67c9c1d3b9cf8d2",
+  "graph": {
+    "viewport": {
+      "xmin": -54.60666564644547,
+      "ymin": -54.60666564644547,
+      "zmin": -54.60666564644547,
+      "xmax": 54.60666564644547,
+      "ymax": 54.60666564644547,
+      "zmax": 54.60666564644547
+    },
+    "worldRotation3D": [
+      6.103733305769892e-17,
+      1,
+      4.882973464824327e-18,
+      -0.9968152956459853,
+      6.123233995736766e-17,
+      -0.0797450084093478,
+      -0.0797450084093478,
+      0,
+      0.9968152956459853
+    ],
+    "axis3D": [
+      0,
+      0,
+      -1.0000000000017866
+    ],
+    "product": "graphing-3d",
+    "threeDMode": true,
+    "__v12ViewportLatexStash": {
+      "xmin": "-54.60666564644547",
+      "xmax": "54.60666564644547",
+      "ymin": "-54.60666564644547",
+      "ymax": "54.60666564644547",
+      "zmin": "-54.60666564644547",
+      "zmax": "54.60666564644547"
+    }
+  },
+  "expressions": {
+    "list": [
+      {
+        "type": "expression",
+        "id": "1",
+        "color": "#c74440",
+        "latex": "y=5\\left\\{-3\\le x\\le3\\right\\}\\left\\{0\\le z\\ge8\\right\\}",
+        "hidden": true,
+        "extendTo3D": true
+      },
+      {
+        "type": "expression",
+        "id": "48",
+        "color": "#2d70b3",
+        "latex": "y=-\\frac{2}{3}x+7\\left\\{3\\le x\\le6\\right\\}",
+        "hidden": true,
+        "extendTo3D": true
+      },
+      {
+        "type": "expression",
+        "id": "49",
+        "color": "#388c46",
+        "latex": "y=\\frac{2}{3}x+7\\left\\{-6\\le x\\le-3\\right\\}",
+        "hidden": true,
+        "extendTo3D": true
+      },
+      {
+        "type": "expression",
+        "id": "50",
+        "color": "#6042a6",
+        "latex": "x=-3\\left\\{5\\le y\\le11\\right\\}",
+        "hidden": true,
+        "extendTo3D": true
+      },
+      {
+        "type": "expression",
+        "id": "51",
+        "color": "#aaaaaa",
+        "latex": "x=3\\left\\{5\\le y\\le11\\right\\}",
+        "hidden": true,
+        "extendTo3D": true
+      },
+      {
+        "type": "expression",
+        "id": "52",
+        "color": "#c74440",
+        "latex": "y=0\\left\\{-4\\le x\\le4\\right\\}\\left\\{0\\le z\\le8\\right\\}",
+        "extendTo3D": true
+      },
+      {
+        "type": "expression",
+        "id": "53",
+        "color": "#2d70b3",
+        "latex": "y=6\\left\\{-4\\le x\\le4\\right\\}",
+        "hidden": true,
+        "extendTo3D": true
+      },
+      {
+        "type": "expression",
+        "id": "54",
+        "color": "#388c46",
+        "latex": "y=11\\left\\{-3\\le x\\le3\\right\\}\\left\\{0\\le z\\le8\\right\\}",
+        "extendTo3D": true
+      },
+      {
+        "type": "expression",
+        "id": "55",
+        "color": "#6042a6",
+        "latex": "y=\\frac{3}{2}x-6\\left\\{4\\le x\\le6\\right\\}\\left\\{0\\le z\\le8\\right\\}",
+        "extendTo3D": true
+      },
+      {
+        "type": "expression",
+        "id": "56",
+        "color": "#aaaaaa",
+        "latex": "y=\\frac{3}{2}x\\left\\{4\\le x\\le6\\right\\}",
+        "hidden": true,
+        "extendTo3D": true
+      },
+      {
+        "type": "expression",
+        "id": "57",
+        "color": "#c74440",
+        "latex": "y=-\\frac{3}{2}x-6\\left\\{-6\\le x\\le-4\\right\\}\\left\\{0\\le z\\le8\\right\\}",
+        "extendTo3D": true
+      },
+      {
+        "type": "expression",
+        "id": "58",
+        "color": "#2d70b3",
+        "latex": "y=-\\frac{3}{2}x\\left\\{-6\\le x\\le-4\\right\\}",
+        "hidden": true,
+        "extendTo3D": true
+      },
+      {
+        "type": "expression",
+        "id": "59",
+        "color": "#388c46",
+        "latex": "y=-\\frac{2}{3}x+13\\left\\{3\\le x\\le6\\right\\}\\left\\{0\\le z\\le8\\right\\}",
+        "extendTo3D": true
+      },
+      {
+        "type": "expression",
+        "id": "60",
+        "color": "#6042a6",
+        "latex": "y=\\frac{2}{3}x+13\\left\\{-6\\le x\\le-3\\right\\}\\left\\{0\\le z\\le8\\right\\}",
+        "extendTo3D": true
+      },
+      {
+        "type": "expression",
+        "id": "61",
+        "color": "#aaaaaa",
+        "latex": "x=-6\\left\\{3\\le y\\le9\\right\\}\\left\\{0\\le z\\le8\\right\\}",
+        "extendTo3D": true
+      },
+      {
+        "type": "expression",
+        "id": "62",
+        "color": "#c74440",
+        "latex": "x=-4\\left\\{0\\le y\\le6\\right\\}",
+        "hidden": true,
+        "extendTo3D": true
+      },
+      {
+        "type": "expression",
+        "id": "63",
+        "color": "#2d70b3",
+        "latex": "x=4\\left\\{0\\le y\\le6\\right\\}",
+        "hidden": true,
+        "extendTo3D": true
+      },
+      {
+        "type": "expression",
+        "id": "64",
+        "color": "#c74440",
+        "latex": "x=6\\left\\{3\\le y\\le9\\right\\}\\left\\{0\\le z\\le8\\right\\}",
+        "extendTo3D": true
+      },
+      {
+        "type": "expression",
+        "id": "65",
+        "color": "#c74440",
+        "latex": "0\\le z\\le8\\left\\{-6\\le x\\le6\\right\\}\\left\\{3\\le y\\le9\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "67",
+        "color": "#c74440",
+        "latex": "0\\le z\\le8\\left\\{-3\\le x\\le3\\right\\}\\left\\{9\\le y\\le11\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "69",
+        "color": "#c74440",
+        "latex": "0\\le z\\le8\\left\\{-4\\le x\\le4\\right\\}\\left\\{0\\le y\\le3\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "70",
+        "color": "#6042a6",
+        "latex": "\\left(4,\\ 0,\\ 8\\right)",
+        "hidden": true
+      },
+      {
+        "type": "expression",
+        "id": "72",
+        "color": "#6042a6",
+        "latex": "\\left(4,\\ 3,\\ 8\\right)",
+        "hidden": true
+      },
+      {
+        "type": "expression",
+        "id": "74",
+        "color": "#6042a6",
+        "latex": "\\left(6,\\ 3,\\ 8\\right)",
+        "hidden": true
+      },
+      {
+        "type": "expression",
+        "id": "75",
+        "color": "#c74440",
+        "latex": "\\operatorname{triangle}\\left(\\left(4,\\ 0,\\ 8\\right),\\ \\left(4,\\ 3,\\ 8\\right),\\ \\left(6,\\ 3,\\ 8\\right)\\right)"
+      },
+      {
+        "type": "expression",
+        "id": "83",
+        "color": "#c74440",
+        "latex": "\\operatorname{triangle}\\left(\\left(-4,\\ 0,\\ 8\\right),\\ \\left(-4,\\ 3,\\ 8\\right),\\ \\left(-6,\\ 3,\\ 8\\right)\\right)"
+      },
+      {
+        "type": "expression",
+        "id": "87",
+        "color": "#2d70b3",
+        "latex": "\\left(-6,\\ 9,\\ 8\\right)",
+        "hidden": true
+      },
+      {
+        "type": "expression",
+        "id": "89",
+        "color": "#c74440",
+        "latex": "\\left(-3,\\ 11,\\ 8\\right)",
+        "hidden": true
+      },
+      {
+        "type": "expression",
+        "id": "91",
+        "color": "#388c46",
+        "latex": "\\left(-3,\\ 9,\\ 8\\right)",
+        "hidden": true
+      },
+      {
+        "type": "expression",
+        "id": "92",
+        "color": "#c74440",
+        "latex": "\\operatorname{triangle}\\left(\\left(-6,\\ 9,\\ 8\\right),\\ \\left(-3,\\ 11,\\ 8\\right),\\ \\left(-3,\\ 9,\\ 8\\right)\\right)"
+      },
+      {
+        "type": "expression",
+        "id": "95",
+        "color": "#c74440",
+        "latex": "\\operatorname{triangle}\\left(\\left(6,\\ 9,\\ 8\\right),\\ \\left(3,\\ 11,\\ 8\\right),\\ \\left(3,\\ 9,\\ 8\\right)\\right)"
+      },
+      {
+        "type": "expression",
+        "id": "99",
+        "color": "#c74440",
+        "latex": "8\\le z\\le46\\left\\{-4\\le x\\le4\\right\\}\\left\\{1\\le y\\le10\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "101",
+        "color": "#2d70b3",
+        "latex": "29\\le z\\le36\\left\\{-14\\le x\\le14\\right\\}\\left\\{1\\le y\\le10\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "102",
+        "color": "#2d70b3",
+        "latex": "y\\ =\\ -0.4\\sin\\left(5x\\right)\\left\\{8\\le z\\le29\\right\\}+0.8\\left\\{-4\\le x\\le4\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "109",
+        "color": "#2d70b3",
+        "latex": "x\\ =\\ 0.64\\sin\\left(5y\\right)-4.3\\left\\{8\\le z\\le29\\right\\}\\left\\{10.\\ge y\\ge01\\right\\}",
+        "extendTo3D": true
+      },
+      {
+        "type": "expression",
+        "id": "116",
+        "color": "#2d70b3",
+        "latex": "y=\\ -0.4\\sin\\left(5x\\right)+10.3\\left\\{4\\ge x\\ge-4\\right\\}\\left\\{8<z\\le22\\right\\}",
+        "extendTo3D": true
+      },
+      {
+        "type": "expression",
+        "id": "118",
+        "color": "#2d70b3",
+        "latex": "x\\ =\\ 0.64\\sin\\left(5y\\right)+4.3\\left\\{8\\le z\\le29\\right\\}\\left\\{10.\\ge y\\ge01\\right\\}",
+        "extendTo3D": true
+      },
+      {
+        "type": "expression",
+        "id": "120",
+        "color": "#388c46",
+        "latex": "31\\le z\\le34\\left\\{4\\le y\\le7\\right\\}\\left\\{13\\le x\\le17\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "123",
+        "color": "#c74440",
+        "latex": "29.5\\le z\\le35.5\\left\\{4\\le y\\le7\\right\\}\\left\\{17\\le x\\le23\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "121",
+        "color": "#aaaaaa",
+        "latex": "\\frac{x^{2}}{13^{2}}+\\frac{y^{2}}{4.82}+\\frac{z^{2}}{46.8^{2}}=1.\\left\\{29\\le z\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "127",
+        "color": "#c74440",
+        "latex": "29.5\\le z\\le35.5\\left\\{4\\le y\\le7\\right\\}\\left\\{-23\\le x\\le-17\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "128",
+        "color": "#c74440",
+        "latex": "31\\le z\\le34\\left\\{4\\le y\\le7\\right\\}\\left\\{-17\\le x\\le-13\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "137",
+        "color": "#aaaaaa",
+        "latex": "x^{2}+y^{2}+99z^{2}=30"
+      }
+    ]
+  },
+  "includeFunctionParametersInRandomSeed": true,
+  "doNotMigrate3dLineWidthZero": true,
+  "doNotMigrateMovablePointStyle": true
+}

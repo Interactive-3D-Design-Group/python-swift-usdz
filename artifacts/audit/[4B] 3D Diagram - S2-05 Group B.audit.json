@@ -1,0 +1,96 @@
+{
+  "source_file": "[4B] 3D Diagram - S2-05 Group B.json",
+  "total_expressions": 63,
+  "supported_count": 37,
+  "recognized_unsupported_count": 0,
+  "unrecognized_count": 0,
+  "geometry_ineligible_count": 26,
+  "per_folder_summary": [
+    {
+      "folder_id": null,
+      "folder_name": null,
+      "total": 8,
+      "supported": 0,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 8
+    },
+    {
+      "folder_id": "45",
+      "folder_name": "arch 1",
+      "total": 8,
+      "supported": 0,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 8
+    },
+    {
+      "folder_id": "55",
+      "folder_name": "arch 2",
+      "total": 7,
+      "supported": 0,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 7
+    },
+    {
+      "folder_id": "67",
+      "folder_name": "color",
+      "total": 3,
+      "supported": 0,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 3
+    },
+    {
+      "folder_id": "71",
+      "folder_name": "slope",
+      "total": 5,
+      "supported": 5,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 0
+    },
+    {
+      "folder_id": "65",
+      "folder_name": "steps (x)",
+      "total": 12,
+      "supported": 12,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 0
+    },
+    {
+      "folder_id": "83",
+      "folder_name": "steps (y)",
+      "total": 12,
+      "supported": 12,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 0
+    },
+    {
+      "folder_id": "25",
+      "folder_name": "the pyramid itself",
+      "total": 8,
+      "supported": 8,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 0
+    }
+  ],
+  "unsupported_expressions": [],
+  "unknown_fingerprints": [],
+  "diagnostics": [
+    {
+      "severity": "INFO",
+      "code": "AUDIT_COMPLETE",
+      "message": "Audit classification complete",
+      "source_ref": null,
+      "details": {
+        "file": "[4B] 3D Diagram - S2-05 Group B.json"
+      }
+    }
+  ],
+  "status": "PASS"
+}

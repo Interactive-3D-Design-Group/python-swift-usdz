@@ -1,0 +1,145 @@
+{
+  "source_file": "[4B] 3D Diagram - S2-10 Group E.json",
+  "total_expressions": 369,
+  "supported_count": 359,
+  "recognized_unsupported_count": 0,
+  "unrecognized_count": 10,
+  "geometry_ineligible_count": 0,
+  "per_folder_summary": [
+    {
+      "folder_id": null,
+      "folder_name": null,
+      "total": 369,
+      "supported": 359,
+      "recognized_unsupported": 0,
+      "unrecognized": 10,
+      "geometry_ineligible": 0
+    }
+  ],
+  "unsupported_expressions": [
+    {
+      "expression_id": "45",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "00ca584798384ebf",
+      "latex": "------first\\ pyramid\\ lines------",
+      "normalized_latex": "+++firstpyramidlines+++"
+    },
+    {
+      "expression_id": "75",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "06e1326c531615f2",
+      "latex": "\\sec ond\\ pyramid\\ sketch",
+      "normalized_latex": "secondpyramidsketch"
+    },
+    {
+      "expression_id": "83",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "a522c13bce646354",
+      "latex": "\\sec ond\\ pyramid\\ lines",
+      "normalized_latex": "secondpyramidlines"
+    },
+    {
+      "expression_id": "79",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "66002fc8c6743116",
+      "latex": "third\\ pyramid\\ sketch",
+      "normalized_latex": "thirdpyramidsketch"
+    },
+    {
+      "expression_id": "97",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "2c79b6b9b1a6e4b1",
+      "latex": "third\\ pyramid\\ lines",
+      "normalized_latex": "thirdpyramidlines"
+    },
+    {
+      "expression_id": "293",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "e684be007a6894db",
+      "latex": "pyramid\\ 4\\ sketch",
+      "normalized_latex": "pyramid4sketch"
+    },
+    {
+      "expression_id": "301",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "a2eed7381b7aeeae",
+      "latex": "pyramid\\ 4\\ lines\\ ",
+      "normalized_latex": "pyramid4lines"
+    },
+    {
+      "expression_id": "329",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "00d15fd96ed2e11e",
+      "latex": "pyramid\\ 5\\ sketch\\ ",
+      "normalized_latex": "pyramid5sketch"
+    },
+    {
+      "expression_id": "337",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "5e1c4d57b20cfb8e",
+      "latex": "pyramid\\ 5\\ lines",
+      "normalized_latex": "pyramid5lines"
+    },
+    {
+      "expression_id": "111",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "684fea04887e5493",
+      "latex": "--------sph\\ inx\\ lines--------",
+      "normalized_latex": "++++sphinxlines++++"
+    }
+  ],
+  "unknown_fingerprints": [
+    "00ca584798384ebf",
+    "00d15fd96ed2e11e",
+    "06e1326c531615f2",
+    "2c79b6b9b1a6e4b1",
+    "5e1c4d57b20cfb8e",
+    "66002fc8c6743116",
+    "684fea04887e5493",
+    "a2eed7381b7aeeae",
+    "a522c13bce646354",
+    "e684be007a6894db"
+  ],
+  "diagnostics": [
+    {
+      "severity": "INFO",
+      "code": "AUDIT_COMPLETE",
+      "message": "Audit classification complete",
+      "source_ref": null,
+      "details": {
+        "file": "[4B] 3D Diagram - S2-10 Group E.json"
+      }
+    }
+  ],
+  "status": "PARTIAL"
+}

@@ -1,0 +1,108 @@
+{
+  "schema_version": 1,
+  "mesh_count": 5,
+  "failed_mesh_count": 0,
+  "meshes": [
+    {
+      "name": "[4B] 3D Diagram - S2-05 Group D_e27",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-05 Group D_e27.obj",
+      "color": "#4A4A4A",
+      "source_file": "[4B] 3D Diagram - S2-05 Group D.json",
+      "expression_id": "e27",
+      "family": "PARAMETRIC_T_CURVE",
+      "bounds": {
+        "min": [
+          0.7767703934017005,
+          0.7767703934017005,
+          138.0
+        ],
+        "max": [
+          3.2232296065982995,
+          3.2232296065982995,
+          150.0
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-05 Group D_e28",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-05 Group D_e28.obj",
+      "color": "#4A4A4A",
+      "source_file": "[4B] 3D Diagram - S2-05 Group D.json",
+      "expression_id": "e28",
+      "family": "PARAMETRIC_T_CURVE",
+      "bounds": {
+        "min": [
+          -3.2232296065982995,
+          0.7767703934017005,
+          138.0
+        ],
+        "max": [
+          -0.7767703934017005,
+          3.2232296065982995,
+          150.0
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-05 Group D_e29",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-05 Group D_e29.obj",
+      "color": "#4A4A4A",
+      "source_file": "[4B] 3D Diagram - S2-05 Group D.json",
+      "expression_id": "e29",
+      "family": "PARAMETRIC_T_CURVE",
+      "bounds": {
+        "min": [
+          0.7767703934017005,
+          -3.2232296065982995,
+          138.0
+        ],
+        "max": [
+          3.2232296065982995,
+          -0.7767703934017005,
+          150.0
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-05 Group D_e30",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-05 Group D_e30.obj",
+      "color": "#4A4A4A",
+      "source_file": "[4B] 3D Diagram - S2-05 Group D.json",
+      "expression_id": "e30",
+      "family": "PARAMETRIC_T_CURVE",
+      "bounds": {
+        "min": [
+          -3.2232296065982995,
+          -3.2232296065982995,
+          138.0
+        ],
+        "max": [
+          -0.7767703934017005,
+          -0.7767703934017005,
+          150.0
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-05 Group D_e32",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-05 Group D_e32.obj",
+      "color": "#2A2A2A",
+      "source_file": "[4B] 3D Diagram - S2-05 Group D.json",
+      "expression_id": "e32",
+      "family": "PARAMETRIC_T_CURVE",
+      "bounds": {
+        "min": [
+          -1.2232296065982995,
+          -1.2232296065982995,
+          150.0
+        ],
+        "max": [
+          1.2232296065982995,
+          1.2232296065982995,
+          165.0
+        ]
+      }
+    }
+  ],
+  "failures": []
+}

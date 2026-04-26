@@ -1,0 +1,3173 @@
+{
+  "source_file": "[4B] 3D Diagram - S2-02 Group C.json",
+  "total_items": 181,
+  "total_expressions": 169,
+  "meshed_expression_count": 26,
+  "supported_expression_count": 26,
+  "supported_but_not_meshed_count": 0,
+  "recognized_unsupported_count": 143,
+  "unrecognized_count": 0,
+  "geometry_ineligible_count": 0,
+  "groups": [
+    {
+      "fingerprint": "006f1d5e3a5f4a37",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "65"
+      ],
+      "example_latex": [
+        "\\frac{\\left(x-3.7\\right)^{2}}{0.56}+\\frac{\\left(y-3.7\\right)^{2}}{0.56}<1\\ \\left\\{4.17<z<4.47\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(x-3.7)^{2}}{0.56}+frac{(y-3.7)^{2}}{0.56}<1{4.17<z<4.47}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "013e52b1be28fae5",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "118"
+      ],
+      "example_latex": [
+        "\\frac{\\left(x-0\\right)^{2}}{0.01}+\\frac{\\left(y--0\\right)^{2}}{0.01}<1\\ \\left\\{4.5<z<7.5\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(x-0)^{2}}{0.01}+frac{(y+0)^{2}}{0.01}<1{4.5<z<7.5}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 1,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "041797956d0a1b52",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "86"
+      ],
+      "example_latex": [
+        "\\frac{\\left(x--3.7\\right)^{2}}{0.56}+\\frac{\\left(y--3.7\\right)^{2}}{0.56}<1\\ \\left\\{4.17<z<4.47\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(x+3.7)^{2}}{0.56}+frac{(y+3.7)^{2}}{0.56}<1{4.17<z<4.47}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "04fd4abf754cb6d2",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "236"
+      ],
+      "example_latex": [
+        "\\frac{\\left(x+-1.6\\right)^{2}}{0.4}+\\frac{\\left(y+-1.6\\right)^{2}}{0.4}+\\frac{\\left(z+\\ -4.5\\right)^{2}}{0.4}<1"
+      ],
+      "example_normalized": [
+        "frac{(x-1.6)^{2}}{0.4}+frac{(y-1.6)^{2}}{0.4}+frac{(z-4.5)^{2}}{0.4}<1"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "07b2e30e9a6047ff",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "76"
+      ],
+      "example_latex": [
+        "\\frac{\\left(x--4.2\\right)^{2}}{0.01}+\\frac{\\left(y--3.7\\right)^{2}}{0.01}<1\\ \\left\\{3.87<z<4.17\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(x+4.2)^{2}}{0.01}+frac{(y+3.7)^{2}}{0.01}<1{3.87<z<4.17}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "084a42ca3917ce0a",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "223"
+      ],
+      "example_latex": [
+        "\\frac{\\left(x--2\\right)^{2}}{0.01}+\\frac{\\left(y--2.6\\right)^{2}}{0.01}<1\\ \\left\\{4.17<z<4.67\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(x+2)^{2}}{0.01}+frac{(y+2.6)^{2}}{0.01}<1{4.17<z<4.67}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "0877e38ffb7a7299",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "34"
+      ],
+      "example_latex": [
+        "\\frac{\\left(x--3.7\\right)^{2}}{0.56}+\\frac{\\left(y-3.7\\right)^{2}}{0.56}<1\\ \\left\\{2.57<z<3.67\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(x+3.7)^{2}}{0.56}+frac{(y-3.7)^{2}}{0.56}<1{2.57<z<3.67}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "092b69dfaf4f1637",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "168"
+      ],
+      "example_latex": [
+        "2.17<z<3.97\\ \\left\\{-0.8<y<0.8\\right\\}\\left\\{\\frac{\\left(y+0\\right)^{2}}{0.35}+\\frac{\\left(z-2.3\\right)^{2}}{1.3}>1\\left\\{-2>x>-2.7\\right\\}\\right\\}"
+      ],
+      "example_normalized": [
+        "2.17<z<3.97{-0.8<y<0.8}{frac{(y+0)^{2}}{0.35}+frac{(z-2.3)^{2}}{1.3}>1{-2>x>-2.7}}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "09d12cbc6bfffdce",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "245"
+      ],
+      "example_latex": [
+        "0.57<z<2.17\\ \\left\\{-2.0<x<-0.8\\right\\}\\left\\{\\frac{\\left(x--1.4\\right)^{2}}{0.2}+\\frac{\\left(z-0.6\\right)^{2}}{1}>1\\ \\left\\{2.7>y>2\\right\\}\\right\\}"
+      ],
+      "example_normalized": [
+        "0.57<z<2.17{-2.0<x<-0.8}{frac{(x+1.4)^{2}}{0.2}+frac{(z-0.6)^{2}}{1}>1{2.7>y>2}}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "0bd106cb6674de87",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "63"
+      ],
+      "example_latex": [
+        "\\frac{\\left(x-3.4\\right)^{2}}{0.01}+\\frac{\\left(y-3.4\\right)^{2}}{0.01}<1\\ \\left\\{3.87<z<4.17\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(x-3.4)^{2}}{0.01}+frac{(y-3.4)^{2}}{0.01}<1{3.87<z<4.17}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "0d1bade0d49cd0ae",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "53"
+      ],
+      "example_latex": [
+        "\\frac{\\left(x-3.7\\right)^{2}}{0.7}+\\frac{\\left(y-3.7\\right)^{2}}{0.7}<1\\ \\left\\{2.47<z<2.57\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(x-3.7)^{2}}{0.7}+frac{(y-3.7)^{2}}{0.7}<1{2.47<z<2.57}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "0e8dd6f47fb36ff6",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "144"
+      ],
+      "example_latex": [
+        "\\left(y+0.9\\right)^{2}+\\left(x+2.6\\right)^{2}+\\left(z+\\ -5.07\\right)^{2}<0.03"
+      ],
+      "example_normalized": [
+        "(y+0.9)^{2}+(x+2.6)^{2}+(z-5.07)^{2}<0.03"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "0ef9bdb7daf2768d",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "137"
+      ],
+      "example_latex": [
+        "\\frac{\\left(x--0.9\\right)^{2}}{0.01}+\\frac{\\left(y--2.6\\right)^{2}}{0.01}<1\\ \\left\\{4.17<z<5.07\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(x+0.9)^{2}}{0.01}+frac{(y+2.6)^{2}}{0.01}<1{4.17<z<5.07}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "11de4c87982a6c49",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "33"
+      ],
+      "example_latex": [
+        "\\frac{\\left(x--3.7\\right)^{2}}{0.7}+\\frac{\\left(y-3.7\\right)^{2}}{0.7}<1\\ \\left\\{2.47<z<2.57\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(x+3.7)^{2}}{0.7}+frac{(y-3.7)^{2}}{0.7}<1{2.47<z<2.57}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "16add6c5551db18a",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "68"
+      ],
+      "example_latex": [
+        "\\frac{\\left(x-3.7\\right)^{2}}{0.01}+\\frac{\\left(y-3.7\\right)^{2}}{0.01}<1\\ \\left\\{5<z<5.2\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(x-3.7)^{2}}{0.01}+frac{(y-3.7)^{2}}{0.01}<1{5<z<5.2}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "174b8448d884fcc8",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "149"
+      ],
+      "example_latex": [
+        "\\left(y+0.9\\right)^{2}+\\left(x+-2.6\\right)^{2}+\\left(z+\\ -5.07\\right)^{2}<0.03"
+      ],
+      "example_normalized": [
+        "(y+0.9)^{2}+(x-2.6)^{2}+(z-5.07)^{2}<0.03"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "1990f3362be9bf89",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "78"
+      ],
+      "example_latex": [
+        "\\frac{\\left(x--3.7\\right)^{2}}{0.01}+\\frac{\\left(y--4.2\\right)^{2}}{0.01}<1\\ \\left\\{3.87<z<4.17\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(x+3.7)^{2}}{0.01}+frac{(y+4.2)^{2}}{0.01}<1{3.87<z<4.17}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "19fea722aa87ac14",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "225"
+      ],
+      "example_latex": [
+        "\\frac{\\left(x-2\\right)^{2}}{0.01}+\\frac{\\left(y-2.6\\right)^{2}}{0.01}<1\\ \\left\\{4.17<z<4.67\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(x-2)^{2}}{0.01}+frac{(y-2.6)^{2}}{0.01}<1{4.17<z<4.67}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "1b28e8fdd380f7a0",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "58"
+      ],
+      "example_latex": [
+        "\\frac{\\left(x-3.2\\right)^{2}}{0.01}+\\frac{\\left(y-3.7\\right)^{2}}{0.01}<1\\ \\left\\{3.87<z<4.17\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(x-3.2)^{2}}{0.01}+frac{(y-3.7)^{2}}{0.01}<1{3.87<z<4.17}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "1cab8dc9a665c21f",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "98"
+      ],
+      "example_latex": [
+        "\\frac{\\left(x-3.2\\right)^{2}}{0.01}+\\frac{\\left(y--3.7\\right)^{2}}{0.01}<1\\ \\left\\{3.87<z<4.17\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(x-3.2)^{2}}{0.01}+frac{(y+3.7)^{2}}{0.01}<1{3.87<z<4.17}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "1dff320e315a1115",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "75"
+      ],
+      "example_latex": [
+        "\\frac{\\left(x--3.7\\right)^{2}}{0.56}+\\frac{\\left(y--3.7\\right)^{2}}{0.56}<1\\ \\left\\{3.67<z<3.97\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(x+3.7)^{2}}{0.56}+frac{(y+3.7)^{2}}{0.56}<1{3.67<z<3.97}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "204ac863004d1434",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "131"
+      ],
+      "example_latex": [
+        "\\frac{\\left(x-2.6\\right)^{2}}{0.01}+\\frac{\\left(y--0.9\\right)^{2}}{0.01}<1\\ \\left\\{4.17<z<5.07\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(x-2.6)^{2}}{0.01}+frac{(y+0.9)^{2}}{0.01}<1{4.17<z<5.07}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 1,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "26eadf52eb1cab47",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "48"
+      ],
+      "example_latex": [
+        "\\left(x+3.7\\right)^{2}+\\left(y+-3.7\\right)^{2}+\\left(z+\\ -4\\right)^{2}<1\\left\\{4.57<z<5\\right\\}"
+      ],
+      "example_normalized": [
+        "(x+3.7)^{2}+(y-3.7)^{2}+(z-4)^{2}<1{4.57<z<5}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "27d7f2fc1dbd7333",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "173"
+      ],
+      "example_latex": [
+        "2.17<z<3.97\\ \\left\\{-2.0<y<-0.8\\right\\}\\left\\{\\frac{\\left(y--1.4\\right)^{2}}{0.2}+\\frac{\\left(z-2.3\\right)^{2}}{1}>1\\left\\{2.7>x>2\\right\\}\\right\\}"
+      ],
+      "example_normalized": [
+        "2.17<z<3.97{-2.0<y<-0.8}{frac{(y+1.4)^{2}}{0.2}+frac{(z-2.3)^{2}}{1}>1{2.7>x>2}}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "29771ec57daffdd0",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "133"
+      ],
+      "example_latex": [
+        "\\frac{\\left(x--2.6\\right)^{2}}{0.01}+\\frac{\\left(y--0.9\\right)^{2}}{0.01}<1\\ \\left\\{4.17<z<5.07\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(x+2.6)^{2}}{0.01}+frac{(y+0.9)^{2}}{0.01}<1{4.17<z<5.07}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "2d88db9961b70e4b",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "155"
+      ],
+      "example_latex": [
+        "\\frac{\\left(x--2.6\\right)^{2}}{0.01}+\\frac{\\left(y--2\\right)^{2}}{0.01}<1\\ \\left\\{4.17<z<4.67\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(x+2.6)^{2}}{0.01}+frac{(y+2)^{2}}{0.01}<1{4.17<z<4.67}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "2ee043e0f90d664a",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "41"
+      ],
+      "example_latex": [
+        "\\frac{\\left(x--4\\right)^{2}}{0.01}+\\frac{\\left(y-4\\right)^{2}}{0.01}<1\\ \\left\\{3.87<z<4.17\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(x+4)^{2}}{0.01}+frac{(y-4)^{2}}{0.01}<1{3.87<z<4.17}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "2f3bcb268187fb3e",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "40"
+      ],
+      "example_latex": [
+        "\\frac{\\left(x--3.7\\right)^{2}}{0.01}+\\frac{\\left(y-3.2\\right)^{2}}{0.01}<1\\ \\left\\{3.87<z<4.17\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(x+3.7)^{2}}{0.01}+frac{(y-3.2)^{2}}{0.01}<1{3.87<z<4.17}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "304f1a12b64a3e1c",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "59"
+      ],
+      "example_latex": [
+        "\\frac{\\left(x-3.7\\right)^{2}}{0.01}+\\frac{\\left(y-4.2\\right)^{2}}{0.01}<1\\ \\left\\{3.87<z<4.17\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(x-3.7)^{2}}{0.01}+frac{(y-4.2)^{2}}{0.01}<1{3.87<z<4.17}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "334f6f9b63f01ae3",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "233"
+      ],
+      "example_latex": [
+        "\\frac{\\left(x--1.6\\right)^{2}}{0.3}+\\frac{\\left(y--1.6\\right)^{2}}{0.3}<1\\ \\left\\{3.97<z<4.37\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(x+1.6)^{2}}{0.3}+frac{(y+1.6)^{2}}{0.3}<1{3.97<z<4.37}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "33f7463b74eb8461",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "161"
+      ],
+      "example_latex": [
+        "\\left(x+2.6\\right)^{2}+\\left(y+-2\\right)^{2}+\\left(z+\\ -4.67\\right)^{2}<0.03"
+      ],
+      "example_normalized": [
+        "(x+2.6)^{2}+(y-2)^{2}+(z-4.67)^{2}<0.03"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "395d367d125b8e7e",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "134"
+      ],
+      "example_latex": [
+        "\\frac{\\left(x--2.6\\right)^{2}}{0.01}+\\frac{\\left(y-0.9\\right)^{2}}{0.01}<1\\ \\left\\{4.17<z<5.07\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(x+2.6)^{2}}{0.01}+frac{(y-0.9)^{2}}{0.01}<1{4.17<z<5.07}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "398dbdfbcc032a7f",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "30"
+      ],
+      "example_latex": [
+        "\\frac{\\left(x--3.7\\right)^{2}}{0.56}+\\frac{\\left(y-3.7\\right)^{2}}{0.56}<1\\ \\left\\{0.57<z<1.47\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(x+3.7)^{2}}{0.56}+frac{(y-3.7)^{2}}{0.56}<1{0.57<z<1.47}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 1,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "3ab16049e55d1ec1",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "80"
+      ],
+      "example_latex": [
+        "\\frac{\\left(x--4\\right)^{2}}{0.01}+\\frac{\\left(y--4\\right)^{2}}{0.01}<1\\ \\left\\{3.87<z<4.17\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(x+4)^{2}}{0.01}+frac{(y+4)^{2}}{0.01}<1{3.87<z<4.17}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "3d91a15888002f53",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "45"
+      ],
+      "example_latex": [
+        "\\frac{\\left(x--3.7\\right)^{2}}{0.56}+\\frac{\\left(y-3.7\\right)^{2}}{0.56}<1\\ \\left\\{4.17<z<4.47\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(x+3.7)^{2}}{0.56}+frac{(y-3.7)^{2}}{0.56}<1{4.17<z<4.47}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "3dbb89865bf8ccb5",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "219"
+      ],
+      "example_latex": [
+        "\\left(x+2\\right)^{2}+\\left(y+-2.6\\right)^{2}+\\left(z+\\ -4.67\\right)^{2}<0.03"
+      ],
+      "example_normalized": [
+        "(x+2)^{2}+(y-2.6)^{2}+(z-4.67)^{2}<0.03"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "3dbde0d44bf93876",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "142"
+      ],
+      "example_latex": [
+        "\\left(x+0.9\\right)^{2}+\\left(y+-2.6\\right)^{2}+\\left(z+\\ -5.07\\right)^{2}<0.03"
+      ],
+      "example_normalized": [
+        "(x+0.9)^{2}+(y-2.6)^{2}+(z-5.07)^{2}<0.03"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "3e7df7bfdda8f3fa",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "255"
+      ],
+      "example_latex": [
+        "0.57<z<2.17\\ \\left\\{-2.0<y<-0.8\\right\\}\\left\\{\\frac{\\left(y--1.4\\right)^{2}}{0.2}+\\frac{\\left(z-0.6\\right)^{2}}{1}>1\\left\\{-2.7<x<-2\\right\\}\\right\\}"
+      ],
+      "example_normalized": [
+        "0.57<z<2.17{-2.0<y<-0.8}{frac{(y+1.4)^{2}}{0.2}+frac{(z-0.6)^{2}}{1}>1{-2.7<x<-2}}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "44cce518354a2f9b",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "160"
+      ],
+      "example_latex": [
+        "\\left(x+-2.6\\right)^{2}+\\left(y+-2\\right)^{2}+\\left(z+\\ -4.67\\right)^{2}<0.03"
+      ],
+      "example_normalized": [
+        "(x-2.6)^{2}+(y-2)^{2}+(z-4.67)^{2}<0.03"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "4808a0928053863c",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "57"
+      ],
+      "example_latex": [
+        "\\frac{\\left(x-4.2\\right)^{2}}{0.01}+\\frac{\\left(y-3.7\\right)^{2}}{0.01}<1\\ \\left\\{3.87<z<4.17\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(x-4.2)^{2}}{0.01}+frac{(y-3.7)^{2}}{0.01}<1{3.87<z<4.17}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "499f4829310f9d06",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "222"
+      ],
+      "example_latex": [
+        "\\left(x+-2\\right)^{2}+\\left(y+2.6\\right)^{2}+\\left(z+\\ -4.67\\right)^{2}<0.03"
+      ],
+      "example_normalized": [
+        "(x-2)^{2}+(y+2.6)^{2}+(z-4.67)^{2}<0.03"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "49c7766d4fb13fcd",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "143"
+      ],
+      "example_latex": [
+        "\\left(x+-0.9\\right)^{2}+\\left(y+-2.6\\right)^{2}+\\left(z+\\ -5.07\\right)^{2}<0.03"
+      ],
+      "example_normalized": [
+        "(x-0.9)^{2}+(y-2.6)^{2}+(z-5.07)^{2}<0.03"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "49e7f715d357c6b1",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "257"
+      ],
+      "example_latex": [
+        "0.57<z<2.17\\left\\{2.0>y>0.8\\right\\}\\left\\{\\frac{\\left(y-1.4\\right)^{2}}{0.2}+\\frac{\\left(z-0.6\\right)^{2}}{1}>1\\left\\{2.0<x<2.7\\right\\}\\right\\}"
+      ],
+      "example_normalized": [
+        "0.57<z<2.17{2.0>y>0.8}{frac{(y-1.4)^{2}}{0.2}+frac{(z-0.6)^{2}}{1}>1{2.0<x<2.7}}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "4c18c7a207c00948",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "100"
+      ],
+      "example_latex": [
+        "\\frac{\\left(x-3.7\\right)^{2}}{0.01}+\\frac{\\left(y--3.2\\right)^{2}}{0.01}<1\\ \\left\\{3.87<z<4.17\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(x-3.7)^{2}}{0.01}+frac{(y+3.2)^{2}}{0.01}<1{3.87<z<4.17}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "4c9700a5a91449c5",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "135"
+      ],
+      "example_latex": [
+        "\\frac{\\left(x-0.9\\right)^{2}}{0.01}+\\frac{\\left(y--2.6\\right)^{2}}{0.01}<1\\ \\left\\{4.17<z<5.07\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(x-0.9)^{2}}{0.01}+frac{(y+2.6)^{2}}{0.01}<1{4.17<z<5.07}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "4ce2573273422fd1",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "54"
+      ],
+      "example_latex": [
+        "\\frac{\\left(x-3.7\\right)^{2}}{0.56}+\\frac{\\left(y-3.7\\right)^{2}}{0.56}<1\\ \\left\\{2.57<z<3.67\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(x-3.7)^{2}}{0.56}+frac{(y-3.7)^{2}}{0.56}<1{2.57<z<3.67}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "4e680ebb6437b22d",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "170"
+      ],
+      "example_latex": [
+        "2.17<z<3.97\\ \\left\\{2.0>x>0.8\\right\\}\\left\\{\\frac{\\left(x-1.4\\right)^{2}}{0.2}+\\frac{\\left(z-2.3\\right)^{2}}{1}>1\\ \\left\\{2.7>y>2\\right\\}\\right\\}"
+      ],
+      "example_normalized": [
+        "2.17<z<3.97{2.0>x>0.8}{frac{(x-1.4)^{2}}{0.2}+frac{(z-2.3)^{2}}{1}>1{2.7>y>2}}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "50284837b863ad93",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "85"
+      ],
+      "example_latex": [
+        "\\frac{\\left(x--4\\right)^{2}}{0.01}+\\frac{\\left(y--3.4\\right)^{2}}{0.01}<1\\ \\left\\{3.87<z<4.17\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(x+4)^{2}}{0.01}+frac{(y+3.4)^{2}}{0.01}<1{3.87<z<4.17}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "51004c35278e7f60",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "165"
+      ],
+      "example_latex": [
+        "2.17<z<3.97\\left\\{-0.8<x<0.8\\right\\}\\ \\left\\{\\frac{\\left(x+0\\right)^{2}}{0.35}+\\frac{\\left(z-2.3\\right)^{2}}{1.3}>1\\left\\{-2>y>-2.7\\right\\}\\right\\}"
+      ],
+      "example_normalized": [
+        "2.17<z<3.97{-0.8<x<0.8}{frac{(x+0)^{2}}{0.35}+frac{(z-2.3)^{2}}{1.3}>1{-2>y>-2.7}}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "535d617da6c84945",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "105"
+      ],
+      "example_latex": [
+        "\\frac{\\left(x-4\\right)^{2}}{0.01}+\\frac{\\left(y--3.4\\right)^{2}}{0.01}<1\\ \\left\\{3.87<z<4.17\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(x-4)^{2}}{0.01}+frac{(y+3.4)^{2}}{0.01}<1{3.87<z<4.17}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "576cdcc6f5d000b3",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "171"
+      ],
+      "example_latex": [
+        "2.17<z<3.97\\ \\left\\{2>x>0.8\\right\\}\\left\\{\\frac{\\left(x-1.4\\right)^{2}}{0.2}+\\frac{\\left(z-2.3\\right)^{2}}{1}>1\\ \\left\\{-2.7<y<-2\\right\\}\\right\\}"
+      ],
+      "example_normalized": [
+        "2.17<z<3.97{2>x>0.8}{frac{(x-1.4)^{2}}{0.2}+frac{(z-2.3)^{2}}{1}>1{-2.7<y<-2}}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "59507d8020c4fad1",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "158"
+      ],
+      "example_latex": [
+        "\\left(x+-2.6\\right)^{2}+\\left(y+2\\right)^{2}+\\left(z+\\ -4.67\\right)^{2}<0.03"
+      ],
+      "example_normalized": [
+        "(x-2.6)^{2}+(y+2)^{2}+(z-4.67)^{2}<0.03"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "5b1e788a3277f029",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "44"
+      ],
+      "example_latex": [
+        "\\frac{\\left(x--4\\right)^{2}}{0.01}+\\frac{\\left(y-3.4\\right)^{2}}{0.01}<1\\ \\left\\{3.87<z<4.17\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(x+4)^{2}}{0.01}+frac{(y-3.4)^{2}}{0.01}<1{3.87<z<4.17}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "5b847905523b2f67",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "246"
+      ],
+      "example_latex": [
+        "0.57<z<2.17\\ \\left\\{2.0>x>0.8\\right\\}\\left\\{\\frac{\\left(x-1.4\\right)^{2}}{0.2}+\\frac{\\left(z-0.6\\right)^{2}}{1}>1\\ \\left\\{2.7>y>2\\right\\}\\right\\}"
+      ],
+      "example_normalized": [
+        "0.57<z<2.17{2.0>x>0.8}{frac{(x-1.4)^{2}}{0.2}+frac{(z-0.6)^{2}}{1}>1{2.7>y>2}}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "5cf2b98150e027e0",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "83"
+      ],
+      "example_latex": [
+        "\\frac{\\left(x--3.4\\right)^{2}}{0.01}+\\frac{\\left(y--3.4\\right)^{2}}{0.01}<1\\ \\left\\{3.87<z<4.17\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(x+3.4)^{2}}{0.01}+frac{(y+3.4)^{2}}{0.01}<1{3.87<z<4.17}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "6023887194a75545",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "234"
+      ],
+      "example_latex": [
+        "\\frac{\\left(x--1.6\\right)^{2}}{0.3}+\\frac{\\left(y-1.6\\right)^{2}}{0.3}<1\\ \\left\\{3.97<z<4.37\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(x+1.6)^{2}}{0.3}+frac{(y-1.6)^{2}}{0.3}<1{3.97<z<4.37}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "617f4f76d11d9808",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "38"
+      ],
+      "example_latex": [
+        "\\frac{\\left(x--3.2\\right)^{2}}{0.01}+\\frac{\\left(y-3.7\\right)^{2}}{0.01}<1\\ \\left\\{3.87<z<4.17\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(x+3.2)^{2}}{0.01}+frac{(y-3.7)^{2}}{0.01}<1{3.87<z<4.17}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "621de22b1bbb0458",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "136"
+      ],
+      "example_latex": [
+        "\\frac{\\left(x-0.9\\right)^{2}}{0.01}+\\frac{\\left(y-2.6\\right)^{2}}{0.01}<1\\ \\left\\{4.17<z<5.07\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(x-0.9)^{2}}{0.01}+frac{(y-2.6)^{2}}{0.01}<1{4.17<z<5.07}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "64c40b85f721479e",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "174"
+      ],
+      "example_latex": [
+        "2.17<z<3.97\\ \\left\\{2.0>y>0.8\\right\\}\\left\\{\\frac{\\left(y-1.4\\right)^{2}}{0.2}+\\frac{\\left(z-2.3\\right)^{2}}{1}>1\\left\\{2.0<x<2.7\\right\\}\\right\\}"
+      ],
+      "example_normalized": [
+        "2.17<z<3.97{2.0>y>0.8}{frac{(y-1.4)^{2}}{0.2}+frac{(z-2.3)^{2}}{1}>1{2.0<x<2.7}}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "652ebfd701227b69",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "141"
+      ],
+      "example_latex": [
+        "\\left(x+0.9\\right)^{2}+\\left(y+2.6\\right)^{2}+\\left(z+\\ -5.07\\right)^{2}<0.03"
+      ],
+      "example_normalized": [
+        "(x+0.9)^{2}+(y+2.6)^{2}+(z-5.07)^{2}<0.03"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "66ddbf1c7ff7f046",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "55"
+      ],
+      "example_latex": [
+        "\\frac{\\left(x-3.7\\right)^{2}}{0.7}+\\frac{\\left(y-3.7\\right)^{2}}{0.7}<1\\ \\left\\{3.67<z<3.77\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(x-3.7)^{2}}{0.7}+frac{(y-3.7)^{2}}{0.7}<1{3.67<z<3.77}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "6e46d280eef6bed1",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "156"
+      ],
+      "example_latex": [
+        "\\frac{\\left(x-2.6\\right)^{2}}{0.01}+\\frac{\\left(y-2\\right)^{2}}{0.01}<1\\ \\left\\{4.17<z<4.67\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(x-2.6)^{2}}{0.01}+frac{(y-2)^{2}}{0.01}<1{4.17<z<4.67}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "7627508e2b472884",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "163"
+      ],
+      "example_latex": [
+        "2.17<z<3.97\\ \\left\\{-0.8<x<0.8\\right\\}\\left\\{\\frac{\\left(x+0\\right)^{2}}{0.35}+\\frac{\\left(z-2.3\\right)^{2}}{1.3}>1\\left\\{2.7>y>2\\right\\}\\right\\}"
+      ],
+      "example_normalized": [
+        "2.17<z<3.97{-0.8<x<0.8}{frac{(x+0)^{2}}{0.35}+frac{(z-2.3)^{2}}{1.3}>1{2.7>y>2}}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "78ad3106fd2dc4f6",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "77"
+      ],
+      "example_latex": [
+        "\\frac{\\left(x--3.2\\right)^{2}}{0.01}+\\frac{\\left(y--3.7\\right)^{2}}{0.01}<1\\ \\left\\{3.87<z<4.17\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(x+3.2)^{2}}{0.01}+frac{(y+3.7)^{2}}{0.01}<1{3.87<z<4.17}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "7a32dadb19c1cc1f",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "37"
+      ],
+      "example_latex": [
+        "\\frac{\\left(x--4.2\\right)^{2}}{0.01}+\\frac{\\left(y-3.7\\right)^{2}}{0.01}<1\\ \\left\\{3.87<z<4.17\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(x+4.2)^{2}}{0.01}+frac{(y-3.7)^{2}}{0.01}<1{3.87<z<4.17}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "7a5d52d2b292b24c",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "138"
+      ],
+      "example_latex": [
+        "\\frac{\\left(x--0.9\\right)^{2}}{0.01}+\\frac{\\left(y-2.6\\right)^{2}}{0.01}<1\\ \\left\\{4.17<z<5.07\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(x+0.9)^{2}}{0.01}+frac{(y-2.6)^{2}}{0.01}<1{4.17<z<5.07}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "7acfd7f1eac529b0",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "39"
+      ],
+      "example_latex": [
+        "\\frac{\\left(x--3.7\\right)^{2}}{0.01}+\\frac{\\left(y-4.2\\right)^{2}}{0.01}<1\\ \\left\\{3.87<z<4.17\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(x+3.7)^{2}}{0.01}+frac{(y-4.2)^{2}}{0.01}<1{3.87<z<4.17}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "7b8b99f4f319a79e",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "152"
+      ],
+      "example_latex": [
+        "\\frac{\\left(x-2.6\\right)^{2}}{0.01}+\\frac{\\left(y--2\\right)^{2}}{0.01}<1\\ \\left\\{4.17<z<4.67\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(x-2.6)^{2}}{0.01}+frac{(y+2)^{2}}{0.01}<1{4.17<z<4.67}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "7c219a9e72869be3",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "166"
+      ],
+      "example_latex": [
+        "2.17<z<3.97\\ \\left\\{-0.8<y<0.8\\right\\}\\left\\{\\frac{\\left(y+0\\right)^{2}}{0.35}+\\frac{\\left(z-2.3\\right)^{2}}{1.3}>1\\left\\{2.7>x>2\\right\\}\\right\\}"
+      ],
+      "example_normalized": [
+        "2.17<z<3.97{-0.8<y<0.8}{frac{(y+0)^{2}}{0.35}+frac{(z-2.3)^{2}}{1.3}>1{2.7>x>2}}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "7c4e581a1477e239",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "226"
+      ],
+      "example_latex": [
+        "\\left(x+-2\\right)^{2}+\\left(y+-2.6\\right)^{2}+\\left(z+\\ -4.67\\right)^{2}<0.03"
+      ],
+      "example_normalized": [
+        "(x-2)^{2}+(y-2.6)^{2}+(z-4.67)^{2}<0.03"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "7ece8ff5bb5ca069",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "99"
+      ],
+      "example_latex": [
+        "\\frac{\\left(x-3.7\\right)^{2}}{0.01}+\\frac{\\left(y--4.2\\right)^{2}}{0.01}<1\\ \\left\\{3.87<z<4.17\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(x-3.7)^{2}}{0.01}+frac{(y+4.2)^{2}}{0.01}<1{3.87<z<4.17}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "81a231d3292b0b0b",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "106"
+      ],
+      "example_latex": [
+        "\\frac{\\left(x-3.7\\right)^{2}}{0.56}+\\frac{\\left(y--3.7\\right)^{2}}{0.56}<1\\ \\left\\{4.17<z<4.47\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(x-3.7)^{2}}{0.56}+frac{(y+3.7)^{2}}{0.56}<1{4.17<z<4.47}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "836087a4c5924e73",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "159"
+      ],
+      "example_latex": [
+        "\\left(x+2.6\\right)^{2}+\\left(y+2\\right)^{2}+\\left(z+\\ -4.67\\right)^{2}<0.03"
+      ],
+      "example_normalized": [
+        "(x+2.6)^{2}+(y+2)^{2}+(z-4.67)^{2}<0.03"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "84ab862d2a95f3e3",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "50"
+      ],
+      "example_latex": [
+        "\\frac{\\left(x-3.7\\right)^{2}}{0.56}+\\frac{\\left(y-3.7\\right)^{2}}{0.56}<1\\ \\left\\{0.57<z<1.47\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(x-3.7)^{2}}{0.56}+frac{(y-3.7)^{2}}{0.56}<1{0.57<z<1.47}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "87c5214eb90bb296",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "242"
+      ],
+      "example_latex": [
+        "\\frac{\\left(x--1.6\\right)^{2}}{0.01}+\\frac{\\left(y-1.6\\right)^{2}}{0.01}<1\\ \\left\\{4.5<z<5.3\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(x+1.6)^{2}}{0.01}+frac{(y-1.6)^{2}}{0.01}<1{4.5<z<5.3}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "8887195c03d358a6",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "241"
+      ],
+      "example_latex": [
+        "\\frac{\\left(x--1.6\\right)^{2}}{0.01}+\\frac{\\left(y--1.6\\right)^{2}}{0.01}<1\\ \\left\\{4.5<z<5.3\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(x+1.6)^{2}}{0.01}+frac{(y+1.6)^{2}}{0.01}<1{4.5<z<5.3}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "889d775e37642617",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "43"
+      ],
+      "example_latex": [
+        "\\frac{\\left(x--3.4\\right)^{2}}{0.01}+\\frac{\\left(y-3.4\\right)^{2}}{0.01}<1\\ \\left\\{3.87<z<4.17\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(x+3.4)^{2}}{0.01}+frac{(y-3.4)^{2}}{0.01}<1{3.87<z<4.17}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "89156460f3ddcdf3",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "140"
+      ],
+      "example_latex": [
+        "\\left(x+-0.9\\right)^{2}+\\left(y+2.6\\right)^{2}+\\left(z+\\ -5.07\\right)^{2}<0.03"
+      ],
+      "example_normalized": [
+        "(x-0.9)^{2}+(y+2.6)^{2}+(z-5.07)^{2}<0.03"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "8a2baefd76141bef",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "172"
+      ],
+      "example_latex": [
+        "2.17<z<3.97\\ \\left\\{-2.0<x<-0.8\\right\\}\\left\\{\\frac{\\left(x--1.4\\right)^{2}}{0.2}+\\frac{\\left(z-2.3\\right)^{2}}{1}>1\\ \\left\\{-2.7<y<-2\\right\\}\\right\\}"
+      ],
+      "example_normalized": [
+        "2.17<z<3.97{-2.0<x<-0.8}{frac{(x+1.4)^{2}}{0.2}+frac{(z-2.3)^{2}}{1}>1{-2.7<y<-2}}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "8a8191d32b664a89",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "221"
+      ],
+      "example_latex": [
+        "\\frac{\\left(x-2\\right)^{2}}{0.01}+\\frac{\\left(y--2.6\\right)^{2}}{0.01}<1\\ \\left\\{4.17<z<4.67\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(x-2)^{2}}{0.01}+frac{(y+2.6)^{2}}{0.01}<1{4.17<z<4.67}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "8bf5e08b287d07f1",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "72"
+      ],
+      "example_latex": [
+        "\\frac{\\left(x--3.7\\right)^{2}}{0.7}+\\frac{\\left(y--3.7\\right)^{2}}{0.7}<1\\ \\left\\{2.47<z<2.57\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(x+3.7)^{2}}{0.7}+frac{(y+3.7)^{2}}{0.7}<1{2.47<z<2.57}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "8c43dd1a344ff293",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "238"
+      ],
+      "example_latex": [
+        "\\frac{\\left(x+1.6\\right)^{2}}{0.4}+\\frac{\\left(y+-1.6\\right)^{2}}{0.4}+\\frac{\\left(z+\\ -4.5\\right)^{2}}{0.4}<1"
+      ],
+      "example_normalized": [
+        "frac{(x+1.6)^{2}}{0.4}+frac{(y-1.6)^{2}}{0.4}+frac{(z-4.5)^{2}}{0.4}<1"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "8e679d345f1a42b8",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "79"
+      ],
+      "example_latex": [
+        "\\frac{\\left(x--3.7\\right)^{2}}{0.01}+\\frac{\\left(y--3.2\\right)^{2}}{0.01}<1\\ \\left\\{3.87<z<4.17\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(x+3.7)^{2}}{0.01}+frac{(y+3.2)^{2}}{0.01}<1{3.87<z<4.17}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "91013a6e8fb9fd67",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "240"
+      ],
+      "example_latex": [
+        "\\frac{\\left(x-1.6\\right)^{2}}{0.01}+\\frac{\\left(y-1.6\\right)^{2}}{0.01}<1\\ \\left\\{4.5<z<5.3\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(x-1.6)^{2}}{0.01}+frac{(y-1.6)^{2}}{0.01}<1{4.5<z<5.3}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "92f43708e9e8147a",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "31"
+      ],
+      "example_latex": [
+        "\\frac{\\left(x--3.7\\right)^{2}}{0.7}+\\frac{\\left(y-3.7\\right)^{2}}{0.7}<1\\ \\left\\{1.47<z<1.57\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(x+3.7)^{2}}{0.7}+frac{(y-3.7)^{2}}{0.7}<1{1.47<z<1.57}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "94b0a967c5a2b4fb",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "88"
+      ],
+      "example_latex": [
+        "\\frac{\\left(x--3.7\\right)^{2}}{0.01}+\\frac{\\left(y--3.7\\right)^{2}}{0.01}<1\\ \\left\\{5<z<5.2\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(x+3.7)^{2}}{0.01}+frac{(y+3.7)^{2}}{0.01}<1{5<z<5.2}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "988d41c9f29aa780",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "60"
+      ],
+      "example_latex": [
+        "\\frac{\\left(x-3.7\\right)^{2}}{0.01}+\\frac{\\left(y-3.2\\right)^{2}}{0.01}<1\\ \\left\\{3.87<z<4.17\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(x-3.7)^{2}}{0.01}+frac{(y-3.2)^{2}}{0.01}<1{3.87<z<4.17}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "9fca35f052b4fc11",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "36"
+      ],
+      "example_latex": [
+        "\\frac{\\left(x--3.7\\right)^{2}}{0.56}+\\frac{\\left(y-3.7\\right)^{2}}{0.56}<1\\ \\left\\{3.67<z<3.97\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(x+3.7)^{2}}{0.56}+frac{(y-3.7)^{2}}{0.56}<1{3.67<z<3.97}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "ad236bc8f2b0f47a",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "111"
+      ],
+      "example_latex": [
+        "\\frac{\\left(x-0\\right)^{2}}{2.1}+\\frac{\\left(y--0\\right)^{2}}{2.1}<1\\ \\left\\{3.97<z<4.37\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(x-0)^{2}}{2.1}+frac{(y+0)^{2}}{2.1}<1{3.97<z<4.37}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "aea0907064c18cfd",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "67"
+      ],
+      "example_latex": [
+        "\\left(x+-3.7\\right)^{2}+\\left(y+-3.7\\right)^{2}+\\left(z+\\ -4\\right)^{2}<1\\left\\{4.57<z<5\\right\\}"
+      ],
+      "example_normalized": [
+        "(x-3.7)^{2}+(y-3.7)^{2}+(z-4)^{2}<1{4.57<z<5}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "af178caedd813fbf",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "109"
+      ],
+      "example_latex": [
+        "\\frac{\\left(x-3.7\\right)^{2}}{0.01}+\\frac{\\left(y--3.7\\right)^{2}}{0.01}<1\\ \\left\\{5<z<5.2\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(x-3.7)^{2}}{0.01}+frac{(y+3.7)^{2}}{0.01}<1{5<z<5.2}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "b00c93133d7079b5",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "94"
+      ],
+      "example_latex": [
+        "\\frac{\\left(x-3.7\\right)^{2}}{0.56}+\\frac{\\left(y--3.7\\right)^{2}}{0.56}<1\\ \\left\\{2.57<z<3.67\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(x-3.7)^{2}}{0.56}+frac{(y+3.7)^{2}}{0.56}<1{2.57<z<3.67}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "b0a70da71c265402",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "42"
+      ],
+      "example_latex": [
+        "\\frac{\\left(x--3.4\\right)^{2}}{0.01}+\\frac{\\left(y-4\\right)^{2}}{0.01}<1\\ \\left\\{3.87<z<4.17\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(x+3.4)^{2}}{0.01}+frac{(y-4)^{2}}{0.01}<1{3.87<z<4.17}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "b18ae18617b104e5",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "237"
+      ],
+      "example_latex": [
+        "\\frac{\\left(x+1.6\\right)^{2}}{0.4}+\\frac{\\left(y+1.6\\right)^{2}}{0.4}+\\frac{\\left(z+\\ -4.5\\right)^{2}}{0.4}<1"
+      ],
+      "example_normalized": [
+        "frac{(x+1.6)^{2}}{0.4}+frac{(y+1.6)^{2}}{0.4}+frac{(z-4.5)^{2}}{0.4}<1"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "b46f0189c58fe988",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "247"
+      ],
+      "example_latex": [
+        "0.57<z<2.17\\ \\left\\{-2.0<x<-0.8\\right\\}\\left\\{\\frac{\\left(x--1.4\\right)^{2}}{0.2}+\\frac{\\left(z-0.6\\right)^{2}}{1}>1\\ \\left\\{-2.7<y<-2\\right\\}\\right\\}"
+      ],
+      "example_normalized": [
+        "0.57<z<2.17{-2.0<x<-0.8}{frac{(x+1.4)^{2}}{0.2}+frac{(z-0.6)^{2}}{1}>1{-2.7<y<-2}}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "b6b0b257972c972b",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "97"
+      ],
+      "example_latex": [
+        "\\frac{\\left(x-4.2\\right)^{2}}{0.01}+\\frac{\\left(y--3.7\\right)^{2}}{0.01}<1\\ \\left\\{3.87<z<4.17\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(x-4.2)^{2}}{0.01}+frac{(y+3.7)^{2}}{0.01}<1{3.87<z<4.17}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "b6c7d51bcb3eae1d",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "49"
+      ],
+      "example_latex": [
+        "\\frac{\\left(x--3.7\\right)^{2}}{0.01}+\\frac{\\left(y-3.7\\right)^{2}}{0.01}<1\\ \\left\\{5<z<5.2\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(x+3.7)^{2}}{0.01}+frac{(y-3.7)^{2}}{0.01}<1{5<z<5.2}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "b8b5408293235532",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "169"
+      ],
+      "example_latex": [
+        "2.17<z<3.97\\ \\left\\{-2.0<x<-0.8\\right\\}\\left\\{\\frac{\\left(x--1.4\\right)^{2}}{0.2}+\\frac{\\left(z-2.3\\right)^{2}}{1}>1\\ \\left\\{2.7>y>2\\right\\}\\right\\}"
+      ],
+      "example_normalized": [
+        "2.17<z<3.97{-2.0<x<-0.8}{frac{(x+1.4)^{2}}{0.2}+frac{(z-2.3)^{2}}{1}>1{2.7>y>2}}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "b9663734a40dacfc",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "74"
+      ],
+      "example_latex": [
+        "\\frac{\\left(x--3.7\\right)^{2}}{0.7}+\\frac{\\left(y--3.7\\right)^{2}}{0.7}<1\\ \\left\\{3.67<z<3.77\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(x+3.7)^{2}}{0.7}+frac{(y+3.7)^{2}}{0.7}<1{3.67<z<3.77}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "bae107c9917a65f9",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "151"
+      ],
+      "example_latex": [
+        "\\frac{\\left(x--2.6\\right)^{2}}{0.01}+\\frac{\\left(y-2\\right)^{2}}{0.01}<1\\ \\left\\{4.17<z<4.67\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(x+2.6)^{2}}{0.01}+frac{(y-2)^{2}}{0.01}<1{4.17<z<4.67}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "bbb5553850fbfc21",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "218"
+      ],
+      "example_latex": [
+        "\\frac{\\left(x--2\\right)^{2}}{0.01}+\\frac{\\left(y-2.6\\right)^{2}}{0.01}<1\\ \\left\\{4.17<z<4.67\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(x+2)^{2}}{0.01}+frac{(y-2.6)^{2}}{0.01}<1{4.17<z<4.67}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "bbdceae5d6994578",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "150"
+      ],
+      "example_latex": [
+        "\\left(y+-0.9\\right)^{2}+\\left(x+-2.6\\right)^{2}+\\left(z+\\ -5.07\\right)^{2}<0.03"
+      ],
+      "example_normalized": [
+        "(y-0.9)^{2}+(x-2.6)^{2}+(z-5.07)^{2}<0.03"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "bdb90a148d0d3a0a",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "175"
+      ],
+      "example_latex": [
+        "2.17<z<3.97\\ \\left\\{-2.0<y<-0.8\\right\\}\\left\\{\\frac{\\left(y--1.4\\right)^{2}}{0.2}+\\frac{\\left(z-2.3\\right)^{2}}{1}>1\\left\\{-2.7<x<-2\\right\\}\\right\\}"
+      ],
+      "example_normalized": [
+        "2.17<z<3.97{-2.0<y<-0.8}{frac{(y+1.4)^{2}}{0.2}+frac{(z-2.3)^{2}}{1}>1{-2.7<x<-2}}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "bdeaeb609928507b",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "235"
+      ],
+      "example_latex": [
+        "\\frac{\\left(x+-1.6\\right)^{2}}{0.4}+\\frac{\\left(y+1.6\\right)^{2}}{0.4}+\\frac{\\left(z+\\ -4.5\\right)^{2}}{0.4}<1"
+      ],
+      "example_normalized": [
+        "frac{(x-1.6)^{2}}{0.4}+frac{(y+1.6)^{2}}{0.4}+frac{(z-4.5)^{2}}{0.4}<1"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "c06bad1dab33292e",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "107"
+      ],
+      "example_latex": [
+        "\\frac{\\left(x-3.7\\right)^{2}}{0.7}+\\frac{\\left(y--3.7\\right)^{2}}{0.7}<1\\ \\left\\{4.47<z<4.57\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(x-3.7)^{2}}{0.7}+frac{(y+3.7)^{2}}{0.7}<1{4.47<z<4.57}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "c0ee6cccce50bd6e",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "252"
+      ],
+      "example_latex": [
+        "0.57<z<2.17\\ \\left\\{-2.0<y<-0.8\\right\\}\\left\\{\\frac{\\left(y--1.4\\right)^{2}}{0.2}+\\frac{\\left(z-0.6\\right)^{2}}{1}>1\\left\\{2.7>x>2\\right\\}\\right\\}"
+      ],
+      "example_normalized": [
+        "0.57<z<2.17{-2.0<y<-0.8}{frac{(y+1.4)^{2}}{0.2}+frac{(z-0.6)^{2}}{1}>1{2.7>x>2}}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "c23966642b817828",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "69"
+      ],
+      "example_latex": [
+        "\\frac{\\left(x--3.7\\right)^{2}}{0.56}+\\frac{\\left(y--3.7\\right)^{2}}{0.56}<1\\ \\left\\{0.57<z<1.47\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(x+3.7)^{2}}{0.56}+frac{(y+3.7)^{2}}{0.56}<1{0.57<z<1.47}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "c3365589b0a9ee7b",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "70"
+      ],
+      "example_latex": [
+        "\\frac{\\left(x--3.7\\right)^{2}}{0.7}+\\frac{\\left(y--3.7\\right)^{2}}{0.7}<1\\ \\left\\{1.47<z<1.57\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(x+3.7)^{2}}{0.7}+frac{(y+3.7)^{2}}{0.7}<1{1.47<z<1.57}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "c3b348e84aa9b51a",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "93"
+      ],
+      "example_latex": [
+        "\\frac{\\left(x-3.7\\right)^{2}}{0.7}+\\frac{\\left(y--3.7\\right)^{2}}{0.7}<1\\ \\left\\{2.47<z<2.57\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(x-3.7)^{2}}{0.7}+frac{(y+3.7)^{2}}{0.7}<1{2.47<z<2.57}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "c7c59a4583bc2a76",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "232"
+      ],
+      "example_latex": [
+        "\\frac{\\left(x-1.6\\right)^{2}}{0.3}+\\frac{\\left(y-1.6\\right)^{2}}{0.3}<1\\ \\left\\{3.97<z<4.37\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(x-1.6)^{2}}{0.3}+frac{(y-1.6)^{2}}{0.3}<1{3.97<z<4.37}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "c7fdeb7ee56f560e",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "51"
+      ],
+      "example_latex": [
+        "\\frac{\\left(x-3.7\\right)^{2}}{0.7}+\\frac{\\left(y-3.7\\right)^{2}}{0.7}<1\\ \\left\\{1.47<z<1.57\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(x-3.7)^{2}}{0.7}+frac{(y-3.7)^{2}}{0.7}<1{1.47<z<1.57}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "cda122a10c25f834",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "64"
+      ],
+      "example_latex": [
+        "\\frac{\\left(x-4\\right)^{2}}{0.01}+\\frac{\\left(y-3.4\\right)^{2}}{0.01}<1\\ \\left\\{3.87<z<4.17\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(x-4)^{2}}{0.01}+frac{(y-3.4)^{2}}{0.01}<1{3.87<z<4.17}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "ce83f60662caa10b",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "224"
+      ],
+      "example_latex": [
+        "\\left(x+2\\right)^{2}+\\left(y+2.6\\right)^{2}+\\left(z+\\ -4.67\\right)^{2}<0.03"
+      ],
+      "example_normalized": [
+        "(x+2)^{2}+(y+2.6)^{2}+(z-4.67)^{2}<0.03"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "cf8da8eb7336d4b8",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "96"
+      ],
+      "example_latex": [
+        "\\frac{\\left(x-3.7\\right)^{2}}{0.56}+\\frac{\\left(y--3.7\\right)^{2}}{0.56}<1\\ \\left\\{3.67<z<3.97\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(x-3.7)^{2}}{0.56}+frac{(y+3.7)^{2}}{0.56}<1{3.67<z<3.97}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "d122babcd70fa559",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "92"
+      ],
+      "example_latex": [
+        "\\frac{\\left(x-3.7\\right)^{2}}{0.56}+\\frac{\\left(y--3.7\\right)^{2}}{0.56}<1\\ \\left\\{1.57<z<2.47\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(x-3.7)^{2}}{0.56}+frac{(y+3.7)^{2}}{0.56}<1{1.57<z<2.47}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "d1502553fc251115",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "35"
+      ],
+      "example_latex": [
+        "\\frac{\\left(x--3.7\\right)^{2}}{0.7}+\\frac{\\left(y-3.7\\right)^{2}}{0.7}<1\\ \\left\\{3.67<z<3.77\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(x+3.7)^{2}}{0.7}+frac{(y-3.7)^{2}}{0.7}<1{3.67<z<3.77}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "d34fbbe2caf1f07a",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "231"
+      ],
+      "example_latex": [
+        "\\frac{\\left(x-1.6\\right)^{2}}{0.3}+\\frac{\\left(y--1.6\\right)^{2}}{0.3}<1\\ \\left\\{3.97<z<4.37\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(x-1.6)^{2}}{0.3}+frac{(y+1.6)^{2}}{0.3}<1{3.97<z<4.37}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "d3922e2121cf5f82",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "87"
+      ],
+      "example_latex": [
+        "\\left(x+3.7\\right)^{2}+\\left(y+3.7\\right)^{2}+\\left(z+\\ -4\\right)^{2}<1\\left\\{4.57<z<5\\right\\}"
+      ],
+      "example_normalized": [
+        "(x+3.7)^{2}+(y+3.7)^{2}+(z-4)^{2}<1{4.57<z<5}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "d3dbe2f2215f3317",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "90"
+      ],
+      "example_latex": [
+        "\\frac{\\left(x-3.7\\right)^{2}}{0.56}+\\frac{\\left(y--3.7\\right)^{2}}{0.56}<1\\ \\left\\{0.57<z<1.47\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(x-3.7)^{2}}{0.56}+frac{(y+3.7)^{2}}{0.56}<1{0.57<z<1.47}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "d558cb6c0d04e836",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "56"
+      ],
+      "example_latex": [
+        "\\frac{\\left(x-3.7\\right)^{2}}{0.56}+\\frac{\\left(y-3.7\\right)^{2}}{0.56}<1\\ \\left\\{3.67<z<3.97\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(x-3.7)^{2}}{0.56}+frac{(y-3.7)^{2}}{0.56}<1{3.67<z<3.97}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "d5d5317f9bd90d58",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "176"
+      ],
+      "example_latex": [
+        "2.17<z<3.97\\ \\left\\{2.0>y>0.8\\right\\}\\left\\{\\frac{\\left(y-1.4\\right)^{2}}{0.2}+\\frac{\\left(z-2.3\\right)^{2}}{1}>1\\left\\{-2.0>x>-2.7\\right\\}\\right\\}"
+      ],
+      "example_normalized": [
+        "2.17<z<3.97{2.0>y>0.8}{frac{(y-1.4)^{2}}{0.2}+frac{(z-2.3)^{2}}{1}>1{-2.0>x>-2.7}}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "d69dce1a36fa48c2",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "89"
+      ],
+      "example_latex": [
+        "\\frac{\\left(x--3.7\\right)^{2}}{0.7}+\\frac{\\left(y--3.7\\right)^{2}}{0.7}<1\\ \\left\\{4.47<z<4.57\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(x+3.7)^{2}}{0.7}+frac{(y+3.7)^{2}}{0.7}<1{4.47<z<4.57}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "d7027ac8d6e38627",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "61"
+      ],
+      "example_latex": [
+        "\\frac{\\left(x-4\\right)^{2}}{0.01}+\\frac{\\left(y-4\\right)^{2}}{0.01}<1\\ \\left\\{3.87<z<4.17\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(x-4)^{2}}{0.01}+frac{(y-4)^{2}}{0.01}<1{3.87<z<4.17}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "d7a7b162c0847b1f",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "239"
+      ],
+      "example_latex": [
+        "\\frac{\\left(x-1.6\\right)^{2}}{0.01}+\\frac{\\left(y--1.6\\right)^{2}}{0.01}<1\\ \\left\\{4.5<z<5.3\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(x-1.6)^{2}}{0.01}+frac{(y+1.6)^{2}}{0.01}<1{4.5<z<5.3}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "da08c787900ae287",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "66"
+      ],
+      "example_latex": [
+        "\\frac{\\left(x-3.7\\right)^{2}}{0.7}+\\frac{\\left(y-3.7\\right)^{2}}{0.7}<1\\ \\left\\{4.47<z<4.57\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(x-3.7)^{2}}{0.7}+frac{(y-3.7)^{2}}{0.7}<1{4.47<z<4.57}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "da706d7e202a5602",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "103"
+      ],
+      "example_latex": [
+        "\\frac{\\left(x-3.4\\right)^{2}}{0.01}+\\frac{\\left(y--4\\right)^{2}}{0.01}<1\\ \\left\\{3.87<z<4.17\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(x-3.4)^{2}}{0.01}+frac{(y+4)^{2}}{0.01}<1{3.87<z<4.17}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "dae83d038d945080",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "248"
+      ],
+      "example_latex": [
+        "0.57<z<2.17\\ \\left\\{2>x>0.8\\right\\}\\left\\{\\frac{\\left(x-1.4\\right)^{2}}{0.2}+\\frac{\\left(z-0.6\\right)^{2}}{1}>1\\ \\left\\{-2.7<y<-2\\right\\}\\right\\}"
+      ],
+      "example_normalized": [
+        "0.57<z<2.17{2>x>0.8}{frac{(x-1.4)^{2}}{0.2}+frac{(z-0.6)^{2}}{1}>1{-2.7<y<-2}}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "e13d461924fa35f9",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "32"
+      ],
+      "example_latex": [
+        "\\frac{\\left(x--3.7\\right)^{2}}{0.56}+\\frac{\\left(y-3.7\\right)^{2}}{0.56}<1\\ \\left\\{1.57<z<2.47\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(x+3.7)^{2}}{0.56}+frac{(y-3.7)^{2}}{0.56}<1{1.57<z<2.47}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "e28feaea9e046767",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "132"
+      ],
+      "example_latex": [
+        "\\frac{\\left(x-2.6\\right)^{2}}{0.01}+\\frac{\\left(y-0.9\\right)^{2}}{0.01}<1\\ \\ \\left\\{4.17<z<5.07\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(x-2.6)^{2}}{0.01}+frac{(y-0.9)^{2}}{0.01}<1{4.17<z<5.07}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 1,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "e31431fc7ed7f176",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "71"
+      ],
+      "example_latex": [
+        "\\frac{\\left(x--3.7\\right)^{2}}{0.56}+\\frac{\\left(y--3.7\\right)^{2}}{0.56}<1\\ \\left\\{1.57<z<2.47\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(x+3.7)^{2}}{0.56}+frac{(y+3.7)^{2}}{0.56}<1{1.57<z<2.47}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "e4171dcf5f8fcefb",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "52"
+      ],
+      "example_latex": [
+        "\\frac{\\left(x-3.7\\right)^{2}}{0.56}+\\frac{\\left(y-3.7\\right)^{2}}{0.56}<1\\ \\left\\{1.57<z<2.47\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(x-3.7)^{2}}{0.56}+frac{(y-3.7)^{2}}{0.56}<1{1.57<z<2.47}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "e63d445a098d678f",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "148"
+      ],
+      "example_latex": [
+        "\\left(y+-0.9\\right)^{2}+\\left(x+2.6\\right)^{2}+\\left(z+\\ -5.07\\right)^{2}<0.03"
+      ],
+      "example_normalized": [
+        "(y-0.9)^{2}+(x+2.6)^{2}+(z-5.07)^{2}<0.03"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "eac628b257c1e834",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "112"
+      ],
+      "example_latex": [
+        "\\frac{\\left(x+-0\\right)^{2}}{2.3}+\\frac{\\left(y+0\\right)^{2}}{2.3}+\\frac{\\left(z+\\ -5\\right)^{2}}{3.8}<1\\left\\{4.36<z\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(x-0)^{2}}{2.3}+frac{(y+0)^{2}}{2.3}+frac{(z-5)^{2}}{3.8}<1{4.36<z}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "f1038534104ef93c",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "91"
+      ],
+      "example_latex": [
+        "\\frac{\\left(x-3.7\\right)^{2}}{0.7}+\\frac{\\left(y--3.7\\right)^{2}}{0.7}<1\\ \\left\\{1.47<z<1.57\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(x-3.7)^{2}}{0.7}+frac{(y+3.7)^{2}}{0.7}<1{1.47<z<1.57}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "f1fef07e09564a62",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "104"
+      ],
+      "example_latex": [
+        "\\frac{\\left(x-3.4\\right)^{2}}{0.01}+\\frac{\\left(y--3.4\\right)^{2}}{0.01}<1\\ \\left\\{3.87<z<4.17\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(x-3.4)^{2}}{0.01}+frac{(y+3.4)^{2}}{0.01}<1{3.87<z<4.17}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "f22f45a5213df85a",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "95"
+      ],
+      "example_latex": [
+        "\\frac{\\left(x-3.7\\right)^{2}}{0.7}+\\frac{\\left(y--3.7\\right)^{2}}{0.7}<1\\ \\left\\{3.67<z<3.77\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(x-3.7)^{2}}{0.7}+frac{(y+3.7)^{2}}{0.7}<1{3.67<z<3.77}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "f23e6c954a4df9ad",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "258"
+      ],
+      "example_latex": [
+        "0.57<z<2.17\\ \\left\\{2.0>y>0.8\\right\\}\\left\\{\\frac{\\left(y-1.4\\right)^{2}}{0.2}+\\frac{\\left(z-0.6\\right)^{2}}{1}>1\\left\\{-2.0>x>-2.7\\right\\}\\right\\}"
+      ],
+      "example_normalized": [
+        "0.57<z<2.17{2.0>y>0.8}{frac{(y-1.4)^{2}}{0.2}+frac{(z-0.6)^{2}}{1}>1{-2.0>x>-2.7}}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "f3c01c0391aa767c",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "62"
+      ],
+      "example_latex": [
+        "\\frac{\\left(x-3.4\\right)^{2}}{0.01}+\\frac{\\left(y-4\\right)^{2}}{0.01}<1\\ \\left\\{3.87<z<4.17\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(x-3.4)^{2}}{0.01}+frac{(y-4)^{2}}{0.01}<1{3.87<z<4.17}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "fb675105b6f632ca",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "101"
+      ],
+      "example_latex": [
+        "\\frac{\\left(x-4\\right)^{2}}{0.01}+\\frac{\\left(y--4\\right)^{2}}{0.01}<1\\ \\left\\{3.87<z<4.17\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(x-4)^{2}}{0.01}+frac{(y+4)^{2}}{0.01}<1{3.87<z<4.17}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "fc394447396d73d5",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "108"
+      ],
+      "example_latex": [
+        "\\left(x+-3.7\\right)^{2}+\\left(y+3.7\\right)^{2}+\\left(z+\\ -4\\right)^{2}<1\\left\\{4.57<z<5\\right\\}"
+      ],
+      "example_normalized": [
+        "(x-3.7)^{2}+(y+3.7)^{2}+(z-4)^{2}<1{4.57<z<5}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "fca40c06a8ea4ec9",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "81"
+      ],
+      "example_latex": [
+        "\\frac{\\left(x--3.4\\right)^{2}}{0.01}+\\frac{\\left(y--4\\right)^{2}}{0.01}<1\\ \\left\\{3.87<z<4.17\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(x+3.4)^{2}}{0.01}+frac{(y+4)^{2}}{0.01}<1{3.87<z<4.17}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "fe816a5497314e7d",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "46"
+      ],
+      "example_latex": [
+        "\\frac{\\left(x--3.7\\right)^{2}}{0.7}+\\frac{\\left(y-3.7\\right)^{2}}{0.7}<1\\ \\left\\{4.47<z<4.57\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(x+3.7)^{2}}{0.7}+frac{(y-3.7)^{2}}{0.7}<1{4.47<z<4.57}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "ff74e30d12d74e77",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "73"
+      ],
+      "example_latex": [
+        "\\frac{\\left(x--3.7\\right)^{2}}{0.56}+\\frac{\\left(y--3.7\\right)^{2}}{0.56}<1\\ \\left\\{2.57<z<3.67\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(x+3.7)^{2}}{0.56}+frac{(y+3.7)^{2}}{0.56}<1{2.57<z<3.67}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    }
+  ],
+  "diagnostics": [
+    {
+      "severity": "INFO",
+      "code": "COVERAGE_COMPLETE",
+      "message": "Coverage report complete",
+      "source_ref": null,
+      "details": {
+        "file": "[4B] 3D Diagram - S2-02 Group C.json",
+        "meshed_expression_ids": 26,
+        "supported_but_not_meshed": 0,
+        "group_count": 143
+      }
+    }
+  ]
+}

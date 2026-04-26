@@ -1,0 +1,367 @@
+{
+  "version": 11,
+  "randomSeed": "33b6421c30cb7343fea718b4d5bc6b87",
+  "graph": {
+    "viewport": {
+      "xmin": -18.585186004725017,
+      "ymin": -18.656625701379685,
+      "zmin": -17.841497355311645,
+      "xmax": 18.74937721869034,
+      "ymax": 18.677937522035673,
+      "zmax": 19.49306586810369
+    },
+    "worldRotation3D": [
+      -0.9737461655006809,
+      -1.2246467991473532e-16,
+      -0.22763656378692868,
+      1.1924951247624178e-16,
+      -1,
+      2.787743892105645e-17,
+      -0.22763656378692868,
+      0,
+      0.9737461655006809
+    ],
+    "axis3D": [
+      1.2246467991451392e-16,
+      0.9999999999981907,
+      1.8427545605404228e-30
+    ],
+    "product": "graphing-3d",
+    "threeDMode": true,
+    "__v12ViewportLatexStash": {
+      "xmin": "-18.585186004725017",
+      "xmax": "18.74937721869034",
+      "ymin": "-18.656625701379685",
+      "ymax": "18.677937522035673",
+      "zmin": "-17.841497355311645",
+      "zmax": "19.49306586810369"
+    }
+  },
+  "expressions": {
+    "list": [
+      {
+        "type": "expression",
+        "id": "6512",
+        "color": "#2d70b3",
+        "latex": "C_{olor1}=\\operatorname{rgb}\\left(151,175,187\\right)"
+      },
+      {
+        "type": "expression",
+        "id": "6513",
+        "color": "#388c46",
+        "latex": "C_{olor2}=\\operatorname{rgb}\\left(232,189,140\\right)"
+      },
+      {
+        "type": "expression",
+        "id": "6514",
+        "color": "#6042a6",
+        "latex": "C_{olor3}=\\operatorname{rgb}\\left(245,208,163\\right)"
+      },
+      {
+        "type": "expression",
+        "id": "6515",
+        "color": "#aaaaaa",
+        "latex": "C_{olor4}=\\operatorname{rgb}\\left(158,133,113\\right)"
+      },
+      {
+        "type": "expression",
+        "id": "6516",
+        "color": "#c74440",
+        "latex": "C_{olor5}=\\operatorname{rgb}\\left(255,255,255\\right)"
+      },
+      {
+        "type": "expression",
+        "id": "6567",
+        "color": "#aaaaaa",
+        "latex": "C_{olor6}=\\operatorname{rgb}\\left(0,0,0\\right)"
+      },
+      {
+        "type": "expression",
+        "id": "6505",
+        "color": "#aaaaaa",
+        "latex": "y\\ =\\ -2\\left\\{-2<x<2\\right\\}\\left\\{0\\le z\\le10\\right\\}",
+        "colorLatex": "C_{olor3}"
+      },
+      {
+        "type": "expression",
+        "id": "6506",
+        "color": "#c74440",
+        "latex": "y\\ =\\ 2\\left\\{-2<x<2\\right\\}\\left\\{0\\le z\\le10\\right\\}",
+        "colorLatex": "C_{olor3}"
+      },
+      {
+        "type": "expression",
+        "id": "6507",
+        "color": "#2d70b3",
+        "latex": "x\\ =\\ -2\\left\\{-2<y<2\\right\\}\\left\\{0\\le z\\le10\\right\\}",
+        "colorLatex": "C_{olor3}"
+      },
+      {
+        "type": "expression",
+        "id": "6508",
+        "color": "#388c46",
+        "latex": "x\\ =\\ 2\\left\\{-2<y<2\\right\\}\\left\\{0\\le z\\le10\\right\\}",
+        "colorLatex": "C_{olor3}"
+      },
+      {
+        "type": "expression",
+        "id": "6510",
+        "color": "#aaaaaa",
+        "latex": "y\\ =\\ -2.5\\left\\{-2.5<x<2.5\\right\\}\\left\\{10\\le z\\le15\\right\\}",
+        "colorLatex": "C_{olor2}"
+      },
+      {
+        "type": "expression",
+        "id": "6517",
+        "color": "#2d70b3",
+        "latex": "y\\ =\\ 2.5\\left\\{-2.5<x<2.5\\right\\}\\left\\{10\\le z\\le15\\right\\}",
+        "colorLatex": "C_{olor2}"
+      },
+      {
+        "type": "expression",
+        "id": "6518",
+        "color": "#388c46",
+        "latex": "x\\ =\\ -2.5\\left\\{-2.5<y<2.5\\right\\}\\left\\{10\\le z\\le15\\right\\}",
+        "colorLatex": "C_{olor2}"
+      },
+      {
+        "type": "expression",
+        "id": "6519",
+        "color": "#6042a6",
+        "latex": "x\\ =\\ 2.5\\left\\{-2.5<y<2.5\\right\\}\\left\\{10\\le z\\le15\\right\\}",
+        "colorLatex": "C_{olor2}"
+      },
+      {
+        "type": "expression",
+        "id": "6520",
+        "color": "#aaaaaa",
+        "latex": "z\\ =\\ 10\\left\\{-2.5<y<2.5\\right\\}\\left\\{-2.5<x<2.5\\right\\}",
+        "colorLatex": "C_{olor2}"
+      },
+      {
+        "type": "expression",
+        "id": "6521",
+        "color": "#c74440",
+        "latex": "y\\ =\\ -1.6\\left\\{-1.6<x<1.6\\right\\}\\left\\{15\\le z\\le17\\right\\}",
+        "colorLatex": "C_{olor3}"
+      },
+      {
+        "type": "expression",
+        "id": "6522",
+        "color": "#2d70b3",
+        "latex": "y\\ =\\ 1.6\\left\\{-1.6<x<1.6\\right\\}\\left\\{15\\le z\\le17\\right\\}",
+        "colorLatex": "C_{olor3}"
+      },
+      {
+        "type": "expression",
+        "id": "6523",
+        "color": "#388c46",
+        "latex": "x\\ =\\ -1.6\\left\\{-1.6<y<1.6\\right\\}\\left\\{15\\le z\\le17\\right\\}",
+        "colorLatex": "C_{olor3}"
+      },
+      {
+        "type": "expression",
+        "id": "6524",
+        "color": "#6042a6",
+        "latex": "x\\ =\\ 1.6\\left\\{-1.6<y<1.6\\right\\}\\left\\{15\\le z\\le17\\right\\}",
+        "colorLatex": "C_{olor3}"
+      },
+      {
+        "type": "expression",
+        "id": "6525",
+        "color": "#aaaaaa",
+        "latex": "z\\ =\\ 15\\left\\{-2.5<y<2.5\\right\\}\\left\\{-2.5<x<2.5\\right\\}",
+        "colorLatex": "C_{olor2}"
+      },
+      {
+        "type": "expression",
+        "id": "6526",
+        "color": "#c74440",
+        "latex": "y\\ =\\ -1.6\\left\\{-1.6<x<1.6\\right\\}\\left\\{18<z<18\\right\\}",
+        "colorLatex": "C_{olor1}"
+      },
+      {
+        "type": "expression",
+        "id": "6528",
+        "color": "#c74440",
+        "latex": "y\\ =\\ 1.6\\left\\{-1.6<x<1.6\\right\\}\\left\\{18<z<18\\right\\}",
+        "colorLatex": "C_{olor1}"
+      },
+      {
+        "type": "expression",
+        "id": "6529",
+        "color": "#2d70b3",
+        "latex": "x\\ =\\ -1.6\\left\\{-1.6<y<1.6\\right\\}\\left\\{18<z<18\\right\\}",
+        "colorLatex": "C_{olor1}"
+      },
+      {
+        "type": "expression",
+        "id": "6530",
+        "color": "#388c46",
+        "latex": "x\\ =\\ 1.6\\left\\{-1.6<y<1.6\\right\\}\\left\\{18<z<18\\right\\}",
+        "colorLatex": "C_{olor1}"
+      },
+      {
+        "type": "expression",
+        "id": "6532",
+        "color": "#aaaaaa",
+        "latex": "z=y+18.5\\left\\{-1.6<y<-1\\right\\}\\left\\{-1.6\\le x\\le1.6\\right\\}",
+        "colorLatex": "C_{olor1}"
+      },
+      {
+        "type": "expression",
+        "id": "6537",
+        "color": "#aaaaaa",
+        "latex": "z=-y+18.5\\left\\{1<y<1.6\\right\\}\\left\\{-1.6\\le x\\le1.6\\right\\}",
+        "colorLatex": "C_{olor1}"
+      },
+      {
+        "type": "expression",
+        "id": "6536",
+        "color": "#6042a6",
+        "latex": "z=x+18.5\\left\\{-1.6<x<-1\\right\\}\\left\\{-1.6\\le y\\le1.6\\right\\}",
+        "colorLatex": "C_{olor1}"
+      },
+      {
+        "type": "expression",
+        "id": "6531",
+        "color": "#6042a6",
+        "latex": "z=-x+18.5\\left\\{1<x<1.6\\right\\}\\left\\{-1.6\\le y\\le1.6\\right\\}",
+        "colorLatex": "C_{olor1}"
+      },
+      {
+        "type": "expression",
+        "id": "6539",
+        "color": "#2d70b3",
+        "latex": "y\\ =\\ -1\\left\\{-1<x<1\\right\\}\\left\\{17\\le z\\le18.5\\right\\}",
+        "colorLatex": "C_{olor3}"
+      },
+      {
+        "type": "expression",
+        "id": "6540",
+        "color": "#388c46",
+        "latex": "y\\ =\\ 1\\left\\{-1<x<1\\right\\}\\left\\{17\\le z\\le18.5\\right\\}",
+        "colorLatex": "C_{olor3}"
+      },
+      {
+        "type": "expression",
+        "id": "6541",
+        "color": "#6042a6",
+        "latex": "x\\ =\\ -1\\left\\{-1<y<1\\right\\}\\left\\{17\\le z\\le18.5\\right\\}",
+        "colorLatex": "C_{olor3}"
+      },
+      {
+        "type": "expression",
+        "id": "6542",
+        "color": "#aaaaaa",
+        "latex": "x\\ =\\ 1\\left\\{-1<y<1\\right\\}\\left\\{17\\le z\\le18.5\\right\\}",
+        "colorLatex": "C_{olor3}"
+      },
+      {
+        "type": "expression",
+        "id": "6543",
+        "color": "#c74440",
+        "latex": "z=2y+20.5\\left\\{-1<y<0\\right\\}\\left\\{-1\\le x\\le1\\right\\}",
+        "colorLatex": "C_{olor1}"
+      },
+      {
+        "type": "expression",
+        "id": "6545",
+        "color": "#388c46",
+        "latex": "z=-2y+20.5\\left\\{0<y<1\\right\\}\\left\\{-1\\le x\\le1\\right\\}",
+        "colorLatex": "C_{olor1}"
+      },
+      {
+        "type": "expression",
+        "id": "6548",
+        "color": "#c74440",
+        "latex": "z=2x+20.5\\left\\{-1<x<0\\right\\}\\left\\{-1\\le y\\le1\\right\\}",
+        "colorLatex": "C_{olor1}"
+      },
+      {
+        "type": "expression",
+        "id": "6546",
+        "color": "#6042a6",
+        "latex": "z=-2x+20.5\\left\\{0<x<1\\right\\}\\left\\{-1\\le y\\le1\\right\\}",
+        "colorLatex": "C_{olor1}"
+      },
+      {
+        "type": "expression",
+        "id": "6552",
+        "color": "#aaaaaa",
+        "latex": "\\operatorname{sphere}\\left(\\left(0,0,20.5\\right),0.4\\right)",
+        "colorLatex": "C_{olor3}"
+      },
+      {
+        "type": "expression",
+        "id": "6553",
+        "color": "#c74440",
+        "latex": "y=0.2\\left\\{-0.2<x<0.2\\right\\}\\left\\{20.5<z<22\\right\\}",
+        "colorLatex": "C_{olor1}"
+      },
+      {
+        "type": "expression",
+        "id": "6554",
+        "color": "#2d70b3",
+        "latex": "y=-0.2\\left\\{-0.2<x<0.2\\right\\}\\left\\{20.5<z<22\\right\\}",
+        "colorLatex": "C_{olor1}"
+      },
+      {
+        "type": "expression",
+        "id": "6556",
+        "color": "#6042a6",
+        "latex": "x\\ =\\ 0.2\\left\\{-0.2<y<0.2\\right\\}\\left\\{20.5\\le z\\le22\\right\\}",
+        "colorLatex": "C_{olor1}"
+      },
+      {
+        "type": "expression",
+        "id": "6555",
+        "color": "#388c46",
+        "latex": "x\\ =\\ -0.2\\left\\{-0.2<y<0.2\\right\\}\\left\\{20.5\\le z\\le22\\right\\}",
+        "colorLatex": "C_{olor1}"
+      },
+      {
+        "type": "expression",
+        "id": "6558",
+        "color": "#c74440",
+        "latex": "\\operatorname{sphere}\\left(\\left(0,0,22\\right),0.35\\right)",
+        "colorLatex": "C_{olor3}"
+      },
+      {
+        "type": "expression",
+        "id": "6591",
+        "color": "#6042a6",
+        "latex": "(1.83-0.05)^{2}\\le y^{2}+(z-12.5)^{2}\\le(1.83+0.05)^{2}\\ \\left\\{2<x<2.8\\right\\}",
+        "lines": true,
+        "colorLatex": "C_{olor6}"
+      },
+      {
+        "type": "expression",
+        "id": "6564",
+        "color": "#2d70b3",
+        "latex": "(1.40-0.05)^{2}\\le y^{2}+(z-12.5)^{2}\\le(1.40+0.05)^{2}\\ \\left\\{2<x<2.8\\right\\}",
+        "colorLatex": "C_{olor6}"
+      },
+      {
+        "type": "expression",
+        "id": "6603",
+        "color": "#c74440",
+        "latex": "(0.07\\ -\\ 0.07)^{2}\\le y^{2}+(z-12.5)^{2}\\le(0.07+0.07)^{2}\\ \\left\\{2<x<2.8\\right\\}",
+        "colorLatex": "C_{olor6}"
+      },
+      {
+        "type": "expression",
+        "id": "6606",
+        "color": "#6042a6"
+      },
+      {
+        "type": "expression",
+        "id": "6605",
+        "color": "#388c46"
+      }
+    ]
+  },
+  "includeFunctionParametersInRandomSeed": true,
+  "doNotMigrate3dLineWidthZero": true,
+  "doNotMigrateMovablePointStyle": true
+}

@@ -1,0 +1,141 @@
+{
+  "source_file": "[4B] 3D Diagram - S2-02 Group C.json",
+  "total_expressions": 181,
+  "supported_count": 46,
+  "recognized_unsupported_count": 0,
+  "unrecognized_count": 0,
+  "geometry_ineligible_count": 135,
+  "per_folder_summary": [
+    {
+      "folder_id": null,
+      "folder_name": null,
+      "total": 12,
+      "supported": 0,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 12
+    },
+    {
+      "folder_id": "167",
+      "folder_name": "Base",
+      "total": 1,
+      "supported": 1,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 0
+    },
+    {
+      "folder_id": "177",
+      "folder_name": "Centre",
+      "total": 33,
+      "supported": 13,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 20
+    },
+    {
+      "folder_id": "120",
+      "folder_name": "Centre Dome",
+      "total": 3,
+      "supported": 0,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 3
+    },
+    {
+      "folder_id": "228",
+      "folder_name": "Dome Four",
+      "total": 3,
+      "supported": 0,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 3
+    },
+    {
+      "folder_id": "227",
+      "folder_name": "Dome One",
+      "total": 3,
+      "supported": 0,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 3
+    },
+    {
+      "folder_id": "229",
+      "folder_name": "Dome Three",
+      "total": 3,
+      "supported": 0,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 3
+    },
+    {
+      "folder_id": "230",
+      "folder_name": "Dome Two",
+      "total": 3,
+      "supported": 0,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 3
+    },
+    {
+      "folder_id": "116",
+      "folder_name": "Minaret Four",
+      "total": 19,
+      "supported": 1,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 18
+    },
+    {
+      "folder_id": "113",
+      "folder_name": "Minaret One",
+      "total": 19,
+      "supported": 1,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 18
+    },
+    {
+      "folder_id": "115",
+      "folder_name": "Minaret Three",
+      "total": 19,
+      "supported": 1,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 18
+    },
+    {
+      "folder_id": "114",
+      "folder_name": "Minaret Two",
+      "total": 19,
+      "supported": 1,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 18
+    },
+    {
+      "folder_id": "122",
+      "folder_name": "Top Railings",
+      "total": 44,
+      "supported": 28,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 16
+    }
+  ],
+  "unsupported_expressions": [],
+  "unknown_fingerprints": [],
+  "diagnostics": [
+    {
+      "severity": "INFO",
+      "code": "AUDIT_COMPLETE",
+      "message": "Audit classification complete",
+      "source_ref": null,
+      "details": {
+        "file": "[4B] 3D Diagram - S2-02 Group C.json"
+      }
+    }
+  ],
+  "status": "PASS"
+}

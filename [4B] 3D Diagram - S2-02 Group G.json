@@ -1,0 +1,107 @@
+{
+  "version": 11,
+  "randomSeed": "76a0fbc61a939f77bbb9941edcfc80ff",
+  "graph": {
+    "viewport": {
+      "xmin": -16.125499718568488,
+      "ymin": -16.125499718568488,
+      "zmin": -16.125499718568488,
+      "xmax": 16.125499718568488,
+      "ymax": 16.125499718568488,
+      "zmax": 16.125499718568488
+    },
+    "worldRotation3D": [
+      -0.0012333201377495195,
+      -0.999413333317722,
+      -0.03422671629349221,
+      0.03598934624468283,
+      -0.03424892971754693,
+      0.9987651264286941,
+      -0.9993514126063743,
+      -1.9656089486919158e-13,
+      0.03601047238905443
+    ],
+    "axis3D": [
+      0,
+      0,
+      -0.9999999999951819
+    ],
+    "product": "graphing-3d",
+    "threeDMode": true,
+    "__v12ViewportLatexStash": {
+      "xmin": "-16.125499718568488",
+      "xmax": "16.125499718568488",
+      "ymin": "-16.125499718568488",
+      "ymax": "16.125499718568488",
+      "zmin": "-16.125499718568488",
+      "zmax": "16.125499718568488"
+    }
+  },
+  "expressions": {
+    "list": [
+      {
+        "type": "expression",
+        "id": "1",
+        "color": "#388c46",
+        "latex": "z\\ =\\ 0\\ \\left\\{x^{2}+y^{2}\\ <100\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "33",
+        "color": "#aaaaaa",
+        "latex": "-3\\le x\\le0\\left\\{7\\le y\\le9\\right\\}\\left\\{0\\le z\\le2\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "35",
+        "color": "#aaaaaa",
+        "latex": "-5\\le x\\le-2\\left\\{2\\le y\\le5\\right\\}\\left\\{0\\le z\\le6\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "36",
+        "color": "#aaaaaa",
+        "latex": "6\\le x\\le8\\left\\{1\\le y\\le5\\right\\}\\left\\{0\\le z\\le6\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "37",
+        "color": "#aaaaaa",
+        "latex": "2\\le x\\le4\\left\\{-1\\le y\\le2\\right\\}\\left\\{0\\le z\\le3\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "38",
+        "color": "#aaaaaa",
+        "latex": "-9\\le x\\le-7\\left\\{-4\\le y\\le-2\\right\\}\\left\\{0\\le z\\le6\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "39",
+        "color": "#aaaaaa",
+        "latex": "-3\\le x\\le0\\left\\{-4\\le y\\le-2\\right\\}\\left\\{0\\le z\\le4\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "40",
+        "color": "#aaaaaa",
+        "latex": "-4\\le x\\le7\\left\\{1\\le y\\le5\\right\\}\\left\\{6\\le z\\le7\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "41",
+        "color": "#aaaaaa",
+        "latex": "5\\le x\\le7\\left\\{-4\\le y\\le-2\\right\\}\\left\\{0\\le z\\le5\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "42",
+        "color": "#aaaaaa",
+        "latex": "1\\le x\\le4\\left\\{-7\\le y\\le-5\\right\\}\\left\\{0\\le z\\le1\\right\\}"
+      }
+    ]
+  },
+  "includeFunctionParametersInRandomSeed": true,
+  "doNotMigrate3dLineWidthZero": true,
+  "doNotMigrateMovablePointStyle": true
+}

@@ -1,0 +1,69 @@
+{
+  "source_file": "[4B] 3D Diagram - S2-04 Group E.json",
+  "total_expressions": 32,
+  "supported_count": 19,
+  "recognized_unsupported_count": 0,
+  "unrecognized_count": 0,
+  "geometry_ineligible_count": 13,
+  "per_folder_summary": [
+    {
+      "folder_id": null,
+      "folder_name": null,
+      "total": 5,
+      "supported": 1,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 4
+    },
+    {
+      "folder_id": "10",
+      "folder_name": "tower 1",
+      "total": 4,
+      "supported": 4,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 0
+    },
+    {
+      "folder_id": "39",
+      "folder_name": "tower 1 triangle",
+      "total": 10,
+      "supported": 5,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 5
+    },
+    {
+      "folder_id": "21",
+      "folder_name": "tower 2",
+      "total": 4,
+      "supported": 4,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 0
+    },
+    {
+      "folder_id": "38",
+      "folder_name": "tower 2 triangle",
+      "total": 9,
+      "supported": 5,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 4
+    }
+  ],
+  "unsupported_expressions": [],
+  "unknown_fingerprints": [],
+  "diagnostics": [
+    {
+      "severity": "INFO",
+      "code": "AUDIT_COMPLETE",
+      "message": "Audit classification complete",
+      "source_ref": null,
+      "details": {
+        "file": "[4B] 3D Diagram - S2-04 Group E.json"
+      }
+    }
+  ],
+  "status": "PASS"
+}

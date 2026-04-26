@@ -1,0 +1,234 @@
+{
+  "source_file": "[4B] 3D Diagram - S2-03 Group B.json",
+  "total_items": 13,
+  "total_expressions": 13,
+  "meshed_expression_count": 4,
+  "supported_expression_count": 8,
+  "supported_but_not_meshed_count": 4,
+  "recognized_unsupported_count": 4,
+  "unrecognized_count": 0,
+  "geometry_ineligible_count": 1,
+  "groups": [
+    {
+      "fingerprint": "00d7363c9baba460",
+      "family": "QUADRATIC_SURFACE_PATCH",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Explicit z=f(x,y) surface",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "132"
+      ],
+      "example_latex": [
+        "z=-0.5*(0.5(x-25-1*(y-1)))^{2}-0.5*(y-1)^{2}+10\\left\\{x-0.4*(y-1)<25.8\\right\\}\\left\\{z>3\\right\\}"
+      ],
+      "example_normalized": [
+        "z=-0.5*(0.5(x-25-1*(y-1)))^{2}-0.5*(y-1)^{2}+10{x-0.4*(y-1)<25.8}{z>3}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "0223c8f09a089850",
+      "family": "QUADRATIC_SURFACE_PATCH",
+      "status": "SUPPORTED",
+      "reason": "Explicit z=f(x,y) surface",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "120"
+      ],
+      "example_latex": [
+        "z=-0.5*(0.5(x-32))^{2}-0.5*(y-8)^{2}+10\\left\\{x<32.8\\right\\}\\left\\{y>2\\right\\}\\left\\{z>3\\right\\}"
+      ],
+      "example_normalized": [
+        "z=-0.5*(0.5(x-32))^{2}-0.5*(y-8)^{2}+10{x<32.8}{y>2}{z>3}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "4590d96828e68782",
+      "family": "QUADRATIC_SURFACE_PATCH",
+      "status": "SUPPORTED",
+      "reason": "Explicit z=f(x,y) surface",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "121"
+      ],
+      "example_latex": [
+        "z=-0.8*(0.5(x-38))^{2}-0.8*(y-8)^{2}+7.5\\left\\{x<38.8\\right\\}\\left\\{y>2\\right\\}\\left\\{z>3\\right\\}"
+      ],
+      "example_normalized": [
+        "z=-0.8*(0.5(x-38))^{2}-0.8*(y-8)^{2}+7.5{x<38.8}{y>2}{z>3}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "481046274709a9f3",
+      "family": "QUADRATIC_SURFACE_PATCH",
+      "status": "SUPPORTED",
+      "reason": "Explicit z=f(x,y) surface",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "110"
+      ],
+      "example_latex": [
+        "z=-0.5*(0.5*(x-12.5))^{2}-0.5*(y-8)^{2}+10\\left\\{x>11.7\\right\\}\\left\\{y>-8\\right\\}\\left\\{z>3\\right\\}"
+      ],
+      "example_normalized": [
+        "z=-0.5*(0.5*(x-12.5))^{2}-0.5*(y-8)^{2}+10{x>11.7}{y>-8}{z>3}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "5d57031282c5f01e",
+      "family": "QUADRATIC_SURFACE_PATCH",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Explicit z=f(x,y) surface",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "131"
+      ],
+      "example_latex": [
+        "z=-0.5*(0.5(x-32-0.4*(y-1)))^{2}-0.5*(y-1)^{2}+10\\left\\{x-0.4*(y-1)<32.8\\right\\}\\left\\{z>3\\right\\}"
+      ],
+      "example_normalized": [
+        "z=-0.5*(0.5(x-32-0.4*(y-1)))^{2}-0.5*(y-1)^{2}+10{x-0.4*(y-1)<32.8}{z>3}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "82cf15bdcf15ce62",
+      "family": "QUADRATIC_SURFACE_PATCH",
+      "status": "SUPPORTED",
+      "reason": "Explicit z=f(x,y) surface",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "119"
+      ],
+      "example_latex": [
+        "z=-0.5*(0.5(x-25))^{2}-0.5*(y-8)^{2}+10\\left\\{x<25.8\\right\\}\\left\\{y>2\\right\\}\\left\\{z>3\\right\\}"
+      ],
+      "example_normalized": [
+        "z=-0.5*(0.5(x-25))^{2}-0.5*(y-8)^{2}+10{x<25.8}{y>2}{z>3}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "c52399d475467b2b",
+      "family": "QUADRATIC_SURFACE_PATCH",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Explicit z=f(x,y) surface",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "130"
+      ],
+      "example_latex": [
+        "z=-0.5*(0.5(x-39-0.4*(y-1)))^{2}-0.8*(y-1)^{2}+7.5\\left\\{x-0.4*(y-1)<38.8\\right\\}\\left\\{z>3\\right\\}"
+      ],
+      "example_normalized": [
+        "z=-0.5*(0.5(x-39-0.4*(y-1)))^{2}-0.8*(y-1)^{2}+7.5{x-0.4*(y-1)<38.8}{z>3}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "c7ff9a59cfcbb4b5",
+      "family": "QUADRATIC_SURFACE_PATCH",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Explicit z=f(x,y) surface",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "134"
+      ],
+      "example_latex": [
+        "z=-0.3(0.5(x\\cos(a)-y\\sin(a)+5))^{2}-0.8(x\\sin(a)+y\\cos(a)-8)^{2}+9\\left\\{x\\cos(a)-y\\sin(a)>-5\\right\\}\\left\\{x\\sin(a)+y\\cos(a)>0\\right\\}\\left\\{z>2\\right\\}"
+      ],
+      "example_normalized": [
+        "z=-0.3(0.5(xcos(a)-ysin(a)+5))^{2}-0.8(xsin(a)+ycos(a)-8)^{2}+9{xcos(a)-ysin(a)>-5}{xsin(a)+ycos(a)>0}{z>2}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    }
+  ],
+  "diagnostics": [
+    {
+      "severity": "WARNING",
+      "code": "COVERAGE_MESH_FAILURES",
+      "message": "Some meshes failed during coverage pass (these items may be missing)",
+      "source_ref": null,
+      "details": {
+        "failed_mesh_count": 4,
+        "failures": [
+          {
+            "source_file": "[4B] 3D Diagram - S2-03 Group B.json",
+            "expression_id": "110",
+            "error": "Missing finite bounds for axis x"
+          },
+          {
+            "source_file": "[4B] 3D Diagram - S2-03 Group B.json",
+            "expression_id": "119",
+            "error": "Missing finite bounds for axis x"
+          },
+          {
+            "source_file": "[4B] 3D Diagram - S2-03 Group B.json",
+            "expression_id": "120",
+            "error": "Missing finite bounds for axis x"
+          },
+          {
+            "source_file": "[4B] 3D Diagram - S2-03 Group B.json",
+            "expression_id": "121",
+            "error": "Missing finite bounds for axis x"
+          }
+        ]
+      }
+    },
+    {
+      "severity": "INFO",
+      "code": "COVERAGE_COMPLETE",
+      "message": "Coverage report complete",
+      "source_ref": null,
+      "details": {
+        "file": "[4B] 3D Diagram - S2-03 Group B.json",
+        "meshed_expression_ids": 4,
+        "supported_but_not_meshed": 4,
+        "group_count": 8
+      }
+    }
+  ]
+}

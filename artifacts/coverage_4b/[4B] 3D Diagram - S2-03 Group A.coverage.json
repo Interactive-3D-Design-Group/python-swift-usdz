@@ -1,0 +1,1438 @@
+{
+  "source_file": "[4B] 3D Diagram - S2-03 Group A.json",
+  "total_items": 114,
+  "total_expressions": 113,
+  "meshed_expression_count": 48,
+  "supported_expression_count": 48,
+  "supported_but_not_meshed_count": 0,
+  "recognized_unsupported_count": 64,
+  "unrecognized_count": 1,
+  "geometry_ineligible_count": 0,
+  "groups": [
+    {
+      "fingerprint": "05702286d4a74e86",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Equation recognized but not yet meshable",
+      "count": 2,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "85",
+        "86"
+      ],
+      "example_latex": [
+        "z=25-7*\\sqrt{((x-6)^{2}+(y-25)^{2})}\\left\\{10<z<35\\right\\}",
+        "z=25-7*\\sqrt{((x-6)^{2}+(y-25)^{2})}\\left\\{10<z<35\\right\\}"
+      ],
+      "example_normalized": [
+        "z=25-7*sqrt{((x-6)^{2}+(y-25)^{2})}{10<z<35}",
+        "z=25-7*sqrt{((x-6)^{2}+(y-25)^{2})}{10<z<35}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 2
+      }
+    },
+    {
+      "fingerprint": "03d2b13e74725571",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Equation recognized but not yet meshable",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "74"
+      ],
+      "example_latex": [
+        "z=29-20*\\sqrt{((x+9)^{2}+(y-22)^{2})}\\left\\{0<z<30\\right\\}"
+      ],
+      "example_normalized": [
+        "z=29-20*sqrt{((x+9)^{2}+(y-22)^{2})}{0<z<30}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "09e29c041fc3e54c",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Equation recognized but not yet meshable",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "94"
+      ],
+      "example_latex": [
+        "z=25-6*\\sqrt{((x-0)^{2}+(y-24)^{2})}\\left\\{11<z<13\\right\\}"
+      ],
+      "example_normalized": [
+        "z=25-6*sqrt{((x-0)^{2}+(y-24)^{2})}{11<z<13}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "0d322af980fe93da",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Equation recognized but not yet meshable",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "77"
+      ],
+      "example_latex": [
+        "z=24-2*\\sqrt{((x-6)^{2}+(y-24)^{2})}\\left\\{20<z<30\\right\\}"
+      ],
+      "example_normalized": [
+        "z=24-2*sqrt{((x-6)^{2}+(y-24)^{2})}{20<z<30}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "0f17cd411512a10e",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "9"
+      ],
+      "example_latex": [
+        "0\\le z\\le8+(4-2\\cdot\\operatorname{abs}(x))\\left\\{-5<x<5\\right\\}\\ \\left\\{-15\\le y\\le20\\right\\}"
+      ],
+      "example_normalized": [
+        "0<=z<=8+(4-2*operatorname{abs}(x)){-5<x<5}{-15<=y<=20}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "0f45927467fa5da8",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Equation recognized but not yet meshable",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "91"
+      ],
+      "example_latex": [
+        "z=25-20*\\sqrt{((x-2.5)^{2}+(y-25)^{2})}\\left\\{0<z<20\\right\\}"
+      ],
+      "example_normalized": [
+        "z=25-20*sqrt{((x-2.5)^{2}+(y-25)^{2})}{0<z<20}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "1d66ffdf78183d47",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Equation recognized but not yet meshable",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "155"
+      ],
+      "example_latex": [
+        "z=15-6*\\sqrt{((x-5)^{2}+(y-17.5)^{2})}\\left\\{8<z<24\\right\\}"
+      ],
+      "example_normalized": [
+        "z=15-6*sqrt{((x-5)^{2}+(y-17.5)^{2})}{8<z<24}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "202913feb29bb818",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Equation recognized but not yet meshable",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "158"
+      ],
+      "example_latex": [
+        "z=15-6*\\sqrt{((x+5)^{2}+(y-17.5)^{2})}\\left\\{8<z<24\\right\\}"
+      ],
+      "example_normalized": [
+        "z=15-6*sqrt{((x+5)^{2}+(y-17.5)^{2})}{8<z<24}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "2277c0487d2606a8",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Equation recognized but not yet meshable",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "73"
+      ],
+      "example_latex": [
+        "z=29-20*\\sqrt{((x-9)^{2}+(y-22)^{2})}\\left\\{0<z<30\\right\\}"
+      ],
+      "example_normalized": [
+        "z=29-20*sqrt{((x-9)^{2}+(y-22)^{2})}{0<z<30}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "267cbaaac06261a7",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Equation recognized but not yet meshable",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "65"
+      ],
+      "example_latex": [
+        "y\\ =\\ -0.3z\\ +7.4\\left\\{8<z\\ <13\\right\\}\\left\\{13<x<15\\right\\}"
+      ],
+      "example_normalized": [
+        "y=-0.3z+7.4{8<z<13}{13<x<15}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "305836bff4e9f9a0",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Equation recognized but not yet meshable",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "164"
+      ],
+      "example_latex": [
+        "z=20-6*\\sqrt{((x+0)^{2}+(y+16)^{2})}\\left\\{0<z<8\\right\\}"
+      ],
+      "example_normalized": [
+        "z=20-6*sqrt{((x+0)^{2}+(y+16)^{2})}{0<z<8}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "3102082c27672625",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Equation recognized but not yet meshable",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "96"
+      ],
+      "example_latex": [
+        "z=29-20*\\sqrt{((x-10)^{2}+(y-22)^{2})}\\left\\{0<z<30\\right\\}"
+      ],
+      "example_normalized": [
+        "z=29-20*sqrt{((x-10)^{2}+(y-22)^{2})}{0<z<30}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "340127a1d4b4e3fb",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Equation recognized but not yet meshable",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "162"
+      ],
+      "example_latex": [
+        "z=15-6*\\sqrt{((x-5)^{2}+(y+10)^{2})}\\left\\{8<z<24\\right\\}"
+      ],
+      "example_normalized": [
+        "z=15-6*sqrt{((x-5)^{2}+(y+10)^{2})}{8<z<24}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "3a53af5c8c6f5589",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Equation recognized but not yet meshable",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "109"
+      ],
+      "example_latex": [
+        "z=25-6*\\sqrt{((x-12)^{2}+(y-7.5)^{2})}\\left\\{14<z<24\\right\\}"
+      ],
+      "example_normalized": [
+        "z=25-6*sqrt{((x-12)^{2}+(y-7.5)^{2})}{14<z<24}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "3ed79c6c4c58321a",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Equation recognized but not yet meshable",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "93"
+      ],
+      "example_latex": [
+        "z=25-20*\\sqrt{((x-0)^{2}+(y-22)^{2})}\\left\\{13<z<20\\right\\}"
+      ],
+      "example_normalized": [
+        "z=25-20*sqrt{((x-0)^{2}+(y-22)^{2})}{13<z<20}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "46f23f7894ac6e68",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Equation recognized but not yet meshable",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "130"
+      ],
+      "example_latex": [
+        "z=29-20*\\sqrt{((x+14)^{2}+(y-0)^{2})}\\left\\{0<z<10\\right\\}"
+      ],
+      "example_normalized": [
+        "z=29-20*sqrt{((x+14)^{2}+(y-0)^{2})}{0<z<10}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "482f6248725e74a6",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Equation recognized but not yet meshable",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "97"
+      ],
+      "example_latex": [
+        "z=29-20*\\sqrt{((x+10)^{2}+(y-22)^{2})}\\left\\{0<z<30\\right\\}"
+      ],
+      "example_normalized": [
+        "z=29-20*sqrt{((x+10)^{2}+(y-22)^{2})}{0<z<30}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "498d07ca8a97b5b1",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Equation recognized but not yet meshable",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "150"
+      ],
+      "example_latex": [
+        "z=15-6*\\sqrt{((x+5)^{2}+(y-15)^{2})}\\left\\{8<z<24\\right\\}"
+      ],
+      "example_normalized": [
+        "z=15-6*sqrt{((x+5)^{2}+(y-15)^{2})}{8<z<24}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "4d0be8d700a1b659",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Equation recognized but not yet meshable",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "131"
+      ],
+      "example_latex": [
+        "z=29-50*\\sqrt{((x+14.5)^{2}+(y-0)^{2})}\\left\\{10<z<15\\right\\}"
+      ],
+      "example_normalized": [
+        "z=29-50*sqrt{((x+14.5)^{2}+(y-0)^{2})}{10<z<15}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "4f0e0c6fa9001aeb",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Equation recognized but not yet meshable",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "79"
+      ],
+      "example_latex": [
+        "z=25-2*\\sqrt{((x-6)^{2}+(y-23)^{2})}\\left\\{20<z<35\\right\\}"
+      ],
+      "example_normalized": [
+        "z=25-2*sqrt{((x-6)^{2}+(y-23)^{2})}{20<z<35}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "4f6dcef5600fff82",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Equation recognized but not yet meshable",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "88"
+      ],
+      "example_latex": [
+        "z=25-7*\\sqrt{((x+6)^{2}+(y-25)^{2})}\\left\\{10<z<35\\right\\}"
+      ],
+      "example_normalized": [
+        "z=25-7*sqrt{((x+6)^{2}+(y-25)^{2})}{10<z<35}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "51f81a90d72b1b60",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Equation recognized but not yet meshable",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "153"
+      ],
+      "example_latex": [
+        "z=15-6*\\sqrt{((x-5)^{2}+(y-12.5)^{2})}\\left\\{8<z<24\\right\\}"
+      ],
+      "example_normalized": [
+        "z=15-6*sqrt{((x-5)^{2}+(y-12.5)^{2})}{8<z<24}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "524ae3da997dd66d",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "115"
+      ],
+      "example_latex": [
+        "(x-8)^{2}+(y-10)^{2}\\le2^{2}\\left\\{0\\le z\\le8\\right\\}"
+      ],
+      "example_normalized": [
+        "(x-8)^{2}+(y-10)^{2}<=2^{2}{0<=z<=8}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "579cadb0b7191c1d",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Equation recognized but not yet meshable",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "129"
+      ],
+      "example_latex": [
+        "z=25-6*\\sqrt{((x+12)^{2}+(y+7.5)^{2})}\\left\\{14<z<24\\right\\}"
+      ],
+      "example_normalized": [
+        "z=25-6*sqrt{((x+12)^{2}+(y+7.5)^{2})}{14<z<24}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "59680cff2e6b7c19",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Equation recognized but not yet meshable",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "21"
+      ],
+      "example_latex": [
+        "z=29-3*\\sqrt{((x-6)^{2}+(y-22)^{2})}\\left\\{20<z<30\\right\\}"
+      ],
+      "example_normalized": [
+        "z=29-3*sqrt{((x-6)^{2}+(y-22)^{2})}{20<z<30}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "5f1691fc8b8c3f87",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Equation recognized but not yet meshable",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "80"
+      ],
+      "example_latex": [
+        "z=25-2*\\sqrt{((x+6)^{2}+(y-23)^{2})}\\left\\{20<z<35\\right\\}"
+      ],
+      "example_normalized": [
+        "z=25-2*sqrt{((x+6)^{2}+(y-23)^{2})}{20<z<35}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "6195d0b06546fb77",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Equation recognized but not yet meshable",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "78"
+      ],
+      "example_latex": [
+        "z=24-2*\\sqrt{((x+6)^{2}+(y-24)^{2})}\\left\\{20<z<30\\right\\}"
+      ],
+      "example_normalized": [
+        "z=24-2*sqrt{((x+6)^{2}+(y-24)^{2})}{20<z<30}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "6b57ed286580a73d",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Equation recognized but not yet meshable",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "166"
+      ],
+      "example_latex": [
+        "z=17-6*\\sqrt{((x-4.9)^{2}+(y+14)^{2})}\\left\\{0<z<6\\right\\}"
+      ],
+      "example_normalized": [
+        "z=17-6*sqrt{((x-4.9)^{2}+(y+14)^{2})}{0<z<6}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "741256a41efaef3f",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Equation recognized but not yet meshable",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "151"
+      ],
+      "example_latex": [
+        "z=15-6*\\sqrt{((x-5)^{2}+(y-15)^{2})}\\left\\{8<z<24\\right\\}"
+      ],
+      "example_normalized": [
+        "z=15-6*sqrt{((x-5)^{2}+(y-15)^{2})}{8<z<24}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "80381cdb48bcb280",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "48"
+      ],
+      "example_latex": [
+        "x^{2}+y^{2}<1\\left\\{0<z<13\\right\\}"
+      ],
+      "example_normalized": [
+        "x^{2}+y^{2}<1{0<z<13}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "803a2c9c60583471",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Equation recognized but not yet meshable",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "42"
+      ],
+      "example_latex": [
+        "z=19-2*\\sqrt{((x-0)^{2}+(y-22)^{2})}\\left\\{13<z<30\\right\\}"
+      ],
+      "example_normalized": [
+        "z=19-2*sqrt{((x-0)^{2}+(y-22)^{2})}{13<z<30}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "804db70a1653a1a1",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Equation recognized but not yet meshable",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "110"
+      ],
+      "example_latex": [
+        "z=25-6*\\sqrt{((x-12)^{2}+(y+7.5)^{2})}\\left\\{14<z<24\\right\\}"
+      ],
+      "example_normalized": [
+        "z=25-6*sqrt{((x-12)^{2}+(y+7.5)^{2})}{14<z<24}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "85f312852cba8afa",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Equation recognized but not yet meshable",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "24"
+      ],
+      "example_latex": [
+        "z=29-3*\\sqrt{((x+6)^{2}+(y-22)^{2})}\\left\\{20<z<30\\right\\}"
+      ],
+      "example_normalized": [
+        "z=29-3*sqrt{((x+6)^{2}+(y-22)^{2})}{20<z<30}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "871ea59f10109578",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Equation recognized but not yet meshable",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "156"
+      ],
+      "example_latex": [
+        "z=15-6*\\sqrt{((x+6)^{2}+(y-10)^{2})}\\left\\{8<z<24\\right\\}"
+      ],
+      "example_normalized": [
+        "z=15-6*sqrt{((x+6)^{2}+(y-10)^{2})}{8<z<24}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "8fab650c56749d38",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "117"
+      ],
+      "example_latex": [
+        "(x-7)^{2}+(y-15)^{2}\\le2^{2}\\left\\{0\\le z\\le6\\right\\}"
+      ],
+      "example_normalized": [
+        "(x-7)^{2}+(y-15)^{2}<=2^{2}{0<=z<=6}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "8fca73551f2a619a",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Equation recognized but not yet meshable",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "159"
+      ],
+      "example_latex": [
+        "z=15-6*\\sqrt{((x+5)^{2}+(y+13)^{2})}\\left\\{8<z<24\\right\\}"
+      ],
+      "example_normalized": [
+        "z=15-6*sqrt{((x+5)^{2}+(y+13)^{2})}{8<z<24}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "90e09c2d978f3816",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Equation recognized but not yet meshable",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "152"
+      ],
+      "example_latex": [
+        "z=15-6*\\sqrt{((x-6)^{2}+(y-10)^{2})}\\left\\{8<z<24\\right\\}"
+      ],
+      "example_normalized": [
+        "z=15-6*sqrt{((x-6)^{2}+(y-10)^{2})}{8<z<24}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "9f633b739ee74cac",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Equation recognized but not yet meshable",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "163"
+      ],
+      "example_latex": [
+        "z=15-6*\\sqrt{((x+0)^{2}+(y+16)^{2})}\\left\\{8<z<15\\right\\}"
+      ],
+      "example_normalized": [
+        "z=15-6*sqrt{((x+0)^{2}+(y+16)^{2})}{8<z<15}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "acfdb2ca2941838e",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Equation recognized but not yet meshable",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "50"
+      ],
+      "example_latex": [
+        "z=15-2\\cdot\\sqrt{(x^{2}+y^{2})}\\left\\{13<z<20\\right\\}"
+      ],
+      "example_normalized": [
+        "z=15-2*sqrt{(x^{2}+y^{2})}{13<z<20}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "add4dfed7e0824f0",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "142"
+      ],
+      "example_latex": [
+        "(x+7)^{2}+(y-15)^{2}\\le2^{2}\\left\\{0\\le z\\le6\\right\\}"
+      ],
+      "example_normalized": [
+        "(x+7)^{2}+(y-15)^{2}<=2^{2}{0<=z<=6}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "ade5ae290f6ec1b1",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Equation recognized but not yet meshable",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "107"
+      ],
+      "example_latex": [
+        "z=29-20*\\sqrt{((x-14)^{2}+(y-0)^{2})}\\left\\{0<z<10\\right\\}"
+      ],
+      "example_normalized": [
+        "z=29-20*sqrt{((x-14)^{2}+(y-0)^{2})}{0<z<10}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "b071514ca2ed2d24",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "114"
+      ],
+      "example_latex": [
+        "(x-0)^{2}+(y-25)^{2}\\le2^{2}\\left\\{0\\le z\\le10\\right\\}"
+      ],
+      "example_normalized": [
+        "(x-0)^{2}+(y-25)^{2}<=2^{2}{0<=z<=10}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "b1a3b17b9c515c1d",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Equation recognized but not yet meshable",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "83"
+      ],
+      "example_latex": [
+        "z=25-5*\\sqrt{((x+6)^{2}+(y-25)^{2})}\\left\\{20<z<35\\right\\}"
+      ],
+      "example_normalized": [
+        "z=25-5*sqrt{((x+6)^{2}+(y-25)^{2})}{20<z<35}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "b2cf963d8dc6e635",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "47"
+      ],
+      "example_latex": [
+        "0\\le z\\le8+(4-2\\cdot\\operatorname{abs}(y))\\left\\{-15<x<15\\right\\}\\ \\left\\{-5\\le y\\le5\\right\\}"
+      ],
+      "example_normalized": [
+        "0<=z<=8+(4-2*operatorname{abs}(y)){-15<x<15}{-5<=y<=5}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "be4bef604c4f7221",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Equation recognized but not yet meshable",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "119"
+      ],
+      "example_latex": [
+        "z=29-10*\\sqrt{((x-12)^{2}+(y+8.5)^{2})}\\left\\{0<z<14\\right\\}"
+      ],
+      "example_normalized": [
+        "z=29-10*sqrt{((x-12)^{2}+(y+8.5)^{2})}{0<z<14}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "c1108ae4d8ef24f3",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Equation recognized but not yet meshable",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "81"
+      ],
+      "example_latex": [
+        "z=5-2*\\sqrt{((x+6)^{2}+(y-25)^{2})}\\left\\{0<z<35\\right\\}"
+      ],
+      "example_normalized": [
+        "z=5-2*sqrt{((x+6)^{2}+(y-25)^{2})}{0<z<35}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "c27107d281b3bd1a",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Equation recognized but not yet meshable",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "160"
+      ],
+      "example_latex": [
+        "z=15-6*\\sqrt{((x+5)^{2}+(y+10)^{2})}\\left\\{8<z<24\\right\\}"
+      ],
+      "example_normalized": [
+        "z=15-6*sqrt{((x+5)^{2}+(y+10)^{2})}{8<z<24}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "cf418685679cc56d",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Equation recognized but not yet meshable",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "118"
+      ],
+      "example_latex": [
+        "z=29-50*\\sqrt{((x-14.5)^{2}+(y-0)^{2})}\\left\\{10<z<15\\right\\}"
+      ],
+      "example_normalized": [
+        "z=29-50*sqrt{((x-14.5)^{2}+(y-0)^{2})}{10<z<15}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "cf5ac45f773f5584",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Equation recognized but not yet meshable",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "64"
+      ],
+      "example_latex": [
+        "y\\ =\\ -0.3z\\ +0.4\\left\\{8<z\\ <13\\right\\}\\left\\{13<x<15\\right\\}"
+      ],
+      "example_normalized": [
+        "y=-0.3z+0.4{8<z<13}{13<x<15}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "d09455c1f6df29f3",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Equation recognized but not yet meshable",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "59"
+      ],
+      "example_latex": [
+        "\\ y=\\ 0.3z\\ -0.4\\left\\{8<z\\ <13\\right\\}\\left\\{13<x<15\\right\\}"
+      ],
+      "example_normalized": [
+        "y=0.3z-0.4{8<z<13}{13<x<15}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "d75c8ebf0ce0dc97",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Equation recognized but not yet meshable",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "63"
+      ],
+      "example_latex": [
+        "y=\\ 0.3z\\ -7.4\\left\\{8<z\\ <13\\right\\}\\left\\{13<x<15\\right\\}"
+      ],
+      "example_normalized": [
+        "y=0.3z-7.4{8<z<13}{13<x<15}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "da0294c8bbb91709",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Equation recognized but not yet meshable",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "116"
+      ],
+      "example_latex": [
+        "z=29-10*\\sqrt{((x-12)^{2}+(y-8.5)^{2})}\\left\\{0<z<14\\right\\}"
+      ],
+      "example_normalized": [
+        "z=29-10*sqrt{((x-12)^{2}+(y-8.5)^{2})}{0<z<14}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "dcd4859da3d646b1",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Equation recognized but not yet meshable",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "82"
+      ],
+      "example_latex": [
+        "z=5-2*\\sqrt{((x-6)^{2}+(y-25)^{2})}\\left\\{0<z<35\\right\\}"
+      ],
+      "example_normalized": [
+        "z=5-2*sqrt{((x-6)^{2}+(y-25)^{2})}{0<z<35}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "df0c9b685b400be4",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "51"
+      ],
+      "example_latex": [
+        "(x-0)^{2}+(y+10)^{2}\\le8^{2}\\left\\{0\\le z\\le8\\right\\}"
+      ],
+      "example_normalized": [
+        "(x-0)^{2}+(y+10)^{2}<=8^{2}{0<=z<=8}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "e331066565ea41b4",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Equation recognized but not yet meshable",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "139"
+      ],
+      "example_latex": [
+        "z=25-6*\\sqrt{((x+12)^{2}+(y-7.5)^{2})}\\left\\{14<z<24\\right\\}"
+      ],
+      "example_normalized": [
+        "z=25-6*sqrt{((x+12)^{2}+(y-7.5)^{2})}{14<z<24}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "eb85782f3ba0eeb9",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Equation recognized but not yet meshable",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "125"
+      ],
+      "example_latex": [
+        "z=29-10*\\sqrt{((x+12)^{2}+(y+8.5)^{2})}\\left\\{0<z<14\\right\\}"
+      ],
+      "example_normalized": [
+        "z=29-10*sqrt{((x+12)^{2}+(y+8.5)^{2})}{0<z<14}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "eeff5eaab2c53b35",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "141"
+      ],
+      "example_latex": [
+        "(x+8)^{2}+(y-10)^{2}\\le2^{2}\\left\\{0\\le z\\le8\\right\\}"
+      ],
+      "example_normalized": [
+        "(x+8)^{2}+(y-10)^{2}<=2^{2}{0<=z<=8}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "f40698645b8e7026",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Equation recognized but not yet meshable",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "165"
+      ],
+      "example_latex": [
+        "z=17-6*\\sqrt{((x+4.9)^{2}+(y+14)^{2})}\\left\\{0<z<6\\right\\}"
+      ],
+      "example_normalized": [
+        "z=17-6*sqrt{((x+4.9)^{2}+(y+14)^{2})}{0<z<6}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "f56897f0fcc62b23",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Equation recognized but not yet meshable",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "161"
+      ],
+      "example_latex": [
+        "z=15-6*\\sqrt{((x-5)^{2}+(y+13)^{2})}\\left\\{8<z<24\\right\\}"
+      ],
+      "example_normalized": [
+        "z=15-6*sqrt{((x-5)^{2}+(y+13)^{2})}{8<z<24}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "fabe7332fbe42cd0",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Equation recognized but not yet meshable",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "84"
+      ],
+      "example_latex": [
+        "z=25-5*\\sqrt{((x-6)^{2}+(y-25)^{2})}\\left\\{20<z<35\\right\\}"
+      ],
+      "example_normalized": [
+        "z=25-5*sqrt{((x-6)^{2}+(y-25)^{2})}{20<z<35}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "fdd02ff867511370",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Equation recognized but not yet meshable",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "157"
+      ],
+      "example_latex": [
+        "z=15-6*\\sqrt{((x+5)^{2}+(y-12.5)^{2})}\\left\\{8<z<24\\right\\}"
+      ],
+      "example_normalized": [
+        "z=15-6*sqrt{((x+5)^{2}+(y-12.5)^{2})}{8<z<24}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "fe9c4d726a5b4872",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Equation recognized but not yet meshable",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "140"
+      ],
+      "example_latex": [
+        "z=29-10*\\sqrt{((x+12)^{2}+(y-8.5)^{2})}\\left\\{0<z<14\\right\\}"
+      ],
+      "example_normalized": [
+        "z=29-10*sqrt{((x+12)^{2}+(y-8.5)^{2})}{0<z<14}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "ff0e0d43a2eb1a4e",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Equation recognized but not yet meshable",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "92"
+      ],
+      "example_latex": [
+        "z=25-20*\\sqrt{((x+2.5)^{2}+(y-25)^{2})}\\left\\{0<z<20\\right\\}"
+      ],
+      "example_normalized": [
+        "z=25-20*sqrt{((x+2.5)^{2}+(y-25)^{2})}{0<z<20}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "c46f24883308ec70",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "168"
+      ],
+      "example_latex": [
+        ""
+      ],
+      "example_normalized": [
+        ""
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    }
+  ],
+  "diagnostics": [
+    {
+      "severity": "INFO",
+      "code": "COVERAGE_COMPLETE",
+      "message": "Coverage report complete",
+      "source_ref": null,
+      "details": {
+        "file": "[4B] 3D Diagram - S2-03 Group A.json",
+        "meshed_expression_ids": 48,
+        "supported_but_not_meshed": 0,
+        "group_count": 64
+      }
+    }
+  ]
+}

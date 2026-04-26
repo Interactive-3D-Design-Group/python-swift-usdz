@@ -1,0 +1,1533 @@
+{
+  "version": 11,
+  "randomSeed": "f41ce6d48c17141893465dcd59a3ab53",
+  "graph": {
+    "viewport": {
+      "xmin": -10,
+      "ymin": -10,
+      "zmin": -10,
+      "xmax": 10,
+      "ymax": 10,
+      "zmax": 10
+    },
+    "worldRotation3D": [
+      -0.5132799671593365,
+      -0.8314696123025455,
+      -0.21260752369181402,
+      0.7681777567114165,
+      -0.555570233019602,
+      0.3181896451432086,
+      -0.3826834323650898,
+      0,
+      0.9238795325112867
+    ],
+    "axis3D": [
+      0,
+      0,
+      0.9999999999951819
+    ],
+    "perspectiveDistortion": 6.25,
+    "product": "graphing-3d",
+    "threeDMode": true,
+    "__v12ViewportLatexStash": {
+      "xmin": "-10",
+      "xmax": "10",
+      "ymin": "-10",
+      "ymax": "10",
+      "zmin": "-10",
+      "zmax": "10"
+    }
+  },
+  "expressions": {
+    "list": [
+      {
+        "type": "folder",
+        "id": "233",
+        "title": "Colors",
+        "collapsed": true
+      },
+      {
+        "type": "text",
+        "id": "380",
+        "folderId": "233",
+        "text": "Outer Base and Pillar"
+      },
+      {
+        "type": "expression",
+        "id": "234",
+        "folderId": "233",
+        "color": "#aaaaaa",
+        "latex": "C_{1}=\\operatorname{rgb}(186,187,194)"
+      },
+      {
+        "type": "text",
+        "id": "384",
+        "folderId": "233",
+        "text": "Outer Pillar groves"
+      },
+      {
+        "type": "expression",
+        "id": "378",
+        "folderId": "233",
+        "color": "#c74440",
+        "latex": "C_{3}=\\operatorname{rgb}(161,162,179)"
+      },
+      {
+        "type": "text",
+        "id": "411",
+        "folderId": "233",
+        "text": "Inner base and Inner Pillar"
+      },
+      {
+        "type": "expression",
+        "id": "413",
+        "folderId": "233",
+        "color": "#388c46",
+        "latex": "C_{2}=\\operatorname{rgb}(127,136,148)"
+      },
+      {
+        "type": "text",
+        "id": "415",
+        "folderId": "233",
+        "text": "Inner Pillar Groves and Centre Box"
+      },
+      {
+        "type": "expression",
+        "id": "416",
+        "folderId": "233",
+        "color": "#aaaaaa",
+        "latex": "C_{4}=\\operatorname{rgb}(107,116,128)"
+      },
+      {
+        "type": "text",
+        "id": "429",
+        "folderId": "233",
+        "text": "Centre box Groves"
+      },
+      {
+        "type": "expression",
+        "id": "430",
+        "folderId": "233",
+        "color": "#388c46",
+        "latex": "C_{5}=\\operatorname{rgb}(72,77,84)"
+      },
+      {
+        "type": "text",
+        "id": "446",
+        "folderId": "233",
+        "text": "Blue"
+      },
+      {
+        "type": "expression",
+        "id": "447",
+        "folderId": "233",
+        "color": "#6042a6",
+        "latex": "\\ C_{6}=\\operatorname{rgb}(52,92,186)"
+      },
+      {
+        "type": "text",
+        "id": "449",
+        "folderId": "233",
+        "text": "Red"
+      },
+      {
+        "type": "expression",
+        "id": "450",
+        "folderId": "233",
+        "color": "#c74440",
+        "latex": "C_{7}=\\operatorname{rgb}(155,62,58)"
+      },
+      {
+        "type": "text",
+        "id": "454",
+        "folderId": "233",
+        "text": "Roof"
+      },
+      {
+        "type": "expression",
+        "id": "453",
+        "folderId": "233",
+        "color": "#6042a6",
+        "latex": "C_{8}=\\operatorname{rgb}(204,114,65)"
+      },
+      {
+        "type": "folder",
+        "id": "229",
+        "title": "Outer Base",
+        "collapsed": true
+      },
+      {
+        "type": "expression",
+        "id": "1",
+        "folderId": "229",
+        "color": "#c74440",
+        "latex": "-10<x<10\\left\\{-5<y<5\\right\\}\\left\\{0<z<0.2\\right\\}",
+        "colorLatex": "C_{1}"
+      },
+      {
+        "type": "expression",
+        "id": "231",
+        "folderId": "229",
+        "color": "#c74440",
+        "latex": "-9.8<x<9.8\\left\\{-4.8<y<4.8\\right\\}\\left\\{0.2<z<0.4\\right\\}",
+        "colorLatex": "C_{1}"
+      },
+      {
+        "type": "expression",
+        "id": "232",
+        "folderId": "229",
+        "color": "#c74440",
+        "latex": "-9.6<x<9.6\\left\\{-4.6<y<4.6\\right\\}\\left\\{0.4<z<0.6\\right\\}",
+        "colorLatex": "C_{1}"
+      },
+      {
+        "type": "folder",
+        "id": "235",
+        "title": "Outer Pillars"
+      },
+      {
+        "type": "expression",
+        "id": "236",
+        "folderId": "235",
+        "color": "#2d70b3",
+        "latex": "\\left(x-9\\right)^{2}+\\left(y-4\\right)^{2}<0.4^{2}\\left\\{0<z<5\\right\\}",
+        "extendTo3D": true,
+        "colorLatex": "C_{1}"
+      },
+      {
+        "type": "expression",
+        "id": "295",
+        "folderId": "235",
+        "color": "#2d70b3",
+        "latex": "\\left(x-9\\right)^{2}+\\left(y-4\\right)^{2}+\\left(z-5\\right)^{2}<0.5^{2}\\left\\{z<5\\right\\}",
+        "colorLatex": "C_{1}"
+      },
+      {
+        "type": "expression",
+        "id": "321",
+        "folderId": "235",
+        "color": "#2d70b3",
+        "latex": "8.5<x<9.5\\left\\{3.5<y<4.5\\right\\}\\left\\{5.2>z>5\\right\\}",
+        "extendTo3D": true,
+        "colorLatex": "C_{1}"
+      },
+      {
+        "type": "expression",
+        "id": "376",
+        "folderId": "235",
+        "color": "#c74440",
+        "latex": "\\left(x-9\\right)^{2}+\\left(y-4\\right)^{2}<0.4^{2}\\left\\{0<z<5\\right\\}\\left\\{\\operatorname{mod}\\left(z,0.4\\right)<0.1\\right\\}",
+        "extendTo3D": true,
+        "colorLatex": "C_{3}"
+      },
+      {
+        "type": "expression",
+        "id": "247",
+        "folderId": "235",
+        "color": "#2d70b3",
+        "latex": "\\left(x-7\\right)^{2}+\\left(y-4\\right)^{2}<0.4^{2}\\left\\{0<z<5\\right\\}",
+        "colorLatex": "C_{1}"
+      },
+      {
+        "type": "expression",
+        "id": "296",
+        "folderId": "235",
+        "color": "#2d70b3",
+        "latex": "\\left(x-7\\right)^{2}+\\left(y-4\\right)^{2}+\\left(z-5\\right)^{2}<0.5^{2}\\left\\{z<5\\right\\}",
+        "colorLatex": "C_{1}"
+      },
+      {
+        "type": "expression",
+        "id": "322",
+        "folderId": "235",
+        "color": "#2d70b3",
+        "latex": "6.5<x<7.5\\left\\{3.5<y<4.5\\right\\}\\left\\{5.2>z>5\\right\\}",
+        "colorLatex": "C_{1}"
+      },
+      {
+        "type": "expression",
+        "id": "385",
+        "folderId": "235",
+        "color": "#c74440",
+        "latex": "\\left(x-7\\right)^{2}+\\left(y-4\\right)^{2}<0.4^{2}\\left\\{0<z<5\\right\\}\\left\\{\\operatorname{mod}\\left(z,0.4\\right)<0.1\\right\\}",
+        "colorLatex": "C_{3}"
+      },
+      {
+        "type": "expression",
+        "id": "248",
+        "folderId": "235",
+        "color": "#2d70b3",
+        "latex": "\\left(x-5\\right)^{2}+\\left(y-4\\right)^{2}<0.4^{2}\\left\\{0<z<5\\right\\}",
+        "colorLatex": "C_{1}"
+      },
+      {
+        "type": "expression",
+        "id": "297",
+        "folderId": "235",
+        "color": "#2d70b3",
+        "latex": "\\left(x-5\\right)^{2}+\\left(y-4\\right)^{2}+\\left(z-5\\right)^{2}<0.5^{2}\\left\\{z<5\\right\\}",
+        "colorLatex": "C_{1}"
+      },
+      {
+        "type": "expression",
+        "id": "323",
+        "folderId": "235",
+        "color": "#2d70b3",
+        "latex": "4.5<x<5.5\\left\\{3.5<y<4.5\\right\\}\\left\\{5.2>z>5\\right\\}",
+        "colorLatex": "C_{1}"
+      },
+      {
+        "type": "expression",
+        "id": "386",
+        "folderId": "235",
+        "color": "#2d70b3",
+        "latex": "\\left(x-5\\right)^{2}+\\left(y-4\\right)^{2}<0.4^{2}\\left\\{0<z<5\\right\\}\\left\\{\\operatorname{mod}\\left(z,0.4\\right)<0.1\\right\\}",
+        "colorLatex": "C_{3}"
+      },
+      {
+        "type": "expression",
+        "id": "249",
+        "folderId": "235",
+        "color": "#2d70b3",
+        "latex": "\\left(x-3\\right)^{2}+\\left(y-4\\right)^{2}<0.4^{2}\\left\\{0<z<5\\right\\}",
+        "colorLatex": "C_{1}"
+      },
+      {
+        "type": "expression",
+        "id": "298",
+        "folderId": "235",
+        "color": "#2d70b3",
+        "latex": "\\left(x-3\\right)^{2}+\\left(y-4\\right)^{2}+\\left(z-5\\right)^{2}<0.5^{2}\\left\\{z<5\\right\\}",
+        "colorLatex": "C_{1}"
+      },
+      {
+        "type": "expression",
+        "id": "324",
+        "folderId": "235",
+        "color": "#2d70b3",
+        "latex": "2.5<x<3.5\\left\\{3.5<y<4.5\\right\\}\\left\\{5.2>z>5\\right\\}",
+        "colorLatex": "C_{1}"
+      },
+      {
+        "type": "expression",
+        "id": "387",
+        "folderId": "235",
+        "color": "#388c46",
+        "latex": "\\left(x-3\\right)^{2}+\\left(y-4\\right)^{2}<0.4^{2}\\left\\{0<z<5\\right\\}\\left\\{\\operatorname{mod}\\left(z,0.4\\right)<0.1\\right\\}",
+        "colorLatex": "C_{3}"
+      },
+      {
+        "type": "expression",
+        "id": "250",
+        "folderId": "235",
+        "color": "#2d70b3",
+        "latex": "\\left(x-1\\right)^{2}+\\left(y-4\\right)^{2}<0.4^{2}\\left\\{0<z<5\\right\\}",
+        "colorLatex": "C_{1}"
+      },
+      {
+        "type": "expression",
+        "id": "299",
+        "folderId": "235",
+        "color": "#2d70b3",
+        "latex": "\\left(x-1\\right)^{2}+\\left(y-4\\right)^{2}+\\left(z-5\\right)^{2}<0.5^{2}\\left\\{z<5\\right\\}",
+        "colorLatex": "C_{1}"
+      },
+      {
+        "type": "expression",
+        "id": "325",
+        "folderId": "235",
+        "color": "#2d70b3",
+        "latex": "0.5<x<1.5\\left\\{3.5<y<4.5\\right\\}\\left\\{5.2>z>5\\right\\}",
+        "colorLatex": "C_{1}"
+      },
+      {
+        "type": "expression",
+        "id": "388",
+        "folderId": "235",
+        "color": "#6042a6",
+        "latex": "\\left(x-1\\right)^{2}+\\left(y-4\\right)^{2}<0.4^{2}\\left\\{0<z<5\\right\\}\\left\\{\\operatorname{mod}\\left(z,0.4\\right)<0.1\\right\\}",
+        "colorLatex": "C_{3}"
+      },
+      {
+        "type": "expression",
+        "id": "251",
+        "folderId": "235",
+        "color": "#2d70b3",
+        "latex": "\\left(x+1\\right)^{2}+\\left(y-4\\right)^{2}<0.4^{2}\\left\\{0<z<5\\right\\}",
+        "colorLatex": "C_{1}"
+      },
+      {
+        "type": "expression",
+        "id": "300",
+        "folderId": "235",
+        "color": "#2d70b3",
+        "latex": "\\left(x+1\\right)^{2}+\\left(y-4\\right)^{2}+\\left(z-5\\right)^{2}<0.5^{2}\\left\\{z<5\\right\\}",
+        "colorLatex": "C_{1}"
+      },
+      {
+        "type": "expression",
+        "id": "326",
+        "folderId": "235",
+        "color": "#2d70b3",
+        "latex": "-1.5<x<-0.5\\left\\{3.5<y<4.5\\right\\}\\left\\{5.2>z>5\\right\\}",
+        "colorLatex": "C_{1}"
+      },
+      {
+        "type": "expression",
+        "id": "389",
+        "folderId": "235",
+        "color": "#aaaaaa",
+        "latex": "\\left(x+1\\right)^{2}+\\left(y-4\\right)^{2}<0.4^{2}\\left\\{0<z<5\\right\\}\\left\\{\\operatorname{mod}\\left(z,0.4\\right)<0.1\\right\\}",
+        "colorLatex": "C_{3}"
+      },
+      {
+        "type": "expression",
+        "id": "252",
+        "folderId": "235",
+        "color": "#2d70b3",
+        "latex": "\\left(x+3\\right)^{2}+\\left(y-4\\right)^{2}<0.4^{2}\\left\\{0<z<5\\right\\}",
+        "colorLatex": "C_{1}"
+      },
+      {
+        "type": "expression",
+        "id": "301",
+        "folderId": "235",
+        "color": "#2d70b3",
+        "latex": "\\left(x+3\\right)^{2}+\\left(y-4\\right)^{2}+\\left(z-5\\right)^{2}<0.5^{2}\\left\\{z<5\\right\\}",
+        "colorLatex": "C_{1}"
+      },
+      {
+        "type": "expression",
+        "id": "327",
+        "folderId": "235",
+        "color": "#2d70b3",
+        "latex": "-3.5<x<-2.5\\left\\{3.5<y<4.5\\right\\}\\left\\{5.2>z>5\\right\\}",
+        "colorLatex": "C_{1}"
+      },
+      {
+        "type": "expression",
+        "id": "390",
+        "folderId": "235",
+        "color": "#c74440",
+        "latex": "\\left(x+3\\right)^{2}+\\left(y-4\\right)^{2}<0.4^{2}\\left\\{0<z<5\\right\\}\\left\\{\\operatorname{mod}\\left(z,0.4\\right)<0.1\\right\\}",
+        "colorLatex": "C_{3}"
+      },
+      {
+        "type": "expression",
+        "id": "253",
+        "folderId": "235",
+        "color": "#2d70b3",
+        "latex": "\\left(x+5\\right)^{2}+\\left(y-4\\right)^{2}<0.4^{2}\\left\\{0<z<5\\right\\}",
+        "colorLatex": "C_{1}"
+      },
+      {
+        "type": "expression",
+        "id": "302",
+        "folderId": "235",
+        "color": "#2d70b3",
+        "latex": "\\left(x+5\\right)^{2}+\\left(y-4\\right)^{2}+\\left(z-5\\right)^{2}<0.5^{2}\\left\\{z<5\\right\\}",
+        "colorLatex": "C_{1}"
+      },
+      {
+        "type": "expression",
+        "id": "328",
+        "folderId": "235",
+        "color": "#2d70b3",
+        "latex": "-5.5<x<-4.5\\left\\{3.5<y<4.5\\right\\}\\left\\{5.2>z>5\\right\\}",
+        "colorLatex": "C_{1}"
+      },
+      {
+        "type": "expression",
+        "id": "391",
+        "folderId": "235",
+        "color": "#2d70b3",
+        "latex": "\\left(x+5\\right)^{2}+\\left(y-4\\right)^{2}<0.4^{2}\\left\\{0<z<5\\right\\}\\left\\{\\operatorname{mod}\\left(z,0.4\\right)<0.1\\right\\}",
+        "colorLatex": "C_{3}"
+      },
+      {
+        "type": "expression",
+        "id": "254",
+        "folderId": "235",
+        "color": "#2d70b3",
+        "latex": "\\left(x+7\\right)^{2}+\\left(y-4\\right)^{2}<0.4^{2}\\left\\{0<z<5\\right\\}",
+        "colorLatex": "C_{1}"
+      },
+      {
+        "type": "expression",
+        "id": "303",
+        "folderId": "235",
+        "color": "#2d70b3",
+        "latex": "\\left(x+7\\right)^{2}+\\left(y-4\\right)^{2}+\\left(z-5\\right)^{2}<0.5^{2}\\left\\{z<5\\right\\}",
+        "colorLatex": "C_{1}"
+      },
+      {
+        "type": "expression",
+        "id": "329",
+        "folderId": "235",
+        "color": "#2d70b3",
+        "latex": "-7.5<x<-6.5\\left\\{3.5<y<4.5\\right\\}\\left\\{5.2>z>5\\right\\}",
+        "colorLatex": "C_{1}"
+      },
+      {
+        "type": "expression",
+        "id": "392",
+        "folderId": "235",
+        "color": "#388c46",
+        "latex": "\\left(x+7\\right)^{2}+\\left(y-4\\right)^{2}<0.4^{2}\\left\\{0<z<5\\right\\}\\left\\{\\operatorname{mod}\\left(z,0.4\\right)<0.1\\right\\}",
+        "colorLatex": "C_{3}"
+      },
+      {
+        "type": "expression",
+        "id": "255",
+        "folderId": "235",
+        "color": "#2d70b3",
+        "latex": "\\left(x+9\\right)^{2}+\\left(y-4\\right)^{2}<0.4^{2}\\left\\{0<z<5\\right\\}",
+        "colorLatex": "C_{1}"
+      },
+      {
+        "type": "expression",
+        "id": "304",
+        "folderId": "235",
+        "color": "#2d70b3",
+        "latex": "\\left(x+9\\right)^{2}+\\left(y-4\\right)^{2}+\\left(z-5\\right)^{2}<0.5^{2}\\left\\{z<5\\right\\}",
+        "colorLatex": "C_{1}"
+      },
+      {
+        "type": "expression",
+        "id": "330",
+        "folderId": "235",
+        "color": "#2d70b3",
+        "latex": "-9.5<x<-8.5\\left\\{3.5<y<4.5\\right\\}\\left\\{5.2>z>5\\right\\}",
+        "colorLatex": "C_{1}"
+      },
+      {
+        "type": "expression",
+        "id": "393",
+        "folderId": "235",
+        "color": "#6042a6",
+        "latex": "\\left(x+9\\right)^{2}+\\left(y-4\\right)^{2}<0.4^{2}\\left\\{0<z<5\\right\\}\\left\\{\\operatorname{mod}\\left(z,0.4\\right)<0.1\\right\\}",
+        "colorLatex": "C_{3}"
+      },
+      {
+        "type": "expression",
+        "id": "256",
+        "folderId": "235",
+        "color": "#2d70b3",
+        "latex": "\\left(x+9\\right)^{2}+\\left(y-2\\right)^{2}<0.4^{2}\\left\\{0<z<5\\right\\}",
+        "colorLatex": "C_{1}"
+      },
+      {
+        "type": "expression",
+        "id": "305",
+        "folderId": "235",
+        "color": "#2d70b3",
+        "latex": "\\left(x+9\\right)^{2}+\\left(y-2\\right)^{2}+\\left(z-5\\right)^{2}<0.5^{2}\\left\\{z<5\\right\\}",
+        "colorLatex": "C_{1}"
+      },
+      {
+        "type": "expression",
+        "id": "331",
+        "folderId": "235",
+        "color": "#2d70b3",
+        "latex": "-9.5<x<-8.5\\left\\{1.5<y<2.5\\right\\}\\left\\{5.2>z>5\\right\\}",
+        "colorLatex": "C_{1}"
+      },
+      {
+        "type": "expression",
+        "id": "394",
+        "folderId": "235",
+        "color": "#aaaaaa",
+        "latex": "\\left(x+9\\right)^{2}+\\left(y-2\\right)^{2}<0.4^{2}\\left\\{0<z<5\\right\\}\\left\\{\\operatorname{mod}\\left(z,0.4\\right)<0.1\\right\\}",
+        "colorLatex": "C_{3}"
+      },
+      {
+        "type": "expression",
+        "id": "257",
+        "folderId": "235",
+        "color": "#2d70b3",
+        "latex": "\\left(x+9\\right)^{2}+y^{2}<0.4^{2}\\left\\{0<z<5\\right\\}",
+        "colorLatex": "C_{1}"
+      },
+      {
+        "type": "expression",
+        "id": "306",
+        "folderId": "235",
+        "color": "#2d70b3",
+        "latex": "\\left(x+9\\right)^{2}+y^{2}+\\left(z-5\\right)^{2}<0.5^{2}\\left\\{z<5\\right\\}",
+        "colorLatex": "C_{1}"
+      },
+      {
+        "type": "expression",
+        "id": "332",
+        "folderId": "235",
+        "color": "#2d70b3",
+        "latex": "-9.5<x<-8.5\\left\\{-0.5<y<0.5\\right\\}\\left\\{5.2>z>5\\right\\}",
+        "colorLatex": "C_{1}"
+      },
+      {
+        "type": "expression",
+        "id": "395",
+        "folderId": "235",
+        "color": "#c74440",
+        "latex": "\\left(x+9\\right)^{2}+y^{2}<0.4^{2}\\left\\{0<z<5\\right\\}\\left\\{\\operatorname{mod}\\left(z,0.4\\right)<0.1\\right\\}",
+        "colorLatex": "C_{3}"
+      },
+      {
+        "type": "expression",
+        "id": "258",
+        "folderId": "235",
+        "color": "#2d70b3",
+        "latex": "\\left(x+9\\right)^{2}+\\left(y+2\\right)^{2}<0.4^{2}\\left\\{0<z<5\\right\\}",
+        "colorLatex": "C_{1}"
+      },
+      {
+        "type": "expression",
+        "id": "307",
+        "folderId": "235",
+        "color": "#2d70b3",
+        "latex": "\\left(x+9\\right)^{2}+\\left(y+2\\right)^{2}+\\left(z-5\\right)^{2}<0.5^{2}\\left\\{z<5\\right\\}",
+        "colorLatex": "C_{1}"
+      },
+      {
+        "type": "expression",
+        "id": "333",
+        "folderId": "235",
+        "color": "#2d70b3",
+        "latex": "-9.5<x<-8.5\\left\\{-2.5<y<-1.5\\right\\}\\left\\{5.2>z>5\\right\\}",
+        "colorLatex": "C_{1}"
+      },
+      {
+        "type": "expression",
+        "id": "396",
+        "folderId": "235",
+        "color": "#2d70b3",
+        "latex": "\\left(x+9\\right)^{2}+\\left(y+2\\right)^{2}<0.4^{2}\\left\\{0<z<5\\right\\}\\left\\{\\operatorname{mod}\\left(z,0.4\\right)<0.1\\right\\}",
+        "colorLatex": "C_{3}"
+      },
+      {
+        "type": "expression",
+        "id": "259",
+        "folderId": "235",
+        "color": "#2d70b3",
+        "latex": "\\left(x+9\\right)^{2}+\\left(y+4\\right)^{2}<0.4^{2}\\left\\{0<z<5\\right\\}",
+        "colorLatex": "C_{1}"
+      },
+      {
+        "type": "expression",
+        "id": "308",
+        "folderId": "235",
+        "color": "#2d70b3",
+        "latex": "\\left(x+9\\right)^{2}+\\left(y+4\\right)^{2}+\\left(z-5\\right)^{2}<0.5^{2}\\left\\{z<5\\right\\}",
+        "colorLatex": "C_{1}"
+      },
+      {
+        "type": "expression",
+        "id": "334",
+        "folderId": "235",
+        "color": "#2d70b3",
+        "latex": "-9.5<x<-8.5\\left\\{-4.5<y<-3.5\\right\\}\\left\\{5.2>z>5\\right\\}",
+        "colorLatex": "C_{1}"
+      },
+      {
+        "type": "expression",
+        "id": "397",
+        "folderId": "235",
+        "color": "#388c46",
+        "latex": "\\left(x+9\\right)^{2}+\\left(y+4\\right)^{2}<0.4^{2}\\left\\{0<z<5\\right\\}\\left\\{\\operatorname{mod}\\left(z,0.4\\right)<0.1\\right\\}",
+        "colorLatex": "C_{3}"
+      },
+      {
+        "type": "expression",
+        "id": "260",
+        "folderId": "235",
+        "color": "#2d70b3",
+        "latex": "\\left(x+7\\right)^{2}+\\left(y+4\\right)^{2}<0.4^{2}\\left\\{0<z<5\\right\\}",
+        "colorLatex": "C_{1}"
+      },
+      {
+        "type": "expression",
+        "id": "309",
+        "folderId": "235",
+        "color": "#2d70b3",
+        "latex": "\\left(x+7\\right)^{2}+\\left(y+4\\right)^{2}+\\left(z-5\\right)^{2}<0.5^{2}\\left\\{z<5\\right\\}",
+        "colorLatex": "C_{1}"
+      },
+      {
+        "type": "expression",
+        "id": "335",
+        "folderId": "235",
+        "color": "#2d70b3",
+        "latex": "-7.5<x<-6.5\\left\\{-4.5<y<-3.5\\right\\}\\left\\{5.2>z>5\\right\\}",
+        "colorLatex": "C_{1}"
+      },
+      {
+        "type": "expression",
+        "id": "398",
+        "folderId": "235",
+        "color": "#6042a6",
+        "latex": "\\left(x+7\\right)^{2}+\\left(y+4\\right)^{2}<0.4^{2}\\left\\{0<z<5\\right\\}\\left\\{\\operatorname{mod}\\left(z,0.4\\right)<0.1\\right\\}",
+        "colorLatex": "C_{3}"
+      },
+      {
+        "type": "expression",
+        "id": "261",
+        "folderId": "235",
+        "color": "#2d70b3",
+        "latex": "\\left(x+5\\right)^{2}+\\left(y+4\\right)^{2}<0.4^{2}\\left\\{0<z<5\\right\\}",
+        "colorLatex": "C_{1}"
+      },
+      {
+        "type": "expression",
+        "id": "310",
+        "folderId": "235",
+        "color": "#2d70b3",
+        "latex": "\\left(x+5\\right)^{2}+\\left(y+4\\right)^{2}+\\left(z-5\\right)^{2}<0.5^{2}\\left\\{z<5\\right\\}",
+        "colorLatex": "C_{1}"
+      },
+      {
+        "type": "expression",
+        "id": "336",
+        "folderId": "235",
+        "color": "#2d70b3",
+        "latex": "-5.5<x<-4.5\\left\\{-4.5<y<-3.5\\right\\}\\left\\{5.2>z>5\\right\\}",
+        "colorLatex": "C_{1}"
+      },
+      {
+        "type": "expression",
+        "id": "399",
+        "folderId": "235",
+        "color": "#aaaaaa",
+        "latex": "\\left(x+5\\right)^{2}+\\left(y+4\\right)^{2}<0.4^{2}\\left\\{0<z<5\\right\\}\\left\\{\\operatorname{mod}\\left(z,0.4\\right)<0.1\\right\\}",
+        "colorLatex": "C_{3}"
+      },
+      {
+        "type": "expression",
+        "id": "262",
+        "folderId": "235",
+        "color": "#2d70b3",
+        "latex": "\\left(x+3\\right)^{2}+\\left(y+4\\right)^{2}<0.4^{2}\\left\\{0<z<5\\right\\}",
+        "colorLatex": "C_{1}"
+      },
+      {
+        "type": "expression",
+        "id": "311",
+        "folderId": "235",
+        "color": "#2d70b3",
+        "latex": "\\left(x+3\\right)^{2}+\\left(y+4\\right)^{2}+\\left(z-5\\right)^{2}<0.5^{2}\\left\\{z<5\\right\\}",
+        "colorLatex": "C_{1}"
+      },
+      {
+        "type": "expression",
+        "id": "337",
+        "folderId": "235",
+        "color": "#2d70b3",
+        "latex": "-3.5<x<-2.5\\left\\{-4.5<y<-3.5\\right\\}\\left\\{5.2>z>5\\right\\}",
+        "colorLatex": "C_{1}"
+      },
+      {
+        "type": "expression",
+        "id": "400",
+        "folderId": "235",
+        "color": "#c74440",
+        "latex": "\\left(x+3\\right)^{2}+\\left(y+4\\right)^{2}<0.4^{2}\\left\\{0<z<5\\right\\}\\left\\{\\operatorname{mod}\\left(z,0.4\\right)<0.1\\right\\}",
+        "colorLatex": "C_{3}"
+      },
+      {
+        "type": "expression",
+        "id": "263",
+        "folderId": "235",
+        "color": "#2d70b3",
+        "latex": "\\left(x+1\\right)^{2}+\\left(y+4\\right)^{2}<0.4^{2}\\left\\{0<z<5\\right\\}",
+        "colorLatex": "C_{1}"
+      },
+      {
+        "type": "expression",
+        "id": "312",
+        "folderId": "235",
+        "color": "#2d70b3",
+        "latex": "\\left(x+1\\right)^{2}+\\left(y+4\\right)^{2}+\\left(z-5\\right)^{2}<0.5^{2}\\left\\{z<5\\right\\}",
+        "colorLatex": "C_{1}"
+      },
+      {
+        "type": "expression",
+        "id": "338",
+        "folderId": "235",
+        "color": "#2d70b3",
+        "latex": "-1.5<x<-0.5\\left\\{-4.5<y<-3.5\\right\\}\\left\\{5.2>z>5\\right\\}",
+        "colorLatex": "C_{1}"
+      },
+      {
+        "type": "expression",
+        "id": "401",
+        "folderId": "235",
+        "color": "#2d70b3",
+        "latex": "\\left(x+1\\right)^{2}+\\left(y+4\\right)^{2}<0.4^{2}\\left\\{0<z<5\\right\\}\\left\\{\\operatorname{mod}\\left(z,0.4\\right)<0.1\\right\\}",
+        "colorLatex": "C_{3}"
+      },
+      {
+        "type": "expression",
+        "id": "264",
+        "folderId": "235",
+        "color": "#2d70b3",
+        "latex": "\\left(x-1\\right)^{2}+\\left(y+4\\right)^{2}<0.4^{2}\\left\\{0<z<5\\right\\}",
+        "colorLatex": "C_{1}"
+      },
+      {
+        "type": "expression",
+        "id": "313",
+        "folderId": "235",
+        "color": "#2d70b3",
+        "latex": "\\left(x-1\\right)^{2}+\\left(y+4\\right)^{2}+\\left(z-5\\right)^{2}<0.5^{2}\\left\\{z<5\\right\\}",
+        "colorLatex": "C_{1}"
+      },
+      {
+        "type": "expression",
+        "id": "339",
+        "folderId": "235",
+        "color": "#2d70b3",
+        "latex": "0.5<x<1.5\\left\\{-4.5<y<-3.5\\right\\}\\left\\{5.2>z>5\\right\\}",
+        "colorLatex": "C_{1}"
+      },
+      {
+        "type": "expression",
+        "id": "402",
+        "folderId": "235",
+        "color": "#388c46",
+        "latex": "\\left(x-1\\right)^{2}+\\left(y+4\\right)^{2}<0.4^{2}\\left\\{0<z<5\\right\\}\\left\\{\\operatorname{mod}\\left(z,0.4\\right)<0.1\\right\\}",
+        "colorLatex": "C_{3}"
+      },
+      {
+        "type": "expression",
+        "id": "265",
+        "folderId": "235",
+        "color": "#2d70b3",
+        "latex": "\\left(x-3\\right)^{2}+\\left(y+4\\right)^{2}<0.4^{2}\\left\\{0<z<5\\right\\}",
+        "colorLatex": "C_{1}"
+      },
+      {
+        "type": "expression",
+        "id": "314",
+        "folderId": "235",
+        "color": "#2d70b3",
+        "latex": "\\left(x-3\\right)^{2}+\\left(y+4\\right)^{2}+\\left(z-5\\right)^{2}<0.5^{2}\\left\\{z<5\\right\\}",
+        "colorLatex": "C_{1}"
+      },
+      {
+        "type": "expression",
+        "id": "340",
+        "folderId": "235",
+        "color": "#2d70b3",
+        "latex": "2.5<x<3.5\\left\\{-4.5<y<-3.5\\right\\}\\left\\{5.2>z>5\\right\\}",
+        "colorLatex": "C_{1}"
+      },
+      {
+        "type": "expression",
+        "id": "403",
+        "folderId": "235",
+        "color": "#6042a6",
+        "latex": "\\left(x-3\\right)^{2}+\\left(y+4\\right)^{2}<0.4^{2}\\left\\{0<z<5\\right\\}\\left\\{\\operatorname{mod}\\left(z,0.4\\right)<0.1\\right\\}",
+        "colorLatex": "C_{3}"
+      },
+      {
+        "type": "expression",
+        "id": "266",
+        "folderId": "235",
+        "color": "#2d70b3",
+        "latex": "\\left(x-5\\right)^{2}+\\left(y+4\\right)^{2}<0.4^{2}\\left\\{0<z<5\\right\\}",
+        "colorLatex": "C_{1}"
+      },
+      {
+        "type": "expression",
+        "id": "315",
+        "folderId": "235",
+        "color": "#2d70b3",
+        "latex": "\\left(x-5\\right)^{2}+\\left(y+4\\right)^{2}+\\left(z-5\\right)^{2}<0.5^{2}\\left\\{z<5\\right\\}",
+        "colorLatex": "C_{1}"
+      },
+      {
+        "type": "expression",
+        "id": "341",
+        "folderId": "235",
+        "color": "#2d70b3",
+        "latex": "4.5<x<5.5\\left\\{-4.5<y<-3.5\\right\\}\\left\\{5.2>z>5\\right\\}",
+        "colorLatex": "C_{1}"
+      },
+      {
+        "type": "expression",
+        "id": "404",
+        "folderId": "235",
+        "color": "#aaaaaa",
+        "latex": "\\left(x-5\\right)^{2}+\\left(y+4\\right)^{2}<0.4^{2}\\left\\{0<z<5\\right\\}\\left\\{\\operatorname{mod}\\left(z,0.4\\right)<0.1\\right\\}",
+        "colorLatex": "C_{3}"
+      },
+      {
+        "type": "expression",
+        "id": "267",
+        "folderId": "235",
+        "color": "#2d70b3",
+        "latex": "\\left(x-7\\right)^{2}+\\left(y+4\\right)^{2}<0.4^{2}\\left\\{0<z<5\\right\\}",
+        "colorLatex": "C_{1}"
+      },
+      {
+        "type": "expression",
+        "id": "316",
+        "folderId": "235",
+        "color": "#2d70b3",
+        "latex": "\\left(x-7\\right)^{2}+\\left(y+4\\right)^{2}+\\left(z-5\\right)^{2}<0.5^{2}\\left\\{z<5\\right\\}",
+        "colorLatex": "C_{1}"
+      },
+      {
+        "type": "expression",
+        "id": "342",
+        "folderId": "235",
+        "color": "#2d70b3",
+        "latex": "6.5<x<7.5\\left\\{-4.5<y<-3.5\\right\\}\\left\\{5.2>z>5\\right\\}",
+        "colorLatex": "C_{1}"
+      },
+      {
+        "type": "expression",
+        "id": "405",
+        "folderId": "235",
+        "color": "#c74440",
+        "latex": "\\left(x-7\\right)^{2}+\\left(y+4\\right)^{2}<0.4^{2}\\left\\{0<z<5\\right\\}\\left\\{\\operatorname{mod}\\left(z,0.4\\right)<0.1\\right\\}",
+        "colorLatex": "C_{3}"
+      },
+      {
+        "type": "expression",
+        "id": "268",
+        "folderId": "235",
+        "color": "#2d70b3",
+        "latex": "\\left(x-9\\right)^{2}+\\left(y+4\\right)^{2}<0.4^{2}\\left\\{0<z<5\\right\\}",
+        "colorLatex": "C_{1}"
+      },
+      {
+        "type": "expression",
+        "id": "317",
+        "folderId": "235",
+        "color": "#2d70b3",
+        "latex": "\\left(x-9\\right)^{2}+\\left(y+4\\right)^{2}+\\left(z-5\\right)^{2}<0.5^{2}\\left\\{z<5\\right\\}",
+        "colorLatex": "C_{1}"
+      },
+      {
+        "type": "expression",
+        "id": "343",
+        "folderId": "235",
+        "color": "#2d70b3",
+        "latex": "8.5<x<9.5\\left\\{-4.5<y<-3.5\\right\\}\\left\\{5.2>z>5\\right\\}",
+        "colorLatex": "C_{1}"
+      },
+      {
+        "type": "expression",
+        "id": "406",
+        "folderId": "235",
+        "color": "#2d70b3",
+        "latex": "\\left(x-9\\right)^{2}+\\left(y+4\\right)^{2}<0.4^{2}\\left\\{0<z<5\\right\\}\\left\\{\\operatorname{mod}\\left(z,0.4\\right)<0.1\\right\\}",
+        "colorLatex": "C_{3}"
+      },
+      {
+        "type": "expression",
+        "id": "269",
+        "folderId": "235",
+        "color": "#2d70b3",
+        "latex": "\\left(x-9\\right)^{2}+\\left(y+2\\right)^{2}<0.4^{2}\\left\\{0<z<5\\right\\}",
+        "colorLatex": "C_{1}"
+      },
+      {
+        "type": "expression",
+        "id": "318",
+        "folderId": "235",
+        "color": "#2d70b3",
+        "latex": "\\left(x-9\\right)^{2}+\\left(y+2\\right)^{2}+\\left(z-5\\right)^{2}<0.5^{2}\\left\\{z<5\\right\\}",
+        "colorLatex": "C_{1}"
+      },
+      {
+        "type": "expression",
+        "id": "344",
+        "folderId": "235",
+        "color": "#2d70b3",
+        "latex": "8.5<x<9.5\\left\\{-2.5<y<-1.5\\right\\}\\left\\{5.2>z>5\\right\\}",
+        "colorLatex": "C_{1}"
+      },
+      {
+        "type": "expression",
+        "id": "407",
+        "folderId": "235",
+        "color": "#388c46",
+        "latex": "\\left(x-9\\right)^{2}+\\left(y+2\\right)^{2}<0.4^{2}\\left\\{0<z<5\\right\\}\\left\\{\\operatorname{mod}\\left(z,0.4\\right)<0.1\\right\\}",
+        "colorLatex": "C_{3}"
+      },
+      {
+        "type": "expression",
+        "id": "270",
+        "folderId": "235",
+        "color": "#2d70b3",
+        "latex": "\\left(x-9\\right)^{2}+y^{2}<0.4^{2}\\left\\{0<z<5\\right\\}",
+        "colorLatex": "C_{1}"
+      },
+      {
+        "type": "expression",
+        "id": "319",
+        "folderId": "235",
+        "color": "#2d70b3",
+        "latex": "\\left(x-9\\right)^{2}+y^{2}+\\left(z-5\\right)^{2}<0.5^{2}\\left\\{z<5\\right\\}",
+        "colorLatex": "C_{1}"
+      },
+      {
+        "type": "expression",
+        "id": "345",
+        "folderId": "235",
+        "color": "#2d70b3",
+        "latex": "8.5<x<9.5\\left\\{-0.5<y<0.5\\right\\}\\left\\{5.2>z>5\\right\\}",
+        "colorLatex": "C_{1}"
+      },
+      {
+        "type": "expression",
+        "id": "408",
+        "folderId": "235",
+        "color": "#6042a6",
+        "latex": "\\left(x-9\\right)^{2}+y^{2}<0.4^{2}\\left\\{0<z<5\\right\\}\\left\\{\\operatorname{mod}\\left(z,0.4\\right)<0.1\\right\\}",
+        "colorLatex": "C_{3}"
+      },
+      {
+        "type": "expression",
+        "id": "271",
+        "folderId": "235",
+        "color": "#2d70b3",
+        "latex": "\\left(x-9\\right)^{2}+\\left(y-2\\right)^{2}<0.4^{2}\\left\\{0<z<5\\right\\}",
+        "colorLatex": "C_{1}"
+      },
+      {
+        "type": "expression",
+        "id": "320",
+        "folderId": "235",
+        "color": "#2d70b3",
+        "latex": "\\left(x-9\\right)^{2}+\\left(y-2\\right)^{2}+\\left(z-5\\right)^{2}<0.5^{2}\\left\\{z<5\\right\\}",
+        "colorLatex": "C_{1}"
+      },
+      {
+        "type": "expression",
+        "id": "346",
+        "folderId": "235",
+        "color": "#2d70b3",
+        "latex": "8.5<x<9.5\\left\\{1.5<y<2.5\\right\\}\\left\\{5.2>z>5\\right\\}",
+        "colorLatex": "C_{1}"
+      },
+      {
+        "type": "expression",
+        "id": "409",
+        "folderId": "235",
+        "color": "#aaaaaa",
+        "latex": "\\left(x-9\\right)^{2}+\\left(y-2\\right)^{2}<0.4^{2}\\left\\{0<z<5\\right\\}\\left\\{\\operatorname{mod}\\left(z,0.4\\right)<0.1\\right\\}",
+        "colorLatex": "C_{3}"
+      },
+      {
+        "type": "folder",
+        "id": "273",
+        "title": "Inner base",
+        "collapsed": true
+      },
+      {
+        "type": "expression",
+        "id": "274",
+        "folderId": "273",
+        "color": "#388c46",
+        "latex": "-8.4<x<8.4\\left\\{-3.4<y<3.4\\right\\}\\left\\{0.6<z<0.8\\right\\}",
+        "colorLatex": "C_{2}"
+      },
+      {
+        "type": "expression",
+        "id": "275",
+        "folderId": "273",
+        "color": "#388c46",
+        "latex": "-8.2<x<8.2\\left\\{-3.2<y<3.2\\right\\}\\left\\{0.8<z<1\\right\\}",
+        "colorLatex": "C_{2}"
+      },
+      {
+        "type": "folder",
+        "id": "276",
+        "title": "Inner Pillars",
+        "collapsed": true
+      },
+      {
+        "type": "expression",
+        "id": "277",
+        "folderId": "276",
+        "color": "#fa7e19",
+        "latex": "\\left(x-7.6\\right)^{2}+\\left(y-2.6\\right)^{2}<0.4^{2}\\left\\{0<z<5\\right\\}",
+        "colorLatex": "C_{2}"
+      },
+      {
+        "type": "expression",
+        "id": "347",
+        "folderId": "276",
+        "color": "#fa7e19",
+        "latex": "\\left(x-7.6\\right)^{2}+\\left(y-2.6\\right)^{2}+\\left(z-5\\right)^{2}<0.5^{2}\\left\\{z<5\\right\\}",
+        "colorLatex": "C_{2}"
+      },
+      {
+        "type": "expression",
+        "id": "359",
+        "folderId": "276",
+        "color": "#fa7e19",
+        "latex": "7.1<x<8.1\\left\\{2.1<y<3.1\\right\\}\\left\\{5.2>z>5\\right\\}",
+        "colorLatex": "C_{2}"
+      },
+      {
+        "type": "expression",
+        "id": "414",
+        "folderId": "276",
+        "color": "#6042a6",
+        "latex": "\\left(x-7.6\\right)^{2}+\\left(y-2.6\\right)^{2}<0.4^{2}\\left\\{\\operatorname{mod}\\left(z,0.4\\right)<0.1\\right\\}\\left\\{0<z<5\\right\\}",
+        "colorLatex": "C_{4}"
+      },
+      {
+        "type": "expression",
+        "id": "285",
+        "folderId": "276",
+        "color": "#fa7e19",
+        "latex": "\\left(x-7.6\\right)^{2}+\\left(y-1.3\\right)^{2}<0.4^{2}\\left\\{0<z<5\\right\\}",
+        "colorLatex": "C_{2}"
+      },
+      {
+        "type": "expression",
+        "id": "349",
+        "folderId": "276",
+        "color": "#fa7e19",
+        "latex": "\\left(x-7.6\\right)^{2}+\\left(y-1.3\\right)^{2}+\\left(z-5\\right)^{2}<0.5^{2}\\left\\{z<5\\right\\}",
+        "colorLatex": "C_{2}"
+      },
+      {
+        "type": "expression",
+        "id": "360",
+        "folderId": "276",
+        "color": "#fa7e19",
+        "latex": "7.1<x<8.1\\left\\{0.8<y<1.8\\right\\}\\left\\{5.2>z>5\\right\\}",
+        "colorLatex": "C_{2}"
+      },
+      {
+        "type": "expression",
+        "id": "417",
+        "folderId": "276",
+        "color": "#c74440",
+        "latex": "\\left(x-7.6\\right)^{2}+\\left(y-1.3\\right)^{2}<0.4^{2}\\left\\{\\operatorname{mod}\\left(z,0.4\\right)<0.1\\right\\}\\left\\{0<z<5\\right\\}",
+        "colorLatex": "C_{4}"
+      },
+      {
+        "type": "expression",
+        "id": "286",
+        "folderId": "276",
+        "color": "#fa7e19",
+        "latex": "\\left(x-7.6\\right)^{2}+y^{2}<0.4^{2}\\left\\{0<z<5\\right\\}",
+        "colorLatex": "C_{2}"
+      },
+      {
+        "type": "expression",
+        "id": "350",
+        "folderId": "276",
+        "color": "#fa7e19",
+        "latex": "\\left(x-7.6\\right)^{2}+y^{2}+\\left(z-5\\right)^{2}<0.5^{2}\\left\\{z<5\\right\\}",
+        "colorLatex": "C_{2}"
+      },
+      {
+        "type": "expression",
+        "id": "361",
+        "folderId": "276",
+        "color": "#fa7e19",
+        "latex": "7.1<x<8.1\\left\\{-0.5<y<0.5\\right\\}\\left\\{5.2>z>5\\right\\}",
+        "colorLatex": "C_{2}"
+      },
+      {
+        "type": "expression",
+        "id": "418",
+        "folderId": "276",
+        "color": "#2d70b3",
+        "latex": "\\left(x-7.6\\right)^{2}+y^{2}<0.4^{2}\\left\\{\\operatorname{mod}\\left(z,0.4\\right)<0.1\\right\\}\\left\\{0<z<5\\right\\}",
+        "colorLatex": "C_{4}"
+      },
+      {
+        "type": "expression",
+        "id": "287",
+        "folderId": "276",
+        "color": "#fa7e19",
+        "latex": "\\left(x-7.6\\right)^{2}+\\left(y+1.3\\right)^{2}<0.4^{2}\\left\\{0<z<5\\right\\}",
+        "colorLatex": "C_{2}"
+      },
+      {
+        "type": "expression",
+        "id": "351",
+        "folderId": "276",
+        "color": "#fa7e19",
+        "latex": "\\left(x-7.6\\right)^{2}+\\left(y+1.3\\right)^{2}+\\left(z-5\\right)^{2}<0.5^{2}\\left\\{z<5\\right\\}",
+        "colorLatex": "C_{2}"
+      },
+      {
+        "type": "expression",
+        "id": "362",
+        "folderId": "276",
+        "color": "#fa7e19",
+        "latex": "7.1<x<8.1\\left\\{-1.8<y<-0.8\\right\\}\\left\\{5.2>z>5\\right\\}",
+        "colorLatex": "C_{2}"
+      },
+      {
+        "type": "expression",
+        "id": "419",
+        "folderId": "276",
+        "color": "#388c46",
+        "latex": "\\left(x-7.6\\right)^{2}+\\left(y+1.3\\right)^{2}<0.4^{2}\\left\\{\\operatorname{mod}\\left(z,0.4\\right)<0.1\\right\\}\\left\\{0<z<5\\right\\}",
+        "colorLatex": "C_{4}"
+      },
+      {
+        "type": "expression",
+        "id": "284",
+        "folderId": "276",
+        "color": "#fa7e19",
+        "latex": "\\left(x-7.6\\right)^{2}+\\left(y+2.6\\right)^{2}<0.4^{2}\\left\\{0<z<5\\right\\}",
+        "colorLatex": "C_{2}"
+      },
+      {
+        "type": "expression",
+        "id": "352",
+        "folderId": "276",
+        "color": "#fa7e19",
+        "latex": "\\left(x-7.6\\right)^{2}+\\left(y+2.6\\right)^{2}+\\left(z-5\\right)^{2}<0.5^{2}\\left\\{z<5\\right\\}",
+        "colorLatex": "C_{2}"
+      },
+      {
+        "type": "expression",
+        "id": "363",
+        "folderId": "276",
+        "color": "#fa7e19",
+        "latex": "7.1<x<8.1\\left\\{-3.1<y<-2.1\\right\\}\\left\\{5.2>z>5\\right\\}",
+        "colorLatex": "C_{2}"
+      },
+      {
+        "type": "expression",
+        "id": "420",
+        "folderId": "276",
+        "color": "#6042a6",
+        "latex": "\\left(x-7.6\\right)^{2}+\\left(y+2.6\\right)^{2}<0.4^{2}\\left\\{\\operatorname{mod}\\left(z,0.4\\right)<0.1\\right\\}\\left\\{0<z<5\\right\\}",
+        "colorLatex": "C_{4}"
+      },
+      {
+        "type": "expression",
+        "id": "282",
+        "folderId": "276",
+        "color": "#fa7e19",
+        "latex": "\\left(x+7.6\\right)^{2}+\\left(y-2.6\\right)^{2}<0.4^{2}\\left\\{0<z<5\\right\\}",
+        "colorLatex": "C_{2}"
+      },
+      {
+        "type": "expression",
+        "id": "353",
+        "folderId": "276",
+        "color": "#fa7e19",
+        "latex": "\\left(x+7.6\\right)^{2}+\\left(y-2.6\\right)^{2}+\\left(z-5\\right)^{2}<0.5^{2}\\left\\{z<5\\right\\}",
+        "colorLatex": "C_{2}"
+      },
+      {
+        "type": "expression",
+        "id": "364",
+        "folderId": "276",
+        "color": "#fa7e19",
+        "latex": "-8.1<x<-7.1\\left\\{2.1<y<3.1\\right\\}\\left\\{5.2>z>5\\right\\}",
+        "colorLatex": "C_{2}"
+      },
+      {
+        "type": "expression",
+        "id": "421",
+        "folderId": "276",
+        "color": "#388c46",
+        "latex": "\\left(x+7.6\\right)^{2}+\\left(y-2.6\\right)^{2}<0.4^{2}\\left\\{\\operatorname{mod}\\left(z,0.4\\right)<0.1\\right\\}\\left\\{0<z<5\\right\\}",
+        "colorLatex": "C_{4}"
+      },
+      {
+        "type": "expression",
+        "id": "354",
+        "folderId": "276",
+        "color": "#fa7e19",
+        "latex": "\\left(x+7.6\\right)^{2}+\\left(y-1.3\\right)^{2}+\\left(z-5\\right)^{2}<0.5^{2}\\left\\{z<5\\right\\}",
+        "colorLatex": "C_{2}"
+      },
+      {
+        "type": "expression",
+        "id": "422",
+        "folderId": "276",
+        "color": "#c74440",
+        "latex": "\\left(x+7.6\\right)^{2}+\\left(y-1.3\\right)^{2}<0.4^{2}\\left\\{0<z<5\\right\\}",
+        "colorLatex": "C_{2}"
+      },
+      {
+        "type": "expression",
+        "id": "365",
+        "folderId": "276",
+        "color": "#fa7e19",
+        "latex": "-8.1<x<-7.1\\left\\{0.8<y<1.8\\right\\}\\left\\{5.2>z>5\\right\\}",
+        "colorLatex": "C_{2}"
+      },
+      {
+        "type": "expression",
+        "id": "424",
+        "folderId": "276",
+        "color": "#388c46",
+        "latex": "\\left(x+7.6\\right)^{2}+\\left(y-1.3\\right)^{2}<0.4^{2}\\left\\{\\operatorname{mod}\\left(z,0.4\\right)<0.1\\right\\}\\left\\{0<z<5\\right\\}",
+        "colorLatex": "C_{4}"
+      },
+      {
+        "type": "expression",
+        "id": "289",
+        "folderId": "276",
+        "color": "#fa7e19",
+        "latex": "\\left(x+7.6\\right)^{2}+y^{2}<0.4^{2}\\left\\{0<z<5\\right\\}",
+        "colorLatex": "C_{2}"
+      },
+      {
+        "type": "expression",
+        "id": "356",
+        "folderId": "276",
+        "color": "#fa7e19",
+        "latex": "\\left(x+7.6\\right)^{2}+y^{2}+\\left(z-5\\right)^{2}<0.5^{2}\\left\\{z<5\\right\\}",
+        "colorLatex": "C_{2}"
+      },
+      {
+        "type": "expression",
+        "id": "366",
+        "folderId": "276",
+        "color": "#fa7e19",
+        "latex": "-8.1<x<-7.1\\left\\{-0.5<y<0.5\\right\\}\\left\\{5.2>z>5\\right\\}",
+        "colorLatex": "C_{2}"
+      },
+      {
+        "type": "expression",
+        "id": "425",
+        "folderId": "276",
+        "color": "#6042a6",
+        "latex": "\\left(x+7.6\\right)^{2}+y^{2}<0.4^{2}\\left\\{\\operatorname{mod}\\left(z,0.4\\right)<0.1\\right\\}\\left\\{0<z<5\\right\\}",
+        "colorLatex": "C_{4}"
+      },
+      {
+        "type": "expression",
+        "id": "290",
+        "folderId": "276",
+        "color": "#fa7e19",
+        "latex": "\\left(x+7.6\\right)^{2}+\\left(y+1.3\\right)^{2}<0.4^{2}\\left\\{0<z<5\\right\\}",
+        "colorLatex": "C_{2}"
+      },
+      {
+        "type": "expression",
+        "id": "357",
+        "folderId": "276",
+        "color": "#fa7e19",
+        "latex": "\\left(x+7.6\\right)^{2}+\\left(y+1.3\\right)^{2}+\\left(z-5\\right)^{2}<0.5^{2}\\left\\{z<5\\right\\}",
+        "colorLatex": "C_{2}"
+      },
+      {
+        "type": "expression",
+        "id": "367",
+        "folderId": "276",
+        "color": "#fa7e19",
+        "latex": "-8.1<x<-7.1\\left\\{-1.8<y<-0.8\\right\\}\\left\\{5.2>z>5\\right\\}",
+        "colorLatex": "C_{2}"
+      },
+      {
+        "type": "expression",
+        "id": "426",
+        "folderId": "276",
+        "color": "#aaaaaa",
+        "latex": "\\left(x+7.6\\right)^{2}+\\left(y+1.3\\right)^{2}<0.4^{2}\\left\\{\\operatorname{mod}\\left(z,0.4\\right)<0.1\\right\\}\\left\\{0<z<5\\right\\}",
+        "colorLatex": "C_{4}"
+      },
+      {
+        "type": "expression",
+        "id": "283",
+        "folderId": "276",
+        "color": "#fa7e19",
+        "latex": "\\left(x+7.6\\right)^{2}+\\left(y+2.6\\right)^{2}<0.4^{2}\\left\\{0<z<5\\right\\}",
+        "colorLatex": "C_{2}"
+      },
+      {
+        "type": "expression",
+        "id": "358",
+        "folderId": "276",
+        "color": "#fa7e19",
+        "latex": "\\left(x+7.6\\right)^{2}+\\left(y+2.6\\right)^{2}+\\left(z-5\\right)^{2}<0.5^{2}\\left\\{z<5\\right\\}",
+        "colorLatex": "C_{2}"
+      },
+      {
+        "type": "expression",
+        "id": "368",
+        "folderId": "276",
+        "color": "#fa7e19",
+        "latex": "-8.1<x<-7.1\\left\\{-3.1<y<-2.1\\right\\}\\left\\{5.2>z>5\\right\\}",
+        "colorLatex": "C_{2}"
+      },
+      {
+        "type": "expression",
+        "id": "427",
+        "folderId": "276",
+        "color": "#c74440",
+        "latex": "\\left(x+7.6\\right)^{2}+\\left(y+2.6\\right)^{2}<0.4^{2}\\left\\{\\operatorname{mod}\\left(z,0.4\\right)<0.1\\right\\}\\left\\{0<z<5\\right\\}",
+        "colorLatex": "C_{4}"
+      },
+      {
+        "type": "folder",
+        "id": "292",
+        "title": "Centre box",
+        "collapsed": true
+      },
+      {
+        "type": "expression",
+        "id": "291",
+        "folderId": "292",
+        "color": "#6042a6",
+        "latex": "-6.7<x<6.7\\left\\{-2.8<y<2.8\\right\\}\\left\\{5.2>z>0\\right\\}",
+        "extendTo3D": true,
+        "colorLatex": "C_{4}"
+      },
+      {
+        "type": "expression",
+        "id": "431",
+        "folderId": "292",
+        "color": "#6042a6",
+        "latex": "\\operatorname{mod}\\left(z,0.2\\right)<0.05\\left\\{0<z<5.2\\right\\}\\left\\{-2.8<y<2.8\\right\\}\\left\\{-6.7<x<6.7\\right\\}",
+        "colorLatex": "C_{5}"
+      },
+      {
+        "type": "folder",
+        "id": "369",
+        "title": "Roof",
+        "collapsed": true
+      },
+      {
+        "type": "expression",
+        "id": "370",
+        "folderId": "369",
+        "color": "#c74440",
+        "latex": "-9.5<x<9.5\\left\\{-4.5<y<4.5\\right\\}\\left\\{5.2<z<6\\right\\}",
+        "colorLatex": "C_{7}"
+      },
+      {
+        "type": "expression",
+        "id": "451",
+        "folderId": "369",
+        "color": "#2d70b3",
+        "latex": "z<0.2y+7.4\\left\\{z<-0.2y+7.4\\right\\}\\left\\{-9.8<x<9.8\\right\\}\\left\\{6.2<z\\right\\}\\left\\{-5<y<5\\right\\}",
+        "colorLatex": "C_{8}"
+      },
+      {
+        "type": "expression",
+        "id": "372",
+        "folderId": "369",
+        "color": "#aaaaaa",
+        "latex": "-9.8<x<9.8\\left\\{-4.8<y<4.8\\right\\}\\left\\{6<z<6.2\\right\\}",
+        "colorLatex": "C_{1}"
+      },
+      {
+        "type": "expression",
+        "id": "374",
+        "folderId": "369",
+        "color": "#aaaaaa",
+        "latex": "z<0.2y+7.2\\left\\{z<-0.2y+7.2\\right\\}\\left\\{-9.8<x<9.8\\right\\}\\left\\{6.2<z\\right\\}\\left\\{-5<y<5\\right\\}",
+        "colorLatex": "C_{1}"
+      },
+      {
+        "type": "expression",
+        "id": "452",
+        "folderId": "369",
+        "color": "#388c46",
+        "latex": "z<0.2y+7\\left\\{z<-0.2y+7\\right\\}\\left\\{-9.8<x<9.8\\right\\}\\left\\{6.2<z\\right\\}\\left\\{-5<y<5\\right\\}",
+        "colorLatex": "C_{6}"
+      },
+      {
+        "type": "expression",
+        "id": "434",
+        "folderId": "369",
+        "color": "#2d70b3",
+        "latex": "\\operatorname{mod}(x-0.5,\\ 1.8)\\le0.1\\left\\{5.2<z<6\\right\\}\\left\\{-9.5<x<9.5\\right\\}\\left\\{4.8>y>4.1\\right\\}",
+        "colorLatex": "C_{6}"
+      },
+      {
+        "type": "expression",
+        "id": "435",
+        "folderId": "369",
+        "color": "#2d70b3",
+        "latex": "\\operatorname{mod}(x-0.25,\\ 1.8)\\le0.1\\left\\{5.2<z<6\\right\\}\\left\\{-9.5<x<9.5\\right\\}\\left\\{4.5<y<4.8\\right\\}",
+        "colorLatex": "C_{6}"
+      },
+      {
+        "type": "expression",
+        "id": "436",
+        "folderId": "369",
+        "color": "#2d70b3",
+        "latex": "\\operatorname{mod}(x,\\ 1.8)\\le0.1\\left\\{5.2<z<6\\right\\}\\left\\{-9.5<x<9.5\\right\\}\\left\\{4.5\\le y\\le4.8\\right\\}",
+        "colorLatex": "C_{6}"
+      },
+      {
+        "type": "expression",
+        "id": "437",
+        "folderId": "369",
+        "color": "#aaaaaa",
+        "latex": "\\operatorname{mod}(x-0.5,\\ 1.8)\\le0.1\\left\\{5.2<z<6\\right\\}\\left\\{-9.5<x<9.5\\right\\}\\left\\{-4.5>y>-4.8\\right\\}",
+        "colorLatex": "C_{6}"
+      },
+      {
+        "type": "expression",
+        "id": "438",
+        "folderId": "369",
+        "color": "#c74440",
+        "latex": "\\operatorname{mod}(x-0.25,\\ 1.8)\\le0.1\\left\\{5.2<z<6\\right\\}\\left\\{-9.5<x<9.5\\right\\}\\left\\{-4.5>y>-4.8\\right\\}",
+        "colorLatex": "C_{6}"
+      },
+      {
+        "type": "expression",
+        "id": "439",
+        "folderId": "369",
+        "color": "#2d70b3",
+        "latex": "\\operatorname{mod}(y,\\ 1.4)\\le0.1\\left\\{5.2<z<6\\right\\}\\left\\{-9.5<y<9.5\\right\\}\\left\\{10>x>9.5\\right\\}\\left\\{-4.5<y<4.5\\right\\}",
+        "colorLatex": "C_{6}"
+      },
+      {
+        "type": "expression",
+        "id": "440",
+        "folderId": "369",
+        "color": "#388c46",
+        "latex": "\\operatorname{mod}(y-0.25,\\ 1.4)\\le0.1\\left\\{5.2<z<6\\right\\}\\left\\{-9.5<y<9.5\\right\\}\\left\\{10>x>9.5\\right\\}\\left\\{-4.5<y<4.5\\right\\}",
+        "colorLatex": "C_{6}"
+      },
+      {
+        "type": "expression",
+        "id": "441",
+        "folderId": "369",
+        "color": "#6042a6",
+        "latex": "\\operatorname{mod}(y-0.5,\\ 1.4)\\le0.1\\left\\{5.2<z<6\\right\\}\\left\\{-9.5<y<9.5\\right\\}\\left\\{10>x>9.5\\right\\}\\left\\{-4.5<y<4.5\\right\\}",
+        "colorLatex": "C_{6}"
+      },
+      {
+        "type": "expression",
+        "id": "442",
+        "folderId": "369",
+        "color": "#aaaaaa",
+        "latex": "\\operatorname{mod}(y,\\ 1.4)\\le0.1\\left\\{5.2<z<6\\right\\}\\left\\{-9.5<y<9.5\\right\\}\\left\\{-10<x<-9.5\\right\\}\\left\\{-4.5<y<4.5\\right\\}",
+        "colorLatex": "C_{6}"
+      },
+      {
+        "type": "expression",
+        "id": "443",
+        "folderId": "369",
+        "color": "#c74440",
+        "latex": "\\operatorname{mod}(y-0.25,\\ 1.4)\\le0.1\\left\\{5.2<z<6\\right\\}\\left\\{-9.5<y<9.5\\right\\}\\left\\{-10<x<-9.5\\right\\}\\left\\{-4.5<y<4.5\\right\\}",
+        "colorLatex": "C_{6}"
+      },
+      {
+        "type": "expression",
+        "id": "444",
+        "folderId": "369",
+        "color": "#2d70b3",
+        "latex": "\\operatorname{mod}(y-0.5,\\ 1.)\\le0.1\\left\\{5.2<z<6\\right\\}\\left\\{-9.5<y<9.5\\right\\}\\left\\{-10<x<-9.5\\right\\}\\left\\{-4.5<y<4.5\\right\\}",
+        "colorLatex": "C_{6}"
+      }
+    ]
+  },
+  "includeFunctionParametersInRandomSeed": true,
+  "doNotMigrate3dLineWidthZero": true,
+  "doNotMigrateMovablePointStyle": true
+}

@@ -1,0 +1,57 @@
+{
+  "source_file": "[4B] 3D Diagram - S2-01 Group G.json",
+  "total_expressions": 214,
+  "supported_count": 151,
+  "recognized_unsupported_count": 0,
+  "unrecognized_count": 2,
+  "geometry_ineligible_count": 61,
+  "per_folder_summary": [
+    {
+      "folder_id": null,
+      "folder_name": null,
+      "total": 214,
+      "supported": 151,
+      "recognized_unsupported": 0,
+      "unrecognized": 2,
+      "geometry_ineligible": 61
+    }
+  ],
+  "unsupported_expressions": [
+    {
+      "expression_id": "228",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "c37124b8dfd888e5",
+      "latex": "\\ 2z=-\\left(x+8.1\\right)^{2}+6.9\\left\\{2\\le z\\le3.9\\right\\}\\left\\{-5\\le y\\le0\\right\\}\\left\\{-8.958\\le x\\le-7.249\\right\\}",
+      "normalized_latex": "2z=-(x+8.1)^2+6.9{2<=z<=3.9}{-5<=y<=0}{-8.958<=x<=-7.249}"
+    },
+    {
+      "expression_id": "236",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "4874cc0728457758",
+      "latex": "\\ 2z=-\\left(x-8.1\\right)^{2}+6.9\\left\\{2\\le z\\le3.9\\right\\}\\left\\{-5\\le y\\le0\\right\\}\\left\\{7.249\\le x\\le8.958\\right\\}",
+      "normalized_latex": "2z=-(x-8.1)^2+6.9{2<=z<=3.9}{-5<=y<=0}{7.249<=x<=8.958}"
+    }
+  ],
+  "unknown_fingerprints": [
+    "4874cc0728457758",
+    "c37124b8dfd888e5"
+  ],
+  "diagnostics": [
+    {
+      "severity": "INFO",
+      "code": "AUDIT_COMPLETE",
+      "message": "Audit classification complete",
+      "source_ref": null,
+      "details": {
+        "file": "[4B] 3D Diagram - S2-01 Group G.json"
+      }
+    }
+  ],
+  "status": "PARTIAL"
+}

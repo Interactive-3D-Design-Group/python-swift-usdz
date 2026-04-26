@@ -1,0 +1,60 @@
+{
+  "source_file": "[4B] 3D Diagram - S2-09 Group G.json",
+  "total_expressions": 94,
+  "supported_count": 84,
+  "recognized_unsupported_count": 0,
+  "unrecognized_count": 0,
+  "geometry_ineligible_count": 10,
+  "per_folder_summary": [
+    {
+      "folder_id": null,
+      "folder_name": null,
+      "total": 7,
+      "supported": 0,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 7
+    },
+    {
+      "folder_id": "316",
+      "folder_name": "allys part",
+      "total": 10,
+      "supported": 10,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 0
+    },
+    {
+      "folder_id": "292",
+      "folder_name": "elijah part",
+      "total": 16,
+      "supported": 16,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 0
+    },
+    {
+      "folder_id": "309",
+      "folder_name": "kousuke part",
+      "total": 61,
+      "supported": 58,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 3
+    }
+  ],
+  "unsupported_expressions": [],
+  "unknown_fingerprints": [],
+  "diagnostics": [
+    {
+      "severity": "INFO",
+      "code": "AUDIT_COMPLETE",
+      "message": "Audit classification complete",
+      "source_ref": null,
+      "details": {
+        "file": "[4B] 3D Diagram - S2-09 Group G.json"
+      }
+    }
+  ],
+  "status": "PASS"
+}

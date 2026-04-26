@@ -1,0 +1,988 @@
+{
+  "schema_version": 1,
+  "mesh_count": 49,
+  "failed_mesh_count": 0,
+  "meshes": [
+    {
+      "name": "[4B] 3D Diagram - S2-06 Group G_25",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-06 Group G_25.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-06 Group G.json",
+      "expression_id": "25",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          2.1100000000000003,
+          2.1100000000000003,
+          0.1924999999999999
+        ],
+        "max": [
+          5.890000000000001,
+          5.890000000000001,
+          6.8075
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-06 Group G_26",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-06 Group G_26.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-06 Group G.json",
+      "expression_id": "26",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -5.890000000000001,
+          -5.890000000000001,
+          0.1924999999999999
+        ],
+        "max": [
+          -2.1099999999999994,
+          -2.1099999999999994,
+          6.8075
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-06 Group G_27",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-06 Group G_27.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-06 Group G.json",
+      "expression_id": "27",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -5.890000000000001,
+          2.1100000000000003,
+          0.1924999999999999
+        ],
+        "max": [
+          -2.1099999999999994,
+          5.890000000000001,
+          6.8075
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-06 Group G_28",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-06 Group G_28.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-06 Group G.json",
+      "expression_id": "28",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          2.1100000000000003,
+          -5.890000000000001,
+          0.1924999999999999
+        ],
+        "max": [
+          5.890000000000001,
+          -2.1099999999999994,
+          6.8075
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-06 Group G_31",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-06 Group G_31.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-06 Group G.json",
+      "expression_id": "31",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -4.2,
+          -4.2,
+          7.0
+        ],
+        "max": [
+          4.2,
+          4.2,
+          7.6
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-06 Group G_33",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-06 Group G_33.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-06 Group G.json",
+      "expression_id": "33",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -4.2,
+          -4.2,
+          7.6
+        ],
+        "max": [
+          -4.0,
+          -4.0,
+          8.5
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-06 Group G_34",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-06 Group G_34.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-06 Group G.json",
+      "expression_id": "34",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -3.2,
+          -4.2,
+          7.6
+        ],
+        "max": [
+          -3.0,
+          -4.0,
+          8.5
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-06 Group G_35",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-06 Group G_35.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-06 Group G.json",
+      "expression_id": "35",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -2.2,
+          -4.2,
+          7.6
+        ],
+        "max": [
+          -2.0,
+          -4.0,
+          8.5
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-06 Group G_36",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-06 Group G_36.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-06 Group G.json",
+      "expression_id": "36",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -1.2,
+          -4.2,
+          7.6
+        ],
+        "max": [
+          -1.0,
+          -4.0,
+          8.5
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-06 Group G_37",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-06 Group G_37.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-06 Group G.json",
+      "expression_id": "37",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -0.2,
+          -4.2,
+          7.6
+        ],
+        "max": [
+          0.0,
+          -4.0,
+          8.5
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-06 Group G_38",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-06 Group G_38.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-06 Group G.json",
+      "expression_id": "38",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          0.8,
+          -4.2,
+          7.6
+        ],
+        "max": [
+          1.0,
+          -4.0,
+          8.5
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-06 Group G_39",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-06 Group G_39.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-06 Group G.json",
+      "expression_id": "39",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          1.8,
+          -4.2,
+          7.6
+        ],
+        "max": [
+          2.0,
+          -4.0,
+          8.5
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-06 Group G_40",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-06 Group G_40.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-06 Group G.json",
+      "expression_id": "40",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          2.8,
+          -4.2,
+          7.6
+        ],
+        "max": [
+          3.0,
+          -4.0,
+          8.5
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-06 Group G_49",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-06 Group G_49.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-06 Group G.json",
+      "expression_id": "49",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          3.8,
+          -4.2,
+          7.6
+        ],
+        "max": [
+          4.0,
+          -4.0,
+          8.5
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-06 Group G_41",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-06 Group G_41.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-06 Group G.json",
+      "expression_id": "41",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -4.2,
+          4.0,
+          7.6
+        ],
+        "max": [
+          -4.0,
+          4.2,
+          8.5
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-06 Group G_42",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-06 Group G_42.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-06 Group G.json",
+      "expression_id": "42",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -3.2,
+          4.0,
+          7.6
+        ],
+        "max": [
+          -3.0,
+          4.2,
+          8.5
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-06 Group G_43",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-06 Group G_43.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-06 Group G.json",
+      "expression_id": "43",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -2.2,
+          4.0,
+          7.6
+        ],
+        "max": [
+          -2.0,
+          4.2,
+          8.5
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-06 Group G_44",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-06 Group G_44.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-06 Group G.json",
+      "expression_id": "44",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -1.2,
+          4.0,
+          7.6
+        ],
+        "max": [
+          -1.0,
+          4.2,
+          8.5
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-06 Group G_45",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-06 Group G_45.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-06 Group G.json",
+      "expression_id": "45",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -0.2,
+          4.0,
+          7.6
+        ],
+        "max": [
+          0.0,
+          4.2,
+          8.5
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-06 Group G_46",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-06 Group G_46.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-06 Group G.json",
+      "expression_id": "46",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          0.8,
+          4.0,
+          7.6
+        ],
+        "max": [
+          1.0,
+          4.2,
+          8.5
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-06 Group G_47",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-06 Group G_47.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-06 Group G.json",
+      "expression_id": "47",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          1.8,
+          4.0,
+          7.6
+        ],
+        "max": [
+          2.0,
+          4.2,
+          8.5
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-06 Group G_48",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-06 Group G_48.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-06 Group G.json",
+      "expression_id": "48",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          2.8,
+          4.0,
+          7.6
+        ],
+        "max": [
+          3.0,
+          4.2,
+          8.5
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-06 Group G_50",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-06 Group G_50.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-06 Group G.json",
+      "expression_id": "50",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          3.8,
+          4.0,
+          7.6
+        ],
+        "max": [
+          4.0,
+          4.2,
+          8.5
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-06 Group G_51",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-06 Group G_51.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-06 Group G.json",
+      "expression_id": "51",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          4.0,
+          -3.8,
+          7.6
+        ],
+        "max": [
+          4.2,
+          -3.6,
+          8.5
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-06 Group G_52",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-06 Group G_52.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-06 Group G.json",
+      "expression_id": "52",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          4.0,
+          -2.8,
+          7.6
+        ],
+        "max": [
+          4.2,
+          -2.6,
+          8.5
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-06 Group G_53",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-06 Group G_53.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-06 Group G.json",
+      "expression_id": "53",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          4.0,
+          -1.8,
+          7.6
+        ],
+        "max": [
+          4.2,
+          -1.6,
+          8.5
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-06 Group G_54",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-06 Group G_54.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-06 Group G.json",
+      "expression_id": "54",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          4.0,
+          -0.8,
+          7.6
+        ],
+        "max": [
+          4.2,
+          -0.6,
+          8.5
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-06 Group G_55",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-06 Group G_55.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-06 Group G.json",
+      "expression_id": "55",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          4.0,
+          0.2,
+          7.6
+        ],
+        "max": [
+          4.2,
+          0.4,
+          8.5
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-06 Group G_56",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-06 Group G_56.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-06 Group G.json",
+      "expression_id": "56",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          4.0,
+          1.2,
+          7.6
+        ],
+        "max": [
+          4.2,
+          1.4,
+          8.5
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-06 Group G_57",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-06 Group G_57.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-06 Group G.json",
+      "expression_id": "57",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          4.0,
+          2.2,
+          7.6
+        ],
+        "max": [
+          4.2,
+          2.4,
+          8.5
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-06 Group G_58",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-06 Group G_58.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-06 Group G.json",
+      "expression_id": "58",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          4.0,
+          3.2,
+          7.6
+        ],
+        "max": [
+          4.2,
+          3.4,
+          8.5
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-06 Group G_59",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-06 Group G_59.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-06 Group G.json",
+      "expression_id": "59",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -4.2,
+          -3.8,
+          7.6
+        ],
+        "max": [
+          -4.0,
+          -3.6,
+          8.5
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-06 Group G_60",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-06 Group G_60.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-06 Group G.json",
+      "expression_id": "60",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -4.2,
+          -2.8,
+          7.6
+        ],
+        "max": [
+          -4.0,
+          -2.6,
+          8.5
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-06 Group G_61",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-06 Group G_61.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-06 Group G.json",
+      "expression_id": "61",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -4.2,
+          -1.8,
+          7.6
+        ],
+        "max": [
+          -4.0,
+          -1.6,
+          8.5
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-06 Group G_62",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-06 Group G_62.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-06 Group G.json",
+      "expression_id": "62",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -4.2,
+          -0.8,
+          7.6
+        ],
+        "max": [
+          -4.0,
+          -0.6,
+          8.5
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-06 Group G_63",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-06 Group G_63.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-06 Group G.json",
+      "expression_id": "63",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -4.2,
+          0.2,
+          7.6
+        ],
+        "max": [
+          -4.0,
+          0.4,
+          8.5
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-06 Group G_64",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-06 Group G_64.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-06 Group G.json",
+      "expression_id": "64",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -4.2,
+          1.2,
+          7.6
+        ],
+        "max": [
+          -4.0,
+          1.4,
+          8.5
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-06 Group G_65",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-06 Group G_65.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-06 Group G.json",
+      "expression_id": "65",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -4.2,
+          2.2,
+          7.6
+        ],
+        "max": [
+          -4.0,
+          2.4,
+          8.5
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-06 Group G_66",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-06 Group G_66.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-06 Group G.json",
+      "expression_id": "66",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -4.2,
+          3.2,
+          7.6
+        ],
+        "max": [
+          -4.0,
+          3.4,
+          8.5
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-06 Group G_67",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-06 Group G_67.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-06 Group G.json",
+      "expression_id": "67",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -4.2,
+          -4.2,
+          8.5
+        ],
+        "max": [
+          -4.0,
+          4.2,
+          8.7
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-06 Group G_68",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-06 Group G_68.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-06 Group G.json",
+      "expression_id": "68",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          4.0,
+          -4.2,
+          8.5
+        ],
+        "max": [
+          4.2,
+          4.2,
+          8.7
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-06 Group G_69",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-06 Group G_69.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-06 Group G.json",
+      "expression_id": "69",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -4.0,
+          4.0,
+          8.5
+        ],
+        "max": [
+          4.2,
+          4.2,
+          8.7
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-06 Group G_70",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-06 Group G_70.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-06 Group G.json",
+      "expression_id": "70",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -4.0,
+          -4.2,
+          8.5
+        ],
+        "max": [
+          4.2,
+          -4.0,
+          8.7
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-06 Group G_73",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-06 Group G_73.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-06 Group G.json",
+      "expression_id": "73",
+      "family": "Z_SLAB_REGION",
+      "bounds": {
+        "min": [
+          1.0,
+          1.0,
+          7.6
+        ],
+        "max": [
+          3.0,
+          3.0,
+          15.0
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-06 Group G_74",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-06 Group G_74.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-06 Group G.json",
+      "expression_id": "74",
+      "family": "Z_SLAB_REGION",
+      "bounds": {
+        "min": [
+          1.0,
+          -3.0,
+          7.6
+        ],
+        "max": [
+          3.0,
+          -1.0,
+          15.0
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-06 Group G_75",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-06 Group G_75.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-06 Group G.json",
+      "expression_id": "75",
+      "family": "Z_SLAB_REGION",
+      "bounds": {
+        "min": [
+          -3.0,
+          1.0,
+          7.6
+        ],
+        "max": [
+          -1.0,
+          3.0,
+          15.0
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-06 Group G_76",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-06 Group G_76.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-06 Group G.json",
+      "expression_id": "76",
+      "family": "Z_SLAB_REGION",
+      "bounds": {
+        "min": [
+          -3.0,
+          -3.0,
+          7.6
+        ],
+        "max": [
+          -1.0,
+          -1.0,
+          15.0
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-06 Group G_79",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-06 Group G_79.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-06 Group G.json",
+      "expression_id": "79",
+      "family": "Z_SLAB_REGION",
+      "bounds": {
+        "min": [
+          -2.0,
+          -2.0,
+          15.0
+        ],
+        "max": [
+          2.0,
+          2.0,
+          15.6
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-06 Group G_80",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-06 Group G_80.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-06 Group G.json",
+      "expression_id": "80",
+      "family": "Z_SLAB_REGION",
+      "bounds": {
+        "min": [
+          -1.5,
+          -1.5,
+          15.6
+        ],
+        "max": [
+          1.5,
+          1.5,
+          30.0
+        ]
+      }
+    }
+  ],
+  "failures": []
+}

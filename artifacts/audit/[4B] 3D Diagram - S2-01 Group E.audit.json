@@ -1,0 +1,87 @@
+{
+  "source_file": "[4B] 3D Diagram - S2-01 Group E.json",
+  "total_expressions": 52,
+  "supported_count": 23,
+  "recognized_unsupported_count": 0,
+  "unrecognized_count": 0,
+  "geometry_ineligible_count": 29,
+  "per_folder_summary": [
+    {
+      "folder_id": null,
+      "folder_name": null,
+      "total": 12,
+      "supported": 5,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 7
+    },
+    {
+      "folder_id": "453",
+      "folder_name": "#rd floor",
+      "total": 1,
+      "supported": 1,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 0
+    },
+    {
+      "folder_id": "263",
+      "folder_name": "Pillars ",
+      "total": 4,
+      "supported": 0,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 4
+    },
+    {
+      "folder_id": "53",
+      "folder_name": "base",
+      "total": 18,
+      "supported": 10,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 8
+    },
+    {
+      "folder_id": "281",
+      "folder_name": "grass!",
+      "total": 1,
+      "supported": 1,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 0
+    },
+    {
+      "folder_id": "454",
+      "folder_name": "last floor",
+      "total": 1,
+      "supported": 1,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 0
+    },
+    {
+      "folder_id": "259",
+      "folder_name": "mid floor",
+      "total": 15,
+      "supported": 5,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 10
+    }
+  ],
+  "unsupported_expressions": [],
+  "unknown_fingerprints": [],
+  "diagnostics": [
+    {
+      "severity": "INFO",
+      "code": "AUDIT_COMPLETE",
+      "message": "Audit classification complete",
+      "source_ref": null,
+      "details": {
+        "file": "[4B] 3D Diagram - S2-01 Group E.json"
+      }
+    }
+  ],
+  "status": "PASS"
+}

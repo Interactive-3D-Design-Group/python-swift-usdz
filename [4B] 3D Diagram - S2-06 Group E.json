@@ -1,0 +1,485 @@
+{
+  "version": 11,
+  "randomSeed": "4ee6d71fb69acb263f788bf59f68caca",
+  "graph": {
+    "viewport": {
+      "xmin": -562.4523117311907,
+      "ymin": -597.2364941883797,
+      "zmin": -588.2531271137204,
+      "xmax": 503.58360313309174,
+      "ymax": 582.3853021392378,
+      "zmax": 591.368669213897
+    },
+    "worldRotation3D": [
+      -0.8023238242831412,
+      0.46482698607815726,
+      -0.3744494011234229,
+      -0.4212120169061853,
+      -0.8854015320825069,
+      -0.1965822062149419,
+      -0.42291478787345116,
+      1.1523007255193373e-13,
+      0.9061694555647718
+    ],
+    "axis3D": [
+      0,
+      0,
+      0.9999999999951819
+    ],
+    "squareAxes": false,
+    "product": "graphing-3d",
+    "threeDMode": true,
+    "__v12ViewportLatexStash": {
+      "xmin": "-562.4523117311907",
+      "xmax": "503.58360313309174",
+      "ymin": "-597.2364941883797",
+      "ymax": "582.3853021392378",
+      "zmin": "-588.2531271137204",
+      "zmax": "591.368669213897"
+    }
+  },
+  "expressions": {
+    "list": [
+      {
+        "type": "expression",
+        "id": "148",
+        "color": "#c74440",
+        "latex": "c_{1}=\\operatorname{rgb}\\left(0,0,0\\right)"
+      },
+      {
+        "type": "expression",
+        "id": "149",
+        "color": "#2d70b3",
+        "latex": "c_{2}=\\operatorname{rgb}(169,152,123)"
+      },
+      {
+        "type": "expression",
+        "id": "186",
+        "color": "#2d70b3",
+        "latex": "c_{3}=\\operatorname{rgb}(181,147,105)"
+      },
+      {
+        "type": "expression",
+        "id": "190",
+        "color": "#aaaaaa",
+        "latex": "c_{4}=\\operatorname{rgb}(250,235,210)"
+      },
+      {
+        "type": "expression",
+        "id": "194",
+        "color": "#6042a6",
+        "latex": "c_{5}=\\operatorname{rgb}\\left(200,0,0\\right)"
+      },
+      {
+        "type": "expression",
+        "id": "210",
+        "color": "#6042a6",
+        "latex": "c_{6}=\\operatorname{rgb}\\left(100,100,100\\right)"
+      },
+      {
+        "type": "expression",
+        "id": "22",
+        "color": "#2d70b3",
+        "latex": "k=\\left[0...80\\right]"
+      },
+      {
+        "type": "expression",
+        "id": "23",
+        "color": "#388c46",
+        "latex": "t=\\frac{2\\pi k}{80}"
+      },
+      {
+        "type": "expression",
+        "id": "132",
+        "color": "#aaaaaa",
+        "latex": "j=\\frac{2\\pi\\operatorname{mod}\\left(\\left(k+1\\right),81\\right)}{80}"
+      },
+      {
+        "type": "folder",
+        "id": "212",
+        "title": "Floor"
+      },
+      {
+        "type": "expression",
+        "id": "213",
+        "folderId": "212",
+        "color": "#c74440",
+        "latex": "\\frac{x^{2}}{2}+y^{2}<100000",
+        "colorLatex": "c_{2}"
+      },
+      {
+        "type": "folder",
+        "id": "155",
+        "title": "LEVEL 1 AUIFHFWEUF"
+      },
+      {
+        "type": "expression",
+        "id": "20",
+        "folderId": "155",
+        "color": "#aaaaaa",
+        "latex": "a_{1}=\\sqrt{200000}"
+      },
+      {
+        "type": "expression",
+        "id": "21",
+        "folderId": "155",
+        "color": "#c74440",
+        "latex": "b_{1}=\\sqrt{100000}"
+      },
+      {
+        "type": "expression",
+        "id": "1",
+        "folderId": "155",
+        "color": "#c74440",
+        "latex": "\\frac{x^{2}}{2}+y^{2}=100000\\left\\{0<z<5\\right\\}",
+        "extendTo3D": true,
+        "colorLatex": "c_{2}"
+      },
+      {
+        "type": "expression",
+        "id": "150",
+        "folderId": "155",
+        "color": "#388c46",
+        "latex": "\\frac{x^{2}}{2}+y^{2}=102000\\left\\{30<z<35\\right\\}",
+        "colorLatex": "c_{2}"
+      },
+      {
+        "type": "expression",
+        "id": "146",
+        "folderId": "155",
+        "color": "#aaaaaa",
+        "latex": "y\\left\\{-\\sqrt{100000\\left(1-\\frac{x^{2}}{200000}\\right)}<y<\\sqrt{100000\\left(1-\\frac{x^{2}}{200000}\\right)}\\right\\}=\\frac{b_{1}\\sin\\left(j+230\\right)-b_{1}\\sin\\left(t+230\\right)}{a_{1}\\cos\\left(j+230\\right)-a_{1}\\cos\\left(t+230\\right)}\\left(x-a_{1}\\cos\\left(t+230\\right)\\right)+b_{1}\\sin\\left(t+230\\right)\\left\\{0<z<30\\right\\}",
+        "colorLatex": "c_{1}"
+      },
+      {
+        "type": "expression",
+        "id": "25",
+        "folderId": "155",
+        "color": "#aaaaaa",
+        "latex": "a_{1}\\cos\\left(t+230\\right)-2.5<x<a_{1}\\cos\\left(t+230\\right)+2.5\\left\\{\\ b_{1}\\sin\\left(t+230\\right)<y+5<\\ b_{1}\\sin\\left(t+230\\right)+10\\right\\}\\left\\{0<z<30\\right\\}",
+        "colorLatex": "c_{2}"
+      },
+      {
+        "type": "folder",
+        "id": "159",
+        "title": "LEVEL 2 HUGEUHEWOF"
+      },
+      {
+        "type": "expression",
+        "id": "166",
+        "folderId": "159",
+        "color": "#c74440",
+        "latex": "a_{2}=\\sqrt{198000}"
+      },
+      {
+        "type": "expression",
+        "id": "167",
+        "folderId": "159",
+        "color": "#2d70b3",
+        "latex": "b_{2}=\\sqrt{98000}"
+      },
+      {
+        "type": "expression",
+        "id": "165",
+        "folderId": "159",
+        "color": "#aaaaaa",
+        "latex": "y\\left\\{-\\sqrt{98000\\left(1-\\frac{x^{2}}{198000}\\right)}<y<\\sqrt{98000\\left(1-\\frac{x^{2}}{198000}\\right)}\\right\\}=\\frac{b_{2}\\sin\\left(j+230\\right)-b_{2}\\sin\\left(t+230\\right)}{a_{2}\\cos\\left(j+230\\right)-a_{2}\\cos\\left(t+230\\right)}\\left(x-a_{2}\\cos\\left(t+230\\right)\\right)+b_{2}\\sin\\left(t+230\\right)\\left\\{40<z<70\\right\\}",
+        "colorLatex": "c_{1}"
+      },
+      {
+        "type": "expression",
+        "id": "168",
+        "folderId": "159",
+        "color": "#388c46",
+        "latex": "a_{2}\\cos\\left(t+230\\right)-2.5<x<a_{2}\\cos\\left(t+230\\right)+2.5\\left\\{\\ b_{2}\\sin\\left(t+230\\right)<y+5<\\ b_{2}\\sin\\left(t+230\\right)+10\\right\\}\\left\\{40<z<70\\right\\}",
+        "colorLatex": "c_{2}"
+      },
+      {
+        "type": "expression",
+        "id": "169",
+        "folderId": "159",
+        "color": "#6042a6",
+        "latex": "98000<\\frac{x^{2}}{2}+y^{2}<100000\\left\\{35<z<40\\right\\}",
+        "colorLatex": "c_{2}"
+      },
+      {
+        "type": "folder",
+        "id": "172",
+        "title": "LEVEL 3 UHGEWUIGHGEWOUGG"
+      },
+      {
+        "type": "expression",
+        "id": "174",
+        "folderId": "172",
+        "color": "#388c46",
+        "latex": "a_{3}=\\sqrt{196000}"
+      },
+      {
+        "type": "expression",
+        "id": "173",
+        "folderId": "172",
+        "color": "#2d70b3",
+        "latex": "b_{3}=\\sqrt{96000}"
+      },
+      {
+        "type": "expression",
+        "id": "175",
+        "folderId": "172",
+        "color": "#6042a6",
+        "latex": "a_{3}\\cos\\left(t+230\\right)-2.5<x<a_{3}\\cos\\left(t+230\\right)+2.5\\left\\{\\ b_{3}\\sin\\left(t+230\\right)<y+5<\\ b_{3}\\sin\\left(t+230\\right)+10\\right\\}\\left\\{75<z<105\\right\\}",
+        "colorLatex": "c_{2}"
+      },
+      {
+        "type": "expression",
+        "id": "176",
+        "folderId": "172",
+        "color": "#aaaaaa",
+        "latex": "y\\left\\{-\\sqrt{96000\\left(1-\\frac{x^{2}}{196000}\\right)}<y<\\sqrt{96000\\left(1-\\frac{x^{2}}{196000}\\right)}\\right\\}=\\frac{b_{3}\\sin\\left(j+230\\right)-b_{3}\\sin\\left(t+230\\right)}{a_{3}\\cos\\left(j+230\\right)-a_{3}\\cos\\left(t+230\\right)}\\left(x-a_{3}\\cos\\left(t+230\\right)\\right)+b_{3}\\sin\\left(t+230\\right)\\left\\{75<z<105\\right\\}",
+        "colorLatex": "c_{6}"
+      },
+      {
+        "type": "expression",
+        "id": "177",
+        "folderId": "172",
+        "color": "#c74440",
+        "latex": "90000<\\frac{x^{2}}{2}+y^{2}<96000\\left\\{70<z<75\\right\\}",
+        "colorLatex": "c_{2}"
+      },
+      {
+        "type": "folder",
+        "id": "179",
+        "title": "LEVEL 4 BQHUHGUWEJHGIWEJGIWJGIE"
+      },
+      {
+        "type": "expression",
+        "id": "180",
+        "folderId": "179",
+        "color": "#c74440",
+        "latex": "a_{4}=\\sqrt{194000}"
+      },
+      {
+        "type": "expression",
+        "id": "181",
+        "folderId": "179",
+        "color": "#2d70b3",
+        "latex": "b_{4}=\\sqrt{94000}"
+      },
+      {
+        "type": "expression",
+        "id": "182",
+        "folderId": "179",
+        "color": "#388c46",
+        "latex": "a_{4}\\cos\\left(t+230\\right)-2.5<x<a_{4}\\cos\\left(t+230\\right)+2.5\\left\\{\\ b_{4}\\sin\\left(t+230\\right)<y+5<\\ b_{4}\\sin\\left(t+230\\right)+10\\right\\}\\left\\{110<z<170\\right\\}",
+        "colorLatex": "c_{2}"
+      },
+      {
+        "type": "expression",
+        "id": "183",
+        "folderId": "179",
+        "color": "#6042a6",
+        "latex": "94000<\\frac{x^{2}}{2}+y^{2}<100000\\left\\{105<z<110\\right\\}",
+        "colorLatex": "c_{2}"
+      },
+      {
+        "type": "expression",
+        "id": "184",
+        "folderId": "179",
+        "color": "#aaaaaa",
+        "latex": "y\\left\\{-\\sqrt{94000\\left(1-\\frac{x^{2}}{194000}\\right)}<y<\\sqrt{94000\\left(1-\\frac{x^{2}}{194000}\\right)}\\right\\}=\\frac{b_{4}\\sin\\left(j+230\\right)-b_{4}\\sin\\left(t+230\\right)}{a_{4}\\cos\\left(j+230\\right)-a_{4}\\cos\\left(t+230\\right)}\\left(x-a_{4}\\cos\\left(t+230\\right)\\right)+b_{4}\\sin\\left(t+230\\right)\\left\\{110<z<170\\right\\}",
+        "colorLatex": "c_{3}"
+      },
+      {
+        "type": "folder",
+        "id": "188",
+        "title": "ROOF BIUHFEUEWH"
+      },
+      {
+        "type": "expression",
+        "id": "189",
+        "folderId": "188",
+        "color": "#6042a6",
+        "latex": "60000<\\frac{x^{2}}{2}+y^{2}<100000\\left\\{170<z<175\\right\\}",
+        "colorLatex": "c_{4}"
+      },
+      {
+        "type": "expression",
+        "id": "191",
+        "folderId": "188",
+        "color": "#c74440",
+        "latex": "55000<\\frac{x^{2}}{2}+y^{2}<60000\\left\\{170<z<175\\right\\}",
+        "colorLatex": "c_{5}"
+      },
+      {
+        "type": "folder",
+        "id": "195",
+        "title": "cut the roof..."
+      },
+      {
+        "type": "expression",
+        "id": "200",
+        "folderId": "195",
+        "color": "#6042a6",
+        "latex": "a_{5}=\\sqrt{200000}"
+      },
+      {
+        "type": "expression",
+        "id": "201",
+        "folderId": "195",
+        "color": "#aaaaaa",
+        "latex": "b_{5}=\\sqrt{100000}"
+      },
+      {
+        "type": "expression",
+        "id": "202",
+        "folderId": "195",
+        "color": "#c74440",
+        "latex": "a_{6}=\\sqrt{120000}"
+      },
+      {
+        "type": "expression",
+        "id": "203",
+        "folderId": "195",
+        "color": "#2d70b3",
+        "latex": "b_{6}=\\sqrt{60000}"
+      },
+      {
+        "type": "expression",
+        "id": "196",
+        "folderId": "195",
+        "color": "#aaaaaa",
+        "latex": "k_{2}=\\left[0...72\\right]"
+      },
+      {
+        "type": "expression",
+        "id": "199",
+        "folderId": "195",
+        "color": "#388c46",
+        "latex": "t_{2}=\\frac{2\\pi k_{2}}{72}"
+      },
+      {
+        "type": "expression",
+        "id": "209",
+        "color": "#388c46",
+        "latex": "y\\left\\{-60000\\left(\\frac{x^{2}}{120000}-1\\right)<y^{2}<-100000\\left(\\frac{x^{2}}{200000}-1\\right)\\right\\}=\\frac{b_{6}\\sin\\left(t_{2}\\right)-b_{5}\\sin\\left(t_{2}\\right)}{a_{6}\\cos\\left(t_{2}\\right)-a_{5}\\cos\\left(t_{2}\\right)}\\left(x-a_{5}\\cos\\left(t_{2}\\right)\\right)+b_{5}\\sin\\left(t_{2}\\right)\\left\\{180<z<185\\right\\}",
+        "colorLatex": "c_{1}"
+      },
+      {
+        "type": "folder",
+        "id": "224",
+        "title": "Texturing the floor"
+      },
+      {
+        "type": "expression",
+        "id": "226",
+        "folderId": "224",
+        "color": "#2d70b3",
+        "latex": "c_{7}=\\operatorname{rgb}(92,64,51)"
+      },
+      {
+        "type": "expression",
+        "id": "227",
+        "folderId": "224",
+        "color": "#388c46",
+        "latex": "c_{8}=\\operatorname{rgb}(120,85,60)"
+      },
+      {
+        "type": "expression",
+        "id": "228",
+        "folderId": "224",
+        "color": "#6042a6",
+        "latex": "c_{9}=\\operatorname{rgb}(145,110,75)"
+      },
+      {
+        "type": "expression",
+        "id": "229",
+        "folderId": "224",
+        "color": "#aaaaaa",
+        "latex": "c_{10}=\\operatorname{rgb}(110,100,80)"
+      },
+      {
+        "type": "expression",
+        "id": "231",
+        "folderId": "224",
+        "color": "#2d70b3",
+        "latex": "c_{11}=\\operatorname{rgb}(160,140,100)"
+      },
+      {
+        "type": "expression",
+        "id": "214",
+        "folderId": "224",
+        "color": "#2d70b3",
+        "latex": "e^{-\\frac{\\left(x-\\operatorname{random}\\left(1000\\right)\\cdot1000+500\\right)^{2}+\\left(y-\\operatorname{random}\\left(1000\\right)\\cdot600+300\\right)^{2}}{1.1}}>0.0000001\\left\\{-\\sqrt{100000\\left(1-\\frac{x^{2}}{200000}\\right)}<y<\\sqrt{100000\\left(1-\\frac{x^{2}}{200000}\\right)}\\right\\}",
+        "colorLatex": "c_{7}"
+      },
+      {
+        "type": "expression",
+        "id": "217",
+        "folderId": "224",
+        "color": "#6042a6",
+        "latex": "e^{-\\frac{\\left(x-\\operatorname{random}\\left(1000\\right)\\cdot1000+500\\right)^{2}+\\left(y-\\operatorname{random}\\left(1000\\right)\\cdot600+300\\right)^{2}}{1.1}}>0.0000001\\left\\{-\\sqrt{100000\\left(1-\\frac{x^{2}}{200000}\\right)}<y<\\sqrt{100000\\left(1-\\frac{x^{2}}{200000}\\right)}\\right\\}",
+        "colorLatex": "c_{8}"
+      },
+      {
+        "type": "expression",
+        "id": "218",
+        "folderId": "224",
+        "color": "#aaaaaa",
+        "latex": "e^{-\\frac{\\left(x-\\operatorname{random}\\left(1000\\right)\\cdot1000+500\\right)^{2}+\\left(y-\\operatorname{random}\\left(1000\\right)\\cdot600+300\\right)^{2}}{1.1}}>0.0000001\\left\\{-\\sqrt{100000\\left(1-\\frac{x^{2}}{200000}\\right)}<y<\\sqrt{100000\\left(1-\\frac{x^{2}}{200000}\\right)}\\right\\}",
+        "colorLatex": "c_{9}"
+      },
+      {
+        "type": "expression",
+        "id": "222",
+        "folderId": "224",
+        "color": "#6042a6",
+        "latex": "e^{-\\frac{\\left(x-\\operatorname{random}\\left(1000\\right)\\cdot1000+500\\right)^{2}+\\left(y-\\operatorname{random}\\left(1000\\right)\\cdot600+300\\right)^{2}}{1.1}}>0.0000001\\left\\{-\\sqrt{100000\\left(1-\\frac{x^{2}}{200000}\\right)}<y<\\sqrt{100000\\left(1-\\frac{x^{2}}{200000}\\right)}\\right\\}",
+        "colorLatex": "c_{10}"
+      },
+      {
+        "type": "expression",
+        "id": "230",
+        "folderId": "224",
+        "color": "#c74440",
+        "latex": "e^{-\\frac{\\left(x-\\operatorname{random}\\left(1000\\right)\\cdot1000+500\\right)^{2}+\\left(y-\\operatorname{random}\\left(1000\\right)\\cdot600+300\\right)^{2}}{1.1}}>0.0000001\\left\\{-\\sqrt{100000\\left(1-\\frac{x^{2}}{200000}\\right)}<y<\\sqrt{100000\\left(1-\\frac{x^{2}}{200000}\\right)}\\right\\}",
+        "colorLatex": "c_{7}"
+      },
+      {
+        "type": "expression",
+        "id": "248",
+        "folderId": "224",
+        "color": "#388c46",
+        "latex": "e^{-\\frac{\\left(x-\\operatorname{random}\\left(1000\\right)\\cdot1000+500\\right)^{2}+\\left(y-\\operatorname{random}\\left(1000\\right)\\cdot600+300\\right)^{2}}{1.1}}>0.0000001\\left\\{-\\sqrt{100000\\left(1-\\frac{x^{2}}{200000}\\right)}<y<\\sqrt{100000\\left(1-\\frac{x^{2}}{200000}\\right)}\\right\\}",
+        "colorLatex": "c_{3}"
+      },
+      {
+        "type": "expression",
+        "id": "246",
+        "color": "#c74440",
+        "latex": "e^{-\\frac{\\left(x-\\operatorname{random}\\left(10000\\right)\\cdot1000+500\\right)^{2}+\\left(y-\\operatorname{random}\\left(10000\\right)\\cdot600+300\\right)^{2}}{1.1}}>0.0000001\\left\\{-\\sqrt{100000\\left(1-\\frac{x^{2}}{200000}\\right)}<y<\\sqrt{100000\\left(1-\\frac{x^{2}}{200000}\\right)}\\right\\}",
+        "colorLatex": "c_{11}"
+      },
+      {
+        "type": "expression",
+        "id": "247",
+        "color": "#2d70b3"
+      },
+      {
+        "type": "folder",
+        "id": "249",
+        "title": "USDZ: supported fallback (pipeline)",
+        "collapsed": true
+      },
+      {
+        "type": "expression",
+        "id": "250",
+        "folderId": "249",
+        "color": "#888888",
+        "latex": "z=0\\left\\{-2<x<2\\right\\}\\left\\{-2<y<2\\right\\}",
+        "hidden": true
+      }
+    ]
+  },
+  "includeFunctionParametersInRandomSeed": true,
+  "doNotMigrate3dLineWidthZero": true,
+  "doNotMigrateMovablePointStyle": true
+}

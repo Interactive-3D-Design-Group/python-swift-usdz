@@ -1,0 +1,68 @@
+{
+  "source_file": "[4B] 3D Diagram - S2-08 Group D.json",
+  "total_expressions": 64,
+  "supported_count": 46,
+  "recognized_unsupported_count": 0,
+  "unrecognized_count": 3,
+  "geometry_ineligible_count": 15,
+  "per_folder_summary": [
+    {
+      "folder_id": null,
+      "folder_name": null,
+      "total": 64,
+      "supported": 46,
+      "recognized_unsupported": 0,
+      "unrecognized": 3,
+      "geometry_ineligible": 15
+    }
+  ],
+  "unsupported_expressions": [
+    {
+      "expression_id": "10",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "7f20d3e7f6082352",
+      "latex": "\\left(x-0\\right)^{2\\ }+\\ \\left(y-0\\right)^{2\\ }=\\ 275.1\\ \\left\\{0\\ <\\ z\\ <\\ 19\\right\\}\\left\\{0\\ <\\ 2z<\\ 4x\\ +\\ 35\\right\\}",
+      "normalized_latex": "(x-0)^2+(y-0)^2=275.1{0<z<19}{0<2z<4x+35}"
+    },
+    {
+      "expression_id": "13",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "1f5bc91bf1a58538",
+      "latex": "\\left(x-0\\right)^{2\\ }+\\ \\left(y-17.084\\right)^{2\\ }=\\ 0.25\\ \\left\\{0\\ <\\ 2z<\\ 4x\\ +\\ 35\\right\\}\\left\\{0\\ <\\ z\\ <\\ 18\\right\\}",
+      "normalized_latex": "(x-0)^2+(y-17.084)^2=0.25{0<2z<4x+35}{0<z<18}"
+    },
+    {
+      "expression_id": "17",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "fe0e4c04ea585d42",
+      "latex": "\\left(x-0\\right)^{2\\ }+\\ \\left(y+17.084\\right)^{2\\ }=\\ 0.25\\ \\left\\{0\\ <\\ 2z<\\ 4x\\ +\\ 35\\right\\}\\left\\{0\\ <\\ z\\ <\\ 18\\right\\}",
+      "normalized_latex": "(x-0)^2+(y+17.084)^2=0.25{0<2z<4x+35}{0<z<18}"
+    }
+  ],
+  "unknown_fingerprints": [
+    "1f5bc91bf1a58538",
+    "7f20d3e7f6082352",
+    "fe0e4c04ea585d42"
+  ],
+  "diagnostics": [
+    {
+      "severity": "INFO",
+      "code": "AUDIT_COMPLETE",
+      "message": "Audit classification complete",
+      "source_ref": null,
+      "details": {
+        "file": "[4B] 3D Diagram - S2-08 Group D.json"
+      }
+    }
+  ],
+  "status": "PARTIAL"
+}

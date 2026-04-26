@@ -1,0 +1,79 @@
+{
+  "source_file": "[4B] 3D Diagram - S2-01 Group D.json",
+  "total_expressions": 21,
+  "supported_count": 17,
+  "recognized_unsupported_count": 0,
+  "unrecognized_count": 4,
+  "geometry_ineligible_count": 0,
+  "per_folder_summary": [
+    {
+      "folder_id": null,
+      "folder_name": null,
+      "total": 21,
+      "supported": 17,
+      "recognized_unsupported": 0,
+      "unrecognized": 4,
+      "geometry_ineligible": 0
+    }
+  ],
+  "unsupported_expressions": [
+    {
+      "expression_id": "22",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "5f859dd064244aad",
+      "latex": "\\left(0,0.3-0.3t+0.15\\left(4t\\left(1-t\\right)\\right),8+t\\right)\\left\\{0\\le t\\le1\\right\\}",
+      "normalized_latex": "(0,0.3-0.3t+0.15(4t(1-t)),8+t){0<=t<=1}"
+    },
+    {
+      "expression_id": "24",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "2902e5699a0d0885",
+      "latex": "(0,-(0.3-0.3t+0.15(4t(1-t))),8+t)\\left\\{0\\le t\\le1\\right\\}",
+      "normalized_latex": "(0,-(0.3-0.3t+0.15(4t(1-t))),8+t){0<=t<=1}"
+    },
+    {
+      "expression_id": "25",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "b11eea577966f915",
+      "latex": "(0.3-0.3t+0.15(4t(1-t)),0,8+t)\\left\\{0\\le t\\le1\\right\\}",
+      "normalized_latex": "(0.3-0.3t+0.15(4t(1-t)),0,8+t){0<=t<=1}"
+    },
+    {
+      "expression_id": "26",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "b6ce590c595c4882",
+      "latex": "(-(0.3-0.3t+0.15(4t(1-t))),0,8+t)\\left\\{0\\le t\\le1\\right\\}",
+      "normalized_latex": "(-(0.3-0.3t+0.15(4t(1-t))),0,8+t){0<=t<=1}"
+    }
+  ],
+  "unknown_fingerprints": [
+    "2902e5699a0d0885",
+    "5f859dd064244aad",
+    "b11eea577966f915",
+    "b6ce590c595c4882"
+  ],
+  "diagnostics": [
+    {
+      "severity": "INFO",
+      "code": "AUDIT_COMPLETE",
+      "message": "Audit classification complete",
+      "source_ref": null,
+      "details": {
+        "file": "[4B] 3D Diagram - S2-01 Group D.json"
+      }
+    }
+  ],
+  "status": "PARTIAL"
+}

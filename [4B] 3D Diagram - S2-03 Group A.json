@@ -1,0 +1,733 @@
+{
+  "version": 11,
+  "randomSeed": "c0b338b1109fc70bf47e9aa463bb24b3",
+  "graph": {
+    "viewport": {
+      "xmin": -25.015942710168456,
+      "ymin": -25.015942710168456,
+      "zmin": -25.01594271016849,
+      "xmax": 25.015942710168456,
+      "ymax": 25.015942710168456,
+      "zmax": 25.01594271016849
+    },
+    "worldRotation3D": [
+      0.03550354642642142,
+      -0.9993348284405169,
+      0.00833059763211331,
+      0.9729111002977985,
+      0.03646780313867539,
+      0.22828510738014773,
+      -0.22843705721374133,
+      6.606274544601006e-14,
+      0.9735586838457772
+    ],
+    "axis3D": [
+      0,
+      0,
+      -0.9999999999951819
+    ],
+    "product": "graphing-3d",
+    "threeDMode": true,
+    "__v12ViewportLatexStash": {
+      "xmin": "-25.015942710168456",
+      "xmax": "25.015942710168456",
+      "ymin": "-25.015942710168456",
+      "ymax": "25.015942710168456",
+      "zmin": "-25.01594271016849",
+      "zmax": "25.01594271016849"
+    }
+  },
+  "expressions": {
+    "list": [
+      {
+        "type": "expression",
+        "id": "9",
+        "color": "#aaaaaa",
+        "latex": "0\\le z\\le8+(4-2\\cdot\\operatorname{abs}(x))\\left\\{-5<x<5\\right\\}\\ \\left\\{-15\\le y\\le20\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "21",
+        "color": "#aaaaaa",
+        "latex": "z=29-3*\\sqrt{((x-6)^{2}+(y-22)^{2})}\\left\\{20<z<30\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "24",
+        "color": "#aaaaaa",
+        "latex": "z=29-3*\\sqrt{((x+6)^{2}+(y-22)^{2})}\\left\\{20<z<30\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "28",
+        "color": "#aaaaaa",
+        "latex": "y=20\\ \\left\\{-8<x<8\\right\\}\\ \\left\\{0<z<8\\right\\}"
+      },
+      {
+        "type": "folder",
+        "id": "33",
+        "title": "pillar"
+      },
+      {
+        "type": "expression",
+        "id": "39",
+        "folderId": "33",
+        "color": "#aaaaaa",
+        "latex": "3\\le x\\le9\\ \\left\\{19\\le y\\le25\\right\\}\\ \\left\\{0\\le z\\le20\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "40",
+        "folderId": "33",
+        "color": "#aaaaaa",
+        "latex": "-9\\le x\\le-3\\ \\left\\{19\\le y\\le25\\right\\}\\ \\left\\{0\\le z\\le20\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "43",
+        "folderId": "33",
+        "color": "#aaaaaa",
+        "latex": "-3\\le x\\le3\\ \\left\\{19\\le y\\le25\\right\\}\\ \\left\\{0\\le z\\le13\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "42",
+        "color": "#aaaaaa",
+        "latex": "z=19-2*\\sqrt{((x-0)^{2}+(y-22)^{2})}\\left\\{13<z<30\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "44",
+        "color": "#aaaaaa",
+        "latex": "\\ z=8\\left\\{-5<y<5\\right\\}\\ \\left\\{-15<x<15\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "52",
+        "color": "#aaaaaa",
+        "latex": "y=-5\\ \\left\\{-15<x<15\\right\\}\\left\\{0<z<8\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "53",
+        "color": "#aaaaaa",
+        "latex": "y=5\\ \\left\\{-15<x<15\\right\\}\\left\\{0<z<8\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "54",
+        "color": "#aaaaaa",
+        "latex": "x=15\\ \\left\\{-5<y<5\\right\\}\\left\\{0<z<8\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "55",
+        "color": "#aaaaaa",
+        "latex": "x=-15\\ \\left\\{-5<y<5\\right\\}\\left\\{0<z<8\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "45",
+        "color": "#aaaaaa",
+        "latex": "z=8\\left\\{-10<y<20\\right\\}\\ \\left\\{-8<x<8\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "56",
+        "color": "#aaaaaa",
+        "latex": "z=0\\left\\{-10<y<20\\right\\}\\ \\left\\{-8<x<8\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "57",
+        "color": "#aaaaaa",
+        "latex": "x=8\\left\\{-10<y<20\\right\\}\\left\\{0<z<8\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "58",
+        "color": "#aaaaaa",
+        "latex": "x=-8\\left\\{-10<y<20\\right\\}\\left\\{0<z<8\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "47",
+        "color": "#aaaaaa",
+        "latex": "0\\le z\\le8+(4-2\\cdot\\operatorname{abs}(y))\\left\\{-15<x<15\\right\\}\\ \\left\\{-5\\le y\\le5\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "48",
+        "color": "#aaaaaa",
+        "latex": "x^{2}+y^{2}<1\\left\\{0<z<13\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "50",
+        "color": "#aaaaaa",
+        "latex": "z=15-2\\cdot\\sqrt{(x^{2}+y^{2})}\\left\\{13<z<20\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "51",
+        "color": "#aaaaaa",
+        "latex": "(x-0)^{2}+(y+10)^{2}\\le8^{2}\\left\\{0\\le z\\le8\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "59",
+        "color": "#aaaaaa",
+        "latex": "\\ y=\\ 0.3z\\ -0.4\\left\\{8<z\\ <13\\right\\}\\left\\{13<x<15\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "64",
+        "color": "#aaaaaa",
+        "latex": "y\\ =\\ -0.3z\\ +0.4\\left\\{8<z\\ <13\\right\\}\\left\\{13<x<15\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "70",
+        "color": "#aaaaaa",
+        "latex": "y\\ <\\ -0.3z\\ +0.4\\left\\{8<z\\ <13\\right\\}\\left\\{13<x<15\\right\\}\\left\\{y>-3.5\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "66",
+        "color": "#aaaaaa",
+        "latex": "\\ y>\\ 0.3z\\ -0.4\\left\\{8<z\\ <13\\right\\}\\left\\{13<x<15\\right\\}\\left\\{3.5>y>1\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "63",
+        "color": "#aaaaaa",
+        "latex": "y=\\ 0.3z\\ -7.4\\left\\{8<z\\ <13\\right\\}\\left\\{13<x<15\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "69",
+        "color": "#aaaaaa",
+        "latex": "y>\\ 0.3z\\ -7.4\\left\\{8<z\\ <13\\right\\}\\left\\{13<x<15\\right\\}\\left\\{y<-3.5\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "65",
+        "color": "#aaaaaa",
+        "latex": "y\\ =\\ -0.3z\\ +7.4\\left\\{8<z\\ <13\\right\\}\\left\\{13<x<15\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "68",
+        "color": "#aaaaaa",
+        "latex": "y\\ <-0.3z\\ +7.4\\left\\{8<z\\ <13\\right\\}\\left\\{13<x<15\\right\\}\\left\\{y>3.5\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "71",
+        "color": "#aaaaaa",
+        "latex": "15>x\\ >8\\left\\{-10<y<-5\\right\\}\\left\\{14>z>0\\right\\}",
+        "extendTo3D": true
+      },
+      {
+        "type": "expression",
+        "id": "72",
+        "color": "#aaaaaa",
+        "latex": "15>x\\ >8\\left\\{5<y<10\\right\\}\\left\\{14>z>0\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "73",
+        "color": "#aaaaaa",
+        "latex": "z=29-20*\\sqrt{((x-9)^{2}+(y-22)^{2})}\\left\\{0<z<30\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "74",
+        "color": "#aaaaaa",
+        "latex": "z=29-20*\\sqrt{((x+9)^{2}+(y-22)^{2})}\\left\\{0<z<30\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "75",
+        "color": "#aaaaaa",
+        "latex": "3\\le x\\le9\\ \\left\\{19\\le y\\le26\\right\\}\\ \\left\\{0\\le z\\le19\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "76",
+        "color": "#aaaaaa",
+        "latex": "-9\\le x\\le-3\\ \\left\\{19\\le y\\le26\\right\\}\\ \\left\\{0\\le z\\le19\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "77",
+        "color": "#aaaaaa",
+        "latex": "z=24-2*\\sqrt{((x-6)^{2}+(y-24)^{2})}\\left\\{20<z<30\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "78",
+        "color": "#aaaaaa",
+        "latex": "z=24-2*\\sqrt{((x+6)^{2}+(y-24)^{2})}\\left\\{20<z<30\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "79",
+        "color": "#aaaaaa",
+        "latex": "z=25-2*\\sqrt{((x-6)^{2}+(y-23)^{2})}\\left\\{20<z<35\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "80",
+        "color": "#aaaaaa",
+        "latex": "z=25-2*\\sqrt{((x+6)^{2}+(y-23)^{2})}\\left\\{20<z<35\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "81",
+        "color": "#aaaaaa",
+        "latex": "z=5-2*\\sqrt{((x+6)^{2}+(y-25)^{2})}\\left\\{0<z<35\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "82",
+        "color": "#aaaaaa",
+        "latex": "z=5-2*\\sqrt{((x-6)^{2}+(y-25)^{2})}\\left\\{0<z<35\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "83",
+        "color": "#aaaaaa",
+        "latex": "z=25-5*\\sqrt{((x+6)^{2}+(y-25)^{2})}\\left\\{20<z<35\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "84",
+        "color": "#aaaaaa",
+        "latex": "z=25-5*\\sqrt{((x-6)^{2}+(y-25)^{2})}\\left\\{20<z<35\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "85",
+        "color": "#aaaaaa",
+        "latex": "z=25-7*\\sqrt{((x-6)^{2}+(y-25)^{2})}\\left\\{10<z<35\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "86",
+        "color": "#aaaaaa",
+        "latex": "z=25-7*\\sqrt{((x-6)^{2}+(y-25)^{2})}\\left\\{10<z<35\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "88",
+        "color": "#aaaaaa",
+        "latex": "z=25-7*\\sqrt{((x+6)^{2}+(y-25)^{2})}\\left\\{10<z<35\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "89",
+        "color": "#aaaaaa",
+        "latex": "4\\le x\\le8\\left\\{19\\le y\\le27\\right\\}\\ \\left\\{0\\le z\\le10\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "90",
+        "color": "#aaaaaa",
+        "latex": "-8\\le x\\le-4\\left\\{19\\le y\\le27\\right\\}\\ \\left\\{0\\le z\\le10\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "91",
+        "color": "#aaaaaa",
+        "latex": "z=25-20*\\sqrt{((x-2.5)^{2}+(y-25)^{2})}\\left\\{0<z<20\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "92",
+        "color": "#aaaaaa",
+        "latex": "z=25-20*\\sqrt{((x+2.5)^{2}+(y-25)^{2})}\\left\\{0<z<20\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "93",
+        "color": "#aaaaaa",
+        "latex": "z=25-20*\\sqrt{((x-0)^{2}+(y-22)^{2})}\\left\\{13<z<20\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "94",
+        "color": "#aaaaaa",
+        "latex": "z=25-6*\\sqrt{((x-0)^{2}+(y-24)^{2})}\\left\\{11<z<13\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "95",
+        "color": "#aaaaaa",
+        "latex": "-2\\le x\\le2\\ \\left\\{19\\le y\\le26\\right\\}\\ \\left\\{0\\le z\\le11\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "96",
+        "color": "#aaaaaa",
+        "latex": "z=29-20*\\sqrt{((x-10)^{2}+(y-22)^{2})}\\left\\{0<z<30\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "97",
+        "color": "#aaaaaa",
+        "latex": "z=29-20*\\sqrt{((x+10)^{2}+(y-22)^{2})}\\left\\{0<z<30\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "98",
+        "color": "#aaaaaa",
+        "latex": "5\\le x\\le7\\left\\{19\\le y\\le27.5\\right\\}\\ \\left\\{8\\le z\\le9\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "99",
+        "color": "#aaaaaa",
+        "latex": "5\\le x\\le7\\left\\{19\\le y\\le27.5\\right\\}\\ \\left\\{6\\le z\\le7\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "100",
+        "color": "#aaaaaa",
+        "latex": "5\\le x\\le7\\left\\{19\\le y\\le27.5\\right\\}\\ \\left\\{4\\le z\\le5\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "101",
+        "color": "#aaaaaa",
+        "latex": "5\\le x\\le7\\left\\{19\\le y\\le27.5\\right\\}\\ \\left\\{2\\le z\\le3\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "102",
+        "color": "#aaaaaa",
+        "latex": "-7\\le x\\le-5\\left\\{19\\le y\\le27.5\\right\\}\\ \\left\\{8\\le z\\le9\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "103",
+        "color": "#aaaaaa",
+        "latex": "-7\\le x\\le-5\\left\\{19\\le y\\le27.5\\right\\}\\ \\left\\{6\\le z\\le7\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "104",
+        "color": "#aaaaaa",
+        "latex": "-7\\le x\\le-5\\left\\{19\\le y\\le27.5\\right\\}\\ \\left\\{4\\le z\\le5\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "105",
+        "color": "#aaaaaa",
+        "latex": "-7\\le x\\le-5\\left\\{19\\le y\\le27.5\\right\\}\\ \\left\\{2\\le z\\le3\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "106",
+        "color": "#aaaaaa",
+        "latex": "-1\\le x\\le1\\ \\left\\{19\\le y\\le26\\right\\}\\ \\left\\{0\\le z\\le10\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "107",
+        "color": "#aaaaaa",
+        "latex": "z=29-20*\\sqrt{((x-14)^{2}+(y-0)^{2})}\\left\\{0<z<10\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "108",
+        "color": "#aaaaaa",
+        "latex": "16>x\\ >8\\left\\{-9<y<-6\\right\\}\\left\\{13>z>0\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "109",
+        "color": "#aaaaaa",
+        "latex": "z=25-6*\\sqrt{((x-12)^{2}+(y-7.5)^{2})}\\left\\{14<z<24\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "110",
+        "color": "#aaaaaa",
+        "latex": "z=25-6*\\sqrt{((x-12)^{2}+(y+7.5)^{2})}\\left\\{14<z<24\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "111",
+        "color": "#aaaaaa",
+        "latex": "16>x\\ >8\\left\\{-5<y<-2\\right\\}\\left\\{8>z>0\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "112",
+        "color": "#aaaaaa",
+        "latex": "16>x\\ >8\\left\\{6<y<9\\right\\}\\left\\{13>z>0\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "113",
+        "color": "#aaaaaa",
+        "latex": "16>x\\ >8\\left\\{2<y<5\\right\\}\\left\\{8>z>0\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "114",
+        "color": "#aaaaaa",
+        "latex": "(x-0)^{2}+(y-25)^{2}\\le2^{2}\\left\\{0\\le z\\le10\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "115",
+        "color": "#aaaaaa",
+        "latex": "(x-8)^{2}+(y-10)^{2}\\le2^{2}\\left\\{0\\le z\\le8\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "116",
+        "color": "#aaaaaa",
+        "latex": "z=29-10*\\sqrt{((x-12)^{2}+(y-8.5)^{2})}\\left\\{0<z<14\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "117",
+        "color": "#aaaaaa",
+        "latex": "(x-7)^{2}+(y-15)^{2}\\le2^{2}\\left\\{0\\le z\\le6\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "118",
+        "color": "#aaaaaa",
+        "latex": "z=29-50*\\sqrt{((x-14.5)^{2}+(y-0)^{2})}\\left\\{10<z<15\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "119",
+        "color": "#aaaaaa",
+        "latex": "z=29-10*\\sqrt{((x-12)^{2}+(y+8.5)^{2})}\\left\\{0<z<14\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "121",
+        "color": "#aaaaaa",
+        "latex": "-16<x\\ <-8\\left\\{-5<y<-2\\right\\}\\left\\{8>z>0\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "122",
+        "color": "#aaaaaa",
+        "latex": "-16<x\\ <-8\\left\\{-9<y<-6\\right\\}\\left\\{13>z>0\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "123",
+        "color": "#aaaaaa",
+        "latex": "-16<x\\ <-8\\left\\{-9<y<-6\\right\\}\\left\\{13>z>0\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "124",
+        "color": "#aaaaaa",
+        "latex": "-15<x\\ <-8\\left\\{-10<y<-5\\right\\}\\left\\{14>z>0\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "125",
+        "color": "#aaaaaa",
+        "latex": "z=29-10*\\sqrt{((x+12)^{2}+(y+8.5)^{2})}\\left\\{0<z<14\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "126",
+        "color": "#aaaaaa",
+        "latex": "y>\\ 0.3z\\ -7.4\\left\\{8<z\\ <13\\right\\}\\left\\{-15<x<-13\\right\\}\\left\\{y<-3.5\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "128",
+        "color": "#aaaaaa",
+        "latex": "y\\ <\\ -0.3z\\ +0.4\\left\\{8<z\\ <13\\right\\}\\left\\{-15<x<-13\\right\\}\\left\\{y>-3.5\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "129",
+        "color": "#aaaaaa",
+        "latex": "z=25-6*\\sqrt{((x+12)^{2}+(y+7.5)^{2})}\\left\\{14<z<24\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "130",
+        "color": "#aaaaaa",
+        "latex": "z=29-20*\\sqrt{((x+14)^{2}+(y-0)^{2})}\\left\\{0<z<10\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "131",
+        "color": "#aaaaaa",
+        "latex": "z=29-50*\\sqrt{((x+14.5)^{2}+(y-0)^{2})}\\left\\{10<z<15\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "133",
+        "color": "#aaaaaa",
+        "latex": "-8>x\\ >-16\\left\\{2<y<5\\right\\}\\left\\{8>z>0\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "134",
+        "color": "#aaaaaa",
+        "latex": "\\ y>\\ 0.3z\\ -0.4\\left\\{8<z\\ <13\\right\\}\\left\\{-15<x<-13\\right\\}\\left\\{3.5>y>1\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "135",
+        "color": "#aaaaaa",
+        "latex": "y\\ <-0.3z\\ +7.4\\left\\{8<z\\ <13\\right\\}\\left\\{-15<x<-13\\right\\}\\left\\{y>3.5\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "137",
+        "color": "#aaaaaa",
+        "latex": "-8>x\\ >-15\\left\\{5<y<10\\right\\}\\left\\{14>z>0\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "138",
+        "color": "#aaaaaa",
+        "latex": "-8>x\\ >-16\\left\\{6<y<9\\right\\}\\left\\{13>z>0\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "139",
+        "color": "#aaaaaa",
+        "latex": "z=25-6*\\sqrt{((x+12)^{2}+(y-7.5)^{2})}\\left\\{14<z<24\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "140",
+        "color": "#aaaaaa",
+        "latex": "z=29-10*\\sqrt{((x+12)^{2}+(y-8.5)^{2})}\\left\\{0<z<14\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "141",
+        "color": "#aaaaaa",
+        "latex": "(x+8)^{2}+(y-10)^{2}\\le2^{2}\\left\\{0\\le z\\le8\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "142",
+        "color": "#aaaaaa",
+        "latex": "(x+7)^{2}+(y-15)^{2}\\le2^{2}\\left\\{0\\le z\\le6\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "150",
+        "color": "#aaaaaa",
+        "latex": "z=15-6*\\sqrt{((x+5)^{2}+(y-15)^{2})}\\left\\{8<z<24\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "156",
+        "color": "#aaaaaa",
+        "latex": "z=15-6*\\sqrt{((x+6)^{2}+(y-10)^{2})}\\left\\{8<z<24\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "157",
+        "color": "#aaaaaa",
+        "latex": "z=15-6*\\sqrt{((x+5)^{2}+(y-12.5)^{2})}\\left\\{8<z<24\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "158",
+        "color": "#aaaaaa",
+        "latex": "z=15-6*\\sqrt{((x+5)^{2}+(y-17.5)^{2})}\\left\\{8<z<24\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "151",
+        "color": "#aaaaaa",
+        "latex": "z=15-6*\\sqrt{((x-5)^{2}+(y-15)^{2})}\\left\\{8<z<24\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "152",
+        "color": "#aaaaaa",
+        "latex": "z=15-6*\\sqrt{((x-6)^{2}+(y-10)^{2})}\\left\\{8<z<24\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "153",
+        "color": "#aaaaaa",
+        "latex": "z=15-6*\\sqrt{((x-5)^{2}+(y-12.5)^{2})}\\left\\{8<z<24\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "155",
+        "color": "#aaaaaa",
+        "latex": "z=15-6*\\sqrt{((x-5)^{2}+(y-17.5)^{2})}\\left\\{8<z<24\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "159",
+        "color": "#aaaaaa",
+        "latex": "z=15-6*\\sqrt{((x+5)^{2}+(y+13)^{2})}\\left\\{8<z<24\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "160",
+        "color": "#aaaaaa",
+        "latex": "z=15-6*\\sqrt{((x+5)^{2}+(y+10)^{2})}\\left\\{8<z<24\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "161",
+        "color": "#aaaaaa",
+        "latex": "z=15-6*\\sqrt{((x-5)^{2}+(y+13)^{2})}\\left\\{8<z<24\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "162",
+        "color": "#aaaaaa",
+        "latex": "z=15-6*\\sqrt{((x-5)^{2}+(y+10)^{2})}\\left\\{8<z<24\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "163",
+        "color": "#aaaaaa",
+        "latex": "z=15-6*\\sqrt{((x+0)^{2}+(y+16)^{2})}\\left\\{8<z<15\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "164",
+        "color": "#aaaaaa",
+        "latex": "z=20-6*\\sqrt{((x+0)^{2}+(y+16)^{2})}\\left\\{0<z<8\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "165",
+        "color": "#aaaaaa",
+        "latex": "z=17-6*\\sqrt{((x+4.9)^{2}+(y+14)^{2})}\\left\\{0<z<6\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "166",
+        "color": "#aaaaaa",
+        "latex": "z=17-6*\\sqrt{((x-4.9)^{2}+(y+14)^{2})}\\left\\{0<z<6\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "168",
+        "color": "#6042a6"
+      }
+    ]
+  },
+  "includeFunctionParametersInRandomSeed": true,
+  "doNotMigrate3dLineWidthZero": true,
+  "doNotMigrateMovablePointStyle": true
+}

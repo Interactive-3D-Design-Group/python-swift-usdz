@@ -1,0 +1,1968 @@
+{
+  "schema_version": 1,
+  "mesh_count": 98,
+  "failed_mesh_count": 0,
+  "meshes": [
+    {
+      "name": "[4B] 3D Diagram - S2-04 Group B_2",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-04 Group B_2.obj",
+      "color": "#2d70b3",
+      "source_file": "[4B] 3D Diagram - S2-04 Group B.json",
+      "expression_id": "2",
+      "family": "PARAMETRIC_UV_SURFACE",
+      "bounds": {
+        "min": [
+          -8.5,
+          -2.5,
+          0.0
+        ],
+        "max": [
+          8.5,
+          -2.5,
+          0.4
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-04 Group B_3",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-04 Group B_3.obj",
+      "color": "#388c46",
+      "source_file": "[4B] 3D Diagram - S2-04 Group B.json",
+      "expression_id": "3",
+      "family": "PARAMETRIC_UV_SURFACE",
+      "bounds": {
+        "min": [
+          -8.5,
+          2.5,
+          0.0
+        ],
+        "max": [
+          8.5,
+          2.5,
+          0.4
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-04 Group B_4",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-04 Group B_4.obj",
+      "color": "#6042a6",
+      "source_file": "[4B] 3D Diagram - S2-04 Group B.json",
+      "expression_id": "4",
+      "family": "PARAMETRIC_UV_SURFACE",
+      "bounds": {
+        "min": [
+          -8.5,
+          -2.5,
+          0.0
+        ],
+        "max": [
+          -8.5,
+          2.5,
+          0.4
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-04 Group B_5",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-04 Group B_5.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-04 Group B.json",
+      "expression_id": "5",
+      "family": "PARAMETRIC_UV_SURFACE",
+      "bounds": {
+        "min": [
+          8.5,
+          -2.5,
+          0.0
+        ],
+        "max": [
+          8.5,
+          2.5,
+          0.4
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-04 Group B_6",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-04 Group B_6.obj",
+      "color": "#c74440",
+      "source_file": "[4B] 3D Diagram - S2-04 Group B.json",
+      "expression_id": "6",
+      "family": "PARAMETRIC_UV_SURFACE",
+      "bounds": {
+        "min": [
+          -8.5,
+          -2.5,
+          0.4
+        ],
+        "max": [
+          8.5,
+          2.5,
+          0.4
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-04 Group B_8",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-04 Group B_8.obj",
+      "color": "#388c46",
+      "source_file": "[4B] 3D Diagram - S2-04 Group B.json",
+      "expression_id": "8",
+      "family": "PARAMETRIC_UV_SURFACE",
+      "bounds": {
+        "min": [
+          -8.0,
+          -2.4,
+          0.4
+        ],
+        "max": [
+          8.0,
+          -2.4,
+          0.7
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-04 Group B_9",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-04 Group B_9.obj",
+      "color": "#6042a6",
+      "source_file": "[4B] 3D Diagram - S2-04 Group B.json",
+      "expression_id": "9",
+      "family": "PARAMETRIC_UV_SURFACE",
+      "bounds": {
+        "min": [
+          -8.0,
+          2.4,
+          0.4
+        ],
+        "max": [
+          8.0,
+          2.4,
+          0.7
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-04 Group B_10",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-04 Group B_10.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-04 Group B.json",
+      "expression_id": "10",
+      "family": "PARAMETRIC_UV_SURFACE",
+      "bounds": {
+        "min": [
+          -8.0,
+          -2.4,
+          0.4
+        ],
+        "max": [
+          -8.0,
+          2.4,
+          0.7
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-04 Group B_11",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-04 Group B_11.obj",
+      "color": "#c74440",
+      "source_file": "[4B] 3D Diagram - S2-04 Group B.json",
+      "expression_id": "11",
+      "family": "PARAMETRIC_UV_SURFACE",
+      "bounds": {
+        "min": [
+          8.0,
+          -2.4,
+          0.4
+        ],
+        "max": [
+          8.0,
+          2.4,
+          0.7
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-04 Group B_12",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-04 Group B_12.obj",
+      "color": "#2d70b3",
+      "source_file": "[4B] 3D Diagram - S2-04 Group B.json",
+      "expression_id": "12",
+      "family": "PARAMETRIC_UV_SURFACE",
+      "bounds": {
+        "min": [
+          -8.0,
+          -2.4,
+          0.7
+        ],
+        "max": [
+          8.0,
+          2.4,
+          0.7
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-04 Group B_14",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-04 Group B_14.obj",
+      "color": "#6042a6",
+      "source_file": "[4B] 3D Diagram - S2-04 Group B.json",
+      "expression_id": "14",
+      "family": "PARAMETRIC_UV_SURFACE",
+      "bounds": {
+        "min": [
+          -7.5,
+          -2.3,
+          0.7
+        ],
+        "max": [
+          7.5,
+          -2.3,
+          1.0
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-04 Group B_15",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-04 Group B_15.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-04 Group B.json",
+      "expression_id": "15",
+      "family": "PARAMETRIC_UV_SURFACE",
+      "bounds": {
+        "min": [
+          -7.5,
+          2.3,
+          0.7
+        ],
+        "max": [
+          7.5,
+          2.3,
+          1.0
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-04 Group B_16",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-04 Group B_16.obj",
+      "color": "#c74440",
+      "source_file": "[4B] 3D Diagram - S2-04 Group B.json",
+      "expression_id": "16",
+      "family": "PARAMETRIC_UV_SURFACE",
+      "bounds": {
+        "min": [
+          -7.5,
+          -2.3,
+          0.7
+        ],
+        "max": [
+          -7.5,
+          2.3,
+          1.0
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-04 Group B_17",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-04 Group B_17.obj",
+      "color": "#2d70b3",
+      "source_file": "[4B] 3D Diagram - S2-04 Group B.json",
+      "expression_id": "17",
+      "family": "PARAMETRIC_UV_SURFACE",
+      "bounds": {
+        "min": [
+          7.5,
+          -2.3,
+          0.7
+        ],
+        "max": [
+          7.5,
+          2.3,
+          1.0
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-04 Group B_18",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-04 Group B_18.obj",
+      "color": "#388c46",
+      "source_file": "[4B] 3D Diagram - S2-04 Group B.json",
+      "expression_id": "18",
+      "family": "PARAMETRIC_UV_SURFACE",
+      "bounds": {
+        "min": [
+          -7.5,
+          -2.3,
+          1.0
+        ],
+        "max": [
+          7.5,
+          2.3,
+          1.0
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-04 Group B_20",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-04 Group B_20.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-04 Group B.json",
+      "expression_id": "20",
+      "family": "PARAMETRIC_UV_SURFACE",
+      "bounds": {
+        "min": [
+          -7.5,
+          -2.25,
+          1.0
+        ],
+        "max": [
+          -3.0,
+          -2.25,
+          14.0
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-04 Group B_21",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-04 Group B_21.obj",
+      "color": "#c74440",
+      "source_file": "[4B] 3D Diagram - S2-04 Group B.json",
+      "expression_id": "21",
+      "family": "PARAMETRIC_UV_SURFACE",
+      "bounds": {
+        "min": [
+          -7.5,
+          2.25,
+          1.0
+        ],
+        "max": [
+          -3.0,
+          2.25,
+          14.0
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-04 Group B_22",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-04 Group B_22.obj",
+      "color": "#2d70b3",
+      "source_file": "[4B] 3D Diagram - S2-04 Group B.json",
+      "expression_id": "22",
+      "family": "PARAMETRIC_UV_SURFACE",
+      "bounds": {
+        "min": [
+          -7.5,
+          -2.25,
+          1.0
+        ],
+        "max": [
+          -7.5,
+          2.25,
+          14.0
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-04 Group B_23",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-04 Group B_23.obj",
+      "color": "#388c46",
+      "source_file": "[4B] 3D Diagram - S2-04 Group B.json",
+      "expression_id": "23",
+      "family": "PARAMETRIC_UV_SURFACE",
+      "bounds": {
+        "min": [
+          -3.0,
+          -2.25,
+          1.0
+        ],
+        "max": [
+          -3.0,
+          2.25,
+          14.0
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-04 Group B_25",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-04 Group B_25.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-04 Group B.json",
+      "expression_id": "25",
+      "family": "PARAMETRIC_UV_SURFACE",
+      "bounds": {
+        "min": [
+          3.0,
+          -2.25,
+          1.0
+        ],
+        "max": [
+          7.5,
+          -2.25,
+          14.0
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-04 Group B_26",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-04 Group B_26.obj",
+      "color": "#c74440",
+      "source_file": "[4B] 3D Diagram - S2-04 Group B.json",
+      "expression_id": "26",
+      "family": "PARAMETRIC_UV_SURFACE",
+      "bounds": {
+        "min": [
+          3.0,
+          2.25,
+          1.0
+        ],
+        "max": [
+          7.5,
+          2.25,
+          14.0
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-04 Group B_27",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-04 Group B_27.obj",
+      "color": "#2d70b3",
+      "source_file": "[4B] 3D Diagram - S2-04 Group B.json",
+      "expression_id": "27",
+      "family": "PARAMETRIC_UV_SURFACE",
+      "bounds": {
+        "min": [
+          7.5,
+          -2.25,
+          1.0
+        ],
+        "max": [
+          7.5,
+          2.25,
+          14.0
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-04 Group B_28",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-04 Group B_28.obj",
+      "color": "#388c46",
+      "source_file": "[4B] 3D Diagram - S2-04 Group B.json",
+      "expression_id": "28",
+      "family": "PARAMETRIC_UV_SURFACE",
+      "bounds": {
+        "min": [
+          3.0,
+          -2.25,
+          1.0
+        ],
+        "max": [
+          3.0,
+          2.25,
+          14.0
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-04 Group B_37",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-04 Group B_37.obj",
+      "color": "#2d70b3",
+      "source_file": "[4B] 3D Diagram - S2-04 Group B.json",
+      "expression_id": "37",
+      "family": "PARAMETRIC_UV_SURFACE",
+      "bounds": {
+        "min": [
+          -3.0,
+          -2.25,
+          13.0
+        ],
+        "max": [
+          3.0,
+          -2.25,
+          14.0
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-04 Group B_38",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-04 Group B_38.obj",
+      "color": "#388c46",
+      "source_file": "[4B] 3D Diagram - S2-04 Group B.json",
+      "expression_id": "38",
+      "family": "PARAMETRIC_UV_SURFACE",
+      "bounds": {
+        "min": [
+          -3.0,
+          2.25,
+          13.0
+        ],
+        "max": [
+          3.0,
+          2.25,
+          14.0
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-04 Group B_40",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-04 Group B_40.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-04 Group B.json",
+      "expression_id": "40",
+      "family": "PARAMETRIC_UV_SURFACE",
+      "bounds": {
+        "min": [
+          -7.9,
+          -2.35,
+          14.0
+        ],
+        "max": [
+          7.9,
+          -2.35,
+          14.6
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-04 Group B_41",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-04 Group B_41.obj",
+      "color": "#c74440",
+      "source_file": "[4B] 3D Diagram - S2-04 Group B.json",
+      "expression_id": "41",
+      "family": "PARAMETRIC_UV_SURFACE",
+      "bounds": {
+        "min": [
+          -7.9,
+          2.35,
+          14.0
+        ],
+        "max": [
+          7.9,
+          2.35,
+          14.6
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-04 Group B_42",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-04 Group B_42.obj",
+      "color": "#2d70b3",
+      "source_file": "[4B] 3D Diagram - S2-04 Group B.json",
+      "expression_id": "42",
+      "family": "PARAMETRIC_UV_SURFACE",
+      "bounds": {
+        "min": [
+          -7.9,
+          -2.35,
+          14.0
+        ],
+        "max": [
+          -7.9,
+          2.35,
+          14.6
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-04 Group B_43",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-04 Group B_43.obj",
+      "color": "#388c46",
+      "source_file": "[4B] 3D Diagram - S2-04 Group B.json",
+      "expression_id": "43",
+      "family": "PARAMETRIC_UV_SURFACE",
+      "bounds": {
+        "min": [
+          7.9,
+          -2.35,
+          14.0
+        ],
+        "max": [
+          7.9,
+          2.35,
+          14.6
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-04 Group B_45",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-04 Group B_45.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-04 Group B.json",
+      "expression_id": "45",
+      "family": "PARAMETRIC_UV_SURFACE",
+      "bounds": {
+        "min": [
+          -7.5,
+          2.26,
+          10.0
+        ],
+        "max": [
+          -3.0,
+          2.26,
+          10.1
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-04 Group B_46",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-04 Group B_46.obj",
+      "color": "#c74440",
+      "source_file": "[4B] 3D Diagram - S2-04 Group B.json",
+      "expression_id": "46",
+      "family": "PARAMETRIC_UV_SURFACE",
+      "bounds": {
+        "min": [
+          3.0,
+          2.26,
+          10.0
+        ],
+        "max": [
+          7.5,
+          2.26,
+          10.1
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-04 Group B_48",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-04 Group B_48.obj",
+      "color": "#388c46",
+      "source_file": "[4B] 3D Diagram - S2-04 Group B.json",
+      "expression_id": "48",
+      "family": "PARAMETRIC_UV_SURFACE",
+      "bounds": {
+        "min": [
+          -7.5,
+          -2.25,
+          14.6
+        ],
+        "max": [
+          7.5,
+          -2.25,
+          17.5
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-04 Group B_49",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-04 Group B_49.obj",
+      "color": "#6042a6",
+      "source_file": "[4B] 3D Diagram - S2-04 Group B.json",
+      "expression_id": "49",
+      "family": "PARAMETRIC_UV_SURFACE",
+      "bounds": {
+        "min": [
+          -7.5,
+          2.25,
+          14.6
+        ],
+        "max": [
+          7.5,
+          2.25,
+          17.5
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-04 Group B_50",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-04 Group B_50.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-04 Group B.json",
+      "expression_id": "50",
+      "family": "PARAMETRIC_UV_SURFACE",
+      "bounds": {
+        "min": [
+          -7.5,
+          -2.25,
+          14.6
+        ],
+        "max": [
+          -7.5,
+          2.25,
+          17.5
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-04 Group B_51",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-04 Group B_51.obj",
+      "color": "#c74440",
+      "source_file": "[4B] 3D Diagram - S2-04 Group B.json",
+      "expression_id": "51",
+      "family": "PARAMETRIC_UV_SURFACE",
+      "bounds": {
+        "min": [
+          7.5,
+          -2.25,
+          14.6
+        ],
+        "max": [
+          7.5,
+          2.25,
+          17.5
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-04 Group B_52",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-04 Group B_52.obj",
+      "color": "#2d70b3",
+      "source_file": "[4B] 3D Diagram - S2-04 Group B.json",
+      "expression_id": "52",
+      "family": "PARAMETRIC_UV_SURFACE",
+      "bounds": {
+        "min": [
+          -7.5,
+          -2.25,
+          17.5
+        ],
+        "max": [
+          7.5,
+          2.25,
+          17.5
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-04 Group B_54",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-04 Group B_54.obj",
+      "color": "#6042a6",
+      "source_file": "[4B] 3D Diagram - S2-04 Group B.json",
+      "expression_id": "54",
+      "family": "PARAMETRIC_UV_SURFACE",
+      "bounds": {
+        "min": [
+          -3.0,
+          -2.27,
+          15.0
+        ],
+        "max": [
+          3.0,
+          -2.27,
+          16.8
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-04 Group B_55",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-04 Group B_55.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-04 Group B.json",
+      "expression_id": "55",
+      "family": "PARAMETRIC_UV_SURFACE",
+      "bounds": {
+        "min": [
+          -3.0,
+          2.27,
+          15.0
+        ],
+        "max": [
+          3.0,
+          2.27,
+          16.8
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-04 Group B_66",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-04 Group B_66.obj",
+      "color": "#c74440",
+      "source_file": "[4B] 3D Diagram - S2-04 Group B.json",
+      "expression_id": "66",
+      "family": "PARAMETRIC_UV_SURFACE",
+      "bounds": {
+        "min": [
+          -7.9,
+          -2.35,
+          17.5
+        ],
+        "max": [
+          7.9,
+          -2.35,
+          18.0
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-04 Group B_67",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-04 Group B_67.obj",
+      "color": "#2d70b3",
+      "source_file": "[4B] 3D Diagram - S2-04 Group B.json",
+      "expression_id": "67",
+      "family": "PARAMETRIC_UV_SURFACE",
+      "bounds": {
+        "min": [
+          -7.9,
+          2.35,
+          17.5
+        ],
+        "max": [
+          7.9,
+          2.35,
+          18.0
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-04 Group B_68",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-04 Group B_68.obj",
+      "color": "#388c46",
+      "source_file": "[4B] 3D Diagram - S2-04 Group B.json",
+      "expression_id": "68",
+      "family": "PARAMETRIC_UV_SURFACE",
+      "bounds": {
+        "min": [
+          -7.9,
+          -2.35,
+          17.5
+        ],
+        "max": [
+          -7.9,
+          2.35,
+          18.0
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-04 Group B_69",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-04 Group B_69.obj",
+      "color": "#6042a6",
+      "source_file": "[4B] 3D Diagram - S2-04 Group B.json",
+      "expression_id": "69",
+      "family": "PARAMETRIC_UV_SURFACE",
+      "bounds": {
+        "min": [
+          7.9,
+          -2.35,
+          17.5
+        ],
+        "max": [
+          7.9,
+          2.35,
+          18.0
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-04 Group B_70",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-04 Group B_70.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-04 Group B.json",
+      "expression_id": "70",
+      "family": "PARAMETRIC_UV_SURFACE",
+      "bounds": {
+        "min": [
+          -7.9,
+          -2.35,
+          17.5
+        ],
+        "max": [
+          7.9,
+          2.35,
+          17.5
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-04 Group B_71",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-04 Group B_71.obj",
+      "color": "#c74440",
+      "source_file": "[4B] 3D Diagram - S2-04 Group B.json",
+      "expression_id": "71",
+      "family": "PARAMETRIC_UV_SURFACE",
+      "bounds": {
+        "min": [
+          -7.9,
+          -2.35,
+          18.0
+        ],
+        "max": [
+          7.9,
+          2.35,
+          18.0
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-04 Group B_73",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-04 Group B_73.obj",
+      "color": "#388c46",
+      "source_file": "[4B] 3D Diagram - S2-04 Group B.json",
+      "expression_id": "73",
+      "family": "PARAMETRIC_UV_SURFACE",
+      "bounds": {
+        "min": [
+          -6.5,
+          -2.1,
+          18.0
+        ],
+        "max": [
+          6.5,
+          -2.1,
+          19.0
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-04 Group B_74",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-04 Group B_74.obj",
+      "color": "#6042a6",
+      "source_file": "[4B] 3D Diagram - S2-04 Group B.json",
+      "expression_id": "74",
+      "family": "PARAMETRIC_UV_SURFACE",
+      "bounds": {
+        "min": [
+          -6.5,
+          2.1,
+          18.0
+        ],
+        "max": [
+          6.5,
+          2.1,
+          19.0
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-04 Group B_75",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-04 Group B_75.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-04 Group B.json",
+      "expression_id": "75",
+      "family": "PARAMETRIC_UV_SURFACE",
+      "bounds": {
+        "min": [
+          -6.5,
+          -2.1,
+          18.0
+        ],
+        "max": [
+          -6.5,
+          2.1,
+          19.0
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-04 Group B_76",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-04 Group B_76.obj",
+      "color": "#c74440",
+      "source_file": "[4B] 3D Diagram - S2-04 Group B.json",
+      "expression_id": "76",
+      "family": "PARAMETRIC_UV_SURFACE",
+      "bounds": {
+        "min": [
+          6.5,
+          -2.1,
+          18.0
+        ],
+        "max": [
+          6.5,
+          2.1,
+          19.0
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-04 Group B_77",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-04 Group B_77.obj",
+      "color": "#2d70b3",
+      "source_file": "[4B] 3D Diagram - S2-04 Group B.json",
+      "expression_id": "77",
+      "family": "PARAMETRIC_UV_SURFACE",
+      "bounds": {
+        "min": [
+          -6.5,
+          -2.1,
+          19.0
+        ],
+        "max": [
+          6.5,
+          2.1,
+          19.0
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-04 Group B_79",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-04 Group B_79.obj",
+      "color": "#6042a6",
+      "source_file": "[4B] 3D Diagram - S2-04 Group B.json",
+      "expression_id": "79",
+      "family": "PARAMETRIC_UV_SURFACE",
+      "bounds": {
+        "min": [
+          -5.0,
+          -1.8,
+          19.0
+        ],
+        "max": [
+          5.0,
+          -1.8,
+          20.0
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-04 Group B_80",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-04 Group B_80.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-04 Group B.json",
+      "expression_id": "80",
+      "family": "PARAMETRIC_UV_SURFACE",
+      "bounds": {
+        "min": [
+          -5.0,
+          1.8,
+          19.0
+        ],
+        "max": [
+          5.0,
+          1.8,
+          20.0
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-04 Group B_81",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-04 Group B_81.obj",
+      "color": "#c74440",
+      "source_file": "[4B] 3D Diagram - S2-04 Group B.json",
+      "expression_id": "81",
+      "family": "PARAMETRIC_UV_SURFACE",
+      "bounds": {
+        "min": [
+          -5.0,
+          -1.8,
+          19.0
+        ],
+        "max": [
+          -5.0,
+          1.8,
+          20.0
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-04 Group B_82",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-04 Group B_82.obj",
+      "color": "#2d70b3",
+      "source_file": "[4B] 3D Diagram - S2-04 Group B.json",
+      "expression_id": "82",
+      "family": "PARAMETRIC_UV_SURFACE",
+      "bounds": {
+        "min": [
+          5.0,
+          -1.8,
+          19.0
+        ],
+        "max": [
+          5.0,
+          1.8,
+          20.0
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-04 Group B_83",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-04 Group B_83.obj",
+      "color": "#388c46",
+      "source_file": "[4B] 3D Diagram - S2-04 Group B.json",
+      "expression_id": "83",
+      "family": "PARAMETRIC_UV_SURFACE",
+      "bounds": {
+        "min": [
+          -5.0,
+          -1.8,
+          20.0
+        ],
+        "max": [
+          5.0,
+          1.8,
+          20.0
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-04 Group B_85",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-04 Group B_85.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-04 Group B.json",
+      "expression_id": "85",
+      "family": "PARAMETRIC_UV_SURFACE",
+      "bounds": {
+        "min": [
+          -3.5,
+          -1.4,
+          20.0
+        ],
+        "max": [
+          3.5,
+          -1.4,
+          20.6
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-04 Group B_86",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-04 Group B_86.obj",
+      "color": "#c74440",
+      "source_file": "[4B] 3D Diagram - S2-04 Group B.json",
+      "expression_id": "86",
+      "family": "PARAMETRIC_UV_SURFACE",
+      "bounds": {
+        "min": [
+          -3.5,
+          1.4,
+          20.0
+        ],
+        "max": [
+          3.5,
+          1.4,
+          20.6
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-04 Group B_87",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-04 Group B_87.obj",
+      "color": "#2d70b3",
+      "source_file": "[4B] 3D Diagram - S2-04 Group B.json",
+      "expression_id": "87",
+      "family": "PARAMETRIC_UV_SURFACE",
+      "bounds": {
+        "min": [
+          -3.5,
+          -1.4,
+          20.0
+        ],
+        "max": [
+          -3.5,
+          1.4,
+          20.6
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-04 Group B_88",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-04 Group B_88.obj",
+      "color": "#388c46",
+      "source_file": "[4B] 3D Diagram - S2-04 Group B.json",
+      "expression_id": "88",
+      "family": "PARAMETRIC_UV_SURFACE",
+      "bounds": {
+        "min": [
+          3.5,
+          -1.4,
+          20.0
+        ],
+        "max": [
+          3.5,
+          1.4,
+          20.6
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-04 Group B_89",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-04 Group B_89.obj",
+      "color": "#6042a6",
+      "source_file": "[4B] 3D Diagram - S2-04 Group B.json",
+      "expression_id": "89",
+      "family": "PARAMETRIC_UV_SURFACE",
+      "bounds": {
+        "min": [
+          -3.5,
+          -1.4,
+          20.6
+        ],
+        "max": [
+          3.5,
+          1.4,
+          20.6
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-04 Group B_91",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-04 Group B_91.obj",
+      "color": "#c74440",
+      "source_file": "[4B] 3D Diagram - S2-04 Group B.json",
+      "expression_id": "91",
+      "family": "PARAMETRIC_UV_SURFACE",
+      "bounds": {
+        "min": [
+          -2.5,
+          -1.1,
+          20.6
+        ],
+        "max": [
+          2.5,
+          -1.1,
+          21.0
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-04 Group B_92",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-04 Group B_92.obj",
+      "color": "#2d70b3",
+      "source_file": "[4B] 3D Diagram - S2-04 Group B.json",
+      "expression_id": "92",
+      "family": "PARAMETRIC_UV_SURFACE",
+      "bounds": {
+        "min": [
+          -2.5,
+          1.1,
+          20.6
+        ],
+        "max": [
+          2.5,
+          1.1,
+          21.0
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-04 Group B_93",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-04 Group B_93.obj",
+      "color": "#388c46",
+      "source_file": "[4B] 3D Diagram - S2-04 Group B.json",
+      "expression_id": "93",
+      "family": "PARAMETRIC_UV_SURFACE",
+      "bounds": {
+        "min": [
+          -2.5,
+          -1.1,
+          20.6
+        ],
+        "max": [
+          -2.5,
+          1.1,
+          21.0
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-04 Group B_94",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-04 Group B_94.obj",
+      "color": "#6042a6",
+      "source_file": "[4B] 3D Diagram - S2-04 Group B.json",
+      "expression_id": "94",
+      "family": "PARAMETRIC_UV_SURFACE",
+      "bounds": {
+        "min": [
+          2.5,
+          -1.1,
+          20.6
+        ],
+        "max": [
+          2.5,
+          1.1,
+          21.0
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-04 Group B_95",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-04 Group B_95.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-04 Group B.json",
+      "expression_id": "95",
+      "family": "PARAMETRIC_UV_SURFACE",
+      "bounds": {
+        "min": [
+          -2.5,
+          -1.1,
+          21.0
+        ],
+        "max": [
+          2.5,
+          1.1,
+          21.0
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-04 Group B_98",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-04 Group B_98.obj",
+      "color": "#388c46",
+      "source_file": "[4B] 3D Diagram - S2-04 Group B.json",
+      "expression_id": "98",
+      "family": "PARAMETRIC_UV_SURFACE",
+      "bounds": {
+        "min": [
+          -7.4,
+          -2.26,
+          1.0
+        ],
+        "max": [
+          -6.9,
+          -2.26,
+          14.0
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-04 Group B_99",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-04 Group B_99.obj",
+      "color": "#6042a6",
+      "source_file": "[4B] 3D Diagram - S2-04 Group B.json",
+      "expression_id": "99",
+      "family": "PARAMETRIC_UV_SURFACE",
+      "bounds": {
+        "min": [
+          -3.7,
+          -2.26,
+          1.0
+        ],
+        "max": [
+          -3.2,
+          -2.26,
+          14.0
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-04 Group B_101",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-04 Group B_101.obj",
+      "color": "#c74440",
+      "source_file": "[4B] 3D Diagram - S2-04 Group B.json",
+      "expression_id": "101",
+      "family": "PARAMETRIC_UV_SURFACE",
+      "bounds": {
+        "min": [
+          3.2,
+          -2.26,
+          1.0
+        ],
+        "max": [
+          3.7,
+          -2.26,
+          14.0
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-04 Group B_102",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-04 Group B_102.obj",
+      "color": "#2d70b3",
+      "source_file": "[4B] 3D Diagram - S2-04 Group B.json",
+      "expression_id": "102",
+      "family": "PARAMETRIC_UV_SURFACE",
+      "bounds": {
+        "min": [
+          6.9,
+          -2.26,
+          1.0
+        ],
+        "max": [
+          7.4,
+          -2.26,
+          14.0
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-04 Group B_104",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-04 Group B_104.obj",
+      "color": "#6042a6",
+      "source_file": "[4B] 3D Diagram - S2-04 Group B.json",
+      "expression_id": "104",
+      "family": "PARAMETRIC_UV_SURFACE",
+      "bounds": {
+        "min": [
+          -7.4,
+          2.26,
+          1.0
+        ],
+        "max": [
+          -6.9,
+          2.26,
+          14.0
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-04 Group B_105",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-04 Group B_105.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-04 Group B.json",
+      "expression_id": "105",
+      "family": "PARAMETRIC_UV_SURFACE",
+      "bounds": {
+        "min": [
+          -3.7,
+          2.26,
+          1.0
+        ],
+        "max": [
+          -3.2,
+          2.26,
+          14.0
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-04 Group B_107",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-04 Group B_107.obj",
+      "color": "#2d70b3",
+      "source_file": "[4B] 3D Diagram - S2-04 Group B.json",
+      "expression_id": "107",
+      "family": "PARAMETRIC_UV_SURFACE",
+      "bounds": {
+        "min": [
+          3.2,
+          2.26,
+          1.0
+        ],
+        "max": [
+          3.7,
+          2.26,
+          14.0
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-04 Group B_108",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-04 Group B_108.obj",
+      "color": "#388c46",
+      "source_file": "[4B] 3D Diagram - S2-04 Group B.json",
+      "expression_id": "108",
+      "family": "PARAMETRIC_UV_SURFACE",
+      "bounds": {
+        "min": [
+          6.9,
+          2.26,
+          1.0
+        ],
+        "max": [
+          7.4,
+          2.26,
+          14.0
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-04 Group B_110",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-04 Group B_110.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-04 Group B.json",
+      "expression_id": "110",
+      "family": "PARAMETRIC_UV_SURFACE",
+      "bounds": {
+        "min": [
+          -7.5,
+          -2.26,
+          4.0
+        ],
+        "max": [
+          -3.0,
+          -2.26,
+          4.1
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-04 Group B_111",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-04 Group B_111.obj",
+      "color": "#c74440",
+      "source_file": "[4B] 3D Diagram - S2-04 Group B.json",
+      "expression_id": "111",
+      "family": "PARAMETRIC_UV_SURFACE",
+      "bounds": {
+        "min": [
+          -7.5,
+          -2.26,
+          7.0
+        ],
+        "max": [
+          -3.0,
+          -2.26,
+          7.1
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-04 Group B_112",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-04 Group B_112.obj",
+      "color": "#2d70b3",
+      "source_file": "[4B] 3D Diagram - S2-04 Group B.json",
+      "expression_id": "112",
+      "family": "PARAMETRIC_UV_SURFACE",
+      "bounds": {
+        "min": [
+          -7.5,
+          -2.26,
+          10.0
+        ],
+        "max": [
+          -3.0,
+          -2.26,
+          10.1
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-04 Group B_113",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-04 Group B_113.obj",
+      "color": "#388c46",
+      "source_file": "[4B] 3D Diagram - S2-04 Group B.json",
+      "expression_id": "113",
+      "family": "PARAMETRIC_UV_SURFACE",
+      "bounds": {
+        "min": [
+          -7.5,
+          -2.26,
+          13.0
+        ],
+        "max": [
+          -3.0,
+          -2.26,
+          13.1
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-04 Group B_115",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-04 Group B_115.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-04 Group B.json",
+      "expression_id": "115",
+      "family": "PARAMETRIC_UV_SURFACE",
+      "bounds": {
+        "min": [
+          3.0,
+          -2.26,
+          4.0
+        ],
+        "max": [
+          7.5,
+          -2.26,
+          4.1
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-04 Group B_116",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-04 Group B_116.obj",
+      "color": "#c74440",
+      "source_file": "[4B] 3D Diagram - S2-04 Group B.json",
+      "expression_id": "116",
+      "family": "PARAMETRIC_UV_SURFACE",
+      "bounds": {
+        "min": [
+          3.0,
+          -2.26,
+          7.0
+        ],
+        "max": [
+          7.5,
+          -2.26,
+          7.1
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-04 Group B_117",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-04 Group B_117.obj",
+      "color": "#2d70b3",
+      "source_file": "[4B] 3D Diagram - S2-04 Group B.json",
+      "expression_id": "117",
+      "family": "PARAMETRIC_UV_SURFACE",
+      "bounds": {
+        "min": [
+          3.0,
+          -2.26,
+          10.0
+        ],
+        "max": [
+          7.5,
+          -2.26,
+          10.1
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-04 Group B_118",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-04 Group B_118.obj",
+      "color": "#388c46",
+      "source_file": "[4B] 3D Diagram - S2-04 Group B.json",
+      "expression_id": "118",
+      "family": "PARAMETRIC_UV_SURFACE",
+      "bounds": {
+        "min": [
+          3.0,
+          -2.26,
+          13.0
+        ],
+        "max": [
+          7.5,
+          -2.26,
+          13.1
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-04 Group B_123",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-04 Group B_123.obj",
+      "color": "#388c46",
+      "source_file": "[4B] 3D Diagram - S2-04 Group B.json",
+      "expression_id": "123",
+      "family": "PARAMETRIC_UV_SURFACE",
+      "bounds": {
+        "min": [
+          -7.5,
+          2.26,
+          4.0
+        ],
+        "max": [
+          -3.0,
+          2.26,
+          4.1
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-04 Group B_124",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-04 Group B_124.obj",
+      "color": "#6042a6",
+      "source_file": "[4B] 3D Diagram - S2-04 Group B.json",
+      "expression_id": "124",
+      "family": "PARAMETRIC_UV_SURFACE",
+      "bounds": {
+        "min": [
+          -7.5,
+          2.26,
+          7.0
+        ],
+        "max": [
+          -3.0,
+          2.26,
+          7.1
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-04 Group B_126",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-04 Group B_126.obj",
+      "color": "#c74440",
+      "source_file": "[4B] 3D Diagram - S2-04 Group B.json",
+      "expression_id": "126",
+      "family": "PARAMETRIC_UV_SURFACE",
+      "bounds": {
+        "min": [
+          3.0,
+          2.26,
+          4.0
+        ],
+        "max": [
+          7.5,
+          2.26,
+          4.1
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-04 Group B_127",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-04 Group B_127.obj",
+      "color": "#2d70b3",
+      "source_file": "[4B] 3D Diagram - S2-04 Group B.json",
+      "expression_id": "127",
+      "family": "PARAMETRIC_UV_SURFACE",
+      "bounds": {
+        "min": [
+          3.0,
+          2.26,
+          7.0
+        ],
+        "max": [
+          7.5,
+          2.26,
+          7.1
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-04 Group B_176",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-04 Group B_176.obj",
+      "color": "#c74440",
+      "source_file": "[4B] 3D Diagram - S2-04 Group B.json",
+      "expression_id": "176",
+      "family": "PARAMETRIC_UV_SURFACE",
+      "bounds": {
+        "min": [
+          -7.2,
+          -2.26,
+          2.0
+        ],
+        "max": [
+          -4.2,
+          -2.26,
+          11.0
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-04 Group B_177",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-04 Group B_177.obj",
+      "color": "#2d70b3",
+      "source_file": "[4B] 3D Diagram - S2-04 Group B.json",
+      "expression_id": "177",
+      "family": "PARAMETRIC_UV_SURFACE",
+      "bounds": {
+        "min": [
+          4.2,
+          -2.26,
+          2.0
+        ],
+        "max": [
+          7.2,
+          -2.26,
+          11.0
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-04 Group B_179",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-04 Group B_179.obj",
+      "color": "#6042a6",
+      "source_file": "[4B] 3D Diagram - S2-04 Group B.json",
+      "expression_id": "179",
+      "family": "PARAMETRIC_UV_SURFACE",
+      "bounds": {
+        "min": [
+          -7.2,
+          2.26,
+          2.0
+        ],
+        "max": [
+          -4.2,
+          2.26,
+          11.0
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-04 Group B_180",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-04 Group B_180.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-04 Group B.json",
+      "expression_id": "180",
+      "family": "PARAMETRIC_UV_SURFACE",
+      "bounds": {
+        "min": [
+          4.2,
+          2.26,
+          2.0
+        ],
+        "max": [
+          7.2,
+          2.26,
+          11.0
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-04 Group B_182",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-04 Group B_182.obj",
+      "color": "#2d70b3",
+      "source_file": "[4B] 3D Diagram - S2-04 Group B.json",
+      "expression_id": "182",
+      "family": "PARAMETRIC_UV_SURFACE",
+      "bounds": {
+        "min": [
+          -7.2,
+          2.26,
+          2.0
+        ],
+        "max": [
+          -4.2,
+          2.26,
+          11.0
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-04 Group B_183",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-04 Group B_183.obj",
+      "color": "#388c46",
+      "source_file": "[4B] 3D Diagram - S2-04 Group B.json",
+      "expression_id": "183",
+      "family": "PARAMETRIC_UV_SURFACE",
+      "bounds": {
+        "min": [
+          4.2,
+          2.26,
+          2.0
+        ],
+        "max": [
+          7.2,
+          2.26,
+          11.0
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-04 Group B_185",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-04 Group B_185.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-04 Group B.json",
+      "expression_id": "185",
+      "family": "PARAMETRIC_UV_SURFACE",
+      "bounds": {
+        "min": [
+          -7.5,
+          -2.25,
+          14.0
+        ],
+        "max": [
+          -3.0,
+          2.25,
+          14.0
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-04 Group B_186",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-04 Group B_186.obj",
+      "color": "#c74440",
+      "source_file": "[4B] 3D Diagram - S2-04 Group B.json",
+      "expression_id": "186",
+      "family": "PARAMETRIC_UV_SURFACE",
+      "bounds": {
+        "min": [
+          3.0,
+          -2.25,
+          14.0
+        ],
+        "max": [
+          7.5,
+          2.25,
+          14.0
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-04 Group B_188",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-04 Group B_188.obj",
+      "color": "#388c46",
+      "source_file": "[4B] 3D Diagram - S2-04 Group B.json",
+      "expression_id": "188",
+      "family": "PARAMETRIC_UV_SURFACE",
+      "bounds": {
+        "min": [
+          -7.5,
+          -2.27,
+          15.3
+        ],
+        "max": [
+          -5.5,
+          -2.27,
+          16.3
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-04 Group B_189",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-04 Group B_189.obj",
+      "color": "#6042a6",
+      "source_file": "[4B] 3D Diagram - S2-04 Group B.json",
+      "expression_id": "189",
+      "family": "PARAMETRIC_UV_SURFACE",
+      "bounds": {
+        "min": [
+          5.5,
+          -2.27,
+          15.3
+        ],
+        "max": [
+          7.5,
+          -2.27,
+          16.3
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-04 Group B_190",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-04 Group B_190.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-04 Group B.json",
+      "expression_id": "190",
+      "family": "PARAMETRIC_UV_SURFACE",
+      "bounds": {
+        "min": [
+          -7.5,
+          2.27,
+          15.3
+        ],
+        "max": [
+          -5.5,
+          2.27,
+          16.3
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-04 Group B_191",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-04 Group B_191.obj",
+      "color": "#c74440",
+      "source_file": "[4B] 3D Diagram - S2-04 Group B.json",
+      "expression_id": "191",
+      "family": "PARAMETRIC_UV_SURFACE",
+      "bounds": {
+        "min": [
+          5.5,
+          2.27,
+          15.3
+        ],
+        "max": [
+          7.5,
+          2.27,
+          16.3
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-04 Group B_193",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-04 Group B_193.obj",
+      "color": "#388c46",
+      "source_file": "[4B] 3D Diagram - S2-04 Group B.json",
+      "expression_id": "193",
+      "family": "PARAMETRIC_UV_SURFACE",
+      "bounds": {
+        "min": [
+          -7.9,
+          -2.35,
+          15.5
+        ],
+        "max": [
+          -7.9,
+          2.35,
+          15.65
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-04 Group B_194",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-04 Group B_194.obj",
+      "color": "#6042a6",
+      "source_file": "[4B] 3D Diagram - S2-04 Group B.json",
+      "expression_id": "194",
+      "family": "PARAMETRIC_UV_SURFACE",
+      "bounds": {
+        "min": [
+          7.9,
+          -2.35,
+          15.5
+        ],
+        "max": [
+          7.9,
+          2.35,
+          15.65
+        ]
+      }
+    }
+  ],
+  "failures": []
+}

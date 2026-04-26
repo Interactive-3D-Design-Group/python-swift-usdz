@@ -1,0 +1,188 @@
+{
+  "schema_version": 1,
+  "mesh_count": 9,
+  "failed_mesh_count": 0,
+  "meshes": [
+    {
+      "name": "[4B] 3D Diagram - S2-08 Group C_16",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-08 Group C_16.obj",
+      "color": "#388c46",
+      "source_file": "[4B] 3D Diagram - S2-08 Group C.json",
+      "expression_id": "16",
+      "family": "Z_SLAB_REGION",
+      "bounds": {
+        "min": [
+          -6.5,
+          -2.5,
+          0.0
+        ],
+        "max": [
+          6.5,
+          2.5,
+          0.3
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-08 Group C_9",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-08 Group C_9.obj",
+      "color": "#6042a6",
+      "source_file": "[4B] 3D Diagram - S2-08 Group C.json",
+      "expression_id": "9",
+      "family": "Z_SLAB_REGION",
+      "bounds": {
+        "min": [
+          -6.0,
+          -2.3,
+          6.6
+        ],
+        "max": [
+          6.0,
+          2.0,
+          7.2
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-08 Group C_10",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-08 Group C_10.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-08 Group C.json",
+      "expression_id": "10",
+      "family": "Z_SLAB_REGION",
+      "bounds": {
+        "min": [
+          -6.3,
+          -2.2,
+          7.2
+        ],
+        "max": [
+          6.3,
+          2.2,
+          7.9
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-08 Group C_11",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-08 Group C_11.obj",
+      "color": "#c74440",
+      "source_file": "[4B] 3D Diagram - S2-08 Group C.json",
+      "expression_id": "11",
+      "family": "Z_SLAB_REGION",
+      "bounds": {
+        "min": [
+          -6.5,
+          -2.4,
+          7.9
+        ],
+        "max": [
+          6.5,
+          2.4,
+          8.2
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-08 Group C_12",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-08 Group C_12.obj",
+      "color": "#2d70b3",
+      "source_file": "[4B] 3D Diagram - S2-08 Group C.json",
+      "expression_id": "12",
+      "family": "Z_SLAB_REGION",
+      "bounds": {
+        "min": [
+          -5.0,
+          -1.0,
+          8.2
+        ],
+        "max": [
+          5.0,
+          1.0,
+          9.5
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-08 Group C_13",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-08 Group C_13.obj",
+      "color": "#388c46",
+      "source_file": "[4B] 3D Diagram - S2-08 Group C.json",
+      "expression_id": "13",
+      "family": "Z_SLAB_REGION",
+      "bounds": {
+        "min": [
+          -1.5,
+          -0.5,
+          9.5
+        ],
+        "max": [
+          1.5,
+          0.5,
+          9.8
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-08 Group C_15",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-08 Group C_15.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-08 Group C.json",
+      "expression_id": "15",
+      "family": "Z_SLAB_REGION",
+      "bounds": {
+        "min": [
+          0.8,
+          -0.3,
+          9.8
+        ],
+        "max": [
+          1.4,
+          0.3,
+          10.3
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-08 Group C_23",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-08 Group C_23.obj",
+      "color": "#c74440",
+      "source_file": "[4B] 3D Diagram - S2-08 Group C.json",
+      "expression_id": "23",
+      "family": "Z_SLAB_REGION",
+      "bounds": {
+        "min": [
+          -9.0,
+          -2.5,
+          0.0
+        ],
+        "max": [
+          -6.299999999999999,
+          2.5,
+          8.2
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-08 Group C_24",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-08 Group C_24.obj",
+      "color": "#c74440",
+      "source_file": "[4B] 3D Diagram - S2-08 Group C.json",
+      "expression_id": "24",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          6.3,
+          -2.5,
+          0.0
+        ],
+        "max": [
+          9.0,
+          2.5,
+          8.2
+        ]
+      }
+    }
+  ],
+  "failures": []
+}

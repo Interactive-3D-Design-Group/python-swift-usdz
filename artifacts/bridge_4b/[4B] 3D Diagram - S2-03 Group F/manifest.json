@@ -1,0 +1,408 @@
+{
+  "schema_version": 1,
+  "mesh_count": 20,
+  "failed_mesh_count": 0,
+  "meshes": [
+    {
+      "name": "[4B] 3D Diagram - S2-03 Group F_87",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-03 Group F_87.obj",
+      "color": "#388c46",
+      "source_file": "[4B] 3D Diagram - S2-03 Group F.json",
+      "expression_id": "87",
+      "family": "PARAMETRIC_T_CURVE",
+      "bounds": {
+        "min": [
+          -0.23284762665352257,
+          -0.23284762665352257,
+          30.0
+        ],
+        "max": [
+          0.23284762665352257,
+          0.23284762665352257,
+          33.0
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-03 Group F_90",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-03 Group F_90.obj",
+      "color": "#c74440",
+      "source_file": "[4B] 3D Diagram - S2-03 Group F.json",
+      "expression_id": "90",
+      "family": "PARAMETRIC_T_CURVE",
+      "bounds": {
+        "min": [
+          -3.9,
+          -4.132847626653523,
+          5.467152373346478
+        ],
+        "max": [
+          3.9,
+          -3.6671523733464775,
+          5.932847626653523
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-03 Group F_94",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-03 Group F_94.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-03 Group F.json",
+      "expression_id": "94",
+      "family": "PARAMETRIC_T_CURVE",
+      "bounds": {
+        "min": [
+          -1.9,
+          -2.1328476266535223,
+          11.267152373346477
+        ],
+        "max": [
+          1.9,
+          -1.6671523733464773,
+          11.732847626653523
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-03 Group F_98",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-03 Group F_98.obj",
+      "color": "#6042a6",
+      "source_file": "[4B] 3D Diagram - S2-03 Group F.json",
+      "expression_id": "98",
+      "family": "PARAMETRIC_T_CURVE",
+      "bounds": {
+        "min": [
+          -0.7,
+          -0.9328476266535225,
+          27.367152373346478
+        ],
+        "max": [
+          0.7,
+          -0.4671523733464774,
+          27.832847626653525
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-03 Group F_102",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-03 Group F_102.obj",
+      "color": "#388c46",
+      "source_file": "[4B] 3D Diagram - S2-03 Group F.json",
+      "expression_id": "102",
+      "family": "PARAMETRIC_T_CURVE",
+      "bounds": {
+        "min": [
+          -6.25,
+          -6.482847626653522,
+          -0.23284762665352257
+        ],
+        "max": [
+          6.25,
+          -6.017152373346478,
+          0.23284762665352257
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-03 Group F_104",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-03 Group F_104.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-03 Group F.json",
+      "expression_id": "104",
+      "family": "PARAMETRIC_T_CURVE",
+      "bounds": {
+        "min": [
+          -3.32090115428264,
+          4.467152373346478,
+          0.9263746152826647
+        ],
+        "max": [
+          3.3209011542826397,
+          4.932847626653523,
+          5.932326851030254
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-03 Group F_105",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-03 Group F_105.obj",
+      "color": "#c74440",
+      "source_file": "[4B] 3D Diagram - S2-03 Group F.json",
+      "expression_id": "105",
+      "family": "PARAMETRIC_T_CURVE",
+      "bounds": {
+        "min": [
+          -3.32090115428264,
+          -4.932847626653523,
+          0.9263746152826647
+        ],
+        "max": [
+          3.3209011542826397,
+          -4.467152373346478,
+          5.932326851030254
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-03 Group F_106",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-03 Group F_106.obj",
+      "color": "#2d70b3",
+      "source_file": "[4B] 3D Diagram - S2-03 Group F.json",
+      "expression_id": "106",
+      "family": "PARAMETRIC_T_CURVE",
+      "bounds": {
+        "min": [
+          4.467152373346478,
+          -3.32090115428264,
+          0.9263746152826647
+        ],
+        "max": [
+          4.932847626653523,
+          3.3209011542826397,
+          5.932326851030254
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-03 Group F_107",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-03 Group F_107.obj",
+      "color": "#388c46",
+      "source_file": "[4B] 3D Diagram - S2-03 Group F.json",
+      "expression_id": "107",
+      "family": "PARAMETRIC_T_CURVE",
+      "bounds": {
+        "min": [
+          -4.932847626653523,
+          -3.32090115428264,
+          0.9263746152826647
+        ],
+        "max": [
+          -4.467152373346478,
+          3.3209011542826397,
+          5.932326851030254
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-03 Group F_113",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-03 Group F_113.obj",
+      "color": "#6042a6",
+      "source_file": "[4B] 3D Diagram - S2-03 Group F.json",
+      "expression_id": "113",
+      "family": "PARAMETRIC_UV_SURFACE",
+      "bounds": {
+        "min": [
+          -3.9,
+          -3.9,
+          5.7
+        ],
+        "max": [
+          3.9,
+          3.9,
+          5.7
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-03 Group F_114",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-03 Group F_114.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-03 Group F.json",
+      "expression_id": "114",
+      "family": "PARAMETRIC_UV_SURFACE",
+      "bounds": {
+        "min": [
+          -1.9,
+          -1.9,
+          11.5
+        ],
+        "max": [
+          1.9,
+          1.9,
+          11.5
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-03 Group F_115",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-03 Group F_115.obj",
+      "color": "#c74440",
+      "source_file": "[4B] 3D Diagram - S2-03 Group F.json",
+      "expression_id": "115",
+      "family": "PARAMETRIC_UV_SURFACE",
+      "bounds": {
+        "min": [
+          -0.7,
+          -0.7,
+          27.6
+        ],
+        "max": [
+          0.7,
+          0.7,
+          27.6
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-03 Group F_122",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-03 Group F_122.obj",
+      "color": "#388c46",
+      "source_file": "[4B] 3D Diagram - S2-03 Group F.json",
+      "expression_id": "122",
+      "family": "PARAMETRIC_UV_SURFACE",
+      "bounds": {
+        "min": [
+          -3.9,
+          1.9,
+          5.7
+        ],
+        "max": [
+          3.9,
+          3.9,
+          11.5
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-03 Group F_123",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-03 Group F_123.obj",
+      "color": "#6042a6",
+      "source_file": "[4B] 3D Diagram - S2-03 Group F.json",
+      "expression_id": "123",
+      "family": "PARAMETRIC_UV_SURFACE",
+      "bounds": {
+        "min": [
+          -3.9,
+          -3.9,
+          5.7
+        ],
+        "max": [
+          3.9,
+          -1.9,
+          11.5
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-03 Group F_124",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-03 Group F_124.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-03 Group F.json",
+      "expression_id": "124",
+      "family": "PARAMETRIC_UV_SURFACE",
+      "bounds": {
+        "min": [
+          1.9,
+          -3.9,
+          5.7
+        ],
+        "max": [
+          3.9,
+          3.9,
+          11.5
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-03 Group F_125",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-03 Group F_125.obj",
+      "color": "#c74440",
+      "source_file": "[4B] 3D Diagram - S2-03 Group F.json",
+      "expression_id": "125",
+      "family": "PARAMETRIC_UV_SURFACE",
+      "bounds": {
+        "min": [
+          -3.9,
+          -3.9,
+          5.7
+        ],
+        "max": [
+          -1.9,
+          3.9,
+          11.5
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-03 Group F_127",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-03 Group F_127.obj",
+      "color": "#388c46",
+      "source_file": "[4B] 3D Diagram - S2-03 Group F.json",
+      "expression_id": "127",
+      "family": "PARAMETRIC_UV_SURFACE",
+      "bounds": {
+        "min": [
+          -1.9,
+          0.7,
+          11.5
+        ],
+        "max": [
+          1.9,
+          1.9,
+          27.6
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-03 Group F_128",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-03 Group F_128.obj",
+      "color": "#6042a6",
+      "source_file": "[4B] 3D Diagram - S2-03 Group F.json",
+      "expression_id": "128",
+      "family": "PARAMETRIC_UV_SURFACE",
+      "bounds": {
+        "min": [
+          -1.9,
+          -1.9,
+          11.5
+        ],
+        "max": [
+          1.9,
+          -0.7,
+          27.6
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-03 Group F_129",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-03 Group F_129.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-03 Group F.json",
+      "expression_id": "129",
+      "family": "PARAMETRIC_UV_SURFACE",
+      "bounds": {
+        "min": [
+          0.7,
+          -1.9,
+          11.5
+        ],
+        "max": [
+          1.9,
+          1.9,
+          27.6
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-03 Group F_130",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-03 Group F_130.obj",
+      "color": "#c74440",
+      "source_file": "[4B] 3D Diagram - S2-03 Group F.json",
+      "expression_id": "130",
+      "family": "PARAMETRIC_UV_SURFACE",
+      "bounds": {
+        "min": [
+          -1.9,
+          -1.9,
+          11.5
+        ],
+        "max": [
+          -0.7,
+          1.9,
+          27.6
+        ]
+      }
+    }
+  ],
+  "failures": []
+}

@@ -1,0 +1,69 @@
+{
+  "source_file": "[4B] 3D Diagram - S2-06 Group F.json",
+  "total_expressions": 102,
+  "supported_count": 92,
+  "recognized_unsupported_count": 0,
+  "unrecognized_count": 0,
+  "geometry_ineligible_count": 10,
+  "per_folder_summary": [
+    {
+      "folder_id": null,
+      "folder_name": null,
+      "total": 18,
+      "supported": 10,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 8
+    },
+    {
+      "folder_id": "138",
+      "folder_name": "edge pt1",
+      "total": 24,
+      "supported": 24,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 0
+    },
+    {
+      "folder_id": "151",
+      "folder_name": "edge pt2",
+      "total": 22,
+      "supported": 22,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 0
+    },
+    {
+      "folder_id": "85",
+      "folder_name": "pole pt1",
+      "total": 20,
+      "supported": 19,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 1
+    },
+    {
+      "folder_id": "90",
+      "folder_name": "pole pt2",
+      "total": 18,
+      "supported": 17,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 1
+    }
+  ],
+  "unsupported_expressions": [],
+  "unknown_fingerprints": [],
+  "diagnostics": [
+    {
+      "severity": "INFO",
+      "code": "AUDIT_COMPLETE",
+      "message": "Audit classification complete",
+      "source_ref": null,
+      "details": {
+        "file": "[4B] 3D Diagram - S2-06 Group F.json"
+      }
+    }
+  ],
+  "status": "PASS"
+}

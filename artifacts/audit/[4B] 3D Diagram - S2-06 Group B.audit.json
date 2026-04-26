@@ -1,0 +1,553 @@
+{
+  "source_file": "[4B] 3D Diagram - S2-06 Group B.json",
+  "total_expressions": 258,
+  "supported_count": 95,
+  "recognized_unsupported_count": 0,
+  "unrecognized_count": 34,
+  "geometry_ineligible_count": 129,
+  "per_folder_summary": [
+    {
+      "folder_id": null,
+      "folder_name": null,
+      "total": 16,
+      "supported": 0,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 16
+    },
+    {
+      "folder_id": "3",
+      "folder_name": "Bottom thing",
+      "total": 7,
+      "supported": 7,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 0
+    },
+    {
+      "folder_id": "173",
+      "folder_name": "Desmos pls dont crash (left ear) ",
+      "total": 13,
+      "supported": 0,
+      "recognized_unsupported": 0,
+      "unrecognized": 4,
+      "geometry_ineligible": 9
+    },
+    {
+      "folder_id": "189",
+      "folder_name": "I can hear the Jang now (right ear)",
+      "total": 13,
+      "supported": 0,
+      "recognized_unsupported": 0,
+      "unrecognized": 4,
+      "geometry_ineligible": 9
+    },
+    {
+      "folder_id": "16",
+      "folder_name": "Middle buildings",
+      "total": 16,
+      "supported": 12,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 4
+    },
+    {
+      "folder_id": "286",
+      "folder_name": "back feet one ",
+      "total": 12,
+      "supported": 0,
+      "recognized_unsupported": 0,
+      "unrecognized": 3,
+      "geometry_ineligible": 9
+    },
+    {
+      "folder_id": "313",
+      "folder_name": "back feet two ",
+      "total": 12,
+      "supported": 0,
+      "recognized_unsupported": 0,
+      "unrecognized": 3,
+      "geometry_ineligible": 9
+    },
+    {
+      "folder_id": "152",
+      "folder_name": "big head",
+      "total": 17,
+      "supported": 0,
+      "recognized_unsupported": 0,
+      "unrecognized": 6,
+      "geometry_ineligible": 11
+    },
+    {
+      "folder_id": "36",
+      "folder_name": "centre - Left building",
+      "total": 14,
+      "supported": 10,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 4
+    },
+    {
+      "folder_id": "28",
+      "folder_name": "centre - Right buildings ",
+      "total": 14,
+      "supported": 10,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 4
+    },
+    {
+      "folder_id": "224",
+      "folder_name": "do you hear the bells ringing?",
+      "total": 13,
+      "supported": 0,
+      "recognized_unsupported": 0,
+      "unrecognized": 4,
+      "geometry_ineligible": 9
+    },
+    {
+      "folder_id": "240",
+      "folder_name": "i think i see the afterlife",
+      "total": 13,
+      "supported": 0,
+      "recognized_unsupported": 0,
+      "unrecognized": 4,
+      "geometry_ineligible": 9
+    },
+    {
+      "folder_id": "113",
+      "folder_name": "left pinky finger ",
+      "total": 7,
+      "supported": 7,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 0
+    },
+    {
+      "folder_id": "255",
+      "folder_name": "leg number one ",
+      "total": 12,
+      "supported": 0,
+      "recognized_unsupported": 0,
+      "unrecognized": 3,
+      "geometry_ineligible": 9
+    },
+    {
+      "folder_id": "271",
+      "folder_name": "leg number two ",
+      "total": 12,
+      "supported": 0,
+      "recognized_unsupported": 0,
+      "unrecognized": 3,
+      "geometry_ineligible": 9
+    },
+    {
+      "folder_id": "120",
+      "folder_name": "right pinky finger",
+      "total": 7,
+      "supported": 7,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 0
+    },
+    {
+      "folder_id": "10",
+      "folder_name": "skin for bottom thing",
+      "total": 60,
+      "supported": 42,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 18
+    }
+  ],
+  "unsupported_expressions": [
+    {
+      "expression_id": "322",
+      "folder": "back feet two ",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "d0ab8967339efaf0",
+      "latex": "\\left(x\\ -21\\right)^{2}\\ +\\ \\left(y\\ \\ +\\ 20.7\\ \\right)^{2}+\\ \\left(z\\ -25\\right)^{2}\\ =\\ 3.5",
+      "normalized_latex": "(x-21)^2+(y+20.7)^2+(z-25)^2=3.5"
+    },
+    {
+      "expression_id": "323",
+      "folder": "back feet two ",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "c1962fe3e5390de1",
+      "latex": "\\left(x\\ -21\\right)^{2}\\ +\\ \\left(y\\ \\ +\\ 20.7\\ \\right)^{2}+\\ \\left(z\\ -25.75\\right)^{2}\\ =\\ 2.5",
+      "normalized_latex": "(x-21)^2+(y+20.7)^2+(z-25.75)^2=2.5"
+    },
+    {
+      "expression_id": "326",
+      "folder": "back feet two ",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "acf95cfa49c3a132",
+      "latex": "\\left(x\\ -21\\right)^{2}\\ +\\ \\left(y\\ \\ +\\ 20.7\\ \\right)^{2}+\\ \\left(z\\ -28.5\\right)^{2}\\ =\\ 0.25",
+      "normalized_latex": "(x-21)^2+(y+20.7)^2+(z-28.5)^2=0.25"
+    },
+    {
+      "expression_id": "295",
+      "folder": "back feet one ",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "4ef7f34058752323",
+      "latex": "\\left(x\\ -21\\right)^{2}\\ +\\ \\left(y\\ \\ -\\ 20.7\\ \\right)^{2}+\\ \\left(z\\ -25\\right)^{2}\\ =\\ 3.5",
+      "normalized_latex": "(x-21)^2+(y-20.7)^2+(z-25)^2=3.5"
+    },
+    {
+      "expression_id": "296",
+      "folder": "back feet one ",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "12ef7f25d4c8a4bd",
+      "latex": "\\left(x\\ -21\\right)^{2}\\ +\\ \\left(y\\ \\ -\\ 20.7\\ \\right)^{2}+\\ \\left(z\\ -25.75\\right)^{2}\\ =\\ 2.5",
+      "normalized_latex": "(x-21)^2+(y-20.7)^2+(z-25.75)^2=2.5"
+    },
+    {
+      "expression_id": "299",
+      "folder": "back feet one ",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "2e93c4b53ccbf2c1",
+      "latex": "\\left(x\\ -21\\right)^{2}\\ +\\ \\left(y\\ \\ -\\ 20.7\\ \\right)^{2}+\\ \\left(z\\ -28.5\\right)^{2}\\ =\\ 0.25",
+      "normalized_latex": "(x-21)^2+(y-20.7)^2+(z-28.5)^2=0.25"
+    },
+    {
+      "expression_id": "263",
+      "folder": "leg number one ",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "7f9c2ea3b2de352c",
+      "latex": "\\left(x\\ +5\\right)^{2}\\ +\\ \\left(y\\ \\ -\\ 20.7\\ \\right)^{2}+\\ \\left(z\\ -25\\right)^{2}\\ =\\ 3.5",
+      "normalized_latex": "(x+5)^2+(y-20.7)^2+(z-25)^2=3.5"
+    },
+    {
+      "expression_id": "264",
+      "folder": "leg number one ",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "4e3b51d93609c427",
+      "latex": "\\left(x\\ +5\\right)^{2}\\ +\\ \\left(y\\ \\ -\\ 20.7\\ \\right)^{2}+\\ \\left(z\\ -25.75\\right)^{2}\\ =\\ 2.5",
+      "normalized_latex": "(x+5)^2+(y-20.7)^2+(z-25.75)^2=2.5"
+    },
+    {
+      "expression_id": "267",
+      "folder": "leg number one ",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "2729e81d7545d9ff",
+      "latex": "\\left(x\\ +5\\right)^{2}\\ +\\ \\left(y\\ \\ -\\ 20.7\\ \\right)^{2}+\\ \\left(z\\ -28.5\\right)^{2}\\ =\\ 0.25",
+      "normalized_latex": "(x+5)^2+(y-20.7)^2+(z-28.5)^2=0.25"
+    },
+    {
+      "expression_id": "281",
+      "folder": "leg number two ",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "de69c39c63f0e384",
+      "latex": "\\left(x\\ +5\\right)^{2}\\ +\\ \\left(y\\ \\ +\\ 20.7\\ \\right)^{2}+\\ \\left(z\\ -25\\right)^{2}\\ =\\ 3.5",
+      "normalized_latex": "(x+5)^2+(y+20.7)^2+(z-25)^2=3.5"
+    },
+    {
+      "expression_id": "282",
+      "folder": "leg number two ",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "ba88ba3b53e6996b",
+      "latex": "\\left(x\\ +5\\right)^{2}\\ +\\ \\left(y\\ \\ +\\ 20.7\\ \\right)^{2}+\\ \\left(z\\ -25.75\\right)^{2}\\ =\\ 2.5",
+      "normalized_latex": "(x+5)^2+(y+20.7)^2+(z-25.75)^2=2.5"
+    },
+    {
+      "expression_id": "285",
+      "folder": "leg number two ",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "799894e2f44e1621",
+      "latex": "\\left(x\\ +5\\right)^{2}\\ +\\ \\left(y\\ \\ +\\ 20.7\\ \\right)^{2}+\\ \\left(z\\ -28.5\\right)^{2}\\ =\\ 0.25",
+      "normalized_latex": "(x+5)^2+(y+20.7)^2+(z-28.5)^2=0.25"
+    },
+    {
+      "expression_id": "244",
+      "folder": "i think i see the afterlife",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "0791ca55c296b4fa",
+      "latex": "\\left(x\\ -15.5\\right)^{2}\\ +\\ \\left(y\\ \\ -\\ 8\\ \\right)^{2}+\\ \\left(z\\ -18\\right)^{2}\\ =\\ 15\\left\\{z>15.25\\right\\}",
+      "normalized_latex": "(x-15.5)^2+(y-8)^2+(z-18)^2=15{z>15.25}"
+    },
+    {
+      "expression_id": "248",
+      "folder": "i think i see the afterlife",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "40504b40c90f05a4",
+      "latex": "\\left(x\\ -15.5\\right)^{2}\\ +\\ \\left(y\\ \\ -\\ 8\\ \\right)^{2}+\\ \\left(z\\ -20\\right)^{2}\\ =\\ 7\\left\\{z>15.25\\right\\}",
+      "normalized_latex": "(x-15.5)^2+(y-8)^2+(z-20)^2=7{z>15.25}"
+    },
+    {
+      "expression_id": "249",
+      "folder": "i think i see the afterlife",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "9190b15cf9c94a75",
+      "latex": "\\left(x\\ -15.5\\right)^{2}\\ +\\ \\left(y\\ \\ -\\ 8\\ \\right)^{2}+\\ \\left(z\\ -21.75\\right)^{2}\\ =\\ 2\\left\\{z>15.25\\right\\}",
+      "normalized_latex": "(x-15.5)^2+(y-8)^2+(z-21.75)^2=2{z>15.25}"
+    },
+    {
+      "expression_id": "252",
+      "folder": "i think i see the afterlife",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "8b586f318bd1c7a7",
+      "latex": "\\left(x\\ -15.5\\right)^{2}\\ +\\ \\left(y\\ \\ -\\ 8\\ \\right)^{2}+\\ \\left(z\\ -25\\right)^{2}\\ =\\ 0.25",
+      "normalized_latex": "(x-15.5)^2+(y-8)^2+(z-25)^2=0.25"
+    },
+    {
+      "expression_id": "227",
+      "folder": "do you hear the bells ringing?",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "7e03e7a2b7dcba55",
+      "latex": "\\left(x\\ -15.5\\right)^{2}\\ +\\ \\left(y\\ \\ +\\ 8\\ \\right)^{2}+\\ \\left(z\\ -18\\right)^{2}\\ =\\ 15\\left\\{z>15.25\\right\\}",
+      "normalized_latex": "(x-15.5)^2+(y+8)^2+(z-18)^2=15{z>15.25}"
+    },
+    {
+      "expression_id": "231",
+      "folder": "do you hear the bells ringing?",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "0daaa5c1052ff0a7",
+      "latex": "\\left(x\\ -15.5\\right)^{2}\\ +\\ \\left(y\\ \\ +\\ 8\\ \\right)^{2}+\\ \\left(z\\ -20\\right)^{2}\\ =\\ 7\\left\\{z>15.25\\right\\}",
+      "normalized_latex": "(x-15.5)^2+(y+8)^2+(z-20)^2=7{z>15.25}"
+    },
+    {
+      "expression_id": "232",
+      "folder": "do you hear the bells ringing?",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "732ac9bea9e9bbfd",
+      "latex": "\\left(x\\ -15.5\\right)^{2}\\ +\\ \\left(y\\ \\ +\\ 8\\ \\right)^{2}+\\ \\left(z\\ -21.75\\right)^{2}\\ =\\ 2\\left\\{z>15.25\\right\\}",
+      "normalized_latex": "(x-15.5)^2+(y+8)^2+(z-21.75)^2=2{z>15.25}"
+    },
+    {
+      "expression_id": "235",
+      "folder": "do you hear the bells ringing?",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "876d174150f6cb35",
+      "latex": "\\left(x\\ -15.5\\right)^{2}\\ +\\ \\left(y\\ \\ +\\ 8\\ \\right)^{2}+\\ \\left(z\\ -25\\right)^{2}\\ =\\ 0.25",
+      "normalized_latex": "(x-15.5)^2+(y+8)^2+(z-25)^2=0.25"
+    },
+    {
+      "expression_id": "193",
+      "folder": "I can hear the Jang now (right ear)",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "d92d35eec196b12e",
+      "latex": "\\left(x\\ -0.5\\right)^{2}\\ +\\ \\left(y\\ \\ +\\ 8\\ \\right)^{2}+\\ \\left(z\\ -18\\right)^{2}\\ =\\ 15\\left\\{z>15.25\\right\\}",
+      "normalized_latex": "(x-0.5)^2+(y+8)^2+(z-18)^2=15{z>15.25}"
+    },
+    {
+      "expression_id": "197",
+      "folder": "I can hear the Jang now (right ear)",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "b291a50663aaa7eb",
+      "latex": "\\left(x\\ -0.5\\right)^{2}\\ +\\ \\left(y\\ \\ +\\ 8\\ \\right)^{2}+\\ \\left(z\\ -20\\right)^{2}\\ =\\ 7\\left\\{z>15.25\\right\\}",
+      "normalized_latex": "(x-0.5)^2+(y+8)^2+(z-20)^2=7{z>15.25}"
+    },
+    {
+      "expression_id": "198",
+      "folder": "I can hear the Jang now (right ear)",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "0a34c6a76b92a562",
+      "latex": "\\left(x\\ -0.5\\right)^{2}\\ +\\ \\left(y\\ \\ +\\ 8\\ \\right)^{2}+\\ \\left(z\\ -21.75\\right)^{2}\\ =\\ 2\\left\\{z>15.25\\right\\}",
+      "normalized_latex": "(x-0.5)^2+(y+8)^2+(z-21.75)^2=2{z>15.25}"
+    },
+    {
+      "expression_id": "201",
+      "folder": "I can hear the Jang now (right ear)",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "9fe9f20c88e95cfa",
+      "latex": "\\left(x\\ -0.5\\right)^{2}\\ +\\ \\left(y\\ \\ +\\ 8\\ \\right)^{2}+\\ \\left(z\\ -25\\right)^{2}\\ =\\ 0.25",
+      "normalized_latex": "(x-0.5)^2+(y+8)^2+(z-25)^2=0.25"
+    },
+    {
+      "expression_id": "176",
+      "folder": "Desmos pls dont crash (left ear) ",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "70f8c9c3c8bf9449",
+      "latex": "\\left(x\\ -0.5\\right)^{2}\\ +\\ \\left(y\\ \\ -\\ 8\\ \\right)^{2}+\\ \\left(z\\ -18\\right)^{2}\\ =\\ 15\\left\\{z>15.25\\right\\}",
+      "normalized_latex": "(x-0.5)^2+(y-8)^2+(z-18)^2=15{z>15.25}"
+    },
+    {
+      "expression_id": "179",
+      "folder": "Desmos pls dont crash (left ear) ",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "a8f551960b279b29",
+      "latex": "\\left(x\\ -0.5\\right)^{2}\\ +\\ \\left(y\\ \\ -\\ 8\\ \\right)^{2}+\\ \\left(z\\ -20\\right)^{2}\\ =\\ 7\\left\\{z>15.25\\right\\}",
+      "normalized_latex": "(x-0.5)^2+(y-8)^2+(z-20)^2=7{z>15.25}"
+    },
+    {
+      "expression_id": "181",
+      "folder": "Desmos pls dont crash (left ear) ",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "ce1d95812de139b2",
+      "latex": "\\left(x\\ -0.5\\right)^{2}\\ +\\ \\left(y\\ \\ -\\ 8\\ \\right)^{2}+\\ \\left(z\\ -21.75\\right)^{2}\\ =\\ 2\\left\\{z>15.25\\right\\}",
+      "normalized_latex": "(x-0.5)^2+(y-8)^2+(z-21.75)^2=2{z>15.25}"
+    },
+    {
+      "expression_id": "184",
+      "folder": "Desmos pls dont crash (left ear) ",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "5bfa5e1f342605ae",
+      "latex": "\\left(x\\ -0.5\\right)^{2}\\ +\\ \\left(y\\ \\ -\\ 8\\ \\right)^{2}+\\ \\left(z\\ -25\\right)^{2}\\ =\\ 0.25",
+      "normalized_latex": "(x-0.5)^2+(y-8)^2+(z-25)^2=0.25"
+    },
+    {
+      "expression_id": "153",
+      "folder": "big head",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "446e818fba4bf56c",
+      "latex": "\\left(x\\ -8\\right)^{2}\\ +\\ \\left(y\\ \\ -\\ 0\\ \\right)^{2}+\\ \\left(z\\ -20\\right)^{2}\\ =\\ 42.5\\left\\{z>15.25\\right\\}",
+      "normalized_latex": "(x-8)^2+(y-0)^2+(z-20)^2=42.5{z>15.25}"
+    },
+    {
+      "expression_id": "161",
+      "folder": "big head",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "46120926dd33fe92",
+      "latex": "\\left(x\\ -8\\right)^{2}\\ +\\ \\left(y\\ \\ -\\ 0\\ \\right)^{2}+\\ \\left(z\\ -23\\right)^{2}\\ =\\ 22.5\\left\\{z>25.25\\right\\}",
+      "normalized_latex": "(x-8)^2+(y-0)^2+(z-23)^2=22.5{z>25.25}"
+    },
+    {
+      "expression_id": "162",
+      "folder": "big head",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "ddb1408bee298baa",
+      "latex": "\\left(x\\ -8\\right)^{2}\\ +\\ \\left(y\\ \\ -\\ 0\\ \\right)^{2}+\\ \\left(z\\ -26.5\\right)^{2}\\ =\\ 4\\left\\{z>25.25\\right\\}",
+      "normalized_latex": "(x-8)^2+(y-0)^2+(z-26.5)^2=4{z>25.25}"
+    },
+    {
+      "expression_id": "169",
+      "folder": "big head",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "61d6c5cd7747dfec",
+      "latex": "\\left(x\\ -8\\right)^{2}\\ +\\ \\left(y\\ \\ -\\ 0\\ \\right)^{2}+\\ \\left(z\\ -29\\right)^{2}\\ =\\ 0.75",
+      "normalized_latex": "(x-8)^2+(y-0)^2+(z-29)^2=0.75"
+    },
+    {
+      "expression_id": "170",
+      "folder": "big head",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "2d6ada35a61e5228",
+      "latex": "\\left(x\\ -8\\right)^{2}\\ +\\ \\left(y\\ \\ -\\ 0\\ \\right)^{2}+\\ \\left(z\\ -30.6\\right)^{2}\\ =\\ 0.3",
+      "normalized_latex": "(x-8)^2+(y-0)^2+(z-30.6)^2=0.3"
+    },
+    {
+      "expression_id": "171",
+      "folder": "big head",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "86ab6cea130a4038",
+      "latex": "\\left(x\\ -8\\right)^{2}\\ +\\ \\left(y\\ \\ -\\ 0\\ \\right)^{2}+\\ \\left(z\\ -32.4\\right)^{2}\\ =\\ 0.3",
+      "normalized_latex": "(x-8)^2+(y-0)^2+(z-32.4)^2=0.3"
+    }
+  ],
+  "unknown_fingerprints": [
+    "0791ca55c296b4fa",
+    "0a34c6a76b92a562",
+    "0daaa5c1052ff0a7",
+    "12ef7f25d4c8a4bd",
+    "2729e81d7545d9ff",
+    "2d6ada35a61e5228",
+    "2e93c4b53ccbf2c1",
+    "40504b40c90f05a4",
+    "446e818fba4bf56c",
+    "46120926dd33fe92",
+    "4e3b51d93609c427",
+    "4ef7f34058752323",
+    "5bfa5e1f342605ae",
+    "61d6c5cd7747dfec",
+    "70f8c9c3c8bf9449",
+    "732ac9bea9e9bbfd",
+    "799894e2f44e1621",
+    "7e03e7a2b7dcba55",
+    "7f9c2ea3b2de352c",
+    "86ab6cea130a4038",
+    "876d174150f6cb35",
+    "8b586f318bd1c7a7",
+    "9190b15cf9c94a75",
+    "9fe9f20c88e95cfa",
+    "a8f551960b279b29",
+    "acf95cfa49c3a132",
+    "b291a50663aaa7eb",
+    "ba88ba3b53e6996b",
+    "c1962fe3e5390de1",
+    "ce1d95812de139b2",
+    "d0ab8967339efaf0",
+    "d92d35eec196b12e",
+    "ddb1408bee298baa",
+    "de69c39c63f0e384"
+  ],
+  "diagnostics": [
+    {
+      "severity": "INFO",
+      "code": "AUDIT_COMPLETE",
+      "message": "Audit classification complete",
+      "source_ref": null,
+      "details": {
+        "file": "[4B] 3D Diagram - S2-06 Group B.json"
+      }
+    }
+  ],
+  "status": "PARTIAL"
+}

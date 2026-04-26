@@ -1,0 +1,714 @@
+{
+  "schema_version": 1,
+  "mesh_count": 25,
+  "failed_mesh_count": 41,
+  "meshes": [
+    {
+      "name": "[4B] 3D Diagram - S2-09 Group A_328",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-09 Group A_328.obj",
+      "color": "#388c46",
+      "source_file": "[4B] 3D Diagram - S2-09 Group A.json",
+      "expression_id": "328",
+      "family": "CONSTANT_PLANE",
+      "bounds": {
+        "min": [
+          -70.35502113281252,
+          -70.35502113281252,
+          0.0
+        ],
+        "max": [
+          70.35502113281252,
+          70.35502113281252,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-09 Group A_344",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-09 Group A_344.obj",
+      "color": "#c74440",
+      "source_file": "[4B] 3D Diagram - S2-09 Group A.json",
+      "expression_id": "344",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -19.65,
+          -4.7250000000000005,
+          -0.025000000000000022
+        ],
+        "max": [
+          -15.149999999999999,
+          4.725,
+          1.025
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-09 Group A_34",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-09 Group A_34.obj",
+      "color": "#fa7e19",
+      "source_file": "[4B] 3D Diagram - S2-09 Group A.json",
+      "expression_id": "34",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -14.85,
+          -4.7250000000000005,
+          -0.025000000000000022
+        ],
+        "max": [
+          -10.35,
+          4.725,
+          1.025
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-09 Group A_75",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-09 Group A_75.obj",
+      "color": "#c74440",
+      "source_file": "[4B] 3D Diagram - S2-09 Group A.json",
+      "expression_id": "75",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          15.15,
+          -4.7250000000000005,
+          -0.025000000000000022
+        ],
+        "max": [
+          19.65,
+          4.725,
+          1.025
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-09 Group A_77",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-09 Group A_77.obj",
+      "color": "#fa7e19",
+      "source_file": "[4B] 3D Diagram - S2-09 Group A.json",
+      "expression_id": "77",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          10.35,
+          -4.7250000000000005,
+          -0.025000000000000022
+        ],
+        "max": [
+          14.850000000000001,
+          4.725,
+          1.025
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-09 Group A_87",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-09 Group A_87.obj",
+      "color": "#fa7e19",
+      "source_file": "[4B] 3D Diagram - S2-09 Group A.json",
+      "expression_id": "87",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -4.7250000000000005,
+          -19.65,
+          -0.025000000000000022
+        ],
+        "max": [
+          4.725,
+          -15.149999999999999,
+          1.025
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-09 Group A_88",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-09 Group A_88.obj",
+      "color": "#fa7e19",
+      "source_file": "[4B] 3D Diagram - S2-09 Group A.json",
+      "expression_id": "88",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -4.7250000000000005,
+          -14.85,
+          -0.025000000000000022
+        ],
+        "max": [
+          4.725,
+          -10.35,
+          1.025
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-09 Group A_93",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-09 Group A_93.obj",
+      "color": "#fa7e19",
+      "source_file": "[4B] 3D Diagram - S2-09 Group A.json",
+      "expression_id": "93",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -4.7250000000000005,
+          10.35,
+          -0.025000000000000022
+        ],
+        "max": [
+          4.725,
+          14.850000000000001,
+          1.025
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-09 Group A_94",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-09 Group A_94.obj",
+      "color": "#fa7e19",
+      "source_file": "[4B] 3D Diagram - S2-09 Group A.json",
+      "expression_id": "94",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -4.7250000000000005,
+          15.15,
+          -0.025000000000000022
+        ],
+        "max": [
+          4.725,
+          19.65,
+          1.025
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-09 Group A_165",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-09 Group A_165.obj",
+      "color": "#fa7e19",
+      "source_file": "[4B] 3D Diagram - S2-09 Group A.json",
+      "expression_id": "165",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          0.44999999999999973,
+          -14.174999999999999,
+          9.99375
+        ],
+        "max": [
+          13.95,
+          14.175,
+          12.006250000000001
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-09 Group A_167",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-09 Group A_167.obj",
+      "color": "#fa7e19",
+      "source_file": "[4B] 3D Diagram - S2-09 Group A.json",
+      "expression_id": "167",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -13.95,
+          -14.174999999999999,
+          9.99375
+        ],
+        "max": [
+          -0.45000000000000107,
+          14.175,
+          12.006250000000001
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-09 Group A_274",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-09 Group A_274.obj",
+      "color": "#fa7e19",
+      "source_file": "[4B] 3D Diagram - S2-09 Group A.json",
+      "expression_id": "274",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -13.95,
+          -14.174999999999999,
+          6.975
+        ],
+        "max": [
+          -0.45000000000000107,
+          14.175,
+          8.024999999999999
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-09 Group A_275",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-09 Group A_275.obj",
+      "color": "#fa7e19",
+      "source_file": "[4B] 3D Diagram - S2-09 Group A.json",
+      "expression_id": "275",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          0.44999999999999973,
+          -14.174999999999999,
+          6.975
+        ],
+        "max": [
+          13.95,
+          14.175,
+          8.024999999999999
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-09 Group A_201",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-09 Group A_201.obj",
+      "color": "#fa7e19",
+      "source_file": "[4B] 3D Diagram - S2-09 Group A.json",
+      "expression_id": "201",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          0.26999999999999996,
+          -8.505,
+          23.993750000000002
+        ],
+        "max": [
+          8.370000000000001,
+          8.505000000000004,
+          26.006249999999998
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-09 Group A_203",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-09 Group A_203.obj",
+      "color": "#fa7e19",
+      "source_file": "[4B] 3D Diagram - S2-09 Group A.json",
+      "expression_id": "203",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -8.370000000000001,
+          -8.505,
+          23.993750000000002
+        ],
+        "max": [
+          -0.2699999999999996,
+          8.505000000000004,
+          26.006249999999998
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-09 Group A_278",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-09 Group A_278.obj",
+      "color": "#fa7e19",
+      "source_file": "[4B] 3D Diagram - S2-09 Group A.json",
+      "expression_id": "278",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -8.370000000000001,
+          -8.505,
+          20.975
+        ],
+        "max": [
+          -0.2699999999999996,
+          8.505000000000004,
+          22.025
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-09 Group A_279",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-09 Group A_279.obj",
+      "color": "#fa7e19",
+      "source_file": "[4B] 3D Diagram - S2-09 Group A.json",
+      "expression_id": "279",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          0.26999999999999996,
+          -8.505,
+          20.975
+        ],
+        "max": [
+          8.370000000000001,
+          8.505000000000004,
+          22.025
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-09 Group A_311",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-09 Group A_311.obj",
+      "color": "#fa7e19",
+      "source_file": "[4B] 3D Diagram - S2-09 Group A.json",
+      "expression_id": "311",
+      "family": "Z_SLAB_REGION",
+      "bounds": {
+        "min": [
+          1.5,
+          1.5,
+          44.0
+        ],
+        "max": [
+          2.5,
+          2.5,
+          88.0
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-09 Group A_312",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-09 Group A_312.obj",
+      "color": "#fa7e19",
+      "source_file": "[4B] 3D Diagram - S2-09 Group A.json",
+      "expression_id": "312",
+      "family": "Z_SLAB_REGION",
+      "bounds": {
+        "min": [
+          -2.5,
+          -2.5,
+          44.0
+        ],
+        "max": [
+          -1.5,
+          -1.5,
+          88.0
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-09 Group A_320",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-09 Group A_320.obj",
+      "color": "#fa7e19",
+      "source_file": "[4B] 3D Diagram - S2-09 Group A.json",
+      "expression_id": "320",
+      "family": "Z_SLAB_REGION",
+      "bounds": {
+        "min": [
+          -2.5,
+          1.5,
+          44.0
+        ],
+        "max": [
+          -1.5,
+          2.5,
+          88.0
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-09 Group A_323",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-09 Group A_323.obj",
+      "color": "#fa7e19",
+      "source_file": "[4B] 3D Diagram - S2-09 Group A.json",
+      "expression_id": "323",
+      "family": "Z_SLAB_REGION",
+      "bounds": {
+        "min": [
+          1.5,
+          -2.5,
+          44.0
+        ],
+        "max": [
+          2.5,
+          -1.5,
+          88.0
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-09 Group A_250",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-09 Group A_250.obj",
+      "color": "#388c46",
+      "source_file": "[4B] 3D Diagram - S2-09 Group A.json",
+      "expression_id": "250",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -0.01874999999999999,
+          -1.8900000000000001,
+          88.1375
+        ],
+        "max": [
+          1.81875,
+          1.8900000000000006,
+          92.8625
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-09 Group A_252",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-09 Group A_252.obj",
+      "color": "#388c46",
+      "source_file": "[4B] 3D Diagram - S2-09 Group A.json",
+      "expression_id": "252",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -1.81875,
+          -1.8900000000000001,
+          88.1375
+        ],
+        "max": [
+          0.0187499999999996,
+          1.8900000000000006,
+          92.8625
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-09 Group A_269",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-09 Group A_269.obj",
+      "color": "#fa7e19",
+      "source_file": "[4B] 3D Diagram - S2-09 Group A.json",
+      "expression_id": "269",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          0.0,
+          -0.4375,
+          93.33
+        ],
+        "max": [
+          0.45000000000000007,
+          0.4375,
+          104.67
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-09 Group A_270",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-09 Group A_270.obj",
+      "color": "#fa7e19",
+      "source_file": "[4B] 3D Diagram - S2-09 Group A.json",
+      "expression_id": "270",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -0.45000000000000007,
+          -0.4375,
+          93.33
+        ],
+        "max": [
+          0.0,
+          0.4375,
+          104.67
+        ]
+      }
+    }
+  ],
+  "failures": [
+    {
+      "source_file": "[4B] 3D Diagram - S2-09 Group A.json",
+      "expression_id": "19",
+      "error": "Missing finite bounds for axis x"
+    },
+    {
+      "source_file": "[4B] 3D Diagram - S2-09 Group A.json",
+      "expression_id": "35",
+      "error": "Missing finite bounds for axis x"
+    },
+    {
+      "source_file": "[4B] 3D Diagram - S2-09 Group A.json",
+      "expression_id": "36",
+      "error": "Missing finite bounds for axis x"
+    },
+    {
+      "source_file": "[4B] 3D Diagram - S2-09 Group A.json",
+      "expression_id": "73",
+      "error": "Missing finite bounds for axis x"
+    },
+    {
+      "source_file": "[4B] 3D Diagram - S2-09 Group A.json",
+      "expression_id": "69",
+      "error": "Missing finite bounds for axis x"
+    },
+    {
+      "source_file": "[4B] 3D Diagram - S2-09 Group A.json",
+      "expression_id": "70",
+      "error": "Missing finite bounds for axis x"
+    },
+    {
+      "source_file": "[4B] 3D Diagram - S2-09 Group A.json",
+      "expression_id": "82",
+      "error": "Missing finite bounds for axis y"
+    },
+    {
+      "source_file": "[4B] 3D Diagram - S2-09 Group A.json",
+      "expression_id": "83",
+      "error": "Missing finite bounds for axis y"
+    },
+    {
+      "source_file": "[4B] 3D Diagram - S2-09 Group A.json",
+      "expression_id": "85",
+      "error": "Missing finite bounds for axis y"
+    },
+    {
+      "source_file": "[4B] 3D Diagram - S2-09 Group A.json",
+      "expression_id": "89",
+      "error": "Missing finite bounds for axis y"
+    },
+    {
+      "source_file": "[4B] 3D Diagram - S2-09 Group A.json",
+      "expression_id": "90",
+      "error": "Missing finite bounds for axis y"
+    },
+    {
+      "source_file": "[4B] 3D Diagram - S2-09 Group A.json",
+      "expression_id": "91",
+      "error": "Missing finite bounds for axis y"
+    },
+    {
+      "source_file": "[4B] 3D Diagram - S2-09 Group A.json",
+      "expression_id": "172",
+      "error": "Missing finite bounds for axis y"
+    },
+    {
+      "source_file": "[4B] 3D Diagram - S2-09 Group A.json",
+      "expression_id": "173",
+      "error": "Missing finite bounds for axis y"
+    },
+    {
+      "source_file": "[4B] 3D Diagram - S2-09 Group A.json",
+      "expression_id": "174",
+      "error": "Missing finite bounds for axis y"
+    },
+    {
+      "source_file": "[4B] 3D Diagram - S2-09 Group A.json",
+      "expression_id": "175",
+      "error": "Missing finite bounds for axis y"
+    },
+    {
+      "source_file": "[4B] 3D Diagram - S2-09 Group A.json",
+      "expression_id": "178",
+      "error": "Missing finite bounds for axis y"
+    },
+    {
+      "source_file": "[4B] 3D Diagram - S2-09 Group A.json",
+      "expression_id": "179",
+      "error": "Missing finite bounds for axis y"
+    },
+    {
+      "source_file": "[4B] 3D Diagram - S2-09 Group A.json",
+      "expression_id": "180",
+      "error": "Missing finite bounds for axis y"
+    },
+    {
+      "source_file": "[4B] 3D Diagram - S2-09 Group A.json",
+      "expression_id": "181",
+      "error": "Missing finite bounds for axis y"
+    },
+    {
+      "source_file": "[4B] 3D Diagram - S2-09 Group A.json",
+      "expression_id": "183",
+      "error": "Missing finite bounds for axis x"
+    },
+    {
+      "source_file": "[4B] 3D Diagram - S2-09 Group A.json",
+      "expression_id": "184",
+      "error": "Missing finite bounds for axis x"
+    },
+    {
+      "source_file": "[4B] 3D Diagram - S2-09 Group A.json",
+      "expression_id": "185",
+      "error": "Missing finite bounds for axis x"
+    },
+    {
+      "source_file": "[4B] 3D Diagram - S2-09 Group A.json",
+      "expression_id": "194",
+      "error": "Missing finite bounds for axis x"
+    },
+    {
+      "source_file": "[4B] 3D Diagram - S2-09 Group A.json",
+      "expression_id": "196",
+      "error": "Missing finite bounds for axis x"
+    },
+    {
+      "source_file": "[4B] 3D Diagram - S2-09 Group A.json",
+      "expression_id": "197",
+      "error": "Missing finite bounds for axis x"
+    },
+    {
+      "source_file": "[4B] 3D Diagram - S2-09 Group A.json",
+      "expression_id": "198",
+      "error": "Missing finite bounds for axis x"
+    },
+    {
+      "source_file": "[4B] 3D Diagram - S2-09 Group A.json",
+      "expression_id": "200",
+      "error": "Missing finite bounds for axis x"
+    },
+    {
+      "source_file": "[4B] 3D Diagram - S2-09 Group A.json",
+      "expression_id": "208",
+      "error": "Missing finite bounds for axis y"
+    },
+    {
+      "source_file": "[4B] 3D Diagram - S2-09 Group A.json",
+      "expression_id": "209",
+      "error": "Missing finite bounds for axis y"
+    },
+    {
+      "source_file": "[4B] 3D Diagram - S2-09 Group A.json",
+      "expression_id": "214",
+      "error": "Missing finite bounds for axis x"
+    },
+    {
+      "source_file": "[4B] 3D Diagram - S2-09 Group A.json",
+      "expression_id": "217",
+      "error": "Missing finite bounds for axis x"
+    },
+    {
+      "source_file": "[4B] 3D Diagram - S2-09 Group A.json",
+      "expression_id": "218",
+      "error": "Missing finite bounds for axis y"
+    },
+    {
+      "source_file": "[4B] 3D Diagram - S2-09 Group A.json",
+      "expression_id": "282",
+      "error": "Missing finite bounds for axis y"
+    },
+    {
+      "source_file": "[4B] 3D Diagram - S2-09 Group A.json",
+      "expression_id": "294",
+      "error": "Missing finite bounds for axis x"
+    },
+    {
+      "source_file": "[4B] 3D Diagram - S2-09 Group A.json",
+      "expression_id": "305",
+      "error": "Missing finite bounds for axis y"
+    },
+    {
+      "source_file": "[4B] 3D Diagram - S2-09 Group A.json",
+      "expression_id": "304",
+      "error": "Missing finite bounds for axis x"
+    },
+    {
+      "source_file": "[4B] 3D Diagram - S2-09 Group A.json",
+      "expression_id": "309",
+      "error": "Missing finite bounds for axis y"
+    },
+    {
+      "source_file": "[4B] 3D Diagram - S2-09 Group A.json",
+      "expression_id": "310",
+      "error": "Missing finite bounds for axis x"
+    },
+    {
+      "source_file": "[4B] 3D Diagram - S2-09 Group A.json",
+      "expression_id": "296",
+      "error": "Missing finite bounds for axis x"
+    },
+    {
+      "source_file": "[4B] 3D Diagram - S2-09 Group A.json",
+      "expression_id": "297",
+      "error": "Missing finite bounds for axis y"
+    }
+  ]
+}

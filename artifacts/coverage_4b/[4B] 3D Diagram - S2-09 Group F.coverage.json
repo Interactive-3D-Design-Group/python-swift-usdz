@@ -1,0 +1,602 @@
+{
+  "source_file": "[4B] 3D Diagram - S2-09 Group F.json",
+  "total_items": 27,
+  "total_expressions": 27,
+  "meshed_expression_count": 0,
+  "supported_expression_count": 0,
+  "supported_but_not_meshed_count": 0,
+  "recognized_unsupported_count": 26,
+  "unrecognized_count": 1,
+  "geometry_ineligible_count": 0,
+  "groups": [
+    {
+      "fingerprint": "27c56db95bc437ea",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 2,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "17",
+        "21"
+      ],
+      "example_latex": [
+        "\\left(x-z\\tan\\left(5.5\\right)-15\\right)^{2}+\\left(y+4\\right)^{2}<10\\left\\{1<z<95\\right\\}",
+        "\\left(x-z\\tan\\left(5.5\\right)-15\\right)^{2}+\\left(y+4\\right)^{2}<10\\left\\{1<z<95\\right\\}"
+      ],
+      "example_normalized": [
+        "(x-ztan(5.5)-15)^{2}+(y+4)^{2}<10{1<z<95}",
+        "(x-ztan(5.5)-15)^{2}+(y+4)^{2}<10{1<z<95}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 2
+      }
+    },
+    {
+      "fingerprint": "2dbf885e73dcf786",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "15"
+      ],
+      "example_latex": [
+        "\\left(x-z\\tan\\left(5.5\\right)+11\\right)^{2}+\\left(y-11\\right)^{2}<10\\left\\{1<z<95\\right\\}"
+      ],
+      "example_normalized": [
+        "(x-ztan(5.5)+11)^{2}+(y-11)^{2}<10{1<z<95}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "30094cc3ef9b2d64",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "25"
+      ],
+      "example_latex": [
+        "\\left(x-z\\tan\\left(5.5\\right)+4\\right)^{2}+\\left(y+15\\right)^{2}<10\\left\\{1<z<95\\right\\}"
+      ],
+      "example_normalized": [
+        "(x-ztan(5.5)+4)^{2}+(y+15)^{2}<10{1<z<95}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "3a98ff19100504e1",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "24"
+      ],
+      "example_latex": [
+        "\\left(x-z\\tan\\left(5.5\\right)-4\\right)^{2}+\\left(y-15\\right)^{2}<10\\left\\{1<z<95\\right\\}"
+      ],
+      "example_normalized": [
+        "(x-ztan(5.5)-4)^{2}+(y-15)^{2}<10{1<z<95}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "417888e0b233d697",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "14"
+      ],
+      "example_latex": [
+        "\\left(x-z\\tan\\left(5.5\\right)-11\\right)^{2}+\\left(y+11\\right)^{2}<10\\left\\{1<z<95\\right\\}"
+      ],
+      "example_normalized": [
+        "(x-ztan(5.5)-11)^{2}+(y+11)^{2}<10{1<z<95}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "5420f9bab0002762",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "23"
+      ],
+      "example_latex": [
+        "\\left(x-z\\tan\\left(5.5\\right)+4\\right)^{2}+\\left(y-15\\right)^{2}<10\\left\\{1<z<95\\right\\}"
+      ],
+      "example_normalized": [
+        "(x-ztan(5.5)+4)^{2}+(y-15)^{2}<10{1<z<95}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "5626b9120edbf1a6",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "12"
+      ],
+      "example_latex": [
+        "\\left(x-z\\tan\\left(5.5\\right)+11\\right)^{2}+\\left(y+11\\right)^{2}<10\\left\\{1<z<95\\right\\}"
+      ],
+      "example_normalized": [
+        "(x-ztan(5.5)+11)^{2}+(y+11)^{2}<10{1<z<95}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "5a7d4532b4f939cd",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "46"
+      ],
+      "example_latex": [
+        "\\left(x-z\\tan\\left(5.5\\right)-6\\right)^{2}+y^{2}<10\\left\\{107<z<113\\right\\}"
+      ],
+      "example_normalized": [
+        "(x-ztan(5.5)-6)^{2}+y^{2}<10{107<z<113}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "60f16a67b366e37f",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "7"
+      ],
+      "example_latex": [
+        "\\left(x-z\\tan\\left(5.5\\right)\\right)^{2}+y^{2}<360\\left\\{60<z<62\\right\\}"
+      ],
+      "example_normalized": [
+        "(x-ztan(5.5))^{2}+y^{2}<360{60<z<62}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "6a5b915f16797365",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "4"
+      ],
+      "example_latex": [
+        "\\left(x-z\\tan\\left(5.5\\right)\\right)^{2}+y^{2}<360\\left\\{30<z<32\\right\\}"
+      ],
+      "example_normalized": [
+        "(x-ztan(5.5))^{2}+y^{2}<360{30<z<32}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "6e7a4130dfc7f8ce",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "11"
+      ],
+      "example_latex": [
+        "\\left(x-z\\tan\\left(5.5\\right)\\right)^{2}+y^{2}<230\\left\\{80<z<95\\right\\}"
+      ],
+      "example_normalized": [
+        "(x-ztan(5.5))^{2}+y^{2}<230{80<z<95}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "795876eaeaecd554",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "26"
+      ],
+      "example_latex": [
+        "\\left(x-z\\tan\\left(5.5\\right)\\right)^{2}+y^{2}<360\\left\\{95<z<97\\right\\}"
+      ],
+      "example_normalized": [
+        "(x-ztan(5.5))^{2}+y^{2}<360{95<z<97}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "8fd2b5c6fb1f3d85",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "20"
+      ],
+      "example_latex": [
+        "\\left(x-z\\tan\\left(5.5\\right)+15\\right)^{2}+\\left(y+4\\right)^{2}<10\\left\\{1<z<95\\right\\}"
+      ],
+      "example_normalized": [
+        "(x-ztan(5.5)+15)^{2}+(y+4)^{2}<10{1<z<95}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "90b3fa1125d7cb5b",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "44"
+      ],
+      "example_latex": [
+        "\\left(x-z\\tan\\left(5.5\\right)\\right)^{2}+y^{2}<10\\left\\{105<z<115\\right\\}"
+      ],
+      "example_normalized": [
+        "(x-ztan(5.5))^{2}+y^{2}<10{105<z<115}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "9d9992c01a95cb72",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "6"
+      ],
+      "example_latex": [
+        "\\left(x-z\\tan\\left(5.5\\right)\\right)^{2}+y^{2}<360\\left\\{50<z<52\\right\\}"
+      ],
+      "example_normalized": [
+        "(x-ztan(5.5))^{2}+y^{2}<360{50<z<52}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "a5b7a5c4c0f570d8",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "45"
+      ],
+      "example_latex": [
+        "\\left(x-z\\tan\\left(5.5\\right)-3\\right)^{2}+y^{2}<10\\left\\{106<z<114\\right\\}"
+      ],
+      "example_normalized": [
+        "(x-ztan(5.5)-3)^{2}+y^{2}<10{106<z<114}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "b811f7a1466c7d4f",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "16"
+      ],
+      "example_latex": [
+        "\\left(x-z\\tan\\left(5.5\\right)-15\\right)^{2}+\\left(y-4\\right)^{2}<10\\left\\{1<z<95\\right\\}"
+      ],
+      "example_normalized": [
+        "(x-ztan(5.5)-15)^{2}+(y-4)^{2}<10{1<z<95}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "c13a987146b53b39",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "22"
+      ],
+      "example_latex": [
+        "\\left(x-z\\tan\\left(5.5\\right)-4\\right)^{2}+\\left(y+15\\right)^{2}<10\\left\\{1<z<95\\right\\}"
+      ],
+      "example_normalized": [
+        "(x-ztan(5.5)-4)^{2}+(y+15)^{2}<10{1<z<95}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "c38ce63aad384a22",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "13"
+      ],
+      "example_latex": [
+        "\\left(x-z\\tan\\left(5.5\\right)-11\\right)^{2}+\\left(y-11\\right)^{2}<10\\left\\{1<z<95\\right\\}"
+      ],
+      "example_normalized": [
+        "(x-ztan(5.5)-11)^{2}+(y-11)^{2}<10{1<z<95}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "e267724c24cd2702",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "27"
+      ],
+      "example_latex": [
+        "\\left(x-z\\tan\\left(5.5\\right)\\right)^{2}+y^{2}<10\\left\\{97<z<115\\right\\}"
+      ],
+      "example_normalized": [
+        "(x-ztan(5.5))^{2}+y^{2}<10{97<z<115}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "ede6b67522ba1407",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "18"
+      ],
+      "example_latex": [
+        "\\left(x-z\\tan\\left(5.5\\right)+15\\right)^{2}+\\left(y-4\\right)^{2}<10\\left\\{1<z<95\\right\\}"
+      ],
+      "example_normalized": [
+        "(x-ztan(5.5)+15)^{2}+(y-4)^{2}<10{1<z<95}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "ef8a9c07899ff094",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "2"
+      ],
+      "example_latex": [
+        "\\left(x-z\\tan\\left(5.5\\right)\\right)^{2}+y^{2}<360\\left\\{0<z<20\\right\\}"
+      ],
+      "example_normalized": [
+        "(x-ztan(5.5))^{2}+y^{2}<360{0<z<20}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "f8735ae7b8855448",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "8"
+      ],
+      "example_latex": [
+        "\\left(x-z\\tan\\left(5.5\\right)\\right)^{2}+y^{2}<360\\left\\{70<z<72\\right\\}"
+      ],
+      "example_normalized": [
+        "(x-ztan(5.5))^{2}+y^{2}<360{70<z<72}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "fb3b6a4323235d09",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "5"
+      ],
+      "example_latex": [
+        "\\left(x-z\\tan\\left(5.5\\right)\\right)^{2}+y^{2}<360\\left\\{40<z<42\\right\\}"
+      ],
+      "example_normalized": [
+        "(x-ztan(5.5))^{2}+y^{2}<360{40<z<42}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "ffbb61e7f355fb7c",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "9"
+      ],
+      "example_latex": [
+        "\\left(x-z\\tan\\left(5.5\\right)\\right)^{2}+y^{2}<360\\left\\{80<z<82\\right\\}"
+      ],
+      "example_normalized": [
+        "(x-ztan(5.5))^{2}+y^{2}<360{80<z<82}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "4a19dbfa97f76430",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "3"
+      ],
+      "example_latex": [
+        "\\left(x-z\\tan\\left(5.5\\right)\\right)^{2}+y^{2}=260\\left\\{20<z<80\\right\\}"
+      ],
+      "example_normalized": [
+        "(x-ztan(5.5))^{2}+y^{2}=260{20<z<80}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    }
+  ],
+  "diagnostics": [
+    {
+      "severity": "INFO",
+      "code": "COVERAGE_COMPLETE",
+      "message": "Coverage report complete",
+      "source_ref": null,
+      "details": {
+        "file": "[4B] 3D Diagram - S2-09 Group F.json",
+        "meshed_expression_ids": 0,
+        "supported_but_not_meshed": 0,
+        "group_count": 26
+      }
+    }
+  ]
+}

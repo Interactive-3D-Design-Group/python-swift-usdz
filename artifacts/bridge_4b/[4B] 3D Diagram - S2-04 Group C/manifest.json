@@ -1,0 +1,128 @@
+{
+  "schema_version": 1,
+  "mesh_count": 6,
+  "failed_mesh_count": 0,
+  "meshes": [
+    {
+      "name": "[4B] 3D Diagram - S2-04 Group C_315",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-04 Group C_315.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-04 Group C.json",
+      "expression_id": "315",
+      "family": "DISK_EXTRUSION_SOLID",
+      "bounds": {
+        "min": [
+          -1.20001,
+          -1.20001,
+          -0.0001
+        ],
+        "max": [
+          1.20001,
+          1.20001,
+          0.0001
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-04 Group C_321",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-04 Group C_321.obj",
+      "color": "#388c46",
+      "source_file": "[4B] 3D Diagram - S2-04 Group C.json",
+      "expression_id": "321",
+      "family": "VERTICAL_CYLINDER_SURFACE",
+      "bounds": {
+        "min": [
+          -0.25,
+          -0.25,
+          0.0
+        ],
+        "max": [
+          0.25,
+          0.25,
+          6.0
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-04 Group C_328",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-04 Group C_328.obj",
+      "color": "#2d70b3",
+      "source_file": "[4B] 3D Diagram - S2-04 Group C.json",
+      "expression_id": "328",
+      "family": "VERTICAL_CYLINDER_SURFACE",
+      "bounds": {
+        "min": [
+          -1.2,
+          -1.2,
+          -0.0001
+        ],
+        "max": [
+          1.2,
+          1.2,
+          0.0001
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-04 Group C_329",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-04 Group C_329.obj",
+      "color": "#388c46",
+      "source_file": "[4B] 3D Diagram - S2-04 Group C.json",
+      "expression_id": "329",
+      "family": "VERTICAL_CYLINDER_SURFACE",
+      "bounds": {
+        "min": [
+          -0.2,
+          -0.2,
+          14.399885600000001
+        ],
+        "max": [
+          0.2,
+          0.2,
+          14.4001144
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-04 Group C_330",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-04 Group C_330.obj",
+      "color": "#6042a6",
+      "source_file": "[4B] 3D Diagram - S2-04 Group C.json",
+      "expression_id": "330",
+      "family": "DISK_EXTRUSION_SOLID",
+      "bounds": {
+        "min": [
+          -1.20001,
+          -1.20001,
+          -0.0001
+        ],
+        "max": [
+          1.20001,
+          1.20001,
+          0.0001
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-04 Group C_331",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-04 Group C_331.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-04 Group C.json",
+      "expression_id": "331",
+      "family": "VERTICAL_CYLINDER_SURFACE",
+      "bounds": {
+        "min": [
+          -1.2,
+          -1.2,
+          -0.0001
+        ],
+        "max": [
+          1.2,
+          1.2,
+          0.0001
+        ]
+      }
+    }
+  ],
+  "failures": []
+}

@@ -1,0 +1,797 @@
+{
+  "source_file": "[4B] 3D Diagram - S2-08 Group G.json",
+  "total_items": 1316,
+  "total_expressions": 1266,
+  "meshed_expression_count": 1218,
+  "supported_expression_count": 1218,
+  "supported_but_not_meshed_count": 0,
+  "recognized_unsupported_count": 0,
+  "unrecognized_count": 35,
+  "geometry_ineligible_count": 13,
+  "groups": [
+    {
+      "fingerprint": "0425493ec29d7838",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "341"
+      ],
+      "example_latex": [
+        "\\left(p\\left(t\\right),p\\left(t\\right),1.3t-175\\right)"
+      ],
+      "example_normalized": [
+        "(p(t),p(t),1.3t-175)"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "07a23d60c98350b6",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "79"
+      ],
+      "example_latex": [
+        "\\left(h\\left(t\\right)\\cdot0.42,h\\left(t\\right),2.5\\cdot t-175\\right)"
+      ],
+      "example_normalized": [
+        "(h(t)*0.42,h(t),2.5*t-175)"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "0ebc099ed65de9c6",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "64"
+      ],
+      "example_latex": [
+        "\\left(p\\left(t\\right),-p\\left(t\\right),2.5t-175\\right)"
+      ],
+      "example_normalized": [
+        "(p(t),-p(t),2.5t-175)"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "1283a0f95580e8af",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "598"
+      ],
+      "example_latex": [
+        "\\left(\\left[-S,-S+\\frac{S+S}{20}...S\\right],S,-107.5+t\\right)"
+      ],
+      "example_normalized": [
+        "([-S,-S+(S+S)/(20)...S],S,-107.5+t)"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "1d52ba95157fe420",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "73"
+      ],
+      "example_latex": [
+        "\\left(h\\left(t\\right),h\\left(t\\right)\\cdot0.42,\\ 2.5\\cdot t-175\\right)"
+      ],
+      "example_normalized": [
+        "(h(t),h(t)*0.42,2.5*t-175)"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "23ee5817ce357b6e",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "338"
+      ],
+      "example_latex": [
+        "\\left(-p\\left(t\\right),-p\\left(t\\right),1.3t-175\\right)"
+      ],
+      "example_normalized": [
+        "(-p(t),-p(t),1.3t-175)"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "24c48290d5e1aa9b",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "611"
+      ],
+      "example_latex": [
+        "\\left(\\left[-S,-S+\\frac{S+S}{80}...S\\right],S,-107.5+t\\right)\\left\\{0<t<1\\right\\}"
+      ],
+      "example_normalized": [
+        "([-S,-S+(S+S)/(80)...S],S,-107.5+t){0<t<1}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "3179868d7aafe0bb",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "105"
+      ],
+      "example_latex": [
+        "(t,42,-120)"
+      ],
+      "example_normalized": [
+        "(t,42,-120)"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "4455a03316b1aff1",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "65"
+      ],
+      "example_latex": [
+        "\\left(-p\\left(t\\right),-p\\left(t\\right),2.5t-175\\right)"
+      ],
+      "example_normalized": [
+        "(-p(t),-p(t),2.5t-175)"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "4fc7f683b6ffe2d3",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "76"
+      ],
+      "example_latex": [
+        "\\left(-h\\left(t\\right)\\cdot0.42,-h\\left(t\\right),2.5\\cdot t-175\\right)"
+      ],
+      "example_normalized": [
+        "(-h(t)*0.42,-h(t),2.5*t-175)"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "5902a181c3727256",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "614"
+      ],
+      "example_latex": [
+        "\\left(t,-S,-107.5+1\\right)"
+      ],
+      "example_normalized": [
+        "(t,-S,-107.5+1)"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "702572ea38f54636",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "608"
+      ],
+      "example_latex": [
+        "\\left(-S,t,-107.5+1\\right)"
+      ],
+      "example_normalized": [
+        "(-S,t,-107.5+1)"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "7a50d645119f9e75",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "612"
+      ],
+      "example_latex": [
+        "\\left(t,S,-107.5+1\\right)"
+      ],
+      "example_normalized": [
+        "(t,S,-107.5+1)"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "82a56618710a3cf1",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "74"
+      ],
+      "example_latex": [
+        "\\left(-h\\left(t\\right),-h\\left(t\\right)\\cdot0.42,\\ 2.5\\cdot t-175\\right)"
+      ],
+      "example_normalized": [
+        "(-h(t),-h(t)*0.42,2.5*t-175)"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "82f336bee7527b0a",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "609"
+      ],
+      "example_latex": [
+        "\\left(S,\\left[-S,-S+\\frac{S+S}{80}...S\\right],-107.5+t\\right)\\left\\{0<t<1\\right\\}"
+      ],
+      "example_normalized": [
+        "(S,[-S,-S+(S+S)/(80)...S],-107.5+t){0<t<1}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "9350733e9615d60c",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "77"
+      ],
+      "example_latex": [
+        "\\left(-h\\left(t\\right)\\cdot0.42,h\\left(t\\right),2.5\\cdot t-175\\right)"
+      ],
+      "example_normalized": [
+        "(-h(t)*0.42,h(t),2.5*t-175)"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "974c63a8a8038917",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "94"
+      ],
+      "example_latex": [
+        "(t,15.6,-60)"
+      ],
+      "example_normalized": [
+        "(t,15.6,-60)"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "a0c5c726d38c6405",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "596"
+      ],
+      "example_latex": [
+        "\\left(-S,\\left[-S,-S+\\frac{S+S}{20}...S\\right],-107.5+t\\right)"
+      ],
+      "example_normalized": [
+        "(-S,[-S,-S+(S+S)/(20)...S],-107.5+t)"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "ab0254dcd509f81d",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "340"
+      ],
+      "example_latex": [
+        "\\left(-p\\left(t\\right),p\\left(t\\right),1.3t-175\\right)"
+      ],
+      "example_normalized": [
+        "(-p(t),p(t),1.3t-175)"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "af8fd4346bc32d54",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "78"
+      ],
+      "example_latex": [
+        "\\left(h\\left(t\\right)\\cdot0.42,-h\\left(t\\right),2.5\\cdot t-175\\right)"
+      ],
+      "example_normalized": [
+        "(h(t)*0.42,-h(t),2.5*t-175)"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "af9755106bd3f612",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "63"
+      ],
+      "example_latex": [
+        "\\left(-p\\left(t\\right),p\\left(t\\right),2.5t-175\\right)"
+      ],
+      "example_normalized": [
+        "(-p(t),p(t),2.5t-175)"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "bff5a5cb9c68ec6a",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "339"
+      ],
+      "example_latex": [
+        "\\left(p\\left(t\\right),-p\\left(t\\right),1.3t-175\\right)"
+      ],
+      "example_normalized": [
+        "(p(t),-p(t),1.3t-175)"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "c506d2a53ee6d5c0",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "71"
+      ],
+      "example_latex": [
+        "\\left(h\\left(t\\right),-h\\left(t\\right)\\cdot0.42,\\ 2.5\\cdot t-175\\right)"
+      ],
+      "example_normalized": [
+        "(h(t),-h(t)*0.42,2.5*t-175)"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "cb736825c6ce6872",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "229"
+      ],
+      "example_latex": [
+        "(t,14.3,-52)"
+      ],
+      "example_normalized": [
+        "(t,14.3,-52)"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "cb80d4be185161e1",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "75"
+      ],
+      "example_latex": [
+        "\\left(-h\\left(t\\right),h\\left(t\\right)\\cdot0.42,\\ 2.5\\cdot t-175\\right)"
+      ],
+      "example_normalized": [
+        "(-h(t),h(t)*0.42,2.5*t-175)"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "cda6442f10cd9f25",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "61"
+      ],
+      "example_latex": [
+        "\\left(p\\left(t\\right),p\\left(t\\right),2.5t-175\\right)"
+      ],
+      "example_normalized": [
+        "(p(t),p(t),2.5t-175)"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "d1a96c89a8dd123c",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "613"
+      ],
+      "example_latex": [
+        "\\left(\\left[-S,-S+\\frac{S+S}{80}...S\\right],-S,-107.5+t\\right)\\left\\{0<t<1\\right\\}"
+      ],
+      "example_normalized": [
+        "([-S,-S+(S+S)/(80)...S],-S,-107.5+t){0<t<1}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "d45404c5cab9e119",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "761"
+      ],
+      "example_latex": [
+        "x^{2}+y^{2}+\\left(z-123\\right)^{2}=80\\left\\{z>122.5\\right\\}"
+      ],
+      "example_normalized": [
+        "x^2+y^2+(z-123)^2=80{z>122.5}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "d644bb44195ce65c",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "66"
+      ],
+      "example_latex": [
+        "h\\left(t\\right)=3.2\\cdot\\left(32.5\\cdot e^{-0.055t}+2.2\\right)"
+      ],
+      "example_normalized": [
+        "h(t)=3.2*(32.5*e^-0.055t+2.2)"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "dfb13923ca8eb585",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "597"
+      ],
+      "example_latex": [
+        "\\left(S,\\left[-S,-S+\\frac{S+S}{20}...S\\right],-107.5+t\\right)"
+      ],
+      "example_normalized": [
+        "(S,[-S,-S+(S+S)/(20)...S],-107.5+t)"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "e37d3baa8cf3bbfd",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "112"
+      ],
+      "example_latex": [
+        "(t,37,-111)"
+      ],
+      "example_normalized": [
+        "(t,37,-111)"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "f068e10771fdf9f6",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "58"
+      ],
+      "example_latex": [
+        "p\\left(t\\right)=3.2\\cdot\\left(28\\cdot e^{-0.045t}+1.4\\right)"
+      ],
+      "example_normalized": [
+        "p(t)=3.2*(28*e^-0.045t+1.4)"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "f362d62106cc207a",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "599"
+      ],
+      "example_latex": [
+        "\\left(\\left[-S,-S+\\frac{S+S}{20}...S\\right],-S,-107.5+t\\right)"
+      ],
+      "example_normalized": [
+        "([-S,-S+(S+S)/(20)...S],-S,-107.5+t)"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "f4dd07608b8b13af",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "607"
+      ],
+      "example_latex": [
+        "\\left(-S,\\left[-S,-S+\\frac{S+S}{80}...S\\right],-107.5+t\\right)\\left\\{0<t<1\\right\\}"
+      ],
+      "example_normalized": [
+        "(-S,[-S,-S+(S+S)/(80)...S],-107.5+t){0<t<1}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "fbf2279a2be00bbc",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "610"
+      ],
+      "example_latex": [
+        "\\left(S,t,-107.5+1\\right)"
+      ],
+      "example_normalized": [
+        "(S,t,-107.5+1)"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    }
+  ],
+  "diagnostics": [
+    {
+      "severity": "INFO",
+      "code": "COVERAGE_COMPLETE",
+      "message": "Coverage report complete",
+      "source_ref": null,
+      "details": {
+        "file": "[4B] 3D Diagram - S2-08 Group G.json",
+        "meshed_expression_ids": 1218,
+        "supported_but_not_meshed": 0,
+        "group_count": 35
+      }
+    }
+  ]
+}

@@ -1,0 +1,401 @@
+{
+  "version": 11,
+  "randomSeed": "2d5268f7f86e4c1f0090696bb1063054",
+  "graph": {
+    "viewport": {
+      "xmin": -11.908957002938186,
+      "ymin": -11.908820415060127,
+      "zmin": -11.49184815514262,
+      "xmax": 11.89224350567231,
+      "ymax": 11.892380093550369,
+      "zmax": 12.309352353468178
+    },
+    "worldRotation3D": [
+      -0.895907844828136,
+      -0.4238765004128613,
+      -0.13295806095588442,
+      0.41928441830531404,
+      -0.9057199966864722,
+      0.06222430528843574,
+      -0.1467981952946875,
+      -1.696496847109934e-16,
+      0.9891664621580253
+    ],
+    "axis3D": [
+      0,
+      0,
+      -0.9999999999998096
+    ],
+    "speed3D": 0.5588166421547498,
+    "product": "graphing-3d",
+    "threeDMode": true,
+    "__v12ViewportLatexStash": {
+      "xmin": "-11.908957002938186",
+      "xmax": "11.89224350567231",
+      "ymin": "-11.908820415060127",
+      "ymax": "11.892380093550369",
+      "zmin": "-11.49184815514262",
+      "zmax": "12.309352353468178"
+    }
+  },
+  "expressions": {
+    "list": [
+      {
+        "type": "folder",
+        "id": "53",
+        "title": "base"
+      },
+      {
+        "type": "expression",
+        "id": "104",
+        "folderId": "53",
+        "color": "#c74440",
+        "latex": "2z<-\\left(x-0\\right)^{2}+2\\ \\left\\{0<z\\right\\}\\left\\{2z>-\\left(x-0\\right)^{2}+1.8\\right\\}\\left\\{z<-5y+10\\right\\}\\left\\{z>-5y+9.\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "190",
+        "folderId": "53",
+        "color": "#c74440",
+        "latex": "2z<-\\left(x-0\\right)^{2}+2\\ \\left\\{0<z\\right\\}\\left\\{2z>-\\left(x-0\\right)^{2}+1.8\\right\\}\\left\\{z<5y+10\\right\\}\\left\\{z>5y+9.\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "154",
+        "folderId": "53",
+        "color": "#c74440",
+        "latex": "z<-\\left(y+0\\right)^{2}+1\\ \\left\\{z>2.45x+4.8\\right\\}\\ \\left\\{z<2.3x+4.7\\right\\}\\left\\{z>-\\left(y+0\\right)^{2}+0.9\\right\\}\\left\\{z>0\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "135",
+        "folderId": "53",
+        "color": "#c74440",
+        "latex": "z<-\\left(y+0\\right)^{2}+1\\ \\left\\{z>-2.45x+4.8\\right\\}\\ \\left\\{z<-2.3x+4.7\\right\\}\\left\\{z>-\\left(y+0\\right)^{2}+0.9\\right\\}\\left\\{z>0\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "87",
+        "folderId": "53",
+        "color": "#c74440",
+        "latex": "x=2\\ \\left\\{1<y<2\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "90",
+        "folderId": "53",
+        "color": "#c74440",
+        "latex": "x=-2\\ \\left\\{1<y<2\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "44",
+        "folderId": "53",
+        "color": "#c74440",
+        "latex": "x=2\\ \\left\\{-2<y<-1\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "45",
+        "folderId": "53",
+        "color": "#c74440",
+        "latex": "x=-2\\ \\left\\{-2<y<-1\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "8",
+        "folderId": "53",
+        "color": "#c74440",
+        "latex": "y=-2\\ \\left\\{-2<x<-1.4\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "75",
+        "folderId": "53",
+        "color": "#c74440",
+        "latex": "y=-2\\ \\left\\{1.4<x<2\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "49",
+        "folderId": "53",
+        "color": "#c74440",
+        "latex": "z<-2.45x+4.9\\ \\left\\{0<z<1.4\\right\\}\\left\\{z>-2.45x+4.7\\right\\}\\left\\{y>-0.45x-1.1\\right\\}\\left\\{y<-0.45x-0.9\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "184",
+        "folderId": "53",
+        "color": "#c74440",
+        "latex": "z<-2.45x+4.9\\ \\left\\{0<z<1.5\\right\\}\\left\\{z>-2.45x+4.7\\right\\}\\left\\{y<0.45x+1.07\\right\\}\\left\\{y>0.45x+0.9\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "187",
+        "folderId": "53",
+        "color": "#c74440",
+        "latex": "z<2.45x+4.9\\ \\left\\{0<z<1.5\\right\\}\\left\\{z>2.45x+4.7\\right\\}\\left\\{y<-0.45x+1.07\\right\\}\\left\\{y>-0.45x+0.9\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "181",
+        "folderId": "53",
+        "color": "#c74440",
+        "latex": "z<2.45x+4.9\\ \\left\\{0<z<1.4\\right\\}\\left\\{z>2.45x+4.7\\right\\}\\left\\{y>0.45x-1.1\\right\\}\\left\\{y<0.45x-0.9\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "99",
+        "folderId": "53",
+        "color": "#c74440",
+        "latex": "y=\\ 2\\left\\{-2<x<-1.4\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "102",
+        "folderId": "53",
+        "color": "#c74440",
+        "latex": "y=2\\ \\left\\{1.4<x<2\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "105",
+        "folderId": "53",
+        "color": "#c74440",
+        "latex": "1.5>z>1.3\\ \\left\\{-1.8<y<1.8\\right\\}\\left\\{z>1.6x+-1.06\\right\\}\\left\\{x>0\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "110",
+        "folderId": "53",
+        "color": "#c74440",
+        "latex": "1.5>z>1.3\\ \\left\\{-1.8<y<1.8\\right\\}\\left\\{z>-1.8x+-1.34\\right\\}\\left\\{x<0\\right\\}"
+      },
+      {
+        "type": "folder",
+        "id": "454",
+        "title": "last floor"
+      },
+      {
+        "type": "expression",
+        "id": "458",
+        "folderId": "454",
+        "color": "#c74440",
+        "latex": "8<z<8.5\\left\\{-0.4<x\\le0.4\\right\\}\\left\\{-0.4<y\\le0.4\\right\\}"
+      },
+      {
+        "type": "folder",
+        "id": "281",
+        "title": "grass!",
+        "collapsed": true
+      },
+      {
+        "type": "expression",
+        "id": "283",
+        "folderId": "281",
+        "color": "#388c46",
+        "latex": "-1.<z<0\\left\\{-5<x\\le5\\right\\}\\left\\{-5<y\\le5\\right\\}"
+      },
+      {
+        "type": "folder",
+        "id": "263",
+        "title": "Pillars ",
+        "collapsed": true
+      },
+      {
+        "type": "expression",
+        "id": "284",
+        "folderId": "263",
+        "color": "#c74440",
+        "latex": "z<4.76x+8.7\\left\\{7>z>1.5\\right\\}\\left\\{z>4.76x+8.5\\right\\}\\left\\{y>0.95x-0.16\\right\\}\\left\\{y<0.95x-0.05\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "292",
+        "folderId": "263",
+        "color": "#c74440",
+        "latex": "z<-4.76x+8.4\\left\\{7>z>1.5\\right\\}\\left\\{z>-4.6x+8.\\right\\}\\left\\{y>0.95x+0\\right\\}\\left\\{y<0.95x+0.2\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "295",
+        "folderId": "263",
+        "color": "#c74440",
+        "latex": "z<-4.76x+8.7\\left\\{7>z>1.5\\right\\}\\left\\{z>-4.76x+8.5\\right\\}\\left\\{y>-0.95x-0.15\\right\\}\\left\\{y<-0.95x-0\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "297",
+        "folderId": "263",
+        "color": "#c74440",
+        "latex": "z<4.76x+8.7\\left\\{7>z>1.5\\right\\}\\left\\{z>4.76x+8.5\\right\\}\\left\\{y>-0.95x+0.1\\right\\}\\left\\{y<-0.95x+0.2\\right\\}"
+      },
+      {
+        "type": "folder",
+        "id": "259",
+        "title": "mid floor"
+      },
+      {
+        "type": "expression",
+        "id": "301",
+        "folderId": "259",
+        "color": "#c74440",
+        "latex": "3.5<z<3.7\\ \\left\\{-1.3<x<1.3\\right\\}\\left\\{-1.3<y<1.3\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "320",
+        "folderId": "259",
+        "color": "#c74440",
+        "latex": "z<4.76x+8.7\\left\\{3>z>1.5\\right\\}\\left\\{z>4.76x+8.5\\right\\}\\left\\{y>-0.95x-0.8\\right\\}\\left\\{y<-0.95x-0.7\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "321",
+        "folderId": "259",
+        "color": "#c74440",
+        "latex": "z<4.76x+8.7\\left\\{3>z>1.5\\right\\}\\left\\{z>4.76x+8.5\\right\\}\\left\\{y>0.95x+0.8\\right\\}\\left\\{y<0.95x+0.9\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "322",
+        "folderId": "259",
+        "color": "#c74440",
+        "latex": "z<-4.76x+8.7\\left\\{3>z>1.5\\right\\}\\left\\{z>-4.76x+8.5\\right\\}\\left\\{y>0.95x-0.8\\right\\}\\left\\{y<0.95x-0.7\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "323",
+        "folderId": "259",
+        "color": "#c74440",
+        "latex": "z<-4.76x+8.7\\left\\{3>z>1.5\\right\\}\\left\\{z>-4.76x+8.5\\right\\}\\left\\{y>-0.95x+0.8\\right\\}\\left\\{y<-0.95x+0.9\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "336",
+        "folderId": "259",
+        "color": "#c74440",
+        "latex": "2.9<z<3\\ \\left\\{-1.2<x<-1.15\\right\\}\\left\\{0.45>y>-0.3\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "337",
+        "folderId": "259",
+        "color": "#c74440",
+        "latex": "2.9<z<3\\ \\left\\{1.2>x>1.15\\right\\}\\left\\{0.45>y>-0.3\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "340",
+        "folderId": "259",
+        "color": "#c74440",
+        "latex": "z<4.76x+5\\left\\{3>z>1.5\\right\\}\\ \\left\\{z>4.76x+4.7\\right\\}\\left\\{y>1.05x-0.8\\right\\}\\left\\{y<1.05x-0.75\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "343",
+        "folderId": "259",
+        "color": "#c74440",
+        "latex": "z<-4.76x+5\\left\\{3>z>1.5\\right\\}\\ \\left\\{z>-4.76x+4.7\\right\\}\\left\\{y>1.05x+0.8\\right\\}\\left\\{y<1.05x+0.85\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "348",
+        "folderId": "259",
+        "color": "#c74440",
+        "latex": "z<-4.76x+5\\left\\{3>z>1.5\\right\\}\\left\\{z>-4.76x+4.7\\right\\}\\left\\{y>-0.64x-1\\right\\}\\left\\{y<-0.64x-0.9\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "349",
+        "folderId": "259",
+        "color": "#c74440",
+        "latex": "z<4.76x+5\\left\\{3>z>1.5\\right\\}\\left\\{z>4.76x+4.7\\right\\}\\left\\{y>-1.2x+0.74\\right\\}\\left\\{y<-1.2x+0.8\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "350",
+        "folderId": "259",
+        "color": "#c74440",
+        "latex": "2.9<z<3\\ \\left\\{-0.4<x<0.4\\right\\}\\left\\{-1.15>y>-1.25\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "352",
+        "folderId": "259",
+        "color": "#c74440",
+        "latex": "2.9<z<3\\ \\left\\{-0.43<x<0.43\\right\\}\\left\\{1.19<y<1.3\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "342",
+        "folderId": "259",
+        "color": "#6042a6",
+        "latex": "m=1.2",
+        "hidden": true
+      },
+      {
+        "type": "expression",
+        "id": "341",
+        "folderId": "259",
+        "color": "#388c46",
+        "latex": "c=0.74",
+        "hidden": true,
+        "slider": {
+          "max": "6"
+        }
+      },
+      {
+        "type": "folder",
+        "id": "453",
+        "title": "#rd floor",
+        "collapsed": true
+      },
+      {
+        "type": "expression",
+        "id": "258",
+        "folderId": "453",
+        "color": "#c74440",
+        "latex": "z=7\\left\\{-0.45<x<0.45\\right\\}\\ \\left\\{-0.45<y<0.45\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "459",
+        "color": "#c74440",
+        "latex": "8.5<z<9.5\\left\\{-0.1<x<0.1\\right\\}\\left\\{-0.1<y<0.1\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "464",
+        "color": "#c74440",
+        "latex": "7<z<8\\left\\{-0.4<x<-0.3\\right\\}\\left\\{-0.4<y<-0.3\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "470",
+        "color": "#c74440",
+        "latex": "7<z<8\\left\\{-0.4<x<-0.3\\right\\}\\left\\{0.4>y>0.3\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "466",
+        "color": "#c74440",
+        "latex": "7<z<8\\left\\{0.4>x>0.3\\right\\}\\left\\{0.4>y>0.3\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "471",
+        "color": "#c74440",
+        "latex": "7<z<8\\left\\{0.4>x>0.3\\right\\}\\left\\{-0.4<y<-0.3\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "472",
+        "color": "#388c46"
+      }
+    ]
+  },
+  "includeFunctionParametersInRandomSeed": true,
+  "doNotMigrate3dLineWidthZero": true,
+  "doNotMigrateMovablePointStyle": true
+}

@@ -1,0 +1,88 @@
+{
+  "version": 11,
+  "randomSeed": "2c62d3116d814ce9933f670140068e17",
+  "graph": {
+    "viewport": {
+      "xmin": -167.3801004565175,
+      "ymin": -153.37960513460982,
+      "zmin": -165.37499999999918,
+      "xmax": 163.36989954348084,
+      "ymax": 177.37039486538853,
+      "zmax": 165.37499999999918
+    },
+    "worldRotation3D": [
+      -0.37309951586687773,
+      -0.9221755413741967,
+      -0.10192655272631226,
+      0.8895773310600137,
+      -0.38677160041912206,
+      0.24302242936183435,
+      -0.26353163628606063,
+      1.2735361214761807e-12,
+      0.9646507537321503
+    ],
+    "axis3D": [
+      -0.9221755413775478,
+      -0.3867716004181372,
+      6.434880185504255e-13
+    ],
+    "perspectiveDistortion": 6.25,
+    "product": "graphing-3d",
+    "threeDMode": true,
+    "__v12ViewportLatexStash": {
+      "xmin": "-167.3801004565175",
+      "xmax": "163.36989954348084",
+      "ymin": "-153.37960513460982",
+      "ymax": "177.37039486538853",
+      "zmin": "-165.37499999999918",
+      "zmax": "165.37499999999918"
+    }
+  },
+  "expressions": {
+    "list": [
+      {
+        "type": "expression",
+        "id": "23",
+        "color": "#c74440",
+        "latex": "90<x<130{0<y<40}{0<z<45}",
+        "lines": true,
+        "colorLatex": "c"
+      },
+      {
+        "type": "expression",
+        "id": "24",
+        "color": "#2d70b3",
+        "latex": "-50<x<50{-140<y<-10}{0<z<59}",
+        "colorLatex": "c"
+      },
+      {
+        "type": "expression",
+        "id": "25",
+        "color": "#388c46",
+        "latex": "-120<x<-80{-110<y<-70}{0<z<35}",
+        "colorLatex": "c"
+      },
+      {
+        "type": "expression",
+        "id": "27",
+        "color": "#fa7e19",
+        "latex": "x<0"
+      },
+      {
+        "type": "expression",
+        "id": "28",
+        "color": "#fa7e19",
+        "latex": "x>0"
+      },
+      {
+        "type": "expression",
+        "id": "30",
+        "color": "#aaaaaa",
+        "latex": "c=\\operatorname{rgb}(201,146,66)"
+      }
+    ]
+  },
+  "includeFunctionParametersInRandomSeed": true,
+  "doNotMigrate3dLineWidthZero": true,
+  "doNotMigrateMovablePointStyle": true
+}

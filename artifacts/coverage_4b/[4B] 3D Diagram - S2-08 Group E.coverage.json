@@ -1,0 +1,1743 @@
+{
+  "source_file": "[4B] 3D Diagram - S2-08 Group E.json",
+  "total_items": 87,
+  "total_expressions": 87,
+  "meshed_expression_count": 9,
+  "supported_expression_count": 9,
+  "supported_but_not_meshed_count": 0,
+  "recognized_unsupported_count": 3,
+  "unrecognized_count": 75,
+  "geometry_ineligible_count": 0,
+  "groups": [
+    {
+      "fingerprint": "64644829b598954d",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "80"
+      ],
+      "example_latex": [
+        "x^{2}+y^{2}\\le4\\left\\{z=0\\right\\}"
+      ],
+      "example_normalized": [
+        "x^{2}+y^{2}<=4{z=0}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "a1ab06549b2aed8f",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "108"
+      ],
+      "example_latex": [
+        "x^{2}+y^{2}+x\\le1.5\\left\\{z=8\\right\\}"
+      ],
+      "example_normalized": [
+        "x^{2}+y^{2}+x<=1.5{z=8}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "b8f59f74529491dd",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "93"
+      ],
+      "example_latex": [
+        "x^{2}+y^{2}+0.5\\le4\\left\\{z=0\\right\\}"
+      ],
+      "example_normalized": [
+        "x^{2}+y^{2}+0.5<=4{z=0}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "00ec009008da06ec",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "83"
+      ],
+      "example_latex": [
+        "(x\\cos(0.07)+z\\sin(0.07))^{2}+y^{2\\ }=1.3^{2\\ }1\\left\\{z=0\\right\\}"
+      ],
+      "example_normalized": [
+        "(xcos(0.07)+zsin(0.07))^{2}+y^{2}=1.3^{2}1{z=0}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "011ac099859d7d84",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "202"
+      ],
+      "example_latex": [
+        "\\operatorname{abs}\\left(x-y\\right)+\\operatorname{abs}\\left(x+y\\right)=1.8"
+      ],
+      "example_normalized": [
+        "operatorname{abs}(x-y)+operatorname{abs}(x+y)=1.8"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "034fb5b919cd079f",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "81"
+      ],
+      "example_latex": [
+        "(x\\cos(0.07)+z\\sin(0.07))^{2}+y^{2\\ }=1.3^{2\\ }\\left\\{6\\le z\\le7\\right\\}"
+      ],
+      "example_normalized": [
+        "(xcos(0.07)+zsin(0.07))^{2}+y^{2}=1.3^{2}{6<=z<=7}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "13d99cde8fcdd1ca",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "205"
+      ],
+      "example_latex": [
+        "\\operatorname{abs}(x)+\\operatorname{abs}(y)=1.1"
+      ],
+      "example_normalized": [
+        "operatorname{abs}(x)+operatorname{abs}(y)=1.1"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "1857237f15358f01",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "176"
+      ],
+      "example_latex": [
+        "(x\\cos(0.07)+z\\sin(0.07))^{2}+y^{2}=1.31^{2}\\left\\{0.4\\le z\\le0.6\\right\\}"
+      ],
+      "example_normalized": [
+        "(xcos(0.07)+zsin(0.07))^{2}+y^{2}=1.31^{2}{0.4<=z<=0.6}"
+      ],
+      "flags": {
+        "lines": 1,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "1a7a09717aff12ed",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "173"
+      ],
+      "example_latex": [
+        "(x\\cos(0.07)+z\\sin(0.07))^{2}+y^{2}=0.75^{2}\\left\\{9.0\\le z\\le9.6\\right\\}"
+      ],
+      "example_normalized": [
+        "(xcos(0.07)+zsin(0.07))^{2}+y^{2}=0.75^{2}{9.0<=z<=9.6}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "1f1d3e4c729cd1a9",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "204"
+      ],
+      "example_latex": [
+        "\\operatorname{abs}(x)+\\operatorname{abs}(y)=1.27"
+      ],
+      "example_normalized": [
+        "operatorname{abs}(x)+operatorname{abs}(y)=1.27"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "20f2b47cb6d60cca",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "121"
+      ],
+      "example_latex": [
+        "(x\\cos(0.07)+z\\sin(0.07))^{2}+y^{2}=1.23^{2}\\left\\{7.0\\le z\\le7.2\\right\\}"
+      ],
+      "example_normalized": [
+        "(xcos(0.07)+zsin(0.07))^{2}+y^{2}=1.23^{2}{7.0<=z<=7.2}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "21d8dd00a2008033",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "114"
+      ],
+      "example_latex": [
+        "(x\\cos(0.07)+z\\sin(0.07))^{2}+y^{2\\ }=1.82^{2\\ }1\\left\\{z=0\\right\\}"
+      ],
+      "example_normalized": [
+        "(xcos(0.07)+zsin(0.07))^{2}+y^{2}=1.82^{2}1{z=0}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "2e74c96b810203f1",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "168"
+      ],
+      "example_latex": [
+        "(x\\cos(0.07)+z\\sin(0.07)-1.36\\cos(11.5\\pi/6))^{2}+(y-1.36\\sin(11.5\\pi/6))^{2}=0.06^{2}\\left\\{0\\le z\\le8\\right\\}"
+      ],
+      "example_normalized": [
+        "(xcos(0.07)+zsin(0.07)-1.36cos(11.5pi/6))^{2}+(y-1.36sin(11.5pi/6))^{2}=0.06^{2}{0<=z<=8}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "32e88573e9e54857",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "167"
+      ],
+      "example_latex": [
+        "(x\\cos(0.07)+z\\sin(0.07)-1.36\\cos(10.5\\pi/6))^{2}+(y-1.36\\sin(10.5\\pi/6))^{2}=0.06^{2}\\left\\{0\\le z\\le8\\right\\}"
+      ],
+      "example_normalized": [
+        "(xcos(0.07)+zsin(0.07)-1.36cos(10.5pi/6))^{2}+(y-1.36sin(10.5pi/6))^{2}=0.06^{2}{0<=z<=8}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "33ef2ffc29597cb1",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "146"
+      ],
+      "example_latex": [
+        "(x\\cos(0.07)+z\\sin(0.07)-1.36\\cos(3\\pi/6))^{2}+(y-1.36\\sin(3\\pi/6))^{2}=0.06^{2}\\left\\{0\\le z\\le8\\right\\}"
+      ],
+      "example_normalized": [
+        "(xcos(0.07)+zsin(0.07)-1.36cos(3pi/6))^{2}+(y-1.36sin(3pi/6))^{2}=0.06^{2}{0<=z<=8}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "353056b86b2a4089",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "124"
+      ],
+      "example_latex": [
+        "(x\\cos(0.07)+z\\sin(0.07))^{2}+y^{2}=1.3^{2}\\left\\{4.0\\le z\\le4.2\\right\\}"
+      ],
+      "example_normalized": [
+        "(xcos(0.07)+zsin(0.07))^{2}+y^{2}=1.3^{2}{4.0<=z<=4.2}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "39b1357fa6c2c4c6",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "178"
+      ],
+      "example_latex": [
+        "(x\\cos(0.07)+z\\sin(0.07))^{2}+y^{2}=1.31^{2}\\left\\{1.4\\le z\\le1.6\\right\\}"
+      ],
+      "example_normalized": [
+        "(xcos(0.07)+zsin(0.07))^{2}+y^{2}=1.31^{2}{1.4<=z<=1.6}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "42d56c496bf50d56",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "82"
+      ],
+      "example_latex": [
+        "(x\\cos(0.07)+z\\sin(0.07))^{2}+y^{2\\ }=1.3^{2\\ }\\left\\{7\\le z\\le8\\right\\}"
+      ],
+      "example_normalized": [
+        "(xcos(0.07)+zsin(0.07))^{2}+y^{2}=1.3^{2}{7<=z<=8}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "434b4fb98e38c518",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "149"
+      ],
+      "example_latex": [
+        "(x\\cos(0.07)+z\\sin(0.07)-1.36\\cos(6\\pi/6))^{2}+(y-1.36\\sin(6\\pi/6))^{2}=0.06^{2}\\left\\{0\\le z\\le8\\right\\}"
+      ],
+      "example_normalized": [
+        "(xcos(0.07)+zsin(0.07)-1.36cos(6pi/6))^{2}+(y-1.36sin(6pi/6))^{2}=0.06^{2}{0<=z<=8}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "4575829e232db4e7",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "127"
+      ],
+      "example_latex": [
+        "(x\\cos(0.07)+z\\sin(0.07))^{2}+y^{2}=1.33^{2}\\left\\{7.0\\le z\\le7.2\\right\\}"
+      ],
+      "example_normalized": [
+        "(xcos(0.07)+zsin(0.07))^{2}+y^{2}=1.33^{2}{7.0<=z<=7.2}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "479befcebfaa7764",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "163"
+      ],
+      "example_latex": [
+        "(x\\cos(0.07)+z\\sin(0.07)-1.36\\cos(6.5\\pi/6))^{2}+(y-1.36\\sin(6.5\\pi/6))^{2}=0.06^{2}\\left\\{0\\le z\\le8\\right\\}"
+      ],
+      "example_normalized": [
+        "(xcos(0.07)+zsin(0.07)-1.36cos(6.5pi/6))^{2}+(y-1.36sin(6.5pi/6))^{2}=0.06^{2}{0<=z<=8}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "47bc9383a3cda34e",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "99"
+      ],
+      "example_latex": [
+        "(x\\cos(0.07)+z\\sin(0.07))^{2}+y^{2\\ }=1.3^{2\\ }1\\left\\{z=5\\right\\}"
+      ],
+      "example_normalized": [
+        "(xcos(0.07)+zsin(0.07))^{2}+y^{2}=1.3^{2}1{z=5}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "487b325807dd3d7c",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "185"
+      ],
+      "example_latex": [
+        "\\operatorname{abs}(x)+\\operatorname{abs}(y)=1.5\\left\\{1.4^{2}\\le\\ x^{2}+y^{2}\\le1.8^{2\\ }\\right\\}"
+      ],
+      "example_normalized": [
+        "operatorname{abs}(x)+operatorname{abs}(y)=1.5{1.4^{2}<=x^{2}+y^{2}<=1.8^{2}}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "4a3a97b2d21f8872",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "72"
+      ],
+      "example_latex": [
+        "(x\\cos(0.07)+z\\sin(0.07))^{2}+y^{2\\ }=1.3^{2\\ }\\left\\{4\\le z\\le5\\right\\}"
+      ],
+      "example_normalized": [
+        "(xcos(0.07)+zsin(0.07))^{2}+y^{2}=1.3^{2}{4<=z<=5}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "51ececbab336ef85",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "148"
+      ],
+      "example_latex": [
+        "(x\\cos(0.07)+z\\sin(0.07)-1.36\\cos(5\\pi/6))^{2}+(y-1.36\\sin(5\\pi/6))^{2}=0.06^{2}\\left\\{0\\le z\\le8\\right\\}"
+      ],
+      "example_normalized": [
+        "(xcos(0.07)+zsin(0.07)-1.36cos(5pi/6))^{2}+(y-1.36sin(5pi/6))^{2}=0.06^{2}{0<=z<=8}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "52dd0775dd72c4bb",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "103"
+      ],
+      "example_latex": [
+        "(x\\cos(0.07)+z\\sin(0.07))^{2}+y^{2\\ }=0.9^{2\\ }\\left\\{8\\le z\\le9.2\\right\\}"
+      ],
+      "example_normalized": [
+        "(xcos(0.07)+zsin(0.07))^{2}+y^{2}=0.9^{2}{8<=z<=9.2}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "53a27cd6dda8e574",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "70"
+      ],
+      "example_latex": [
+        "(x\\cos(0.07)+z\\sin(0.07))^{2}+y^{2\\ }=1.3^{2}\\ \\left\\{2\\le z\\le3\\right\\}"
+      ],
+      "example_normalized": [
+        "(xcos(0.07)+zsin(0.07))^{2}+y^{2}=1.3^{2}{2<=z<=3}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "53e684f520aa3b8f",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "164"
+      ],
+      "example_latex": [
+        "(x\\cos(0.07)+z\\sin(0.07)-1.36\\cos(7.5\\pi/6))^{2}+(y-1.36\\sin(7.5\\pi/6))^{2}=0.06^{2}\\left\\{0\\le z\\le8\\right\\}"
+      ],
+      "example_normalized": [
+        "(xcos(0.07)+zsin(0.07)-1.36cos(7.5pi/6))^{2}+(y-1.36sin(7.5pi/6))^{2}=0.06^{2}{0<=z<=8}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "570213ce1681f18d",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "131"
+      ],
+      "example_latex": [
+        "(x\\cos(0.07)+z\\sin(0.07)-1.36\\cos(1\\pi/6))^{2}+(y-1.36\\sin(1\\pi/6))^{2}=0.06^{2}\\left\\{0\\le z\\le8\\right\\}"
+      ],
+      "example_normalized": [
+        "(xcos(0.07)+zsin(0.07)-1.36cos(1pi/6))^{2}+(y-1.36sin(1pi/6))^{2}=0.06^{2}{0<=z<=8}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "5b47d09e1aaa43d9",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "101"
+      ],
+      "example_latex": [
+        "(x\\cos(0.07)+z\\sin(0.07))^{2}+y^{2\\ }=1.3^{2\\ }1\\left\\{z=7\\right\\}"
+      ],
+      "example_normalized": [
+        "(xcos(0.07)+zsin(0.07))^{2}+y^{2}=1.3^{2}1{z=7}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "5fc6767a072de56d",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "118"
+      ],
+      "example_latex": [
+        "(x\\cos(0.07)+z\\sin(0.07))^{2}+y^{2}=1.3^{2}\\left\\{1.3\\le z\\le1.4\\right\\}"
+      ],
+      "example_normalized": [
+        "(xcos(0.07)+zsin(0.07))^{2}+y^{2}=1.3^{2}{1.3<=z<=1.4}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "645d0a209b3adcf9",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "147"
+      ],
+      "example_latex": [
+        "(x\\cos(0.07)+z\\sin(0.07)-1.36\\cos(4\\pi/6))^{2}+(y-1.36\\sin(4\\pi/6))^{2}=0.06^{2}\\left\\{0\\le z\\le8\\right\\}"
+      ],
+      "example_normalized": [
+        "(xcos(0.07)+zsin(0.07)-1.36cos(4pi/6))^{2}+(y-1.36sin(4pi/6))^{2}=0.06^{2}{0<=z<=8}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "682d112993819076",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "153"
+      ],
+      "example_latex": [
+        "(x\\cos(0.07)+z\\sin(0.07)-1.36\\cos(10\\pi/6))^{2}+(y-1.36\\sin(10\\pi/6))^{2}=0.06^{2}\\left\\{0\\le z\\le8\\right\\}"
+      ],
+      "example_normalized": [
+        "(xcos(0.07)+zsin(0.07)-1.36cos(10pi/6))^{2}+(y-1.36sin(10pi/6))^{2}=0.06^{2}{0<=z<=8}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "757a17eee911a225",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "73"
+      ],
+      "example_latex": [
+        "(x\\cos(0.07)+z\\sin(0.07))^{2}+y^{2\\ }=1.3^{2\\ }\\left\\{5\\le z\\le6\\right\\}"
+      ],
+      "example_normalized": [
+        "(xcos(0.07)+zsin(0.07))^{2}+y^{2}=1.3^{2}{5<=z<=6}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "7df368f4b5e476d8",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "172"
+      ],
+      "example_latex": [
+        "(x\\cos(0.07)+z\\sin(0.07))^{2}+y^{2}=1.75^{2}\\left\\{0.0<=z<=0.3\\right\\}"
+      ],
+      "example_normalized": [
+        "(xcos(0.07)+zsin(0.07))^{2}+y^{2}=1.75^{2}{0.0<=z<=0.3}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "811b68e4f2c5913d",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "123"
+      ],
+      "example_latex": [
+        "(x\\cos(0.07)+z\\sin(0.07))^{2}+y^{2}=1.3^{2}\\left\\{3.0\\le z\\le3.2\\right\\}"
+      ],
+      "example_normalized": [
+        "(xcos(0.07)+zsin(0.07))^{2}+y^{2}=1.3^{2}{3.0<=z<=3.2}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "81f4f238bef77de8",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "145"
+      ],
+      "example_latex": [
+        "(x\\cos(0.07)+z\\sin(0.07)-1.36\\cos(2\\pi/6))^{2}+(y-1.36\\sin(2\\pi/6))^{2}=0.06^{2}\\left\\{0\\le z\\le8\\right\\}"
+      ],
+      "example_normalized": [
+        "(xcos(0.07)+zsin(0.07)-1.36cos(2pi/6))^{2}+(y-1.36sin(2pi/6))^{2}=0.06^{2}{0<=z<=8}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "8ab74e0ef530c147",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "188"
+      ],
+      "example_latex": [
+        "\\operatorname{abs}(x)+\\operatorname{abs}(y)=1.7\\left\\{1.4^{2}\\le\\ x^{2}+y^{2}\\le1.8^{2\\ }\\right\\}"
+      ],
+      "example_normalized": [
+        "operatorname{abs}(x)+operatorname{abs}(y)=1.7{1.4^{2}<=x^{2}+y^{2}<=1.8^{2}}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "8f8bfbfab7474baf",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "203"
+      ],
+      "example_latex": [
+        "\\operatorname{abs}\\left(x-y\\right)+\\operatorname{abs}\\left(x+y\\right)=1.5"
+      ],
+      "example_normalized": [
+        "operatorname{abs}(x-y)+operatorname{abs}(x+y)=1.5"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "a677c1f301931505",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "159"
+      ],
+      "example_latex": [
+        "(x\\cos(0.07)+z\\sin(0.07)-1.36\\cos(2.5\\pi/6))^{2}+(y-1.36\\sin(2.5\\pi/6))^{2}=0.06^{2}\\left\\{0\\le z\\le8\\right\\}"
+      ],
+      "example_normalized": [
+        "(xcos(0.07)+zsin(0.07)-1.36cos(2.5pi/6))^{2}+(y-1.36sin(2.5pi/6))^{2}=0.06^{2}{0<=z<=8}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "aa8ce5f09e118939",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "166"
+      ],
+      "example_latex": [
+        "(x\\cos(0.07)+z\\sin(0.07)-1.36\\cos(9.5\\pi/6))^{2}+(y-1.36\\sin(9.5\\pi/6))^{2}=0.06^{2}\\left\\{0\\le z\\le8\\right\\}"
+      ],
+      "example_normalized": [
+        "(xcos(0.07)+zsin(0.07)-1.36cos(9.5pi/6))^{2}+(y-1.36sin(9.5pi/6))^{2}=0.06^{2}{0<=z<=8}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "aebd48da87ea890c",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "184"
+      ],
+      "example_latex": [
+        "\\operatorname{abs}(x)+\\operatorname{abs}(y)=1.6\\left\\{1.4^{2}\\le\\ x^{2}+y^{2}\\le1.8^{2\\ }\\right\\}"
+      ],
+      "example_normalized": [
+        "operatorname{abs}(x)+operatorname{abs}(y)=1.6{1.4^{2}<=x^{2}+y^{2}<=1.8^{2}}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "afcab7222a7950c9",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "144"
+      ],
+      "example_latex": [
+        "(x\\cos(0.07)+z\\sin(0.07)-1.36\\cos(0\\pi/6))^{2}+(y-1.36\\sin(0\\pi/6))^{2}=0.06^{2}\\left\\{0\\le z\\le8\\right\\}"
+      ],
+      "example_normalized": [
+        "(xcos(0.07)+zsin(0.07)-1.36cos(0pi/6))^{2}+(y-1.36sin(0pi/6))^{2}=0.06^{2}{0<=z<=8}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "b0fc8cb2917ca79f",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "113"
+      ],
+      "example_latex": [
+        "(x\\cos(0.07)+z\\sin(0.07))^{2}+y^{2\\ }=0.65^{2\\ }\\left\\{z=9.2\\right\\}"
+      ],
+      "example_normalized": [
+        "(xcos(0.07)+zsin(0.07))^{2}+y^{2}=0.65^{2}{z=9.2}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "b186e441fa9ddbe7",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "125"
+      ],
+      "example_latex": [
+        "(x\\cos(0.07)+z\\sin(0.07))^{2}+y^{2}=1.3^{2}\\left\\{5.0\\le z\\le5.2\\right\\}"
+      ],
+      "example_normalized": [
+        "(xcos(0.07)+zsin(0.07))^{2}+y^{2}=1.3^{2}{5.0<=z<=5.2}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "b432ea711d351c3d",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "180"
+      ],
+      "example_latex": [
+        "(x\\cos(0.07)+z\\sin(0.07))^{2}+y^{2}=1.15^{2}\\left\\{8.5\\le z\\le8.7\\right\\}"
+      ],
+      "example_normalized": [
+        "(xcos(0.07)+zsin(0.07))^{2}+y^{2}=1.15^{2}{8.5<=z<=8.7}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "b7dcc32706072af7",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "63"
+      ],
+      "example_latex": [
+        "(x\\cos(0.07)+z\\sin(0.07))^{2}+y^{2\\ }=1.3^{2\\ }\\left\\{0\\le z\\le2\\right\\}"
+      ],
+      "example_normalized": [
+        "(xcos(0.07)+zsin(0.07))^{2}+y^{2}=1.3^{2}{0<=z<=2}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "bb393d870a79a0f7",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "165"
+      ],
+      "example_latex": [
+        "(x\\cos(0.07)+z\\sin(0.07)-1.36\\cos(8.5\\pi/6))^{2}+(y-1.36\\sin(8.5\\pi/6))^{2}=0.06^{2}\\left\\{0\\le z\\le8\\right\\}"
+      ],
+      "example_normalized": [
+        "(xcos(0.07)+zsin(0.07)-1.36cos(8.5pi/6))^{2}+(y-1.36sin(8.5pi/6))^{2}=0.06^{2}{0<=z<=8}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "bb9536a71f4eee95",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "71"
+      ],
+      "example_latex": [
+        "(x\\cos(0.07)+z\\sin(0.07))^{2}+y^{2\\ }=1.3^{2\\ }\\left\\{3\\le z\\le4\\right\\}"
+      ],
+      "example_normalized": [
+        "(xcos(0.07)+zsin(0.07))^{2}+y^{2}=1.3^{2}{3<=z<=4}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "bd22ad62c8e80048",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "199"
+      ],
+      "example_latex": [
+        "\\operatorname{abs}\\left(x-y\\right)+\\operatorname{abs}\\left(x+y\\right)=2.2\\left\\{1.3^{2}\\le\\ x^{2}+y^{2}\\le1.8^{2\\ }\\right\\}"
+      ],
+      "example_normalized": [
+        "operatorname{abs}(x-y)+operatorname{abs}(x+y)=2.2{1.3^{2}<=x^{2}+y^{2}<=1.8^{2}}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "bf5deba94f1bf49f",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "151"
+      ],
+      "example_latex": [
+        "(x\\cos(0.07)+z\\sin(0.07)-1.36\\cos(8\\pi/6))^{2}+(y-1.36\\sin(8\\pi/6))^{2}=0.06^{2}\\left\\{0\\le z\\le8\\right\\}"
+      ],
+      "example_normalized": [
+        "(xcos(0.07)+zsin(0.07)-1.36cos(8pi/6))^{2}+(y-1.36sin(8pi/6))^{2}=0.06^{2}{0<=z<=8}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "c089ede3cb3b91d5",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "156"
+      ],
+      "example_latex": [
+        "(x\\cos(0.07)+z\\sin(0.07))^{2}+y^{2}=1.3^{2}\\left\\{0.8\\le z\\le0.9\\right\\}"
+      ],
+      "example_normalized": [
+        "(xcos(0.07)+zsin(0.07))^{2}+y^{2}=1.3^{2}{0.8<=z<=0.9}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "c6a178c9f90058aa",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "206"
+      ],
+      "example_latex": [
+        "(x\\cos(0.07)+z\\sin(0.07))^{2}+y^{2\\ }=0.7^{2\\ }1\\left\\{z=0\\right\\}"
+      ],
+      "example_normalized": [
+        "(xcos(0.07)+zsin(0.07))^{2}+y^{2}=0.7^{2}1{z=0}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "d092b6d0201a5117",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "155"
+      ],
+      "example_latex": [
+        "(x\\cos(0.07)+z\\sin(0.07))^{2}+y^{2}=1.3^{2}\\left\\{0.3\\le z\\le0.4\\right\\}"
+      ],
+      "example_normalized": [
+        "(xcos(0.07)+zsin(0.07))^{2}+y^{2}=1.3^{2}{0.3<=z<=0.4}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "d1036a244d578081",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "198"
+      ],
+      "example_latex": [
+        "\\operatorname{abs}\\left(x-y\\right)+\\operatorname{abs}\\left(x+y\\right)=2.4\\left\\{1.3^{2}\\le\\ x^{2}+y^{2}\\le1.8^{2\\ }\\right\\}"
+      ],
+      "example_normalized": [
+        "operatorname{abs}(x-y)+operatorname{abs}(x+y)=2.4{1.3^{2}<=x^{2}+y^{2}<=1.8^{2}}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "d4770e1a10da6408",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "177"
+      ],
+      "example_latex": [
+        "(x\\cos(0.07)+z\\sin(0.07))^{2}+y^{2}=1.31^{2}\\left\\{0.9\\le z\\le1.1\\right\\}"
+      ],
+      "example_normalized": [
+        "(xcos(0.07)+zsin(0.07))^{2}+y^{2}=1.31^{2}{0.9<=z<=1.1}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "d4b8aac9dc269286",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "96"
+      ],
+      "example_latex": [
+        "(x\\cos(0.07)+z\\sin(0.07))^{2}+y^{2\\ }=1.3^{2\\ }1\\left\\{z=2\\right\\}"
+      ],
+      "example_normalized": [
+        "(xcos(0.07)+zsin(0.07))^{2}+y^{2}=1.3^{2}1{z=2}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "d5478312d736a98f",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "98"
+      ],
+      "example_latex": [
+        "(x\\cos(0.07)+z\\sin(0.07))^{2}+y^{2\\ }=1.3^{2\\ }1\\left\\{z=4\\right\\}"
+      ],
+      "example_normalized": [
+        "(xcos(0.07)+zsin(0.07))^{2}+y^{2}=1.3^{2}1{z=4}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "d548a691f9a948f1",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "160"
+      ],
+      "example_latex": [
+        "(x\\cos(0.07)+z\\sin(0.07)-1.36\\cos(3.5\\pi/6))^{2}+(y-1.36\\sin(3.5\\pi/6))^{2}=0.06^{2}\\left\\{0\\le z\\le8\\right\\}"
+      ],
+      "example_normalized": [
+        "(xcos(0.07)+zsin(0.07)-1.36cos(3.5pi/6))^{2}+(y-1.36sin(3.5pi/6))^{2}=0.06^{2}{0<=z<=8}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "d69c745eeefd40f0",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "109"
+      ],
+      "example_latex": [
+        "(x\\cos(0.07)+z\\sin(0.07))^{2}+y^{2\\ }=0.8^{2\\ }\\left\\{z=9.2\\right\\}"
+      ],
+      "example_normalized": [
+        "(xcos(0.07)+zsin(0.07))^{2}+y^{2}=0.8^{2}{z=9.2}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "d809ed3c8c15cab9",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "157"
+      ],
+      "example_latex": [
+        "(x\\cos(0.07)+z\\sin(0.07)-1.36\\cos(0.5\\pi/6))^{2}+(y-1.36\\sin(0.5\\pi/6))^{2}=0.06^{2}\\left\\{0\\le z\\le8\\right\\}"
+      ],
+      "example_normalized": [
+        "(xcos(0.07)+zsin(0.07)-1.36cos(0.5pi/6))^{2}+(y-1.36sin(0.5pi/6))^{2}=0.06^{2}{0<=z<=8}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "dad7f6e7599792fe",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "196"
+      ],
+      "example_latex": [
+        "\\operatorname{abs}(x)+\\operatorname{abs}(x)=1.7\\left\\{1.3^{2}\\le\\ x^{2}+y^{2}\\le1.8^{2\\ }\\right\\}"
+      ],
+      "example_normalized": [
+        "operatorname{abs}(x)+operatorname{abs}(x)=1.7{1.3^{2}<=x^{2}+y^{2}<=1.8^{2}}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "dcf9dd794fc9a3aa",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "162"
+      ],
+      "example_latex": [
+        "(x\\cos(0.07)+z\\sin(0.07)-1.36\\cos(5.5\\pi/6))^{2}+(y-1.36\\sin(5.5\\pi/6))^{2}=0.06^{2}\\left\\{0\\le z\\le8\\right\\}"
+      ],
+      "example_normalized": [
+        "(xcos(0.07)+zsin(0.07)-1.36cos(5.5pi/6))^{2}+(y-1.36sin(5.5pi/6))^{2}=0.06^{2}{0<=z<=8}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "e14000e94280cc22",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "95"
+      ],
+      "example_latex": [
+        "(x\\cos(0.07)+z\\sin(0.07))^{2}+y^{2\\ }=1.3^{2\\ }1\\left\\{z=8\\right\\}"
+      ],
+      "example_normalized": [
+        "(xcos(0.07)+zsin(0.07))^{2}+y^{2}=1.3^{2}1{z=8}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "e3effcf56aa354b5",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "97"
+      ],
+      "example_latex": [
+        "(x\\cos(0.07)+z\\sin(0.07))^{2}+y^{2\\ }=1.3^{2\\ }1\\left\\{z=3\\right\\}"
+      ],
+      "example_normalized": [
+        "(xcos(0.07)+zsin(0.07))^{2}+y^{2}=1.3^{2}1{z=3}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "e4f426dd29d57d33",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "174"
+      ],
+      "example_latex": [
+        "(x\\cos(0.07)+z\\sin(0.07))^{2}+y^{2}=1.35^{2}\\left\\{7.0\\le z\\le7.3\\right\\}"
+      ],
+      "example_normalized": [
+        "(xcos(0.07)+zsin(0.07))^{2}+y^{2}=1.35^{2}{7.0<=z<=7.3}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "e66aa0d3d49fdd2c",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "158"
+      ],
+      "example_latex": [
+        "(x\\cos(0.07)+z\\sin(0.07)-1.36\\cos(1.5\\pi/6))^{2}+(y-1.36\\sin(1.5\\pi/6))^{2}=0.06^{2}\\left\\{0\\le z\\le8\\right\\}"
+      ],
+      "example_normalized": [
+        "(xcos(0.07)+zsin(0.07)-1.36cos(1.5pi/6))^{2}+(y-1.36sin(1.5pi/6))^{2}=0.06^{2}{0<=z<=8}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "e8e717f8e858b58f",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "115"
+      ],
+      "example_latex": [
+        "(x\\cos(0.07)+z\\sin(0.07))^{2}+y^{2\\ }=2^{2\\ }1\\left\\{z=0\\right\\}"
+      ],
+      "example_normalized": [
+        "(xcos(0.07)+zsin(0.07))^{2}+y^{2}=2^{2}1{z=0}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "eac7a93f50f4f3c4",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "122"
+      ],
+      "example_latex": [
+        "(x\\cos(0.07)+z\\sin(0.07))^{2}+y^{2}=1.3^{2}\\left\\{2.0\\le z\\le2.2\\right\\}"
+      ],
+      "example_normalized": [
+        "(xcos(0.07)+zsin(0.07))^{2}+y^{2}=1.3^{2}{2.0<=z<=2.2}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "eb01331f0f685340",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "152"
+      ],
+      "example_latex": [
+        "(x\\cos(0.07)+z\\sin(0.07)-1.36\\cos(9\\pi/6))^{2}+(y-1.36\\sin(9\\pi/6))^{2}=0.06^{2}\\left\\{0\\le z\\le8\\right\\}"
+      ],
+      "example_normalized": [
+        "(xcos(0.07)+zsin(0.07)-1.36cos(9pi/6))^{2}+(y-1.36sin(9pi/6))^{2}=0.06^{2}{0<=z<=8}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "ef980f97e6f919c3",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "161"
+      ],
+      "example_latex": [
+        "(x\\cos(0.07)+z\\sin(0.07)-1.36\\cos(4.5\\pi/6))^{2}+(y-1.36\\sin(4.5\\pi/6))^{2}=0.06^{2}\\left\\{0\\le z\\le8\\right\\}"
+      ],
+      "example_normalized": [
+        "(xcos(0.07)+zsin(0.07)-1.36cos(4.5pi/6))^{2}+(y-1.36sin(4.5pi/6))^{2}=0.06^{2}{0<=z<=8}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "f120a2211481f0b8",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "106"
+      ],
+      "example_latex": [
+        "(x\\cos(0.07)+z\\sin(0.07))^{2}+y^{2\\ }=0.8^{2\\ }\\left\\{z=8\\right\\}"
+      ],
+      "example_normalized": [
+        "(xcos(0.07)+zsin(0.07))^{2}+y^{2}=0.8^{2}{z=8}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "f206b097b0649f70",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "120"
+      ],
+      "example_latex": [
+        "(x\\cos(0.07)+z\\sin(0.07))^{2}+y^{2}=1.15^{2}\\left\\{8.0\\le z\\le8.5\\right\\}"
+      ],
+      "example_normalized": [
+        "(xcos(0.07)+zsin(0.07))^{2}+y^{2}=1.15^{2}{8.0<=z<=8.5}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "f31217af0cfcc27e",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "154"
+      ],
+      "example_latex": [
+        "(x\\cos(0.07)+z\\sin(0.07)-1.36\\cos(11\\pi/6))^{2}+(y-1.36\\sin(11\\pi/6))^{2}=0.06^{2}\\left\\{0\\le z\\le8\\right\\}"
+      ],
+      "example_normalized": [
+        "(xcos(0.07)+zsin(0.07)-1.36cos(11pi/6))^{2}+(y-1.36sin(11pi/6))^{2}=0.06^{2}{0<=z<=8}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "f80c347107f6db07",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "150"
+      ],
+      "example_latex": [
+        "(x\\cos(0.07)+z\\sin(0.07)-1.36\\cos(7\\pi/6))^{2}+(y-1.36\\sin(7\\pi/6))^{2}=0.06^{2}\\left\\{0\\le z\\le8\\right\\}"
+      ],
+      "example_normalized": [
+        "(xcos(0.07)+zsin(0.07)-1.36cos(7pi/6))^{2}+(y-1.36sin(7pi/6))^{2}=0.06^{2}{0<=z<=8}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "f843968d17bbac02",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "197"
+      ],
+      "example_latex": [
+        "\\operatorname{abs}(y)+\\operatorname{abs}(y)=1.7\\left\\{1.3^{2}\\le\\ x^{2}+y^{2}\\le1.8^{2\\ }\\right\\}"
+      ],
+      "example_normalized": [
+        "operatorname{abs}(y)+operatorname{abs}(y)=1.7{1.3^{2}<=x^{2}+y^{2}<=1.8^{2}}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "f8d8d93a6570e693",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "126"
+      ],
+      "example_latex": [
+        "(x\\cos(0.07)+z\\sin(0.07))^{2}+y^{2}=1.3^{2}\\left\\{6.0\\le z\\le6.2\\right\\}"
+      ],
+      "example_normalized": [
+        "(xcos(0.07)+zsin(0.07))^{2}+y^{2}=1.3^{2}{6.0<=z<=6.2}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "f9be692ba44e3b02",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "100"
+      ],
+      "example_latex": [
+        "(x\\cos(0.07)+z\\sin(0.07))^{2}+y^{2\\ }=1.3^{2\\ }1\\left\\{z=6\\right\\}"
+      ],
+      "example_normalized": [
+        "(xcos(0.07)+zsin(0.07))^{2}+y^{2}=1.3^{2}1{z=6}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    }
+  ],
+  "diagnostics": [
+    {
+      "severity": "INFO",
+      "code": "COVERAGE_COMPLETE",
+      "message": "Coverage report complete",
+      "source_ref": null,
+      "details": {
+        "file": "[4B] 3D Diagram - S2-08 Group E.json",
+        "meshed_expression_ids": 9,
+        "supported_but_not_meshed": 0,
+        "group_count": 78
+      }
+    }
+  ]
+}

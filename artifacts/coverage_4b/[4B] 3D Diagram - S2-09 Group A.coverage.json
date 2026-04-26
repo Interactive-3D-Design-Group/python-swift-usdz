@@ -1,0 +1,1024 @@
+{
+  "source_file": "[4B] 3D Diagram - S2-09 Group A.json",
+  "total_items": 108,
+  "total_expressions": 108,
+  "meshed_expression_count": 25,
+  "supported_expression_count": 66,
+  "supported_but_not_meshed_count": 33,
+  "recognized_unsupported_count": 8,
+  "unrecognized_count": 31,
+  "geometry_ineligible_count": 3,
+  "groups": [
+    {
+      "fingerprint": "c46f24883308ec70",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 31,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "330",
+        "345",
+        "67",
+        "74",
+        "81"
+      ],
+      "example_latex": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "example_normalized": [
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 31
+      }
+    },
+    {
+      "fingerprint": "001bf20b57629dd5",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "337"
+      ],
+      "example_latex": [
+        "3.1\\sqrt{100-\\left(x\\cos o-y\\sin o\\right)^{2}}-24<z<3\\sqrt{115-\\left(x\\cos o-y\\sin o\\right)^{2}}\\left\\{-10<x\\cos o-y\\sin o<10\\right\\}\\left\\{-12<x\\sin o+y\\cos o<-11\\right\\}\\left\\{z>0\\right\\}-24"
+      ],
+      "example_normalized": [
+        "3.1sqrt{100-(xcoso-ysino)^{2}}-24<z<3sqrt{115-(xcoso-ysino)^{2}}{-10<xcoso-ysino<10}{-12<xsino+ycoso<-11}{z>0}-24"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "0683d202ccf0cd04",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "339"
+      ],
+      "example_latex": [
+        "3.1\\sqrt{100-\\left(x\\cos o-y\\sin o\\right)^{2}}-24<z<3\\sqrt{115-\\left(x\\cos o-y\\sin o\\right)^{2}}\\left\\{-10<x\\cos o-y\\sin o<10\\right\\}\\left\\{-8<x\\sin o+y\\cos o<-7\\right\\}\\left\\{z>0\\right\\}-24"
+      ],
+      "example_normalized": [
+        "3.1sqrt{100-(xcoso-ysino)^{2}}-24<z<3sqrt{115-(xcoso-ysino)^{2}}{-10<xcoso-ysino<10}{-8<xsino+ycoso<-7}{z>0}-24"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "1cb803c5947d8e91",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "331"
+      ],
+      "example_latex": [
+        "3.1\\sqrt{100-\\left(x\\cos l-y\\sin l\\right)^{2}}-24<z<3\\sqrt{115-\\left(x\\cos l-y\\sin l\\right)^{2}}\\left\\{-10<\\left(x\\cos l-y\\sin l\\right)<10\\right\\}\\left\\{-8<x\\sin l+y\\cos l<-7\\right\\}\\left\\{z>0\\right\\}-24"
+      ],
+      "example_normalized": [
+        "3.1sqrt{100-(xcosl-ysinl)^{2}}-24<z<3sqrt{115-(xcosl-ysinl)^{2}}{-10<(xcosl-ysinl)<10}{-8<xsinl+ycosl<-7}{z>0}-24"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "3c1640fa9316b585",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "341"
+      ],
+      "example_latex": [
+        "3.1\\sqrt{100-\\left(x\\cos o-y\\sin o\\right)^{2}}-24<z<3\\sqrt{115-\\left(x\\cos o-y\\sin o\\right)^{2}}\\left\\{-10<x\\cos o-y\\sin o<10\\right\\}\\left\\{8>x\\sin o+y\\cos o>7\\right\\}\\left\\{z>0\\right\\}-24"
+      ],
+      "example_normalized": [
+        "3.1sqrt{100-(xcoso-ysino)^{2}}-24<z<3sqrt{115-(xcoso-ysino)^{2}}{-10<xcoso-ysino<10}{8>xsino+ycoso>7}{z>0}-24"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "496c55b9aae52b96",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "340"
+      ],
+      "example_latex": [
+        "3.1\\sqrt{100-\\left(x\\cos o-y\\sin o\\right)^{2}}-24<z<3\\sqrt{115-\\left(x\\cos o-y\\sin o\\right)^{2}}\\left\\{-10<x\\cos o-y\\sin o<10\\right\\}\\left\\{12>x\\sin o+y\\cos o>11\\right\\}\\left\\{z>0\\right\\}-24"
+      ],
+      "example_normalized": [
+        "3.1sqrt{100-(xcoso-ysino)^{2}}-24<z<3sqrt{115-(xcoso-ysino)^{2}}{-10<xcoso-ysino<10}{12>xsino+ycoso>11}{z>0}-24"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "61b47655723035e3",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "336"
+      ],
+      "example_latex": [
+        "3.1\\sqrt{100-\\left(x\\cos l-y\\sin l\\right)^{2}}-24<z<3\\sqrt{115-\\left(x\\cos l-y\\sin l\\right)^{2}}\\left\\{-10<\\left(x\\cos l-y\\sin l\\right)<10\\right\\}\\left\\{12>x\\sin l+y\\cos l>11\\right\\}\\left\\{z>0\\right\\}-24"
+      ],
+      "example_normalized": [
+        "3.1sqrt{100-(xcosl-ysinl)^{2}}-24<z<3sqrt{115-(xcosl-ysinl)^{2}}{-10<(xcosl-ysinl)<10}{12>xsinl+ycosl>11}{z>0}-24"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "8ae5bdfc969b419e",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "334"
+      ],
+      "example_latex": [
+        "3.1\\sqrt{100-\\left(x\\cos l-y\\sin l\\right)^{2}}-24<z<3\\sqrt{115-\\left(x\\cos l-y\\sin l\\right)^{2}}\\left\\{-10<\\left(x\\cos l-y\\sin l\\right)<10\\right\\}\\left\\{8>x\\sin l+y\\cos l>7\\right\\}\\left\\{z>0\\right\\}-24"
+      ],
+      "example_normalized": [
+        "3.1sqrt{100-(xcosl-ysinl)^{2}}-24<z<3sqrt{115-(xcosl-ysinl)^{2}}{-10<(xcosl-ysinl)<10}{8>xsinl+ycosl>7}{z>0}-24"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "fdd42c71e4312df9",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "332"
+      ],
+      "example_latex": [
+        "3.1\\sqrt{100-\\left(x\\cos l-y\\sin l\\right)^{2}}-24<z<3\\sqrt{115-\\left(x\\cos l-y\\sin l\\right)^{2}}\\left\\{-10<\\left(x\\cos l-y\\sin l\\right)<10\\right\\}\\left\\{-12<x\\sin l+y\\cos l<-11\\right\\}\\left\\{z>0\\right\\}-24"
+      ],
+      "example_normalized": [
+        "3.1sqrt{100-(xcosl-ysinl)^{2}}-24<z<3sqrt{115-(xcosl-ysinl)^{2}}{-10<(xcosl-ysinl)<10}{-12<xsinl+ycosl<-11}{z>0}-24"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "09d77d7858cb08f9",
+      "family": "Z_SLAB_REGION",
+      "status": "SUPPORTED",
+      "reason": "z bounded between two functions",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "83"
+      ],
+      "example_latex": [
+        "\\left(y+16\\right)^{1.15}>z>\\left(y+15\\right)^{1.15}\\ \\left\\{4<x<5\\right\\}\\left\\{y<0\\right\\}\\left\\{z<10\\right\\}"
+      ],
+      "example_normalized": [
+        "(y+16)^{1.15}>z>(y+15)^{1.15}{4<x<5}{y<0}{z<10}"
+      ],
+      "flags": {
+        "lines": 1,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "0c830ef0dd0925f0",
+      "family": "Z_SLAB_REGION",
+      "status": "SUPPORTED",
+      "reason": "z bounded between two functions",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "89"
+      ],
+      "example_latex": [
+        "\\left(-y+15\\right)^{1.15}<z<\\left(-y+16\\right)^{1.15}\\left\\{4<x<5\\right\\}\\left\\{y>0\\right\\}\\left\\{z<10\\right\\}"
+      ],
+      "example_normalized": [
+        "(-y+15)^{1.15}<z<(-y+16)^{1.15}{4<x<5}{y>0}{z<10}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "128f736e0b29c40f",
+      "family": "Z_SLAB_REGION",
+      "status": "SUPPORTED",
+      "reason": "z bounded between two functions",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "82"
+      ],
+      "example_latex": [
+        "\\left(y+21\\right)^{1.15}>z>\\left(y+20\\right)^{1.15}\\ \\left\\{-0.5<x<0.5\\right\\}\\left\\{y<-6\\right\\}\\left\\{z<10\\right\\}"
+      ],
+      "example_normalized": [
+        "(y+21)^{1.15}>z>(y+20)^{1.15}{-0.5<x<0.5}{y<-6}{z<10}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "1c6e84b0f6a9374d",
+      "family": "Z_SLAB_REGION",
+      "status": "SUPPORTED",
+      "reason": "z bounded between two functions",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "178"
+      ],
+      "example_latex": [
+        "\\left(-y+17\\right)^{1.4}>z>\\left(-y+16\\right)^{1.4}\\ \\left\\{-0.5<x<0.5\\right\\}\\left\\{12<z<24\\right\\}"
+      ],
+      "example_normalized": [
+        "(-y+17)^{1.4}>z>(-y+16)^{1.4}{-0.5<x<0.5}{12<z<24}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "1f605e4a76d9f27e",
+      "family": "Z_SLAB_REGION",
+      "status": "SUPPORTED",
+      "reason": "z bounded between two functions",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "36"
+      ],
+      "example_latex": [
+        "\\left(x+16\\right)^{1.15}>z>\\left(x+15\\right)^{1.15}\\ \\left\\{-5<y<-4\\right\\}\\left\\{x<0\\right\\}\\left\\{z<10\\right\\}"
+      ],
+      "example_normalized": [
+        "(x+16)^{1.15}>z>(x+15)^{1.15}{-5<y<-4}{x<0}{z<10}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "2182264a39bbbd29",
+      "family": "Z_SLAB_REGION",
+      "status": "SUPPORTED",
+      "reason": "z bounded between two functions",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "209"
+      ],
+      "example_latex": [
+        "\\left(-y+13\\right)^{1.8}>z>\\left(-y+12\\right)^{1.8}\\ \\left\\{-0.5<x<0.5\\right\\}\\left\\{25<z<90\\right\\}\\left\\{y>0\\right\\}"
+      ],
+      "example_normalized": [
+        "(-y+13)^{1.8}>z>(-y+12)^{1.8}{-0.5<x<0.5}{25<z<90}{y>0}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "24669bd68818053e",
+      "family": "Z_SLAB_REGION",
+      "status": "SUPPORTED",
+      "reason": "z bounded between two functions",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "217"
+      ],
+      "example_latex": [
+        "\\left(x+13\\right)^{1.8}>z>\\left(x+12\\right)^{1.8}\\ \\left\\{-0.5<y<0.5\\right\\}\\left\\{25<z<90\\right\\}\\left\\{x<0\\right\\}"
+      ],
+      "example_normalized": [
+        "(x+13)^{1.8}>z>(x+12)^{1.8}{-0.5<y<0.5}{25<z<90}{x<0}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "2944807510a2d70b",
+      "family": "Z_SLAB_REGION",
+      "status": "SUPPORTED",
+      "reason": "z bounded between two functions",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "180"
+      ],
+      "example_latex": [
+        "\\left(-y+15\\right)^{1.4}>z>\\left(-y+14\\right)^{1.4}\\ \\left\\{-3<x<-2\\right\\}\\left\\{12<z<24\\right\\}"
+      ],
+      "example_normalized": [
+        "(-y+15)^{1.4}>z>(-y+14)^{1.4}{-3<x<-2}{12<z<24}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "29a5f286023628af",
+      "family": "Z_SLAB_REGION",
+      "status": "SUPPORTED",
+      "reason": "z bounded between two functions",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "197"
+      ],
+      "example_latex": [
+        "\\left(x+15\\right)^{1.4}>z>\\left(x+14\\right)^{1.4}\\ \\left\\{2<y<3\\right\\}\\left\\{12<z<24\\right\\}"
+      ],
+      "example_normalized": [
+        "(x+15)^{1.4}>z>(x+14)^{1.4}{2<y<3}{12<z<24}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "2e2c0c06e63c2bec",
+      "family": "Z_SLAB_REGION",
+      "status": "SUPPORTED",
+      "reason": "z bounded between two functions",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "90"
+      ],
+      "example_latex": [
+        "\\left(-y+21\\right)^{1.15}>z>\\left(-y+20\\right)^{1.15}\\ \\left\\{-0.5<x<0.5\\right\\}\\left\\{z<10\\right\\}"
+      ],
+      "example_normalized": [
+        "(-y+21)^{1.15}>z>(-y+20)^{1.15}{-0.5<x<0.5}{z<10}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "38f4cb7664505e7b",
+      "family": "Z_SLAB_REGION",
+      "status": "SUPPORTED",
+      "reason": "z bounded between two functions",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "208"
+      ],
+      "example_latex": [
+        "\\left(-y+11\\right)^{1.8}>z>\\left(-y+10\\right)^{1.8}\\ \\left\\{2<x<3\\right\\}\\left\\{25<z<5\\right\\}\\left\\{y>0\\right\\}"
+      ],
+      "example_normalized": [
+        "(-y+11)^{1.8}>z>(-y+10)^{1.8}{2<x<3}{25<z<5}{y>0}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "5b9f7aa8768693b3",
+      "family": "Z_SLAB_REGION",
+      "status": "SUPPORTED",
+      "reason": "z bounded between two functions",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "214"
+      ],
+      "example_latex": [
+        "\\left(-x+13\\right)^{1.8}>z>\\left(-x+12\\right)^{1.8}\\ \\left\\{-0.5<y<0.5\\right\\}\\left\\{25<z<90\\right\\}\\left\\{x>0\\right\\}"
+      ],
+      "example_normalized": [
+        "(-x+13)^{1.8}>z>(-x+12)^{1.8}{-0.5<y<0.5}{25<z<90}{x>0}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "5c37925a866c12fe",
+      "family": "Z_SLAB_REGION",
+      "status": "SUPPORTED",
+      "reason": "z bounded between two functions",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "172"
+      ],
+      "example_latex": [
+        "\\left(y+17\\right)^{1.4}>z>\\left(y+16\\right)^{1.4}\\ \\left\\{-0.5<x<0.5\\right\\}\\left\\{y<0\\right\\}\\left\\{12<z<24\\right\\}"
+      ],
+      "example_normalized": [
+        "(y+17)^{1.4}>z>(y+16)^{1.4}{-0.5<x<0.5}{y<0}{12<z<24}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "5dc306cb715e7491",
+      "family": "Z_SLAB_REGION",
+      "status": "SUPPORTED",
+      "reason": "z bounded between two functions",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "69"
+      ],
+      "example_latex": [
+        "\\left(-x+15\\right)^{1.15}<z<\\left(-x+16\\right)^{1.15}\\left\\{4<y<5\\right\\}\\left\\{x>0\\right\\}\\left\\{z<10\\right\\}"
+      ],
+      "example_normalized": [
+        "(-x+15)^{1.15}<z<(-x+16)^{1.15}{4<y<5}{x>0}{z<10}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "64e807b343971791",
+      "family": "Z_SLAB_REGION",
+      "status": "SUPPORTED",
+      "reason": "z bounded between two functions",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "179"
+      ],
+      "example_latex": [
+        "\\left(-y+15\\right)^{1.4}>z>\\left(-y+14\\right)^{1.4}\\ \\left\\{2<x<3\\right\\}\\left\\{12<z<24\\right\\}"
+      ],
+      "example_normalized": [
+        "(-y+15)^{1.4}>z>(-y+14)^{1.4}{2<x<3}{12<z<24}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "68eed8ef4be65dc7",
+      "family": "Z_SLAB_REGION",
+      "status": "SUPPORTED",
+      "reason": "z bounded between two functions",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "174"
+      ],
+      "example_latex": [
+        "\\left(y+15\\right)^{1.4}>z>\\left(y+14\\right)^{1.4}\\ \\left\\{-3<x<-2\\right\\}\\left\\{y<0\\right\\}\\left\\{12<z<24\\right\\}"
+      ],
+      "example_normalized": [
+        "(y+15)^{1.4}>z>(y+14)^{1.4}{-3<x<-2}{y<0}{12<z<24}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "697593af8f84f705",
+      "family": "Z_SLAB_REGION",
+      "status": "SUPPORTED",
+      "reason": "z bounded between two functions",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "183"
+      ],
+      "example_latex": [
+        "\\left(-x+17\\right)^{1.4}>z>\\left(-x+16\\right)^{1.4}\\ \\left\\{-0.5<y<0.5\\right\\}\\left\\{12<z<24\\right\\}"
+      ],
+      "example_normalized": [
+        "(-x+17)^{1.4}>z>(-x+16)^{1.4}{-0.5<y<0.5}{12<z<24}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "70fb940d78724995",
+      "family": "Z_SLAB_REGION",
+      "status": "SUPPORTED",
+      "reason": "z bounded between two functions",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "194"
+      ],
+      "example_latex": [
+        "\\left(-x+13\\right)^{1.4}>z>\\left(-x+12\\right)^{1.4}\\ \\left\\{-0.5<y<0.5\\right\\}\\left\\{12<z<24\\right\\}"
+      ],
+      "example_normalized": [
+        "(-x+13)^{1.4}>z>(-x+12)^{1.4}{-0.5<y<0.5}{12<z<24}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "95701dee040ffc10",
+      "family": "Z_SLAB_REGION",
+      "status": "SUPPORTED",
+      "reason": "z bounded between two functions",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "198"
+      ],
+      "example_latex": [
+        "\\left(x+13\\right)^{1.4}>z>\\left(x+12\\right)^{1.4}\\ \\left\\{-0.5<y<0.5\\right\\}\\left\\{12<z<24\\right\\}"
+      ],
+      "example_normalized": [
+        "(x+13)^{1.4}>z>(x+12)^{1.4}{-0.5<y<0.5}{12<z<24}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "97d4c36e57c19c95",
+      "family": "Z_SLAB_REGION",
+      "status": "SUPPORTED",
+      "reason": "z bounded between two functions",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "173"
+      ],
+      "example_latex": [
+        "\\left(y+15\\right)^{1.4}>z>\\left(y+14\\right)^{1.4}\\ \\left\\{2<x<3\\right\\}\\left\\{y<0\\right\\}\\left\\{12<z<24\\right\\}"
+      ],
+      "example_normalized": [
+        "(y+15)^{1.4}>z>(y+14)^{1.4}{2<x<3}{y<0}{12<z<24}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "99b55346a93910cd",
+      "family": "Z_SLAB_REGION",
+      "status": "SUPPORTED",
+      "reason": "z bounded between two functions",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "91"
+      ],
+      "example_latex": [
+        "\\left(-y+16\\right)^{1.15}>z>\\left(-y+15\\right)^{1.15}\\ \\left\\{-5<x<-4\\right\\}\\left\\{y>0\\right\\}\\left\\{z<10\\right\\}"
+      ],
+      "example_normalized": [
+        "(-y+16)^{1.15}>z>(-y+15)^{1.15}{-5<x<-4}{y>0}{z<10}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "a6a2cd9bcd692616",
+      "family": "Z_SLAB_REGION",
+      "status": "SUPPORTED",
+      "reason": "z bounded between two functions",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "181"
+      ],
+      "example_latex": [
+        "\\left(-y+13\\right)^{1.4}>z>\\left(-y+12\\right)^{1.4}\\ \\left\\{-0.5<x<0.5\\right\\}\\left\\{12<z<24\\right\\}"
+      ],
+      "example_normalized": [
+        "(-y+13)^{1.4}>z>(-y+12)^{1.4}{-0.5<x<0.5}{12<z<24}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "a8c8cc12e03175dd",
+      "family": "Z_SLAB_REGION",
+      "status": "SUPPORTED",
+      "reason": "z bounded between two functions",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "73"
+      ],
+      "example_latex": [
+        "\\left(-x+21\\right)^{1.15}>z>\\left(-x+20\\right)^{1.15}\\ \\left\\{-0.5<y<0.5\\right\\}\\left\\{z<10\\right\\}"
+      ],
+      "example_normalized": [
+        "(-x+21)^{1.15}>z>(-x+20)^{1.15}{-0.5<y<0.5}{z<10}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "a90aadbc0187dc1d",
+      "family": "Z_SLAB_REGION",
+      "status": "SUPPORTED",
+      "reason": "z bounded between two functions",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "70"
+      ],
+      "example_latex": [
+        "\\left(-x+16\\right)^{1.15}>z>\\left(-x+15\\right)^{1.15}\\ \\left\\{-5<y<-4\\right\\}\\left\\{x>0\\right\\}\\left\\{z<10\\right\\}"
+      ],
+      "example_normalized": [
+        "(-x+16)^{1.15}>z>(-x+15)^{1.15}{-5<y<-4}{x>0}{z<10}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "b6de52431a5358bf",
+      "family": "Z_SLAB_REGION",
+      "status": "SUPPORTED",
+      "reason": "z bounded between two functions",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "184"
+      ],
+      "example_latex": [
+        "\\left(-x+15\\right)^{1.4}>z>\\left(-x+14\\right)^{1.4}\\ \\left\\{2<y<3\\right\\}\\left\\{12<z<24\\right\\}"
+      ],
+      "example_normalized": [
+        "(-x+15)^{1.4}>z>(-x+14)^{1.4}{2<y<3}{12<z<24}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "cc56c0ac0ea37e04",
+      "family": "Z_SLAB_REGION",
+      "status": "SUPPORTED",
+      "reason": "z bounded between two functions",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "19"
+      ],
+      "example_latex": [
+        "\\left(x+21\\right)^{1.15}>z>\\left(x+20\\right)^{1.15}\\ \\left\\{-0.5<y<0.5\\right\\}\\left\\{x<-6\\right\\}\\left\\{z<10\\right\\}"
+      ],
+      "example_normalized": [
+        "(x+21)^{1.15}>z>(x+20)^{1.15}{-0.5<y<0.5}{x<-6}{z<10}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "cf9a22a1372050be",
+      "family": "Z_SLAB_REGION",
+      "status": "SUPPORTED",
+      "reason": "z bounded between two functions",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "218"
+      ],
+      "example_latex": [
+        "\\left(y+13\\right)^{1.8}>z>\\left(y+12\\right)^{1.8}\\ \\left\\{-0.5<x<0.5\\right\\}\\left\\{25<z<90\\right\\}\\left\\{y<0\\right\\}"
+      ],
+      "example_normalized": [
+        "(y+13)^{1.8}>z>(y+12)^{1.8}{-0.5<x<0.5}{25<z<90}{y<0}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "e183f481a1e1ad22",
+      "family": "Z_SLAB_REGION",
+      "status": "SUPPORTED",
+      "reason": "z bounded between two functions",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "85"
+      ],
+      "example_latex": [
+        "\\left(y+16\\right)^{1.15}>z>\\left(y+15\\right)^{1.15}\\ \\left\\{-5<x<-4\\right\\}\\left\\{y<0\\right\\}\\left\\{z<10\\right\\}"
+      ],
+      "example_normalized": [
+        "(y+16)^{1.15}>z>(y+15)^{1.15}{-5<x<-4}{y<0}{z<10}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "e1a25465f084d942",
+      "family": "Z_SLAB_REGION",
+      "status": "SUPPORTED",
+      "reason": "z bounded between two functions",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "200"
+      ],
+      "example_latex": [
+        "\\left(x+15\\right)^{1.4}>z>\\left(x+14\\right)^{1.4}\\ \\left\\{-3<y<-2\\right\\}\\left\\{12<z<24\\right\\}"
+      ],
+      "example_normalized": [
+        "(x+15)^{1.4}>z>(x+14)^{1.4}{-3<y<-2}{12<z<24}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "e4d13c2339769467",
+      "family": "Z_SLAB_REGION",
+      "status": "SUPPORTED",
+      "reason": "z bounded between two functions",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "185"
+      ],
+      "example_latex": [
+        "\\left(-x+15\\right)^{1.4}>z>\\left(-x+14\\right)^{1.4}\\ \\left\\{-3<y<-2\\right\\}\\left\\{12<z<24\\right\\}"
+      ],
+      "example_normalized": [
+        "(-x+15)^{1.4}>z>(-x+14)^{1.4}{-3<y<-2}{12<z<24}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "ed36860dfcb4274d",
+      "family": "Z_SLAB_REGION",
+      "status": "SUPPORTED",
+      "reason": "z bounded between two functions",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "35"
+      ],
+      "example_latex": [
+        "\\left(x+16\\right)^{1.15}>z>\\left(x+15\\right)^{1.15}\\ \\left\\{4<y<5\\right\\}\\left\\{x<0\\right\\}\\left\\{z<10\\right\\}"
+      ],
+      "example_normalized": [
+        "(x+16)^{1.15}>z>(x+15)^{1.15}{4<y<5}{x<0}{z<10}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "f317a81d34feb9fc",
+      "family": "Z_SLAB_REGION",
+      "status": "SUPPORTED",
+      "reason": "z bounded between two functions",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "175"
+      ],
+      "example_latex": [
+        "\\left(y+13\\right)^{1.4}>z>\\left(y+12\\right)^{1.4}\\ \\left\\{-0.5<x<0.5\\right\\}\\left\\{y<0\\right\\}\\left\\{12<z<24\\right\\}"
+      ],
+      "example_normalized": [
+        "(y+13)^{1.4}>z>(y+12)^{1.4}{-0.5<x<0.5}{y<0}{12<z<24}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "fa88efedd2e3d600",
+      "family": "Z_SLAB_REGION",
+      "status": "SUPPORTED",
+      "reason": "z bounded between two functions",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "196"
+      ],
+      "example_latex": [
+        "\\left(x+17\\right)^{1.4}>z>\\left(x+16\\right)^{1.4}\\ \\left\\{-0.5<y<0.5\\right\\}\\left\\{12<z<24\\right\\}"
+      ],
+      "example_normalized": [
+        "(x+17)^{1.4}>z>(x+16)^{1.4}{-0.5<y<0.5}{12<z<24}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    }
+  ],
+  "diagnostics": [
+    {
+      "severity": "WARNING",
+      "code": "COVERAGE_MESH_FAILURES",
+      "message": "Some meshes failed during coverage pass (these items may be missing)",
+      "source_ref": null,
+      "details": {
+        "failed_mesh_count": 41,
+        "failures": [
+          {
+            "source_file": "[4B] 3D Diagram - S2-09 Group A.json",
+            "expression_id": "19",
+            "error": "Missing finite bounds for axis x"
+          },
+          {
+            "source_file": "[4B] 3D Diagram - S2-09 Group A.json",
+            "expression_id": "35",
+            "error": "Missing finite bounds for axis x"
+          },
+          {
+            "source_file": "[4B] 3D Diagram - S2-09 Group A.json",
+            "expression_id": "36",
+            "error": "Missing finite bounds for axis x"
+          },
+          {
+            "source_file": "[4B] 3D Diagram - S2-09 Group A.json",
+            "expression_id": "73",
+            "error": "Missing finite bounds for axis x"
+          },
+          {
+            "source_file": "[4B] 3D Diagram - S2-09 Group A.json",
+            "expression_id": "69",
+            "error": "Missing finite bounds for axis x"
+          },
+          {
+            "source_file": "[4B] 3D Diagram - S2-09 Group A.json",
+            "expression_id": "70",
+            "error": "Missing finite bounds for axis x"
+          },
+          {
+            "source_file": "[4B] 3D Diagram - S2-09 Group A.json",
+            "expression_id": "82",
+            "error": "Missing finite bounds for axis y"
+          },
+          {
+            "source_file": "[4B] 3D Diagram - S2-09 Group A.json",
+            "expression_id": "83",
+            "error": "Missing finite bounds for axis y"
+          },
+          {
+            "source_file": "[4B] 3D Diagram - S2-09 Group A.json",
+            "expression_id": "85",
+            "error": "Missing finite bounds for axis y"
+          },
+          {
+            "source_file": "[4B] 3D Diagram - S2-09 Group A.json",
+            "expression_id": "89",
+            "error": "Missing finite bounds for axis y"
+          }
+        ]
+      }
+    },
+    {
+      "severity": "INFO",
+      "code": "COVERAGE_COMPLETE",
+      "message": "Coverage report complete",
+      "source_ref": null,
+      "details": {
+        "file": "[4B] 3D Diagram - S2-09 Group A.json",
+        "meshed_expression_ids": 25,
+        "supported_but_not_meshed": 33,
+        "group_count": 42
+      }
+    }
+  ]
+}

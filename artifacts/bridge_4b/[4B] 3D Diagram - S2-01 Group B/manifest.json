@@ -1,0 +1,208 @@
+{
+  "schema_version": 1,
+  "mesh_count": 10,
+  "failed_mesh_count": 0,
+  "meshes": [
+    {
+      "name": "[4B] 3D Diagram - S2-01 Group B_8",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-01 Group B_8.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-01 Group B.json",
+      "expression_id": "8",
+      "family": "CONSTANT_PLANE",
+      "bounds": {
+        "min": [
+          -10.0,
+          -10.0,
+          130.0
+        ],
+        "max": [
+          10.0,
+          10.0,
+          130.0
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-01 Group B_10",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-01 Group B_10.obj",
+      "color": "#ffffff",
+      "source_file": "[4B] 3D Diagram - S2-01 Group B.json",
+      "expression_id": "10",
+      "family": "POINT_DEFINITION",
+      "bounds": {
+        "min": [
+          -1.001275823485516,
+          -0.9761717481088704,
+          150.0
+        ],
+        "max": [
+          1.001275823485516,
+          0.9761717481088702,
+          153.00382747045654
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-01 Group B_11",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-01 Group B_11.obj",
+      "color": "#ffffff",
+      "source_file": "[4B] 3D Diagram - S2-01 Group B.json",
+      "expression_id": "11",
+      "family": "POINT_DEFINITION",
+      "bounds": {
+        "min": [
+          8.998724176514484,
+          -10.97617174810887,
+          130.0
+        ],
+        "max": [
+          11.001275823485516,
+          -9.02382825189113,
+          133.00382747045654
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-01 Group B_14",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-01 Group B_14.obj",
+      "color": "#ffffff",
+      "source_file": "[4B] 3D Diagram - S2-01 Group B.json",
+      "expression_id": "14",
+      "family": "POINT_DEFINITION",
+      "bounds": {
+        "min": [
+          -11.001275823485516,
+          -10.97617174810887,
+          130.0
+        ],
+        "max": [
+          -8.998724176514484,
+          -9.02382825189113,
+          133.00382747045654
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-01 Group B_17",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-01 Group B_17.obj",
+      "color": "#ffffff",
+      "source_file": "[4B] 3D Diagram - S2-01 Group B.json",
+      "expression_id": "17",
+      "family": "POINT_DEFINITION",
+      "bounds": {
+        "min": [
+          -11.001275823485516,
+          9.02382825189113,
+          130.0
+        ],
+        "max": [
+          -8.998724176514484,
+          10.97617174810887,
+          133.00382747045654
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-01 Group B_23",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-01 Group B_23.obj",
+      "color": "#ffffff",
+      "source_file": "[4B] 3D Diagram - S2-01 Group B.json",
+      "expression_id": "23",
+      "family": "POINT_DEFINITION",
+      "bounds": {
+        "min": [
+          -11.001275823485516,
+          9.02382825189113,
+          130.0
+        ],
+        "max": [
+          -8.998724176514484,
+          10.97617174810887,
+          133.00382747045654
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-01 Group B_30",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-01 Group B_30.obj",
+      "color": "#ffffff",
+      "source_file": "[4B] 3D Diagram - S2-01 Group B.json",
+      "expression_id": "30",
+      "family": "POINT_DEFINITION",
+      "bounds": {
+        "min": [
+          8.998724176514484,
+          9.02382825189113,
+          130.0
+        ],
+        "max": [
+          11.001275823485516,
+          10.97617174810887,
+          133.00382747045654
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-01 Group B_38",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-01 Group B_38.obj",
+      "color": "#ffffff",
+      "source_file": "[4B] 3D Diagram - S2-01 Group B.json",
+      "expression_id": "38",
+      "family": "POINT_DEFINITION",
+      "bounds": {
+        "min": [
+          -21.001275823485514,
+          19.02382825189113,
+          0.0
+        ],
+        "max": [
+          -18.998724176514486,
+          20.97617174810887,
+          3.0038274704565477
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-01 Group B_44",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-01 Group B_44.obj",
+      "color": "#ffffff",
+      "source_file": "[4B] 3D Diagram - S2-01 Group B.json",
+      "expression_id": "44",
+      "family": "POINT_DEFINITION",
+      "bounds": {
+        "min": [
+          -21.001275823485514,
+          -20.97617174810887,
+          0.0
+        ],
+        "max": [
+          -18.998724176514486,
+          -19.02382825189113,
+          3.0038274704565477
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-01 Group B_45",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-01 Group B_45.obj",
+      "color": "#ffffff",
+      "source_file": "[4B] 3D Diagram - S2-01 Group B.json",
+      "expression_id": "45",
+      "family": "POINT_DEFINITION",
+      "bounds": {
+        "min": [
+          18.998724176514486,
+          -20.97617174810887,
+          0.0
+        ],
+        "max": [
+          21.001275823485514,
+          -19.02382825189113,
+          3.0038274704565477
+        ]
+      }
+    }
+  ],
+  "failures": []
+}

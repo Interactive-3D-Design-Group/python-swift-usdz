@@ -1,0 +1,250 @@
+{
+  "source_file": "[4B] 3D Diagram - S2-02 Group D.json",
+  "total_items": 63,
+  "total_expressions": 63,
+  "meshed_expression_count": 52,
+  "supported_expression_count": 52,
+  "supported_but_not_meshed_count": 0,
+  "recognized_unsupported_count": 11,
+  "unrecognized_count": 0,
+  "geometry_ineligible_count": 0,
+  "groups": [
+    {
+      "fingerprint": "643ab152706382df",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 2,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "95",
+        "96"
+      ],
+      "example_latex": [
+        "\\left\\{\\left|x\\right|\\le12.5\\right\\}\\left\\{\\left|y\\right|\\le19\\right\\}\\ 8.8\\le\\ z\\le9",
+        "\\left\\{\\left|x\\right|\\le12.5\\right\\}\\left\\{\\left|y\\right|\\le19\\right\\}\\ 8.8\\le\\ z\\le9"
+      ],
+      "example_normalized": [
+        "{|x|<=12.5}{|y|<=19}8.8<=z<=9",
+        "{|x|<=12.5}{|y|<=19}8.8<=z<=9"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 2
+      }
+    },
+    {
+      "fingerprint": "068851dcf0fe9387",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "8"
+      ],
+      "example_latex": [
+        "\\left\\{\\left|x\\right|\\le15\\right\\}\\left\\{\\left|y\\right|\\le20\\right\\}\\ 0\\le\\ z\\le0.5"
+      ],
+      "example_normalized": [
+        "{|x|<=15}{|y|<=20}0<=z<=0.5"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "3d1c7eb7d7c058d8",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "92"
+      ],
+      "example_latex": [
+        "\\left\\{\\left|x\\right|\\le12\\right\\}\\left\\{\\left|y\\right|\\le19\\right\\}\\ 8.2\\le\\ z\\le8.5"
+      ],
+      "example_normalized": [
+        "{|x|<=12}{|y|<=19}8.2<=z<=8.5"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "51509de647abb903",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "91"
+      ],
+      "example_latex": [
+        "\\left\\{\\left|x\\right|\\le12\\right\\}\\left\\{\\left|y\\right|\\le19\\right\\}\\ 8\\le\\ z\\le8.2"
+      ],
+      "example_normalized": [
+        "{|x|<=12}{|y|<=19}8<=z<=8.2"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "7e682843f092aaa1",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "97"
+      ],
+      "example_latex": [
+        "\\left\\{\\left|x\\right|\\le14\\right\\}\\left\\{\\left|y\\right|\\le19\\right\\}\\ 8.8\\le\\ z\\le9"
+      ],
+      "example_normalized": [
+        "{|x|<=14}{|y|<=19}8.8<=z<=9"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "c641be8b38e899c6",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "10"
+      ],
+      "example_latex": [
+        "\\left\\{\\left|x\\right|\\le14\\right\\}\\left\\{\\left|y\\right|\\le19\\right\\}\\ 1\\le\\ z\\le1.5"
+      ],
+      "example_normalized": [
+        "{|x|<=14}{|y|<=19}1<=z<=1.5"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "d36ab49192ee4101",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "94"
+      ],
+      "example_latex": [
+        "\\left\\{\\left|x\\right|\\le12.3\\right\\}\\left\\{\\left|y\\right|\\le19\\right\\}\\ 8.4\\le\\ z\\le8.8"
+      ],
+      "example_normalized": [
+        "{|x|<=12.3}{|y|<=19}8.4<=z<=8.8"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "d54a4a1a215d8089",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "9"
+      ],
+      "example_latex": [
+        "\\left\\{\\left|x\\right|\\le14.5\\right\\}\\left\\{\\left|y\\right|\\le19.5\\right\\}\\ 0.5\\le\\ z\\le1"
+      ],
+      "example_normalized": [
+        "{|x|<=14.5}{|y|<=19.5}0.5<=z<=1"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "df693c973ec2118a",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "141"
+      ],
+      "example_latex": [
+        "\\left\\{\\left|x\\right|\\le9\\right\\}\\left\\{\\left|y\\right|\\le13\\right\\}\\ 1.5\\le\\ z\\le8"
+      ],
+      "example_normalized": [
+        "{|x|<=9}{|y|<=13}1.5<=z<=8"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "13e0ac84ca2a4500",
+      "family": "LINEAR_SURFACE_PATCH",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Explicit z=f(x,y) surface",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "98"
+      ],
+      "example_latex": [
+        "z=11-0.142\\left|x\\right|\\left\\{9\\le z\\right\\}\\left\\{\\left|y\\right|\\le19\\right\\}"
+      ],
+      "example_normalized": [
+        "z=11-0.142|x|{9<=z}{|y|<=19}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    }
+  ],
+  "diagnostics": [
+    {
+      "severity": "INFO",
+      "code": "COVERAGE_COMPLETE",
+      "message": "Coverage report complete",
+      "source_ref": null,
+      "details": {
+        "file": "[4B] 3D Diagram - S2-02 Group D.json",
+        "meshed_expression_ids": 52,
+        "supported_but_not_meshed": 0,
+        "group_count": 10
+      }
+    }
+  ]
+}

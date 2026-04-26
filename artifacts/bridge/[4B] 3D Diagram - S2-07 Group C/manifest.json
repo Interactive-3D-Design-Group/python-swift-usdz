@@ -1,0 +1,468 @@
+{
+  "schema_version": 1,
+  "mesh_count": 23,
+  "failed_mesh_count": 0,
+  "meshes": [
+    {
+      "name": "[4B] 3D Diagram - S2-07 Group C_1",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-07 Group C_1.obj",
+      "color": "#c74440",
+      "source_file": "[4B] 3D Diagram - S2-07 Group C.json",
+      "expression_id": "1",
+      "family": "CONSTANT_PLANE",
+      "bounds": {
+        "min": [
+          -3.0,
+          5.0,
+          -54.60666564644547
+        ],
+        "max": [
+          3.0,
+          5.0,
+          54.60666564644547
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-07 Group C_50",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-07 Group C_50.obj",
+      "color": "#6042a6",
+      "source_file": "[4B] 3D Diagram - S2-07 Group C.json",
+      "expression_id": "50",
+      "family": "CONSTANT_PLANE",
+      "bounds": {
+        "min": [
+          -3.0,
+          5.0,
+          -54.60666564644547
+        ],
+        "max": [
+          -3.0,
+          11.0,
+          54.60666564644547
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-07 Group C_51",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-07 Group C_51.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-07 Group C.json",
+      "expression_id": "51",
+      "family": "CONSTANT_PLANE",
+      "bounds": {
+        "min": [
+          3.0,
+          5.0,
+          -54.60666564644547
+        ],
+        "max": [
+          3.0,
+          11.0,
+          54.60666564644547
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-07 Group C_52",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-07 Group C_52.obj",
+      "color": "#c74440",
+      "source_file": "[4B] 3D Diagram - S2-07 Group C.json",
+      "expression_id": "52",
+      "family": "CONSTANT_PLANE",
+      "bounds": {
+        "min": [
+          -4.0,
+          0.0,
+          0.0
+        ],
+        "max": [
+          4.0,
+          0.0,
+          8.0
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-07 Group C_53",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-07 Group C_53.obj",
+      "color": "#2d70b3",
+      "source_file": "[4B] 3D Diagram - S2-07 Group C.json",
+      "expression_id": "53",
+      "family": "CONSTANT_PLANE",
+      "bounds": {
+        "min": [
+          -4.0,
+          6.0,
+          -54.60666564644547
+        ],
+        "max": [
+          4.0,
+          6.0,
+          54.60666564644547
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-07 Group C_54",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-07 Group C_54.obj",
+      "color": "#388c46",
+      "source_file": "[4B] 3D Diagram - S2-07 Group C.json",
+      "expression_id": "54",
+      "family": "CONSTANT_PLANE",
+      "bounds": {
+        "min": [
+          -3.0,
+          11.0,
+          0.0
+        ],
+        "max": [
+          3.0,
+          11.0,
+          8.0
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-07 Group C_61",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-07 Group C_61.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-07 Group C.json",
+      "expression_id": "61",
+      "family": "CONSTANT_PLANE",
+      "bounds": {
+        "min": [
+          -6.0,
+          3.0,
+          0.0
+        ],
+        "max": [
+          -6.0,
+          9.0,
+          8.0
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-07 Group C_62",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-07 Group C_62.obj",
+      "color": "#c74440",
+      "source_file": "[4B] 3D Diagram - S2-07 Group C.json",
+      "expression_id": "62",
+      "family": "CONSTANT_PLANE",
+      "bounds": {
+        "min": [
+          -4.0,
+          0.0,
+          -54.60666564644547
+        ],
+        "max": [
+          -4.0,
+          6.0,
+          54.60666564644547
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-07 Group C_63",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-07 Group C_63.obj",
+      "color": "#2d70b3",
+      "source_file": "[4B] 3D Diagram - S2-07 Group C.json",
+      "expression_id": "63",
+      "family": "CONSTANT_PLANE",
+      "bounds": {
+        "min": [
+          4.0,
+          0.0,
+          -54.60666564644547
+        ],
+        "max": [
+          4.0,
+          6.0,
+          54.60666564644547
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-07 Group C_64",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-07 Group C_64.obj",
+      "color": "#c74440",
+      "source_file": "[4B] 3D Diagram - S2-07 Group C.json",
+      "expression_id": "64",
+      "family": "CONSTANT_PLANE",
+      "bounds": {
+        "min": [
+          6.0,
+          3.0,
+          0.0
+        ],
+        "max": [
+          6.0,
+          9.0,
+          8.0
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-07 Group C_65",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-07 Group C_65.obj",
+      "color": "#c74440",
+      "source_file": "[4B] 3D Diagram - S2-07 Group C.json",
+      "expression_id": "65",
+      "family": "Z_SLAB_REGION",
+      "bounds": {
+        "min": [
+          -6.0,
+          3.0,
+          0.0
+        ],
+        "max": [
+          6.0,
+          9.0,
+          8.0
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-07 Group C_67",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-07 Group C_67.obj",
+      "color": "#c74440",
+      "source_file": "[4B] 3D Diagram - S2-07 Group C.json",
+      "expression_id": "67",
+      "family": "Z_SLAB_REGION",
+      "bounds": {
+        "min": [
+          -3.0,
+          9.0,
+          0.0
+        ],
+        "max": [
+          3.0,
+          11.0,
+          8.0
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-07 Group C_69",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-07 Group C_69.obj",
+      "color": "#c74440",
+      "source_file": "[4B] 3D Diagram - S2-07 Group C.json",
+      "expression_id": "69",
+      "family": "Z_SLAB_REGION",
+      "bounds": {
+        "min": [
+          -4.0,
+          0.0,
+          0.0
+        ],
+        "max": [
+          4.0,
+          3.0,
+          8.0
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-07 Group C_75",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-07 Group C_75.obj",
+      "color": "#c74440",
+      "source_file": "[4B] 3D Diagram - S2-07 Group C.json",
+      "expression_id": "75",
+      "family": "TRIANGLE_CALL",
+      "bounds": {
+        "min": [
+          4.0,
+          0.0,
+          8.0
+        ],
+        "max": [
+          6.0,
+          3.0,
+          8.0
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-07 Group C_83",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-07 Group C_83.obj",
+      "color": "#c74440",
+      "source_file": "[4B] 3D Diagram - S2-07 Group C.json",
+      "expression_id": "83",
+      "family": "TRIANGLE_CALL",
+      "bounds": {
+        "min": [
+          -6.0,
+          0.0,
+          8.0
+        ],
+        "max": [
+          -4.0,
+          3.0,
+          8.0
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-07 Group C_92",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-07 Group C_92.obj",
+      "color": "#c74440",
+      "source_file": "[4B] 3D Diagram - S2-07 Group C.json",
+      "expression_id": "92",
+      "family": "TRIANGLE_CALL",
+      "bounds": {
+        "min": [
+          -6.0,
+          9.0,
+          8.0
+        ],
+        "max": [
+          -3.0,
+          11.0,
+          8.0
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-07 Group C_95",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-07 Group C_95.obj",
+      "color": "#c74440",
+      "source_file": "[4B] 3D Diagram - S2-07 Group C.json",
+      "expression_id": "95",
+      "family": "TRIANGLE_CALL",
+      "bounds": {
+        "min": [
+          3.0,
+          9.0,
+          8.0
+        ],
+        "max": [
+          6.0,
+          11.0,
+          8.0
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-07 Group C_99",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-07 Group C_99.obj",
+      "color": "#c74440",
+      "source_file": "[4B] 3D Diagram - S2-07 Group C.json",
+      "expression_id": "99",
+      "family": "Z_SLAB_REGION",
+      "bounds": {
+        "min": [
+          -4.0,
+          1.0,
+          8.0
+        ],
+        "max": [
+          4.0,
+          10.0,
+          46.0
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-07 Group C_101",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-07 Group C_101.obj",
+      "color": "#2d70b3",
+      "source_file": "[4B] 3D Diagram - S2-07 Group C.json",
+      "expression_id": "101",
+      "family": "Z_SLAB_REGION",
+      "bounds": {
+        "min": [
+          -14.0,
+          1.0,
+          29.0
+        ],
+        "max": [
+          14.0,
+          10.0,
+          36.0
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-07 Group C_120",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-07 Group C_120.obj",
+      "color": "#388c46",
+      "source_file": "[4B] 3D Diagram - S2-07 Group C.json",
+      "expression_id": "120",
+      "family": "Z_SLAB_REGION",
+      "bounds": {
+        "min": [
+          13.0,
+          4.0,
+          31.0
+        ],
+        "max": [
+          17.0,
+          7.0,
+          34.0
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-07 Group C_123",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-07 Group C_123.obj",
+      "color": "#c74440",
+      "source_file": "[4B] 3D Diagram - S2-07 Group C.json",
+      "expression_id": "123",
+      "family": "Z_SLAB_REGION",
+      "bounds": {
+        "min": [
+          17.0,
+          4.0,
+          29.5
+        ],
+        "max": [
+          23.0,
+          7.0,
+          35.5
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-07 Group C_127",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-07 Group C_127.obj",
+      "color": "#c74440",
+      "source_file": "[4B] 3D Diagram - S2-07 Group C.json",
+      "expression_id": "127",
+      "family": "Z_SLAB_REGION",
+      "bounds": {
+        "min": [
+          -23.0,
+          4.0,
+          29.5
+        ],
+        "max": [
+          -17.0,
+          7.0,
+          35.5
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-07 Group C_128",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-07 Group C_128.obj",
+      "color": "#c74440",
+      "source_file": "[4B] 3D Diagram - S2-07 Group C.json",
+      "expression_id": "128",
+      "family": "Z_SLAB_REGION",
+      "bounds": {
+        "min": [
+          -17.0,
+          4.0,
+          31.0
+        ],
+        "max": [
+          -13.0,
+          7.0,
+          34.0
+        ]
+      }
+    }
+  ],
+  "failures": []
+}

@@ -1,0 +1,3063 @@
+{
+  "source_file": "[4B] 3D Diagram - S2-10 Group E.json",
+  "total_items": 369,
+  "total_expressions": 369,
+  "meshed_expression_count": 228,
+  "supported_expression_count": 228,
+  "supported_but_not_meshed_count": 0,
+  "recognized_unsupported_count": 0,
+  "unrecognized_count": 141,
+  "geometry_ineligible_count": 0,
+  "groups": [
+    {
+      "fingerprint": "00254e5014a7d6d6",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "173"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}\\left(\\left(q\\right),\\left(s\\right),\\left(t\\right)\\right)"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}((q),(s),(t))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "00ca584798384ebf",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "45"
+      ],
+      "example_latex": [
+        "------first\\ pyramid\\ lines------"
+      ],
+      "example_normalized": [
+        "+++firstpyramidlines+++"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "00d15fd96ed2e11e",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "329"
+      ],
+      "example_latex": [
+        "pyramid\\ 5\\ sketch\\ "
+      ],
+      "example_normalized": [
+        "pyramid5sketch"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "03045e50e8258cb4",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "410"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}\\left(\\left(a_{23}\\right),\\left(a_{20}\\right),\\left(a_{21}\\right)\\right)"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}((a_{23}),(a_{20}),(a_{21}))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "03dd0ac121a297cd",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "130"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}\\ \\left(\\left(d\\right),\\left(g\\right),\\left(i\\right)\\right)"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}((d),(g),(i))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "06e1326c531615f2",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "75"
+      ],
+      "example_latex": [
+        "\\sec ond\\ pyramid\\ sketch"
+      ],
+      "example_normalized": [
+        "secondpyramidsketch"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "0752b2647c018226",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "159"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}\\left(\\left(i\\right),\\left(g\\right),\\left(k\\right)\\right)"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}((i),(g),(k))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "07785e223c52df9b",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "243"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}\\left(\\left(a_{15}\\right),\\left(a_{12}\\right),\\left(a_{14}\\right)\\right)"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}((a_{15}),(a_{12}),(a_{14}))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "0dbccd1210fddbbd",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "442"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}\\left(\\left(a_{33}\\right),\\left(a_{27}\\right),\\left(a_{31}\\right)\\right)"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}((a_{33}),(a_{27}),(a_{31}))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "0fdd852a63a529e1",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "453"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}\\left(\\left(a_{29}\\right),\\ \\left(a_{37}\\right),\\ \\left(a_{38}\\right)\\right)"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}((a_{29}),(a_{37}),(a_{38}))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "123d4b9078be1460",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "422"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}\\left(\\left(a_{25}\\right),\\ \\left(a_{26}\\right),\\ \\left(a_{27}\\right)\\right)"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}((a_{25}),(a_{26}),(a_{27}))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "148da40e0b87fa9c",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "208"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}\\left(\\left(U\\right),\\left(S\\right),\\left(Q\\right)\\right)"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}((U),(S),(Q))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "157ad83f14befb28",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "491"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}\\left(\\left(a_{54}\\right),\\left(a_{58}\\right),\\left(a_{59}\\right)\\right)"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}((a_{54}),(a_{58}),(a_{59}))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "1a92118fca213bc6",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "336"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}\\ \\left(\\left(c_{3}\\right),\\left(c_{7}\\right),\\left(c_{6}\\right)\\right)"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}((c_{3}),(c_{7}),(c_{6}))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "1c4dc8a0974ec6d0",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "429"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}\\left(\\left(a_{27}\\right),\\left(a_{28}\\right),\\left(a_{32}\\right)\\right)"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}((a_{27}),(a_{28}),(a_{32}))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "1cde34faba85fa52",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "428"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}\\left(\\left(a_{31}\\right),\\left(a_{32}\\right),\\left(a_{27}\\right)\\right)"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}((a_{31}),(a_{32}),(a_{27}))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "20e3d7cd9e0521c1",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "209"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}\\left(\\left(S\\right),\\left(V\\right),\\left(Q\\right)\\right)"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}((S),(V),(Q))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "222c50296b3236fa",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "452"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}\\left(\\left(a_{29}\\right),\\ \\left(a_{31}\\right),\\ \\left(a_{38}\\right)\\right)"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}((a_{29}),(a_{31}),(a_{38}))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "27fd4855bf224fcd",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "444"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}\\left(\\left(a_{30}\\right),\\left(a_{35}\\right),\\left(a_{32}\\right)\\right)"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}((a_{30}),(a_{35}),(a_{32}))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "2c79b6b9b1a6e4b1",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "97"
+      ],
+      "example_latex": [
+        "third\\ pyramid\\ lines"
+      ],
+      "example_normalized": [
+        "thirdpyramidlines"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "2f4e5c1bc0507039",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "477"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}\\left(\\left(a_{53}\\right),\\left(a_{50}\\right),\\left(a_{13}\\right)\\right)"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}((a_{53}),(a_{50}),(a_{13}))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "31080816ed995bf5",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "230"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}\\left(\\left(a_{9}\\right),\\left(f\\right),\\left(a_{8}\\right)\\right)"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}((a_{9}),(f),(a_{8}))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "31d20273457a471f",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "227"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}\\left(\\left(a_{8}\\right),\\left(a_{5}\\right),\\left(a_{7}\\right)\\right)"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}((a_{8}),(a_{5}),(a_{7}))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "338ec281d9da6b84",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "479"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}\\left(\\left(a_{53}\\right),\\left(a_{52}\\right),\\left(a_{51}\\right)\\right)"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}((a_{53}),(a_{52}),(a_{51}))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "340b01c3669e9516",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "461"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}\\left(\\left(a_{40}\\right),\\left(a_{41}\\right),\\left(a_{43}\\right)\\right)"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}((a_{40}),(a_{41}),(a_{43}))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "345ec3eea490005b",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "241"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}\\left(\\left(a_{10}\\right),\\left(a_{13}\\right),\\left(a_{14}\\right)\\right)"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}((a_{10}),(a_{13}),(a_{14}))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "346c4aa3e168cdb6",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "178"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}\\left(\\left(l\\right),\\left(v\\right),\\left(u\\right)\\right)"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}((l),(v),(u))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "35f0fc2857faf41f",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "466"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}\\left(\\left(a_{44}\\right),\\left(a_{45}\\right),\\left(a_{46}\\right)\\right)"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}((a_{44}),(a_{45}),(a_{46}))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "3981193f7a4ec622",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "164"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}\\left(\\left(p\\right),\\left(h\\right),\\left(m\\right)\\right)"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}((p),(h),(m))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "39fbe0d7dd26811c",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "445"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}\\left(\\left(a_{26}\\right),\\ \\left(a_{28}\\right),\\ \\left(a_{35}\\right)\\right)"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}((a_{26}),(a_{28}),(a_{35}))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "3ee63f062bf9dca0",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "423"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}\\left(\\left(a_{26}\\right),\\left(a_{27}\\right),\\left(a_{28}\\right)\\right)"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}((a_{26}),(a_{27}),(a_{28}))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "41903cd1f9702788",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "133"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}\\left(\\left(g\\right),\\left(h\\right),\\left(i\\right)\\right)"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}((g),(h),(i))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "457e5d9f4e526845",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "225"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}\\left(\\left(a_{3}\\right),\\left(a_{6}\\right),\\left(a_{7}\\right)\\right)"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}((a_{3}),(a_{6}),(a_{7}))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "47094169ae37990d",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "424"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}\\left(\\left(a_{29}\\right),\\left(a_{30}\\right),\\left(a_{25}\\right)\\right)"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}((a_{29}),(a_{30}),(a_{25}))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "492f906054183910",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "246"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}\\left(\\left(a_{16}\\right),\\left(d\\right),\\left(a_{15}\\right)\\right)"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}((a_{16}),(d),(a_{15}))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "4ac0a7099bc6fe1f",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "17"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}((A),(B),(C))"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}((A),(B),(C))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "4b19dd7090cc6907",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "459"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}\\left(\\left(a_{40}\\right),\\left(a_{41}\\right),\\left(a_{42}\\right)\\right)"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}((a_{40}),(a_{41}),(a_{42}))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "4ee9727d4ac4b669",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "162"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}\\left(\\left(j\\right),\\left(n\\right),\\left(h\\right)\\right)"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}((j),(n),(h))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "508a1a5c1334610a",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "438"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}\\left(\\left(a_{29}\\right),\\left(a_{31}\\right),\\left(a_{33}\\right)\\right)"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}((a_{29}),(a_{31}),(a_{33}))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "541ef527b570ce0f",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "240"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}\\left(\\left(a_{10}\\right),\\left(a_{11}\\right),\\left(a_{14}\\right)\\right)"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}((a_{10}),(a_{11}),(a_{14}))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "58677a8995429ad4",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "493"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}\\left(\\left(a_{56}\\right),\\left(a_{6}\\right),\\left(a_{58}\\right)\\right)"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}((a_{56}),(a_{6}),(a_{58}))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "5898d48e2aeb5686",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "437"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}\\left(\\left(a_{25}\\right),\\left(a_{33}\\right),\\left(a_{27}\\right)\\right)"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}((a_{25}),(a_{33}),(a_{27}))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "5b8db98290dcdfed",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "168"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}\\left(\\left(p\\right),\\left(o\\right),\\left(m\\right)\\right)"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}((p),(o),(m))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "5e1c4d57b20cfb8e",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "337"
+      ],
+      "example_latex": [
+        "pyramid\\ 5\\ lines"
+      ],
+      "example_normalized": [
+        "pyramid5lines"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "5efcc0a8bcff9dda",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "167"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}\\left(\\left(o\\right),\\left(l\\right),\\left(m\\right)\\right)"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}((o),(l),(m))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "60d518edb45de6a7",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "307"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}\\ \\left(\\left(b_{5}\\right),\\left(b_{7}\\right),\\left(b_{4}\\right)\\right)"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}((b_{5}),(b_{7}),(b_{4}))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "656e773ad1e31923",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "440"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}\\left(\\left(a_{34}\\right),\\left(a_{25}\\right),\\left(a_{29}\\right)\\right)"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}((a_{34}),(a_{25}),(a_{29}))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "66002fc8c6743116",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "79"
+      ],
+      "example_latex": [
+        "third\\ pyramid\\ sketch"
+      ],
+      "example_normalized": [
+        "thirdpyramidsketch"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "684fea04887e5493",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "111"
+      ],
+      "example_latex": [
+        "--------sph\\ inx\\ lines--------"
+      ],
+      "example_normalized": [
+        "++++sphinxlines++++"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "689584d27b1ec452",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "248"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}\\left(\\left(a_{12}\\right),\\left(a_{10}\\right),\\left(a_{11}\\right)\\right)"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}((a_{12}),(a_{10}),(a_{11}))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "6c2d52df93836fb1",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "300"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}\\ \\left(\\left(b_{5}\\right),\\left(b_{7}\\right),\\left(b_{6}\\right)\\right)"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}((b_{5}),(b_{7}),(b_{6}))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "70929e11ee47ceab",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "409"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}\\left(\\left(a_{23}\\right),\\left(a_{24}\\right),\\left(a_{22}\\right)\\right)"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}((a_{23}),(a_{24}),(a_{22}))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "725f2a50ca54cea0",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "224"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}\\left(\\left(a_{3}\\right),\\left(a_{4}\\right),\\left(a_{7}\\right)\\right)"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}((a_{3}),(a_{4}),(a_{7}))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "72a060bddefeb9d7",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "104"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}\\left(\\left(N\\right),\\left(O\\right),\\left(M\\right)\\right)"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}((N),(O),(M))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "77d16918bcfea3dd",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "160"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}\\left(\\left(k\\right),\\left(g\\right),\\left(l\\right)\\right)"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}((k),(g),(l))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "7bc6723a8b5bf8af",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "475"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}\\left(\\left(a_{50}\\right),\\left(a_{49}\\right),\\left(a_{51}\\right)\\right)"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}((a_{50}),(a_{49}),(a_{51}))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "7c8b20f0cd75a153",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "448"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}\\left(\\left(a_{35}\\right),\\left(a_{28}\\right),\\left(a_{32}\\right)\\right)"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}((a_{35}),(a_{28}),(a_{32}))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "7d82a0c47074332a",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "92"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}\\left(\\left(I\\right),\\left(F\\right),\\left(H\\right)\\right)"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}((I),(F),(H))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "804e052feae430cf",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "94"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}\\left(\\left(G\\right),\\left(J\\right),\\left(H\\right)\\right)"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}((G),(J),(H))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "825bf4a9c624e8fe",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "350"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}\\ \\left(\\left(c_{3}\\right),\\left(c_{7}\\right),\\left(c_{4}\\right)\\right)"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}((c_{3}),(c_{7}),(c_{4}))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "83859229e5b10e9b",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "242"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}\\left(\\left(a_{11}\\right),\\left(a_{12}\\right),\\left(a_{14}\\right)\\right)"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}((a_{11}),(a_{12}),(a_{14}))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "83b372bee075d2c5",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "129"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}\\ \\left(\\left(b\\right),\\left(d\\right),\\left(g\\right)\\right)"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}((b),(d),(g))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "84ad7f9476d9230e",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "408"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}\\left(\\left(a_{21}\\right),\\left(a_{22}\\right),\\left(a_{23}\\right)\\right)"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}((a_{21}),(a_{22}),(a_{23}))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "8862f6cacc8f02be",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "299"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}\\ \\left(\\left(b_{3}\\right),\\left(b_{7}\\right),\\left(b_{4}\\right)\\right)"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}((b_{3}),(b_{7}),(b_{4}))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "88a80e2107a1aaf0",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "181"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}\\left(\\left(w\\right),\\left(q\\right),\\left(W\\right)\\right)"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}((w),(q),(W))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "8bbae58c2a7d4410",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "487"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}\\left(\\left(a_{56}\\right),\\left(a_{55}\\right),\\left(a_{57}\\right)\\right)"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}((a_{56}),(a_{55}),(a_{57}))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "91d8d2f840758f4d",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "446"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}\\left(\\left(a_{35}\\right),\\left(a_{36}\\right),\\left(a_{28}\\right)\\right)"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}((a_{35}),(a_{36}),(a_{28}))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "942bfd652f482ccc",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "247"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}\\left(\\left(a_{12}\\right),\\left(d\\right),\\left(a_{15}\\right)\\right)"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}((a_{12}),(d),(a_{15}))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "94a45eed2ff25275",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "232"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}\\left(\\left(a_{5}\\right),\\left(a_{3}\\right),\\left(a_{4}\\right)\\right)"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}((a_{5}),(a_{3}),(a_{4}))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "98dd10eea4c7dffa",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "427"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}\\left(\\left(a_{31}\\right),\\left(a_{29}\\right),\\left(a_{25}\\right)\\right)"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}((a_{31}),(a_{29}),(a_{25}))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "99e9bce6cb4ec4fa",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "425"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}\\left(\\left(a_{25}\\right),\\left(a_{26}\\right),\\left(a_{30}\\right)\\right)"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}((a_{25}),(a_{26}),(a_{30}))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "9b85ac64c78d7f9a",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "231"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}\\left(\\left(a_{5}\\right),\\left(f\\right),\\left(a_{8}\\right)\\right)"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}((a_{5}),(f),(a_{8}))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "9dee0bc9e99be4bb",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "492"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}\\left(\\left(a_{54}\\right),\\left(a_{56}\\right),\\left(a_{58}\\right)\\right)"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}((a_{54}),(a_{56}),(a_{58}))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "9def77ef8017de35",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "413"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}\\left(\\left(a_{18}\\right),\\left(a_{24}\\right),\\left(a_{19}\\right)\\right)"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}((a_{18}),(a_{24}),(a_{19}))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "9ff2ab22590ed20c",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "103"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}((K),(L),(M))"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}((K),(L),(M))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "a12f857e177e56d0",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "351"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}\\ \\left(\\left(c_{5}\\right),\\left(c_{7}\\right),\\left(c_{6}\\right)\\right)"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}((c_{5}),(c_{7}),(c_{6}))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "a2eed7381b7aeeae",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "301"
+      ],
+      "example_latex": [
+        "pyramid\\ 4\\ lines\\ "
+      ],
+      "example_normalized": [
+        "pyramid4lines"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "a522c13bce646354",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "83"
+      ],
+      "example_latex": [
+        "\\sec ond\\ pyramid\\ lines"
+      ],
+      "example_normalized": [
+        "secondpyramidlines"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "a573b399ad5d7074",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "478"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}\\left(\\left(a_{53}\\right),\\left(a_{50}\\right),\\left(a_{51}\\right)\\right)"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}((a_{53}),(a_{50}),(a_{51}))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "a60b6d8d6d1a9b3e",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "174"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}\\left(\\left(s\\right),\\left(t\\right),\\left(u\\right)\\right)"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}((s),(t),(u))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "a64d22fb829b90ae",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "20"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}\\left(\\left(E\\right),\\left(B\\right),\\left(C\\right)\\right)"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}((E),(B),(C))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "a6870d1cc72b53a6",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "403"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}\\left(\\left(a_{20}\\right),\\left(a_{19}\\right),\\left(a_{17}\\right)\\right)"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}((a_{20}),(a_{19}),(a_{17}))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "aa3a1f7e48347a38",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "229"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}\\left(\\left(a_{7}\\right),\\left(a_{6}\\right),\\left(a_{8}\\right)\\right)"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}((a_{7}),(a_{6}),(a_{8}))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "acf37421f0761cd3",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "210"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}\\left(\\left(U\\right),\\left(Q\\right),\\left(T\\right)\\right)"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}((U),(Q),(T))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "afdebf1c13ebd4ba",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "306"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}\\ \\left(\\left(b_{3}\\right),\\left(b_{7}\\right),\\left(b_{6}\\right)\\right)"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}((b_{3}),(b_{7}),(b_{6}))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "b0d8f3b5ab267bc3",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "456"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}\\left(\\left(a_{29}\\right),\\left(a_{30}\\right),\\left(a_{37}\\right)\\right)"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}((a_{29}),(a_{30}),(a_{37}))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "b2c9b4ce132b3b92",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "212"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}\\left(\\left(S\\right),\\left(m\\right),\\left(V\\right)\\right)"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}((S),(m),(V))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "b36a9c06ef462982",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "19"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}\\left(\\left(D\\right),\\left(A\\right),\\left(C\\right)\\right)"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}((D),(A),(C))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "b3a21a378b88ab3a",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "119"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}\\ \\left(\\left(a\\right),\\left(f\\right),\\left(c\\right)\\right)"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}((a),(f),(c))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "b603e55cda6bd002",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "226"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}\\left(\\left(a_{4}\\right),\\left(a_{5}\\right),\\left(a_{7}\\right)\\right)"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}((a_{4}),(a_{5}),(a_{7}))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "b7409eeb6e9945f7",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "412"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}\\left(\\left(a_{18}\\right),\\left(a_{22}\\right),\\left(a_{24}\\right)\\right)"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}((a_{18}),(a_{22}),(a_{24}))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "b7a27cb625eb4037",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "211"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}\\left(\\left(Y\\right),\\left(Q\\right),\\left(T\\right)\\right)"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}((Y),(Q),(T))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "b9025882fae97127",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "411"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}\\left(\\left(a_{21}\\right),\\left(a_{17}\\right),\\left(a_{20}\\right)\\right)"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}((a_{21}),(a_{17}),(a_{20}))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "b94aa31fcbd1786e",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "436"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}\\left(\\left(a_{25}\\right),\\ \\left(a_{33}\\right),\\ \\left(a_{34}\\right)\\right)"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}((a_{25}),(a_{33}),(a_{34}))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "b963738a8874915e",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "474"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}\\left(\\left(a_{48}\\right),\\left(a_{49}\\right),\\left(a_{50}\\right)\\right)"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}((a_{48}),(a_{49}),(a_{50}))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "bbbffac0583e8842",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "18"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}\\left(\\left(D\\right),\\left(E\\right),\\left(C\\right)\\right)"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}((D),(E),(C))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "bbf782300ed4d461",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "443"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}\\left(\\left(a_{35}\\right),\\left(a_{36}\\right),\\left(a_{30}\\right)\\right)"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}((a_{35}),(a_{36}),(a_{30}))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "bd0b55e231aedc30",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "352"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}\\ \\left(\\left(c_{5}\\right),\\left(c_{7}\\right),\\left(c_{4}\\right)\\right)"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}((c_{5}),(c_{7}),(c_{4}))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "be0f99be79537761",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "430"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}\\left(\\left(a_{28}\\right),\\left(a_{32}\\right),\\left(a_{30}\\right)\\right)"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}((a_{28}),(a_{32}),(a_{30}))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "be447affec5eecde",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "161"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}\\left(\\left(g\\right),\\left(o\\right),\\left(l\\right)\\right)"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}((g),(o),(l))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "bfa83670096fdce9",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "117"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}\\ \\left(\\left(a\\right),\\left(b\\right),\\left(c\\right)\\right)"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}((a),(b),(c))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "c4fd89d3b8f935fb",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "177"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}\\left(\\left(s\\right),\\left(l\\right),\\left(u\\right)\\right)"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}((s),(l),(u))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "c6e9e8fb34bed10b",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "118"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}\\ \\left(\\left(a\\right),\\left(b\\right),\\left(d\\right)\\right)"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}((a),(b),(d))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "c8e708f53da220ea",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "426"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}\\left(\\left(a_{27}\\right),\\left(a_{31}\\right),\\left(a_{25}\\right)\\right)"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}((a_{27}),(a_{31}),(a_{25}))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "c9b9b884c28f2209",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "455"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}\\left(\\left(a_{32}\\right),\\left(a_{37}\\right),\\left(a_{38}\\right)\\right)"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}((a_{32}),(a_{37}),(a_{38}))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "cc00206ef625ce59",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "125"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}\\ \\left(\\left(f\\right),\\left(j\\right),\\left(h\\right)\\right)"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}((f),(j),(h))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "cc032cf65bc897c4",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "163"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}\\left(\\left(h\\right),\\left(n\\right),\\left(m\\right)\\right)"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}((h),(n),(m))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "cd5b1b0e390301ea",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "215"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}\\left(\\left(V\\right),\\left(X\\right),\\left(Y\\right)\\right)"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}((V),(X),(Y))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "ce8743c2ef3e2a95",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "431"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}\\left(\\left(a_{26}\\right),\\left(a_{28}\\right),\\left(a_{30}\\right)\\right)"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}((a_{26}),(a_{28}),(a_{30}))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "ced1017eb14a36c7",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "105"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}\\left(\\left(N\\right),\\left(K\\right),\\left(M\\right)\\right)"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}((N),(K),(M))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "d1eb027ee61d2dac",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "447"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}\\left(\\left(a_{26}\\right),\\left(a_{36}\\right),\\left(a_{30}\\right)\\right)"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}((a_{26}),(a_{36}),(a_{30}))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "d303074ca3345a23",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "228"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}\\left(\\left(a_{9}\\right),\\left(a_{6}\\right),\\left(a_{8}\\right)\\right)"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}((a_{9}),(a_{6}),(a_{8}))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "d8582cb5204bf2a1",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "132"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}\\ \\left(\\left(h\\right),\\left(g\\right),\\left(b\\right)\\right)"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}((h),(g),(b))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "d92ba9de646c55fb",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "486"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}\\left(\\left(a_{54}\\right),\\left(a_{55}\\right),\\left(a_{56}\\right)\\right)"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}((a_{54}),(a_{55}),(a_{56}))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "d9e621183993919c",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "201"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}\\left(\\left(u\\right),\\left(v\\right),\\left(W\\right)\\right)"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}((u),(v),(W))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "daaf0dd70656a088",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "467"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}\\left(\\left(a_{44}\\right),\\left(a_{45}\\right),\\left(a_{47}\\right)\\right)"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}((a_{44}),(a_{45}),(a_{47}))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "db6efb6c2642d06a",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "106"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}\\left(\\left(L\\right),\\left(O\\right),\\left(M\\right)\\right)"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}((L),(O),(M))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "de173605966b9c1e",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "439"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}\\left(\\left(a_{33}\\right),\\left(a_{34}\\right),\\left(a_{29}\\right)\\right)"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}((a_{33}),(a_{34}),(a_{29}))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "e0505d01e37638a7",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "90"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}((F),(G),(H))"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}((F),(G),(H))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "e265b07d18ce3502",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "214"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}\\left(\\left(Q\\right),\\left(V\\right),\\left(Y\\right)\\right)"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}((Q),(V),(Y))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "e2c804ca1e82e251",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "457"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}\\left(\\left(a_{31}\\right),\\left(a_{32}\\right),\\left(a_{38}\\right)\\right)"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}((a_{31}),(a_{32}),(a_{38}))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "e33c90fe3239c60e",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "490"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}\\left(\\left(a_{55}\\right),\\left(a_{54}\\right),\\left(a_{59}\\right)\\right)"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}((a_{55}),(a_{54}),(a_{59}))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "e36ecdec00021f99",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "245"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}\\left(\\left(a_{14}\\right),\\left(a_{13}\\right),\\left(a_{15}\\right)\\right)"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}((a_{14}),(a_{13}),(a_{15}))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "e539a24fb685d756",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "182"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}\\left(\\left(t\\right),\\left(q\\right),\\left(W\\right)\\right)"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}((t),(q),(W))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "e684be007a6894db",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "293"
+      ],
+      "example_latex": [
+        "pyramid\\ 4\\ sketch"
+      ],
+      "example_normalized": [
+        "pyramid4sketch"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "ead32a30ea42b13c",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "131"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}\\ \\left(\\left(h\\right),\\left(c\\right),\\left(b\\right)\\right)"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}((h),(c),(b))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "eb1f5c81b848cefb",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "244"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}\\left(\\left(a_{16}\\right),\\left(a_{13}\\right),\\left(a_{15}\\right)\\right)"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}((a_{16}),(a_{13}),(a_{15}))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "ed770ebf42b2f918",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "476"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}\\left(\\left(a_{50}\\right),\\left(a_{48}\\right),\\left(a_{13}\\right)\\right)"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}((a_{50}),(a_{48}),(a_{13}))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "eee201aa34532f95",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "128"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}\\ \\left(\\left(c\\right),\\left(f\\right),\\left(h\\right)\\right)"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}((c),(f),(h))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "ef619ddcb20c5131",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "202"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}\\left(\\left(u\\right),\\left(t\\right),\\left(W\\right)\\right)"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}((u),(t),(W))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "efdddbaf3a45c884",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "165"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}\\left(\\left(g\\right),\\left(h\\right),\\left(p\\right)\\right)"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}((g),(h),(p))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "eff00152693f3293",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "91"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}\\left(\\left(I\\right),\\left(J\\right),\\left(H\\right)\\right)"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}((I),(J),(H))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "f2a8f6482989b1a1",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "150"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}\\left(\\left(h\\right),\\left(i\\right),\\left(j\\right)\\right)"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}((h),(i),(j))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "f2c5c5d0c59bf294",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "213"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}\\left(\\left(V\\right),\\left(m\\right),\\left(X\\right)\\right)"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}((V),(m),(X))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "f99a51649ba3202b",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "166"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}\\left(\\left(o\\right),\\left(g\\right),\\left(p\\right)\\right)"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}((o),(g),(p))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "f9f0935b89714ac4",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "481"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}\\left(\\left(a_{10}\\right),\\left(a_{51}\\right),\\left(a_{52}\\right)\\right)"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}((a_{10}),(a_{51}),(a_{52}))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "fe4271bdf920b393",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "454"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}\\left(\\left(a_{30}\\right),\\ \\left(a_{32}\\right),\\left(a_{37}\\right)\\right)"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}((a_{30}),(a_{32}),(a_{37}))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "ff5ad3135698e56b",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "401"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}\\left(\\left(a_{17}\\right),\\left(a_{18}\\right),\\left(a_{19}\\right)\\right)"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}((a_{17}),(a_{18}),(a_{19}))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    }
+  ],
+  "diagnostics": [
+    {
+      "severity": "INFO",
+      "code": "COVERAGE_COMPLETE",
+      "message": "Coverage report complete",
+      "source_ref": null,
+      "details": {
+        "file": "[4B] 3D Diagram - S2-10 Group E.json",
+        "meshed_expression_ids": 228,
+        "supported_but_not_meshed": 0,
+        "group_count": 138
+      }
+    }
+  ]
+}

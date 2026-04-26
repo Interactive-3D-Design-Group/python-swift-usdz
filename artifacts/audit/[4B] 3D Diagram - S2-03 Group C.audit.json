@@ -1,0 +1,51 @@
+{
+  "source_file": "[4B] 3D Diagram - S2-03 Group C.json",
+  "total_expressions": 138,
+  "supported_count": 118,
+  "recognized_unsupported_count": 0,
+  "unrecognized_count": 0,
+  "geometry_ineligible_count": 20,
+  "per_folder_summary": [
+    {
+      "folder_id": null,
+      "folder_name": null,
+      "total": 116,
+      "supported": 96,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 20
+    },
+    {
+      "folder_id": "185",
+      "folder_name": "Spire Lines (Back)",
+      "total": 11,
+      "supported": 11,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 0
+    },
+    {
+      "folder_id": "183",
+      "folder_name": "Spire Lines (Front)",
+      "total": 11,
+      "supported": 11,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 0
+    }
+  ],
+  "unsupported_expressions": [],
+  "unknown_fingerprints": [],
+  "diagnostics": [
+    {
+      "severity": "INFO",
+      "code": "AUDIT_COMPLETE",
+      "message": "Audit classification complete",
+      "source_ref": null,
+      "details": {
+        "file": "[4B] 3D Diagram - S2-03 Group C.json"
+      }
+    }
+  ],
+  "status": "PASS"
+}

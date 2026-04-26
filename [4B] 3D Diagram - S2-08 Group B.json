@@ -1,0 +1,167 @@
+{
+  "version": 11,
+  "randomSeed": "f276db3cdc170a8e02d6849ee841f997",
+  "graph": {
+    "viewport": {
+      "xmin": -52.00634823471014,
+      "ymin": -52.00634823471012,
+      "zmin": -52.00634823471012,
+      "xmax": 52.00634823471014,
+      "ymax": 52.00634823471012,
+      "zmax": 52.00634823471012
+    },
+    "worldRotation3D": [
+      -0.5132799671593364,
+      -0.8314696123025455,
+      -0.212607523691814,
+      0.7681777567114166,
+      -0.555570233019602,
+      0.3181896451432085,
+      -0.3826834323650897,
+      0,
+      0.9238795325112867
+    ],
+    "axis3D": [
+      -0.8664130834940836,
+      -0.49932791704640644,
+      -3.77924707575237e-14
+    ],
+    "product": "graphing-3d",
+    "threeDMode": true,
+    "__v12ViewportLatexStash": {
+      "xmin": "-52.00634823471014",
+      "xmax": "52.00634823471014",
+      "ymin": "-52.00634823471012",
+      "ymax": "52.00634823471012",
+      "zmin": "-52.00634823471012",
+      "zmax": "52.00634823471012"
+    }
+  },
+  "expressions": {
+    "list": [
+      {
+        "type": "expression",
+        "id": "1",
+        "color": "#c74440",
+        "latex": "0<x<11.58\\left\\{0<y<7.7\\right\\}\\left\\{0<z<\\frac{1143}{50}\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "16",
+        "color": "#6042a6",
+        "latex": "-21.2<x<-9.62\\left\\{0<y<7.7\\right\\}\\left\\{0<z<\\frac{1143}{50}\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "17",
+        "color": "#aaaaaa",
+        "latex": "-21.2<x<-9.6\\left\\{\\frac{1078}{75}<y<\\frac{3211}{150}\\right\\}\\left\\{0<z<\\frac{1143}{50}\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "18",
+        "color": "#c74440",
+        "latex": "0<x<11.58\\left\\{\\frac{1078}{75}<y<\\frac{3211}{150}\\right\\}\\left\\{0<z<\\frac{1143}{50}\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "19",
+        "color": "#2d70b3",
+        "latex": "\\left(x+5\\right)^{2}+\\left(z-18\\right)^{2}=5^{2}\\ \\left\\{0<y<7.7\\right\\}\\left\\{18<z\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "20",
+        "color": "#c74440",
+        "latex": "\\left(x+5\\right)^{2}+\\left(z-18\\right)^{2}=5^{2}\\ \\left\\{\\frac{1078}{75}<y<\\frac{3211}{150}\\right\\}\\left\\{18<z\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "24",
+        "color": "#aaaaaa",
+        "latex": "\\left(y-11\\right)^{2}+\\left(z-18\\right)^{2}=\\frac{1001}{300}^{2}\\left\\{18<z\\right\\}\\left\\{0<x<11.58\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "29",
+        "color": "#aaaaaa",
+        "latex": "\\left(y-11\\right)^{2}+\\left(z-18\\right)^{2}=\\frac{1001}{300}^{2}\\left\\{18<z\\right\\}\\left\\{-21.2<x<-9.62\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "30",
+        "color": "#c74440",
+        "latex": "-21.2<x<11.58\\left\\{0<y<\\frac{3211}{150}\\right\\}\\left\\{\\frac{1143}{50}<z<24.72\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "31",
+        "color": "#2d70b3",
+        "latex": "-21.2<x<11.58\\left\\{\\frac{547}{300}<y<\\frac{235}{12}\\right\\}\\left\\{24.72<z\\ <29.88\\right\\}",
+        "extendTo3D": true
+      },
+      {
+        "type": "text",
+        "id": "33",
+        "text": "the symetrical line for x: -4.81\ns l for y : 8.88"
+      },
+      {
+        "type": "expression",
+        "id": "34",
+        "color": "#6042a6",
+        "latex": "-23<x<13\\left\\{\\frac{2}{75}<y<\\frac{1069}{50}\\right\\}\\left\\{29.88<z<30.58\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "37",
+        "color": "#2d70b3",
+        "latex": "-20<x<10\\left\\{\\frac{953}{600}<y<18.23+\\frac{953}{600}\\right\\}\\left\\{30.58<z<30.58+\\frac{2912}{1037}\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "38",
+        "color": "#388c46",
+        "latex": "-20+\\frac{12}{25}<x<10-\\frac{12}{25}\\left\\{\\frac{953}{600}+\\frac{27}{100}<y<18.23+\\frac{953}{600}-\\frac{27}{100}\\right\\}\\left\\{30.58+\\frac{2506}{1019}<z<30.58+\\frac{2912}{1037}+\\frac{2056}{1019}\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "39",
+        "color": "#c74440",
+        "latex": "-20+\\frac{12}{25}+\\frac{378}{1019}<x<10-\\frac{12}{25}-\\frac{378}{1019}\\left\\{\\frac{953}{600}+\\frac{27}{100}<y<18.23+\\frac{953}{600}-\\frac{27}{100}\\right\\}\\left\\{30.58+\\frac{2506}{1019}+\\frac{2394}{1019}<z<30.58+\\frac{2912}{1037}+\\frac{2056}{1019}+\\frac{2394}{1019}\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "45",
+        "color": "#aaaaaa",
+        "latex": "\\left(x+4.81\\right)^{2}+\\left(y-10\\right)^{2}+\\left(z-37.75512679\\right)^{2}\\ =\\ 6.22^{2}"
+      },
+      {
+        "type": "expression",
+        "id": "56",
+        "color": "#388c46",
+        "latex": "1+\\sqrt{5^{2}-\\left(x+4.81\\right)^{2}}+18<z<24.72\\left\\{-9.62<x<0\\right\\}\\left\\{0<y<7.7\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "59",
+        "color": "#6042a6",
+        "latex": "1+\\sqrt{5^{2}-\\left(x+4.81\\right)^{2}}+18<z<24.72\\left\\{-9.62<x<0\\right\\}\\left\\{\\frac{1078}{75}<y<\\frac{3211}{150}\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "60",
+        "color": "#c74440",
+        "latex": "1+\\sqrt{3.6^{2}-\\left(y-11\\right)^{2}}+14.5<z<23\\left\\{0<x<11.58\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "64",
+        "color": "#aaaaaa",
+        "latex": "1+\\sqrt{3.6^{2}-\\left(y-11\\right)^{2}}+14.5<z<23\\left\\{-21.2<x<-9.62\\right\\}"
+      }
+    ]
+  },
+  "includeFunctionParametersInRandomSeed": true,
+  "doNotMigrate3dLineWidthZero": true,
+  "doNotMigrateMovablePointStyle": true
+}

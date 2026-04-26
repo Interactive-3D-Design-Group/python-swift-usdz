@@ -1,0 +1,376 @@
+{
+  "version": 11,
+  "randomSeed": "c1f0674e521dd8ffa252a18e57340a62",
+  "graph": {
+    "viewport": {
+      "xmin": -15.357618779589028,
+      "ymin": -15.357618779588972,
+      "zmin": -15.357618779588972,
+      "xmax": 15.357618779589028,
+      "ymax": 15.357618779588972,
+      "zmax": 15.357618779588972
+    },
+    "worldRotation3D": [
+      -0.8963312064718696,
+      -0.03240638633954435,
+      -0.44219927004588133,
+      0.02906211951198092,
+      -0.9994747751316345,
+      0.014337610856040663,
+      -0.4424316461490743,
+      2.3348825265259787e-12,
+      0.8968022293046999
+    ],
+    "axis3D": [
+      0,
+      0,
+      -1.0000000000002875
+    ],
+    "speed3D": 0.8250847384770075,
+    "product": "graphing-3d",
+    "threeDMode": true,
+    "__v12ViewportLatexStash": {
+      "xmin": "-15.357618779589028",
+      "xmax": "15.357618779589028",
+      "ymin": "-15.357618779588972",
+      "ymax": "15.357618779588972",
+      "zmin": "-15.357618779588972",
+      "zmax": "15.357618779588972"
+    }
+  },
+  "expressions": {
+    "list": [
+      {
+        "type": "expression",
+        "id": "25",
+        "color": "#aaaaaa",
+        "latex": "15<y<16.2\\left\\{-1.05<x<1.05\\right\\}\\left\\{0<z<4.1\\right\\}",
+        "extendTo3D": true,
+        "colorLatex": "c_{1}"
+      },
+      {
+        "type": "expression",
+        "id": "27",
+        "color": "#2d70b3",
+        "latex": "r=15",
+        "hidden": true
+      },
+      {
+        "type": "expression",
+        "id": "36",
+        "color": "#c74440",
+        "latex": "\\left(\\cos\\left(t\\cdot2\\pi\\right)\\cdot f\\left(s\\cdot\\operatorname{mod}\\left(t,\\frac{1}{s}\\right),k_{1}\\right),\\sin\\left(t\\cdot2\\pi\\right)\\cdot f\\left(s\\cdot\\operatorname{mod}\\left(t,\\frac{1}{s}\\right),k_{1}\\right)\\left\\{c_{ut}\\le t\\right\\}\\right)",
+        "hidden": true
+      },
+      {
+        "type": "expression",
+        "id": "40",
+        "color": "#aaaaaa",
+        "latex": "s=30",
+        "hidden": true,
+        "slider": {
+          "hardMax": true,
+          "playDirection": -1,
+          "max": "30"
+        }
+      },
+      {
+        "type": "expression",
+        "id": "39",
+        "color": "#6042a6",
+        "latex": "c_{ut}=0",
+        "hidden": true,
+        "slider": {
+          "playDirection": -1
+        }
+      },
+      {
+        "type": "expression",
+        "id": "37",
+        "color": "#2d70b3",
+        "latex": "f\\left(x,k\\right)=\\left(\\frac{\\left(x-x\\cdot k\\right)}{k-\\left|x\\right|\\cdot2\\cdot k+1}\\ \\right)"
+      },
+      {
+        "type": "expression",
+        "id": "38",
+        "color": "#388c46",
+        "latex": "k_{1}=\\left\\{s\\ <\\ 20:0.99,0.99-s\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "43",
+        "color": "#388c46",
+        "latex": "4.6x-4.5<y<4.6x+4.5\\left\\{-4.6y+70.5<x<-4.6y+75.\\right\\}\\left\\{0<z<4.1\\right\\}",
+        "colorLatex": "c_{1}"
+      },
+      {
+        "type": "expression",
+        "id": "66",
+        "color": "#388c46",
+        "latex": "-4.6x-4.5<y<-4.6x+4.5\\left\\{4.6y-70.5>x>4.6y-75.\\right\\}\\left\\{0<z<4.1\\right\\}",
+        "colorLatex": "c_{3}"
+      },
+      {
+        "type": "expression",
+        "id": "67",
+        "color": "#6042a6",
+        "latex": "x^{2}+y^{2}<262.5\\left\\{x^{2}+y^{2}>220\\right\\}\\left\\{4.1<z<4.85\\right\\}\\left\\{-0.275y<x<0.53y\\right\\}",
+        "colorLatex": "c_{3}"
+      },
+      {
+        "type": "expression",
+        "id": "68",
+        "color": "#aaaaaa",
+        "latex": "0.5x+16.7<y<0.5x+17.9\\left\\{-0.5y-0.4<x<-0.5y+1.7\\right\\}\\left\\{0<z<4.1\\right\\}",
+        "colorLatex": "c_{2}"
+      },
+      {
+        "type": "expression",
+        "id": "69",
+        "color": "#c74440",
+        "latex": "0.6x+17.4<y<0.6x+18.6\\left\\{-0.6y-2.4<x<-0.6y-0.3\\right\\}\\left\\{0<z<4.1\\right\\}",
+        "colorLatex": "c_{1}"
+      },
+      {
+        "type": "expression",
+        "id": "70",
+        "color": "#388c46",
+        "latex": "x^{2}+y^{2}<262.5\\left\\{x^{2}+y^{2}>0\\right\\}\\left\\{0<z<0.1\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "71",
+        "color": "#c74440",
+        "latex": "-0.5x+16.7<y<-0.5x+17.9\\left\\{0.5y+0.4>x>0.5y-1.7\\right\\}\\left\\{0<z<4.1\\right\\}",
+        "colorLatex": "c_{1}"
+      },
+      {
+        "type": "expression",
+        "id": "74",
+        "color": "#6042a6",
+        "latex": "-0.6x+17.4<y<-0.6x+18.6\\left\\{0.6y+2.6>x>0.6y+0.5\\right\\}\\left\\{0<z<4.1\\right\\}",
+        "colorLatex": "c_{2}"
+      },
+      {
+        "type": "expression",
+        "id": "76",
+        "color": "#c74440",
+        "latex": "0.9x+1>y\\ >0.9x-1.2\\ \\left\\{-0.9y+20.1<x<-0.9y+21.3\\right\\}\\left\\{0<z<4.1\\right\\}",
+        "extendTo3D": true,
+        "colorLatex": "c_{1}"
+      },
+      {
+        "type": "expression",
+        "id": "77",
+        "color": "#2d70b3",
+        "latex": "0.56x+1.3>y>0.56x-0.8\\left\\{-0.56y+17<x<-0.56y+18.2\\right\\}\\left\\{0<z<4.1\\right\\}",
+        "extendTo3D": true,
+        "colorLatex": "c_{3}"
+      },
+      {
+        "type": "expression",
+        "id": "78",
+        "color": "#c74440",
+        "latex": "x^{2}+y^{2}<251\\left\\{x^{2}+y^{2}>223\\right\\}\\left\\{4.1<z<4.85\\right\\}\\left\\{0.9x+1>y>0.56x-0.8\\right\\}",
+        "colorLatex": "c_{2}"
+      },
+      {
+        "type": "expression",
+        "id": "84",
+        "color": "#388c46",
+        "latex": "0.32x-1.1<y<0.32x+1.0\\left\\{-0.32y+15.8<x<-0.32y+16.8\\right\\}\\left\\{0<z<4.1\\right\\}",
+        "colorLatex": "c_{1}"
+      },
+      {
+        "type": "expression",
+        "id": "85",
+        "color": "#aaaaaa",
+        "latex": "0.1x-1.1<y<0.1x\\ +1\\left\\{-0.1y+14.93<x<-0.1y+16.1\\right\\}\\left\\{0<z<4.1\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "86",
+        "color": "#aaaaaa",
+        "latex": "x^{2}+y^{2}<256\\left\\{x^{2}+y^{2}>223\\right\\}\\left\\{4.1<z<4.85\\right\\}\\left\\{0.32x\\ +1.1>y>0.1x\\ -1.1\\right\\}",
+        "colorLatex": "c_{1}"
+      },
+      {
+        "type": "expression",
+        "id": "87",
+        "color": "#c74440",
+        "latex": "-0.58x-1.1<y<-0.58x+1\\left\\{0.58y+17.3<x<0.58y+18.5\\right\\}\\left\\{0<z<4.1\\right\\}",
+        "extendTo3D": true,
+        "colorLatex": "c_{1}"
+      },
+      {
+        "type": "expression",
+        "id": "88",
+        "color": "#2d70b3",
+        "latex": "4.6x-4.5<y<4.6x+4.5\\left\\{-4.6y-70.5>x>-4.6y-75\\right\\}\\left\\{0<z<4.1\\right\\}",
+        "extendTo3D": true,
+        "colorLatex": "c_{3}"
+      },
+      {
+        "type": "expression",
+        "id": "90",
+        "color": "#6042a6",
+        "latex": "-0.11x-1.1<y<-0.11x+1\\left\\{0.11y-15>x>0.11y-16.1\\right\\}\\left\\{0<z<4.1\\right\\}",
+        "extendTo3D": true,
+        "colorLatex": "c_{3}"
+      },
+      {
+        "type": "expression",
+        "id": "91",
+        "color": "#aaaaaa",
+        "latex": "0.32x+1.1>y>0.32x-1.0\\left\\{-0.32y-15.8>x>-0.32y-16.8\\right\\}\\left\\{0<z<4.1\\right\\}",
+        "colorLatex": "c_{1}"
+      },
+      {
+        "type": "expression",
+        "id": "93",
+        "color": "#2d70b3",
+        "latex": "0.1x+1.1>y>0.1x\\ -1\\left\\{-0.1y-14.93>x>-0.1y-16.1\\right\\}\\left\\{0<z<4.1\\right\\}",
+        "colorLatex": "c_{2}"
+      },
+      {
+        "type": "expression",
+        "id": "94",
+        "color": "#388c46",
+        "latex": "x^{2}+y^{2}<256\\left\\{x^{2}+y^{2}>223\\right\\}\\left\\{4.1<z<4.85\\right\\}\\left\\{0.32x\\ -1.1<y<0.1x\\ +1.1\\right\\}",
+        "colorLatex": "c_{1}"
+      },
+      {
+        "type": "expression",
+        "id": "95",
+        "color": "#6042a6",
+        "latex": "r=7",
+        "hidden": true
+      },
+      {
+        "type": "expression",
+        "id": "96",
+        "color": "#aaaaaa",
+        "latex": "4.6x-4.5<y<4.6x+4.5\\left\\{-4.6y-34.8<x<-4.6y-30.3\\right\\}\\left\\{0<z<6.55\\right\\}",
+        "extendTo3D": true,
+        "colorLatex": "c_{1}"
+      },
+      {
+        "type": "expression",
+        "id": "97",
+        "color": "#c74440",
+        "latex": "-0.58x-0.7<y<-0.58x+1.4\\left\\{0.58y+7.3<x<0.56y+8.6\\right\\}\\left\\{0<z<4.1\\right\\}",
+        "colorLatex": "c_{1}"
+      },
+      {
+        "type": "expression",
+        "id": "98",
+        "color": "#2d70b3",
+        "latex": "-0.91x-2.3<y<-0.91x\\left\\{0.91y+8.7<x<0.91y\\ +\\ 10.2\\right\\}\\left\\{0<z<4.1\\right\\}",
+        "colorLatex": "c_{1}"
+      },
+      {
+        "type": "expression",
+        "id": "100",
+        "color": "#6042a6",
+        "latex": "y=-8x+56\\left\\{y>0\\right\\}",
+        "hidden": true
+      },
+      {
+        "type": "expression",
+        "id": "101",
+        "color": "#aaaaaa",
+        "latex": "y=8x+56\\left\\{y>0\\right\\}",
+        "hidden": true
+      },
+      {
+        "type": "expression",
+        "id": "105",
+        "color": "#6042a6",
+        "latex": "8x+61>y>8x+51\\left\\{-8y+18>x>-8y+3\\right\\}\\left\\{0<z<4.1\\right\\}",
+        "colorLatex": "c_{3}"
+      },
+      {
+        "type": "expression",
+        "id": "109",
+        "color": "#388c46",
+        "latex": "-8x+61>y>-8x+51\\left\\{8y-18<x<8y-3\\right\\}\\left\\{0<z<4.1\\right\\}",
+        "colorLatex": "c_{2}"
+      },
+      {
+        "type": "expression",
+        "id": "111",
+        "color": "#aaaaaa",
+        "latex": "0.91x-2.3<y<0.91x\\left\\{-0.91y-8.7>x>-0.91y\\ -\\ 10.2\\right\\}\\left\\{0<z<4.1\\right\\}",
+        "colorLatex": "c_{1}"
+      },
+      {
+        "type": "expression",
+        "id": "112",
+        "color": "#c74440",
+        "latex": "0.58x-0.7<y<0.58x+1.4\\left\\{-0.58y-7.3>x>-0.56y-8.6\\right\\}\\left\\{0<z<4.1\\right\\}",
+        "colorLatex": "c_{1}"
+      },
+      {
+        "type": "expression",
+        "id": "114",
+        "color": "#388c46",
+        "latex": "8x+61>y>8x+51\\left\\{-8y+40>x>-8y+25\\right\\}\\left\\{0<z<4.1\\right\\}",
+        "colorLatex": "c_{1}"
+      },
+      {
+        "type": "expression",
+        "id": "115",
+        "color": "#6042a6",
+        "latex": "-8x+61>y>-8x+51\\left\\{8y-40<x<8y-25\\right\\}\\left\\{0<z<4.1\\right\\}",
+        "colorLatex": "c_{2}"
+      },
+      {
+        "type": "expression",
+        "id": "117",
+        "color": "#aaaaaa",
+        "latex": "-8x+61>y>-8x+51\\left\\{4.1<z<4.85\\right\\}\\left\\{8y-40<x<8y-3\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "118",
+        "color": "#2d70b3",
+        "latex": "8x+61>y>8x+51\\left\\{4.1<z<4.85\\right\\}\\left\\{-8y+40>x>-8y+3\\right\\}",
+        "colorLatex": "c_{1}"
+      },
+      {
+        "type": "expression",
+        "id": "119",
+        "color": "#aaaaaa",
+        "latex": "x^{2}+y^{2}<58\\left\\{x^{2}+y^{2}>40.7\\right\\}\\left\\{4.1<z<4.85\\right\\}\\left\\{-0.91x\\ -2.3<y<-0.58x+1.4\\right\\}\\left\\{0<x\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "120",
+        "color": "#6042a6",
+        "latex": "x^{2}+y^{2}<58\\left\\{x^{2}+y^{2}>40.7\\right\\}\\left\\{4.1<z<4.85\\right\\}\\left\\{\\ 0.91x-2.3<y<0.58x+1.4\\right\\}\\left\\{0>y\\right\\}",
+        "colorLatex": "c_{1}"
+      },
+      {
+        "type": "expression",
+        "id": "121",
+        "color": "#aaaaaa",
+        "latex": "c_{1}=\\operatorname{rgb}\\left(166,153,137\\right)"
+      },
+      {
+        "type": "expression",
+        "id": "122",
+        "color": "#c74440",
+        "latex": "c_{2}=\\operatorname{rgb}\\left(128,125,121\\right)"
+      },
+      {
+        "type": "expression",
+        "id": "123",
+        "color": "#2d70b3",
+        "latex": "c_{3}=\\operatorname{rgb}\\left(135,132,128\\right)"
+      }
+    ]
+  },
+  "includeFunctionParametersInRandomSeed": true,
+  "doNotMigrate3dLineWidthZero": true,
+  "doNotMigrateMovablePointStyle": true
+}

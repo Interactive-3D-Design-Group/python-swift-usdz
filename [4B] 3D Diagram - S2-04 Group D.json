@@ -1,0 +1,247 @@
+{
+  "version": 11,
+  "randomSeed": "949d0abd303c3d4039c3700ef68d807d",
+  "graph": {
+    "viewport": {
+      "xmin": -2093.75,
+      "ymin": -2093.75,
+      "zmin": -2093.75,
+      "xmax": 2093.75,
+      "ymax": 2093.75,
+      "zmax": 2093.75
+    },
+    "worldRotation3D": [
+      0.598672931410964,
+      0.7522737446369383,
+      0.2750907747012455,
+      -0.6835629747395475,
+      0.6588506758969951,
+      -0.3140978294024011,
+      -0.41753129315182036,
+      -3.3926216106061913e-14,
+      0.9086625442038274
+    ],
+    "axis3D": [
+      0,
+      0,
+      -1.0000000000048037
+    ],
+    "perspectiveDistortion": 6.25,
+    "product": "graphing-3d",
+    "threeDMode": true,
+    "__v12ViewportLatexStash": {
+      "xmin": "-2093.75",
+      "xmax": "2093.75",
+      "ymin": "-2093.75",
+      "ymax": "2093.75",
+      "zmin": "-2093.75",
+      "zmax": "2093.75"
+    }
+  },
+  "expressions": {
+    "list": [
+      {
+        "type": "folder",
+        "id": "41",
+        "title": "pillars on -y",
+        "collapsed": true
+      },
+      {
+        "type": "expression",
+        "id": "43",
+        "folderId": "41",
+        "color": "#c74440",
+        "latex": "-220<x<220\\left\\{-1050<y<-950\\right\\}\\left\\{400<z<500\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "44",
+        "folderId": "41",
+        "color": "#c74440",
+        "latex": "-220<x<220\\left\\{-1050<y<-950\\right\\}\\left\\{675<z<800\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "45",
+        "folderId": "41",
+        "color": "#c74440",
+        "latex": "-220<x<220\\left\\{-1050<y<-950\\right\\}\\left\\{950<z<1050\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "46",
+        "folderId": "41",
+        "color": "#c74440",
+        "latex": "-220<x<220\\left\\{-1050<y<-950\\right\\}\\left\\{1175<z<1225\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "47",
+        "folderId": "41",
+        "color": "#c74440",
+        "latex": "150<x<220\\left\\{-1050<y<-950\\right\\}\\left\\{0<z<1250\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "48",
+        "folderId": "41",
+        "color": "#c74440",
+        "latex": "-220<x<-150\\left\\{-1050<y<-950\\right\\}\\left\\{0<z<1250\\right\\}"
+      },
+      {
+        "type": "folder",
+        "id": "56",
+        "title": "bridge",
+        "collapsed": true
+      },
+      {
+        "type": "expression",
+        "id": "57",
+        "folderId": "56",
+        "color": "#c74440",
+        "latex": "-230<x<230\\left\\{-2500<y<2500\\right\\}\\left\\{227<z<257\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "68",
+        "folderId": "56",
+        "color": "#aaaaaa",
+        "latex": "-155<x<155\\left\\{-2500<y<2500\\right\\}\\left\\{248<z<258\\right\\}"
+      },
+      {
+        "type": "folder",
+        "id": "49",
+        "title": "pillars on +y",
+        "collapsed": true
+      },
+      {
+        "type": "expression",
+        "id": "50",
+        "folderId": "49",
+        "color": "#c74440",
+        "latex": "-220<x<-150\\left\\{950<y<1050\\right\\}\\left\\{0<z<1250\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "51",
+        "folderId": "49",
+        "color": "#c74440",
+        "latex": "150<x<220\\left\\{950<y<1050\\right\\}\\left\\{0<z<1250\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "52",
+        "folderId": "49",
+        "color": "#c74440",
+        "latex": "-220<x<220\\left\\{950<y<1050\\right\\}\\left\\{400<z<500\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "53",
+        "folderId": "49",
+        "color": "#c74440",
+        "latex": "-220<x<220\\left\\{950<y<1050\\right\\}\\left\\{675<z<800\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "54",
+        "folderId": "49",
+        "color": "#c74440",
+        "latex": "-220<x<220\\left\\{950<y<1050\\right\\}\\left\\{950<z<1050\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "55",
+        "folderId": "49",
+        "color": "#c74440",
+        "latex": "-220<x<220\\left\\{950<y<1050\\right\\}\\left\\{1175<z<1225\\right\\}"
+      },
+      {
+        "type": "folder",
+        "id": "58",
+        "title": "cables",
+        "collapsed": true
+      },
+      {
+        "type": "expression",
+        "id": "59",
+        "folderId": "58",
+        "color": "#c74440",
+        "latex": "z=\\ 0.0011y^{2}+0y+257\\left\\{150<x<200\\right\\}\\left\\{-950<y<950\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "60",
+        "folderId": "58",
+        "color": "#c74440",
+        "latex": "z=\\ 0.0011y^{2}+0y+257\\left\\{-200<x<-150\\right\\}\\left\\{-950<y<950\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "61",
+        "folderId": "58",
+        "color": "#c74440",
+        "latex": "z=1y+2250\\left\\{150<x<200\\right\\}\\left\\{-2200<y<-1000\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "65",
+        "folderId": "58",
+        "color": "#c74440",
+        "latex": "z=-1y+2250\\left\\{150<x<200\\right\\}\\left\\{1000<y<2200\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "66",
+        "folderId": "58",
+        "color": "#c74440",
+        "latex": "z=1y+2250\\left\\{-200<x<-150\\right\\}\\left\\{-2200<y<-1000\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "67",
+        "folderId": "58",
+        "color": "#c74440",
+        "latex": "z=-1y+2250\\left\\{-200<x<-150\\right\\}\\left\\{1000<y<2200\\right\\}"
+      },
+      {
+        "type": "folder",
+        "id": "69",
+        "title": "misc",
+        "collapsed": true
+      },
+      {
+        "type": "expression",
+        "id": "70",
+        "folderId": "69",
+        "color": "#2d70b3",
+        "latex": "z<0",
+        "hidden": true
+      },
+      {
+        "type": "text",
+        "id": "82",
+        "text": "the area of the actual build is 2 300 000 cm^3"
+      },
+      {
+        "type": "expression",
+        "id": "83",
+        "color": "#c74440",
+        "latex": "484\\cdot2300000"
+      },
+      {
+        "type": "text",
+        "id": "85",
+        "text": "221697"
+      },
+      {
+        "type": "expression",
+        "id": "86",
+        "color": "#388c46"
+      }
+    ]
+  },
+  "includeFunctionParametersInRandomSeed": true,
+  "doNotMigrate3dLineWidthZero": true,
+  "doNotMigrateMovablePointStyle": true
+}

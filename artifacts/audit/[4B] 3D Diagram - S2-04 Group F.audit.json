@@ -1,0 +1,133 @@
+{
+  "source_file": "[4B] 3D Diagram - S2-04 Group F.json",
+  "total_expressions": 118,
+  "supported_count": 95,
+  "recognized_unsupported_count": 0,
+  "unrecognized_count": 4,
+  "geometry_ineligible_count": 19,
+  "per_folder_summary": [
+    {
+      "folder_id": null,
+      "folder_name": null,
+      "total": 7,
+      "supported": 0,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 7
+    },
+    {
+      "folder_id": "177",
+      "folder_name": "Tourist standing place idk what it called really.",
+      "total": 5,
+      "supported": 5,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 0
+    },
+    {
+      "folder_id": "143",
+      "folder_name": "front / back beams",
+      "total": 28,
+      "supported": 16,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 12
+    },
+    {
+      "folder_id": "145",
+      "folder_name": "left / right beams (RAHHHH)",
+      "total": 30,
+      "supported": 30,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 0
+    },
+    {
+      "folder_id": "142",
+      "folder_name": "main build",
+      "total": 42,
+      "supported": 38,
+      "recognized_unsupported": 0,
+      "unrecognized": 4,
+      "geometry_ineligible": 0
+    },
+    {
+      "folder_id": "183",
+      "folder_name": "second white part! yayyy!!!",
+      "total": 3,
+      "supported": 3,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 0
+    },
+    {
+      "folder_id": "187",
+      "folder_name": "third white part :c",
+      "total": 3,
+      "supported": 3,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 0
+    }
+  ],
+  "unsupported_expressions": [
+    {
+      "expression_id": "2",
+      "folder": "main build",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "7433adab3fbcc535",
+      "latex": "(-5.36(1-v)^{2}-2.64+u(1.6(1-v)+0.24),-(0.24+5.36(1-v)^{2}),20v)",
+      "normalized_latex": "(-5.36(1-v)^2-2.64+u(1.6(1-v)+0.24),-(0.24+5.36(1-v)^2),20v)"
+    },
+    {
+      "expression_id": "4",
+      "folder": "main build",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "a556861a0ecfc4e5",
+      "latex": "(-5.36(1-v)^{2}-2.64+u(1.6(1-v)+0.24),0.24+5.36(1-v)^{2},20v)",
+      "normalized_latex": "(-5.36(1-v)^2-2.64+u(1.6(1-v)+0.24),0.24+5.36(1-v)^2,20v)"
+    },
+    {
+      "expression_id": "5",
+      "folder": "main build",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "e8b598ee23d52c44",
+      "latex": "(5.36(1-v)^{2}-2.16,-(0.24+5.36(1-v)^{2})+u(1.6(1-v)+0.24),20v)",
+      "normalized_latex": "(5.36(1-v)^2-2.16,-(0.24+5.36(1-v)^2)+u(1.6(1-v)+0.24),20v)"
+    },
+    {
+      "expression_id": "7",
+      "folder": "main build",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "2cf8d369e6da2d63",
+      "latex": "(-5.36(1-v)^{2}-2.64,-(0.24+5.36(1-v)^{2})+u(1.6(1-v)+0.24),20v)",
+      "normalized_latex": "(-5.36(1-v)^2-2.64,-(0.24+5.36(1-v)^2)+u(1.6(1-v)+0.24),20v)"
+    }
+  ],
+  "unknown_fingerprints": [
+    "2cf8d369e6da2d63",
+    "7433adab3fbcc535",
+    "a556861a0ecfc4e5",
+    "e8b598ee23d52c44"
+  ],
+  "diagnostics": [
+    {
+      "severity": "INFO",
+      "code": "AUDIT_COMPLETE",
+      "message": "Audit classification complete",
+      "source_ref": null,
+      "details": {
+        "file": "[4B] 3D Diagram - S2-04 Group F.json"
+      }
+    }
+  ],
+  "status": "PARTIAL"
+}

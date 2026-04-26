@@ -1,0 +1,96 @@
+{
+  "files_scanned": 71,
+  "expressions_considered": 8390,
+  "non_supported_expression_count": 1713,
+  "by_family_and_status": [
+    {
+      "family": "INEQUALITY_REGION",
+      "status": "GEOMETRY_INELIGIBLE",
+      "count": 825
+    },
+    {
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "count": 440
+    },
+    {
+      "family": "PARAM_ASSIGNMENT",
+      "status": "GEOMETRY_INELIGIBLE",
+      "count": 160
+    },
+    {
+      "family": "TRIANGLE_CALL",
+      "status": "GEOMETRY_INELIGIBLE",
+      "count": 155
+    },
+    {
+      "family": "UNKNOWN",
+      "status": "GEOMETRY_INELIGIBLE",
+      "count": 87
+    },
+    {
+      "family": "SEGMENT_CALL",
+      "status": "GEOMETRY_INELIGIBLE",
+      "count": 33
+    },
+    {
+      "family": "CONSTANT_PLANE",
+      "status": "GEOMETRY_INELIGIBLE",
+      "count": 10
+    },
+    {
+      "family": "LINEAR_SURFACE_PATCH",
+      "status": "GEOMETRY_INELIGIBLE",
+      "count": 2
+    },
+    {
+      "family": "QUADRATIC_SURFACE_PATCH",
+      "status": "GEOMETRY_INELIGIBLE",
+      "count": 1
+    }
+  ],
+  "non_supported_by_family": [
+    {
+      "family": "INEQUALITY_REGION",
+      "count": 825
+    },
+    {
+      "family": "UNKNOWN",
+      "count": 527
+    },
+    {
+      "family": "PARAM_ASSIGNMENT",
+      "count": 160
+    },
+    {
+      "family": "TRIANGLE_CALL",
+      "count": 155
+    },
+    {
+      "family": "SEGMENT_CALL",
+      "count": 33
+    },
+    {
+      "family": "CONSTANT_PLANE",
+      "count": 10
+    },
+    {
+      "family": "LINEAR_SURFACE_PATCH",
+      "count": 2
+    },
+    {
+      "family": "QUADRATIC_SURFACE_PATCH",
+      "count": 1
+    }
+  ],
+  "non_supported_by_status": [
+    {
+      "status": "GEOMETRY_INELIGIBLE",
+      "count": 1273
+    },
+    {
+      "status": "UNRECOGNIZED",
+      "count": 440
+    }
+  ]
+}

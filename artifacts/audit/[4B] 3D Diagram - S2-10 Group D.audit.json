@@ -1,0 +1,134 @@
+{
+  "source_file": "[4B] 3D Diagram - S2-10 Group D.json",
+  "total_expressions": 37,
+  "supported_count": 17,
+  "recognized_unsupported_count": 0,
+  "unrecognized_count": 9,
+  "geometry_ineligible_count": 11,
+  "per_folder_summary": [
+    {
+      "folder_id": null,
+      "folder_name": null,
+      "total": 37,
+      "supported": 17,
+      "recognized_unsupported": 0,
+      "unrecognized": 9,
+      "geometry_ineligible": 11
+    }
+  ],
+  "unsupported_expressions": [
+    {
+      "expression_id": "173",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "62a03257e2c79bc0",
+      "latex": "by=-\\frac{c}{z}\\left\\{-3\\le y\\le5\\right\\}\\left\\{-1\\le x\\le1\\right\\}\\ \\left\\{z\\le11\\right\\}",
+      "normalized_latex": "by=-(c)/(z){-3<=y<=5}{-1<=x<=1}{z<=11}"
+    },
+    {
+      "expression_id": "178",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "55ea00c694f15ee8",
+      "latex": "by=\\frac{c}{z}\\left\\{-3\\le y\\le5\\right\\}\\left\\{-1\\le x\\le1\\right\\}\\ \\left\\{3\\le z\\le11\\right\\}",
+      "normalized_latex": "by=(c)/(z){-3<=y<=5}{-1<=x<=1}{3<=z<=11}"
+    },
+    {
+      "expression_id": "174",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "c90c61674e4a57fe",
+      "latex": "bx=\\frac{c}{z}\\left\\{-3\\le x\\le5\\right\\}\\ \\left\\{-1\\le y\\le1\\right\\}\\left\\{3<z\\le11\\right\\}",
+      "normalized_latex": "bx=(c)/(z){-3<=x<=5}{-1<=y<=1}{3<z<=11}"
+    },
+    {
+      "expression_id": "175",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "195bf90592348c0e",
+      "latex": "bx=-\\frac{c}{z}\\left\\{-3\\le x\\le5\\right\\}\\ \\left\\{-1\\le y\\le1\\right\\}\\left\\{z\\le11\\right\\}",
+      "normalized_latex": "bx=-(c)/(z){-3<=x<=5}{-1<=y<=1}{z<=11}"
+    },
+    {
+      "expression_id": "180",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "24df228c1f9a448a",
+      "latex": "ey=-\\frac{f}{z}\\ \\left\\{-1\\le x\\le1\\right\\}\\left\\{-10\\le y\\le10\\right\\}\\left\\{z\\le3\\right\\}",
+      "normalized_latex": "ey=-(f)/(z){-1<=x<=1}{-10<=y<=10}{z<=3}"
+    },
+    {
+      "expression_id": "183",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "aab4e66755b27acf",
+      "latex": "ey=\\frac{f}{z}\\ \\left\\{-1\\le x\\le1\\right\\}\\left\\{-10\\le y\\le10\\right\\}\\left\\{z\\le3\\right\\}",
+      "normalized_latex": "ey=(f)/(z){-1<=x<=1}{-10<=y<=10}{z<=3}"
+    },
+    {
+      "expression_id": "184",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "96cff5d6ef60ec70",
+      "latex": "ey=-\\frac{f}{z}\\ \\left\\{-1\\le y\\le1\\right\\}\\left\\{-10\\le x\\le10\\right\\}\\left\\{z\\le3\\right\\}",
+      "normalized_latex": "ey=-(f)/(z){-1<=y<=1}{-10<=x<=10}{z<=3}"
+    },
+    {
+      "expression_id": "185",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "745de518a5f1172e",
+      "latex": "ey=\\frac{f}{z}\\ \\left\\{-1\\le y\\le1\\right\\}\\left\\{-10\\le x\\le10\\right\\}\\left\\{z\\le3\\right\\}",
+      "normalized_latex": "ey=(f)/(z){-1<=y<=1}{-10<=x<=10}{z<=3}"
+    },
+    {
+      "expression_id": "154",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "62d8f22f15044162",
+      "latex": "bx=\\frac{c}{z}",
+      "normalized_latex": "bx=(c)/(z)"
+    }
+  ],
+  "unknown_fingerprints": [
+    "195bf90592348c0e",
+    "24df228c1f9a448a",
+    "55ea00c694f15ee8",
+    "62a03257e2c79bc0",
+    "62d8f22f15044162",
+    "745de518a5f1172e",
+    "96cff5d6ef60ec70",
+    "aab4e66755b27acf",
+    "c90c61674e4a57fe"
+  ],
+  "diagnostics": [
+    {
+      "severity": "INFO",
+      "code": "AUDIT_COMPLETE",
+      "message": "Audit classification complete",
+      "source_ref": null,
+      "details": {
+        "file": "[4B] 3D Diagram - S2-10 Group D.json"
+      }
+    }
+  ],
+  "status": "PARTIAL"
+}

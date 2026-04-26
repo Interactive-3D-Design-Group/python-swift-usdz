@@ -1,0 +1,134 @@
+{
+  "source_file": "[4B] 3D Diagram - S2-08 Group A.json",
+  "total_expressions": 129,
+  "supported_count": 119,
+  "recognized_unsupported_count": 0,
+  "unrecognized_count": 9,
+  "geometry_ineligible_count": 1,
+  "per_folder_summary": [
+    {
+      "folder_id": null,
+      "folder_name": null,
+      "total": 129,
+      "supported": 119,
+      "recognized_unsupported": 0,
+      "unrecognized": 9,
+      "geometry_ineligible": 1
+    }
+  ],
+  "unsupported_expressions": [
+    {
+      "expression_id": "93",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "a93caaff6dcb4126",
+      "latex": "(3-2t+t^{2},\\ -3+2t-t^{2},\\ 37+6t+37t^{2})",
+      "normalized_latex": "(3-2t+t^2,-3+2t-t^2,37+6t+37t^2)"
+    },
+    {
+      "expression_id": "94",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "4773b121c0b47896",
+      "latex": "(3-2t+t^{2},\\ 3-2t+t^{2},\\ 37+6t+37t^{2})",
+      "normalized_latex": "(3-2t+t^2,3-2t+t^2,37+6t+37t^2)"
+    },
+    {
+      "expression_id": "96",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "b899dcc0ee42d59a",
+      "latex": "(-3+2t-t^{2},\\ 3-2t+t^{2},\\ 37+6t+37t^{2})",
+      "normalized_latex": "(-3+2t-t^2,3-2t+t^2,37+6t+37t^2)"
+    },
+    {
+      "expression_id": "103",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "8b5a47084324616a",
+      "latex": "(1-2t+t^{2},\\ -3+2t-t^{2},\\ 37+48t-5t^{2})",
+      "normalized_latex": "(1-2t+t^2,-3+2t-t^2,37+48t-5t^2)"
+    },
+    {
+      "expression_id": "104",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "f8ff5cf264df5ee9",
+      "latex": "(-1+2t-t^{2},\\ 3-2t+t^{2},\\ 37+48t-5t^{2})",
+      "normalized_latex": "(-1+2t-t^2,3-2t+t^2,37+48t-5t^2)"
+    },
+    {
+      "expression_id": "105",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "4a53237e707f6f1c",
+      "latex": "(1-2t+t^{2},\\ 3-2t+t^{2},\\ 37+48t-5t^{2})",
+      "normalized_latex": "(1-2t+t^2,3-2t+t^2,37+48t-5t^2)"
+    },
+    {
+      "expression_id": "106",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "f356533c50516393",
+      "latex": "(3-2t+t^{2},\\ -1+2t-t^{2},\\ 37+48t-5t^{2})",
+      "normalized_latex": "(3-2t+t^2,-1+2t-t^2,37+48t-5t^2)"
+    },
+    {
+      "expression_id": "108",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "aa3d049c830ca39d",
+      "latex": "(3-2t+t^{2},\\ 1-2t+t^{2},\\ 37+48t-5t^{2})",
+      "normalized_latex": "(3-2t+t^2,1-2t+t^2,37+48t-5t^2)"
+    },
+    {
+      "expression_id": "109",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "d8e1d3499e70b9a4",
+      "latex": "(-3+2t-t^{2},\\ 1-2t+t^{2},\\ 37+48t-5t^{2})",
+      "normalized_latex": "(-3+2t-t^2,1-2t+t^2,37+48t-5t^2)"
+    }
+  ],
+  "unknown_fingerprints": [
+    "4773b121c0b47896",
+    "4a53237e707f6f1c",
+    "8b5a47084324616a",
+    "a93caaff6dcb4126",
+    "aa3d049c830ca39d",
+    "b899dcc0ee42d59a",
+    "d8e1d3499e70b9a4",
+    "f356533c50516393",
+    "f8ff5cf264df5ee9"
+  ],
+  "diagnostics": [
+    {
+      "severity": "INFO",
+      "code": "AUDIT_COMPLETE",
+      "message": "Audit classification complete",
+      "source_ref": null,
+      "details": {
+        "file": "[4B] 3D Diagram - S2-08 Group A.json"
+      }
+    }
+  ],
+  "status": "PARTIAL"
+}

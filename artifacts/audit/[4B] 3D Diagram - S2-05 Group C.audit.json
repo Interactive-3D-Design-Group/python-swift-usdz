@@ -1,0 +1,46 @@
+{
+  "source_file": "[4B] 3D Diagram - S2-05 Group C.json",
+  "total_expressions": 37,
+  "supported_count": 29,
+  "recognized_unsupported_count": 0,
+  "unrecognized_count": 1,
+  "geometry_ineligible_count": 7,
+  "per_folder_summary": [
+    {
+      "folder_id": null,
+      "folder_name": null,
+      "total": 37,
+      "supported": 29,
+      "recognized_unsupported": 0,
+      "unrecognized": 1,
+      "geometry_ineligible": 7
+    }
+  ],
+  "unsupported_expressions": [
+    {
+      "expression_id": "22",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "c5ad348af8bed368",
+      "latex": "T\\left(x,y\\right)=\\min\\left(-\\left|x\\right|+14,-\\left|y\\right|+14\\right)",
+      "normalized_latex": "T(x,y)=min(-|x|+14,-|y|+14)"
+    }
+  ],
+  "unknown_fingerprints": [
+    "c5ad348af8bed368"
+  ],
+  "diagnostics": [
+    {
+      "severity": "INFO",
+      "code": "AUDIT_COMPLETE",
+      "message": "Audit classification complete",
+      "source_ref": null,
+      "details": {
+        "file": "[4B] 3D Diagram - S2-05 Group C.json"
+      }
+    }
+  ],
+  "status": "PARTIAL"
+}

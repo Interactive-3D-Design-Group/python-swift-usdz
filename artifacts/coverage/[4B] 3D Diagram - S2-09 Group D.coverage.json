@@ -1,0 +1,489 @@
+{
+  "source_file": "[4B] 3D Diagram - S2-09 Group D.json",
+  "total_items": 123,
+  "total_expressions": 121,
+  "meshed_expression_count": 60,
+  "supported_expression_count": 60,
+  "supported_but_not_meshed_count": 0,
+  "recognized_unsupported_count": 0,
+  "unrecognized_count": 21,
+  "geometry_ineligible_count": 40,
+  "groups": [
+    {
+      "fingerprint": "007ca2e190a1d961",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "101"
+      ],
+      "example_latex": [
+        "\\frac{\\left(y+9\\right)^{2}}{8^{2}}+\\frac{\\left(x-40\\right)^{2}}{19^{2}}+\\frac{\\left(z-18\\right)^{2}}{17^{2}}=1\\left\\{z>0\\right\\}\\left\\{z>x-20\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(y+9)^2}{8^2}+frac{(x-40)^2}{19^2}+frac{(z-18)^2}{17^2}=1{z>0}{z>x-20}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "0e0c96c828df14f6",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "97"
+      ],
+      "example_latex": [
+        "\\frac{\\left(-y-15\\right)^{2}}{20^{2}}+\\frac{\\left(-x-80\\right)^{2}}{52^{2}}+\\frac{\\left(z-18\\right)^{2}}{32^{2}}=1\\left\\{z>0\\right\\}\\left\\{z>-4x-180\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(-y-15)^2}{20^2}+frac{(-x-80)^2}{52^2}+frac{(z-18)^2}{32^2}=1{z>0}{z>-4x-180}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "217349f5c8c314ba",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "96"
+      ],
+      "example_latex": [
+        "\\frac{\\left(y+9\\right)^{2}}{8^{2}}+\\frac{\\left(x-40\\right)^{2}}{19^{2}}+\\frac{\\left(z-18\\right)^{2}}{17^{2}}=0.9\\left\\{z>0\\right\\}\\left\\{z>x-20\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(y+9)^2}{8^2}+frac{(x-40)^2}{19^2}+frac{(z-18)^2}{17^2}=0.9{z>0}{z>x-20}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "2e528b524ad6f5a8",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "94"
+      ],
+      "example_latex": [
+        "\\frac{\\left(y-46\\right)^{2}}{10^{2}}+\\frac{\\left(x-30\\right)^{2}}{42^{2}}+\\frac{\\left(z-18\\right)^{2}}{22^{2}}=1\\left\\{z>0\\right\\}\\left\\{z>4x-50\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(y-46)^2}{10^2}+frac{(x-30)^2}{42^2}+frac{(z-18)^2}{22^2}=1{z>0}{z>4x-50}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "566df55381205d6a",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "107"
+      ],
+      "example_latex": [
+        "\\frac{\\left(-y+46\\right)^{2}}{16^{2}}+\\frac{\\left(-x-80\\right)^{2}}{52^{2}}+\\frac{\\left(z-10\\right)^{2}}{32^{2}}=0.9\\left\\{z>0\\right\\}\\left\\{z>-4x-220\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(-y+46)^2}{16^2}+frac{(-x-80)^2}{52^2}+frac{(z-10)^2}{32^2}=0.9{z>0}{z>-4x-220}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "5ccec9b5ca9a2b18",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "124"
+      ],
+      "example_latex": [
+        "\\frac{\\left(y+9\\right)^{2}}{10^{2}}+\\frac{\\left(x-19\\right)^{2}}{15^{2}}+\\frac{\\left(z-18\\right)^{2}}{17^{2}}=0.9\\left\\{z>0\\right\\}\\left\\{z>-2x+60\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(y+9)^2}{10^2}+frac{(x-19)^2}{15^2}+frac{(z-18)^2}{17^2}=0.9{z>0}{z>-2x+60}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "5db0840170860757",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "98"
+      ],
+      "example_latex": [
+        "\\frac{\\left(-y-16\\right)^{2}}{20^{2}}+\\frac{\\left(-x-50\\right)^{2}}{40^{2}}+\\frac{\\left(z-18\\right)^{2}}{45^{2}}=1\\left\\{z>0\\right\\}\\left\\{z>-10x-330\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(-y-16)^2}{20^2}+frac{(-x-50)^2}{40^2}+frac{(z-18)^2}{45^2}=1{z>0}{z>-10x-330}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "5ded83c51c35ef40",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "109"
+      ],
+      "example_latex": [
+        "\\frac{\\left(-y+46\\right)^{2}}{15^{2}}+\\frac{\\left(-x-40\\right)^{2}}{33^{2}}+\\frac{\\left(z-18\\right)^{2}}{22^{2}}=0.9\\left\\{z>0\\right\\}\\left\\{z>-2x-50\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(-y+46)^2}{15^2}+frac{(-x-40)^2}{33^2}+frac{(z-18)^2}{22^2}=0.9{z>0}{z>-2x-50}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "6da000f56d1e8706",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "100"
+      ],
+      "example_latex": [
+        "\\frac{\\left(y+9\\right)^{2}}{10^{2}}+\\frac{\\left(x-19\\right)^{2}}{15^{2}}+\\frac{\\left(z-18\\right)^{2}}{17^{2}}=1\\left\\{z>0\\right\\}\\left\\{z>-2x+60\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(y+9)^2}{10^2}+frac{(x-19)^2}{15^2}+frac{(z-18)^2}{17^2}=1{z>0}{z>-2x+60}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "7288e508177e94a7",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "92"
+      ],
+      "example_latex": [
+        "\\frac{\\left(-y+46\\right)^{2}}{15^{2}}+\\frac{\\left(-x-40\\right)^{2}}{33^{2}}+\\frac{\\left(z-18\\right)^{2}}{22^{2}}=1\\left\\{z>0\\right\\}\\left\\{z>-2x-50\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(-y+46)^2}{15^2}+frac{(-x-40)^2}{33^2}+frac{(z-18)^2}{22^2}=1{z>0}{z>-2x-50}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "83689b04b7c6b2cb",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "111"
+      ],
+      "example_latex": [
+        "\\frac{\\left(-y+46\\right)^{2}}{20^{2}}+\\frac{\\left(-x-50\\right)^{2}}{54^{2}}+\\frac{\\left(z-18\\right)^{2}}{37^{2}}=0.9\\left\\{z>0\\right\\}\\left\\{z>-4x-40\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(-y+46)^2}{20^2}+frac{(-x-50)^2}{54^2}+frac{(z-18)^2}{37^2}=0.9{z>0}{z>-4x-40}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "8681157da044a037",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "95"
+      ],
+      "example_latex": [
+        "\\frac{\\left(-y-16\\right)^{2}}{15^{2}}+\\frac{\\left(-x-80\\right)^{2}}{33^{2}}+\\frac{\\left(z-18\\right)^{2}}{22^{2}}=1\\left\\{z>0\\right\\}\\left\\{z>-2x-110\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(-y-16)^2}{15^2}+frac{(-x-80)^2}{33^2}+frac{(z-18)^2}{22^2}=1{z>0}{z>-2x-110}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "86c5adc881074028",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "88"
+      ],
+      "example_latex": [
+        "\\left(x-6\\right)\\left\\{x\\le6:\\left(\\left(\\frac{6}{6}+\\frac{7}{7}\\right)\\sqrt{67-\\frac{x-\\sqrt{67}}{\\frac{6}{6}+\\frac{7}{7}}^{\\left(\\frac{6}{6}+\\frac{7}{7}\\right)}}-y\\right),\\left(\\sqrt{67}+6.7-y\\right)\\left(6\\left(x-6-7\\right)+\\left(6-6\\rig"
+      ],
+      "example_normalized": [
+        "(x-6){x<=6:(((6)/(6)+(7)/(7))sqrt{67-frac{x-sqrt{67}}{(6)/(6)+(7)/(7)}^((6)/(6)+(7)/(7))}-y),(sqrt{67}+6.7-y)(6(x-6-7)+(6-6)sqrt{((6)/(6)+(7)/(7))(sqrt{67}-frac{sqrt{7.6}}{6})-x}sqrt{y+sqrt{67}}-y)}(x^((6)/(6)+(7)/(7))+y^((6)/(6)+(7)/(7))-6"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "8c78f0309e66b025",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "93"
+      ],
+      "example_latex": [
+        "\\frac{\\left(-y+46\\right)^{2}}{20^{2}}+\\frac{\\left(-x-50\\right)^{2}}{54^{2}}+\\frac{\\left(z-18\\right)^{2}}{37^{2}}=1\\left\\{z>0\\right\\}\\left\\{z>-4x-40\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(-y+46)^2}{20^2}+frac{(-x-50)^2}{54^2}+frac{(z-18)^2}{37^2}=1{z>0}{z>-4x-40}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "9969dad3a7f00d00",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "99"
+      ],
+      "example_latex": [
+        "\\frac{\\left(y+15\\right)^{2}}{20^{2}}+\\frac{\\left(x-30\\right)^{2}}{52^{2}}+\\frac{\\left(z-18\\right)^{2}}{32^{2}}=1\\left\\{z>20\\right\\}\\left\\{z>4x+5\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(y+15)^2}{20^2}+frac{(x-30)^2}{52^2}+frac{(z-18)^2}{32^2}=1{z>20}{z>4x+5}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "9de124043b4fc72d",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "118"
+      ],
+      "example_latex": [
+        "\\frac{\\left(-y-15\\right)^{2}}{20^{2}}+\\frac{\\left(-x-80\\right)^{2}}{52^{2}}+\\frac{\\left(z-18\\right)^{2}}{32^{2}}=0.9\\left\\{z>0\\right\\}\\left\\{z>-4x-180\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(-y-15)^2}{20^2}+frac{(-x-80)^2}{52^2}+frac{(z-18)^2}{32^2}=0.9{z>0}{z>-4x-180}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "9efb4ebcdb31c260",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "113"
+      ],
+      "example_latex": [
+        "\\frac{\\left(y-46\\right)^{2}}{10^{2}}+\\frac{\\left(x-30\\right)^{2}}{42^{2}}+\\frac{\\left(z-18\\right)^{2}}{22^{2}}=0.9\\left\\{z>0\\right\\}\\left\\{z>4x-50\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(y-46)^2}{10^2}+frac{(x-30)^2}{42^2}+frac{(z-18)^2}{22^2}=0.9{z>0}{z>4x-50}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "a4810ab2472389a2",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "120"
+      ],
+      "example_latex": [
+        "\\frac{\\left(-y-16\\right)^{2}}{20^{2}}+\\frac{\\left(-x-50\\right)^{2}}{40^{2}}+\\frac{\\left(z-18\\right)^{2}}{45^{2}}=0.9\\left\\{z>0\\right\\}\\left\\{z>-10x-330\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(-y-16)^2}{20^2}+frac{(-x-50)^2}{40^2}+frac{(z-18)^2}{45^2}=0.9{z>0}{z>-10x-330}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "bd8ac8b676160e52",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "122"
+      ],
+      "example_latex": [
+        "\\frac{\\left(y+15\\right)^{2}}{20^{2}}+\\frac{\\left(x-30\\right)^{2}}{52^{2}}+\\frac{\\left(z-18\\right)^{2}}{32^{2}}=0.9\\left\\{z>20\\right\\}\\left\\{z>4x+5\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(y+15)^2}{20^2}+frac{(x-30)^2}{52^2}+frac{(z-18)^2}{32^2}=0.9{z>20}{z>4x+5}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "bf0ab19b563155e8",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "91"
+      ],
+      "example_latex": [
+        "\\frac{\\left(-y+46\\right)^{2}}{16^{2}}+\\frac{\\left(-x-80\\right)^{2}}{52^{2}}+\\frac{\\left(z-10\\right)^{2}}{32^{2}}=1\\left\\{z>0\\right\\}\\left\\{z>-4x-220\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(-y+46)^2}{16^2}+frac{(-x-80)^2}{52^2}+frac{(z-10)^2}{32^2}=1{z>0}{z>-4x-220}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "c54fc785e97d9b7c",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "116"
+      ],
+      "example_latex": [
+        "\\frac{\\left(-y-16\\right)^{2}}{15^{2}}+\\frac{\\left(-x-80\\right)^{2}}{33^{2}}+\\frac{\\left(z-18\\right)^{2}}{22^{2}}=0.9\\left\\{z>0\\right\\}\\left\\{z>-2x-110\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(-y-16)^2}{15^2}+frac{(-x-80)^2}{33^2}+frac{(z-18)^2}{22^2}=0.9{z>0}{z>-2x-110}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    }
+  ],
+  "diagnostics": [
+    {
+      "severity": "INFO",
+      "code": "COVERAGE_COMPLETE",
+      "message": "Coverage report complete",
+      "source_ref": null,
+      "details": {
+        "file": "[4B] 3D Diagram - S2-09 Group D.json",
+        "meshed_expression_ids": 60,
+        "supported_but_not_meshed": 0,
+        "group_count": 21
+      }
+    }
+  ]
+}

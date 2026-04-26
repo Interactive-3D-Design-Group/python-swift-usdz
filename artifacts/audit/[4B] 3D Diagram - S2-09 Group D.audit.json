@@ -1,0 +1,284 @@
+{
+  "source_file": "[4B] 3D Diagram - S2-09 Group D.json",
+  "total_expressions": 123,
+  "supported_count": 60,
+  "recognized_unsupported_count": 0,
+  "unrecognized_count": 21,
+  "geometry_ineligible_count": 42,
+  "per_folder_summary": [
+    {
+      "folder_id": null,
+      "folder_name": null,
+      "total": 2,
+      "supported": 0,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 2
+    },
+    {
+      "folder_id": "2",
+      "folder_name": "base",
+      "total": 79,
+      "supported": 60,
+      "recognized_unsupported": 0,
+      "unrecognized": 1,
+      "geometry_ineligible": 18
+    },
+    {
+      "folder_id": "4",
+      "folder_name": "sails",
+      "total": 42,
+      "supported": 0,
+      "recognized_unsupported": 0,
+      "unrecognized": 20,
+      "geometry_ineligible": 22
+    }
+  ],
+  "unsupported_expressions": [
+    {
+      "expression_id": "88",
+      "folder": "base",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "86c5adc881074028",
+      "latex": "\\left(x-6\\right)\\left\\{x\\le6:\\left(\\left(\\frac{6}{6}+\\frac{7}{7}\\right)\\sqrt{67-\\frac{x-\\sqrt{67}}{\\frac{6}{6}+\\frac{7}{7}}^{\\left(\\frac{6}{6}+\\frac{7}{7}\\right)}}-y\\right),\\left(\\sqrt{67}+6.7-y\\right)\\left(6\\left(x-6-7\\right)+\\left(6-6\\right)\\sqrt{\\left(\\frac{6}{6}+\\frac{7}{7}\\right)\\left(\\sqrt{67}-\\frac{\\sqrt{7.6}}{6}\\right)-x}\\sqrt{y+\\sqrt{67}}-y\\right)\\right\\}\\left(x^{\\left(\\frac{6}{6}+\\frac{7}{7}\\right)}+y^{\\left(\\frac{6}{6}+\\frac{7}{7}\\right)}-67\\right)=0",
+      "normalized_latex": "(x-6){x<=6:(((6)/(6)+(7)/(7))sqrt{67-frac{x-sqrt{67}}{(6)/(6)+(7)/(7)}^((6)/(6)+(7)/(7))}-y),(sqrt{67}+6.7-y)(6(x-6-7)+(6-6)sqrt{((6)/(6)+(7)/(7))(sqrt{67}-frac{sqrt{7.6}}{6})-x}sqrt{y+sqrt{67}}-y)}(x^((6)/(6)+(7)/(7))+y^((6)/(6)+(7)/(7))-67)=0"
+    },
+    {
+      "expression_id": "91",
+      "folder": "sails",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "bf0ab19b563155e8",
+      "latex": "\\frac{\\left(-y+46\\right)^{2}}{16^{2}}+\\frac{\\left(-x-80\\right)^{2}}{52^{2}}+\\frac{\\left(z-10\\right)^{2}}{32^{2}}=1\\left\\{z>0\\right\\}\\left\\{z>-4x-220\\right\\}",
+      "normalized_latex": "frac{(-y+46)^2}{16^2}+frac{(-x-80)^2}{52^2}+frac{(z-10)^2}{32^2}=1{z>0}{z>-4x-220}"
+    },
+    {
+      "expression_id": "107",
+      "folder": "sails",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "566df55381205d6a",
+      "latex": "\\frac{\\left(-y+46\\right)^{2}}{16^{2}}+\\frac{\\left(-x-80\\right)^{2}}{52^{2}}+\\frac{\\left(z-10\\right)^{2}}{32^{2}}=0.9\\left\\{z>0\\right\\}\\left\\{z>-4x-220\\right\\}",
+      "normalized_latex": "frac{(-y+46)^2}{16^2}+frac{(-x-80)^2}{52^2}+frac{(z-10)^2}{32^2}=0.9{z>0}{z>-4x-220}"
+    },
+    {
+      "expression_id": "92",
+      "folder": "sails",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "7288e508177e94a7",
+      "latex": "\\frac{\\left(-y+46\\right)^{2}}{15^{2}}+\\frac{\\left(-x-40\\right)^{2}}{33^{2}}+\\frac{\\left(z-18\\right)^{2}}{22^{2}}=1\\left\\{z>0\\right\\}\\left\\{z>-2x-50\\right\\}",
+      "normalized_latex": "frac{(-y+46)^2}{15^2}+frac{(-x-40)^2}{33^2}+frac{(z-18)^2}{22^2}=1{z>0}{z>-2x-50}"
+    },
+    {
+      "expression_id": "109",
+      "folder": "sails",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "5ded83c51c35ef40",
+      "latex": "\\frac{\\left(-y+46\\right)^{2}}{15^{2}}+\\frac{\\left(-x-40\\right)^{2}}{33^{2}}+\\frac{\\left(z-18\\right)^{2}}{22^{2}}=0.9\\left\\{z>0\\right\\}\\left\\{z>-2x-50\\right\\}",
+      "normalized_latex": "frac{(-y+46)^2}{15^2}+frac{(-x-40)^2}{33^2}+frac{(z-18)^2}{22^2}=0.9{z>0}{z>-2x-50}"
+    },
+    {
+      "expression_id": "93",
+      "folder": "sails",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "8c78f0309e66b025",
+      "latex": "\\frac{\\left(-y+46\\right)^{2}}{20^{2}}+\\frac{\\left(-x-50\\right)^{2}}{54^{2}}+\\frac{\\left(z-18\\right)^{2}}{37^{2}}=1\\left\\{z>0\\right\\}\\left\\{z>-4x-40\\right\\}",
+      "normalized_latex": "frac{(-y+46)^2}{20^2}+frac{(-x-50)^2}{54^2}+frac{(z-18)^2}{37^2}=1{z>0}{z>-4x-40}"
+    },
+    {
+      "expression_id": "111",
+      "folder": "sails",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "83689b04b7c6b2cb",
+      "latex": "\\frac{\\left(-y+46\\right)^{2}}{20^{2}}+\\frac{\\left(-x-50\\right)^{2}}{54^{2}}+\\frac{\\left(z-18\\right)^{2}}{37^{2}}=0.9\\left\\{z>0\\right\\}\\left\\{z>-4x-40\\right\\}",
+      "normalized_latex": "frac{(-y+46)^2}{20^2}+frac{(-x-50)^2}{54^2}+frac{(z-18)^2}{37^2}=0.9{z>0}{z>-4x-40}"
+    },
+    {
+      "expression_id": "94",
+      "folder": "sails",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "2e528b524ad6f5a8",
+      "latex": "\\frac{\\left(y-46\\right)^{2}}{10^{2}}+\\frac{\\left(x-30\\right)^{2}}{42^{2}}+\\frac{\\left(z-18\\right)^{2}}{22^{2}}=1\\left\\{z>0\\right\\}\\left\\{z>4x-50\\right\\}",
+      "normalized_latex": "frac{(y-46)^2}{10^2}+frac{(x-30)^2}{42^2}+frac{(z-18)^2}{22^2}=1{z>0}{z>4x-50}"
+    },
+    {
+      "expression_id": "113",
+      "folder": "sails",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "9efb4ebcdb31c260",
+      "latex": "\\frac{\\left(y-46\\right)^{2}}{10^{2}}+\\frac{\\left(x-30\\right)^{2}}{42^{2}}+\\frac{\\left(z-18\\right)^{2}}{22^{2}}=0.9\\left\\{z>0\\right\\}\\left\\{z>4x-50\\right\\}",
+      "normalized_latex": "frac{(y-46)^2}{10^2}+frac{(x-30)^2}{42^2}+frac{(z-18)^2}{22^2}=0.9{z>0}{z>4x-50}"
+    },
+    {
+      "expression_id": "95",
+      "folder": "sails",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "8681157da044a037",
+      "latex": "\\frac{\\left(-y-16\\right)^{2}}{15^{2}}+\\frac{\\left(-x-80\\right)^{2}}{33^{2}}+\\frac{\\left(z-18\\right)^{2}}{22^{2}}=1\\left\\{z>0\\right\\}\\left\\{z>-2x-110\\right\\}",
+      "normalized_latex": "frac{(-y-16)^2}{15^2}+frac{(-x-80)^2}{33^2}+frac{(z-18)^2}{22^2}=1{z>0}{z>-2x-110}"
+    },
+    {
+      "expression_id": "116",
+      "folder": "sails",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "c54fc785e97d9b7c",
+      "latex": "\\frac{\\left(-y-16\\right)^{2}}{15^{2}}+\\frac{\\left(-x-80\\right)^{2}}{33^{2}}+\\frac{\\left(z-18\\right)^{2}}{22^{2}}=0.9\\left\\{z>0\\right\\}\\left\\{z>-2x-110\\right\\}",
+      "normalized_latex": "frac{(-y-16)^2}{15^2}+frac{(-x-80)^2}{33^2}+frac{(z-18)^2}{22^2}=0.9{z>0}{z>-2x-110}"
+    },
+    {
+      "expression_id": "97",
+      "folder": "sails",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "0e0c96c828df14f6",
+      "latex": "\\frac{\\left(-y-15\\right)^{2}}{20^{2}}+\\frac{\\left(-x-80\\right)^{2}}{52^{2}}+\\frac{\\left(z-18\\right)^{2}}{32^{2}}=1\\left\\{z>0\\right\\}\\left\\{z>-4x-180\\right\\}",
+      "normalized_latex": "frac{(-y-15)^2}{20^2}+frac{(-x-80)^2}{52^2}+frac{(z-18)^2}{32^2}=1{z>0}{z>-4x-180}"
+    },
+    {
+      "expression_id": "118",
+      "folder": "sails",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "9de124043b4fc72d",
+      "latex": "\\frac{\\left(-y-15\\right)^{2}}{20^{2}}+\\frac{\\left(-x-80\\right)^{2}}{52^{2}}+\\frac{\\left(z-18\\right)^{2}}{32^{2}}=0.9\\left\\{z>0\\right\\}\\left\\{z>-4x-180\\right\\}",
+      "normalized_latex": "frac{(-y-15)^2}{20^2}+frac{(-x-80)^2}{52^2}+frac{(z-18)^2}{32^2}=0.9{z>0}{z>-4x-180}"
+    },
+    {
+      "expression_id": "98",
+      "folder": "sails",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "5db0840170860757",
+      "latex": "\\frac{\\left(-y-16\\right)^{2}}{20^{2}}+\\frac{\\left(-x-50\\right)^{2}}{40^{2}}+\\frac{\\left(z-18\\right)^{2}}{45^{2}}=1\\left\\{z>0\\right\\}\\left\\{z>-10x-330\\right\\}",
+      "normalized_latex": "frac{(-y-16)^2}{20^2}+frac{(-x-50)^2}{40^2}+frac{(z-18)^2}{45^2}=1{z>0}{z>-10x-330}"
+    },
+    {
+      "expression_id": "120",
+      "folder": "sails",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "a4810ab2472389a2",
+      "latex": "\\frac{\\left(-y-16\\right)^{2}}{20^{2}}+\\frac{\\left(-x-50\\right)^{2}}{40^{2}}+\\frac{\\left(z-18\\right)^{2}}{45^{2}}=0.9\\left\\{z>0\\right\\}\\left\\{z>-10x-330\\right\\}",
+      "normalized_latex": "frac{(-y-16)^2}{20^2}+frac{(-x-50)^2}{40^2}+frac{(z-18)^2}{45^2}=0.9{z>0}{z>-10x-330}"
+    },
+    {
+      "expression_id": "99",
+      "folder": "sails",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "9969dad3a7f00d00",
+      "latex": "\\frac{\\left(y+15\\right)^{2}}{20^{2}}+\\frac{\\left(x-30\\right)^{2}}{52^{2}}+\\frac{\\left(z-18\\right)^{2}}{32^{2}}=1\\left\\{z>20\\right\\}\\left\\{z>4x+5\\right\\}",
+      "normalized_latex": "frac{(y+15)^2}{20^2}+frac{(x-30)^2}{52^2}+frac{(z-18)^2}{32^2}=1{z>20}{z>4x+5}"
+    },
+    {
+      "expression_id": "122",
+      "folder": "sails",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "bd8ac8b676160e52",
+      "latex": "\\frac{\\left(y+15\\right)^{2}}{20^{2}}+\\frac{\\left(x-30\\right)^{2}}{52^{2}}+\\frac{\\left(z-18\\right)^{2}}{32^{2}}=0.9\\left\\{z>20\\right\\}\\left\\{z>4x+5\\right\\}",
+      "normalized_latex": "frac{(y+15)^2}{20^2}+frac{(x-30)^2}{52^2}+frac{(z-18)^2}{32^2}=0.9{z>20}{z>4x+5}"
+    },
+    {
+      "expression_id": "100",
+      "folder": "sails",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "6da000f56d1e8706",
+      "latex": "\\frac{\\left(y+9\\right)^{2}}{10^{2}}+\\frac{\\left(x-19\\right)^{2}}{15^{2}}+\\frac{\\left(z-18\\right)^{2}}{17^{2}}=1\\left\\{z>0\\right\\}\\left\\{z>-2x+60\\right\\}",
+      "normalized_latex": "frac{(y+9)^2}{10^2}+frac{(x-19)^2}{15^2}+frac{(z-18)^2}{17^2}=1{z>0}{z>-2x+60}"
+    },
+    {
+      "expression_id": "124",
+      "folder": "sails",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "5ccec9b5ca9a2b18",
+      "latex": "\\frac{\\left(y+9\\right)^{2}}{10^{2}}+\\frac{\\left(x-19\\right)^{2}}{15^{2}}+\\frac{\\left(z-18\\right)^{2}}{17^{2}}=0.9\\left\\{z>0\\right\\}\\left\\{z>-2x+60\\right\\}",
+      "normalized_latex": "frac{(y+9)^2}{10^2}+frac{(x-19)^2}{15^2}+frac{(z-18)^2}{17^2}=0.9{z>0}{z>-2x+60}"
+    },
+    {
+      "expression_id": "101",
+      "folder": "sails",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "007ca2e190a1d961",
+      "latex": "\\frac{\\left(y+9\\right)^{2}}{8^{2}}+\\frac{\\left(x-40\\right)^{2}}{19^{2}}+\\frac{\\left(z-18\\right)^{2}}{17^{2}}=1\\left\\{z>0\\right\\}\\left\\{z>x-20\\right\\}",
+      "normalized_latex": "frac{(y+9)^2}{8^2}+frac{(x-40)^2}{19^2}+frac{(z-18)^2}{17^2}=1{z>0}{z>x-20}"
+    },
+    {
+      "expression_id": "96",
+      "folder": "sails",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "217349f5c8c314ba",
+      "latex": "\\frac{\\left(y+9\\right)^{2}}{8^{2}}+\\frac{\\left(x-40\\right)^{2}}{19^{2}}+\\frac{\\left(z-18\\right)^{2}}{17^{2}}=0.9\\left\\{z>0\\right\\}\\left\\{z>x-20\\right\\}",
+      "normalized_latex": "frac{(y+9)^2}{8^2}+frac{(x-40)^2}{19^2}+frac{(z-18)^2}{17^2}=0.9{z>0}{z>x-20}"
+    }
+  ],
+  "unknown_fingerprints": [
+    "007ca2e190a1d961",
+    "0e0c96c828df14f6",
+    "217349f5c8c314ba",
+    "2e528b524ad6f5a8",
+    "566df55381205d6a",
+    "5ccec9b5ca9a2b18",
+    "5db0840170860757",
+    "5ded83c51c35ef40",
+    "6da000f56d1e8706",
+    "7288e508177e94a7",
+    "83689b04b7c6b2cb",
+    "8681157da044a037",
+    "86c5adc881074028",
+    "8c78f0309e66b025",
+    "9969dad3a7f00d00",
+    "9de124043b4fc72d",
+    "9efb4ebcdb31c260",
+    "a4810ab2472389a2",
+    "bd8ac8b676160e52",
+    "bf0ab19b563155e8",
+    "c54fc785e97d9b7c"
+  ],
+  "diagnostics": [
+    {
+      "severity": "INFO",
+      "code": "AUDIT_COMPLETE",
+      "message": "Audit classification complete",
+      "source_ref": null,
+      "details": {
+        "file": "[4B] 3D Diagram - S2-09 Group D.json"
+      }
+    }
+  ],
+  "status": "PARTIAL"
+}

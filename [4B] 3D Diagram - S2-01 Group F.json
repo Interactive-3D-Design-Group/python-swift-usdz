@@ -1,0 +1,108 @@
+{
+  "version": 11,
+  "randomSeed": "96c52c235763e17c36e4ba048c27eb38",
+  "graph": {
+    "viewport": {
+      "xmin": -12.033096168455371,
+      "ymin": -12.033096168455367,
+      "zmin": -12.033096168455383,
+      "xmax": 12.033096168455371,
+      "ymax": 12.033096168455367,
+      "zmax": 12.033096168455383
+    },
+    "worldRotation3D": [
+      -0.44921935957190956,
+      0.8796347113155762,
+      -0.15634814240855216,
+      -0.8307559566712233,
+      -0.4756498445798142,
+      -0.2891396994646658,
+      -0.32870428570543647,
+      5.371380805036683e-14,
+      0.944432894682789
+    ],
+    "axis3D": [
+      0,
+      0,
+      1.00000000000326
+    ],
+    "product": "graphing-3d",
+    "threeDMode": true,
+    "__v12ViewportLatexStash": {
+      "xmin": "-12.033096168455371",
+      "xmax": "12.033096168455371",
+      "ymin": "-12.033096168455367",
+      "ymax": "12.033096168455367",
+      "zmin": "-12.033096168455383",
+      "zmax": "12.033096168455383"
+    }
+  },
+  "expressions": {
+    "list": [
+      {
+        "type": "expression",
+        "id": "15",
+        "color": "#aaaaaa",
+        "latex": "z=-\\operatorname{abs}\\left(2y\\right)-\\left(x-5\\right)-2.5\\left\\{-5<y<5\\right\\}\\left\\{0\\ge x\\ge-3\\right\\}\\left\\{z>0\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "10",
+        "color": "#aaaaaa",
+        "latex": "z=-\\operatorname{abs}\\left(2y\\right)+\\left(x+5\\right)-2.5\\left\\{-5<y<5\\right\\}\\left\\{0\\le x\\le4\\right\\}\\left\\{z>0\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "13",
+        "color": "#aaaaaa",
+        "latex": "z=-\\operatorname{abs}\\left(2y\\right)+\\left(x+2.5\\right)-2.5\\left\\{-5<y<5\\right\\}\\left\\{0\\le x\\le5.5\\right\\}\\left\\{z>0\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "14",
+        "color": "#aaaaaa",
+        "latex": "z=-\\operatorname{abs}\\left(2y\\right)+\\left(x\\right)-2.5\\left\\{-5<y<5\\right\\}\\left\\{4\\le x\\le7\\right\\}\\left\\{z>0\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "18",
+        "color": "#388c46",
+        "latex": "x=-2.5\\left\\{0\\le z<-\\operatorname{abs}\\left(2y\\right)+5\\right\\}",
+        "extendTo3D": true
+      },
+      {
+        "type": "expression",
+        "id": "21",
+        "color": "#388c46",
+        "latex": "x=3.5\\left\\{0\\le z<-\\operatorname{abs}\\left(2y\\right)+6\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "20",
+        "color": "#388c46",
+        "latex": "x=5\\left\\{0\\le z<-\\operatorname{abs}\\left(2y\\right)+5\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "19",
+        "color": "#388c46",
+        "latex": "x=6.5\\left\\{0\\le z<-\\operatorname{abs}\\left(2y\\right)+4\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "17",
+        "color": "#2d70b3",
+        "latex": "z=0"
+      },
+      {
+        "type": "expression",
+        "id": "26",
+        "color": "#c74440",
+        "latex": "-4<x<8\\left\\{-4<y<4\\right\\}\\left\\{0<z<1\\right\\}"
+      }
+    ]
+  },
+  "includeFunctionParametersInRandomSeed": true,
+  "doNotMigrate3dLineWidthZero": true,
+  "doNotMigrateMovablePointStyle": true
+}

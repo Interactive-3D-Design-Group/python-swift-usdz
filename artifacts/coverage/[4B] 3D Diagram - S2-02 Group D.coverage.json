@@ -1,0 +1,26 @@
+{
+  "source_file": "[4B] 3D Diagram - S2-02 Group D.json",
+  "total_items": 63,
+  "total_expressions": 63,
+  "meshed_expression_count": 53,
+  "supported_expression_count": 53,
+  "supported_but_not_meshed_count": 0,
+  "recognized_unsupported_count": 0,
+  "unrecognized_count": 0,
+  "geometry_ineligible_count": 10,
+  "groups": [],
+  "diagnostics": [
+    {
+      "severity": "INFO",
+      "code": "COVERAGE_COMPLETE",
+      "message": "Coverage report complete",
+      "source_ref": null,
+      "details": {
+        "file": "[4B] 3D Diagram - S2-02 Group D.json",
+        "meshed_expression_ids": 53,
+        "supported_but_not_meshed": 0,
+        "group_count": 0
+      }
+    }
+  ]
+}

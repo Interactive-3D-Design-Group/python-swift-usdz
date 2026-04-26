@@ -1,0 +1,180 @@
+{
+  "version": 11,
+  "randomSeed": "6f48e1bb1baef6d51ccc1eff8fb1de9d",
+  "graph": {
+    "viewport": {
+      "xmin": -18.66728161170779,
+      "ymin": -18.66728161170779,
+      "zmin": -18.66728161170779,
+      "xmax": 18.66728161170779,
+      "ymax": 18.66728161170779,
+      "zmax": 18.66728161170779
+    },
+    "worldRotation3D": [
+      0.13827551384255743,
+      -0.9900372790303178,
+      0.02657194764859998,
+      0.9722484050891159,
+      0.14080549041235252,
+      0.1868337567770537,
+      -0.18871386031043427,
+      -1.9565445968869382e-14,
+      0.9820321170546104
+    ],
+    "axis3D": [
+      0,
+      0,
+      -1.00000000000691
+    ],
+    "showPlane3D": false,
+    "showNumbers3D": false,
+    "showAxis3D": false,
+    "showAxisLabels3D": false,
+    "product": "graphing-3d",
+    "threeDMode": true,
+    "__v12ViewportLatexStash": {
+      "xmin": "-18.66728161170779",
+      "xmax": "18.66728161170779",
+      "ymin": "-18.66728161170779",
+      "ymax": "18.66728161170779",
+      "zmin": "-18.66728161170779",
+      "zmax": "18.66728161170779"
+    }
+  },
+  "expressions": {
+    "list": [
+      {
+        "type": "expression",
+        "id": "17",
+        "color": "#aaaaaa",
+        "latex": "\\operatorname{abs}(x)\\ <5\\ \\left\\{\\operatorname{abs}(y)<\\ 5\\right\\}\\ \\left\\{z>0\\right\\}\\ \\left\\{z<0.5\\right\\}",
+        "lines": true
+      },
+      {
+        "type": "expression",
+        "id": "20",
+        "color": "#aaaaaa",
+        "latex": "\\operatorname{abs}(x)\\ <\\ 3\\ \\left\\{\\operatorname{abs}(y)\\ <\\ 3\\right\\}\\ \\left\\{z\\ >\\ 0.5\\right\\}\\left\\{z<3.5\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "22",
+        "color": "#aaaaaa",
+        "latex": "x^{2}+y^{2}+3(z-3.8)^{2}<4.2\\left\\{z>3.5\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "23",
+        "color": "#aaaaaa",
+        "latex": "(x-4.2)^{2}+(y-4.2)^{2}<0.1\\left\\{z>0.5\\right\\}\\left\\{z<4.5\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "24",
+        "color": "#aaaaaa",
+        "latex": "(x+4.2)^{2}+(y-4.2)^{2}<0.1\\left\\{z>0.5\\right\\}\\left\\{z<4.5\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "25",
+        "color": "#aaaaaa",
+        "latex": "(x-4.2)^{2}+(y+4.2)^{2}<0.1\\left\\{z>0.5\\right\\}\\left\\{z<4.5\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "26",
+        "color": "#aaaaaa",
+        "latex": "(x+4.2)^{2}+(y+4.2)^{2}<0.1\\left\\{z>0.5\\right\\}\\left\\{z<4.5\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "28",
+        "color": "#aaaaaa",
+        "latex": "\\operatorname{abs}(x)<1.5\\left\\{\\operatorname{abs}(x)>1.4\\right\\}\\left\\{y>-4\\right\\}\\left\\{y<-3\\right\\}\\left\\{0.5<z<2.5\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "29",
+        "color": "#aaaaaa",
+        "latex": "x^{2}+4(z-2.5)^{2}<1.5^{2}\\left\\{z>2.5\\right\\}\\left\\{y>-4\\right\\}\\left\\{y<-3\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "36",
+        "color": "#aaaaaa",
+        "latex": "\\operatorname{abs}(x)<1.5\\left\\{z<2.5\\right\\}\\left\\{0.5<z\\right\\}\\left\\{y>-4.01\\right\\}\\left\\{y<-4\\right\\}",
+        "hidden": true
+      },
+      {
+        "type": "expression",
+        "id": "30",
+        "color": "#aaaaaa",
+        "latex": "x^{2}+y^{2}<0.01\\left\\{z>4.5\\right\\}\\left\\{z<5.5\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "32",
+        "color": "#aaaaaa",
+        "latex": "z=0.1\\left\\{\\operatorname{abs}(x)<3.5\\right\\}\\left\\{y<-5\\right\\}\\left\\{y>-19\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "38",
+        "color": "#2d70b3",
+        "latex": "z=0.15\\left\\{\\operatorname{abs}(x)<1.2\\right\\}\\left\\{y<-5\\right\\}\\left\\{y>-18\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "39",
+        "color": "#388c46",
+        "latex": "z=0\\left\\{\\operatorname{abs}(x)<15\\right\\}\\left\\{\\operatorname{abs}(y)<25\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "40",
+        "color": "#388c46",
+        "latex": "(x+2.5)^{2}+(y+3n)^{2}<0.2\\left\\{0<z<1.5\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "41",
+        "color": "#c74440",
+        "latex": "n=[2,3,4,5,6]",
+        "hidden": true
+      },
+      {
+        "type": "expression",
+        "id": "42",
+        "color": "#388c46",
+        "latex": "(x-2.5)^{2}+(y+3n)^{2}<0.2\\left\\{0<z<1.5\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "47",
+        "color": "#aaaaaa",
+        "latex": "\\operatorname{abs}(\\operatorname{abs}(x)-2.5)=0.3\\left\\{y<-3\\right\\}\\left\\{y>-3.5\\right\\}\\left\\{1.2<z<2.5\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "49",
+        "color": "#aaaaaa",
+        "latex": "(\\operatorname{abs}(x)-2.5)^{2}+4(z-2.5)^{2}=0.3^{2}\\left\\{z>2.5\\right\\}\\left\\{y<-3\\right\\}\\left\\{y>-3.5\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "50",
+        "color": "#aaaaaa",
+        "latex": "z=1.2\\left\\{\\operatorname{abs}(\\operatorname{abs}(x)-2.5)<0.3\\right\\}\\left\\{y<-3\\right\\}\\left\\{y>-3.5\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "51",
+        "color": "#fa7e19",
+        "latex": "(x-18)^{2}+(y-12)^{2}+(z-20)^{2}<15"
+      }
+    ]
+  },
+  "includeFunctionParametersInRandomSeed": true,
+  "doNotMigrate3dLineWidthZero": true,
+  "doNotMigrateMovablePointStyle": true
+}

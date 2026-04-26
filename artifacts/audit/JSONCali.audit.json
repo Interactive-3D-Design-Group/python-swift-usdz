@@ -2,18 +2,18 @@
   "source_file": "JSONCali.json",
   "total_expressions": 366,
   "supported_count": 341,
-  "recognized_unsupported_count": 23,
-  "unrecognized_count": 2,
-  "geometry_ineligible_count": 0,
+  "recognized_unsupported_count": 0,
+  "unrecognized_count": 0,
+  "geometry_ineligible_count": 25,
   "per_folder_summary": [
     {
       "folder_id": null,
       "folder_name": null,
       "total": 25,
       "supported": 0,
-      "recognized_unsupported": 23,
-      "unrecognized": 2,
-      "geometry_ineligible": 0
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 25
     },
     {
       "folder_id": "474",
@@ -223,261 +223,8 @@
       "geometry_ineligible": 0
     }
   ],
-  "unsupported_expressions": [
-    {
-      "expression_id": "11",
-      "folder": null,
-      "family": "TEXT_OR_FOLDER",
-      "status": "RECOGNIZED_UNSUPPORTED",
-      "reason": "Non-geometry Desmos item",
-      "fingerprint": "d2b8c16a767d1df5",
-      "latex": "",
-      "normalized_latex": ""
-    },
-    {
-      "expression_id": "3",
-      "folder": null,
-      "family": "TEXT_OR_FOLDER",
-      "status": "RECOGNIZED_UNSUPPORTED",
-      "reason": "Non-geometry Desmos item",
-      "fingerprint": "d2b8c16a767d1df5",
-      "latex": "",
-      "normalized_latex": ""
-    },
-    {
-      "expression_id": "53",
-      "folder": null,
-      "family": "TEXT_OR_FOLDER",
-      "status": "RECOGNIZED_UNSUPPORTED",
-      "reason": "Non-geometry Desmos item",
-      "fingerprint": "d2b8c16a767d1df5",
-      "latex": "",
-      "normalized_latex": ""
-    },
-    {
-      "expression_id": "141",
-      "folder": null,
-      "family": "TEXT_OR_FOLDER",
-      "status": "RECOGNIZED_UNSUPPORTED",
-      "reason": "Non-geometry Desmos item",
-      "fingerprint": "d2b8c16a767d1df5",
-      "latex": "",
-      "normalized_latex": ""
-    },
-    {
-      "expression_id": "200",
-      "folder": null,
-      "family": "TEXT_OR_FOLDER",
-      "status": "RECOGNIZED_UNSUPPORTED",
-      "reason": "Non-geometry Desmos item",
-      "fingerprint": "d2b8c16a767d1df5",
-      "latex": "",
-      "normalized_latex": ""
-    },
-    {
-      "expression_id": "238",
-      "folder": null,
-      "family": "TEXT_OR_FOLDER",
-      "status": "RECOGNIZED_UNSUPPORTED",
-      "reason": "Non-geometry Desmos item",
-      "fingerprint": "d2b8c16a767d1df5",
-      "latex": "",
-      "normalized_latex": ""
-    },
-    {
-      "expression_id": "137",
-      "folder": null,
-      "family": "TEXT_OR_FOLDER",
-      "status": "RECOGNIZED_UNSUPPORTED",
-      "reason": "Non-geometry Desmos item",
-      "fingerprint": "d2b8c16a767d1df5",
-      "latex": "",
-      "normalized_latex": ""
-    },
-    {
-      "expression_id": "259",
-      "folder": null,
-      "family": "TEXT_OR_FOLDER",
-      "status": "RECOGNIZED_UNSUPPORTED",
-      "reason": "Non-geometry Desmos item",
-      "fingerprint": "d2b8c16a767d1df5",
-      "latex": "",
-      "normalized_latex": ""
-    },
-    {
-      "expression_id": "280",
-      "folder": null,
-      "family": "TEXT_OR_FOLDER",
-      "status": "RECOGNIZED_UNSUPPORTED",
-      "reason": "Non-geometry Desmos item",
-      "fingerprint": "d2b8c16a767d1df5",
-      "latex": "",
-      "normalized_latex": ""
-    },
-    {
-      "expression_id": "318",
-      "folder": null,
-      "family": "TEXT_OR_FOLDER",
-      "status": "RECOGNIZED_UNSUPPORTED",
-      "reason": "Non-geometry Desmos item",
-      "fingerprint": "d2b8c16a767d1df5",
-      "latex": "",
-      "normalized_latex": ""
-    },
-    {
-      "expression_id": "356",
-      "folder": null,
-      "family": "TEXT_OR_FOLDER",
-      "status": "RECOGNIZED_UNSUPPORTED",
-      "reason": "Non-geometry Desmos item",
-      "fingerprint": "d2b8c16a767d1df5",
-      "latex": "",
-      "normalized_latex": ""
-    },
-    {
-      "expression_id": "378",
-      "folder": null,
-      "family": "TEXT_OR_FOLDER",
-      "status": "RECOGNIZED_UNSUPPORTED",
-      "reason": "Non-geometry Desmos item",
-      "fingerprint": "d2b8c16a767d1df5",
-      "latex": "",
-      "normalized_latex": ""
-    },
-    {
-      "expression_id": "474",
-      "folder": null,
-      "family": "TEXT_OR_FOLDER",
-      "status": "RECOGNIZED_UNSUPPORTED",
-      "reason": "Non-geometry Desmos item",
-      "fingerprint": "d2b8c16a767d1df5",
-      "latex": "",
-      "normalized_latex": ""
-    },
-    {
-      "expression_id": "495",
-      "folder": null,
-      "family": "TEXT_OR_FOLDER",
-      "status": "RECOGNIZED_UNSUPPORTED",
-      "reason": "Non-geometry Desmos item",
-      "fingerprint": "d2b8c16a767d1df5",
-      "latex": "",
-      "normalized_latex": ""
-    },
-    {
-      "expression_id": "499",
-      "folder": null,
-      "family": "TEXT_OR_FOLDER",
-      "status": "RECOGNIZED_UNSUPPORTED",
-      "reason": "Non-geometry Desmos item",
-      "fingerprint": "d2b8c16a767d1df5",
-      "latex": "",
-      "normalized_latex": ""
-    },
-    {
-      "expression_id": "503",
-      "folder": null,
-      "family": "TEXT_OR_FOLDER",
-      "status": "RECOGNIZED_UNSUPPORTED",
-      "reason": "Non-geometry Desmos item",
-      "fingerprint": "d2b8c16a767d1df5",
-      "latex": "",
-      "normalized_latex": ""
-    },
-    {
-      "expression_id": "446",
-      "folder": null,
-      "family": "TEXT_OR_FOLDER",
-      "status": "RECOGNIZED_UNSUPPORTED",
-      "reason": "Non-geometry Desmos item",
-      "fingerprint": "d2b8c16a767d1df5",
-      "latex": "",
-      "normalized_latex": ""
-    },
-    {
-      "expression_id": "416",
-      "folder": null,
-      "family": "TEXT_OR_FOLDER",
-      "status": "RECOGNIZED_UNSUPPORTED",
-      "reason": "Non-geometry Desmos item",
-      "fingerprint": "d2b8c16a767d1df5",
-      "latex": "",
-      "normalized_latex": ""
-    },
-    {
-      "expression_id": "470",
-      "folder": null,
-      "family": "TEXT_OR_FOLDER",
-      "status": "RECOGNIZED_UNSUPPORTED",
-      "reason": "Non-geometry Desmos item",
-      "fingerprint": "d2b8c16a767d1df5",
-      "latex": "",
-      "normalized_latex": ""
-    },
-    {
-      "expression_id": "479",
-      "folder": null,
-      "family": "TEXT_OR_FOLDER",
-      "status": "RECOGNIZED_UNSUPPORTED",
-      "reason": "Non-geometry Desmos item",
-      "fingerprint": "d2b8c16a767d1df5",
-      "latex": "",
-      "normalized_latex": ""
-    },
-    {
-      "expression_id": "484",
-      "folder": null,
-      "family": "TEXT_OR_FOLDER",
-      "status": "RECOGNIZED_UNSUPPORTED",
-      "reason": "Non-geometry Desmos item",
-      "fingerprint": "d2b8c16a767d1df5",
-      "latex": "",
-      "normalized_latex": ""
-    },
-    {
-      "expression_id": "489",
-      "folder": null,
-      "family": "TEXT_OR_FOLDER",
-      "status": "RECOGNIZED_UNSUPPORTED",
-      "reason": "Non-geometry Desmos item",
-      "fingerprint": "d2b8c16a767d1df5",
-      "latex": "",
-      "normalized_latex": ""
-    },
-    {
-      "expression_id": "458",
-      "folder": null,
-      "family": "TEXT_OR_FOLDER",
-      "status": "RECOGNIZED_UNSUPPORTED",
-      "reason": "Non-geometry Desmos item",
-      "fingerprint": "d2b8c16a767d1df5",
-      "latex": "",
-      "normalized_latex": ""
-    },
-    {
-      "expression_id": "135",
-      "folder": null,
-      "family": "UNKNOWN",
-      "status": "UNRECOGNIZED",
-      "reason": "Unrecognized expression form",
-      "fingerprint": "c46f24883308ec70",
-      "latex": "",
-      "normalized_latex": ""
-    },
-    {
-      "expression_id": "377",
-      "folder": null,
-      "family": "UNKNOWN",
-      "status": "UNRECOGNIZED",
-      "reason": "Unrecognized expression form",
-      "fingerprint": "c46f24883308ec70",
-      "latex": "",
-      "normalized_latex": ""
-    }
-  ],
-  "unknown_fingerprints": [
-    "c46f24883308ec70"
-  ],
+  "unsupported_expressions": [],
+  "unknown_fingerprints": [],
   "diagnostics": [
     {
       "severity": "INFO",
@@ -489,5 +236,5 @@
       }
     }
   ],
-  "status": "PARTIAL"
+  "status": "PASS"
 }

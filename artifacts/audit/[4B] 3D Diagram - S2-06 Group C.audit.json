@@ -1,0 +1,69 @@
+{
+  "source_file": "[4B] 3D Diagram - S2-06 Group C.json",
+  "total_expressions": 49,
+  "supported_count": 42,
+  "recognized_unsupported_count": 0,
+  "unrecognized_count": 0,
+  "geometry_ineligible_count": 7,
+  "per_folder_summary": [
+    {
+      "folder_id": null,
+      "folder_name": null,
+      "total": 4,
+      "supported": 0,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 4
+    },
+    {
+      "folder_id": "69",
+      "folder_name": "1st level",
+      "total": 18,
+      "supported": 17,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 1
+    },
+    {
+      "folder_id": "50",
+      "folder_name": "2nd level",
+      "total": 13,
+      "supported": 13,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 0
+    },
+    {
+      "folder_id": "75",
+      "folder_name": "3rd level",
+      "total": 11,
+      "supported": 9,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 2
+    },
+    {
+      "folder_id": "48",
+      "folder_name": "base",
+      "total": 3,
+      "supported": 3,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 0
+    }
+  ],
+  "unsupported_expressions": [],
+  "unknown_fingerprints": [],
+  "diagnostics": [
+    {
+      "severity": "INFO",
+      "code": "AUDIT_COMPLETE",
+      "message": "Audit classification complete",
+      "source_ref": null,
+      "details": {
+        "file": "[4B] 3D Diagram - S2-06 Group C.json"
+      }
+    }
+  ],
+  "status": "PASS"
+}

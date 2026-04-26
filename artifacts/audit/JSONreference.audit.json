@@ -2,125 +2,22 @@
   "source_file": "JSONreference.json",
   "total_expressions": 278,
   "supported_count": 268,
-  "recognized_unsupported_count": 1,
-  "unrecognized_count": 9,
-  "geometry_ineligible_count": 0,
+  "recognized_unsupported_count": 0,
+  "unrecognized_count": 0,
+  "geometry_ineligible_count": 10,
   "per_folder_summary": [
     {
       "folder_id": null,
       "folder_name": null,
       "total": 278,
       "supported": 268,
-      "recognized_unsupported": 1,
-      "unrecognized": 9,
-      "geometry_ineligible": 0
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 10
     }
   ],
-  "unsupported_expressions": [
-    {
-      "expression_id": "165",
-      "folder": null,
-      "family": "TEXT_OR_FOLDER",
-      "status": "RECOGNIZED_UNSUPPORTED",
-      "reason": "Non-geometry Desmos item",
-      "fingerprint": "eb728b38026c848b",
-      "latex": "",
-      "normalized_latex": ""
-    },
-    {
-      "expression_id": "91",
-      "folder": null,
-      "family": "UNKNOWN",
-      "status": "UNRECOGNIZED",
-      "reason": "Unrecognized expression form",
-      "fingerprint": "c46f24883308ec70",
-      "latex": "",
-      "normalized_latex": ""
-    },
-    {
-      "expression_id": "110",
-      "folder": null,
-      "family": "UNKNOWN",
-      "status": "UNRECOGNIZED",
-      "reason": "Unrecognized expression form",
-      "fingerprint": "c46f24883308ec70",
-      "latex": "",
-      "normalized_latex": ""
-    },
-    {
-      "expression_id": "171",
-      "folder": null,
-      "family": "UNKNOWN",
-      "status": "UNRECOGNIZED",
-      "reason": "Unrecognized expression form",
-      "fingerprint": "c46f24883308ec70",
-      "latex": "",
-      "normalized_latex": ""
-    },
-    {
-      "expression_id": "204",
-      "folder": null,
-      "family": "UNKNOWN",
-      "status": "UNRECOGNIZED",
-      "reason": "Unrecognized expression form",
-      "fingerprint": "c46f24883308ec70",
-      "latex": "",
-      "normalized_latex": ""
-    },
-    {
-      "expression_id": "238",
-      "folder": null,
-      "family": "UNKNOWN",
-      "status": "UNRECOGNIZED",
-      "reason": "Unrecognized expression form",
-      "fingerprint": "c46f24883308ec70",
-      "latex": "",
-      "normalized_latex": ""
-    },
-    {
-      "expression_id": "312",
-      "folder": null,
-      "family": "UNKNOWN",
-      "status": "UNRECOGNIZED",
-      "reason": "Unrecognized expression form",
-      "fingerprint": "c46f24883308ec70",
-      "latex": "",
-      "normalized_latex": ""
-    },
-    {
-      "expression_id": "459",
-      "folder": null,
-      "family": "UNKNOWN",
-      "status": "UNRECOGNIZED",
-      "reason": "Unrecognized expression form",
-      "fingerprint": "c46f24883308ec70",
-      "latex": "",
-      "normalized_latex": ""
-    },
-    {
-      "expression_id": "534",
-      "folder": null,
-      "family": "UNKNOWN",
-      "status": "UNRECOGNIZED",
-      "reason": "Unrecognized expression form",
-      "fingerprint": "c46f24883308ec70",
-      "latex": "",
-      "normalized_latex": ""
-    },
-    {
-      "expression_id": "620",
-      "folder": null,
-      "family": "UNKNOWN",
-      "status": "UNRECOGNIZED",
-      "reason": "Unrecognized expression form",
-      "fingerprint": "c46f24883308ec70",
-      "latex": "",
-      "normalized_latex": ""
-    }
-  ],
-  "unknown_fingerprints": [
-    "c46f24883308ec70"
-  ],
+  "unsupported_expressions": [],
+  "unknown_fingerprints": [],
   "diagnostics": [
     {
       "severity": "INFO",
@@ -132,5 +29,5 @@
       }
     }
   ],
-  "status": "PARTIAL"
+  "status": "PASS"
 }

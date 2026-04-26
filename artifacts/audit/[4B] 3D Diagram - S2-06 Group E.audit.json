@@ -1,0 +1,149 @@
+{
+  "source_file": "[4B] 3D Diagram - S2-06 Group E.json",
+  "total_expressions": 63,
+  "supported_count": 1,
+  "recognized_unsupported_count": 0,
+  "unrecognized_count": 3,
+  "geometry_ineligible_count": 59,
+  "per_folder_summary": [
+    {
+      "folder_id": null,
+      "folder_name": null,
+      "total": 21,
+      "supported": 0,
+      "recognized_unsupported": 0,
+      "unrecognized": 1,
+      "geometry_ineligible": 20
+    },
+    {
+      "folder_id": "212",
+      "folder_name": "Floor",
+      "total": 1,
+      "supported": 0,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 1
+    },
+    {
+      "folder_id": "155",
+      "folder_name": "LEVEL 1 AUIFHFWEUF",
+      "total": 6,
+      "supported": 0,
+      "recognized_unsupported": 0,
+      "unrecognized": 2,
+      "geometry_ineligible": 4
+    },
+    {
+      "folder_id": "159",
+      "folder_name": "LEVEL 2 HUGEUHEWOF",
+      "total": 5,
+      "supported": 0,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 5
+    },
+    {
+      "folder_id": "172",
+      "folder_name": "LEVEL 3 UHGEWUIGHGEWOUGG",
+      "total": 5,
+      "supported": 0,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 5
+    },
+    {
+      "folder_id": "179",
+      "folder_name": "LEVEL 4 BQHUHGUWEJHGIWEJGIWJGIE",
+      "total": 5,
+      "supported": 0,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 5
+    },
+    {
+      "folder_id": "188",
+      "folder_name": "ROOF BIUHFEUEWH",
+      "total": 2,
+      "supported": 0,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 2
+    },
+    {
+      "folder_id": "224",
+      "folder_name": "Texturing the floor",
+      "total": 11,
+      "supported": 0,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 11
+    },
+    {
+      "folder_id": "249",
+      "folder_name": "USDZ: supported fallback (pipeline)",
+      "total": 1,
+      "supported": 1,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 0
+    },
+    {
+      "folder_id": "195",
+      "folder_name": "cut the roof...",
+      "total": 6,
+      "supported": 0,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 6
+    }
+  ],
+  "unsupported_expressions": [
+    {
+      "expression_id": "23",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "d128c809428862fd",
+      "latex": "t=\\frac{2\\pi k}{80}",
+      "normalized_latex": "t=(2pik)/(80)"
+    },
+    {
+      "expression_id": "1",
+      "folder": "LEVEL 1 AUIFHFWEUF",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "d828230aaa9fa896",
+      "latex": "\\frac{x^{2}}{2}+y^{2}=100000\\left\\{0<z<5\\right\\}",
+      "normalized_latex": "frac{x^2}{2}+y^2=100000{0<z<5}"
+    },
+    {
+      "expression_id": "150",
+      "folder": "LEVEL 1 AUIFHFWEUF",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "06e37c8bfd88381e",
+      "latex": "\\frac{x^{2}}{2}+y^{2}=102000\\left\\{30<z<35\\right\\}",
+      "normalized_latex": "frac{x^2}{2}+y^2=102000{30<z<35}"
+    }
+  ],
+  "unknown_fingerprints": [
+    "06e37c8bfd88381e",
+    "d128c809428862fd",
+    "d828230aaa9fa896"
+  ],
+  "diagnostics": [
+    {
+      "severity": "INFO",
+      "code": "AUDIT_COMPLETE",
+      "message": "Audit classification complete",
+      "source_ref": null,
+      "details": {
+        "file": "[4B] 3D Diagram - S2-06 Group E.json"
+      }
+    }
+  ],
+  "status": "PARTIAL"
+}

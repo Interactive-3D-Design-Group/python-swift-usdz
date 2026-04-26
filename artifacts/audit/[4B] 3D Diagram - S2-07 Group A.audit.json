@@ -1,0 +1,87 @@
+{
+  "source_file": "[4B] 3D Diagram - S2-07 Group A.json",
+  "total_expressions": 85,
+  "supported_count": 55,
+  "recognized_unsupported_count": 0,
+  "unrecognized_count": 0,
+  "geometry_ineligible_count": 30,
+  "per_folder_summary": [
+    {
+      "folder_id": null,
+      "folder_name": null,
+      "total": 7,
+      "supported": 1,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 6
+    },
+    {
+      "folder_id": "32",
+      "folder_name": "Khafre pyramid (middle)",
+      "total": 13,
+      "supported": 9,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 4
+    },
+    {
+      "folder_id": "35",
+      "folder_name": "Khufu pyramid (right most)",
+      "total": 13,
+      "supported": 9,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 4
+    },
+    {
+      "folder_id": "51",
+      "folder_name": "Menkaure Pyramid (left most)",
+      "total": 13,
+      "supported": 9,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 4
+    },
+    {
+      "folder_id": "90",
+      "folder_name": "Queen pyramid 1",
+      "total": 13,
+      "supported": 9,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 4
+    },
+    {
+      "folder_id": "107",
+      "folder_name": "Queen pyramid 2",
+      "total": 13,
+      "supported": 9,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 4
+    },
+    {
+      "folder_id": "124",
+      "folder_name": "Queen pyramid 3",
+      "total": 13,
+      "supported": 9,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 4
+    }
+  ],
+  "unsupported_expressions": [],
+  "unknown_fingerprints": [],
+  "diagnostics": [
+    {
+      "severity": "INFO",
+      "code": "AUDIT_COMPLETE",
+      "message": "Audit classification complete",
+      "source_ref": null,
+      "details": {
+        "file": "[4B] 3D Diagram - S2-07 Group A.json"
+      }
+    }
+  ],
+  "status": "PASS"
+}

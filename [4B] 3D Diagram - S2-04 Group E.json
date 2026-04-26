@@ -1,0 +1,277 @@
+{
+  "version": 11,
+  "randomSeed": "7b87de698f210b73cc50df0f38e070de",
+  "graph": {
+    "viewport": {
+      "xmin": -198.1194218465167,
+      "ymin": -198.1194218465167,
+      "zmin": -198.1194218465167,
+      "xmax": 198.1194218465167,
+      "ymax": 198.1194218465167,
+      "zmax": 198.1194218465167
+    },
+    "worldRotation3D": [
+      0.03853159186509097,
+      -0.9992554593891221,
+      0.001960436019242565,
+      0.9979646093191903,
+      0.03858143181691773,
+      0.05077510871833439,
+      -0.05081294101647914,
+      -1.8060170851986737e-15,
+      0.9987081881236682
+    ],
+    "axis3D": [
+      -0.9992554593921881,
+      0.03858143181704016,
+      -3.5004514933332346e-14
+    ],
+    "product": "graphing-3d",
+    "threeDMode": true,
+    "__v12ViewportLatexStash": {
+      "xmin": "-198.1194218465167",
+      "xmax": "198.1194218465167",
+      "ymin": "-198.1194218465167",
+      "ymax": "198.1194218465167",
+      "zmin": "-198.1194218465167",
+      "zmax": "198.1194218465167"
+    }
+  },
+  "expressions": {
+    "list": [
+      {
+        "type": "folder",
+        "id": "10",
+        "title": "tower 1",
+        "collapsed": true
+      },
+      {
+        "type": "expression",
+        "id": "1",
+        "folderId": "10",
+        "color": "#aaaaaa",
+        "latex": "\\left(x+15\\right)^{2}+\\left(y-5\\right)^{2}=100\\ \\left\\{0<z<60\\right\\}",
+        "extendTo3D": true
+      },
+      {
+        "type": "expression",
+        "id": "4",
+        "folderId": "10",
+        "color": "#aaaaaa",
+        "latex": "\\left(x+15\\right)^{2}+\\left(y-5\\right)^{2}=81\\ \\left\\{60<z<80\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "6",
+        "folderId": "10",
+        "color": "#aaaaaa",
+        "latex": "\\left(x+15\\right)^{2}+\\left(y-5\\right)^{2}=64\\ \\left\\{80<z<92\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "7",
+        "folderId": "10",
+        "color": "#aaaaaa",
+        "latex": "\\left(x+15\\right)^{2}+\\left(y-5\\right)^{2}=49\\ \\left\\{92<z<100\\right\\}"
+      },
+      {
+        "type": "folder",
+        "id": "21",
+        "title": "tower 2",
+        "collapsed": true
+      },
+      {
+        "type": "expression",
+        "id": "22",
+        "folderId": "21",
+        "color": "#aaaaaa",
+        "latex": "\\left(x-25\\right)^{2}+\\left(y-5\\right)^{2}=100\\ \\left\\{0<z<60\\right\\}",
+        "extendTo3D": true
+      },
+      {
+        "type": "expression",
+        "id": "23",
+        "folderId": "21",
+        "color": "#aaaaaa",
+        "latex": "\\left(x-25\\right)^{2}+\\left(y-5\\right)^{2}=81\\ \\left\\{60<z<80\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "24",
+        "folderId": "21",
+        "color": "#aaaaaa",
+        "latex": "\\left(x-25\\right)^{2}+\\left(y-5\\right)^{2}=64\\ \\left\\{80<z<92\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "25",
+        "folderId": "21",
+        "color": "#aaaaaa",
+        "latex": "\\left(x-25\\right)^{2}+\\left(y-5\\right)^{2}=49\\ \\left\\{92<z<100\\right\\}"
+      },
+      {
+        "type": "folder",
+        "id": "39",
+        "title": "tower 1 triangle"
+      },
+      {
+        "type": "expression",
+        "id": "40",
+        "folderId": "39",
+        "color": "#2d70b3",
+        "latex": "F\\ =\\ \\left(-15,\\ 5,\\ 115\\right)",
+        "hidden": true
+      },
+      {
+        "type": "expression",
+        "id": "41",
+        "folderId": "39",
+        "color": "#388c46",
+        "latex": "G\\ =\\ \\left(-8.7,\\ 0,\\ 100\\right)",
+        "hidden": true
+      },
+      {
+        "type": "expression",
+        "id": "42",
+        "folderId": "39",
+        "color": "#6042a6",
+        "latex": "H\\ =\\ \\left(-21.8,\\ 0,\\ 100\\right)",
+        "hidden": true
+      },
+      {
+        "type": "expression",
+        "id": "43",
+        "folderId": "39",
+        "color": "#aaaaaa",
+        "latex": "I\\ =\\ \\left(-21.8,\\ 10,\\ 100\\right)",
+        "hidden": true
+      },
+      {
+        "type": "expression",
+        "id": "44",
+        "folderId": "39",
+        "color": "#c74440",
+        "latex": "J\\ =\\ \\left(-8.7,\\ 10,\\ 100\\right)",
+        "hidden": true
+      },
+      {
+        "type": "expression",
+        "id": "45",
+        "folderId": "39",
+        "color": "#aaaaaa",
+        "latex": "\\operatorname{triangle}\\left(F,H,G\\right)"
+      },
+      {
+        "type": "expression",
+        "id": "46",
+        "folderId": "39",
+        "color": "#aaaaaa",
+        "latex": "\\operatorname{triangle}\\left(F,I,H\\right)"
+      },
+      {
+        "type": "expression",
+        "id": "47",
+        "folderId": "39",
+        "color": "#aaaaaa",
+        "latex": "\\operatorname{triangle}\\left(F,G,J\\right)"
+      },
+      {
+        "type": "expression",
+        "id": "48",
+        "folderId": "39",
+        "color": "#aaaaaa",
+        "latex": "\\operatorname{triangle}\\left(A,B,C\\right)"
+      },
+      {
+        "type": "expression",
+        "id": "49",
+        "folderId": "39",
+        "color": "#aaaaaa",
+        "latex": "\\operatorname{triangle}\\left(F,J,I\\right)"
+      },
+      {
+        "type": "folder",
+        "id": "38",
+        "title": "tower 2 triangle",
+        "collapsed": true
+      },
+      {
+        "type": "expression",
+        "id": "29",
+        "folderId": "38",
+        "color": "#2d70b3",
+        "latex": "A\\ =\\ \\left(25,\\ 5,\\ 115\\right)",
+        "hidden": true
+      },
+      {
+        "type": "expression",
+        "id": "30",
+        "folderId": "38",
+        "color": "#388c46",
+        "latex": "B\\ =\\ \\left(19,\\ 0,\\ 100\\right)",
+        "hidden": true
+      },
+      {
+        "type": "expression",
+        "id": "31",
+        "folderId": "38",
+        "color": "#6042a6",
+        "latex": "C\\ =\\ \\left(33,\\ 0,\\ 100\\right)",
+        "hidden": true
+      },
+      {
+        "type": "expression",
+        "id": "32",
+        "folderId": "38",
+        "color": "#aaaaaa",
+        "latex": "D\\ =\\ \\left(18,\\ 10,\\ 100\\right)",
+        "hidden": true
+      },
+      {
+        "type": "expression",
+        "id": "33",
+        "folderId": "38",
+        "color": "#c74440",
+        "latex": "E\\ =\\ \\left(33,\\ 10,\\ 100\\right)",
+        "hidden": true
+      },
+      {
+        "type": "expression",
+        "id": "34",
+        "folderId": "38",
+        "color": "#2d70b3",
+        "latex": "\\operatorname{triangle}\\left(A,C,E\\right)"
+      },
+      {
+        "type": "expression",
+        "id": "35",
+        "folderId": "38",
+        "color": "#388c46",
+        "latex": "\\operatorname{triangle}\\left(A,E,D\\right)"
+      },
+      {
+        "type": "expression",
+        "id": "36",
+        "folderId": "38",
+        "color": "#6042a6",
+        "latex": "\\operatorname{triangle}\\left(A,D,B\\right)"
+      },
+      {
+        "type": "expression",
+        "id": "37",
+        "folderId": "38",
+        "color": "#aaaaaa",
+        "latex": "\\operatorname{triangle}\\left(A,B,C\\right)"
+      },
+      {
+        "type": "expression",
+        "id": "56",
+        "color": "#aaaaaa",
+        "latex": "40<z<48\\left\\{-20<x<25\\right\\}\\left\\{0<y<10\\right\\}"
+      }
+    ]
+  },
+  "includeFunctionParametersInRandomSeed": true,
+  "doNotMigrate3dLineWidthZero": true,
+  "doNotMigrateMovablePointStyle": true
+}

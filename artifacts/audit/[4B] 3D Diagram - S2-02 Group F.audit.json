@@ -1,0 +1,68 @@
+{
+  "source_file": "[4B] 3D Diagram - S2-02 Group F.json",
+  "total_expressions": 47,
+  "supported_count": 23,
+  "recognized_unsupported_count": 0,
+  "unrecognized_count": 3,
+  "geometry_ineligible_count": 21,
+  "per_folder_summary": [
+    {
+      "folder_id": null,
+      "folder_name": null,
+      "total": 47,
+      "supported": 23,
+      "recognized_unsupported": 0,
+      "unrecognized": 3,
+      "geometry_ineligible": 21
+    }
+  ],
+  "unsupported_expressions": [
+    {
+      "expression_id": "100",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "8ab644d645225846",
+      "latex": "L_{1}=[0.3,0.6...12.9]",
+      "normalized_latex": "L_1=(0.3)"
+    },
+    {
+      "expression_id": "101",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "65dad07783056b57",
+      "latex": "L_{2}=[0.2,0.4...1.8]",
+      "normalized_latex": "L_2=(0.2)"
+    },
+    {
+      "expression_id": "102",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "8d5ab4a123e801d8",
+      "latex": "L_{3}=[4.2,4.4...5.8]",
+      "normalized_latex": "L_3=(4.2)"
+    }
+  ],
+  "unknown_fingerprints": [
+    "65dad07783056b57",
+    "8ab644d645225846",
+    "8d5ab4a123e801d8"
+  ],
+  "diagnostics": [
+    {
+      "severity": "INFO",
+      "code": "AUDIT_COMPLETE",
+      "message": "Audit classification complete",
+      "source_ref": null,
+      "details": {
+        "file": "[4B] 3D Diagram - S2-02 Group F.json"
+      }
+    }
+  ],
+  "status": "PARTIAL"
+}

@@ -1,0 +1,199 @@
+{
+  "version": 11,
+  "randomSeed": "906ccc3f88300a06c426a0160f84337d",
+  "graph": {
+    "viewport": {
+      "xmin": -2.6516067532264658,
+      "ymin": -2.6516067532264658,
+      "zmin": -2.6516067532264556,
+      "xmax": 2.6516067532264658,
+      "ymax": 2.6516067532264658,
+      "zmax": 2.6516067532264556
+    },
+    "worldRotation3D": [
+      -0.8960421573686623,
+      -0.3447352812805039,
+      -0.2797606799722715,
+      0.32906931225811287,
+      -0.9386999445192458,
+      0.10274143219519706,
+      -0.2980299312956129,
+      -7.278513858307523e-15,
+      0.9545565253309607
+    ],
+    "axis3D": [
+      0,
+      0,
+      -0.999999999999732
+    ],
+    "speed3D": 1.3039054989464163,
+    "product": "graphing-3d",
+    "threeDMode": true,
+    "__v12ViewportLatexStash": {
+      "xmin": "-2.6516067532264658",
+      "xmax": "2.6516067532264658",
+      "ymin": "-2.6516067532264658",
+      "ymax": "2.6516067532264658",
+      "zmin": "-2.6516067532264556",
+      "zmax": "2.6516067532264556"
+    }
+  },
+  "expressions": {
+    "list": [
+      {
+        "type": "folder",
+        "id": "23",
+        "title": "Triangle"
+      },
+      {
+        "type": "expression",
+        "id": "24",
+        "folderId": "23",
+        "color": "#fa7e19",
+        "latex": "\\operatorname{triangle}\\left(\\left(0.3,-0.3,1.5\\right),\\left(0.3,0.3,1.5\\right),\\left(0,0,2.5\\right)\\right)"
+      },
+      {
+        "type": "expression",
+        "id": "26",
+        "folderId": "23",
+        "color": "#fa7e19",
+        "latex": "\\operatorname{triangle}\\left(\\left(-0.3,0.3,1.5\\right),\\left(-0.3,-0.3,1.5\\right),\\left(0,0,2.5\\right)\\right)"
+      },
+      {
+        "type": "expression",
+        "id": "27",
+        "folderId": "23",
+        "color": "#fa7e19",
+        "latex": "\\operatorname{triangle}\\left(\\left(-0.3,0.3,1.5\\right),\\left(0.3,0.3,1.5\\right),\\left(0,0,2.5\\right)\\right)"
+      },
+      {
+        "type": "expression",
+        "id": "28",
+        "folderId": "23",
+        "color": "#fa7e19",
+        "latex": "\\operatorname{triangle}\\left(\\left(0.3,-0.3,1.5\\right),\\left(-0.3,-0.3,1.5\\right),\\left(0,0,2.5\\right)\\right)"
+      },
+      {
+        "type": "expression",
+        "id": "35",
+        "folderId": "23",
+        "color": "#fa7e19",
+        "latex": "x=0.3\\left\\{-0.3<y<0.3\\right\\}\\left\\{0.8<z<1.5\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "41",
+        "folderId": "23",
+        "color": "#fa7e19",
+        "latex": "y=0.3\\left\\{-0.3<x<0.3\\right\\}\\left\\{0.8<z<1.5\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "47",
+        "folderId": "23",
+        "color": "#fa7e19",
+        "latex": "x=-0.3\\left\\{-0.3<y<0.3\\right\\}\\left\\{0.8<z<1.5\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "48",
+        "folderId": "23",
+        "color": "#fa7e19",
+        "latex": "y=-0.3\\left\\{-0.3<x<0.3\\right\\}\\left\\{0.8<z<1.5\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "1",
+        "color": "#fa7e19",
+        "latex": "\\operatorname{triangle}\\left(\\left(0.5,-0.5,0\\right),\\left(0.5,0.5,0\\right),\\left(0,0,2\\right)\\right)"
+      },
+      {
+        "type": "expression",
+        "id": "2",
+        "color": "#fa7e19",
+        "latex": "\\operatorname{triangle}\\left(\\left(-0.5,0.5,0\\right),\\left(-0.5,-0.5,0\\right),\\left(0,0,2\\right)\\right)"
+      },
+      {
+        "type": "expression",
+        "id": "3",
+        "color": "#fa7e19",
+        "latex": "\\operatorname{triangle}\\left(\\left(-0.5,0.5,0\\right),\\left(0.5,0.5,0\\right),\\left(0,0,2\\right)\\right)"
+      },
+      {
+        "type": "expression",
+        "id": "4",
+        "color": "#fa7e19",
+        "latex": "\\operatorname{triangle}\\left(\\left(-0.5,-0.5,0\\right),\\left(0.5,-0.5,0\\right),\\left(0,0,2\\right)\\right)"
+      },
+      {
+        "type": "expression",
+        "id": "6",
+        "color": "#fa7e19",
+        "latex": "\\left|x-y\\right|\\ +\\ \\left|x+y\\right|\\ \\le\\ 1"
+      },
+      {
+        "type": "expression",
+        "id": "7",
+        "color": "#2d70b3",
+        "latex": "z>-4\\left\\{z<0\\right\\}\\left\\{x>-0.5\\right\\}\\left\\{x<0.5\\right\\}\\left\\{y>-0.5\\right\\}\\left\\{y<0.5\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "8",
+        "color": "#c74440",
+        "latex": "z>-0.2\\left\\{z<0\\right\\}\\left\\{x>-0.6\\right\\}\\left\\{x<0.6\\right\\}\\left\\{y<0.6\\right\\}\\left\\{y>-0.6\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "9",
+        "color": "#c74440",
+        "latex": "z>-1\\left\\{z<-0.8\\right\\}\\left\\{x>-0.6\\right\\}\\left\\{x<0.6\\right\\}\\left\\{y<0.6\\right\\}\\left\\{y>-0.6\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "12",
+        "color": "#aaaaaa",
+        "latex": "\\left(x+-0.1\\right)^{2}+\\left(y+-0.001\\right)^{2}+\\left(z--0.5\\right)^{2\\ }=\\ 0.25"
+      },
+      {
+        "type": "expression",
+        "id": "16",
+        "color": "#6042a6",
+        "latex": "z>-4\\left\\{z<-1\\right\\}\\left\\{x<0.1\\right\\}\\left\\{x>-0.1\\right\\}\\left\\{y>-0.6\\right\\}\\left\\{y<0.6\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "18",
+        "color": "#c74440",
+        "latex": "z>-4\\left\\{z<-1\\right\\}\\left\\{x<-0.4\\right\\}\\left\\{x>-0.6\\right\\}\\left\\{y<-0.3\\right\\}\\left\\{y>-0.5\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "19",
+        "color": "#fa7e19",
+        "latex": "z>-4\\left\\{z<-1\\right\\}\\left\\{x>0.4\\right\\}\\left\\{x<0.6\\right\\}\\left\\{y>0.3\\right\\}\\left\\{y<0.5\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "20",
+        "color": "#388c46",
+        "latex": "z>-4\\left\\{z<-1\\right\\}\\left\\{x>-0.6\\left\\{x<-0.4\\right\\}\\left\\{y>0.3\\right\\}\\left\\{y<0.5\\right\\}\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "21",
+        "color": "#6042a6",
+        "latex": "z>-4\\left\\{z<-1\\right\\}\\left\\{x>0.4\\right\\}\\left\\{x<0.6\\right\\}\\left\\{y<-0.3\\right\\}\\left\\{y>-0.5\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "22",
+        "color": "#aaaaaa",
+        "latex": "z>-4\\left\\{z<-1\\right\\}\\left\\{y<0.1\\right\\}\\left\\{y>-0.1\\right\\}\\left\\{x<0.6\\right\\}\\left\\{x>-0.6\\right\\}"
+      }
+    ]
+  },
+  "includeFunctionParametersInRandomSeed": true,
+  "doNotMigrate3dLineWidthZero": true,
+  "doNotMigrateMovablePointStyle": true
+}

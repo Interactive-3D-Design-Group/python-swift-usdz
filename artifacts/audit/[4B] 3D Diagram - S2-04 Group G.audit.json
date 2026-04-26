@@ -1,0 +1,341 @@
+{
+  "source_file": "[4B] 3D Diagram - S2-04 Group G.json",
+  "total_expressions": 119,
+  "supported_count": 58,
+  "recognized_unsupported_count": 0,
+  "unrecognized_count": 28,
+  "geometry_ineligible_count": 33,
+  "per_folder_summary": [
+    {
+      "folder_id": null,
+      "folder_name": null,
+      "total": 119,
+      "supported": 58,
+      "recognized_unsupported": 0,
+      "unrecognized": 28,
+      "geometry_ineligible": 33
+    }
+  ],
+  "unsupported_expressions": [
+    {
+      "expression_id": "23",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "675002d0ad0f191f",
+      "latex": "-x=y-90\\left\\{90>z>0\\right\\}\\left\\{30<y<60\\right\\}",
+      "normalized_latex": "-x=y-90{90>z>0}{30<y<60}"
+    },
+    {
+      "expression_id": "25",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "8c1fab64324e0465",
+      "latex": "\\frac{x}{\\infty}=z-90\\left\\{60>y>-60\\right\\}\\left\\{30>x>-30\\right\\}",
+      "normalized_latex": "(x)/(infty)=z-90{60>y>-60}{30>x>-30}"
+    },
+    {
+      "expression_id": "26",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "546f2128373b3e6c",
+      "latex": "\\frac{x}{\\infty}=z-90\\left\\{60>x>-60\\right\\}\\left\\{30>y>-30\\right\\}",
+      "normalized_latex": "(x)/(infty)=z-90{60>x>-60}{30>y>-30}"
+    },
+    {
+      "expression_id": "27",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "c018f929b3731c5f",
+      "latex": "\\left(x-h\\right)^{2}+\\left(y-k\\right)^{2\\ }=60\\ \\left\\{10<z<120\\right\\}",
+      "normalized_latex": "(x-h)^2+(y-k)^2=60{10<z<120}"
+    },
+    {
+      "expression_id": "32",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "d298f0d7fead5c16",
+      "latex": "\\left(x-h\\right)^{2}+\\left(y+k\\right)^{2\\ }=60\\ \\left\\{10<z<120\\right\\}",
+      "normalized_latex": "(x-h)^2+(y+k)^2=60{10<z<120}"
+    },
+    {
+      "expression_id": "33",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "e0388d73cdb01f42",
+      "latex": "\\left(x+h\\right)^{2}+\\left(y-k\\right)^{2\\ }=60\\ \\left\\{10<z<120\\right\\}",
+      "normalized_latex": "(x+h)^2+(y-k)^2=60{10<z<120}"
+    },
+    {
+      "expression_id": "34",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "6398cc33816f44ba",
+      "latex": "\\left(x+h\\right)^{2}+\\left(y+k\\right)^{2\\ }=60\\ \\left\\{10<z<120\\right\\}",
+      "normalized_latex": "(x+h)^2+(y+k)^2=60{10<z<120}"
+    },
+    {
+      "expression_id": "35",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "1a0e8513e42a2eaa",
+      "latex": "\\ \\left(x+t\\right)^{2}+\\left(y+f\\right)^{2\\ }=5\\ \\left\\{10<z<120\\right\\}",
+      "normalized_latex": "(x+t)^2+(y+f)^2=5{10<z<120}"
+    },
+    {
+      "expression_id": "38",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "f6c1cdd297e8a419",
+      "latex": "\\ \\left(x-t\\right)^{2}+\\left(y+f\\right)^{2\\ }=5\\ \\left\\{10<z<120\\right\\}",
+      "normalized_latex": "(x-t)^2+(y+f)^2=5{10<z<120}"
+    },
+    {
+      "expression_id": "39",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "c3a80edd5ea8813f",
+      "latex": "\\ \\left(x-t\\right)^{2}+\\left(y-f\\right)^{2\\ }=5\\ \\left\\{10<z<120\\right\\}",
+      "normalized_latex": "(x-t)^2+(y-f)^2=5{10<z<120}"
+    },
+    {
+      "expression_id": "40",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "309c8ab5bf732ea7",
+      "latex": "\\ \\left(x+t\\right)^{2}+\\left(y-f\\right)^{2\\ }=5\\ \\left\\{10<z<120\\right\\}",
+      "normalized_latex": "(x+t)^2+(y-f)^2=5{10<z<120}"
+    },
+    {
+      "expression_id": "41",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "c0d3828034c15779",
+      "latex": "\\ \\left(y+t\\right)^{2}+\\left(x+f\\right)^{2\\ }=5\\ \\left\\{10<z<120\\right\\}",
+      "normalized_latex": "(y+t)^2+(x+f)^2=5{10<z<120}"
+    },
+    {
+      "expression_id": "42",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "160ffedc945e104b",
+      "latex": "\\ \\left(y-t\\right)^{2}+\\left(x+f\\right)^{2\\ }=5\\ \\left\\{10<z<120\\right\\}",
+      "normalized_latex": "(y-t)^2+(x+f)^2=5{10<z<120}"
+    },
+    {
+      "expression_id": "43",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "d0db70c3c9f75ba5",
+      "latex": "\\ \\left(y+t\\right)^{2}+\\left(x-f\\right)^{2\\ }=5\\ \\left\\{10<z<120\\right\\}",
+      "normalized_latex": "(y+t)^2+(x-f)^2=5{10<z<120}"
+    },
+    {
+      "expression_id": "44",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "cf01bfb7f60dd31c",
+      "latex": "\\ \\left(y-t\\right)^{2}+\\left(x-f\\right)^{2\\ }=5\\ \\left\\{10<z<120\\right\\}",
+      "normalized_latex": "(y-t)^2+(x-f)^2=5{10<z<120}"
+    },
+    {
+      "expression_id": "49",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "0b20268ee43ec3e0",
+      "latex": "\\frac{x}{\\infty}=z-1\\left\\{30>y>-30\\right\\}\\left\\{120<x<370\\right\\}",
+      "normalized_latex": "(x)/(infty)=z-1{30>y>-30}{120<x<370}"
+    },
+    {
+      "expression_id": "59",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "ca87b9c3be783e22",
+      "latex": "\\ \\left(y-i\\right)^{2}+\\left(x-g\\right)^{2\\ }=5\\ \\left\\{10<z<134\\right\\}",
+      "normalized_latex": "(y-i)^2+(x-g)^2=5{10<z<134}"
+    },
+    {
+      "expression_id": "62",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "81430566a39d2333",
+      "latex": "\\ \\left(y+i\\right)^{2}+\\left(x-g\\right)^{2\\ }=5\\ \\left\\{10<z<134\\right\\}",
+      "normalized_latex": "(y+i)^2+(x-g)^2=5{10<z<134}"
+    },
+    {
+      "expression_id": "63",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "3cd97ba8683966b3",
+      "latex": "\\ \\left(y+i\\right)^{2}+\\left(x+g\\right)^{2\\ }=5\\ \\left\\{10<z<134\\right\\}",
+      "normalized_latex": "(y+i)^2+(x+g)^2=5{10<z<134}"
+    },
+    {
+      "expression_id": "64",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "af1d1c73bdfda477",
+      "latex": "\\ \\left(y-i\\right)^{2}+\\left(x+g\\right)^{2\\ }=5\\ \\left\\{10<z<134\\right\\}",
+      "normalized_latex": "(y-i)^2+(x+g)^2=5{10<z<134}"
+    },
+    {
+      "expression_id": "68",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "61149c437629ea4c",
+      "latex": "\\operatorname{sphere}\\left(\\left(s,d,p\\right),o\\right)",
+      "normalized_latex": "operatorname{sphere}((s,d,p),o)"
+    },
+    {
+      "expression_id": "75",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "d93d96e4237c278e",
+      "latex": "\\operatorname{sphere}\\left(\\left(-s,d,p\\right),o\\right)",
+      "normalized_latex": "operatorname{sphere}((-s,d,p),o)"
+    },
+    {
+      "expression_id": "77",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "57dfe47a46249798",
+      "latex": "\\operatorname{sphere}\\left(\\left(-s,-d,p\\right),o\\right)",
+      "normalized_latex": "operatorname{sphere}((-s,-d,p),o)"
+    },
+    {
+      "expression_id": "79",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "94426a42609cd0c6",
+      "latex": "\\operatorname{sphere}\\left(\\left(s,-d,p\\right),o\\right)",
+      "normalized_latex": "operatorname{sphere}((s,-d,p),o)"
+    },
+    {
+      "expression_id": "90",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "6398cc33816f44ba",
+      "latex": "\\left(x+h\\right)^{2}+\\left(y+k\\right)^{2\\ }=60\\ \\left\\{10<z<120\\right\\}",
+      "normalized_latex": "(x+h)^2+(y+k)^2=60{10<z<120}"
+    },
+    {
+      "expression_id": "93",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "546f2128373b3e6c",
+      "latex": "\\frac{x}{\\infty}=z-90\\left\\{60>x>-60\\right\\}\\left\\{30>y>-30\\right\\}",
+      "normalized_latex": "(x)/(infty)=z-90{60>x>-60}{30>y>-30}"
+    },
+    {
+      "expression_id": "137",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "a938fa09bfe9a716",
+      "latex": "((x-130)^2)/16 + ((y-50)^2)/16 + ((z-6)^2)/36 = 1",
+      "normalized_latex": "((x-130)^2)/16+((y-50)^2)/16+((z-6)^2)/36=1"
+    },
+    {
+      "expression_id": "164",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "eac21513b1afe776",
+      "latex": "((x-130)^2)/16 + ((y+50)^2)/16 + ((z-6)^2)/36 = 1",
+      "normalized_latex": "((x-130)^2)/16+((y+50)^2)/16+((z-6)^2)/36=1"
+    }
+  ],
+  "unknown_fingerprints": [
+    "0b20268ee43ec3e0",
+    "160ffedc945e104b",
+    "1a0e8513e42a2eaa",
+    "309c8ab5bf732ea7",
+    "3cd97ba8683966b3",
+    "546f2128373b3e6c",
+    "57dfe47a46249798",
+    "61149c437629ea4c",
+    "6398cc33816f44ba",
+    "675002d0ad0f191f",
+    "81430566a39d2333",
+    "8c1fab64324e0465",
+    "94426a42609cd0c6",
+    "a938fa09bfe9a716",
+    "af1d1c73bdfda477",
+    "c018f929b3731c5f",
+    "c0d3828034c15779",
+    "c3a80edd5ea8813f",
+    "ca87b9c3be783e22",
+    "cf01bfb7f60dd31c",
+    "d0db70c3c9f75ba5",
+    "d298f0d7fead5c16",
+    "d93d96e4237c278e",
+    "e0388d73cdb01f42",
+    "eac21513b1afe776",
+    "f6c1cdd297e8a419"
+  ],
+  "diagnostics": [
+    {
+      "severity": "INFO",
+      "code": "AUDIT_COMPLETE",
+      "message": "Audit classification complete",
+      "source_ref": null,
+      "details": {
+        "file": "[4B] 3D Diagram - S2-04 Group G.json"
+      }
+    }
+  ],
+  "status": "PARTIAL"
+}

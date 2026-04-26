@@ -1,0 +1,439 @@
+{
+  "schema_version": 1,
+  "mesh_count": 21,
+  "failed_mesh_count": 2,
+  "meshes": [
+    {
+      "name": "[4B] 3D Diagram - S2-02 Group F_69",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-02 Group F_69.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-02 Group F.json",
+      "expression_id": "69",
+      "family": "Z_SLAB_REGION",
+      "bounds": {
+        "min": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "max": [
+          2.0,
+          2.0,
+          13.2
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-02 Group F_70",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-02 Group F_70.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-02 Group F.json",
+      "expression_id": "70",
+      "family": "Z_SLAB_REGION",
+      "bounds": {
+        "min": [
+          4.0,
+          0.0,
+          0.0
+        ],
+        "max": [
+          6.0,
+          2.0,
+          13.2
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-02 Group F_72",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-02 Group F_72.obj",
+      "color": "#6042a6",
+      "source_file": "[4B] 3D Diagram - S2-02 Group F.json",
+      "expression_id": "72",
+      "family": "Z_SLAB_REGION",
+      "bounds": {
+        "min": [
+          0.0,
+          0.0,
+          0.0025
+        ],
+        "max": [
+          18.7,
+          18.7,
+          13.17
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-02 Group F_73",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-02 Group F_73.obj",
+      "color": "#6042a6",
+      "source_file": "[4B] 3D Diagram - S2-02 Group F.json",
+      "expression_id": "73",
+      "family": "CONSTANT_PLANE",
+      "bounds": {
+        "min": [
+          0.2,
+          -0.03,
+          0.0
+        ],
+        "max": [
+          0.2,
+          2.03,
+          13.2
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-02 Group F_74",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-02 Group F_74.obj",
+      "color": "#6042a6",
+      "source_file": "[4B] 3D Diagram - S2-02 Group F.json",
+      "expression_id": "74",
+      "family": "CONSTANT_PLANE",
+      "bounds": {
+        "min": [
+          4.2,
+          -0.03,
+          0.0
+        ],
+        "max": [
+          4.2,
+          2.03,
+          13.2
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-02 Group F_75",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-02 Group F_75.obj",
+      "color": "#6042a6",
+      "source_file": "[4B] 3D Diagram - S2-02 Group F.json",
+      "expression_id": "75",
+      "family": "CONSTANT_PLANE",
+      "bounds": {
+        "min": [
+          -0.03,
+          0.2,
+          0.0
+        ],
+        "max": [
+          2.03,
+          0.2,
+          13.2
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-02 Group F_76",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-02 Group F_76.obj",
+      "color": "#6042a6",
+      "source_file": "[4B] 3D Diagram - S2-02 Group F.json",
+      "expression_id": "76",
+      "family": "CONSTANT_PLANE",
+      "bounds": {
+        "min": [
+          3.93,
+          0.2,
+          0.0
+        ],
+        "max": [
+          6.03,
+          0.2,
+          13.2
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-02 Group F_77",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-02 Group F_77.obj",
+      "color": "#2d70b3",
+      "source_file": "[4B] 3D Diagram - S2-02 Group F.json",
+      "expression_id": "77",
+      "family": "DISK_EXTRUSION_SOLID",
+      "bounds": {
+        "min": [
+          0.9376293202250021,
+          1.0176293202250022,
+          13.3
+        ],
+        "max": [
+          0.9823706797749978,
+          1.0623706797749979,
+          14.5
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-02 Group F_79",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-02 Group F_79.obj",
+      "color": "#6042a6",
+      "source_file": "[4B] 3D Diagram - S2-02 Group F.json",
+      "expression_id": "79",
+      "family": "DISK_EXTRUSION_SOLID",
+      "bounds": {
+        "min": [
+          1.0176293202250022,
+          1.0176293202250022,
+          13.3
+        ],
+        "max": [
+          1.0623706797749979,
+          1.0623706797749979,
+          14.5
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-02 Group F_80",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-02 Group F_80.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-02 Group F.json",
+      "expression_id": "80",
+      "family": "DISK_EXTRUSION_SOLID",
+      "bounds": {
+        "min": [
+          0.9376293202250021,
+          0.9376293202250021,
+          13.3
+        ],
+        "max": [
+          0.9823706797749978,
+          0.9823706797749978,
+          14.5
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-02 Group F_81",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-02 Group F_81.obj",
+      "color": "#c74440",
+      "source_file": "[4B] 3D Diagram - S2-02 Group F.json",
+      "expression_id": "81",
+      "family": "DISK_EXTRUSION_SOLID",
+      "bounds": {
+        "min": [
+          1.0176293202250022,
+          0.9376293202250021,
+          13.3
+        ],
+        "max": [
+          1.0623706797749979,
+          0.9823706797749978,
+          14.5
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-02 Group F_86",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-02 Group F_86.obj",
+      "color": "#c74440",
+      "source_file": "[4B] 3D Diagram - S2-02 Group F.json",
+      "expression_id": "86",
+      "family": "Z_SLAB_REGION",
+      "bounds": {
+        "min": [
+          0.7,
+          0.7,
+          13.2
+        ],
+        "max": [
+          1.3,
+          1.3,
+          13.3
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-02 Group F_87",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-02 Group F_87.obj",
+      "color": "#2d70b3",
+      "source_file": "[4B] 3D Diagram - S2-02 Group F.json",
+      "expression_id": "87",
+      "family": "CONSTANT_PLANE",
+      "bounds": {
+        "min": [
+          0.96,
+          0.96,
+          13.35
+        ],
+        "max": [
+          1.04,
+          1.04,
+          13.35
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-02 Group F_89",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-02 Group F_89.obj",
+      "color": "#6042a6",
+      "source_file": "[4B] 3D Diagram - S2-02 Group F.json",
+      "expression_id": "89",
+      "family": "DISK_EXTRUSION_SOLID",
+      "bounds": {
+        "min": [
+          0.9552686404500041,
+          0.9552686404500041,
+          14.5
+        ],
+        "max": [
+          1.0447313595499959,
+          1.0447313595499959,
+          15.5
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-02 Group F_92",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-02 Group F_92.obj",
+      "color": "#2d70b3",
+      "source_file": "[4B] 3D Diagram - S2-02 Group F.json",
+      "expression_id": "92",
+      "family": "DISK_EXTRUSION_SOLID",
+      "bounds": {
+        "min": [
+          0.9646346609406726,
+          0.9646346609406726,
+          15.5
+        ],
+        "max": [
+          1.0353653390593274,
+          1.0353653390593274,
+          16.5
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-02 Group F_94",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-02 Group F_94.obj",
+      "color": "#6042a6",
+      "source_file": "[4B] 3D Diagram - S2-02 Group F.json",
+      "expression_id": "94",
+      "family": "DISK_EXTRUSION_SOLID",
+      "bounds": {
+        "min": [
+          0.9575635931288071,
+          0.9575635931288071,
+          16.5
+        ],
+        "max": [
+          1.0424364068711929,
+          1.0424364068711929,
+          17.0
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-02 Group F_95",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-02 Group F_95.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-02 Group F.json",
+      "expression_id": "95",
+      "family": "DISK_EXTRUSION_SOLID",
+      "bounds": {
+        "min": [
+          0.9653489838486224,
+          0.9653489838486224,
+          17.0
+        ],
+        "max": [
+          1.0346510161513776,
+          1.0346510161513776,
+          17.5
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-02 Group F_96",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-02 Group F_96.obj",
+      "color": "#c74440",
+      "source_file": "[4B] 3D Diagram - S2-02 Group F.json",
+      "expression_id": "96",
+      "family": "DISK_EXTRUSION_SOLID",
+      "bounds": {
+        "min": [
+          0.9717057287525381,
+          0.9717057287525381,
+          17.5
+        ],
+        "max": [
+          1.0282942712474619,
+          1.0282942712474619,
+          18.0
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-02 Group F_97",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-02 Group F_97.obj",
+      "color": "#2d70b3",
+      "source_file": "[4B] 3D Diagram - S2-02 Group F.json",
+      "expression_id": "97",
+      "family": "DISK_EXTRUSION_SOLID",
+      "bounds": {
+        "min": [
+          0.97999,
+          0.97999,
+          18.0
+        ],
+        "max": [
+          1.02001,
+          1.02001,
+          18.5
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-02 Group F_99",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-02 Group F_99.obj",
+      "color": "#6042a6",
+      "source_file": "[4B] 3D Diagram - S2-02 Group F.json",
+      "expression_id": "99",
+      "family": "DISK_EXTRUSION_SOLID",
+      "bounds": {
+        "min": [
+          0.98999,
+          0.98999,
+          18.5
+        ],
+        "max": [
+          1.01001,
+          1.01001,
+          18.7
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-02 Group F_103",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-02 Group F_103.obj",
+      "color": "#388c46",
+      "source_file": "[4B] 3D Diagram - S2-02 Group F.json",
+      "expression_id": "103",
+      "family": "DISK_EXTRUSION_SOLID",
+      "bounds": {
+        "min": [
+          4.955268640450004,
+          0.9552686404500041,
+          13.2
+        ],
+        "max": [
+          5.044731359549996,
+          1.0447313595499959,
+          14.5
+        ]
+      }
+    }
+  ],
+  "failures": [
+    {
+      "source_file": "[4B] 3D Diagram - S2-02 Group F.json",
+      "expression_id": "90",
+      "error": "Fallback plane mesher produced no faces"
+    },
+    {
+      "source_file": "[4B] 3D Diagram - S2-02 Group F.json",
+      "expression_id": "98",
+      "error": "Fallback plane mesher produced no faces"
+    }
+  ]
+}

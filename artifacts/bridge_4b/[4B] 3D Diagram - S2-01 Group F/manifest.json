@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "mesh_count": 2,
+  "failed_mesh_count": 0,
+  "meshes": [
+    {
+      "name": "[4B] 3D Diagram - S2-01 Group F_17",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-01 Group F_17.obj",
+      "color": "#2d70b3",
+      "source_file": "[4B] 3D Diagram - S2-01 Group F.json",
+      "expression_id": "17",
+      "family": "CONSTANT_PLANE",
+      "bounds": {
+        "min": [
+          -12.033096168455371,
+          -12.033096168455367,
+          0.0
+        ],
+        "max": [
+          12.033096168455371,
+          12.033096168455367,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-01 Group F_26",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-01 Group F_26.obj",
+      "color": "#c74440",
+      "source_file": "[4B] 3D Diagram - S2-01 Group F.json",
+      "expression_id": "26",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -4.0,
+          -4.0,
+          0.0
+        ],
+        "max": [
+          8.0,
+          4.0,
+          1.0
+        ]
+      }
+    }
+  ],
+  "failures": []
+}

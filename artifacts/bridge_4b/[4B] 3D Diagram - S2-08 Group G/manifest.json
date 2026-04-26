@@ -1,0 +1,869 @@
+{
+  "schema_version": 1,
+  "mesh_count": 42,
+  "failed_mesh_count": 4,
+  "meshes": [
+    {
+      "name": "[4B] 3D Diagram - S2-08 Group G_1",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-08 Group G_1.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-08 Group G.json",
+      "expression_id": "1",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          42.12,
+          42.12,
+          -165.0
+        ],
+        "max": [
+          62.45,
+          62.45,
+          -162.0
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-08 Group G_5",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-08 Group G_5.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-08 Group G.json",
+      "expression_id": "5",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -62.45,
+          -62.45,
+          -165.0
+        ],
+        "max": [
+          -42.12,
+          -42.12,
+          -162.0
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-08 Group G_6",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-08 Group G_6.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-08 Group G.json",
+      "expression_id": "6",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          42.12,
+          -62.45,
+          -165.0
+        ],
+        "max": [
+          62.45,
+          -42.12,
+          -162.0
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-08 Group G_7",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-08 Group G_7.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-08 Group G.json",
+      "expression_id": "7",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -62.45,
+          42.12,
+          -165.0
+        ],
+        "max": [
+          -42.12,
+          62.45,
+          -162.0
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-08 Group G_107",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-08 Group G_107.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-08 Group G.json",
+      "expression_id": "107",
+      "family": "PARAMETRIC_T_CURVE",
+      "bounds": {
+        "min": [
+          40.704709001539435,
+          0.0,
+          -121.29529099846056
+        ],
+        "max": [
+          43.295290998460565,
+          1.0,
+          -118.70470900153944
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-08 Group G_106",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-08 Group G_106.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-08 Group G.json",
+      "expression_id": "106",
+      "family": "PARAMETRIC_T_CURVE",
+      "bounds": {
+        "min": [
+          0.0,
+          -43.295290998460565,
+          -121.29529099846056
+        ],
+        "max": [
+          1.0,
+          -40.704709001539435,
+          -118.70470900153944
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-08 Group G_108",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-08 Group G_108.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-08 Group G.json",
+      "expression_id": "108",
+      "family": "PARAMETRIC_T_CURVE",
+      "bounds": {
+        "min": [
+          -43.295290998460565,
+          0.0,
+          -121.29529099846056
+        ],
+        "max": [
+          -40.704709001539435,
+          1.0,
+          -118.70470900153944
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-08 Group G_9",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-08 Group G_9.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-08 Group G.json",
+      "expression_id": "9",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -39.375,
+          -39.375,
+          -107.37
+        ],
+        "max": [
+          -13.015,
+          39.375,
+          -107.37
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-08 Group G_500",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-08 Group G_500.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-08 Group G.json",
+      "expression_id": "500",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -39.375,
+          -39.375,
+          -111.0
+        ],
+        "max": [
+          -13.015,
+          39.375,
+          -111.0
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-08 Group G_218",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-08 Group G_218.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-08 Group G.json",
+      "expression_id": "218",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          13.015,
+          -39.375,
+          -107.37
+        ],
+        "max": [
+          39.375,
+          39.375,
+          -107.37
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-08 Group G_501",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-08 Group G_501.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-08 Group G.json",
+      "expression_id": "501",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          13.015,
+          -39.375,
+          -111.0
+        ],
+        "max": [
+          39.375,
+          39.375,
+          -111.0
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-08 Group G_220",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-08 Group G_220.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-08 Group G.json",
+      "expression_id": "220",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -13.015,
+          13.015,
+          -107.37
+        ],
+        "max": [
+          13.015,
+          39.375,
+          -107.37
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-08 Group G_503",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-08 Group G_503.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-08 Group G.json",
+      "expression_id": "503",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -13.015,
+          13.015,
+          -111.0
+        ],
+        "max": [
+          13.015,
+          39.375,
+          -111.0
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-08 Group G_219",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-08 Group G_219.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-08 Group G.json",
+      "expression_id": "219",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -13.015,
+          -39.375,
+          -111.0
+        ],
+        "max": [
+          13.015,
+          -13.015,
+          -111.0
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-08 Group G_546",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-08 Group G_546.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-08 Group G.json",
+      "expression_id": "546",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -13.015,
+          -39.375,
+          -107.37
+        ],
+        "max": [
+          13.015,
+          -13.015,
+          -107.37
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-08 Group G_109",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-08 Group G_109.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-08 Group G.json",
+      "expression_id": "109",
+      "family": "PARAMETRIC_T_CURVE",
+      "bounds": {
+        "min": [
+          -38.295290998460565,
+          0.0,
+          -112.29529099846056
+        ],
+        "max": [
+          -35.704709001539435,
+          1.0,
+          -109.70470900153944
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-08 Group G_110",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-08 Group G_110.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-08 Group G.json",
+      "expression_id": "110",
+      "family": "PARAMETRIC_T_CURVE",
+      "bounds": {
+        "min": [
+          35.704709001539435,
+          0.0,
+          -112.29529099846056
+        ],
+        "max": [
+          38.295290998460565,
+          1.0,
+          -109.70470900153944
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-08 Group G_111",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-08 Group G_111.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-08 Group G.json",
+      "expression_id": "111",
+      "family": "PARAMETRIC_T_CURVE",
+      "bounds": {
+        "min": [
+          0.0,
+          -38.295290998460565,
+          -112.29529099846056
+        ],
+        "max": [
+          1.0,
+          -35.704709001539435,
+          -109.70470900153944
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-08 Group G_223",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-08 Group G_223.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-08 Group G.json",
+      "expression_id": "223",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          37.0,
+          -37.0,
+          -111.0
+        ],
+        "max": [
+          37.0,
+          37.0,
+          -107.37
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-08 Group G_224",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-08 Group G_224.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-08 Group G.json",
+      "expression_id": "224",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -37.0,
+          -37.0,
+          -111.0
+        ],
+        "max": [
+          -37.0,
+          37.0,
+          -107.37
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-08 Group G_225",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-08 Group G_225.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-08 Group G.json",
+      "expression_id": "225",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -37.0,
+          -37.0,
+          -111.0
+        ],
+        "max": [
+          37.0,
+          -37.0,
+          -107.37
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-08 Group G_226",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-08 Group G_226.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-08 Group G.json",
+      "expression_id": "226",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -37.0,
+          37.0,
+          -111.0
+        ],
+        "max": [
+          37.0,
+          37.0,
+          -107.37
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-08 Group G_11",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-08 Group G_11.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-08 Group G.json",
+      "expression_id": "11",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -16.9,
+          -16.9,
+          -49.27
+        ],
+        "max": [
+          16.9,
+          16.9,
+          -49.27
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-08 Group G_655",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-08 Group G_655.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-08 Group G.json",
+      "expression_id": "655",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -14.1,
+          -14.1,
+          -52.0
+        ],
+        "max": [
+          14.1,
+          14.1,
+          -52.0
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-08 Group G_93",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-08 Group G_93.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-08 Group G.json",
+      "expression_id": "93",
+      "family": "PARAMETRIC_T_CURVE",
+      "bounds": {
+        "min": [
+          0.0,
+          -16.895290998460563,
+          -61.295290998460565
+        ],
+        "max": [
+          1.0,
+          -14.304709001539436,
+          -58.704709001539435
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-08 Group G_95",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-08 Group G_95.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-08 Group G.json",
+      "expression_id": "95",
+      "family": "PARAMETRIC_T_CURVE",
+      "bounds": {
+        "min": [
+          14.304709001539436,
+          0.0,
+          -61.295290998460565
+        ],
+        "max": [
+          16.895290998460563,
+          1.0,
+          -58.704709001539435
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-08 Group G_96",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-08 Group G_96.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-08 Group G.json",
+      "expression_id": "96",
+      "family": "PARAMETRIC_T_CURVE",
+      "bounds": {
+        "min": [
+          -16.895290998460563,
+          0.0,
+          -61.295290998460565
+        ],
+        "max": [
+          -14.304709001539436,
+          1.0,
+          -58.704709001539435
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-08 Group G_227",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-08 Group G_227.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-08 Group G.json",
+      "expression_id": "227",
+      "family": "PARAMETRIC_T_CURVE",
+      "bounds": {
+        "min": [
+          -15.595290998460564,
+          0.0,
+          -53.295290998460565
+        ],
+        "max": [
+          -13.004709001539437,
+          1.0,
+          -50.704709001539435
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-08 Group G_228",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-08 Group G_228.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-08 Group G.json",
+      "expression_id": "228",
+      "family": "PARAMETRIC_T_CURVE",
+      "bounds": {
+        "min": [
+          13.004709001539437,
+          0.0,
+          -53.295290998460565
+        ],
+        "max": [
+          15.595290998460564,
+          1.0,
+          -50.704709001539435
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-08 Group G_230",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-08 Group G_230.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-08 Group G.json",
+      "expression_id": "230",
+      "family": "PARAMETRIC_T_CURVE",
+      "bounds": {
+        "min": [
+          0.0,
+          -15.595290998460564,
+          -53.295290998460565
+        ],
+        "max": [
+          1.0,
+          -13.004709001539437,
+          -50.704709001539435
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-08 Group G_12",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-08 Group G_12.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-08 Group G.json",
+      "expression_id": "12",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -9.325,
+          -9.325,
+          111.13
+        ],
+        "max": [
+          9.325,
+          9.325,
+          122.5
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-08 Group G_644",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-08 Group G_644.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-08 Group G.json",
+      "expression_id": "644",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -9.325,
+          -9.325,
+          122.5
+        ],
+        "max": [
+          9.325,
+          9.325,
+          122.5
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-08 Group G_1944",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-08 Group G_1944.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-08 Group G.json",
+      "expression_id": "1944",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -5.6,
+          -5.6,
+          107.0
+        ],
+        "max": [
+          5.6,
+          5.6,
+          122.5
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-08 Group G_234",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-08 Group G_234.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-08 Group G.json",
+      "expression_id": "234",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -14.35,
+          14.3,
+          -52.0
+        ],
+        "max": [
+          14.35,
+          14.3,
+          -49.27
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-08 Group G_235",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-08 Group G_235.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-08 Group G.json",
+      "expression_id": "235",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -14.35,
+          -14.3,
+          -52.0
+        ],
+        "max": [
+          14.35,
+          -14.3,
+          -49.27
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-08 Group G_236",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-08 Group G_236.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-08 Group G.json",
+      "expression_id": "236",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -14.3,
+          -14.35,
+          -52.0
+        ],
+        "max": [
+          -14.3,
+          14.35,
+          -49.27
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-08 Group G_237",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-08 Group G_237.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-08 Group G.json",
+      "expression_id": "237",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          14.3,
+          -14.35,
+          -52.0
+        ],
+        "max": [
+          14.3,
+          14.35,
+          -49.27
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-08 Group G_798",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-08 Group G_798.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-08 Group G.json",
+      "expression_id": "798",
+      "family": "VERTICAL_CYLINDER_SURFACE",
+      "bounds": {
+        "min": [
+          -2.5,
+          -2.5,
+          122.5
+        ],
+        "max": [
+          2.5,
+          2.5,
+          146.5
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-08 Group G_799",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-08 Group G_799.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-08 Group G.json",
+      "expression_id": "799",
+      "family": "VERTICAL_CYLINDER_SURFACE",
+      "bounds": {
+        "min": [
+          -1.5,
+          -1.5,
+          146.5
+        ],
+        "max": [
+          1.5,
+          1.5,
+          155.0
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-08 Group G_800",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-08 Group G_800.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-08 Group G.json",
+      "expression_id": "800",
+      "family": "DISK_EXTRUSION_SOLID",
+      "bounds": {
+        "min": [
+          -2.50001,
+          -2.50001,
+          146.4997535
+        ],
+        "max": [
+          2.50001,
+          2.50001,
+          146.5002465
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-08 Group G_801",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-08 Group G_801.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-08 Group G.json",
+      "expression_id": "801",
+      "family": "DISK_EXTRUSION_SOLID",
+      "bounds": {
+        "min": [
+          -1.50001,
+          -1.50001,
+          154.999745
+        ],
+        "max": [
+          1.5000100000000005,
+          1.5000100000000005,
+          155.000255
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-08 Group G_1946",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-08 Group G_1946.obj",
+      "color": "#388c46",
+      "source_file": "[4B] 3D Diagram - S2-08 Group G.json",
+      "expression_id": "1946",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -200.0,
+          -200.0,
+          -166.0
+        ],
+        "max": [
+          200.0,
+          200.0,
+          -165.0
+        ]
+      }
+    }
+  ],
+  "failures": [
+    {
+      "source_file": "[4B] 3D Diagram - S2-08 Group G.json",
+      "expression_id": "100",
+      "error": "Unsupported expression node: Call(func=Name(id='t', ctx=Load()), args=[BinOp(left=Constant(value=1), op=Sub(), right=Name(id='t', ctx=Load()))])"
+    },
+    {
+      "source_file": "[4B] 3D Diagram - S2-08 Group G.json",
+      "expression_id": "103",
+      "error": "Unsupported expression node: Call(func=Name(id='t', ctx=Load()), args=[BinOp(left=Constant(value=1), op=Sub(), right=Name(id='t', ctx=Load()))])"
+    },
+    {
+      "source_file": "[4B] 3D Diagram - S2-08 Group G.json",
+      "expression_id": "126",
+      "error": "Unsupported expression node: Call(func=Name(id='t', ctx=Load()), args=[BinOp(left=Constant(value=1), op=Sub(), right=Name(id='t', ctx=Load()))])"
+    },
+    {
+      "source_file": "[4B] 3D Diagram - S2-08 Group G.json",
+      "expression_id": "127",
+      "error": "Unsupported expression node: Call(func=Name(id='t', ctx=Load()), args=[BinOp(left=Constant(value=1), op=Sub(), right=Name(id='t', ctx=Load()))])"
+    }
+  ]
+}

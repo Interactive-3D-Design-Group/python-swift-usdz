@@ -44,7 +44,7 @@ class CoverageReport:
         return asdict(self)
 
 
-def run_coverage_for_file(path: Path) -> CoverageReport:
+def run_coverage_for_file(path: Path, *, include_hidden: bool = False) -> CoverageReport:
     desmos_file, diagnostics = load_desmos_json(path)
     if desmos_file is None:
         diagnostics.append(
@@ -73,7 +73,7 @@ def run_coverage_for_file(path: Path) -> CoverageReport:
     viewport = extract_viewport(desmos_file.data)
 
     # Determine what actually got meshed.
-    geometry = build_geometry_for_file(path)
+    geometry = build_geometry_for_file(path, include_hidden=include_hidden)
     meshes, failures = mesh_geometry_nodes(geometry.nodes)
     meshed_ids = {m.expression_id for m in meshes if m.expression_id is not None}
     if failures:
@@ -134,7 +134,11 @@ def run_coverage_for_file(path: Path) -> CoverageReport:
     supported_but_not_meshed = [
         a
         for a in supported
-        if (a[0].source_ref.expression_id is not None and a[0].source_ref.expression_id not in meshed_ids and not a[0].hidden)
+        if (
+            a[0].source_ref.expression_id is not None
+            and a[0].source_ref.expression_id not in meshed_ids
+            and (include_hidden or not a[0].hidden)
+        )
     ]
 
     rec_unsup = sum(1 for a in audited if a[1].status == ClassificationStatus.RECOGNIZED_UNSUPPORTED and a[0].expression_type == "expression")
@@ -180,7 +184,7 @@ def run_coverage_for_file(path: Path) -> CoverageReport:
     for record, classification in audited:
         if record.expression_type != "expression":
             continue
-        if record.hidden:
+        if record.hidden and not include_hidden:
             continue
         if classification.status == ClassificationStatus.GEOMETRY_INELIGIBLE:
             continue

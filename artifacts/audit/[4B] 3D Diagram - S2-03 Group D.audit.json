@@ -1,0 +1,322 @@
+{
+  "source_file": "[4B] 3D Diagram - S2-03 Group D.json",
+  "total_expressions": 164,
+  "supported_count": 74,
+  "recognized_unsupported_count": 0,
+  "unrecognized_count": 22,
+  "geometry_ineligible_count": 68,
+  "per_folder_summary": [
+    {
+      "folder_id": null,
+      "folder_name": null,
+      "total": 8,
+      "supported": 0,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 8
+    },
+    {
+      "folder_id": "43",
+      "folder_name": "Bottom",
+      "total": 20,
+      "supported": 8,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 12
+    },
+    {
+      "folder_id": "3",
+      "folder_name": "Pillar",
+      "total": 44,
+      "supported": 24,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 20
+    },
+    {
+      "folder_id": "169",
+      "folder_name": "Rectangle pattern",
+      "total": 3,
+      "supported": 2,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 1
+    },
+    {
+      "folder_id": "99",
+      "folder_name": "Sun pattern",
+      "total": 34,
+      "supported": 7,
+      "recognized_unsupported": 0,
+      "unrecognized": 18,
+      "geometry_ineligible": 9
+    },
+    {
+      "folder_id": "64",
+      "folder_name": "Top",
+      "total": 55,
+      "supported": 33,
+      "recognized_unsupported": 0,
+      "unrecognized": 4,
+      "geometry_ineligible": 18
+    }
+  ],
+  "unsupported_expressions": [
+    {
+      "expression_id": "90",
+      "folder": "Top",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "72363781343cfc60",
+      "latex": "-0.365\\left(x-0.17\\right)=\\left(y-11.3\\right)^{2}\\left\\{-0.215<x\\right\\}\\left\\{-9\\le z\\le0.25\\right\\}",
+      "normalized_latex": "-0.365(x-0.17)=(y-11.3)^2{-0.215<x}{-9<=z<=0.25}"
+    },
+    {
+      "expression_id": "195",
+      "folder": "Top",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "9743a06ff5f65573",
+      "latex": "-0.365\\left(x-0.16\\right)=\\left(y-11.3\\right)^{2}\\left\\{-0.215<x\\right\\}\\left\\{-9\\le z\\le0.25\\right\\}",
+      "normalized_latex": "-0.365(x-0.16)=(y-11.3)^2{-0.215<x}{-9<=z<=0.25}"
+    },
+    {
+      "expression_id": "160",
+      "folder": "Top",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "6fb799cf83df924a",
+      "latex": "0.365\\left(x+0.17\\right)=\\left(y-11.3\\right)^{2}\\left\\{0.215>x\\right\\}\\left\\{-10.25\\le z\\le-1\\right\\}",
+      "normalized_latex": "0.365(x+0.17)=(y-11.3)^2{0.215>x}{-10.25<=z<=-1}"
+    },
+    {
+      "expression_id": "196",
+      "folder": "Top",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "fb76e7e7b4e1a5ff",
+      "latex": "0.365\\left(x+0.16\\right)=\\left(y-11.3\\right)^{2}\\left\\{0.215>x\\right\\}\\left\\{-10.25\\le z\\le-1\\right\\}",
+      "normalized_latex": "0.365(x+0.16)=(y-11.3)^2{0.215>x}{-10.25<=z<=-1}"
+    },
+    {
+      "expression_id": "104",
+      "folder": "Sun pattern",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "a33d82bb9c81de1a",
+      "latex": "0=gx+l-y\\left\\{7.337<y<7.4\\right\\}\\left\\{-3.25\\le z\\le0.01,-10.01\\le z\\le-6.75\\right\\}",
+      "normalized_latex": "0=gx+l-y{7.337<y<7.4}{-3.25<=z<=0.01,-10.01<=z<=-6.75}"
+    },
+    {
+      "expression_id": "105",
+      "folder": "Sun pattern",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "195ed7b682bf6e48",
+      "latex": "0=gx+l+0.01-y\\left\\{7.346<y<7.41\\right\\}\\left\\{-3.25\\le z\\le0.01,-10.01\\le z\\le-6.75\\right\\}",
+      "normalized_latex": "0=gx+l+0.01-y{7.346<y<7.41}{-3.25<=z<=0.01,-10.01<=z<=-6.75}"
+    },
+    {
+      "expression_id": "106",
+      "folder": "Sun pattern",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "21a0aae0374b5433",
+      "latex": "0=gx+l+0.02-y\\left\\{7.355<y<7.42\\right\\}\\left\\{-3.25\\le z\\le0.01,-10.01\\le z\\le-6.75\\right\\}",
+      "normalized_latex": "0=gx+l+0.02-y{7.355<y<7.42}{-3.25<=z<=0.01,-10.01<=z<=-6.75}"
+    },
+    {
+      "expression_id": "107",
+      "folder": "Sun pattern",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "8814f6fc184fb2e9",
+      "latex": "0=gx+l-y\\left\\{7.2<y<7.263\\right\\}\\left\\{-3.25\\le z\\le0.01,-10.01\\le z\\le-6.75\\right\\}",
+      "normalized_latex": "0=gx+l-y{7.2<y<7.263}{-3.25<=z<=0.01,-10.01<=z<=-6.75}"
+    },
+    {
+      "expression_id": "108",
+      "folder": "Sun pattern",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "d4e36773defbd0aa",
+      "latex": "0=gx+l+0.01-y\\left\\{7.21<y<7.272\\right\\}\\left\\{-3.25\\le z\\le0.01,-10.01\\le z\\le-6.75\\right\\}",
+      "normalized_latex": "0=gx+l+0.01-y{7.21<y<7.272}{-3.25<=z<=0.01,-10.01<=z<=-6.75}"
+    },
+    {
+      "expression_id": "109",
+      "folder": "Sun pattern",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "b6acfd2d86b3275d",
+      "latex": "0=gx+l+0.02-y\\left\\{7.22<y<7.281\\right\\}\\left\\{-3.25\\le z\\le0.01,-10.01\\le z\\le-6.75\\right\\}",
+      "normalized_latex": "0=gx+l+0.02-y{7.22<y<7.281}{-3.25<=z<=0.01,-10.01<=z<=-6.75}"
+    },
+    {
+      "expression_id": "110",
+      "folder": "Sun pattern",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "1b086adba6b739a6",
+      "latex": "0=-gx+a-y\\left\\{7.337<y<7.4\\right\\}\\left\\{-3.25\\le z\\le0.01,-10.01\\le z\\le-6.75\\right\\}",
+      "normalized_latex": "0=-gx+a-y{7.337<y<7.4}{-3.25<=z<=0.01,-10.01<=z<=-6.75}"
+    },
+    {
+      "expression_id": "111",
+      "folder": "Sun pattern",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "6aa7e4616f63da88",
+      "latex": "0=-gx+a+0.01-y\\left\\{7.346<y<7.41\\right\\}\\left\\{-3.25\\le z\\le0.01,-10.01\\le z\\le-6.75\\right\\}",
+      "normalized_latex": "0=-gx+a+0.01-y{7.346<y<7.41}{-3.25<=z<=0.01,-10.01<=z<=-6.75}"
+    },
+    {
+      "expression_id": "112",
+      "folder": "Sun pattern",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "eaa9f0ec613ee22b",
+      "latex": "0=-gx+a+0.02-y\\left\\{7.355<y<7.42\\right\\}\\left\\{-3.25\\le z\\le0.01,-10.01\\le z\\le-6.75\\right\\}",
+      "normalized_latex": "0=-gx+a+0.02-y{7.355<y<7.42}{-3.25<=z<=0.01,-10.01<=z<=-6.75}"
+    },
+    {
+      "expression_id": "113",
+      "folder": "Sun pattern",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "62af119b342f45f5",
+      "latex": "0=-gx+a-y\\left\\{7.2<y<7.263\\right\\}\\left\\{-3.25\\le z\\le0.01,-10.01\\le z\\le-6.75\\right\\}",
+      "normalized_latex": "0=-gx+a-y{7.2<y<7.263}{-3.25<=z<=0.01,-10.01<=z<=-6.75}"
+    },
+    {
+      "expression_id": "114",
+      "folder": "Sun pattern",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "621edec78dceea7b",
+      "latex": "0=-gx+a+0.01-y\\left\\{7.21<y<7.272\\right\\}\\left\\{-3.25\\le z\\le0.01,-10.01\\le z\\le-6.75\\right\\}",
+      "normalized_latex": "0=-gx+a+0.01-y{7.21<y<7.272}{-3.25<=z<=0.01,-10.01<=z<=-6.75}"
+    },
+    {
+      "expression_id": "115",
+      "folder": "Sun pattern",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "b0f21b9f6fb34263",
+      "latex": "0=-gx+a+0.02-y\\left\\{7.22<y<7.281\\right\\}\\left\\{-3.25\\le z\\le0.01,-10.01\\le z\\le-6.75\\right\\}",
+      "normalized_latex": "0=-gx+a+0.02-y{7.22<y<7.281}{-3.25<=z<=0.01,-10.01<=z<=-6.75}"
+    },
+    {
+      "expression_id": "116",
+      "folder": "Sun pattern",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "71365c711d167e99",
+      "latex": "0=1.6x-b+25.8-y\\left\\{7<y<7.215\\right\\}\\left\\{-3.25\\le z\\le0.01,-10.01\\le z\\le-6.75\\right\\}",
+      "normalized_latex": "0=1.6x-b+25.8-y{7<y<7.215}{-3.25<=z<=0.01,-10.01<=z<=-6.75}"
+    },
+    {
+      "expression_id": "117",
+      "folder": "Sun pattern",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "b48930e800fab13d",
+      "latex": "0=1.6x-b+25.775-y\\left\\{7<y<7.21\\right\\}\\left\\{-3.25\\le z\\le0.01,-10.01\\le z\\le-6.75\\right\\}",
+      "normalized_latex": "0=1.6x-b+25.775-y{7<y<7.21}{-3.25<=z<=0.01,-10.01<=z<=-6.75}"
+    },
+    {
+      "expression_id": "118",
+      "folder": "Sun pattern",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "975236d93258d194",
+      "latex": "0=1.6x-b+25.75-y\\left\\{7<y<7.205\\right\\}\\left\\{-3.25\\le z\\le0.01,-10.01\\le z\\le-6.75\\right\\}",
+      "normalized_latex": "0=1.6x-b+25.75-y{7<y<7.205}{-3.25<=z<=0.01,-10.01<=z<=-6.75}"
+    },
+    {
+      "expression_id": "119",
+      "folder": "Sun pattern",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "ffba9c528bcacb6e",
+      "latex": "0=-1.6x+b-11.2-y\\left\\{7<y<7.215\\right\\}\\left\\{-3.25\\le z\\le0.01,-10.01\\le z\\le-6.75\\right\\}",
+      "normalized_latex": "0=-1.6x+b-11.2-y{7<y<7.215}{-3.25<=z<=0.01,-10.01<=z<=-6.75}"
+    },
+    {
+      "expression_id": "120",
+      "folder": "Sun pattern",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "6a937e0fa4200133",
+      "latex": "0=-1.6x+b-11.225-y\\left\\{7<y<7.21\\right\\}\\left\\{-3.25\\le z\\le0.01,-10.01\\le z\\le-6.75\\right\\}",
+      "normalized_latex": "0=-1.6x+b-11.225-y{7<y<7.21}{-3.25<=z<=0.01,-10.01<=z<=-6.75}"
+    },
+    {
+      "expression_id": "121",
+      "folder": "Sun pattern",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "18c0e3068d9b0468",
+      "latex": "0=-1.6x+b-11.25-y\\left\\{7<y<7.205\\right\\}\\left\\{-3.25\\le z\\le0.01,-10.01\\le z\\le-6.75\\right\\}",
+      "normalized_latex": "0=-1.6x+b-11.25-y{7<y<7.205}{-3.25<=z<=0.01,-10.01<=z<=-6.75}"
+    }
+  ],
+  "unknown_fingerprints": [
+    "18c0e3068d9b0468",
+    "195ed7b682bf6e48",
+    "1b086adba6b739a6",
+    "21a0aae0374b5433",
+    "621edec78dceea7b",
+    "62af119b342f45f5",
+    "6a937e0fa4200133",
+    "6aa7e4616f63da88",
+    "6fb799cf83df924a",
+    "71365c711d167e99",
+    "72363781343cfc60",
+    "8814f6fc184fb2e9",
+    "9743a06ff5f65573",
+    "975236d93258d194",
+    "a33d82bb9c81de1a",
+    "b0f21b9f6fb34263",
+    "b48930e800fab13d",
+    "b6acfd2d86b3275d",
+    "d4e36773defbd0aa",
+    "eaa9f0ec613ee22b",
+    "fb76e7e7b4e1a5ff",
+    "ffba9c528bcacb6e"
+  ],
+  "diagnostics": [
+    {
+      "severity": "INFO",
+      "code": "AUDIT_COMPLETE",
+      "message": "Audit classification complete",
+      "source_ref": null,
+      "details": {
+        "file": "[4B] 3D Diagram - S2-03 Group D.json"
+      }
+    }
+  ],
+  "status": "PARTIAL"
+}

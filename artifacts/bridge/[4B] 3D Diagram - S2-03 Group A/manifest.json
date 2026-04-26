@@ -1,0 +1,2168 @@
+{
+  "schema_version": 1,
+  "mesh_count": 108,
+  "failed_mesh_count": 0,
+  "meshes": [
+    {
+      "name": "[4B] 3D Diagram - S2-03 Group A_9",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-03 Group A_9.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-03 Group A.json",
+      "expression_id": "9",
+      "family": "Z_SLAB_REGION",
+      "bounds": {
+        "min": [
+          -5.0,
+          -15.0,
+          0.0
+        ],
+        "max": [
+          5.0,
+          20.0,
+          12.0
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-03 Group A_21",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-03 Group A_21.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-03 Group A.json",
+      "expression_id": "21",
+      "family": "QUADRATIC_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          -25.015942710168456,
+          -25.015942710168456,
+          -139.9745192037446
+        ],
+        "max": [
+          25.015942710168456,
+          25.015942710168456,
+          28.16839450510917
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-03 Group A_24",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-03 Group A_24.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-03 Group A.json",
+      "expression_id": "24",
+      "family": "QUADRATIC_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          -25.015942710168456,
+          -25.015942710168456,
+          -139.9745192037446
+        ],
+        "max": [
+          25.015942710168456,
+          25.015942710168456,
+          28.168394505109163
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-03 Group A_28",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-03 Group A_28.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-03 Group A.json",
+      "expression_id": "28",
+      "family": "CONSTANT_PLANE",
+      "bounds": {
+        "min": [
+          -8.0,
+          20.0,
+          0.0
+        ],
+        "max": [
+          8.0,
+          20.0,
+          8.0
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-03 Group A_39",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-03 Group A_39.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-03 Group A.json",
+      "expression_id": "39",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          3.0,
+          19.0,
+          0.0
+        ],
+        "max": [
+          9.0,
+          25.0,
+          20.0
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-03 Group A_40",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-03 Group A_40.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-03 Group A.json",
+      "expression_id": "40",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -9.0,
+          19.0,
+          0.0
+        ],
+        "max": [
+          -3.0,
+          25.0,
+          20.0
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-03 Group A_43",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-03 Group A_43.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-03 Group A.json",
+      "expression_id": "43",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -3.0,
+          19.0,
+          0.0
+        ],
+        "max": [
+          3.0,
+          25.0,
+          13.0
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-03 Group A_42",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-03 Group A_42.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-03 Group A.json",
+      "expression_id": "42",
+      "family": "QUADRATIC_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          -25.015942710168456,
+          19.178889411129152,
+          -31.34902400774297
+        ],
+        "max": [
+          25.015942710168456,
+          24.807476520917053,
+          18.986365932046205
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-03 Group A_44",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-03 Group A_44.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-03 Group A.json",
+      "expression_id": "44",
+      "family": "CONSTANT_PLANE",
+      "bounds": {
+        "min": [
+          -15.0,
+          -5.0,
+          8.0
+        ],
+        "max": [
+          15.0,
+          5.0,
+          8.0
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-03 Group A_52",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-03 Group A_52.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-03 Group A.json",
+      "expression_id": "52",
+      "family": "CONSTANT_PLANE",
+      "bounds": {
+        "min": [
+          -15.0,
+          -5.0,
+          0.0
+        ],
+        "max": [
+          15.0,
+          -5.0,
+          8.0
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-03 Group A_53",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-03 Group A_53.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-03 Group A.json",
+      "expression_id": "53",
+      "family": "CONSTANT_PLANE",
+      "bounds": {
+        "min": [
+          -15.0,
+          5.0,
+          0.0
+        ],
+        "max": [
+          15.0,
+          5.0,
+          8.0
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-03 Group A_54",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-03 Group A_54.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-03 Group A.json",
+      "expression_id": "54",
+      "family": "CONSTANT_PLANE",
+      "bounds": {
+        "min": [
+          15.0,
+          -5.0,
+          0.0
+        ],
+        "max": [
+          15.0,
+          5.0,
+          8.0
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-03 Group A_55",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-03 Group A_55.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-03 Group A.json",
+      "expression_id": "55",
+      "family": "CONSTANT_PLANE",
+      "bounds": {
+        "min": [
+          -15.0,
+          -5.0,
+          0.0
+        ],
+        "max": [
+          -15.0,
+          5.0,
+          8.0
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-03 Group A_45",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-03 Group A_45.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-03 Group A.json",
+      "expression_id": "45",
+      "family": "CONSTANT_PLANE",
+      "bounds": {
+        "min": [
+          -8.0,
+          -10.0,
+          8.0
+        ],
+        "max": [
+          8.0,
+          20.0,
+          8.0
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-03 Group A_56",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-03 Group A_56.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-03 Group A.json",
+      "expression_id": "56",
+      "family": "CONSTANT_PLANE",
+      "bounds": {
+        "min": [
+          -8.0,
+          -10.0,
+          0.0
+        ],
+        "max": [
+          8.0,
+          20.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-03 Group A_57",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-03 Group A_57.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-03 Group A.json",
+      "expression_id": "57",
+      "family": "CONSTANT_PLANE",
+      "bounds": {
+        "min": [
+          8.0,
+          -10.0,
+          0.0
+        ],
+        "max": [
+          8.0,
+          20.0,
+          8.0
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-03 Group A_58",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-03 Group A_58.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-03 Group A.json",
+      "expression_id": "58",
+      "family": "CONSTANT_PLANE",
+      "bounds": {
+        "min": [
+          -8.0,
+          -10.0,
+          0.0
+        ],
+        "max": [
+          -8.0,
+          20.0,
+          8.0
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-03 Group A_47",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-03 Group A_47.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-03 Group A.json",
+      "expression_id": "47",
+      "family": "Z_SLAB_REGION",
+      "bounds": {
+        "min": [
+          -15.0,
+          -5.0,
+          0.0
+        ],
+        "max": [
+          15.0,
+          5.0,
+          12.0
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-03 Group A_48",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-03 Group A_48.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-03 Group A.json",
+      "expression_id": "48",
+      "family": "DISK_EXTRUSION_SOLID",
+      "bounds": {
+        "min": [
+          -1.00001,
+          -1.00001,
+          0.0
+        ],
+        "max": [
+          1.00001,
+          1.00001,
+          13.0
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-03 Group A_50",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-03 Group A_50.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-03 Group A.json",
+      "expression_id": "50",
+      "family": "QUADRATIC_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          -0.8338647570056175,
+          -0.8338647570056175,
+          12.641474302915421
+        ],
+        "max": [
+          0.8338647570056139,
+          0.8338647570056139,
+          14.999999999999995
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-03 Group A_51",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-03 Group A_51.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-03 Group A.json",
+      "expression_id": "51",
+      "family": "DISK_EXTRUSION_SOLID",
+      "bounds": {
+        "min": [
+          -8.00001,
+          -18.00001,
+          0.0
+        ],
+        "max": [
+          8.00001,
+          -1.9999900000000004,
+          8.0
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-03 Group A_70",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-03 Group A_70.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-03 Group A.json",
+      "expression_id": "70",
+      "family": "Y_SLAB_REGION",
+      "bounds": {
+        "min": [
+          13.0,
+          -3.5,
+          8.0
+        ],
+        "max": [
+          15.0,
+          -2.0,
+          13.0
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-03 Group A_66",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-03 Group A_66.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-03 Group A.json",
+      "expression_id": "66",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          12.99375,
+          2.0812500000000003,
+          8.15
+        ],
+        "max": [
+          15.006250000000001,
+          3.4625,
+          12.65
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-03 Group A_69",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-03 Group A_69.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-03 Group A.json",
+      "expression_id": "69",
+      "family": "Y_SLAB_REGION",
+      "bounds": {
+        "min": [
+          13.0,
+          -5.0,
+          8.0
+        ],
+        "max": [
+          15.0,
+          -3.5,
+          13.0
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-03 Group A_68",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-03 Group A_68.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-03 Group A.json",
+      "expression_id": "68",
+      "family": "Y_SLAB_REGION",
+      "bounds": {
+        "min": [
+          13.0,
+          3.5,
+          8.0
+        ],
+        "max": [
+          15.0,
+          5.0,
+          13.0
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-03 Group A_71",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-03 Group A_71.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-03 Group A.json",
+      "expression_id": "71",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          8.0,
+          -10.0,
+          0.0
+        ],
+        "max": [
+          15.0,
+          -5.0,
+          14.0
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-03 Group A_72",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-03 Group A_72.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-03 Group A.json",
+      "expression_id": "72",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          8.0,
+          5.0,
+          0.0
+        ],
+        "max": [
+          15.0,
+          10.0,
+          14.0
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-03 Group A_73",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-03 Group A_73.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-03 Group A.json",
+      "expression_id": "73",
+      "family": "QUADRATIC_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          -25.015942710168456,
+          -25.015942710168456,
+          -1131.617633398236
+        ],
+        "max": [
+          25.015942710168456,
+          25.015942710168456,
+          25.423157038739326
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-03 Group A_74",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-03 Group A_74.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-03 Group A.json",
+      "expression_id": "74",
+      "family": "QUADRATIC_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          -25.015942710168456,
+          -25.015942710168456,
+          -1131.617633398236
+        ],
+        "max": [
+          25.015942710168456,
+          25.015942710168456,
+          25.423157038739326
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-03 Group A_75",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-03 Group A_75.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-03 Group A.json",
+      "expression_id": "75",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          3.0,
+          19.0,
+          0.0
+        ],
+        "max": [
+          9.0,
+          26.0,
+          19.0
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-03 Group A_76",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-03 Group A_76.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-03 Group A.json",
+      "expression_id": "76",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -9.0,
+          19.0,
+          0.0
+        ],
+        "max": [
+          -3.0,
+          26.0,
+          19.0
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-03 Group A_77",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-03 Group A_77.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-03 Group A.json",
+      "expression_id": "77",
+      "family": "QUADRATIC_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          -25.015942710168456,
+          -25.015942710168456,
+          -92.0095055065225
+        ],
+        "max": [
+          25.015942710168456,
+          25.015942710168456,
+          23.489294357186484
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-03 Group A_78",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-03 Group A_78.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-03 Group A.json",
+      "expression_id": "78",
+      "family": "QUADRATIC_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          -25.015942710168456,
+          -25.015942710168456,
+          -92.0095055065225
+        ],
+        "max": [
+          25.015942710168456,
+          25.015942710168456,
+          23.489294357186477
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-03 Group A_79",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-03 Group A_79.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-03 Group A.json",
+      "expression_id": "79",
+      "family": "QUADRATIC_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          -25.015942710168456,
+          -25.015942710168456,
+          -89.32444107095615
+        ],
+        "max": [
+          25.015942710168456,
+          25.015942710168456,
+          24.473764119738036
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-03 Group A_80",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-03 Group A_80.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-03 Group A.json",
+      "expression_id": "80",
+      "family": "QUADRATIC_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          -25.015942710168456,
+          -25.015942710168456,
+          -89.32444107095615
+        ],
+        "max": [
+          25.015942710168456,
+          25.015942710168456,
+          24.47376411973803
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-03 Group A_81",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-03 Group A_81.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-03 Group A.json",
+      "expression_id": "81",
+      "family": "QUADRATIC_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          -25.015942710168456,
+          -25.015942710168456,
+          -112.70443028853765
+        ],
+        "max": [
+          25.015942710168456,
+          25.015942710168456,
+          4.491028902965827
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-03 Group A_82",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-03 Group A_82.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-03 Group A.json",
+      "expression_id": "82",
+      "family": "QUADRATIC_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          -25.015942710168456,
+          -25.015942710168456,
+          -112.70443028853765
+        ],
+        "max": [
+          25.015942710168456,
+          25.015942710168456,
+          4.491028902965833
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-03 Group A_83",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-03 Group A_83.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-03 Group A.json",
+      "expression_id": "83",
+      "family": "QUADRATIC_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          -25.015942710168456,
+          -25.015942710168456,
+          -269.2610757213441
+        ],
+        "max": [
+          25.015942710168456,
+          25.015942710168456,
+          23.727572257414565
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-03 Group A_84",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-03 Group A_84.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-03 Group A.json",
+      "expression_id": "84",
+      "family": "QUADRATIC_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          -25.015942710168456,
+          -25.015942710168456,
+          -269.2610757213441
+        ],
+        "max": [
+          25.015942710168456,
+          25.015942710168456,
+          23.727572257414582
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-03 Group A_85",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-03 Group A_85.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-03 Group A.json",
+      "expression_id": "85",
+      "family": "QUADRATIC_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          -25.015942710168456,
+          -25.015942710168456,
+          -386.9655060098818
+        ],
+        "max": [
+          25.015942710168456,
+          25.015942710168456,
+          23.218601160380416
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-03 Group A_86",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-03 Group A_86.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-03 Group A.json",
+      "expression_id": "86",
+      "family": "QUADRATIC_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          -25.015942710168456,
+          -25.015942710168456,
+          -386.9655060098818
+        ],
+        "max": [
+          25.015942710168456,
+          25.015942710168456,
+          23.218601160380416
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-03 Group A_88",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-03 Group A_88.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-03 Group A.json",
+      "expression_id": "88",
+      "family": "QUADRATIC_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          -25.015942710168456,
+          -25.015942710168456,
+          -386.9655060098818
+        ],
+        "max": [
+          25.015942710168456,
+          25.015942710168456,
+          23.21860116038039
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-03 Group A_89",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-03 Group A_89.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-03 Group A.json",
+      "expression_id": "89",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          4.0,
+          19.0,
+          0.0
+        ],
+        "max": [
+          8.0,
+          27.0,
+          10.0
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-03 Group A_90",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-03 Group A_90.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-03 Group A.json",
+      "expression_id": "90",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -8.0,
+          19.0,
+          0.0
+        ],
+        "max": [
+          -4.0,
+          27.0,
+          10.0
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-03 Group A_91",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-03 Group A_91.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-03 Group A.json",
+      "expression_id": "91",
+      "family": "QUADRATIC_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          -25.015942710168456,
+          -25.015942710168456,
+          -1116.7042749181815
+        ],
+        "max": [
+          25.015942710168456,
+          25.015942710168456,
+          22.859570012697752
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-03 Group A_92",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-03 Group A_92.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-03 Group A.json",
+      "expression_id": "92",
+      "family": "QUADRATIC_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          -25.015942710168456,
+          -25.015942710168456,
+          -1116.7042749181815
+        ],
+        "max": [
+          25.015942710168456,
+          25.015942710168456,
+          22.859570012697752
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-03 Group A_93",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-03 Group A_93.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-03 Group A.json",
+      "expression_id": "93",
+      "family": "QUADRATIC_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          -25.015942710168456,
+          21.47201749289459,
+          -475.43027694424717
+        ],
+        "max": [
+          25.015942710168456,
+          22.514348439151615,
+          24.919188399067735
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-03 Group A_94",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-03 Group A_94.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-03 Group A.json",
+      "expression_id": "94",
+      "family": "QUADRATIC_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          -25.015942710168456,
+          21.680483682146,
+          -125.73948269308863
+        ],
+        "max": [
+          25.015942710168456,
+          21.888949871397397,
+          12.333699228384383
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-03 Group A_95",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-03 Group A_95.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-03 Group A.json",
+      "expression_id": "95",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -2.0,
+          19.0,
+          0.0
+        ],
+        "max": [
+          2.0,
+          26.0,
+          11.0
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-03 Group A_96",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-03 Group A_96.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-03 Group A.json",
+      "expression_id": "96",
+      "family": "QUADRATIC_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          -25.015942710168456,
+          -25.015942710168456,
+          -1143.4530033749995
+        ],
+        "max": [
+          25.015942710168456,
+          25.015942710168456,
+          26.039734480486942
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-03 Group A_97",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-03 Group A_97.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-03 Group A.json",
+      "expression_id": "97",
+      "family": "QUADRATIC_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          -25.015942710168456,
+          -25.015942710168456,
+          -1143.4530033749995
+        ],
+        "max": [
+          25.015942710168456,
+          25.015942710168456,
+          26.039734480486963
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-03 Group A_98",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-03 Group A_98.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-03 Group A.json",
+      "expression_id": "98",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          5.0,
+          19.0,
+          8.0
+        ],
+        "max": [
+          7.0,
+          27.5,
+          9.0
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-03 Group A_99",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-03 Group A_99.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-03 Group A.json",
+      "expression_id": "99",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          5.0,
+          19.0,
+          6.0
+        ],
+        "max": [
+          7.0,
+          27.5,
+          7.0
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-03 Group A_100",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-03 Group A_100.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-03 Group A.json",
+      "expression_id": "100",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          5.0,
+          19.0,
+          4.0
+        ],
+        "max": [
+          7.0,
+          27.5,
+          5.0
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-03 Group A_101",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-03 Group A_101.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-03 Group A.json",
+      "expression_id": "101",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          5.0,
+          19.0,
+          2.0
+        ],
+        "max": [
+          7.0,
+          27.5,
+          3.0
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-03 Group A_102",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-03 Group A_102.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-03 Group A.json",
+      "expression_id": "102",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -7.0,
+          19.0,
+          8.0
+        ],
+        "max": [
+          -5.0,
+          27.5,
+          9.0
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-03 Group A_103",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-03 Group A_103.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-03 Group A.json",
+      "expression_id": "103",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -7.0,
+          19.0,
+          6.0
+        ],
+        "max": [
+          -5.0,
+          27.5,
+          7.0
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-03 Group A_104",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-03 Group A_104.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-03 Group A.json",
+      "expression_id": "104",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -7.0,
+          19.0,
+          4.0
+        ],
+        "max": [
+          -5.0,
+          27.5,
+          5.0
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-03 Group A_105",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-03 Group A_105.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-03 Group A.json",
+      "expression_id": "105",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -7.0,
+          19.0,
+          2.0
+        ],
+        "max": [
+          -5.0,
+          27.5,
+          3.0
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-03 Group A_106",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-03 Group A_106.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-03 Group A.json",
+      "expression_id": "106",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -1.0,
+          19.0,
+          0.0
+        ],
+        "max": [
+          1.0,
+          26.0,
+          10.0
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-03 Group A_107",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-03 Group A_107.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-03 Group A.json",
+      "expression_id": "107",
+      "family": "QUADRATIC_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          12.71643754433563,
+          -25.015942710168456,
+          -472.13163389894646
+        ],
+        "max": [
+          15.426498004603882,
+          25.015942710168456,
+          28.735567701727454
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-03 Group A_108",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-03 Group A_108.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-03 Group A.json",
+      "expression_id": "108",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          8.0,
+          -9.0,
+          0.0
+        ],
+        "max": [
+          16.0,
+          -6.0,
+          13.0
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-03 Group A_109",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-03 Group A_109.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-03 Group A.json",
+      "expression_id": "109",
+      "family": "QUADRATIC_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          -25.015942710168456,
+          -25.015942710168456,
+          -270.6159596874355
+        ],
+        "max": [
+          25.015942710168456,
+          25.015942710168456,
+          23.77533837747081
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-03 Group A_110",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-03 Group A_110.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-03 Group A.json",
+      "expression_id": "110",
+      "family": "QUADRATIC_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          -25.015942710168456,
+          -25.015942710168456,
+          -270.6159596874355
+        ],
+        "max": [
+          25.015942710168456,
+          25.015942710168456,
+          23.77533837747081
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-03 Group A_111",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-03 Group A_111.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-03 Group A.json",
+      "expression_id": "111",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          8.0,
+          -5.0,
+          0.0
+        ],
+        "max": [
+          16.0,
+          -2.0,
+          8.0
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-03 Group A_112",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-03 Group A_112.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-03 Group A.json",
+      "expression_id": "112",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          8.0,
+          6.0,
+          0.0
+        ],
+        "max": [
+          16.0,
+          9.0,
+          13.0
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-03 Group A_113",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-03 Group A_113.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-03 Group A.json",
+      "expression_id": "113",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          8.0,
+          2.0,
+          0.0
+        ],
+        "max": [
+          16.0,
+          5.0,
+          8.0
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-03 Group A_114",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-03 Group A_114.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-03 Group A.json",
+      "expression_id": "114",
+      "family": "DISK_EXTRUSION_SOLID",
+      "bounds": {
+        "min": [
+          -2.00001,
+          22.99999,
+          0.0
+        ],
+        "max": [
+          2.00001,
+          27.00001,
+          10.0
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-03 Group A_115",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-03 Group A_115.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-03 Group A.json",
+      "expression_id": "115",
+      "family": "DISK_EXTRUSION_SOLID",
+      "bounds": {
+        "min": [
+          5.99999,
+          7.99999,
+          0.0
+        ],
+        "max": [
+          10.00001,
+          12.00001,
+          8.0
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-03 Group A_116",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-03 Group A_116.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-03 Group A.json",
+      "expression_id": "116",
+      "family": "QUADRATIC_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          -25.015942710168456,
+          -25.015942710168456,
+          -470.3494197927708
+        ],
+        "max": [
+          25.015942710168456,
+          25.015942710168456,
+          27.381090138403263
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-03 Group A_117",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-03 Group A_117.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-03 Group A.json",
+      "expression_id": "117",
+      "family": "DISK_EXTRUSION_SOLID",
+      "bounds": {
+        "min": [
+          4.99999,
+          12.99999,
+          0.0
+        ],
+        "max": [
+          9.00001,
+          17.00001,
+          6.0
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-03 Group A_118",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-03 Group A_118.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-03 Group A.json",
+      "expression_id": "118",
+      "family": "QUADRATIC_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          13.19936229159326,
+          -1.3006377084067384,
+          -64.8693126835732
+        ],
+        "max": [
+          15.80063770840674,
+          1.3538540161129042,
+          28.94785991946683
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-03 Group A_119",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-03 Group A_119.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-03 Group A.json",
+      "expression_id": "119",
+      "family": "QUADRATIC_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          -25.015942710168456,
+          -25.015942710168456,
+          -470.3494197927708
+        ],
+        "max": [
+          25.015942710168456,
+          25.015942710168456,
+          27.381090138403298
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-03 Group A_121",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-03 Group A_121.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-03 Group A.json",
+      "expression_id": "121",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -16.0,
+          -5.0,
+          0.0
+        ],
+        "max": [
+          -8.0,
+          -2.0,
+          8.0
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-03 Group A_122",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-03 Group A_122.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-03 Group A.json",
+      "expression_id": "122",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -16.0,
+          -9.0,
+          0.0
+        ],
+        "max": [
+          -8.0,
+          -6.0,
+          13.0
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-03 Group A_123",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-03 Group A_123.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-03 Group A.json",
+      "expression_id": "123",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -16.0,
+          -9.0,
+          0.0
+        ],
+        "max": [
+          -8.0,
+          -6.0,
+          13.0
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-03 Group A_124",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-03 Group A_124.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-03 Group A.json",
+      "expression_id": "124",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -15.0,
+          -10.0,
+          0.0
+        ],
+        "max": [
+          -8.0,
+          -5.0,
+          14.0
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-03 Group A_125",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-03 Group A_125.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-03 Group A.json",
+      "expression_id": "125",
+      "family": "QUADRATIC_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          -25.015942710168456,
+          -25.015942710168456,
+          -470.3494197927708
+        ],
+        "max": [
+          25.015942710168456,
+          25.015942710168456,
+          27.3810901384033
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-03 Group A_126",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-03 Group A_126.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-03 Group A.json",
+      "expression_id": "126",
+      "family": "Y_SLAB_REGION",
+      "bounds": {
+        "min": [
+          -15.0,
+          -5.0,
+          8.0
+        ],
+        "max": [
+          -13.0,
+          -3.5,
+          13.0
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-03 Group A_128",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-03 Group A_128.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-03 Group A.json",
+      "expression_id": "128",
+      "family": "Y_SLAB_REGION",
+      "bounds": {
+        "min": [
+          -15.0,
+          -3.5,
+          8.0
+        ],
+        "max": [
+          -13.0,
+          -2.0,
+          13.0
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-03 Group A_129",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-03 Group A_129.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-03 Group A.json",
+      "expression_id": "129",
+      "family": "QUADRATIC_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          -25.015942710168456,
+          -25.015942710168456,
+          -270.6159596874355
+        ],
+        "max": [
+          25.015942710168456,
+          25.015942710168456,
+          23.775338377470813
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-03 Group A_130",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-03 Group A_130.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-03 Group A.json",
+      "expression_id": "130",
+      "family": "QUADRATIC_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          -15.426498004603882,
+          -25.015942710168456,
+          -472.13163389894646
+        ],
+        "max": [
+          -12.716437544335633,
+          25.015942710168456,
+          28.73556770172749
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-03 Group A_131",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-03 Group A_131.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-03 Group A.json",
+      "expression_id": "131",
+      "family": "QUADRATIC_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          -15.801281739856613,
+          -1.3184453406564027,
+          -64.83904240157763
+        ],
+        "max": [
+          -13.164332288613872,
+          1.3006377084067382,
+          28.706719989109395
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-03 Group A_133",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-03 Group A_133.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-03 Group A.json",
+      "expression_id": "133",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -16.0,
+          2.0,
+          0.0
+        ],
+        "max": [
+          -8.0,
+          5.0,
+          8.0
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-03 Group A_134",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-03 Group A_134.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-03 Group A.json",
+      "expression_id": "134",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -15.00625,
+          2.0812500000000003,
+          8.15
+        ],
+        "max": [
+          -12.993749999999999,
+          3.4625,
+          12.65
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-03 Group A_135",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-03 Group A_135.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-03 Group A.json",
+      "expression_id": "135",
+      "family": "Y_SLAB_REGION",
+      "bounds": {
+        "min": [
+          -15.0,
+          3.5,
+          8.0
+        ],
+        "max": [
+          -13.0,
+          5.0,
+          13.0
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-03 Group A_137",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-03 Group A_137.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-03 Group A.json",
+      "expression_id": "137",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -15.0,
+          5.0,
+          0.0
+        ],
+        "max": [
+          -8.0,
+          10.0,
+          14.0
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-03 Group A_138",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-03 Group A_138.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-03 Group A.json",
+      "expression_id": "138",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -16.0,
+          6.0,
+          0.0
+        ],
+        "max": [
+          -8.0,
+          9.0,
+          13.0
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-03 Group A_139",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-03 Group A_139.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-03 Group A.json",
+      "expression_id": "139",
+      "family": "QUADRATIC_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          -25.015942710168456,
+          -25.015942710168456,
+          -270.6159596874355
+        ],
+        "max": [
+          25.015942710168456,
+          25.015942710168456,
+          23.775338377470813
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-03 Group A_140",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-03 Group A_140.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-03 Group A.json",
+      "expression_id": "140",
+      "family": "QUADRATIC_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          -25.015942710168456,
+          -25.015942710168456,
+          -470.3494197927708
+        ],
+        "max": [
+          25.015942710168456,
+          25.015942710168456,
+          27.381090138403266
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-03 Group A_141",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-03 Group A_141.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-03 Group A.json",
+      "expression_id": "141",
+      "family": "DISK_EXTRUSION_SOLID",
+      "bounds": {
+        "min": [
+          -10.00001,
+          7.99999,
+          0.0
+        ],
+        "max": [
+          -5.99999,
+          12.00001,
+          8.0
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-03 Group A_142",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-03 Group A_142.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-03 Group A.json",
+      "expression_id": "142",
+      "family": "DISK_EXTRUSION_SOLID",
+      "bounds": {
+        "min": [
+          -9.00001,
+          12.99999,
+          0.0
+        ],
+        "max": [
+          -4.99999,
+          17.00001,
+          6.0
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-03 Group A_150",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-03 Group A_150.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-03 Group A.json",
+      "expression_id": "150",
+      "family": "QUADRATIC_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          -25.015942710168456,
+          -25.015942710168456,
+          -285.13391937515087
+        ],
+        "max": [
+          25.015942710168456,
+          25.015942710168456,
+          13.55815275839673
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-03 Group A_156",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-03 Group A_156.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-03 Group A.json",
+      "expression_id": "156",
+      "family": "QUADRATIC_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          -25.015942710168456,
+          -25.015942710168456,
+          -265.66310419960985
+        ],
+        "max": [
+          25.015942710168456,
+          25.015942710168456,
+          13.36689166459753
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-03 Group A_157",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-03 Group A_157.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-03 Group A.json",
+      "expression_id": "157",
+      "family": "QUADRATIC_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          -25.015942710168456,
+          -25.015942710168456,
+          -273.275042054735
+        ],
+        "max": [
+          25.015942710168456,
+          25.015942710168456,
+          13.729171278267291
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-03 Group A_158",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-03 Group A_158.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-03 Group A.json",
+      "expression_id": "158",
+      "family": "QUADRATIC_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          -25.015942710168456,
+          -25.015942710168456,
+          -297.263092995826
+        ],
+        "max": [
+          25.015942710168456,
+          25.015942710168456,
+          13.169917938666734
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-03 Group A_151",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-03 Group A_151.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-03 Group A.json",
+      "expression_id": "151",
+      "family": "QUADRATIC_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          -25.015942710168456,
+          -25.015942710168456,
+          -285.13391937515087
+        ],
+        "max": [
+          25.015942710168456,
+          25.015942710168456,
+          13.55815275839673
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-03 Group A_152",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-03 Group A_152.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-03 Group A.json",
+      "expression_id": "152",
+      "family": "QUADRATIC_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          -25.015942710168456,
+          -25.015942710168456,
+          -265.66310419960985
+        ],
+        "max": [
+          25.015942710168456,
+          25.015942710168456,
+          13.366891664597551
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-03 Group A_153",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-03 Group A_153.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-03 Group A.json",
+      "expression_id": "153",
+      "family": "QUADRATIC_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          -25.015942710168456,
+          -25.015942710168456,
+          -273.275042054735
+        ],
+        "max": [
+          25.015942710168456,
+          25.015942710168456,
+          13.729171278267291
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-03 Group A_155",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-03 Group A_155.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-03 Group A.json",
+      "expression_id": "155",
+      "family": "QUADRATIC_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          -25.015942710168456,
+          -25.015942710168456,
+          -297.263092995826
+        ],
+        "max": [
+          25.015942710168456,
+          25.015942710168456,
+          13.169917938666734
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-03 Group A_159",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-03 Group A_159.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-03 Group A.json",
+      "expression_id": "159",
+      "family": "QUADRATIC_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          -25.015942710168456,
+          -25.015942710168456,
+          -275.6235947221514
+        ],
+        "max": [
+          25.015942710168456,
+          25.015942710168456,
+          13.718094979644786
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-03 Group A_160",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-03 Group A_160.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-03 Group A.json",
+      "expression_id": "160",
+      "family": "QUADRATIC_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          -25.015942710168456,
+          -25.015942710168456,
+          -261.72121383050654
+        ],
+        "max": [
+          25.015942710168456,
+          25.015942710168456,
+          13.600912130422401
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-03 Group A_161",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-03 Group A_161.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-03 Group A.json",
+      "expression_id": "161",
+      "family": "QUADRATIC_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          -25.015942710168456,
+          -25.015942710168456,
+          -275.6235947221514
+        ],
+        "max": [
+          25.015942710168456,
+          25.015942710168456,
+          13.718094979644786
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-03 Group A_162",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-03 Group A_162.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-03 Group A.json",
+      "expression_id": "162",
+      "family": "QUADRATIC_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          -25.015942710168456,
+          -25.015942710168456,
+          -261.72121383050654
+        ],
+        "max": [
+          25.015942710168456,
+          25.015942710168456,
+          13.600912130422401
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-03 Group A_163",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-03 Group A_163.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-03 Group A.json",
+      "expression_id": "163",
+      "family": "QUADRATIC_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          -25.015942710168456,
+          -17.094227518615114,
+          -135.2391761408232
+        ],
+        "max": [
+          25.015942710168456,
+          -15.009565626101073,
+          14.949203302415704
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-03 Group A_164",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-03 Group A_164.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-03 Group A.json",
+      "expression_id": "164",
+      "family": "QUADRATIC_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          -25.015942710168456,
+          -19.17888941112915,
+          -131.38312387724216
+        ],
+        "max": [
+          25.015942710168456,
+          -12.716437544335633,
+          19.910115891931056
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-03 Group A_165",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-03 Group A_165.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-03 Group A.json",
+      "expression_id": "165",
+      "family": "QUADRATIC_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          -25.015942710168456,
+          -25.015942710168456,
+          -277.99062170998627
+        ],
+        "max": [
+          25.015942710168456,
+          25.015942710168456,
+          15.67181094174219
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-03 Group A_166",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-03 Group A_166.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-03 Group A.json",
+      "expression_id": "166",
+      "family": "QUADRATIC_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          -25.015942710168456,
+          -25.015942710168456,
+          -277.99062170998627
+        ],
+        "max": [
+          25.015942710168456,
+          25.015942710168456,
+          15.67181094174221
+        ]
+      }
+    }
+  ],
+  "failures": []
+}

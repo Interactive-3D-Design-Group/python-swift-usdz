@@ -1,0 +1,69 @@
+{
+  "source_file": "[4B] 3D Diagram - S2-05 Group F.json",
+  "total_expressions": 39,
+  "supported_count": 8,
+  "recognized_unsupported_count": 0,
+  "unrecognized_count": 0,
+  "geometry_ineligible_count": 31,
+  "per_folder_summary": [
+    {
+      "folder_id": null,
+      "folder_name": null,
+      "total": 5,
+      "supported": 1,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 4
+    },
+    {
+      "folder_id": "27",
+      "folder_name": "ellipse road controls",
+      "total": 14,
+      "supported": 0,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 14
+    },
+    {
+      "folder_id": "20",
+      "folder_name": "monument things",
+      "total": 6,
+      "supported": 2,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 4
+    },
+    {
+      "folder_id": "18",
+      "folder_name": "points",
+      "total": 5,
+      "supported": 5,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 0
+    },
+    {
+      "folder_id": "29",
+      "folder_name": "roads",
+      "total": 9,
+      "supported": 0,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 9
+    }
+  ],
+  "unsupported_expressions": [],
+  "unknown_fingerprints": [],
+  "diagnostics": [
+    {
+      "severity": "INFO",
+      "code": "AUDIT_COMPLETE",
+      "message": "Audit classification complete",
+      "source_ref": null,
+      "details": {
+        "file": "[4B] 3D Diagram - S2-05 Group F.json"
+      }
+    }
+  ],
+  "status": "PASS"
+}

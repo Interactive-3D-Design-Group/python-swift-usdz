@@ -1,0 +1,189 @@
+{
+  "schema_version": 1,
+  "mesh_count": 8,
+  "failed_mesh_count": 4,
+  "meshes": [
+    {
+      "name": "[4B] 3D Diagram - S2-10 Group A_2",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-10 Group A_2.obj",
+      "color": "#388c46",
+      "source_file": "[4B] 3D Diagram - S2-10 Group A.json",
+      "expression_id": "2",
+      "family": "CONSTANT_PLANE",
+      "bounds": {
+        "min": [
+          -19.66762026302225,
+          -20.390890383085644,
+          0.0
+        ],
+        "max": [
+          21.147357035531215,
+          20.42408691546782,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-10 Group A_9",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-10 Group A_9.obj",
+      "color": "#fa7e19",
+      "source_file": "[4B] 3D Diagram - S2-10 Group A.json",
+      "expression_id": "9",
+      "family": "Z_SLAB_REGION",
+      "bounds": {
+        "min": [
+          -1.75,
+          -1.75,
+          2.6
+        ],
+        "max": [
+          1.75,
+          1.75,
+          3.0
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-10 Group A_10",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-10 Group A_10.obj",
+      "color": "#fa7e19",
+      "source_file": "[4B] 3D Diagram - S2-10 Group A.json",
+      "expression_id": "10",
+      "family": "CONSTANT_PLANE",
+      "bounds": {
+        "min": [
+          -1.0,
+          -1.0,
+          5.75
+        ],
+        "max": [
+          1.0,
+          1.0,
+          5.75
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-10 Group A_11",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-10 Group A_11.obj",
+      "color": "#fa7e19",
+      "source_file": "[4B] 3D Diagram - S2-10 Group A.json",
+      "expression_id": "11",
+      "family": "CONSTANT_PLANE",
+      "bounds": {
+        "min": [
+          -0.45,
+          -0.45,
+          13.75
+        ],
+        "max": [
+          0.45,
+          0.45,
+          13.75
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-10 Group A_44",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-10 Group A_44.obj",
+      "color": "#fa7e19",
+      "source_file": "[4B] 3D Diagram - S2-10 Group A.json",
+      "expression_id": "44",
+      "family": "Z_SLAB_REGION",
+      "bounds": {
+        "min": [
+          -0.6,
+          -0.6,
+          13.75
+        ],
+        "max": [
+          0.6,
+          0.6,
+          14.0
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-10 Group A_45",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-10 Group A_45.obj",
+      "color": "#fa7e19",
+      "source_file": "[4B] 3D Diagram - S2-10 Group A.json",
+      "expression_id": "45",
+      "family": "Z_SLAB_REGION",
+      "bounds": {
+        "min": [
+          -0.45,
+          -0.45,
+          14.0
+        ],
+        "max": [
+          0.45,
+          0.45,
+          14.25
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-10 Group A_46",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-10 Group A_46.obj",
+      "color": "#fa7e19",
+      "source_file": "[4B] 3D Diagram - S2-10 Group A.json",
+      "expression_id": "46",
+      "family": "Z_SLAB_REGION",
+      "bounds": {
+        "min": [
+          -0.3,
+          -0.3,
+          14.25
+        ],
+        "max": [
+          0.3,
+          0.3,
+          14.5
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-10 Group A_47",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-10 Group A_47.obj",
+      "color": "#fa7e19",
+      "source_file": "[4B] 3D Diagram - S2-10 Group A.json",
+      "expression_id": "47",
+      "family": "Z_SLAB_REGION",
+      "bounds": {
+        "min": [
+          -0.15,
+          -0.15,
+          14.5
+        ],
+        "max": [
+          0.15,
+          0.15,
+          16.0
+        ]
+      }
+    }
+  ],
+  "failures": [
+    {
+      "source_file": "[4B] 3D Diagram - S2-10 Group A.json",
+      "expression_id": "59",
+      "error": "Unsupported expression node: BinOp(left=BinOp(left=Constant(value=0.3), op=BitOr(), right=BinOp(left=Name(id='sin7', ctx=Load()), op=Mult(), right=Name(id='x', ctx=Load()))), op=BitOr(), right=UnaryOp(op=UAdd(), operand=Constant(value=3)))"
+    },
+    {
+      "source_file": "[4B] 3D Diagram - S2-10 Group A.json",
+      "expression_id": "60",
+      "error": "Unsupported expression node: BinOp(left=BinOp(left=Constant(value=0.3), op=BitOr(), right=BinOp(left=Name(id='sin7', ctx=Load()), op=Mult(), right=Name(id='x', ctx=Load()))), op=BitOr(), right=UnaryOp(op=UAdd(), operand=Constant(value=3)))"
+    },
+    {
+      "source_file": "[4B] 3D Diagram - S2-10 Group A.json",
+      "expression_id": "62",
+      "error": "Unsupported expression node: BinOp(left=BinOp(left=Constant(value=0.3), op=BitOr(), right=BinOp(left=Name(id='sin7', ctx=Load()), op=Mult(), right=Name(id='y', ctx=Load()))), op=BitOr(), right=UnaryOp(op=UAdd(), operand=Constant(value=3)))"
+    },
+    {
+      "source_file": "[4B] 3D Diagram - S2-10 Group A.json",
+      "expression_id": "61",
+      "error": "Unsupported expression node: BinOp(left=BinOp(left=Constant(value=0.3), op=BitOr(), right=BinOp(left=Name(id='sin7', ctx=Load()), op=Mult(), right=Name(id='y', ctx=Load()))), op=BitOr(), right=UnaryOp(op=UAdd(), operand=Constant(value=3)))"
+    }
+  ]
+}

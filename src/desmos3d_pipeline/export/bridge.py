@@ -4,7 +4,7 @@ import json
 from dataclasses import asdict, dataclass
 from pathlib import Path
 
-from desmos3d_pipeline.mesh.meshers import Mesh
+from desmos3d_pipeline.ir.models import Mesh
 
 
 @dataclass(slots=True)

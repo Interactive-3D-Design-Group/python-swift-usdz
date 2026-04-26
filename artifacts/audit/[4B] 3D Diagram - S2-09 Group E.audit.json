@@ -1,0 +1,178 @@
+{
+  "source_file": "[4B] 3D Diagram - S2-09 Group E.json",
+  "total_expressions": 36,
+  "supported_count": 14,
+  "recognized_unsupported_count": 0,
+  "unrecognized_count": 13,
+  "geometry_ineligible_count": 9,
+  "per_folder_summary": [
+    {
+      "folder_id": null,
+      "folder_name": null,
+      "total": 36,
+      "supported": 14,
+      "recognized_unsupported": 0,
+      "unrecognized": 13,
+      "geometry_ineligible": 9
+    }
+  ],
+  "unsupported_expressions": [
+    {
+      "expression_id": "8",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "6f39e8ed238f70dd",
+      "latex": "-x=\\frac{3}{4}z^{2}-3z+4\\left\\{0<z<2\\right\\}\\left\\{-3<y<3\\right\\}\\left\\{-y^{2}>x\\right\\}",
+      "normalized_latex": "-x=(3)/(4)z^2-3z+4{0<z<2}{-3<y<3}{-y^2>x}"
+    },
+    {
+      "expression_id": "10",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "9b306506473506fd",
+      "latex": "-y=\\frac{3}{4}z^{2}-3z+4\\left\\{0<z<2\\right\\}\\left\\{-3<x<3\\right\\}\\left\\{-x^{2}>y\\right\\}",
+      "normalized_latex": "-y=(3)/(4)z^2-3z+4{0<z<2}{-3<x<3}{-x^2>y}"
+    },
+    {
+      "expression_id": "38",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "5c02cab3b3070f2c",
+      "latex": "\\frac{1}{3.5}\\left(x^{2}+y^{2}+z^{2}\\right)=1\\left\\{z\\ge0\\right\\}\\left\\{x\\le0\\right\\}",
+      "normalized_latex": "(1)/(3.5)(x^2+y^2+z^2)=1{z>=0}{x<=0}"
+    },
+    {
+      "expression_id": "39",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "ba6eb90eaa39ff81",
+      "latex": "\\frac{1}{3.5}\\left(x^{2}+y^{2}+z^{2}\\right)=1\\left\\{z\\ge0\\right\\}\\left\\{x\\ge0\\right\\}",
+      "normalized_latex": "(1)/(3.5)(x^2+y^2+z^2)=1{z>=0}{x>=0}"
+    },
+    {
+      "expression_id": "48",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "ef42f5dc49283cba",
+      "latex": "x^{2}+y^{2}+\\left(z-9\\right)^{2}=0.2",
+      "normalized_latex": "x^2+y^2+(z-9)^2=0.2"
+    },
+    {
+      "expression_id": "61",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "84aee279ad0cd1bb",
+      "latex": "\\left(x\\ -0\\right)^{2}+\\left(y-1.5\\right)^{2}+\\left(z-4\\right)^{2}\\ =\\ 2.5z^{1}\\ \\left\\{z\\ <\\ 2\\right\\}",
+      "normalized_latex": "(x-0)^2+(y-1.5)^2+(z-4)^2=2.5z^1{z<2}"
+    },
+    {
+      "expression_id": "62",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "ba7efd70d43ae97c",
+      "latex": "\\left(x\\ -0\\right)^{2}+\\left(y+\\ 1.5\\right)^{2}+\\left(z-4\\right)^{2}\\ =\\ 2.5z^{1}\\ \\left\\{z\\ <\\ 2\\right\\}",
+      "normalized_latex": "(x-0)^2+(y+1.5)^2+(z-4)^2=2.5z^1{z<2}"
+    },
+    {
+      "expression_id": "63",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "fbd5ede7b2eb0230",
+      "latex": "\\left(x\\ -1.5\\right)^{2}+\\left(y-0\\right)^{2}+\\left(z-4\\right)^{2}\\ =\\ 2.5z^{1}\\ \\left\\{z\\ <\\ 2\\right\\}",
+      "normalized_latex": "(x-1.5)^2+(y-0)^2+(z-4)^2=2.5z^1{z<2}"
+    },
+    {
+      "expression_id": "64",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "18a69d03ca37b05c",
+      "latex": "\\left(x\\ +1.5\\right)^{2}+\\left(y-0\\right)^{2}+\\left(z-4\\right)^{2}\\ =\\ 2.5z^{1}\\ \\left\\{z\\ <\\ 2\\right\\}",
+      "normalized_latex": "(x+1.5)^2+(y-0)^2+(z-4)^2=2.5z^1{z<2}"
+    },
+    {
+      "expression_id": "65",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "e978f4ac9b3aa88f",
+      "latex": "\\left(x\\ -1\\right)^{2}+\\left(y-1\\right)^{2}+\\left(z-4\\right)^{2}\\ =\\ 2.5z^{1}\\ \\left\\{z\\ <\\ 2\\right\\}",
+      "normalized_latex": "(x-1)^2+(y-1)^2+(z-4)^2=2.5z^1{z<2}"
+    },
+    {
+      "expression_id": "66",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "06471befdc696cf3",
+      "latex": "\\left(x\\ +1\\right)^{2}+\\left(y-1\\right)^{2}+\\left(z-4\\right)^{2}\\ =\\ 2.5z^{1}\\ \\left\\{z\\ <\\ 2\\right\\}",
+      "normalized_latex": "(x+1)^2+(y-1)^2+(z-4)^2=2.5z^1{z<2}"
+    },
+    {
+      "expression_id": "67",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "598fe93515d62239",
+      "latex": "\\left(x\\ -1\\right)^{2}+\\left(y+1\\right)^{2}+\\left(z-4\\right)^{2}\\ =\\ 2.5z^{1}\\ \\left\\{z\\ <\\ 2\\right\\}",
+      "normalized_latex": "(x-1)^2+(y+1)^2+(z-4)^2=2.5z^1{z<2}"
+    },
+    {
+      "expression_id": "68",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "850ea5bc514888c6",
+      "latex": "\\left(x\\ +1\\right)^{2}+\\left(y+1\\right)^{2}+\\left(z-4\\right)^{2}\\ =\\ 2.5z^{1}\\ \\left\\{z\\ <\\ 2\\right\\}",
+      "normalized_latex": "(x+1)^2+(y+1)^2+(z-4)^2=2.5z^1{z<2}"
+    }
+  ],
+  "unknown_fingerprints": [
+    "06471befdc696cf3",
+    "18a69d03ca37b05c",
+    "598fe93515d62239",
+    "5c02cab3b3070f2c",
+    "6f39e8ed238f70dd",
+    "84aee279ad0cd1bb",
+    "850ea5bc514888c6",
+    "9b306506473506fd",
+    "ba6eb90eaa39ff81",
+    "ba7efd70d43ae97c",
+    "e978f4ac9b3aa88f",
+    "ef42f5dc49283cba",
+    "fbd5ede7b2eb0230"
+  ],
+  "diagnostics": [
+    {
+      "severity": "INFO",
+      "code": "AUDIT_COMPLETE",
+      "message": "Audit classification complete",
+      "source_ref": null,
+      "details": {
+        "file": "[4B] 3D Diagram - S2-09 Group E.json"
+      }
+    }
+  ],
+  "status": "PARTIAL"
+}

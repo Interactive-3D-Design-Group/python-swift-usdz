@@ -1,0 +1,90 @@
+{
+  "source_file": "[4B] 3D Diagram - S2-09 Group B.json",
+  "total_expressions": 70,
+  "supported_count": 46,
+  "recognized_unsupported_count": 0,
+  "unrecognized_count": 5,
+  "geometry_ineligible_count": 19,
+  "per_folder_summary": [
+    {
+      "folder_id": null,
+      "folder_name": null,
+      "total": 70,
+      "supported": 46,
+      "recognized_unsupported": 0,
+      "unrecognized": 5,
+      "geometry_ineligible": 19
+    }
+  ],
+  "unsupported_expressions": [
+    {
+      "expression_id": "200",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "b7953f505c018ef2",
+      "latex": "x^{2\\ }+y^{2\\ }=\\left(13.1-z\\right)^{2\\ }\\left\\{11<z<13\\right\\}",
+      "normalized_latex": "x^2+y^2=(13.1-z)^2{11<z<13}"
+    },
+    {
+      "expression_id": "231",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "7bab774caaf3fd41",
+      "latex": "(x-6)^{2}+(y-6)^{2}=0.5+0.1*\\sin(2z)\\left\\{0<z<10\\right\\}",
+      "normalized_latex": "(x-6)^2+(y-6)^2=0.5+0.1*sin(2z){0<z<10}"
+    },
+    {
+      "expression_id": "232",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "b3af1ce4caa2a488",
+      "latex": "(x--6)^{2}+(y-6)^{2}=0.5+0.1*\\sin(2z)\\left\\{0<z<10\\right\\}",
+      "normalized_latex": "(x+6)^2+(y-6)^2=0.5+0.1*sin(2z){0<z<10}"
+    },
+    {
+      "expression_id": "233",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "20a134372e1f66b2",
+      "latex": "(x-6)^{2}+(y--6)^{2}=0.5+0.1*\\sin(2z)\\left\\{0<z<10\\right\\}",
+      "normalized_latex": "(x-6)^2+(y+6)^2=0.5+0.1*sin(2z){0<z<10}"
+    },
+    {
+      "expression_id": "234",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "fd340e9211d800fe",
+      "latex": "(x--6)^{2}+(y--6)^{2}=0.5+0.1*\\sin(2z)\\left\\{0<z<10\\right\\}",
+      "normalized_latex": "(x+6)^2+(y+6)^2=0.5+0.1*sin(2z){0<z<10}"
+    }
+  ],
+  "unknown_fingerprints": [
+    "20a134372e1f66b2",
+    "7bab774caaf3fd41",
+    "b3af1ce4caa2a488",
+    "b7953f505c018ef2",
+    "fd340e9211d800fe"
+  ],
+  "diagnostics": [
+    {
+      "severity": "INFO",
+      "code": "AUDIT_COMPLETE",
+      "message": "Audit classification complete",
+      "source_ref": null,
+      "details": {
+        "file": "[4B] 3D Diagram - S2-09 Group B.json"
+      }
+    }
+  ],
+  "status": "PARTIAL"
+}

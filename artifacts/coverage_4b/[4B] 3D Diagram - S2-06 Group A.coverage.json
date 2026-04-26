@@ -1,0 +1,813 @@
+{
+  "source_file": "[4B] 3D Diagram - S2-06 Group A.json",
+  "total_items": 572,
+  "total_expressions": 519,
+  "meshed_expression_count": 483,
+  "supported_expression_count": 484,
+  "supported_but_not_meshed_count": 1,
+  "recognized_unsupported_count": 35,
+  "unrecognized_count": 0,
+  "geometry_ineligible_count": 0,
+  "groups": [
+    {
+      "fingerprint": "00d4386117421b87",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Partial axis bounds only",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "941"
+      ],
+      "example_latex": [
+        "-19<x<19\\left\\{-15\\left(y-32.1\\right)^{2}+96>z\\right\\}\\left\\{76<z\\right\\}"
+      ],
+      "example_normalized": [
+        "-19<x<19{-15(y-32.1)^{2}+96>z}{76<z}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "01c7c0c8ab2e0573",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Partial axis bounds only",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "711"
+      ],
+      "example_latex": [
+        "-19<x<19\\left\\{-15\\left(y-32.1\\right)^{2}+72>z\\right\\}\\left\\{52<z\\right\\}"
+      ],
+      "example_normalized": [
+        "-19<x<19{-15(y-32.1)^{2}+72>z}{52<z}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "0bb4bc397ccc1583",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "917"
+      ],
+      "example_latex": [
+        "19.5<y<20.5\\left\\{\\left(z-133\\right)^{2}+\\left(y-20\\right)^{2}<7^{2}\\right\\}\\left\\{\\left(z-133\\right)^{2}+\\left(y-20\\right)^{2}>3^{2}\\right\\}\\ \\left\\{-22.5<x<22.5\\right\\}\\left\\{120<z<145\\right\\}"
+      ],
+      "example_normalized": [
+        "19.5<y<20.5{(z-133)^{2}+(y-20)^{2}<7^{2}}{(z-133)^{2}+(y-20)^{2}>3^{2}}{-22.5<x<22.5}{120<z<145}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 1,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "157d7836bc71f485",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Partial axis bounds only",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "719"
+      ],
+      "example_latex": [
+        "-19<x<19\\left\\{-15\\left(y-28.1\\right)^{2}+72>z\\right\\}\\left\\{52<z\\right\\}"
+      ],
+      "example_normalized": [
+        "-19<x<19{-15(y-28.1)^{2}+72>z}{52<z}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "1bbb8e20df121c58",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Partial axis bounds only",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "697"
+      ],
+      "example_latex": [
+        "-19<x<19\\ \\left\\{-15\\left(y-8.1\\right)^{2}+44>z\\right\\}\\left\\{24<z\\right\\}"
+      ],
+      "example_normalized": [
+        "-19<x<19{-15(y-8.1)^{2}+44>z}{24<z}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "3041298e225599a5",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Partial axis bounds only",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "685"
+      ],
+      "example_latex": [
+        "-19<x<19\\ \\left\\{-15\\left(y-32.1\\right)^{2}+44>z\\right\\}\\left\\{24<z\\right\\}"
+      ],
+      "example_normalized": [
+        "-19<x<19{-15(y-32.1)^{2}+44>z}{24<z}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "35c83f4d3b4762ad",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "915"
+      ],
+      "example_latex": [
+        "\\left(z-133\\right)^{2}+\\left(y-20\\right)^{2}<8^{2}\\ \\left\\{\\left(z-133\\right)^{2}+\\left(y-20\\right)^{2}>7^{2}\\right\\}\\left\\{-22.5<x<22.5\\right\\}"
+      ],
+      "example_normalized": [
+        "(z-133)^{2}+(y-20)^{2}<8^{2}{(z-133)^{2}+(y-20)^{2}>7^{2}}{-22.5<x<22.5}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "4f36cb501601c831",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Partial axis bounds only",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "698"
+      ],
+      "example_latex": [
+        "-19<x<19\\ \\left\\{-15\\left(y-12.1\\right)^{2}+44>z\\right\\}\\left\\{24<z\\right\\}"
+      ],
+      "example_normalized": [
+        "-19<x<19{-15(y-12.1)^{2}+44>z}{24<z}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "4ff4e77ff96b3a68",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Partial axis bounds only",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "676"
+      ],
+      "example_latex": [
+        "-19<x<19\\ \\left\\{-15\\left(y-32.1\\right)^{2}+19>z\\right\\}\\left\\{0<z\\right\\}"
+      ],
+      "example_normalized": [
+        "-19<x<19{-15(y-32.1)^{2}+19>z}{0<z}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "52c55822db074248",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Equation recognized but not yet meshable",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "931"
+      ],
+      "example_latex": [
+        "x=-0.2z+50\\left\\{205<z<260\\right\\}\\left\\{x>0\\right\\}\\left\\{y<0.2x\\ 6+20\\right\\}\\left\\{y>-0.2x\\ 6+20\\right\\}\\left\\{z<-3.7y+320\\right\\}\\left\\{z<3.7y+173\\right\\}"
+      ],
+      "example_normalized": [
+        "x=-0.2z+50{205<z<260}{x>0}{y<0.2x6+20}{y>-0.2x6+20}{z<-3.7y+320}{z<3.7y+173}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "58146c265628d58d",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "916"
+      ],
+      "example_latex": [
+        "\\left(z-133\\right)^{2}+\\left(y-20\\right)^{2}<12^{2}\\ \\left\\{\\left(z-133\\right)^{2}+\\left(y-20\\right)^{2}>10^{2}\\right\\}\\left\\{-22.5<x<22.5\\right\\}"
+      ],
+      "example_normalized": [
+        "(z-133)^{2}+(y-20)^{2}<12^{2}{(z-133)^{2}+(y-20)^{2}>10^{2}}{-22.5<x<22.5}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "6eeeedfe4d2fce16",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "918"
+      ],
+      "example_latex": [
+        "132<z<133\\left\\{\\left(z-133\\right)^{2}+\\left(y-20\\right)^{2}<7^{2}\\right\\}\\left\\{\\left(z-133\\right)^{2}+\\left(y-20\\right)^{2}>3^{2}\\right\\}\\ \\left\\{-22.5<x<22.5\\right\\}\\left\\{120<z<145\\right\\}"
+      ],
+      "example_normalized": [
+        "132<z<133{(z-133)^{2}+(y-20)^{2}<7^{2}}{(z-133)^{2}+(y-20)^{2}>3^{2}}{-22.5<x<22.5}{120<z<145}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "83259bcbe80ee49c",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Partial axis bounds only",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "660"
+      ],
+      "example_latex": [
+        "-19<x<19\\ \\left\\{-15\\left(y-12.1\\right)^{2}+19>z\\right\\}\\left\\{0<z\\right\\}"
+      ],
+      "example_normalized": [
+        "-19<x<19{-15(y-12.1)^{2}+19>z}{0<z}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "858b9431a8828466",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "328"
+      ],
+      "example_latex": [
+        "\\left(z-133\\right)^{2}+\\left(x+0\\right)^{2}<12^{2}\\ \\left\\{\\left(z-133\\right)^{2}+\\left(x+0\\right)^{2}>10^{2}\\right\\}\\left\\{-4<y<44\\right\\}"
+      ],
+      "example_normalized": [
+        "(z-133)^{2}+(x+0)^{2}<12^{2}{(z-133)^{2}+(x+0)^{2}>10^{2}}{-4<y<44}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "8aa7811b5ad4a116",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "914"
+      ],
+      "example_latex": [
+        "\\left(z-133\\right)^{2}+\\left(y-20\\right)^{2}<4^{2}\\left\\{\\left(z-133\\right)^{2}+\\left(y-20\\right)^{2}>3^{2}\\right\\}\\ \\left\\{-22.5<x<22.5\\right\\}"
+      ],
+      "example_normalized": [
+        "(z-133)^{2}+(y-20)^{2}<4^{2}{(z-133)^{2}+(y-20)^{2}>3^{2}}{-22.5<x<22.5}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "97ea7c5819aa1a7a",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Partial axis bounds only",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "690"
+      ],
+      "example_latex": [
+        "-19<x<19\\ \\left\\{-15\\left(y-28.1\\right)^{2}+44>z\\right\\}\\left\\{24<z\\right\\}"
+      ],
+      "example_normalized": [
+        "-19<x<19{-15(y-28.1)^{2}+44>z}{24<z}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "9ee159700784c6f1",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "327"
+      ],
+      "example_latex": [
+        "\\left(z-133\\right)^{2}+\\left(x+0\\right)^{2}<8^{2}\\ \\left\\{\\left(z-133\\right)^{2}+\\left(x+0\\right)^{2}>7^{2}\\right\\}\\left\\{-4<y<44\\right\\}"
+      ],
+      "example_normalized": [
+        "(z-133)^{2}+(x+0)^{2}<8^{2}{(z-133)^{2}+(x+0)^{2}>7^{2}}{-4<y<44}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "a61c700ceb4373c6",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "334"
+      ],
+      "example_latex": [
+        "x<-z+133\\ \\left\\{x>-z+131\\right\\}\\left\\{-4<y<44\\right\\}\\left\\{\\left(z-133\\right)^{2}+\\left(x+0\\right)^{2}<7^{2}\\right\\}\\left\\{\\left(z-132.5\\right)^{2}+\\left(x+0\\right)^{2}>3^{2}\\right\\}"
+      ],
+      "example_normalized": [
+        "x<-z+133{x>-z+131}{-4<y<44}{(z-133)^{2}+(x+0)^{2}<7^{2}}{(z-132.5)^{2}+(x+0)^{2}>3^{2}}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "a893b1ca51f97eec",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Equation recognized but not yet meshable",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "932"
+      ],
+      "example_latex": [
+        "x=0.33z+-73\\ \\left\\{162<z<192\\right\\}\\left\\{z<4.7y+149\\right\\}\\left\\{z<-4.7y+336\\right\\}"
+      ],
+      "example_normalized": [
+        "x=0.33z-73{162<z<192}{z<4.7y+149}{z<-4.7y+336}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 1,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "ab1ed6c54235d37e",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "331"
+      ],
+      "example_latex": [
+        "x<z-131\\ \\left\\{x>z-133\\right\\}\\left\\{-4<y<44\\right\\}\\left\\{\\left(z-133\\right)^{2}+\\left(x+0\\right)^{2}<7^{2}\\right\\}\\left\\{\\left(z-132.5\\right)^{2}+\\left(x+0\\right)^{2}>3^{2}\\right\\}"
+      ],
+      "example_normalized": [
+        "x<z-131{x>z-133}{-4<y<44}{(z-133)^{2}+(x+0)^{2}<7^{2}}{(z-132.5)^{2}+(x+0)^{2}>3^{2}}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "b6707ff4654687ed",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Partial axis bounds only",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "721"
+      ],
+      "example_latex": [
+        "-19<x<19\\ \\left\\{-15\\left(y-8.1\\right)^{2}+72>z\\right\\}\\left\\{52<z\\right\\}"
+      ],
+      "example_normalized": [
+        "-19<x<19{-15(y-8.1)^{2}+72>z}{52<z}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "bd7f80a12b88a50c",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Equation recognized but not yet meshable",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "930"
+      ],
+      "example_latex": [
+        "x=0.2z+-50\\left\\{205<z<260\\right\\}\\left\\{z<-3.7y+320\\right\\}\\left\\{z<3.7y+173\\right\\}"
+      ],
+      "example_normalized": [
+        "x=0.2z-50{205<z<260}{z<-3.7y+320}{z<3.7y+173}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "bdec734c8fea75a3",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "913"
+      ],
+      "example_latex": [
+        "\\left(z-133\\right)^{2}+\\left(y-20\\right)^{2}<11^{2}\\ \\left\\{-22.5<x<22.5\\right\\}"
+      ],
+      "example_normalized": [
+        "(z-133)^{2}+(y-20)^{2}<11^{2}{-22.5<x<22.5}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "c0c733c976c8d417",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "329"
+      ],
+      "example_latex": [
+        "-0.5<x<0.5\\left\\{\\left(z-133\\right)^{2}+\\left(x+0\\right)^{2}<7^{2}\\right\\}\\left\\{\\left(z-133\\right)^{2}+\\left(x+0\\right)^{2}>3^{2}\\right\\}\\ \\left\\{-4<y<44\\right\\}\\left\\{120<z<145\\right\\}"
+      ],
+      "example_normalized": [
+        "-0.5<x<0.5{(z-133)^{2}+(x+0)^{2}<7^{2}}{(z-133)^{2}+(x+0)^{2}>3^{2}}{-4<y<44}{120<z<145}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 1,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "c946b1870066ba8b",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "326"
+      ],
+      "example_latex": [
+        "\\left(z-133\\right)^{2}+\\left(x+0\\right)^{2}<4^{2}\\left\\{\\left(z-133\\right)^{2}+\\left(x+0\\right)^{2}>3^{2}\\right\\}\\ \\left\\{-4<y<44\\right\\}"
+      ],
+      "example_normalized": [
+        "(z-133)^{2}+(x+0)^{2}<4^{2}{(z-133)^{2}+(x+0)^{2}>3^{2}}{-4<y<44}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "cb73a97d484ee051",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Partial axis bounds only",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "938"
+      ],
+      "example_latex": [
+        "-19<x<19\\ \\left\\{-15\\left(y-8.1\\right)^{2}+96>z\\right\\}\\left\\{76<z\\right\\}"
+      ],
+      "example_normalized": [
+        "-19<x<19{-15(y-8.1)^{2}+96>z}{76<z}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "cd82523409cce998",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Partial axis bounds only",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "939"
+      ],
+      "example_latex": [
+        "-19<x<19\\ \\left\\{-15\\left(y-12.1\\right)^{2}+96>z\\right\\}\\left\\{76<z\\right\\}"
+      ],
+      "example_normalized": [
+        "-19<x<19{-15(y-12.1)^{2}+96>z}{76<z}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "d0b652e8afb1eb80",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Partial axis bounds only",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "720"
+      ],
+      "example_latex": [
+        "-19<x<19\\ \\left\\{-15\\left(y-12.1\\right)^{2}+72>z\\right\\}\\left\\{52<z\\right\\}"
+      ],
+      "example_normalized": [
+        "-19<x<19{-15(y-12.1)^{2}+72>z}{52<z}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "d1d490da055bd9fa",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Partial axis bounds only",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "940"
+      ],
+      "example_latex": [
+        "-19<x<19\\left\\{-15\\left(y-28.1\\right)^{2}+96>z\\right\\}\\left\\{76<z\\right\\}"
+      ],
+      "example_normalized": [
+        "-19<x<19{-15(y-28.1)^{2}+96>z}{76<z}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "d6ba546f2926f7cb",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Partial axis bounds only",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "675"
+      ],
+      "example_latex": [
+        "-19<x<19\\left\\{-15\\left(y-28.1\\right)^{2}+19>z\\right\\}\\left\\{0<z\\right\\}"
+      ],
+      "example_normalized": [
+        "-19<x<19{-15(y-28.1)^{2}+19>z}{0<z}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "e4b4d4aa17de7d9b",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Partial axis bounds only",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "651"
+      ],
+      "example_latex": [
+        "-19<x<19\\ \\left\\{-15\\left(y-8.1\\right)^{2}+19>z\\right\\}\\left\\{0<z\\right\\}"
+      ],
+      "example_normalized": [
+        "-19<x<19{-15(y-8.1)^{2}+19>z}{0<z}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "e518f9a76926485a",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Equation recognized but not yet meshable",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "933"
+      ],
+      "example_latex": [
+        "x=-0.33z+73\\ \\left\\{162<z<192\\right\\}\\left\\{z<4.7y+149\\right\\}\\left\\{z<-4.7y+336\\right\\}"
+      ],
+      "example_normalized": [
+        "x=-0.33z+73{162<z<192}{z<4.7y+149}{z<-4.7y+336}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "ee7defae11a17f89",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "325"
+      ],
+      "example_latex": [
+        "\\left(z-133\\right)^{2}+\\left(x+0\\right)^{2}<11^{2}\\ \\left\\{-4<y<44\\right\\}"
+      ],
+      "example_normalized": [
+        "(z-133)^{2}+(x+0)^{2}<11^{2}{-4<y<44}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "f4afac47b09a3f9f",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "330"
+      ],
+      "example_latex": [
+        "132<z<133\\left\\{\\left(z-133\\right)^{2}+\\left(x+0\\right)^{2}<7^{2}\\right\\}\\left\\{\\left(z-133\\right)^{2}+\\left(x+0\\right)^{2}>3^{2}\\right\\}\\ \\left\\{-4<y<44\\right\\}\\left\\{120<z<145\\right\\}"
+      ],
+      "example_normalized": [
+        "132<z<133{(z-133)^{2}+(x+0)^{2}<7^{2}}{(z-133)^{2}+(x+0)^{2}>3^{2}}{-4<y<44}{120<z<145}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "81551596301527de",
+      "family": "LINEAR_SURFACE_PATCH",
+      "status": "SUPPORTED",
+      "reason": "Explicit z=f(x,y) surface",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "617"
+      ],
+      "example_latex": [
+        "z=-3.7y+320\\left\\{205<z<260\\right\\}\\left\\{z<4.8x+248\\right\\}\\left\\{z<-4.8x+248\\right\\}"
+      ],
+      "example_normalized": [
+        "z=-3.7y+320{205<z<260}{z<4.8x+248}{z<-4.8x+248}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    }
+  ],
+  "diagnostics": [
+    {
+      "severity": "WARNING",
+      "code": "COVERAGE_MESH_FAILURES",
+      "message": "Some meshes failed during coverage pass (these items may be missing)",
+      "source_ref": null,
+      "details": {
+        "failed_mesh_count": 1,
+        "failures": [
+          {
+            "source_file": "[4B] 3D Diagram - S2-06 Group A.json",
+            "expression_id": "617",
+            "error": "Missing finite bounds for axis x"
+          }
+        ]
+      }
+    },
+    {
+      "severity": "INFO",
+      "code": "COVERAGE_COMPLETE",
+      "message": "Coverage report complete",
+      "source_ref": null,
+      "details": {
+        "file": "[4B] 3D Diagram - S2-06 Group A.json",
+        "meshed_expression_ids": 483,
+        "supported_but_not_meshed": 1,
+        "group_count": 35
+      }
+    }
+  ]
+}

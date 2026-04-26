@@ -1,0 +1,383 @@
+{
+  "version": 11,
+  "randomSeed": "8cfd6bc61f0af784389d9cfe3232b12a",
+  "graph": {
+    "viewport": {
+      "xmin": -120.78437621470667,
+      "ymin": -157.70371619852213,
+      "zmin": -125.15947793568948,
+      "xmax": 129.53457965667158,
+      "ymax": 92.61523967285683,
+      "zmax": 125.15947793568948
+    },
+    "worldRotation3D": [
+      3.1045512010348404e-17,
+      -1,
+      5.277855284743943e-17,
+      0.5070116874835013,
+      6.123233995736766e-17,
+      0.8619391792668044,
+      -0.8619391792668044,
+      0,
+      0.5070116874835013
+    ],
+    "axis3D": [
+      0,
+      0,
+      0.9999999999951819
+    ],
+    "product": "graphing-3d",
+    "threeDMode": true,
+    "__v12ViewportLatexStash": {
+      "xmin": "-120.78437621470667",
+      "xmax": "129.53457965667158",
+      "ymin": "-157.70371619852213",
+      "ymax": "92.61523967285683",
+      "zmin": "-125.15947793568948",
+      "zmax": "125.15947793568948"
+    }
+  },
+  "expressions": {
+    "list": [
+      {
+        "type": "expression",
+        "id": "8",
+        "color": "#aaaaaa",
+        "latex": "z=130\\ \\left\\{-10\\le x\\le10\\right\\}\\ \\left\\{-10\\le y\\le10\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "10",
+        "color": "#aaaaaa",
+        "latex": "A=\\left(0,0,150\\right)"
+      },
+      {
+        "type": "expression",
+        "id": "11",
+        "color": "#aaaaaa",
+        "latex": "B=\\left(10,-10,130\\right)"
+      },
+      {
+        "type": "expression",
+        "id": "12",
+        "color": "#aaaaaa",
+        "latex": "\\left[A,B\\right]"
+      },
+      {
+        "type": "expression",
+        "id": "13",
+        "color": "#aaaaaa",
+        "latex": "A+t\\left(B-A\\right)"
+      },
+      {
+        "type": "expression",
+        "id": "14",
+        "color": "#aaaaaa",
+        "latex": "C=\\left(-10,-10,130\\right)"
+      },
+      {
+        "type": "expression",
+        "id": "15",
+        "color": "#aaaaaa",
+        "latex": "\\left[A,C\\right]"
+      },
+      {
+        "type": "expression",
+        "id": "16",
+        "color": "#aaaaaa",
+        "latex": "A+t\\left(C-A\\right)"
+      },
+      {
+        "type": "expression",
+        "id": "17",
+        "color": "#aaaaaa",
+        "latex": "E=\\left(-10,10,130\\right)"
+      },
+      {
+        "type": "expression",
+        "id": "18",
+        "color": "#aaaaaa",
+        "latex": "\\left[A,E\\right]"
+      },
+      {
+        "type": "expression",
+        "id": "19",
+        "color": "#aaaaaa",
+        "latex": "A+t\\left(E-A\\right)"
+      },
+      {
+        "type": "expression",
+        "id": "23",
+        "color": "#aaaaaa",
+        "latex": "D=\\left(-10,10,130\\right)"
+      },
+      {
+        "type": "expression",
+        "id": "24",
+        "color": "#aaaaaa",
+        "latex": "\\left[A,D\\right]"
+      },
+      {
+        "type": "expression",
+        "id": "25",
+        "color": "#aaaaaa",
+        "latex": "A+t\\left(D-A\\right)"
+      },
+      {
+        "type": "expression",
+        "id": "26",
+        "color": "#aaaaaa",
+        "latex": "\\operatorname{triangle}\\left(A,B,C\\right)"
+      },
+      {
+        "type": "expression",
+        "id": "27",
+        "color": "#aaaaaa",
+        "latex": "\\operatorname{triangle}\\left(A,B,E\\right)"
+      },
+      {
+        "type": "expression",
+        "id": "28",
+        "color": "#aaaaaa",
+        "latex": "\\operatorname{triangle}\\left(A,C,D\\right)"
+      },
+      {
+        "type": "expression",
+        "id": "29",
+        "color": "#aaaaaa",
+        "latex": "\\operatorname{triangle}\\left(A,D,E\\right)"
+      },
+      {
+        "type": "expression",
+        "id": "30",
+        "color": "#aaaaaa",
+        "latex": "F=\\left(10,10,130\\right)"
+      },
+      {
+        "type": "expression",
+        "id": "31",
+        "color": "#aaaaaa",
+        "latex": "\\left[A,F\\right]"
+      },
+      {
+        "type": "expression",
+        "id": "32",
+        "color": "#aaaaaa",
+        "latex": "A+t\\left(F-A\\right)"
+      },
+      {
+        "type": "expression",
+        "id": "33",
+        "color": "#aaaaaa",
+        "latex": "\\operatorname{triangle}\\left(A,F,D\\right)"
+      },
+      {
+        "type": "expression",
+        "id": "34",
+        "color": "#aaaaaa",
+        "latex": "\\operatorname{triangle}\\left(A,F,B\\right)"
+      },
+      {
+        "type": "expression",
+        "id": "35",
+        "color": "#aaaaaa",
+        "latex": "G=\\left(\\left(20,20,0\\right)\\right)"
+      },
+      {
+        "type": "expression",
+        "id": "36",
+        "color": "#aaaaaa",
+        "latex": "\\left[A,G\\right]"
+      },
+      {
+        "type": "expression",
+        "id": "37",
+        "color": "#aaaaaa",
+        "latex": "F+t\\left(G-F\\right)"
+      },
+      {
+        "type": "expression",
+        "id": "38",
+        "color": "#aaaaaa",
+        "latex": "H=\\left(-20,20,0\\right)"
+      },
+      {
+        "type": "expression",
+        "id": "39",
+        "color": "#aaaaaa",
+        "latex": "\\left[A,H\\right]"
+      },
+      {
+        "type": "expression",
+        "id": "40",
+        "color": "#aaaaaa",
+        "latex": "D+t\\left(H-D\\right)"
+      },
+      {
+        "type": "expression",
+        "id": "41",
+        "color": "#aaaaaa",
+        "latex": "D+t\\left(F-D\\right)"
+      },
+      {
+        "type": "expression",
+        "id": "43",
+        "color": "#aaaaaa",
+        "latex": "H+t\\left(\\left(G-H\\right)\\right)"
+      },
+      {
+        "type": "expression",
+        "id": "44",
+        "color": "#aaaaaa",
+        "latex": "I=\\left(-20,-20,0\\right)"
+      },
+      {
+        "type": "expression",
+        "id": "48",
+        "color": "#aaaaaa",
+        "latex": "\\left[A,I\\right]"
+      },
+      {
+        "type": "expression",
+        "id": "46",
+        "color": "#aaaaaa",
+        "latex": "B+t\\left(J-B\\right)"
+      },
+      {
+        "type": "expression",
+        "id": "47",
+        "color": "#aaaaaa",
+        "latex": "J+t\\left(G-J\\right)"
+      },
+      {
+        "type": "expression",
+        "id": "45",
+        "color": "#aaaaaa",
+        "latex": "J=\\left(20,-20,0\\right)"
+      },
+      {
+        "type": "expression",
+        "id": "49",
+        "color": "#aaaaaa",
+        "latex": "\\left[A,J\\right]"
+      },
+      {
+        "type": "expression",
+        "id": "51",
+        "color": "#aaaaaa",
+        "latex": "I+t\\left(C-I\\right)"
+      },
+      {
+        "type": "expression",
+        "id": "52",
+        "color": "#aaaaaa",
+        "latex": "I+t\\left(J-I\\right)"
+      },
+      {
+        "type": "expression",
+        "id": "53",
+        "color": "#aaaaaa",
+        "latex": "H+t\\left(I-H\\right)"
+      },
+      {
+        "type": "expression",
+        "id": "55",
+        "color": "#aaaaaa",
+        "latex": "C+t\\left(D-C\\right)"
+      },
+      {
+        "type": "expression",
+        "id": "56",
+        "color": "#aaaaaa",
+        "latex": "B+t\\left(C-B\\right)"
+      },
+      {
+        "type": "expression",
+        "id": "57",
+        "color": "#aaaaaa",
+        "latex": "F+t\\left(B-F\\right)"
+      },
+      {
+        "type": "expression",
+        "id": "58",
+        "color": "#aaaaaa",
+        "latex": "x^{2}+y^{2}<=5000"
+      },
+      {
+        "type": "expression",
+        "id": "74",
+        "color": "#aaaaaa",
+        "latex": "x^{2}+y^{2}<=5000z=0"
+      },
+      {
+        "type": "expression",
+        "id": "63",
+        "color": "#aaaaaa",
+        "latex": "\\operatorname{triangle}(F,G,B)"
+      },
+      {
+        "type": "expression",
+        "id": "64",
+        "color": "#aaaaaa",
+        "latex": "\\operatorname{triangle}(G,J,B)"
+      },
+      {
+        "type": "expression",
+        "id": "68",
+        "color": "#aaaaaa",
+        "latex": "\\operatorname{triangle}(D,H,F)"
+      },
+      {
+        "type": "expression",
+        "id": "69",
+        "color": "#aaaaaa",
+        "latex": "\\operatorname{triangle}(H,G,F)"
+      },
+      {
+        "type": "expression",
+        "id": "70",
+        "color": "#aaaaaa",
+        "latex": "\\operatorname{triangle}(C,I,D)"
+      },
+      {
+        "type": "expression",
+        "id": "71",
+        "color": "#aaaaaa",
+        "latex": "\\operatorname{triangle}(I,H,D)"
+      },
+      {
+        "type": "expression",
+        "id": "72",
+        "color": "#aaaaaa",
+        "latex": "\\operatorname{triangle}(B,J,C)"
+      },
+      {
+        "type": "expression",
+        "id": "73",
+        "color": "#aaaaaa",
+        "latex": "\\operatorname{triangle}(J,I,C)"
+      },
+      {
+        "type": "expression",
+        "id": "92",
+        "color": "#388c46",
+        "latex": "k=[1,...,50]"
+      },
+      {
+        "type": "expression",
+        "id": "94",
+        "color": "#c74440",
+        "latex": "\\operatorname{triangle}\\left(\\left(75\\cos\\left(\\frac{2\\pi k}{50}\\right),75\\sin\\left(\\frac{2\\pi k}{50}\\right),15\\right),\\left(75\\cos\\left(\\frac{2\\pi k}{50}\\right),75\\sin\\left(\\frac{2\\pi k}{50}\\right),10\\right),\\left(82\\cos\\left(\\frac{2\\pi k}{50}\\right),82\\sin\\left(\\frac{2\\pi k}{50}\\right),15\\right)\\right)"
+      },
+      {
+        "type": "expression",
+        "id": "95",
+        "color": "#c74440",
+        "latex": "\\operatorname{triangle}\\left(\\left(75\\cos\\left(\\frac{2\\pi k}{50}\\right),75\\sin\\left(\\frac{2\\pi k}{50}\\right),10\\right),\\left(82\\cos\\left(\\frac{2\\pi k}{50}\\right),82\\sin\\left(\\frac{2\\pi k}{50}\\right),10\\right),\\left(82\\cos\\left(\\frac{2\\pi k}{50}\\right),82\\sin\\left(\\frac{2\\pi k}{50}\\right),15\\right)\\right)"
+      }
+    ]
+  },
+  "includeFunctionParametersInRandomSeed": true,
+  "doNotMigrate3dLineWidthZero": true,
+  "doNotMigrateMovablePointStyle": true
+}

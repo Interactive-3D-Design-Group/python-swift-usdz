@@ -1,0 +1,360 @@
+{
+  "version": 11,
+  "randomSeed": "f43d9987c42faf80af74fe2dadf1f8b0",
+  "graph": {
+    "viewport": {
+      "xmin": -38.80793777558709,
+      "ymin": -38.80793777558709,
+      "zmin": -38.80793777558709,
+      "xmax": 38.80793777558709,
+      "ymax": 38.80793777558709,
+      "zmax": 38.80793777558709
+    },
+    "worldRotation3D": [
+      0.9000851510750557,
+      0.42695416878157477,
+      0.0869301936854141,
+      -0.424976743637101,
+      0.9042732649813293,
+      -0.0410442396393202,
+      -0.09613265928784462,
+      3.489350766425611e-13,
+      0.9953685306549617
+    ],
+    "axis3D": [
+      0,
+      0,
+      0.9999999999988833
+    ],
+    "speed3D": 0.3725444282707208,
+    "product": "graphing-3d",
+    "threeDMode": true,
+    "__v12ViewportLatexStash": {
+      "xmin": "-38.80793777558709",
+      "xmax": "38.80793777558709",
+      "ymin": "-38.80793777558709",
+      "ymax": "38.80793777558709",
+      "zmin": "-38.80793777558709",
+      "zmax": "38.80793777558709"
+    }
+  },
+  "expressions": {
+    "list": [
+      {
+        "type": "expression",
+        "id": "71",
+        "color": "#2d70b3",
+        "latex": "(6.25-2.65*t,6.25-2.65*t,5.7*t)"
+      },
+      {
+        "type": "expression",
+        "id": "72",
+        "color": "#388c46",
+        "latex": "(-6.25+2.65*t,6.25-2.65*t,5.7*t)"
+      },
+      {
+        "type": "expression",
+        "id": "73",
+        "color": "#6042a6",
+        "latex": "(6.25-2.65*t,-6.25+2.65*t,5.7*t)"
+      },
+      {
+        "type": "expression",
+        "id": "74",
+        "color": "#aaaaaa",
+        "latex": "(-6.25+2.65*t,-6.25+2.65*t,5.7*t)"
+      },
+      {
+        "type": "expression",
+        "id": "75",
+        "color": "#c74440",
+        "latex": "(3.6-1.8*t,3.6-1.8*t,5.7+5.8*t)"
+      },
+      {
+        "type": "expression",
+        "id": "76",
+        "color": "#2d70b3",
+        "latex": "(-3.6+1.8*t,3.6-1.8*t,5.7+5.8*t)"
+      },
+      {
+        "type": "expression",
+        "id": "77",
+        "color": "#388c46",
+        "latex": "(3.6-1.8*t,-3.6+1.8*t,5.7+5.8*t)"
+      },
+      {
+        "type": "expression",
+        "id": "78",
+        "color": "#6042a6",
+        "latex": "(-3.6+1.8*t,-3.6+1.8*t,5.7+5.8*t)"
+      },
+      {
+        "type": "expression",
+        "id": "79",
+        "color": "#aaaaaa",
+        "latex": "(1.8-1.2*t,1.8-1.2*t,11.5+16.1*t)"
+      },
+      {
+        "type": "expression",
+        "id": "80",
+        "color": "#c74440",
+        "latex": "(-1.8+1.2*t,1.8-1.2*t,11.5+16.1*t)"
+      },
+      {
+        "type": "expression",
+        "id": "81",
+        "color": "#2d70b3",
+        "latex": "(1.8-1.2*t,-1.8+1.2*t,11.5+16.1*t)"
+      },
+      {
+        "type": "expression",
+        "id": "82",
+        "color": "#388c46",
+        "latex": "(-1.8+1.2*t,-1.8+1.2*t,11.5+16.1*t)"
+      },
+      {
+        "type": "expression",
+        "id": "83",
+        "color": "#6042a6",
+        "latex": "(0.6-0.6*t,0.6-0.6*t,27.6+2.4*t)"
+      },
+      {
+        "type": "expression",
+        "id": "84",
+        "color": "#aaaaaa",
+        "latex": "(-0.6+0.6*t,0.6-0.6*t,27.6+2.4*t)"
+      },
+      {
+        "type": "expression",
+        "id": "85",
+        "color": "#c74440",
+        "latex": "(0.6-0.6*t,-0.6+0.6*t,27.6+2.4*t)"
+      },
+      {
+        "type": "expression",
+        "id": "86",
+        "color": "#2d70b3",
+        "latex": "(-0.6+0.6*t,-0.6+0.6*t,27.6+2.4*t)"
+      },
+      {
+        "type": "expression",
+        "id": "87",
+        "color": "#388c46",
+        "latex": "(0,0,30+3*t)"
+      },
+      {
+        "type": "expression",
+        "id": "88",
+        "color": "#6042a6",
+        "latex": "(-3.9+7.8*t,3.9,5.7)"
+      },
+      {
+        "type": "expression",
+        "id": "89",
+        "color": "#aaaaaa",
+        "latex": "(3.9,-3.9+7.8*t,5.7)"
+      },
+      {
+        "type": "expression",
+        "id": "90",
+        "color": "#c74440",
+        "latex": "(3.9-7.8*t,-3.9,5.7)"
+      },
+      {
+        "type": "expression",
+        "id": "91",
+        "color": "#2d70b3",
+        "latex": "(-3.9,3.9-7.8*t,5.7)"
+      },
+      {
+        "type": "expression",
+        "id": "92",
+        "color": "#388c46",
+        "latex": "(-1.9+3.8*t,1.9,11.5)"
+      },
+      {
+        "type": "expression",
+        "id": "93",
+        "color": "#6042a6",
+        "latex": "(1.9,-1.9+3.8*t,11.5)"
+      },
+      {
+        "type": "expression",
+        "id": "94",
+        "color": "#aaaaaa",
+        "latex": "(1.9-3.8*t,-1.9,11.5)"
+      },
+      {
+        "type": "expression",
+        "id": "95",
+        "color": "#c74440",
+        "latex": "(-1.9,1.9-3.8*t,11.5)"
+      },
+      {
+        "type": "expression",
+        "id": "96",
+        "color": "#2d70b3",
+        "latex": "(-0.7+1.4*t,0.7,27.6)"
+      },
+      {
+        "type": "expression",
+        "id": "97",
+        "color": "#388c46",
+        "latex": "(0.7,-0.7+1.4*t,27.6)"
+      },
+      {
+        "type": "expression",
+        "id": "98",
+        "color": "#6042a6",
+        "latex": "(0.7-1.4*t,-0.7,27.6)"
+      },
+      {
+        "type": "expression",
+        "id": "99",
+        "color": "#aaaaaa",
+        "latex": "(-0.7,0.7-1.4*t,27.6)"
+      },
+      {
+        "type": "expression",
+        "id": "100",
+        "color": "#c74440",
+        "latex": "(6.25-12.5*t,6.25,0)"
+      },
+      {
+        "type": "expression",
+        "id": "101",
+        "color": "#2d70b3",
+        "latex": "(6.25,-6.25+12.5*t,0)"
+      },
+      {
+        "type": "expression",
+        "id": "102",
+        "color": "#388c46",
+        "latex": "(-6.25+12.5*t,-6.25,0)"
+      },
+      {
+        "type": "expression",
+        "id": "103",
+        "color": "#6042a6",
+        "latex": "(-6.25,6.25-12.5*t,0)"
+      },
+      {
+        "type": "expression",
+        "id": "104",
+        "color": "#aaaaaa",
+        "latex": "(3.1*(2*t-1),4.7,1+4.7*(1-(2*t-1)^2))"
+      },
+      {
+        "type": "expression",
+        "id": "105",
+        "color": "#c74440",
+        "latex": "(3.1*(2*t-1),-4.7,1+4.7*(1-(2*t-1)^2))"
+      },
+      {
+        "type": "expression",
+        "id": "106",
+        "color": "#2d70b3",
+        "latex": "(4.7,3.1*(2*t-1),1+4.7*(1-(2*t-1)^2))"
+      },
+      {
+        "type": "expression",
+        "id": "107",
+        "color": "#388c46",
+        "latex": "(-4.7,3.1*(2*t-1),1+4.7*(1-(2*t-1)^2))"
+      },
+      {
+        "type": "expression",
+        "id": "108",
+        "color": "#6042a6",
+        "latex": "(-6.25+9.85*t,6.25-2.65*t,5.7*t)"
+      },
+      {
+        "type": "expression",
+        "id": "109",
+        "color": "#aaaaaa",
+        "latex": "(6.25-9.85*t,6.25-2.65*t,5.7*t)"
+      },
+      {
+        "type": "expression",
+        "id": "110",
+        "color": "#c74440",
+        "latex": "(-6.25+9.85*t,-6.25+2.65*t,5.7*t)"
+      },
+      {
+        "type": "expression",
+        "id": "111",
+        "color": "#2d70b3",
+        "latex": "(6.25-9.85*t,-6.25+2.65*t,5.7*t)"
+      },
+      {
+        "type": "expression",
+        "id": "113",
+        "color": "#6042a6",
+        "latex": "(7.8*(u-0.5),7.8*(v-0.5),5.7)"
+      },
+      {
+        "type": "expression",
+        "id": "114",
+        "color": "#aaaaaa",
+        "latex": "(3.8*(u-0.5),3.8*(v-0.5),11.5)"
+      },
+      {
+        "type": "expression",
+        "id": "115",
+        "color": "#c74440",
+        "latex": "(1.4*(u-0.5),1.4*(v-0.5),27.6)"
+      },
+      {
+        "type": "expression",
+        "id": "122",
+        "color": "#388c46",
+        "latex": "(((1-v)*3.9+v*1.9)*(2*u-1),(1-v)*3.9+v*1.9,5.7+5.8*v)"
+      },
+      {
+        "type": "expression",
+        "id": "123",
+        "color": "#6042a6",
+        "latex": "(((1-v)*3.9+v*1.9)*(2*u-1),-((1-v)*3.9+v*1.9),5.7+5.8*v)"
+      },
+      {
+        "type": "expression",
+        "id": "124",
+        "color": "#aaaaaa",
+        "latex": "((1-v)*3.9+v*1.9,((1-v)*3.9+v*1.9)*(2*u-1),5.7+5.8*v)"
+      },
+      {
+        "type": "expression",
+        "id": "125",
+        "color": "#c74440",
+        "latex": "(-((1-v)*3.9+v*1.9),((1-v)*3.9+v*1.9)*(2*u-1),5.7+5.8*v)"
+      },
+      {
+        "type": "expression",
+        "id": "127",
+        "color": "#388c46",
+        "latex": "(((1-v)*1.9+v*0.7)*(2*u-1),(1-v)*1.9+v*0.7,11.5+16.1*v)"
+      },
+      {
+        "type": "expression",
+        "id": "128",
+        "color": "#6042a6",
+        "latex": "(((1-v)*1.9+v*0.7)*(2*u-1),-((1-v)*1.9+v*0.7),11.5+16.1*v)"
+      },
+      {
+        "type": "expression",
+        "id": "129",
+        "color": "#aaaaaa",
+        "latex": "((1-v)*1.9+v*0.7,((1-v)*1.9+v*0.7)*(2*u-1),11.5+16.1*v)"
+      },
+      {
+        "type": "expression",
+        "id": "130",
+        "color": "#c74440",
+        "latex": "(-((1-v)*1.9+v*0.7),((1-v)*1.9+v*0.7)*(2*u-1),11.5+16.1*v)"
+      }
+    ]
+  },
+  "includeFunctionParametersInRandomSeed": true,
+  "doNotMigrate3dLineWidthZero": true,
+  "doNotMigrateMovablePointStyle": true
+}

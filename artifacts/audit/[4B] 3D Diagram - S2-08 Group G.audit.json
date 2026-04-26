@@ -1,0 +1,870 @@
+{
+  "source_file": "[4B] 3D Diagram - S2-08 Group G.json",
+  "total_expressions": 1316,
+  "supported_count": 1218,
+  "recognized_unsupported_count": 0,
+  "unrecognized_count": 35,
+  "geometry_ineligible_count": 63,
+  "per_folder_summary": [
+    {
+      "folder_id": null,
+      "folder_name": null,
+      "total": 51,
+      "supported": 0,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 51
+    },
+    {
+      "folder_id": "475",
+      "folder_name": "1st Base Small Braces (Bottom Inside)",
+      "total": 13,
+      "supported": 13,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 0
+    },
+    {
+      "folder_id": "532",
+      "folder_name": "1st Base Small Braces (Bottom Inside)",
+      "total": 16,
+      "supported": 16,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 0
+    },
+    {
+      "folder_id": "547",
+      "folder_name": "1st Base Small Braces (Bottom Inside)",
+      "total": 13,
+      "supported": 13,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 0
+    },
+    {
+      "folder_id": "564",
+      "folder_name": "1st Base Small Braces (Bottom Inside)",
+      "total": 13,
+      "supported": 13,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 0
+    },
+    {
+      "folder_id": "400",
+      "folder_name": "1st Base Small Braces (Bottom)",
+      "total": 24,
+      "supported": 24,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 0
+    },
+    {
+      "folder_id": "425",
+      "folder_name": "1st Base Small Braces (Left)",
+      "total": 24,
+      "supported": 24,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 0
+    },
+    {
+      "folder_id": "450",
+      "folder_name": "1st Base Small Braces (Right)",
+      "total": 24,
+      "supported": 24,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 0
+    },
+    {
+      "folder_id": "357",
+      "folder_name": "1st Base Small Braces (Top)",
+      "total": 24,
+      "supported": 24,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 0
+    },
+    {
+      "folder_id": "83",
+      "folder_name": "1st Bases",
+      "total": 4,
+      "supported": 4,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 0
+    },
+    {
+      "folder_id": "89",
+      "folder_name": "1st Level Base Supports (bottom left)",
+      "total": 4,
+      "supported": 4,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 0
+    },
+    {
+      "folder_id": "90",
+      "folder_name": "1st Level Base Supports (bottom right)",
+      "total": 4,
+      "supported": 4,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 0
+    },
+    {
+      "folder_id": "88",
+      "folder_name": "1st Level Base Supports (top left)",
+      "total": 4,
+      "supported": 4,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 0
+    },
+    {
+      "folder_id": "87",
+      "folder_name": "1st Level Base Supports (top right)",
+      "total": 4,
+      "supported": 4,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 0
+    },
+    {
+      "folder_id": "619",
+      "folder_name": "2nd Base Braces",
+      "total": 34,
+      "supported": 34,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 0
+    },
+    {
+      "folder_id": "656",
+      "folder_name": "2nd Base Braces",
+      "total": 34,
+      "supported": 34,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 0
+    },
+    {
+      "folder_id": "726",
+      "folder_name": "2nd Base Braces",
+      "total": 34,
+      "supported": 34,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 0
+    },
+    {
+      "folder_id": "762",
+      "folder_name": "2nd Base Braces",
+      "total": 34,
+      "supported": 34,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 0
+    },
+    {
+      "folder_id": "84",
+      "folder_name": "2nd Level Base (with hole)",
+      "total": 8,
+      "supported": 8,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 0
+    },
+    {
+      "folder_id": "231",
+      "folder_name": "3rd Base Straight Braces",
+      "total": 4,
+      "supported": 3,
+      "recognized_unsupported": 0,
+      "unrecognized": 1,
+      "geometry_ineligible": 0
+    },
+    {
+      "folder_id": "85",
+      "folder_name": "3rd Level Base",
+      "total": 2,
+      "supported": 2,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 0
+    },
+    {
+      "folder_id": "819",
+      "folder_name": "3rd Level Braces outside left 1",
+      "total": 92,
+      "supported": 92,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 0
+    },
+    {
+      "folder_id": "1179",
+      "folder_name": "3rd Level Braces outside left 2",
+      "total": 94,
+      "supported": 94,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 0
+    },
+    {
+      "folder_id": "1367",
+      "folder_name": "3rd Level Braces outside left 3",
+      "total": 93,
+      "supported": 93,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 0
+    },
+    {
+      "folder_id": "1745",
+      "folder_name": "3rd Level Braces outside left 4",
+      "total": 93,
+      "supported": 93,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 0
+    },
+    {
+      "folder_id": "900",
+      "folder_name": "3rd Level Braces outside right 1",
+      "total": 92,
+      "supported": 92,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 0
+    },
+    {
+      "folder_id": "1460",
+      "folder_name": "3rd Level Braces outside right 2",
+      "total": 93,
+      "supported": 93,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 0
+    },
+    {
+      "folder_id": "1839",
+      "folder_name": "3rd Level Braces outside right 3",
+      "total": 93,
+      "supported": 93,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 0
+    },
+    {
+      "folder_id": "1272",
+      "folder_name": "3rd Level Braces outside right 4",
+      "total": 93,
+      "supported": 93,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 0
+    },
+    {
+      "folder_id": "818",
+      "folder_name": "4 Braces 4th Base",
+      "total": 4,
+      "supported": 4,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 0
+    },
+    {
+      "folder_id": "91",
+      "folder_name": "4 Curved Lines (Main Structure)",
+      "total": 5,
+      "supported": 0,
+      "recognized_unsupported": 0,
+      "unrecognized": 5,
+      "geometry_ineligible": 0
+    },
+    {
+      "folder_id": "98",
+      "folder_name": "4 Lines Outlining the hole @ 3rd Base",
+      "total": 4,
+      "supported": 3,
+      "recognized_unsupported": 0,
+      "unrecognized": 1,
+      "geometry_ineligible": 0
+    },
+    {
+      "folder_id": "797",
+      "folder_name": "4th Base Top",
+      "total": 5,
+      "supported": 4,
+      "recognized_unsupported": 0,
+      "unrecognized": 1,
+      "geometry_ineligible": 0
+    },
+    {
+      "folder_id": "86",
+      "folder_name": "4th Level Base",
+      "total": 3,
+      "supported": 3,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 0
+    },
+    {
+      "folder_id": "92",
+      "folder_name": "8 Middle Curved Lines",
+      "total": 9,
+      "supported": 0,
+      "recognized_unsupported": 0,
+      "unrecognized": 9,
+      "geometry_ineligible": 0
+    },
+    {
+      "folder_id": "239",
+      "folder_name": "Braces 1st Base",
+      "total": 92,
+      "supported": 92,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 0
+    },
+    {
+      "folder_id": "125",
+      "folder_name": "Curved Brace @ 1st Base",
+      "total": 4,
+      "supported": 4,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 0
+    },
+    {
+      "folder_id": "616",
+      "folder_name": "Curved Line Inside @ Base 2",
+      "total": 4,
+      "supported": 0,
+      "recognized_unsupported": 0,
+      "unrecognized": 4,
+      "geometry_ineligible": 0
+    },
+    {
+      "folder_id": "600",
+      "folder_name": "Diagonal Bracing Under 2nd Base",
+      "total": 5,
+      "supported": 0,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 5
+    },
+    {
+      "folder_id": "1933",
+      "folder_name": "Diagonal Bracing Under 3nd Base",
+      "total": 5,
+      "supported": 0,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 5
+    },
+    {
+      "folder_id": "117",
+      "folder_name": "Diagonal Lines Above Base 3",
+      "total": 8,
+      "supported": 8,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 0
+    },
+    {
+      "folder_id": "1948",
+      "folder_name": "Grass",
+      "total": 1,
+      "supported": 1,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 0
+    },
+    {
+      "folder_id": "617",
+      "folder_name": "Inside Curve Line",
+      "total": 14,
+      "supported": 14,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 0
+    },
+    {
+      "folder_id": "214",
+      "folder_name": "Middle Line Connecting Diagonals",
+      "total": 4,
+      "supported": 4,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 0
+    },
+    {
+      "folder_id": "594",
+      "folder_name": "Railing @ 2nd Base",
+      "total": 5,
+      "supported": 0,
+      "recognized_unsupported": 0,
+      "unrecognized": 4,
+      "geometry_ineligible": 1
+    },
+    {
+      "folder_id": "606",
+      "folder_name": "Small Railing @ 2nd Base",
+      "total": 9,
+      "supported": 0,
+      "recognized_unsupported": 0,
+      "unrecognized": 8,
+      "geometry_ineligible": 1
+    },
+    {
+      "folder_id": "130",
+      "folder_name": "Straight Brace for 2nd Base",
+      "total": 4,
+      "supported": 3,
+      "recognized_unsupported": 0,
+      "unrecognized": 1,
+      "geometry_ineligible": 0
+    },
+    {
+      "folder_id": "129",
+      "folder_name": "Straight Braces @ 1st Base (connected curved)",
+      "total": 4,
+      "supported": 3,
+      "recognized_unsupported": 0,
+      "unrecognized": 1,
+      "geometry_ineligible": 0
+    },
+    {
+      "folder_id": "1939",
+      "folder_name": "Top thing",
+      "total": 4,
+      "supported": 4,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 0
+    },
+    {
+      "folder_id": "222",
+      "folder_name": "Walls of 2nd Base",
+      "total": 4,
+      "supported": 4,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 0
+    },
+    {
+      "folder_id": "233",
+      "folder_name": "Walls of 3rd Base",
+      "total": 4,
+      "supported": 4,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 0
+    }
+  ],
+  "unsupported_expressions": [
+    {
+      "expression_id": "105",
+      "folder": "Straight Braces @ 1st Base (connected curved)",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "3179868d7aafe0bb",
+      "latex": "(t,42,-120)",
+      "normalized_latex": "(t,42,-120)"
+    },
+    {
+      "expression_id": "112",
+      "folder": "Straight Brace for 2nd Base",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "e37d3baa8cf3bbfd",
+      "latex": "(t,37,-111)",
+      "normalized_latex": "(t,37,-111)"
+    },
+    {
+      "expression_id": "94",
+      "folder": "4 Lines Outlining the hole @ 3rd Base",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "974c63a8a8038917",
+      "latex": "(t,15.6,-60)",
+      "normalized_latex": "(t,15.6,-60)"
+    },
+    {
+      "expression_id": "229",
+      "folder": "3rd Base Straight Braces",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "cb736825c6ce6872",
+      "latex": "(t,14.3,-52)",
+      "normalized_latex": "(t,14.3,-52)"
+    },
+    {
+      "expression_id": "58",
+      "folder": "4 Curved Lines (Main Structure)",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "f068e10771fdf9f6",
+      "latex": "p\\left(t\\right)=3.2\\cdot\\left(28\\cdot e^{-0.045t}+1.4\\right)",
+      "normalized_latex": "p(t)=3.2*(28*e^-0.045t+1.4)"
+    },
+    {
+      "expression_id": "61",
+      "folder": "4 Curved Lines (Main Structure)",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "cda6442f10cd9f25",
+      "latex": "\\left(p\\left(t\\right),p\\left(t\\right),2.5t-175\\right)",
+      "normalized_latex": "(p(t),p(t),2.5t-175)"
+    },
+    {
+      "expression_id": "63",
+      "folder": "4 Curved Lines (Main Structure)",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "af9755106bd3f612",
+      "latex": "\\left(-p\\left(t\\right),p\\left(t\\right),2.5t-175\\right)",
+      "normalized_latex": "(-p(t),p(t),2.5t-175)"
+    },
+    {
+      "expression_id": "64",
+      "folder": "4 Curved Lines (Main Structure)",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "0ebc099ed65de9c6",
+      "latex": "\\left(p\\left(t\\right),-p\\left(t\\right),2.5t-175\\right)",
+      "normalized_latex": "(p(t),-p(t),2.5t-175)"
+    },
+    {
+      "expression_id": "65",
+      "folder": "4 Curved Lines (Main Structure)",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "4455a03316b1aff1",
+      "latex": "\\left(-p\\left(t\\right),-p\\left(t\\right),2.5t-175\\right)",
+      "normalized_latex": "(-p(t),-p(t),2.5t-175)"
+    },
+    {
+      "expression_id": "66",
+      "folder": "8 Middle Curved Lines",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "d644bb44195ce65c",
+      "latex": "h\\left(t\\right)=3.2\\cdot\\left(32.5\\cdot e^{-0.055t}+2.2\\right)",
+      "normalized_latex": "h(t)=3.2*(32.5*e^-0.055t+2.2)"
+    },
+    {
+      "expression_id": "71",
+      "folder": "8 Middle Curved Lines",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "c506d2a53ee6d5c0",
+      "latex": "\\left(h\\left(t\\right),-h\\left(t\\right)\\cdot0.42,\\ 2.5\\cdot t-175\\right)",
+      "normalized_latex": "(h(t),-h(t)*0.42,2.5*t-175)"
+    },
+    {
+      "expression_id": "73",
+      "folder": "8 Middle Curved Lines",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "1d52ba95157fe420",
+      "latex": "\\left(h\\left(t\\right),h\\left(t\\right)\\cdot0.42,\\ 2.5\\cdot t-175\\right)",
+      "normalized_latex": "(h(t),h(t)*0.42,2.5*t-175)"
+    },
+    {
+      "expression_id": "74",
+      "folder": "8 Middle Curved Lines",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "82a56618710a3cf1",
+      "latex": "\\left(-h\\left(t\\right),-h\\left(t\\right)\\cdot0.42,\\ 2.5\\cdot t-175\\right)",
+      "normalized_latex": "(-h(t),-h(t)*0.42,2.5*t-175)"
+    },
+    {
+      "expression_id": "75",
+      "folder": "8 Middle Curved Lines",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "cb80d4be185161e1",
+      "latex": "\\left(-h\\left(t\\right),h\\left(t\\right)\\cdot0.42,\\ 2.5\\cdot t-175\\right)",
+      "normalized_latex": "(-h(t),h(t)*0.42,2.5*t-175)"
+    },
+    {
+      "expression_id": "76",
+      "folder": "8 Middle Curved Lines",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "4fc7f683b6ffe2d3",
+      "latex": "\\left(-h\\left(t\\right)\\cdot0.42,-h\\left(t\\right),2.5\\cdot t-175\\right)",
+      "normalized_latex": "(-h(t)*0.42,-h(t),2.5*t-175)"
+    },
+    {
+      "expression_id": "77",
+      "folder": "8 Middle Curved Lines",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "9350733e9615d60c",
+      "latex": "\\left(-h\\left(t\\right)\\cdot0.42,h\\left(t\\right),2.5\\cdot t-175\\right)",
+      "normalized_latex": "(-h(t)*0.42,h(t),2.5*t-175)"
+    },
+    {
+      "expression_id": "78",
+      "folder": "8 Middle Curved Lines",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "af8fd4346bc32d54",
+      "latex": "\\left(h\\left(t\\right)\\cdot0.42,-h\\left(t\\right),2.5\\cdot t-175\\right)",
+      "normalized_latex": "(h(t)*0.42,-h(t),2.5*t-175)"
+    },
+    {
+      "expression_id": "79",
+      "folder": "8 Middle Curved Lines",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "07a23d60c98350b6",
+      "latex": "\\left(h\\left(t\\right)\\cdot0.42,h\\left(t\\right),2.5\\cdot t-175\\right)",
+      "normalized_latex": "(h(t)*0.42,h(t),2.5*t-175)"
+    },
+    {
+      "expression_id": "338",
+      "folder": "Curved Line Inside @ Base 2",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "23ee5817ce357b6e",
+      "latex": "\\left(-p\\left(t\\right),-p\\left(t\\right),1.3t-175\\right)",
+      "normalized_latex": "(-p(t),-p(t),1.3t-175)"
+    },
+    {
+      "expression_id": "339",
+      "folder": "Curved Line Inside @ Base 2",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "bff5a5cb9c68ec6a",
+      "latex": "\\left(p\\left(t\\right),-p\\left(t\\right),1.3t-175\\right)",
+      "normalized_latex": "(p(t),-p(t),1.3t-175)"
+    },
+    {
+      "expression_id": "340",
+      "folder": "Curved Line Inside @ Base 2",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "ab0254dcd509f81d",
+      "latex": "\\left(-p\\left(t\\right),p\\left(t\\right),1.3t-175\\right)",
+      "normalized_latex": "(-p(t),p(t),1.3t-175)"
+    },
+    {
+      "expression_id": "341",
+      "folder": "Curved Line Inside @ Base 2",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "0425493ec29d7838",
+      "latex": "\\left(p\\left(t\\right),p\\left(t\\right),1.3t-175\\right)",
+      "normalized_latex": "(p(t),p(t),1.3t-175)"
+    },
+    {
+      "expression_id": "596",
+      "folder": "Railing @ 2nd Base",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "a0c5c726d38c6405",
+      "latex": "\\left(-S,\\left[-S,-S+\\frac{S+S}{20}...S\\right],-107.5+t\\right)",
+      "normalized_latex": "(-S,[-S,-S+(S+S)/(20)...S],-107.5+t)"
+    },
+    {
+      "expression_id": "597",
+      "folder": "Railing @ 2nd Base",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "dfb13923ca8eb585",
+      "latex": "\\left(S,\\left[-S,-S+\\frac{S+S}{20}...S\\right],-107.5+t\\right)",
+      "normalized_latex": "(S,[-S,-S+(S+S)/(20)...S],-107.5+t)"
+    },
+    {
+      "expression_id": "598",
+      "folder": "Railing @ 2nd Base",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "1283a0f95580e8af",
+      "latex": "\\left(\\left[-S,-S+\\frac{S+S}{20}...S\\right],S,-107.5+t\\right)",
+      "normalized_latex": "([-S,-S+(S+S)/(20)...S],S,-107.5+t)"
+    },
+    {
+      "expression_id": "599",
+      "folder": "Railing @ 2nd Base",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "f362d62106cc207a",
+      "latex": "\\left(\\left[-S,-S+\\frac{S+S}{20}...S\\right],-S,-107.5+t\\right)",
+      "normalized_latex": "([-S,-S+(S+S)/(20)...S],-S,-107.5+t)"
+    },
+    {
+      "expression_id": "607",
+      "folder": "Small Railing @ 2nd Base",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "f4dd07608b8b13af",
+      "latex": "\\left(-S,\\left[-S,-S+\\frac{S+S}{80}...S\\right],-107.5+t\\right)\\left\\{0<t<1\\right\\}",
+      "normalized_latex": "(-S,[-S,-S+(S+S)/(80)...S],-107.5+t){0<t<1}"
+    },
+    {
+      "expression_id": "608",
+      "folder": "Small Railing @ 2nd Base",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "702572ea38f54636",
+      "latex": "\\left(-S,t,-107.5+1\\right)",
+      "normalized_latex": "(-S,t,-107.5+1)"
+    },
+    {
+      "expression_id": "609",
+      "folder": "Small Railing @ 2nd Base",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "82f336bee7527b0a",
+      "latex": "\\left(S,\\left[-S,-S+\\frac{S+S}{80}...S\\right],-107.5+t\\right)\\left\\{0<t<1\\right\\}",
+      "normalized_latex": "(S,[-S,-S+(S+S)/(80)...S],-107.5+t){0<t<1}"
+    },
+    {
+      "expression_id": "610",
+      "folder": "Small Railing @ 2nd Base",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "fbf2279a2be00bbc",
+      "latex": "\\left(S,t,-107.5+1\\right)",
+      "normalized_latex": "(S,t,-107.5+1)"
+    },
+    {
+      "expression_id": "611",
+      "folder": "Small Railing @ 2nd Base",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "24c48290d5e1aa9b",
+      "latex": "\\left(\\left[-S,-S+\\frac{S+S}{80}...S\\right],S,-107.5+t\\right)\\left\\{0<t<1\\right\\}",
+      "normalized_latex": "([-S,-S+(S+S)/(80)...S],S,-107.5+t){0<t<1}"
+    },
+    {
+      "expression_id": "612",
+      "folder": "Small Railing @ 2nd Base",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "7a50d645119f9e75",
+      "latex": "\\left(t,S,-107.5+1\\right)",
+      "normalized_latex": "(t,S,-107.5+1)"
+    },
+    {
+      "expression_id": "613",
+      "folder": "Small Railing @ 2nd Base",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "d1a96c89a8dd123c",
+      "latex": "\\left(\\left[-S,-S+\\frac{S+S}{80}...S\\right],-S,-107.5+t\\right)\\left\\{0<t<1\\right\\}",
+      "normalized_latex": "([-S,-S+(S+S)/(80)...S],-S,-107.5+t){0<t<1}"
+    },
+    {
+      "expression_id": "614",
+      "folder": "Small Railing @ 2nd Base",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "5902a181c3727256",
+      "latex": "\\left(t,-S,-107.5+1\\right)",
+      "normalized_latex": "(t,-S,-107.5+1)"
+    },
+    {
+      "expression_id": "761",
+      "folder": "4th Base Top",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "d45404c5cab9e119",
+      "latex": "x^{2}+y^{2}+\\left(z-123\\right)^{2}=80\\left\\{z>122.5\\right\\}",
+      "normalized_latex": "x^2+y^2+(z-123)^2=80{z>122.5}"
+    }
+  ],
+  "unknown_fingerprints": [
+    "0425493ec29d7838",
+    "07a23d60c98350b6",
+    "0ebc099ed65de9c6",
+    "1283a0f95580e8af",
+    "1d52ba95157fe420",
+    "23ee5817ce357b6e",
+    "24c48290d5e1aa9b",
+    "3179868d7aafe0bb",
+    "4455a03316b1aff1",
+    "4fc7f683b6ffe2d3",
+    "5902a181c3727256",
+    "702572ea38f54636",
+    "7a50d645119f9e75",
+    "82a56618710a3cf1",
+    "82f336bee7527b0a",
+    "9350733e9615d60c",
+    "974c63a8a8038917",
+    "a0c5c726d38c6405",
+    "ab0254dcd509f81d",
+    "af8fd4346bc32d54",
+    "af9755106bd3f612",
+    "bff5a5cb9c68ec6a",
+    "c506d2a53ee6d5c0",
+    "cb736825c6ce6872",
+    "cb80d4be185161e1",
+    "cda6442f10cd9f25",
+    "d1a96c89a8dd123c",
+    "d45404c5cab9e119",
+    "d644bb44195ce65c",
+    "dfb13923ca8eb585",
+    "e37d3baa8cf3bbfd",
+    "f068e10771fdf9f6",
+    "f362d62106cc207a",
+    "f4dd07608b8b13af",
+    "fbf2279a2be00bbc"
+  ],
+  "diagnostics": [
+    {
+      "severity": "INFO",
+      "code": "AUDIT_COMPLETE",
+      "message": "Audit classification complete",
+      "source_ref": null,
+      "details": {
+        "file": "[4B] 3D Diagram - S2-08 Group G.json"
+      }
+    }
+  ],
+  "status": "PARTIAL"
+}

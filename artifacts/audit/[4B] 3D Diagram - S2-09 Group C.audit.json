@@ -1,0 +1,136 @@
+{
+  "source_file": "[4B] 3D Diagram - S2-09 Group C.json",
+  "total_expressions": 91,
+  "supported_count": 76,
+  "recognized_unsupported_count": 0,
+  "unrecognized_count": 1,
+  "geometry_ineligible_count": 14,
+  "per_folder_summary": [
+    {
+      "folder_id": null,
+      "folder_name": null,
+      "total": 21,
+      "supported": 9,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 12
+    },
+    {
+      "folder_id": "60",
+      "folder_name": "bottom pillars",
+      "total": 15,
+      "supported": 15,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 0
+    },
+    {
+      "folder_id": "97",
+      "folder_name": "bottom step (third step)",
+      "total": 1,
+      "supported": 1,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 0
+    },
+    {
+      "folder_id": "26",
+      "folder_name": "for pillar",
+      "total": 3,
+      "supported": 0,
+      "recognized_unsupported": 0,
+      "unrecognized": 1,
+      "geometry_ineligible": 2
+    },
+    {
+      "folder_id": "58",
+      "folder_name": "left, short side pillars",
+      "total": 8,
+      "supported": 8,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 0
+    },
+    {
+      "folder_id": "57",
+      "folder_name": "right, short side pillars",
+      "total": 8,
+      "supported": 8,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 0
+    },
+    {
+      "folder_id": "87",
+      "folder_name": "second stair",
+      "total": 5,
+      "supported": 5,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 0
+    },
+    {
+      "folder_id": "83",
+      "folder_name": "stylobate (top stair)",
+      "total": 5,
+      "supported": 5,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 0
+    },
+    {
+      "folder_id": "100",
+      "folder_name": "thing below the triangle roof",
+      "total": 6,
+      "supported": 6,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 0
+    },
+    {
+      "folder_id": "64",
+      "folder_name": "top pillars",
+      "total": 15,
+      "supported": 15,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 0
+    },
+    {
+      "folder_id": "120",
+      "folder_name": "triangle roof",
+      "total": 4,
+      "supported": 4,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 0
+    }
+  ],
+  "unsupported_expressions": [
+    {
+      "expression_id": "16",
+      "folder": "for pillar",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "71958a4f0bd3dd20",
+      "latex": "\\left(x+a\\right)^{2}+\\left(y+b\\right)^{2}=0.9025\\ \\left\\{0<z<13.72\\right\\}",
+      "normalized_latex": "(x+a)^2+(y+b)^2=0.9025{0<z<13.72}"
+    }
+  ],
+  "unknown_fingerprints": [
+    "71958a4f0bd3dd20"
+  ],
+  "diagnostics": [
+    {
+      "severity": "INFO",
+      "code": "AUDIT_COMPLETE",
+      "message": "Audit classification complete",
+      "source_ref": null,
+      "details": {
+        "file": "[4B] 3D Diagram - S2-09 Group C.json"
+      }
+    }
+  ],
+  "status": "PARTIAL"
+}

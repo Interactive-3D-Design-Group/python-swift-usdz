@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "mesh_count": 1,
+  "failed_mesh_count": 0,
+  "meshes": [
+    {
+      "name": "[4B] 3D Diagram - S2-10 Group C_52",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-10 Group C_52.obj",
+      "color": "#888888",
+      "source_file": "[4B] 3D Diagram - S2-10 Group C.json",
+      "expression_id": "52",
+      "family": "CONSTANT_PLANE",
+      "bounds": {
+        "min": [
+          -2.0,
+          -2.0,
+          0.0
+        ],
+        "max": [
+          2.0,
+          2.0,
+          0.0
+        ]
+      }
+    }
+  ],
+  "failures": []
+}

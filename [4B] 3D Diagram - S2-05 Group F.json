@@ -1,0 +1,370 @@
+{
+  "version": 11,
+  "randomSeed": "fb95bb49f5fec0a332102235b4ef7597",
+  "graph": {
+    "viewport": {
+      "xmin": -143.71285090972216,
+      "ymin": -146.37793652021477,
+      "zmin": -144.88774064530296,
+      "xmax": 146.0626303808846,
+      "ymax": 143.39754477039114,
+      "zmax": 144.88774064530296
+    },
+    "worldRotation3D": [
+      0.30347066831510616,
+      0.9340312151260293,
+      0.1883911957674125,
+      -0.7935551777779632,
+      0.3571913901122082,
+      -0.4926301763509857,
+      -0.5274236753258928,
+      4.090599028699485e-13,
+      0.8496024168432045
+    ],
+    "axis3D": [
+      0,
+      0,
+      0.9999999999951819
+    ],
+    "product": "graphing-3d",
+    "threeDMode": true,
+    "__v12ViewportLatexStash": {
+      "xmin": "-143.71285090972216",
+      "xmax": "146.0626303808846",
+      "ymin": "-146.37793652021477",
+      "ymax": "143.39754477039114",
+      "zmin": "-144.88774064530296",
+      "zmax": "144.88774064530296"
+    }
+  },
+  "expressions": {
+    "list": [
+      {
+        "type": "folder",
+        "id": "18",
+        "title": "points",
+        "collapsed": true
+      },
+      {
+        "type": "expression",
+        "id": "9",
+        "folderId": "18",
+        "color": "#6042a6",
+        "latex": "T=\\left(0,0,110\\right)",
+        "hidden": true
+      },
+      {
+        "type": "expression",
+        "id": "5",
+        "folderId": "18",
+        "color": "#aaaaaa",
+        "latex": "A=\\left(5,5,100\\right)",
+        "hidden": true
+      },
+      {
+        "type": "expression",
+        "id": "6",
+        "folderId": "18",
+        "color": "#c74440",
+        "latex": "B=\\left(-5,5,100\\right)",
+        "hidden": true
+      },
+      {
+        "type": "expression",
+        "id": "7",
+        "folderId": "18",
+        "color": "#2d70b3",
+        "latex": "C=\\left(-5,-5,100\\right)",
+        "hidden": true
+      },
+      {
+        "type": "expression",
+        "id": "8",
+        "folderId": "18",
+        "color": "#388c46",
+        "latex": "D=\\left(5,-5,100\\right)",
+        "hidden": true
+      },
+      {
+        "type": "folder",
+        "id": "20",
+        "title": "monument things",
+        "collapsed": true
+      },
+      {
+        "type": "expression",
+        "id": "2",
+        "folderId": "20",
+        "color": "#aaaaaa",
+        "latex": "-5<x<5\\left\\{-5<y<5\\right\\}\\left\\{0<z<100\\right\\}",
+        "extendTo3D": true
+      },
+      {
+        "type": "expression",
+        "id": "10",
+        "folderId": "20",
+        "color": "#aaaaaa",
+        "latex": "\\operatorname{triangle}\\left(A,B,T\\right)"
+      },
+      {
+        "type": "expression",
+        "id": "11",
+        "folderId": "20",
+        "color": "#aaaaaa",
+        "latex": "\\operatorname{triangle}\\left(C,B,T\\right)"
+      },
+      {
+        "type": "expression",
+        "id": "12",
+        "folderId": "20",
+        "color": "#aaaaaa",
+        "latex": "\\operatorname{triangle}\\left(C,D,T\\right)"
+      },
+      {
+        "type": "expression",
+        "id": "13",
+        "folderId": "20",
+        "color": "#aaaaaa",
+        "latex": "\\operatorname{triangle}\\left(A,D,T\\right)"
+      },
+      {
+        "type": "expression",
+        "id": "51",
+        "folderId": "20",
+        "color": "#aaaaaa",
+        "latex": "-110<x<-100\\left\\{-10<y<10\\right\\}\\left\\{0<z<4\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "14",
+        "color": "#388c46",
+        "latex": "z=0"
+      },
+      {
+        "type": "folder",
+        "id": "29",
+        "title": "roads"
+      },
+      {
+        "type": "expression",
+        "id": "15",
+        "folderId": "29",
+        "color": "#aaaaaa",
+        "latex": "25^{2}>x^{2}+y^{2}"
+      },
+      {
+        "type": "expression",
+        "id": "16",
+        "folderId": "29",
+        "color": "#aaaaaa",
+        "latex": "35^{2}>x^{2}+y^{2}>30^{2}"
+      },
+      {
+        "type": "expression",
+        "id": "19",
+        "folderId": "29",
+        "color": "#aaaaaa",
+        "latex": "0.9<\\frac{\\left(x-h\\right)^{2}}{a^{2}}+\\frac{\\left(y-k\\right)^{2}}{b^{2}}<1"
+      },
+      {
+        "type": "expression",
+        "id": "30",
+        "folderId": "29",
+        "color": "#aaaaaa",
+        "latex": "0.9<\\frac{\\left(x+h\\right)^{2}}{a^{2}}+\\frac{\\left(y+k\\right)^{2}}{b^{2}}<1"
+      },
+      {
+        "type": "expression",
+        "id": "31",
+        "folderId": "29",
+        "color": "#aaaaaa",
+        "latex": "0.9<\\frac{\\left(x\\right)^{2}}{X^{2}}+\\frac{\\left(y\\right)^{2}}{Y^{2}}<0.98"
+      },
+      {
+        "type": "expression",
+        "id": "41",
+        "folderId": "29",
+        "color": "#aaaaaa",
+        "latex": "x_{1}<x<x_{2}\\left\\{-y_{1}>y>-y_{2}\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "36",
+        "folderId": "29",
+        "color": "#aaaaaa",
+        "latex": "x_{1}<x<x_{2}\\left\\{y_{1}<y<y_{2}\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "42",
+        "folderId": "29",
+        "color": "#aaaaaa",
+        "latex": "x_{2}-5<x<x_{2}\\left\\{-y_{2}<y<y_{2}\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "45",
+        "folderId": "29",
+        "color": "#aaaaaa",
+        "latex": "0.8<\\frac{\\left(x-H\\right)^{2}}{A_{1}^{2}}+\\frac{\\left(y-K\\right)^{2}}{B_{1}^{2}}<1\\left\\{\\frac{\\left(x+h\\right)^{2}}{a^{2}}+\\frac{\\left(y+k\\right)^{2}}{b^{2}}<1\\right\\}"
+      },
+      {
+        "type": "folder",
+        "id": "27",
+        "title": "ellipse road controls",
+        "collapsed": true
+      },
+      {
+        "type": "expression",
+        "id": "21",
+        "folderId": "27",
+        "color": "#c74440",
+        "latex": "h=49.5",
+        "hidden": true,
+        "slider": {
+          "max": "100"
+        }
+      },
+      {
+        "type": "expression",
+        "id": "22",
+        "folderId": "27",
+        "color": "#2d70b3",
+        "latex": "a=74",
+        "hidden": true,
+        "slider": {
+          "max": "125"
+        }
+      },
+      {
+        "type": "expression",
+        "id": "23",
+        "folderId": "27",
+        "color": "#388c46",
+        "latex": "k=0",
+        "hidden": true
+      },
+      {
+        "type": "expression",
+        "id": "24",
+        "folderId": "27",
+        "color": "#6042a6",
+        "latex": "b=70",
+        "hidden": true
+      },
+      {
+        "type": "expression",
+        "id": "34",
+        "folderId": "27",
+        "color": "#2d70b3",
+        "latex": "X=124",
+        "hidden": true,
+        "slider": {
+          "max": "200"
+        }
+      },
+      {
+        "type": "expression",
+        "id": "35",
+        "folderId": "27",
+        "color": "#388c46",
+        "latex": "Y=110",
+        "hidden": true,
+        "slider": {
+          "max": "100"
+        }
+      },
+      {
+        "type": "expression",
+        "id": "39",
+        "folderId": "27",
+        "color": "#6042a6",
+        "latex": "y_{1}=90",
+        "hidden": true,
+        "slider": {
+          "max": "100"
+        }
+      },
+      {
+        "type": "expression",
+        "id": "40",
+        "folderId": "27",
+        "color": "#aaaaaa",
+        "latex": "y_{2}=94",
+        "hidden": true,
+        "slider": {
+          "max": "100"
+        }
+      },
+      {
+        "type": "expression",
+        "id": "37",
+        "folderId": "27",
+        "color": "#2d70b3",
+        "latex": "x_{1}=60",
+        "hidden": true,
+        "slider": {
+          "max": "1000"
+        }
+      },
+      {
+        "type": "expression",
+        "id": "38",
+        "folderId": "27",
+        "color": "#388c46",
+        "latex": "x_{2}=326",
+        "hidden": true,
+        "slider": {
+          "max": "1000"
+        }
+      },
+      {
+        "type": "expression",
+        "id": "48",
+        "folderId": "27",
+        "color": "#388c46",
+        "latex": "H=-110",
+        "hidden": true,
+        "slider": {
+          "min": "-110"
+        }
+      },
+      {
+        "type": "expression",
+        "id": "49",
+        "folderId": "27",
+        "color": "#6042a6",
+        "latex": "K=-0.05",
+        "hidden": true,
+        "slider": {
+          "playDirection": -1
+        }
+      },
+      {
+        "type": "expression",
+        "id": "46",
+        "folderId": "27",
+        "color": "#c74440",
+        "latex": "A_{1}=32",
+        "hidden": true,
+        "slider": {
+          "max": "100"
+        }
+      },
+      {
+        "type": "expression",
+        "id": "47",
+        "folderId": "27",
+        "color": "#2d70b3",
+        "latex": "B_{1}=15",
+        "hidden": true,
+        "slider": {
+          "max": "100"
+        }
+      }
+    ]
+  },
+  "includeFunctionParametersInRandomSeed": true,
+  "doNotMigrate3dLineWidthZero": true,
+  "doNotMigrateMovablePointStyle": true
+}

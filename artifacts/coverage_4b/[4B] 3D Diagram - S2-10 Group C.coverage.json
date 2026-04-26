@@ -1,0 +1,225 @@
+{
+  "source_file": "[4B] 3D Diagram - S2-10 Group C.json",
+  "total_items": 15,
+  "total_expressions": 12,
+  "meshed_expression_count": 0,
+  "supported_expression_count": 0,
+  "supported_but_not_meshed_count": 0,
+  "recognized_unsupported_count": 8,
+  "unrecognized_count": 3,
+  "geometry_ineligible_count": 1,
+  "groups": [
+    {
+      "fingerprint": "1aea6de23039f200",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "35"
+      ],
+      "example_latex": [
+        "h\\left(\\operatorname{floor}\\left(\\frac{x}{6.6}\\right),\\operatorname{floor}\\left(\\frac{y}{6.6}\\right)\\right)<0.5\\left\\{\\operatorname{mod}\\left(x,6.6\\right)<\\left(6.6\\right)0.2\\right\\}\\left\\{\\frac{x^{2}}{94.5^{2}}+\\frac{y^{2}}{78^{2}}\\le0.905"
+      ],
+      "example_normalized": [
+        "h(operatorname{floor}((x)/(6.6)),operatorname{floor}((y)/(6.6)))<0.5{operatorname{mod}(x,6.6)<(6.6)0.2}{frac{x^{2}}{94.5^{2}}+frac{y^{2}}{78^{2}}<=0.905^{2}}{5<=z<=30}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 1,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "1ff99597cdd6fdfc",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "50"
+      ],
+      "example_latex": [
+        "g\\left(x,y\\right)<-0.9\\left\\{\\frac{x^{2}}{94.5^{2}}+\\frac{y^{2}}{78^{2}}<0.905^{2}\\right\\}\\left\\{\\frac{x^{2}}{94.5^{2}}+\\frac{y^{2}}{78^{2}}>0.4525^{2}\\right\\}\\left\\{0\\le z\\le50\\right\\}\\left\\{\\frac{x^{2}}{94.5^{2}}+\\frac{y^{2}}{78^{2}}>0.00"
+      ],
+      "example_normalized": [
+        "g(x,y)<-0.9{frac{x^{2}}{94.5^{2}}+frac{y^{2}}{78^{2}}<0.905^{2}}{frac{x^{2}}{94.5^{2}}+frac{y^{2}}{78^{2}}>0.4525^{2}}{0<=z<=50}{frac{x^{2}}{94.5^{2}}+frac{y^{2}}{78^{2}}>0.00012z^{2}+0.4525^{2}}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 1,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "2db74af5de6597d6",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "24"
+      ],
+      "example_latex": [
+        "\\frac{x^{2}}{94.5^{2}}+\\frac{y^{2}}{78^{2}}<1\\left\\{\\frac{x^{2}}{94.5^{2}}+\\frac{y^{2}}{78^{2}}>0.905^{2}\\right\\}\\left\\{0\\le z-55.4\\le50\\right\\}\\left\\{\\min\\left(\\operatorname{mod}\\left(\\frac{\\left(\\arctan\\left(156x,198y\\right)+\\pi\\right)}{2"
+      ],
+      "example_normalized": [
+        "frac{x^{2}}{94.5^{2}}+frac{y^{2}}{78^{2}}<1{frac{x^{2}}{94.5^{2}}+frac{y^{2}}{78^{2}}>0.905^{2}}{0<=z-55.4<=50}{min(operatorname{mod}(((arctan(156x,198y)+pi))/(2pi),(1)/(16))-(1)/(32),z-55.4,20-z+55.4)<=0}{0.5^{2}<(g(x,y)-0.5)^{2}+((z-20-55"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "706d428efce74887",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "23"
+      ],
+      "example_latex": [
+        "\\frac{x^{2}}{94.5^{2}}+\\frac{y^{2}}{78^{2}}<1\\left\\{50\\le z\\le55\\right\\}\\left\\{0.76^{2}<\\frac{x^{2}}{94.5^{2}}+\\frac{y^{2}}{78^{2}}<1\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{x^{2}}{94.5^{2}}+frac{y^{2}}{78^{2}}<1{50<=z<=55}{0.76^{2}<frac{x^{2}}{94.5^{2}}+frac{y^{2}}{78^{2}}<1}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "cef3c77bc2c86564",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "38"
+      ],
+      "example_latex": [
+        "h\\left(\\operatorname{floor}\\left(\\frac{x+1000}{6.6}\\right),\\operatorname{floor}\\left(\\frac{y+1000}{6.6}\\right)\\right)<0.5\\left\\{\\operatorname{mod}\\left(y,6.6\\right)<\\left(6.6\\right)0.2\\right\\}\\left\\{\\frac{x^{2}}{94.5^{2}}+\\frac{y^{2}}{78^{2"
+      ],
+      "example_normalized": [
+        "h(operatorname{floor}((x+1000)/(6.6)),operatorname{floor}((y+1000)/(6.6)))<0.5{operatorname{mod}(y,6.6)<(6.6)0.2}{frac{x^{2}}{94.5^{2}}+frac{y^{2}}{78^{2}}<=0.905^{2}}{5<=z<=30}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "f3299ab147fba671",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "28"
+      ],
+      "example_latex": [
+        "\\frac{x^{2}}{94.5^{2}}+\\frac{y^{2}}{78^{2}}\\le0.905^{2}\\left\\{0\\le z\\le5\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{x^{2}}{94.5^{2}}+frac{y^{2}}{78^{2}}<=0.905^{2}{0<=z<=5}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "f4b5d23f8aa9cf9a",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "1"
+      ],
+      "example_latex": [
+        "\\frac{x^{2}}{94.5^{2}}+\\frac{y^{2}}{78^{2}}<1\\left\\{\\frac{x^{2}}{94.5^{2}}+\\frac{y^{2}}{78^{2}}>0.905^{2}\\right\\}\\left\\{0\\le z\\le50\\right\\}\\left\\{\\min\\left(\\operatorname{mod}\\left(\\frac{\\left(\\arctan\\left(156x,198y\\right)+\\pi\\right)}{2\\pi},"
+      ],
+      "example_normalized": [
+        "frac{x^{2}}{94.5^{2}}+frac{y^{2}}{78^{2}}<1{frac{x^{2}}{94.5^{2}}+frac{y^{2}}{78^{2}}>0.905^{2}}{0<=z<=50}{min(operatorname{mod}(((arctan(156x,198y)+pi))/(2pi),(1)/(16))-(1)/(32),z,20-z)<=0}{0.5^{2}<(g(x,y)-0.5)^{2}+((z-20)/(20))^{2}}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "477621724613f110",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "30"
+      ],
+      "example_latex": [
+        "h\\left(p_{1},p_{2}\\right)=\\operatorname{mod}\\left(43758.5453\\sin\\left(12.9898p_{1}+78.233p_{2}\\right),1\\right)"
+      ],
+      "example_normalized": [
+        "h(p_{1},p_{2})=operatorname{mod}(43758.5453sin(12.9898p_{1}+78.233p_{2}),1)"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "d11b437b9467ca9c",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "39"
+      ],
+      "example_latex": [
+        "h\\left(x+238,y+058\\right)\\left\\{-100\\le y\\le100\\right\\}\\left\\{-100\\le x\\le100\\right\\}"
+      ],
+      "example_normalized": [
+        "h(x+238,y+058){-100<=y<=100}{-100<=x<=100}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    }
+  ],
+  "diagnostics": [
+    {
+      "severity": "INFO",
+      "code": "COVERAGE_COMPLETE",
+      "message": "Coverage report complete",
+      "source_ref": null,
+      "details": {
+        "file": "[4B] 3D Diagram - S2-10 Group C.json",
+        "meshed_expression_ids": 0,
+        "supported_but_not_meshed": 0,
+        "group_count": 9
+      }
+    }
+  ]
+}

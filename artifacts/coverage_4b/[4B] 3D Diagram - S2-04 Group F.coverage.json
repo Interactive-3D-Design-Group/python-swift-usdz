@@ -1,0 +1,1391 @@
+{
+  "source_file": "[4B] 3D Diagram - S2-04 Group F.json",
+  "total_items": 118,
+  "total_expressions": 112,
+  "meshed_expression_count": 50,
+  "supported_expression_count": 50,
+  "supported_but_not_meshed_count": 0,
+  "recognized_unsupported_count": 12,
+  "unrecognized_count": 50,
+  "geometry_ineligible_count": 0,
+  "groups": [
+    {
+      "fingerprint": "0139f4b53b23a8fc",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Equation recognized but not yet meshable",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "137"
+      ],
+      "example_latex": [
+        "x\\ =\\ -0.4z+2.9\\ \\left\\{1.4\\ge y\\ge1.2\\right\\}\\left\\{2.8\\le z\\le7.6\\right\\}"
+      ],
+      "example_normalized": [
+        "x=-0.4z+2.9{1.4>=y>=1.2}{2.8<=z<=7.6}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "04d8132875afeea2",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Equation recognized but not yet meshable",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "139"
+      ],
+      "example_latex": [
+        "x\\ =\\ -0.4z+2.9\\ \\left\\{-0.3\\ge y\\ge-0.5\\right\\}\\left\\{3.1\\le z\\le10.8\\right\\}"
+      ],
+      "example_normalized": [
+        "x=-0.4z+2.9{-0.3>=y>=-0.5}{3.1<=z<=10.8}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "0f6b8908ace8d1d7",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Equation recognized but not yet meshable",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "117"
+      ],
+      "example_latex": [
+        "x\\ =\\ 0.4z-7.8\\ \\left\\{0.3\\le y\\le0.5\\right\\}\\left\\{3.1\\le z\\le10.8\\right\\}"
+      ],
+      "example_normalized": [
+        "x=0.4z-7.8{0.3<=y<=0.5}{3.1<=z<=10.8}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 1,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "0fc7146a44f9bbfd",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Equation recognized but not yet meshable",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "123"
+      ],
+      "example_latex": [
+        "x\\ =\\ 0.4z-7.8\\ \\left\\{-0.3\\ge y\\ge-0.5\\right\\}\\left\\{3.1\\le z\\le10.8\\right\\}"
+      ],
+      "example_normalized": [
+        "x=0.4z-7.8{-0.3>=y>=-0.5}{3.1<=z<=10.8}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "58b21acb8903bea9",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Equation recognized but not yet meshable",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "141"
+      ],
+      "example_latex": [
+        "x\\ =\\ -0.4z+2.9\\ \\left\\{-1.1\\ge y\\ge-1.3\\right\\}\\left\\{2.8\\le z\\le7.6\\right\\}"
+      ],
+      "example_normalized": [
+        "x=-0.4z+2.9{-1.1>=y>=-1.3}{2.8<=z<=7.6}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "72681d14c4693d9d",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Equation recognized but not yet meshable",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "138"
+      ],
+      "example_latex": [
+        "x\\ =\\ -0.4z+2.9\\ \\left\\{0.3\\le y\\le0.5\\right\\}\\left\\{3.1\\le z\\le10.8\\right\\}"
+      ],
+      "example_normalized": [
+        "x=-0.4z+2.9{0.3<=y<=0.5}{3.1<=z<=10.8}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "8d034bc97ae8428b",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Equation recognized but not yet meshable",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "124"
+      ],
+      "example_latex": [
+        "x\\ =\\ 0.4z-7.8\\ \\left\\{-1.1\\ge y\\ge-1.3\\right\\}\\left\\{2.8\\le z\\le7.6\\right\\}"
+      ],
+      "example_normalized": [
+        "x=0.4z-7.8{-1.1>=y>=-1.3}{2.8<=z<=7.6}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "8e7c9c4273666ead",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Equation recognized but not yet meshable",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "125"
+      ],
+      "example_latex": [
+        "x\\ =\\ 0.4z-7.8\\ \\left\\{1.4\\ge y\\ge1.2\\right\\}\\left\\{2.8\\le z\\le7.6\\right\\}"
+      ],
+      "example_normalized": [
+        "x=0.4z-7.8{1.4>=y>=1.2}{2.8<=z<=7.6}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "9fad5680567b5c6b",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Equation recognized but not yet meshable",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "136"
+      ],
+      "example_latex": [
+        "x\\ =\\ -0.4z+2.9\\ \\left\\{2.3\\ge y\\ge2.1\\right\\}\\left\\{2\\le z\\le5\\right\\}"
+      ],
+      "example_normalized": [
+        "x=-0.4z+2.9{2.3>=y>=2.1}{2<=z<=5}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "b2958748ebd724f1",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Equation recognized but not yet meshable",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "126"
+      ],
+      "example_latex": [
+        "x\\ =\\ 0.4z-7.8\\ \\left\\{2.3\\ge y\\ge2.1\\right\\}\\left\\{2\\le z\\le5\\right\\}"
+      ],
+      "example_normalized": [
+        "x=0.4z-7.8{2.3>=y>=2.1}{2<=z<=5}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "b82ef60ba6655c15",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Equation recognized but not yet meshable",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "140"
+      ],
+      "example_latex": [
+        "x\\ =\\ -0.4z+2.9\\ \\left\\{-2\\ge y\\ge-2.2\\right\\}\\left\\{2\\le z\\le5\\right\\}"
+      ],
+      "example_normalized": [
+        "x=-0.4z+2.9{-2>=y>=-2.2}{2<=z<=5}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "dc260a70979209bd",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Equation recognized but not yet meshable",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "127"
+      ],
+      "example_latex": [
+        "x\\ =\\ 0.4z-7.8\\ \\left\\{-2\\ge y\\ge-2.2\\right\\}\\left\\{2\\le z\\le5\\right\\}"
+      ],
+      "example_normalized": [
+        "x=0.4z-7.8{-2>=y>=-2.2}{2<=z<=5}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "023dbe97abe81b37",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "28"
+      ],
+      "example_latex": [
+        "(-1.86-0.54u,1.58-0.86u-0.14v+0.07,4u+10)"
+      ],
+      "example_normalized": [
+        "(-1.86-0.54u,1.58-0.86u-0.14v+0.07,4u+10)"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "03729d3be16cdc0e",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "57"
+      ],
+      "example_latex": [
+        "(0.724-0.484v-2.4,(0.724-0.484v)(2u-1),6v+14)"
+      ],
+      "example_normalized": [
+        "(0.724-0.484v-2.4,(0.724-0.484v)(2u-1),6v+14)"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "040ca8d7df3d8b7b",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "29"
+      ],
+      "example_latex": [
+        "(-2.94+0.54u,1.58-0.86u-0.14v+0.07,4u+10)"
+      ],
+      "example_normalized": [
+        "(-2.94+0.54u,1.58-0.86u-0.14v+0.07,4u+10)"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "1c2fca20b8e6354c",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "61"
+      ],
+      "example_latex": [
+        "(-1.772-0.388u,-0.628+0.388u+0.14v-0.07,6u+14)"
+      ],
+      "example_normalized": [
+        "(-1.772-0.388u,-0.628+0.388u+0.14v-0.07,6u+14)"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "1cc621756512e632",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "185"
+      ],
+      "example_latex": [
+        "((0.24-0.18v)(2u-1)-2.4,0.24-0.18v,20v+20)\\left\\{25\\ge z\\ge20\\right\\}"
+      ],
+      "example_normalized": [
+        "((0.24-0.18v)(2u-1)-2.4,0.24-0.18v,20v+20){25>=z>=20}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "223ec605f29c7ea3",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "89"
+      ],
+      "example_latex": [
+        "(2.75u-3.77,2.75v-1.37,10.8)"
+      ],
+      "example_normalized": [
+        "(2.75u-3.77,2.75v-1.37,10.8)"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "2cf8d369e6da2d63",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "7"
+      ],
+      "example_latex": [
+        "(-5.36(1-v)^{2}-2.64,-(0.24+5.36(1-v)^{2})+u(1.6(1-v)+0.24),20v)"
+      ],
+      "example_normalized": [
+        "(-5.36(1-v)^{2}-2.64,-(0.24+5.36(1-v)^{2})+u(1.6(1-v)+0.24),20v)"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "2fed087667c01a51",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "113"
+      ],
+      "example_latex": [
+        "(-2.4+3.8t,-2.4-(1.6+1.5t^{2}),3(1-t^{2}))"
+      ],
+      "example_normalized": [
+        "(-2.4+3.8t,-2.4-(1.6+1.5t^{2}),3(1-t^{2}))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "31cacb9f7d5a2763",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "59"
+      ],
+      "example_latex": [
+        "(0.992u-2.896,0.992v-0.496,16.8)"
+      ],
+      "example_normalized": [
+        "(0.992u-2.896,0.992v-0.496,16.8)"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "31d429d7cd08bb55",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "56"
+      ],
+      "example_latex": [
+        "(-0.724+0.484v-2.4,(0.724-0.484v)(2u-1),6v+14)"
+      ],
+      "example_normalized": [
+        "(-0.724+0.484v-2.4,(0.724-0.484v)(2u-1),6v+14)"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "3357056c704ee72c",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "58"
+      ],
+      "example_latex": [
+        "(1.256u-3.028,1.256v-0.628,15.2)"
+      ],
+      "example_normalized": [
+        "(1.256u-3.028,1.256v-0.628,15.2)"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "38ae68f36e219c9a",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "75"
+      ],
+      "example_latex": [
+        "(0.2u-2.5,0.2v-0.1,40)"
+      ],
+      "example_normalized": [
+        "(0.2u-2.5,0.2v-0.1,40)"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "3e65f34f6fa3dbbd",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "74"
+      ],
+      "example_latex": [
+        "(0.24-0.18v-2.4,(0.24-0.18v)(2u-1),20v+20)\\left\\{40<z\\right\\}"
+      ],
+      "example_normalized": [
+        "(0.24-0.18v-2.4,(0.24-0.18v)(2u-1),20v+20){40<z}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "3e82a8da3e68a268",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "104"
+      ],
+      "example_latex": [
+        "(1.6+1.5t^{2},3.8t,3(1-t^{2}))"
+      ],
+      "example_normalized": [
+        "(1.6+1.5t^{2},3.8t,3(1-t^{2}))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "3f4861b298250b80",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "15"
+      ],
+      "example_latex": [
+        "(0.37u-2.58,0.37v-0.18,26)"
+      ],
+      "example_normalized": [
+        "(0.37u-2.58,0.37v-0.18,26)"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "40543cdb6be429a6",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "21"
+      ],
+      "example_latex": [
+        "(-2.94+0.54u,-1.58+0.86u+0.14v-0.07,4u+10)"
+      ],
+      "example_normalized": [
+        "(-2.94+0.54u,-1.58+0.86u+0.14v-0.07,4u+10)"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "4205fdea99b9c7f9",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "73"
+      ],
+      "example_latex": [
+        "(-0.24+0.18v-2.4,(0.24-0.18v)(2u-1),20v+20)"
+      ],
+      "example_normalized": [
+        "(-0.24+0.18v-2.4,(0.24-0.18v)(2u-1),20v+20)"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "45584b04eaf192e8",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "64"
+      ],
+      "example_latex": [
+        "(-3.028+0.868u,0.628-0.388u-0.14v+0.07,6u+14)"
+      ],
+      "example_normalized": [
+        "(-3.028+0.868u,0.628-0.388u-0.14v+0.07,6u+14)"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "4d9c8c88241bd1b6",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "76"
+      ],
+      "example_latex": [
+        "(0.11\\cos(2\\pi v)-2.4,0.11\\sin(2\\pi v),2.4u+40)"
+      ],
+      "example_normalized": [
+        "(0.11cos(2piv)-2.4,0.11sin(2piv),2.4u+40)"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "52b3f1e584beb5c9",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "60"
+      ],
+      "example_latex": [
+        "(0.736u-2.768,0.736v-0.368,18.4)"
+      ],
+      "example_normalized": [
+        "(0.736u-2.768,0.736v-0.368,18.4)"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "674cd9e154d7b9f1",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "112"
+      ],
+      "example_latex": [
+        "(-2.4+3.8t,+2.4+(1.6+1.5t^{2}),3(1-t^{2}))"
+      ],
+      "example_normalized": [
+        "(-2.4+3.8t,+2.4+(1.6+1.5t^{2}),3(1-t^{2}))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "6c6044d1346e72e1",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "77"
+      ],
+      "example_latex": [
+        "(0.07\\cos(2\\pi v)-2.4,0.07\\sin(2\\pi v),1.2u+42.4)"
+      ],
+      "example_normalized": [
+        "(0.07cos(2piv)-2.4,0.07sin(2piv),1.2u+42.4)"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "70118b61d6ac87f7",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "8"
+      ],
+      "example_latex": [
+        "(-5.36(1-v)^{2}-2.64,0.24+5.36(1-v)^{2}-u(1.6(1-v)+0.24),20v)"
+      ],
+      "example_normalized": [
+        "(-5.36(1-v)^{2}-2.64,0.24+5.36(1-v)^{2}-u(1.6(1-v)+0.24),20v)"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "7433adab3fbcc535",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "2"
+      ],
+      "example_latex": [
+        "(-5.36(1-v)^{2}-2.64+u(1.6(1-v)+0.24),-(0.24+5.36(1-v)^{2}),20v)"
+      ],
+      "example_normalized": [
+        "(-5.36(1-v)^{2}-2.64+u(1.6(1-v)+0.24),-(0.24+5.36(1-v)^{2}),20v)"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "7d4f579a2c7869d2",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "37"
+      ],
+      "example_latex": [
+        "(-0.82-0.86u+0.14v-0.07,0.54-0.54u,4u+10)"
+      ],
+      "example_normalized": [
+        "(-0.82-0.86u+0.14v-0.07,0.54-0.54u,4u+10)"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "80ee373bd20776e3",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "178"
+      ],
+      "example_latex": [
+        "(2.75u-3.77,2.75v-1.37,13)"
+      ],
+      "example_normalized": [
+        "(2.75u-3.77,2.75v-1.37,13)"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "8291f9a7c3c13ced",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "36"
+      ],
+      "example_latex": [
+        "(-0.82-0.86u+0.14v-0.07,-0.54+0.54u,4u+10)"
+      ],
+      "example_normalized": [
+        "(-0.82-0.86u+0.14v-0.07,-0.54+0.54u,4u+10)"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "869dd2406508bcb9",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "54"
+      ],
+      "example_latex": [
+        "((0.724-0.484v)(2u-1)-2.4,-(0.724-0.484v),6v+14)"
+      ],
+      "example_normalized": [
+        "((0.724-0.484v)(2u-1)-2.4,-(0.724-0.484v),6v+14)"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "921a752d5b6d56a4",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "190"
+      ],
+      "example_latex": [
+        "((0.24-0.18v)(2u-1)-2.4,-(0.24-0.18v),20v+20)\\left\\{4<z\\right\\}\\left\\{29\\ge z\\ge27\\right\\}"
+      ],
+      "example_normalized": [
+        "((0.24-0.18v)(2u-1)-2.4,-(0.24-0.18v),20v+20){4<z}{29>=z>=27}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "9597380a062ce5f0",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "186"
+      ],
+      "example_latex": [
+        "((0.24-0.18v)(2u-1)-2.4,-(0.24-0.18v),20v+20)\\left\\{4<z\\right\\}\\left\\{25\\ge z\\ge20\\right\\}"
+      ],
+      "example_normalized": [
+        "((0.24-0.18v)(2u-1)-2.4,-(0.24-0.18v),20v+20){4<z}{25>=z>=20}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "a556861a0ecfc4e5",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "4"
+      ],
+      "example_latex": [
+        "(-5.36(1-v)^{2}-2.64+u(1.6(1-v)+0.24),0.24+5.36(1-v)^{2},20v)"
+      ],
+      "example_normalized": [
+        "(-5.36(1-v)^{2}-2.64+u(1.6(1-v)+0.24),0.24+5.36(1-v)^{2},20v)"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "a946b062e7cad4b5",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "3"
+      ],
+      "example_latex": [
+        "(5.36(1-v)^{2}-2.16-u(1.6(1-v)+0.24),0.24+5.36(1-v)^{2},20v)"
+      ],
+      "example_normalized": [
+        "(5.36(1-v)^{2}-2.16-u(1.6(1-v)+0.24),0.24+5.36(1-v)^{2},20v)"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "addf3839c79853d4",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "71"
+      ],
+      "example_latex": [
+        "((0.24-0.18v)(2u-1)-2.4,-(0.24-0.18v),20v+20)\\left\\{4<z\\right\\}"
+      ],
+      "example_normalized": [
+        "((0.24-0.18v)(2u-1)-2.4,-(0.24-0.18v),20v+20){4<z}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "b8bca5af441f22ca",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "62"
+      ],
+      "example_latex": [
+        "(-3.028+0.868u,-0.628+0.388u+0.14v-0.07,6u+14)"
+      ],
+      "example_normalized": [
+        "(-3.028+0.868u,-0.628+0.388u+0.14v-0.07,6u+14)"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "c13c2f462fbe9d94",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "78"
+      ],
+      "example_latex": [
+        "(0.04\\cos(2\\pi v)-2.4,0.04\\sin(2\\pi v),0.8u+43.6)"
+      ],
+      "example_normalized": [
+        "(0.04cos(2piv)-2.4,0.04sin(2piv),0.8u+43.6)"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "c430a172c02bf2e3",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "108"
+      ],
+      "example_latex": [
+        "(-(6.4+1.5t^{2}),3.8t,3(1-t^{2}))"
+      ],
+      "example_normalized": [
+        "(-(6.4+1.5t^{2}),3.8t,3(1-t^{2}))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "c46f24883308ec70",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "148"
+      ],
+      "example_latex": [
+        ""
+      ],
+      "example_normalized": [
+        ""
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "c589feacaebe3a1d",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "188"
+      ],
+      "example_latex": [
+        "(-0.24+0.18v-2.4,(0.24-0.18v)(2u-1),20v+20)\\left\\{29\\ge z\\ge27\\right\\}"
+      ],
+      "example_normalized": [
+        "(-0.24+0.18v-2.4,(0.24-0.18v)(2u-1),20v+20){29>=z>=27}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "c68d671c8bc1d45a",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "55"
+      ],
+      "example_latex": [
+        "((0.724-0.484v)(2u-1)-2.4,0.724-0.484v,6v+14)"
+      ],
+      "example_normalized": [
+        "((0.724-0.484v)(2u-1)-2.4,0.724-0.484v,6v+14)"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "ceef8be27f565c4f",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "20"
+      ],
+      "example_latex": [
+        "(-1.86-0.54u,-1.58+0.86u+0.14v-0.07,4u+10)"
+      ],
+      "example_normalized": [
+        "(-1.86-0.54u,-1.58+0.86u+0.14v-0.07,4u+10)"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "d0eae673f66abaed",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "45"
+      ],
+      "example_latex": [
+        "(-3.98+0.86u-0.14v+0.07,0.54-0.54u,4u+10)"
+      ],
+      "example_normalized": [
+        "(-3.98+0.86u-0.14v+0.07,0.54-0.54u,4u+10)"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "d24e102f8cea15de",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "1"
+      ],
+      "example_latex": [
+        "(5.36(1-v)^{2}-2.16-u(1.6(1-v)+0.24),-(0.24+5.36(1-v)^{2}),20v)"
+      ],
+      "example_normalized": [
+        "(5.36(1-v)^{2}-2.16-u(1.6(1-v)+0.24),-(0.24+5.36(1-v)^{2}),20v)"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "d318b6844d58701e",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "189"
+      ],
+      "example_latex": [
+        "((0.24-0.18v)(2u-1)-2.4,0.24-0.18v,20v+20)\\left\\{29\\ge z\\ge27\\right\\}"
+      ],
+      "example_normalized": [
+        "((0.24-0.18v)(2u-1)-2.4,0.24-0.18v,20v+20){29>=z>=27}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "d6a8a6af43e0393f",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "6"
+      ],
+      "example_latex": [
+        "(5.36(1-v)^{2}-2.16,0.24+5.36(1-v)^{2}-u(1.6(1-v)+0.24),20v)"
+      ],
+      "example_normalized": [
+        "(5.36(1-v)^{2}-2.16,0.24+5.36(1-v)^{2}-u(1.6(1-v)+0.24),20v)"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "dc451958123f50b7",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "44"
+      ],
+      "example_latex": [
+        "(-3.98+0.86u-0.14v+0.07,-0.54+0.54u,4u+10)"
+      ],
+      "example_normalized": [
+        "(-3.98+0.86u-0.14v+0.07,-0.54+0.54u,4u+10)"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "e8b598ee23d52c44",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "5"
+      ],
+      "example_latex": [
+        "(5.36(1-v)^{2}-2.16,-(0.24+5.36(1-v)^{2})+u(1.6(1-v)+0.24),20v)"
+      ],
+      "example_normalized": [
+        "(5.36(1-v)^{2}-2.16,-(0.24+5.36(1-v)^{2})+u(1.6(1-v)+0.24),20v)"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "e9928f9d1a0feee7",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "63"
+      ],
+      "example_latex": [
+        "(-1.772-0.388u,0.628-0.388u-0.14v+0.07,6u+14)"
+      ],
+      "example_normalized": [
+        "(-1.772-0.388u,0.628-0.388u-0.14v+0.07,6u+14)"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "ea13fb9d269f7af1",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "72"
+      ],
+      "example_latex": [
+        "((0.24-0.18v)(2u-1)-2.4,0.24-0.18v,20v+20)"
+      ],
+      "example_normalized": [
+        "((0.24-0.18v)(2u-1)-2.4,0.24-0.18v,20v+20)"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "ef03b86dff689d4d",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "14"
+      ],
+      "example_latex": [
+        "(1.45u-3.12,1.45v-0.72,14)"
+      ],
+      "example_normalized": [
+        "(1.45u-3.12,1.45v-0.72,14)"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "f9e8e4306f035637",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "184"
+      ],
+      "example_latex": [
+        "(-0.24+0.18v-2.4,(0.24-0.18v)(2u-1),20v+20)\\left\\{25\\ge z\\ge20\\right\\}"
+      ],
+      "example_normalized": [
+        "(-0.24+0.18v-2.4,(0.24-0.18v)(2u-1),20v+20){25>=z>=20}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    }
+  ],
+  "diagnostics": [
+    {
+      "severity": "INFO",
+      "code": "COVERAGE_COMPLETE",
+      "message": "Coverage report complete",
+      "source_ref": null,
+      "details": {
+        "file": "[4B] 3D Diagram - S2-04 Group F.json",
+        "meshed_expression_ids": 50,
+        "supported_but_not_meshed": 0,
+        "group_count": 62
+      }
+    }
+  ]
+}

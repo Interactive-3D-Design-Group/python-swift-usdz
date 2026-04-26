@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "mesh_count": 3,
+  "failed_mesh_count": 0,
+  "meshes": [
+    {
+      "name": "[4B] 3D Diagram - S2-05 Group A_23",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-05 Group A_23.obj",
+      "color": "#c74440",
+      "source_file": "[4B] 3D Diagram - S2-05 Group A.json",
+      "expression_id": "23",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          90.0,
+          0.0,
+          0.0
+        ],
+        "max": [
+          130.0,
+          40.0,
+          45.0
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-05 Group A_24",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-05 Group A_24.obj",
+      "color": "#2d70b3",
+      "source_file": "[4B] 3D Diagram - S2-05 Group A.json",
+      "expression_id": "24",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -50.0,
+          -140.0,
+          0.0
+        ],
+        "max": [
+          50.0,
+          -10.0,
+          59.0
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-05 Group A_25",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-05 Group A_25.obj",
+      "color": "#388c46",
+      "source_file": "[4B] 3D Diagram - S2-05 Group A.json",
+      "expression_id": "25",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -120.0,
+          -110.0,
+          0.0
+        ],
+        "max": [
+          -80.0,
+          -70.0,
+          35.0
+        ]
+      }
+    }
+  ],
+  "failures": []
+}

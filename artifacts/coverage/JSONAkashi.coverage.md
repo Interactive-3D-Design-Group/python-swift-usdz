@@ -4,8 +4,8 @@
 - meshed expression ids: **558**
 - supported expressions: **558**
 - supported but not meshed: **0**
-- recognized unsupported: **0**
-- geometry ineligible (non-mesh): **1**
+- recognized unsupported (reserved; classifier uses **0** — see geometry ineligible): **0**
+- geometry ineligible (non-mesh: params, inequalities we skip, etc.): **1**
 - unrecognized: **0**
 
 ## Top missing groups

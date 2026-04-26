@@ -1,0 +1,268 @@
+{
+  "version": 11,
+  "randomSeed": "79915d57aa1d4d00dea10e6e6cecca98",
+  "graph": {
+    "viewport": {
+      "xmin": -11.441179054878251,
+      "ymin": -10.64244485493699,
+      "zmin": 0,
+      "xmax": 9.545437603249425,
+      "ymax": 10.344171803190687,
+      "zmax": 20.986616658127677
+    },
+    "worldRotation3D": [
+      -0.37038685374449026,
+      0.9236273918172166,
+      -0.09862058435468365,
+      -0.8925305297610856,
+      -0.3832915875481788,
+      -0.23764850590624706,
+      -0.2572991100216446,
+      -2.608488446839495e-13,
+      0.9663318104990375
+    ],
+    "axis3D": [
+      -0.923627391820165,
+      0.38329158754909537,
+      6.203265733209529e-13
+    ],
+    "perspectiveDistortion": 0,
+    "product": "graphing-3d",
+    "threeDMode": true,
+    "__v12ViewportLatexStash": {
+      "xmin": "-11.441179054878251",
+      "xmax": "9.545437603249425",
+      "ymin": "-10.64244485493699",
+      "ymax": "10.344171803190687",
+      "zmin": "0",
+      "zmax": "20.986616658127677"
+    }
+  },
+  "expressions": {
+    "list": [
+      {
+        "type": "expression",
+        "id": "7",
+        "color": "#aaaaaa",
+        "latex": "x=\\frac{3}{4}z^{2}-3z+4\\left\\{0<z<2\\right\\}\\left\\{-3<y<3\\right\\}\\left\\{y^{2}<x\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "8",
+        "color": "#aaaaaa",
+        "latex": "-x=\\frac{3}{4}z^{2}-3z+4\\left\\{0<z<2\\right\\}\\left\\{-3<y<3\\right\\}\\left\\{-y^{2}>x\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "9",
+        "color": "#aaaaaa",
+        "latex": "y=\\frac{3}{4}z^{2}-3z+4\\left\\{0<z<2\\right\\}\\left\\{-3<x<3\\right\\}\\left\\{x^{2}<y\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "10",
+        "color": "#aaaaaa",
+        "latex": "-y=\\frac{3}{4}z^{2}-3z+4\\left\\{0<z<2\\right\\}\\left\\{-3<x<3\\right\\}\\left\\{-x^{2}>y\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "33",
+        "color": "#aaaaaa",
+        "latex": "-8.1\\sqrt{x^{2}+y^{2}}>z-10\\left\\{0<z\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "36",
+        "color": "#aaaaaa",
+        "latex": "x^{2}+y^{2}=0.5\\left\\{6.7<z<7\\right\\}",
+        "extendTo3D": true
+      },
+      {
+        "type": "expression",
+        "id": "37",
+        "color": "#aaaaaa",
+        "latex": "x^{2}+y^{2}=0.3\\left\\{7.7<z<8\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "38",
+        "color": "#aaaaaa",
+        "latex": "\\frac{1}{3.5}\\left(x^{2}+y^{2}+z^{2}\\right)=1\\left\\{z\\ge0\\right\\}\\left\\{x\\le0\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "39",
+        "color": "#aaaaaa",
+        "latex": "\\frac{1}{3.5}\\left(x^{2}+y^{2}+z^{2}\\right)=1\\left\\{z\\ge0\\right\\}\\left\\{x\\ge0\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "40",
+        "color": "#aaaaaa",
+        "latex": "\\left(8y-4\\right)<z-12<8y\\left\\{-0.1<x<0.1\\right\\}\\left\\{0<z<9\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "41",
+        "color": "#aaaaaa",
+        "latex": "-\\left(8y+4\\right)<z-12<-8y\\left\\{-0.1<x<0.1\\right\\}\\left\\{0<z<9\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "42",
+        "color": "#aaaaaa",
+        "latex": "-\\left(8x+4\\right)<z-12<-8x\\left\\{-0.1<y<0.1\\right\\}\\left\\{0<z<9\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "43",
+        "color": "#aaaaaa",
+        "latex": "\\left(8x-4\\right)<z-12<8x\\left\\{-0.1<y<0.1\\right\\}\\left\\{0<z<9\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "44",
+        "color": "#aaaaaa",
+        "latex": "x^{2}+y^{2}=1.1\\left\\{3.7<z<4\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "45",
+        "color": "#aaaaaa",
+        "latex": "x^{2}+y^{2}=1.2\\left\\{3.2<z<3.5\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "46",
+        "color": "#aaaaaa",
+        "latex": "x^{2}+y^{2}=1\\left\\{4.2<z<4.5\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "47",
+        "color": "#aaaaaa",
+        "latex": "x^{2}+y^{2}=0.8\\left\\{5.35<z<5.5\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "48",
+        "color": "#aaaaaa",
+        "latex": "x^{2}+y^{2}+\\left(z-9\\right)^{2}=0.2"
+      },
+      {
+        "type": "expression",
+        "id": "49",
+        "color": "#aaaaaa",
+        "latex": "y=0\\left\\{-0.1<x<0.1\\right\\}\\left\\{0<z<10.5\\right\\}",
+        "extendTo3D": true
+      },
+      {
+        "type": "expression",
+        "id": "50",
+        "color": "#aaaaaa",
+        "latex": "x=0\\left\\{-0.1<y<0.1\\right\\}\\left\\{0<z<10.5\\right\\}",
+        "extendTo3D": true
+      },
+      {
+        "type": "expression",
+        "id": "51",
+        "color": "#388c46",
+        "latex": "z\\ <\\ 0"
+      },
+      {
+        "type": "expression",
+        "id": "52",
+        "color": "#aaaaaa",
+        "latex": "\\left(x+0\\right)^{2}+\\left(y+0\\right)^{2}<\\ 60"
+      },
+      {
+        "type": "expression",
+        "id": "55",
+        "color": "#aaaaaa",
+        "latex": "-7.5<x<0\\ \\left\\{0<\\ y\\ <\\ 7.5\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "61",
+        "color": "#aaaaaa",
+        "latex": "\\left(x\\ -0\\right)^{2}+\\left(y-1.5\\right)^{2}+\\left(z-4\\right)^{2}\\ =\\ 2.5z^{1}\\ \\left\\{z\\ <\\ 2\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "62",
+        "color": "#aaaaaa",
+        "latex": "\\left(x\\ -0\\right)^{2}+\\left(y+\\ 1.5\\right)^{2}+\\left(z-4\\right)^{2}\\ =\\ 2.5z^{1}\\ \\left\\{z\\ <\\ 2\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "63",
+        "color": "#aaaaaa",
+        "latex": "\\left(x\\ -1.5\\right)^{2}+\\left(y-0\\right)^{2}+\\left(z-4\\right)^{2}\\ =\\ 2.5z^{1}\\ \\left\\{z\\ <\\ 2\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "64",
+        "color": "#aaaaaa",
+        "latex": "\\left(x\\ +1.5\\right)^{2}+\\left(y-0\\right)^{2}+\\left(z-4\\right)^{2}\\ =\\ 2.5z^{1}\\ \\left\\{z\\ <\\ 2\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "65",
+        "color": "#aaaaaa",
+        "latex": "\\left(x\\ -1\\right)^{2}+\\left(y-1\\right)^{2}+\\left(z-4\\right)^{2}\\ =\\ 2.5z^{1}\\ \\left\\{z\\ <\\ 2\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "66",
+        "color": "#aaaaaa",
+        "latex": "\\left(x\\ +1\\right)^{2}+\\left(y-1\\right)^{2}+\\left(z-4\\right)^{2}\\ =\\ 2.5z^{1}\\ \\left\\{z\\ <\\ 2\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "67",
+        "color": "#aaaaaa",
+        "latex": "\\left(x\\ -1\\right)^{2}+\\left(y+1\\right)^{2}+\\left(z-4\\right)^{2}\\ =\\ 2.5z^{1}\\ \\left\\{z\\ <\\ 2\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "68",
+        "color": "#aaaaaa",
+        "latex": "\\left(x\\ +1\\right)^{2}+\\left(y+1\\right)^{2}+\\left(z-4\\right)^{2}\\ =\\ 2.5z^{1}\\ \\left\\{z\\ <\\ 2\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "69",
+        "color": "#aaaaaa",
+        "latex": "\\left(x+0\\right)^{2}+\\left(y+0\\right)^{2}<\\ 30\\ \\left\\{0<z\\ <\\ 0.5\\right\\}",
+        "extendTo3D": true
+      },
+      {
+        "type": "expression",
+        "id": "70",
+        "color": "#aaaaaa",
+        "latex": "x\\ >\\ 3.5z\\ +\\ -7\\ \\left\\{-2<\\ y\\ <\\ 2\\right\\}\\left\\{0<z\\ <\\ 0.5\\right\\}\\left\\{x\\ <\\ -3\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "74",
+        "color": "#aaaaaa",
+        "latex": "x\\ <\\ -3.5z\\ +\\ 7\\ \\left\\{-2<\\ y\\ <\\ 2\\right\\}\\left\\{0<z\\ <\\ 0.5\\right\\}\\left\\{x>\\ 3\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "77",
+        "color": "#aaaaaa",
+        "latex": "y\\ >\\ 3.5z\\ +\\ -7\\ \\left\\{-2<\\ x\\ <\\ 2\\right\\}\\left\\{0<z\\ <\\ 0.5\\right\\}\\left\\{y\\ <\\ -3\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "78",
+        "color": "#aaaaaa",
+        "latex": "y\\ <\\ -3.5z\\ +\\ 7\\ \\left\\{-2<\\ x\\ <\\ 2\\right\\}\\left\\{0<z\\ <\\ 0.5\\right\\}\\left\\{y>\\ 3\\right\\}"
+      }
+    ]
+  },
+  "includeFunctionParametersInRandomSeed": true,
+  "doNotMigrate3dLineWidthZero": true,
+  "doNotMigrateMovablePointStyle": true
+}

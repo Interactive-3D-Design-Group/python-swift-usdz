@@ -1,0 +1,151 @@
+{
+  "version": 11,
+  "randomSeed": "2ce64a1cc3ad527b49d6b3588f9da543",
+  "graph": {
+    "viewport": {
+      "xmin": -19.60064569229304,
+      "ymin": -19.60064569229304,
+      "zmin": -19.60064569229304,
+      "xmax": 19.60064569229304,
+      "ymax": 19.60064569229304,
+      "zmax": 19.60064569229304
+    },
+    "worldRotation3D": [
+      6.092462641852965e-17,
+      1,
+      6.131015610585505e-18,
+      -0.9949746565450177,
+      6.123233995736766e-17,
+      -0.10012708341464913,
+      -0.10012708341464913,
+      0,
+      0.9949746565450177
+    ],
+    "axis3D": [
+      0.9999999999986995,
+      6.123233995728795e-17,
+      -8.077032699568679e-31
+    ],
+    "product": "graphing-3d",
+    "threeDMode": true,
+    "__v12ViewportLatexStash": {
+      "xmin": "-19.60064569229304",
+      "xmax": "19.60064569229304",
+      "ymin": "-19.60064569229304",
+      "ymax": "19.60064569229304",
+      "zmin": "-19.60064569229304",
+      "zmax": "19.60064569229304"
+    }
+  },
+  "expressions": {
+    "list": [
+      {
+        "type": "expression",
+        "id": "16",
+        "color": "#388c46",
+        "latex": "0<z<0.3\\left\\{-6.5<x<6.5\\right\\}\\left\\{-2.5<y<2.5\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "6",
+        "color": "#aaaaaa",
+        "latex": "\\max(((\\operatorname{mod}(x+6,2)-1)/0.4)^{2},(y/2)^{2})<1\\left\\{0.3<z<6.6\\right\\}\\left\\{-6<x<6\\right\\}",
+        "extendTo3D": true
+      },
+      {
+        "type": "expression",
+        "id": "7",
+        "color": "#c74440",
+        "latex": "\\max(((\\operatorname{mod}(x+6,2)-1)/0.32)^{2},(y/2.1)^{2})<1\\left\\{-0<z<0.7\\right\\}\\left\\{-8<x<-8\\right\\}\\left\\{-4<y<4\\right\\}",
+        "extendTo3D": true
+      },
+      {
+        "type": "expression",
+        "id": "8",
+        "color": "#c74440",
+        "latex": "\\max(((\\operatorname{mod}(x+6,2)-1)/0.32)^{2},(y/2.1)^{2})<1\\left\\{0.3<z<0.7\\right\\}\\left\\{-6<x<6\\right\\}\\left\\{-2.1<y<2.1\\right\\}",
+        "extendTo3D": true
+      },
+      {
+        "type": "expression",
+        "id": "9",
+        "color": "#6042a6",
+        "latex": "6.6<z<7.2\\left\\{-6<x<6\\right\\}\\left\\{-2.3<y<2\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "10",
+        "color": "#aaaaaa",
+        "latex": "7.2<z<7.9\\left\\{-6.3<x<6.3\\right\\}\\left\\{-2.2<y<2.2\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "11",
+        "color": "#c74440",
+        "latex": "7.9<z<8.2\\left\\{-6.5<x<6.5\\right\\}\\left\\{-2.4<y<2.4\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "12",
+        "color": "#2d70b3",
+        "latex": "8.2<z<9.5\\left\\{-5<x<5\\right\\}\\left\\{-1<y<1\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "13",
+        "color": "#388c46",
+        "latex": "9.5<z<9.8\\left\\{-1.5<x<1.5\\right\\}\\left\\{-0.5<y<0.5\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "14",
+        "color": "#6042a6",
+        "latex": "(\\operatorname{mod}(x+1.2,0.5)-0.25)^{2}+y^{2}<0.04\\left\\{9.8<z<10.4\\right\\}\\left\\{-1.4<x<0.8\\right\\}\\left\\{-0.5<y<0.5\\right\\}",
+        "extendTo3D": true
+      },
+      {
+        "type": "expression",
+        "id": "15",
+        "color": "#aaaaaa",
+        "latex": "9.8<z<10.3\\left\\{0.8<x<1.4\\right\\}\\left\\{-0.3<y<0.3\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "23",
+        "color": "#c74440",
+        "latex": "0<z<8.2\\left\\{-9<x<-6.3\\right\\}\\left\\{-2.5<y<2.5\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "24",
+        "color": "#c74440",
+        "latex": "6.3<x<9\\left\\{0<z<8.2\\right\\}\\left\\{-2.5<y<2.5\\right\\}",
+        "lines": true,
+        "extendTo3D": true
+      },
+      {
+        "type": "expression",
+        "id": "25",
+        "color": "#388c46"
+      },
+      {
+        "type": "expression",
+        "id": "26",
+        "color": "#6042a6"
+      },
+      {
+        "type": "expression",
+        "id": "27",
+        "color": "#aaaaaa"
+      },
+      {
+        "type": "expression",
+        "id": "28",
+        "color": "#c74440"
+      }
+    ]
+  },
+  "includeFunctionParametersInRandomSeed": true,
+  "doNotMigrate3dLineWidthZero": true,
+  "doNotMigrateMovablePointStyle": true
+}

@@ -1,0 +1,33 @@
+{
+  "source_file": "[4B] 3D Diagram - S2-07 Group D.json",
+  "total_expressions": 47,
+  "supported_count": 36,
+  "recognized_unsupported_count": 0,
+  "unrecognized_count": 0,
+  "geometry_ineligible_count": 11,
+  "per_folder_summary": [
+    {
+      "folder_id": null,
+      "folder_name": null,
+      "total": 47,
+      "supported": 36,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 11
+    }
+  ],
+  "unsupported_expressions": [],
+  "unknown_fingerprints": [],
+  "diagnostics": [
+    {
+      "severity": "INFO",
+      "code": "AUDIT_COMPLETE",
+      "message": "Audit classification complete",
+      "source_ref": null,
+      "details": {
+        "file": "[4B] 3D Diagram - S2-07 Group D.json"
+      }
+    }
+  ],
+  "status": "PASS"
+}

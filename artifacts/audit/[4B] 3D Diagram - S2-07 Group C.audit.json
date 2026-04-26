@@ -1,0 +1,123 @@
+{
+  "source_file": "[4B] 3D Diagram - S2-07 Group C.json",
+  "total_expressions": 43,
+  "supported_count": 23,
+  "recognized_unsupported_count": 0,
+  "unrecognized_count": 8,
+  "geometry_ineligible_count": 12,
+  "per_folder_summary": [
+    {
+      "folder_id": null,
+      "folder_name": null,
+      "total": 43,
+      "supported": 23,
+      "recognized_unsupported": 0,
+      "unrecognized": 8,
+      "geometry_ineligible": 12
+    }
+  ],
+  "unsupported_expressions": [
+    {
+      "expression_id": "70",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "8de2797e5d82bd49",
+      "latex": "\\left(4,\\ 0,\\ 8\\right)",
+      "normalized_latex": "(4,0,8)"
+    },
+    {
+      "expression_id": "72",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "756fd90d33d259ae",
+      "latex": "\\left(4,\\ 3,\\ 8\\right)",
+      "normalized_latex": "(4,3,8)"
+    },
+    {
+      "expression_id": "74",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "a1e1485f43011276",
+      "latex": "\\left(6,\\ 3,\\ 8\\right)",
+      "normalized_latex": "(6,3,8)"
+    },
+    {
+      "expression_id": "87",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "2b00d2ac6f9b2be0",
+      "latex": "\\left(-6,\\ 9,\\ 8\\right)",
+      "normalized_latex": "(-6,9,8)"
+    },
+    {
+      "expression_id": "89",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "d5b8c948a77288a0",
+      "latex": "\\left(-3,\\ 11,\\ 8\\right)",
+      "normalized_latex": "(-3,11,8)"
+    },
+    {
+      "expression_id": "91",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "575503d2a97f02a5",
+      "latex": "\\left(-3,\\ 9,\\ 8\\right)",
+      "normalized_latex": "(-3,9,8)"
+    },
+    {
+      "expression_id": "121",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "ef7177ecb7fab4d8",
+      "latex": "\\frac{x^{2}}{13^{2}}+\\frac{y^{2}}{4.82}+\\frac{z^{2}}{46.8^{2}}=1.\\left\\{29\\le z\\right\\}",
+      "normalized_latex": "frac{x^2}{13^2}+frac{y^2}{4.82}+frac{z^2}{46.8^2}=1.{29<=z}"
+    },
+    {
+      "expression_id": "137",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "87052d6175a8eeb9",
+      "latex": "x^{2}+y^{2}+99z^{2}=30",
+      "normalized_latex": "x^2+y^2+99z^2=30"
+    }
+  ],
+  "unknown_fingerprints": [
+    "2b00d2ac6f9b2be0",
+    "575503d2a97f02a5",
+    "756fd90d33d259ae",
+    "87052d6175a8eeb9",
+    "8de2797e5d82bd49",
+    "a1e1485f43011276",
+    "d5b8c948a77288a0",
+    "ef7177ecb7fab4d8"
+  ],
+  "diagnostics": [
+    {
+      "severity": "INFO",
+      "code": "AUDIT_COMPLETE",
+      "message": "Audit classification complete",
+      "source_ref": null,
+      "details": {
+        "file": "[4B] 3D Diagram - S2-07 Group C.json"
+      }
+    }
+  ],
+  "status": "PARTIAL"
+}

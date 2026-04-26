@@ -1,0 +1,1276 @@
+{
+  "source_file": "[4B] 3D Diagram - S2-03 Group D.json",
+  "total_items": 164,
+  "total_expressions": 159,
+  "meshed_expression_count": 42,
+  "supported_expression_count": 74,
+  "supported_but_not_meshed_count": 32,
+  "recognized_unsupported_count": 0,
+  "unrecognized_count": 22,
+  "geometry_ineligible_count": 63,
+  "groups": [
+    {
+      "fingerprint": "14f95d27d6f92cd2",
+      "family": "CONSTANT_PLANE",
+      "status": "SUPPORTED",
+      "reason": "Constant plane",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "27"
+      ],
+      "example_latex": [
+        "y=0.3\\left\\{2.65<x<4.35\\right\\}\\left\\{-3.25\\le z\\le0.5,-10.5\\le z\\le-6.75\\right\\}"
+      ],
+      "example_normalized": [
+        "y=0.3{2.65<x<4.35}{-3.25<=z<=0.5,-10.5<=z<=-6.75}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 1,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "1991f6d557da023f",
+      "family": "CONSTANT_PLANE",
+      "status": "SUPPORTED",
+      "reason": "Constant plane",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "8"
+      ],
+      "example_latex": [
+        "y=5.15\\left\\{2.725<x<4.275\\right\\}\\left\\{-3.25\\le z\\le0.5,-10.5\\le z\\le-6.75\\right\\}"
+      ],
+      "example_normalized": [
+        "y=5.15{2.725<x<4.275}{-3.25<=z<=0.5,-10.5<=z<=-6.75}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 1,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "1d91c103136be919",
+      "family": "CONSTANT_PLANE",
+      "status": "SUPPORTED",
+      "reason": "Constant plane",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "50"
+      ],
+      "example_latex": [
+        "x=5\\left\\{0<y<7\\right\\}\\left\\{-3.25\\le z\\le0,-10\\le z\\le-6.75\\right\\}"
+      ],
+      "example_normalized": [
+        "x=5{0<y<7}{-3.25<=z<=0,-10<=z<=-6.75}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "21ca005cc9fa0423",
+      "family": "CONSTANT_PLANE",
+      "status": "SUPPORTED",
+      "reason": "Constant plane",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "21"
+      ],
+      "example_latex": [
+        "y=2.9\\left\\{-2.65>x>-4.35\\right\\}\\left\\{-3.25\\le z\\le0.5,-10.5\\le z\\le-6.75\\right\\}"
+      ],
+      "example_normalized": [
+        "y=2.9{-2.65>x>-4.35}{-3.25<=z<=0.5,-10.5<=z<=-6.75}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 1,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "26a4f8c4a6e8385a",
+      "family": "CONSTANT_PLANE",
+      "status": "SUPPORTED",
+      "reason": "Constant plane",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "25"
+      ],
+      "example_latex": [
+        "y=0.35\\left\\{2.625<x<4.375\\right\\}\\left\\{-3.25\\le z\\le0.5,-10.5\\le z\\le-6.75\\right\\}"
+      ],
+      "example_normalized": [
+        "y=0.35{2.625<x<4.375}{-3.25<=z<=0.5,-10.5<=z<=-6.75}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 1,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "29672e1dea2a2820",
+      "family": "CONSTANT_PLANE",
+      "status": "SUPPORTED",
+      "reason": "Constant plane",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "9"
+      ],
+      "example_latex": [
+        "y=5.1\\left\\{2.75<x<4.25\\right\\}\\left\\{-3.25\\le z\\le0.5,-10.5\\le z\\le-6.75\\right\\}"
+      ],
+      "example_normalized": [
+        "y=5.1{2.75<x<4.25}{-3.25<=z<=0.5,-10.5<=z<=-6.75}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "34c939ea363118f7",
+      "family": "CONSTANT_PLANE",
+      "status": "SUPPORTED",
+      "reason": "Constant plane",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "28"
+      ],
+      "example_latex": [
+        "y=0.3\\left\\{-2.65>x>-4.35\\right\\}\\left\\{-3.25\\le z\\le0.5,-10.5\\le z\\le-6.75\\right\\}"
+      ],
+      "example_normalized": [
+        "y=0.3{-2.65>x>-4.35}{-3.25<=z<=0.5,-10.5<=z<=-6.75}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 1,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "3bf81d2a3643c5b1",
+      "family": "CONSTANT_PLANE",
+      "status": "SUPPORTED",
+      "reason": "Constant plane",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "6"
+      ],
+      "example_latex": [
+        "y=5.15\\left\\{-4.275<x<-2.725\\right\\}\\left\\{-3.25\\le z\\le0.5,-10.5\\le z\\le-6.75\\right\\}"
+      ],
+      "example_normalized": [
+        "y=5.15{-4.275<x<-2.725}{-3.25<=z<=0.5,-10.5<=z<=-6.75}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "3fd7c5f0ea5690c0",
+      "family": "CONSTANT_PLANE",
+      "status": "SUPPORTED",
+      "reason": "Constant plane",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "16"
+      ],
+      "example_latex": [
+        "y=3\\left\\{2.6<x<4.4\\right\\}\\left\\{-3.25\\le z\\le0.5,-10.5\\le z\\le-6.75\\right\\}"
+      ],
+      "example_normalized": [
+        "y=3{2.6<x<4.4}{-3.25<=z<=0.5,-10.5<=z<=-6.75}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 1,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "455d2008fd3363b6",
+      "family": "CONSTANT_PLANE",
+      "status": "SUPPORTED",
+      "reason": "Constant plane",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "11"
+      ],
+      "example_latex": [
+        "y=4.3\\left\\{-2.65>x>-4.35\\right\\}\\left\\{-3.25\\le z\\le0.5,-10.5\\le z\\le-6.75\\right\\}"
+      ],
+      "example_normalized": [
+        "y=4.3{-2.65>x>-4.35}{-3.25<=z<=0.5,-10.5<=z<=-6.75}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 1,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "4cf34d80bfa6eb48",
+      "family": "CONSTANT_PLANE",
+      "status": "SUPPORTED",
+      "reason": "Constant plane",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "20"
+      ],
+      "example_latex": [
+        "y=2.9\\left\\{2.65<x<4.35\\right\\}\\left\\{-3.25\\le z\\le0.5,-10.5\\le z\\le-6.75\\right\\}"
+      ],
+      "example_normalized": [
+        "y=2.9{2.65<x<4.35}{-3.25<=z<=0.5,-10.5<=z<=-6.75}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 1,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "4f64e781ecc074f5",
+      "family": "CONSTANT_PLANE",
+      "status": "SUPPORTED",
+      "reason": "Constant plane",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "18"
+      ],
+      "example_latex": [
+        "y=2.95\\left\\{2.625<x<4.375\\right\\}\\left\\{-3.25\\le z\\le0.5,-10.5\\le z\\le-6.75\\right\\}"
+      ],
+      "example_normalized": [
+        "y=2.95{2.625<x<4.375}{-3.25<=z<=0.5,-10.5<=z<=-6.75}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 1,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "513397d141e2a392",
+      "family": "CONSTANT_PLANE",
+      "status": "SUPPORTED",
+      "reason": "Constant plane",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "24"
+      ],
+      "example_latex": [
+        "y=0.4\\left\\{-2.6>x>-4.4\\right\\}\\left\\{-3.25\\le z\\le0.5,-10.5\\le z\\le-6.75\\right\\}"
+      ],
+      "example_normalized": [
+        "y=0.4{-2.6>x>-4.4}{-3.25<=z<=0.5,-10.5<=z<=-6.75}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 1,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "537986b32ea87846",
+      "family": "CONSTANT_PLANE",
+      "status": "SUPPORTED",
+      "reason": "Constant plane",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "56"
+      ],
+      "example_latex": [
+        "y=4.5\\left\\{2.3>x>1.6\\right\\}\\left\\{-3.25\\le z\\le0,-10\\le z\\le-6.75\\right\\}"
+      ],
+      "example_normalized": [
+        "y=4.5{2.3>x>1.6}{-3.25<=z<=0,-10<=z<=-6.75}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "729d164caefeb746",
+      "family": "CONSTANT_PLANE",
+      "status": "SUPPORTED",
+      "reason": "Constant plane",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "54"
+      ],
+      "example_latex": [
+        "y=6.7\\left\\{-2.3<x<2.3\\right\\}\\left\\{-3.25\\le z\\le0,-10\\le z\\le-6.75\\right\\}"
+      ],
+      "example_normalized": [
+        "y=6.7{-2.3<x<2.3}{-3.25<=z<=0,-10<=z<=-6.75}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "84e09449231248a1",
+      "family": "CONSTANT_PLANE",
+      "status": "SUPPORTED",
+      "reason": "Constant plane",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "15"
+      ],
+      "example_latex": [
+        "y=4.2\\left\\{-2.7>x>-4.3\\right\\}\\left\\{-3.25\\le z\\le0.5,-10.5\\le z\\le-6.75\\right\\}"
+      ],
+      "example_normalized": [
+        "y=4.2{-2.7>x>-4.3}{-3.25<=z<=0.5,-10.5<=z<=-6.75}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 1,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "8f5266569844aa3f",
+      "family": "CONSTANT_PLANE",
+      "status": "SUPPORTED",
+      "reason": "Constant plane",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "10"
+      ],
+      "example_latex": [
+        "y=4.3\\left\\{2.65<x<4.35\\right\\}\\left\\{-3.25\\le z\\le0.5,-10.5\\le z\\le-6.75\\right\\}"
+      ],
+      "example_normalized": [
+        "y=4.3{2.65<x<4.35}{-3.25<=z<=0.5,-10.5<=z<=-6.75}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 1,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "9039f7191cd8fe86",
+      "family": "CONSTANT_PLANE",
+      "status": "SUPPORTED",
+      "reason": "Constant plane",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "26"
+      ],
+      "example_latex": [
+        "y=0.35\\left\\{-2.625>x>-4.375\\right\\}\\left\\{-3.25\\le z\\le0.5,-10.5\\le z\\le-6.75\\right\\}"
+      ],
+      "example_normalized": [
+        "y=0.35{-2.625>x>-4.375}{-3.25<=z<=0.5,-10.5<=z<=-6.75}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 1,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "941d341674f7ed7d",
+      "family": "CONSTANT_PLANE",
+      "status": "SUPPORTED",
+      "reason": "Constant plane",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "51"
+      ],
+      "example_latex": [
+        "x=2.3\\left\\{0<y<7\\right\\}\\left\\{-3.25\\le z\\le0,-10\\le z\\le-6.75\\right\\}"
+      ],
+      "example_normalized": [
+        "x=2.3{0<y<7}{-3.25<=z<=0,-10<=z<=-6.75}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 1,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "9c5542bd9f3e5f96",
+      "family": "CONSTANT_PLANE",
+      "status": "SUPPORTED",
+      "reason": "Constant plane",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "23"
+      ],
+      "example_latex": [
+        "y=0.4\\left\\{2.6<x<4.4\\right\\}\\left\\{-3.25\\le z\\le0.5,-10.5\\le z\\le-6.75\\right\\}"
+      ],
+      "example_normalized": [
+        "y=0.4{2.6<x<4.4}{-3.25<=z<=0.5,-10.5<=z<=-6.75}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 1,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "a3ef5d0b924e1fdb",
+      "family": "CONSTANT_PLANE",
+      "status": "SUPPORTED",
+      "reason": "Constant plane",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "55"
+      ],
+      "example_latex": [
+        "y=4.5\\left\\{-2.3<x<-1.6\\right\\}\\left\\{-3.25\\le z\\le0,-10\\le z\\le-6.75\\right\\}"
+      ],
+      "example_normalized": [
+        "y=4.5{-2.3<x<-1.6}{-3.25<=z<=0,-10<=z<=-6.75}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "a83b45ad0dc8f45e",
+      "family": "CONSTANT_PLANE",
+      "status": "SUPPORTED",
+      "reason": "Constant plane",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "4"
+      ],
+      "example_latex": [
+        "y=5.2\\left\\{2.7<x<4.3\\right\\}\\left\\{-3.25\\le z\\le0.5,-10.5\\le z\\le-6.75\\right\\}"
+      ],
+      "example_normalized": [
+        "y=5.2{2.7<x<4.3}{-3.25<=z<=0.5,-10.5<=z<=-6.75}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 1,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "a9b594392d1e84de",
+      "family": "CONSTANT_PLANE",
+      "status": "SUPPORTED",
+      "reason": "Constant plane",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "19"
+      ],
+      "example_latex": [
+        "y=2.95\\left\\{-2.625>x>-4.375\\right\\}\\left\\{-3.25\\le z\\le0.5,-10.5\\le z\\le-6.75\\right\\}"
+      ],
+      "example_normalized": [
+        "y=2.95{-2.625>x>-4.375}{-3.25<=z<=0.5,-10.5<=z<=-6.75}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 1,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "afecc306e57f58e9",
+      "family": "CONSTANT_PLANE",
+      "status": "SUPPORTED",
+      "reason": "Constant plane",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "5"
+      ],
+      "example_latex": [
+        "y=5.2\\left\\{-4.3<x<-2.7\\right\\}\\left\\{-3.25\\le z\\le0.5,-10.5\\le z\\le-6.75\\right\\}"
+      ],
+      "example_normalized": [
+        "y=5.2{-4.3<x<-2.7}{-3.25<=z<=0.5,-10.5<=z<=-6.75}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 1,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "b08760cdc02be5ec",
+      "family": "CONSTANT_PLANE",
+      "status": "SUPPORTED",
+      "reason": "Constant plane",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "7"
+      ],
+      "example_latex": [
+        "y=5.1\\left\\{-4.25<x<-2.75\\right\\}\\left\\{-3.25\\le z\\le0.5,-10.5\\le z\\le-6.75\\right\\}"
+      ],
+      "example_normalized": [
+        "y=5.1{-4.25<x<-2.75}{-3.25<=z<=0.5,-10.5<=z<=-6.75}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 1,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "c61e6dd16b415ba3",
+      "family": "CONSTANT_PLANE",
+      "status": "SUPPORTED",
+      "reason": "Constant plane",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "14"
+      ],
+      "example_latex": [
+        "y=4.2\\left\\{2.7<x<4.3\\right\\}\\left\\{-3.25\\le z\\le0.5,-10.5\\le z\\le-6.75\\right\\}"
+      ],
+      "example_normalized": [
+        "y=4.2{2.7<x<4.3}{-3.25<=z<=0.5,-10.5<=z<=-6.75}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 1,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "c657d96fedf278b3",
+      "family": "CONSTANT_PLANE",
+      "status": "SUPPORTED",
+      "reason": "Constant plane",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "52"
+      ],
+      "example_latex": [
+        "x=-5\\left\\{0<y<7\\right\\}\\left\\{-3.25\\le z\\le0,-10\\le z\\le-6.75\\right\\}"
+      ],
+      "example_normalized": [
+        "x=-5{0<y<7}{-3.25<=z<=0,-10<=z<=-6.75}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "c8e5aa018c11c380",
+      "family": "CONSTANT_PLANE",
+      "status": "SUPPORTED",
+      "reason": "Constant plane",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "17"
+      ],
+      "example_latex": [
+        "y=3\\left\\{-2.6>x>-4.4\\right\\}\\left\\{-3.25\\le z\\le0.5,-10.5\\le z\\le-6.75\\right\\}"
+      ],
+      "example_normalized": [
+        "y=3{-2.6>x>-4.4}{-3.25<=z<=0.5,-10.5<=z<=-6.75}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "cc1b166e02399838",
+      "family": "CONSTANT_PLANE",
+      "status": "SUPPORTED",
+      "reason": "Constant plane",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "53"
+      ],
+      "example_latex": [
+        "x=-2.3\\left\\{0<y<7\\right\\}\\left\\{-3.25\\le z\\le0,-10\\le z\\le-6.75\\right\\}"
+      ],
+      "example_normalized": [
+        "x=-2.3{0<y<7}{-3.25<=z<=0,-10<=z<=-6.75}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "dd8b8f6261ff6a7b",
+      "family": "CONSTANT_PLANE",
+      "status": "SUPPORTED",
+      "reason": "Constant plane",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "12"
+      ],
+      "example_latex": [
+        "y=4.25\\left\\{2.675<x<4.325\\right\\}\\left\\{-3.25\\le z\\le0.5,-10.5\\le z\\le-6.75\\right\\}"
+      ],
+      "example_normalized": [
+        "y=4.25{2.675<x<4.325}{-3.25<=z<=0.5,-10.5<=z<=-6.75}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 1,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "e1610d93af09054b",
+      "family": "CONSTANT_PLANE",
+      "status": "SUPPORTED",
+      "reason": "Constant plane",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "189"
+      ],
+      "example_latex": [
+        "y=7.5\\left\\{-5<x<5\\right\\}\\left\\{-3.25\\le z\\le0.1,-10.1\\le z\\le-6.75\\right\\}"
+      ],
+      "example_normalized": [
+        "y=7.5{-5<x<5}{-3.25<=z<=0.1,-10.1<=z<=-6.75}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "f5aa65f6970539d2",
+      "family": "CONSTANT_PLANE",
+      "status": "SUPPORTED",
+      "reason": "Constant plane",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "13"
+      ],
+      "example_latex": [
+        "y=4.25\\left\\{-2.675>x>-4.325\\right\\}\\left\\{-3.25\\le z\\le0.5,-10.5\\le z\\le-6.75\\right\\}"
+      ],
+      "example_normalized": [
+        "y=4.25{-2.675>x>-4.325}{-3.25<=z<=0.5,-10.5<=z<=-6.75}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 1,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "18c0e3068d9b0468",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "121"
+      ],
+      "example_latex": [
+        "0=-1.6x+b-11.25-y\\left\\{7<y<7.205\\right\\}\\left\\{-3.25\\le z\\le0.01,-10.01\\le z\\le-6.75\\right\\}"
+      ],
+      "example_normalized": [
+        "0=-1.6x+b-11.25-y{7<y<7.205}{-3.25<=z<=0.01,-10.01<=z<=-6.75}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "195ed7b682bf6e48",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "105"
+      ],
+      "example_latex": [
+        "0=gx+l+0.01-y\\left\\{7.346<y<7.41\\right\\}\\left\\{-3.25\\le z\\le0.01,-10.01\\le z\\le-6.75\\right\\}"
+      ],
+      "example_normalized": [
+        "0=gx+l+0.01-y{7.346<y<7.41}{-3.25<=z<=0.01,-10.01<=z<=-6.75}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "1b086adba6b739a6",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "110"
+      ],
+      "example_latex": [
+        "0=-gx+a-y\\left\\{7.337<y<7.4\\right\\}\\left\\{-3.25\\le z\\le0.01,-10.01\\le z\\le-6.75\\right\\}"
+      ],
+      "example_normalized": [
+        "0=-gx+a-y{7.337<y<7.4}{-3.25<=z<=0.01,-10.01<=z<=-6.75}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "21a0aae0374b5433",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "106"
+      ],
+      "example_latex": [
+        "0=gx+l+0.02-y\\left\\{7.355<y<7.42\\right\\}\\left\\{-3.25\\le z\\le0.01,-10.01\\le z\\le-6.75\\right\\}"
+      ],
+      "example_normalized": [
+        "0=gx+l+0.02-y{7.355<y<7.42}{-3.25<=z<=0.01,-10.01<=z<=-6.75}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "621edec78dceea7b",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "114"
+      ],
+      "example_latex": [
+        "0=-gx+a+0.01-y\\left\\{7.21<y<7.272\\right\\}\\left\\{-3.25\\le z\\le0.01,-10.01\\le z\\le-6.75\\right\\}"
+      ],
+      "example_normalized": [
+        "0=-gx+a+0.01-y{7.21<y<7.272}{-3.25<=z<=0.01,-10.01<=z<=-6.75}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "62af119b342f45f5",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "113"
+      ],
+      "example_latex": [
+        "0=-gx+a-y\\left\\{7.2<y<7.263\\right\\}\\left\\{-3.25\\le z\\le0.01,-10.01\\le z\\le-6.75\\right\\}"
+      ],
+      "example_normalized": [
+        "0=-gx+a-y{7.2<y<7.263}{-3.25<=z<=0.01,-10.01<=z<=-6.75}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "6a937e0fa4200133",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "120"
+      ],
+      "example_latex": [
+        "0=-1.6x+b-11.225-y\\left\\{7<y<7.21\\right\\}\\left\\{-3.25\\le z\\le0.01,-10.01\\le z\\le-6.75\\right\\}"
+      ],
+      "example_normalized": [
+        "0=-1.6x+b-11.225-y{7<y<7.21}{-3.25<=z<=0.01,-10.01<=z<=-6.75}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "6aa7e4616f63da88",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "111"
+      ],
+      "example_latex": [
+        "0=-gx+a+0.01-y\\left\\{7.346<y<7.41\\right\\}\\left\\{-3.25\\le z\\le0.01,-10.01\\le z\\le-6.75\\right\\}"
+      ],
+      "example_normalized": [
+        "0=-gx+a+0.01-y{7.346<y<7.41}{-3.25<=z<=0.01,-10.01<=z<=-6.75}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "6fb799cf83df924a",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "160"
+      ],
+      "example_latex": [
+        "0.365\\left(x+0.17\\right)=\\left(y-11.3\\right)^{2}\\left\\{0.215>x\\right\\}\\left\\{-10.25\\le z\\le-1\\right\\}"
+      ],
+      "example_normalized": [
+        "0.365(x+0.17)=(y-11.3)^2{0.215>x}{-10.25<=z<=-1}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "71365c711d167e99",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "116"
+      ],
+      "example_latex": [
+        "0=1.6x-b+25.8-y\\left\\{7<y<7.215\\right\\}\\left\\{-3.25\\le z\\le0.01,-10.01\\le z\\le-6.75\\right\\}"
+      ],
+      "example_normalized": [
+        "0=1.6x-b+25.8-y{7<y<7.215}{-3.25<=z<=0.01,-10.01<=z<=-6.75}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "72363781343cfc60",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "90"
+      ],
+      "example_latex": [
+        "-0.365\\left(x-0.17\\right)=\\left(y-11.3\\right)^{2}\\left\\{-0.215<x\\right\\}\\left\\{-9\\le z\\le0.25\\right\\}"
+      ],
+      "example_normalized": [
+        "-0.365(x-0.17)=(y-11.3)^2{-0.215<x}{-9<=z<=0.25}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "8814f6fc184fb2e9",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "107"
+      ],
+      "example_latex": [
+        "0=gx+l-y\\left\\{7.2<y<7.263\\right\\}\\left\\{-3.25\\le z\\le0.01,-10.01\\le z\\le-6.75\\right\\}"
+      ],
+      "example_normalized": [
+        "0=gx+l-y{7.2<y<7.263}{-3.25<=z<=0.01,-10.01<=z<=-6.75}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "9743a06ff5f65573",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "195"
+      ],
+      "example_latex": [
+        "-0.365\\left(x-0.16\\right)=\\left(y-11.3\\right)^{2}\\left\\{-0.215<x\\right\\}\\left\\{-9\\le z\\le0.25\\right\\}"
+      ],
+      "example_normalized": [
+        "-0.365(x-0.16)=(y-11.3)^2{-0.215<x}{-9<=z<=0.25}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "975236d93258d194",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "118"
+      ],
+      "example_latex": [
+        "0=1.6x-b+25.75-y\\left\\{7<y<7.205\\right\\}\\left\\{-3.25\\le z\\le0.01,-10.01\\le z\\le-6.75\\right\\}"
+      ],
+      "example_normalized": [
+        "0=1.6x-b+25.75-y{7<y<7.205}{-3.25<=z<=0.01,-10.01<=z<=-6.75}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "a33d82bb9c81de1a",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "104"
+      ],
+      "example_latex": [
+        "0=gx+l-y\\left\\{7.337<y<7.4\\right\\}\\left\\{-3.25\\le z\\le0.01,-10.01\\le z\\le-6.75\\right\\}"
+      ],
+      "example_normalized": [
+        "0=gx+l-y{7.337<y<7.4}{-3.25<=z<=0.01,-10.01<=z<=-6.75}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "b0f21b9f6fb34263",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "115"
+      ],
+      "example_latex": [
+        "0=-gx+a+0.02-y\\left\\{7.22<y<7.281\\right\\}\\left\\{-3.25\\le z\\le0.01,-10.01\\le z\\le-6.75\\right\\}"
+      ],
+      "example_normalized": [
+        "0=-gx+a+0.02-y{7.22<y<7.281}{-3.25<=z<=0.01,-10.01<=z<=-6.75}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "b48930e800fab13d",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "117"
+      ],
+      "example_latex": [
+        "0=1.6x-b+25.775-y\\left\\{7<y<7.21\\right\\}\\left\\{-3.25\\le z\\le0.01,-10.01\\le z\\le-6.75\\right\\}"
+      ],
+      "example_normalized": [
+        "0=1.6x-b+25.775-y{7<y<7.21}{-3.25<=z<=0.01,-10.01<=z<=-6.75}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "b6acfd2d86b3275d",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "109"
+      ],
+      "example_latex": [
+        "0=gx+l+0.02-y\\left\\{7.22<y<7.281\\right\\}\\left\\{-3.25\\le z\\le0.01,-10.01\\le z\\le-6.75\\right\\}"
+      ],
+      "example_normalized": [
+        "0=gx+l+0.02-y{7.22<y<7.281}{-3.25<=z<=0.01,-10.01<=z<=-6.75}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "d4e36773defbd0aa",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "108"
+      ],
+      "example_latex": [
+        "0=gx+l+0.01-y\\left\\{7.21<y<7.272\\right\\}\\left\\{-3.25\\le z\\le0.01,-10.01\\le z\\le-6.75\\right\\}"
+      ],
+      "example_normalized": [
+        "0=gx+l+0.01-y{7.21<y<7.272}{-3.25<=z<=0.01,-10.01<=z<=-6.75}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "eaa9f0ec613ee22b",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "112"
+      ],
+      "example_latex": [
+        "0=-gx+a+0.02-y\\left\\{7.355<y<7.42\\right\\}\\left\\{-3.25\\le z\\le0.01,-10.01\\le z\\le-6.75\\right\\}"
+      ],
+      "example_normalized": [
+        "0=-gx+a+0.02-y{7.355<y<7.42}{-3.25<=z<=0.01,-10.01<=z<=-6.75}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "fb76e7e7b4e1a5ff",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "196"
+      ],
+      "example_latex": [
+        "0.365\\left(x+0.16\\right)=\\left(y-11.3\\right)^{2}\\left\\{0.215>x\\right\\}\\left\\{-10.25\\le z\\le-1\\right\\}"
+      ],
+      "example_normalized": [
+        "0.365(x+0.16)=(y-11.3)^2{0.215>x}{-10.25<=z<=-1}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "ffba9c528bcacb6e",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "119"
+      ],
+      "example_latex": [
+        "0=-1.6x+b-11.2-y\\left\\{7<y<7.215\\right\\}\\left\\{-3.25\\le z\\le0.01,-10.01\\le z\\le-6.75\\right\\}"
+      ],
+      "example_normalized": [
+        "0=-1.6x+b-11.2-y{7<y<7.215}{-3.25<=z<=0.01,-10.01<=z<=-6.75}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    }
+  ],
+  "diagnostics": [
+    {
+      "severity": "WARNING",
+      "code": "COVERAGE_MESH_FAILURES",
+      "message": "Some meshes failed during coverage pass (these items may be missing)",
+      "source_ref": null,
+      "details": {
+        "failed_mesh_count": 32,
+        "failures": [
+          {
+            "source_file": "[4B] 3D Diagram - S2-03 Group D.json",
+            "expression_id": "4",
+            "error": "Unsupported expression node: Tuple(elts=[Constant(value=0.5), UnaryOp(op=USub(), operand=Constant(value=10.5))], ctx=Load())"
+          },
+          {
+            "source_file": "[4B] 3D Diagram - S2-03 Group D.json",
+            "expression_id": "5",
+            "error": "Unsupported expression node: Tuple(elts=[Constant(value=0.5), UnaryOp(op=USub(), operand=Constant(value=10.5))], ctx=Load())"
+          },
+          {
+            "source_file": "[4B] 3D Diagram - S2-03 Group D.json",
+            "expression_id": "6",
+            "error": "Unsupported expression node: Tuple(elts=[Constant(value=0.5), UnaryOp(op=USub(), operand=Constant(value=10.5))], ctx=Load())"
+          },
+          {
+            "source_file": "[4B] 3D Diagram - S2-03 Group D.json",
+            "expression_id": "7",
+            "error": "Unsupported expression node: Tuple(elts=[Constant(value=0.5), UnaryOp(op=USub(), operand=Constant(value=10.5))], ctx=Load())"
+          },
+          {
+            "source_file": "[4B] 3D Diagram - S2-03 Group D.json",
+            "expression_id": "8",
+            "error": "Unsupported expression node: Tuple(elts=[Constant(value=0.5), UnaryOp(op=USub(), operand=Constant(value=10.5))], ctx=Load())"
+          },
+          {
+            "source_file": "[4B] 3D Diagram - S2-03 Group D.json",
+            "expression_id": "9",
+            "error": "Unsupported expression node: Tuple(elts=[Constant(value=0.5), UnaryOp(op=USub(), operand=Constant(value=10.5))], ctx=Load())"
+          },
+          {
+            "source_file": "[4B] 3D Diagram - S2-03 Group D.json",
+            "expression_id": "10",
+            "error": "Unsupported expression node: Tuple(elts=[Constant(value=0.5), UnaryOp(op=USub(), operand=Constant(value=10.5))], ctx=Load())"
+          },
+          {
+            "source_file": "[4B] 3D Diagram - S2-03 Group D.json",
+            "expression_id": "11",
+            "error": "Unsupported expression node: Tuple(elts=[Constant(value=0.5), UnaryOp(op=USub(), operand=Constant(value=10.5))], ctx=Load())"
+          },
+          {
+            "source_file": "[4B] 3D Diagram - S2-03 Group D.json",
+            "expression_id": "12",
+            "error": "Unsupported expression node: Tuple(elts=[Constant(value=0.5), UnaryOp(op=USub(), operand=Constant(value=10.5))], ctx=Load())"
+          },
+          {
+            "source_file": "[4B] 3D Diagram - S2-03 Group D.json",
+            "expression_id": "13",
+            "error": "Unsupported expression node: Tuple(elts=[Constant(value=0.5), UnaryOp(op=USub(), operand=Constant(value=10.5))], ctx=Load())"
+          }
+        ]
+      }
+    },
+    {
+      "severity": "INFO",
+      "code": "COVERAGE_COMPLETE",
+      "message": "Coverage report complete",
+      "source_ref": null,
+      "details": {
+        "file": "[4B] 3D Diagram - S2-03 Group D.json",
+        "meshed_expression_ids": 42,
+        "supported_but_not_meshed": 32,
+        "group_count": 54
+      }
+    }
+  ]
+}

@@ -1,0 +1,751 @@
+{
+  "version": 11,
+  "randomSeed": "417d5a8ff3fb1c766dbc03c2016010f8",
+  "graph": {
+    "viewport": {
+      "xmin": -42.7857513975849,
+      "ymin": -42.785751397584534,
+      "zmin": -42.78575139758451,
+      "xmax": 42.7857513975849,
+      "ymax": 42.785751397584534,
+      "zmax": 42.78575139758451
+    },
+    "worldRotation3D": [
+      -0.6172233135865078,
+      0.7493755863239324,
+      -0.23973237534162012,
+      -0.6985357609046688,
+      -0.6621451733733605,
+      -0.27131450406435564,
+      -0.36205410079520567,
+      6.363351264505367e-14,
+      0.9321570833810132
+    ],
+    "axis3D": [
+      0,
+      0,
+      0.9999999999951819
+    ],
+    "product": "graphing-3d",
+    "threeDMode": true,
+    "__v12ViewportLatexStash": {
+      "xmin": "-42.7857513975849",
+      "xmax": "42.7857513975849",
+      "ymin": "-42.785751397584534",
+      "ymax": "42.785751397584534",
+      "zmin": "-42.78575139758451",
+      "zmax": "42.78575139758451"
+    }
+  },
+  "expressions": {
+    "list": [
+      {
+        "type": "expression",
+        "id": "4",
+        "color": "#aaaaaa",
+        "latex": "y=10.7\\left\\{-30<x<30\\right\\}\\left\\{0<z<13.2\\right\\}",
+        "extendTo3D": true,
+        "colorLatex": "J"
+      },
+      {
+        "type": "expression",
+        "id": "5",
+        "color": "#aaaaaa",
+        "latex": "y=-10.7\\left\\{-30<x<30\\right\\}\\left\\{0<z<13.2\\right\\}",
+        "extendTo3D": true,
+        "colorLatex": "J"
+      },
+      {
+        "type": "expression",
+        "id": "6",
+        "color": "#aaaaaa",
+        "latex": "x=30\\left\\{-10.7<y<-5.15\\right\\}\\left\\{0<z<13.2\\right\\}",
+        "colorLatex": "J"
+      },
+      {
+        "type": "expression",
+        "id": "8",
+        "color": "#aaaaaa",
+        "latex": "x=30\\left\\{-10.7<y<10.7\\right\\}\\left\\{8<z<13.2\\right\\}",
+        "colorLatex": "J"
+      },
+      {
+        "type": "expression",
+        "id": "9",
+        "color": "#aaaaaa",
+        "latex": "x=30\\left\\{5.15<y<10.7\\right\\}\\left\\{0<z<13.2\\right\\}",
+        "colorLatex": "J"
+      },
+      {
+        "type": "expression",
+        "id": "7",
+        "color": "#aaaaaa",
+        "latex": "x=-30\\left\\{-10.7<y<-5.15\\right\\}\\left\\{0<z<13.2\\right\\}",
+        "colorLatex": "J"
+      },
+      {
+        "type": "expression",
+        "id": "10",
+        "color": "#aaaaaa",
+        "latex": "x=-30\\left\\{-10.7<y<10.7\\right\\}\\left\\{8<z<13.2\\right\\}",
+        "colorLatex": "J"
+      },
+      {
+        "type": "expression",
+        "id": "11",
+        "color": "#aaaaaa",
+        "latex": "x=-30\\left\\{5.15<y<10.7\\right\\}\\left\\{0<z<13.2\\right\\}",
+        "colorLatex": "J"
+      },
+      {
+        "type": "folder",
+        "id": "26",
+        "title": "for pillar",
+        "collapsed": true
+      },
+      {
+        "type": "expression",
+        "id": "16",
+        "folderId": "26",
+        "color": "#aaaaaa",
+        "latex": "\\left(x+a\\right)^{2}+\\left(y+b\\right)^{2}=0.9025\\ \\left\\{0<z<13.72\\right\\}",
+        "colorLatex": "J"
+      },
+      {
+        "type": "expression",
+        "id": "19",
+        "folderId": "26",
+        "color": "#2d70b3",
+        "latex": "a=3.2",
+        "hidden": true
+      },
+      {
+        "type": "expression",
+        "id": "20",
+        "folderId": "26",
+        "color": "#388c46",
+        "latex": "b=-5",
+        "hidden": true
+      },
+      {
+        "type": "folder",
+        "id": "57",
+        "title": "right, short side pillars"
+      },
+      {
+        "type": "expression",
+        "id": "12",
+        "folderId": "57",
+        "color": "#aaaaaa",
+        "latex": "\\left(x-33.75\\right)^{2}+\\left(y-14.5\\right)^{2}=0.9025\\ \\left\\{0<z<12.9\\right\\}",
+        "extendTo3D": true,
+        "colorLatex": "J"
+      },
+      {
+        "type": "expression",
+        "id": "36",
+        "folderId": "57",
+        "color": "#aaaaaa",
+        "latex": "\\left(x-33.75\\right)^{2}+\\left(y-10.2\\right)^{2}=0.9025\\ \\left\\{0<z<12.9\\right\\}",
+        "colorLatex": "J"
+      },
+      {
+        "type": "expression",
+        "id": "37",
+        "folderId": "57",
+        "color": "#c74440",
+        "latex": "\\left(x-33.75\\right)^{2}+\\left(y-5.9\\right)^{2}=0.9025\\ \\left\\{0<z<12.9\\right\\}",
+        "colorLatex": "J"
+      },
+      {
+        "type": "expression",
+        "id": "38",
+        "folderId": "57",
+        "color": "#2d70b3",
+        "latex": "\\left(x-33.75\\right)^{2}+\\left(y-2\\right)^{2}=0.9025\\left\\{0<z<12.9\\right\\}",
+        "colorLatex": "J"
+      },
+      {
+        "type": "expression",
+        "id": "39",
+        "folderId": "57",
+        "color": "#388c46",
+        "latex": "\\left(x-33.75\\right)^{2}+\\left(y+2\\right)^{2}=0.9025\\left\\{0<z<12.9\\right\\}",
+        "colorLatex": "J"
+      },
+      {
+        "type": "expression",
+        "id": "40",
+        "folderId": "57",
+        "color": "#6042a6",
+        "latex": "\\left(x-33.75\\right)^{2}+\\left(y+5.9\\right)^{2}=0.9025\\ \\left\\{0<z<12.9\\right\\}",
+        "colorLatex": "J"
+      },
+      {
+        "type": "expression",
+        "id": "41",
+        "folderId": "57",
+        "color": "#aaaaaa",
+        "latex": "\\left(x-33.75\\right)^{2}+\\left(y+10.2\\right)^{2}=0.9025\\ \\left\\{0<z<12.9\\right\\}",
+        "colorLatex": "J"
+      },
+      {
+        "type": "expression",
+        "id": "15",
+        "folderId": "57",
+        "color": "#aaaaaa",
+        "latex": "\\left(x-33.75\\right)^{2}+\\left(y+14.5\\right)^{2}=0.9025\\ \\left\\{0<z<12.9\\right\\}",
+        "colorLatex": "J"
+      },
+      {
+        "type": "folder",
+        "id": "58",
+        "title": "left, short side pillars",
+        "collapsed": true
+      },
+      {
+        "type": "expression",
+        "id": "22",
+        "folderId": "58",
+        "color": "#aaaaaa",
+        "latex": "\\left(x+33.75\\right)^{2}+\\left(y-14.5\\right)^{2}=0.9025\\ \\left\\{0<z<12.9\\right\\}",
+        "colorLatex": "J"
+      },
+      {
+        "type": "expression",
+        "id": "24",
+        "folderId": "58",
+        "color": "#6042a6",
+        "latex": "\\left(x+33.75\\right)^{2}+\\left(y-10.2\\right)^{2}=0.9025\\ \\left\\{0<z<12.9\\right\\}",
+        "colorLatex": "J"
+      },
+      {
+        "type": "expression",
+        "id": "27",
+        "folderId": "58",
+        "color": "#c74440",
+        "latex": "\\left(x+33.75\\right)^{2}+\\left(y-5.9\\right)^{2}=0.9025\\ \\left\\{0<z<12.9\\right\\}",
+        "colorLatex": "J"
+      },
+      {
+        "type": "expression",
+        "id": "29",
+        "folderId": "58",
+        "color": "#388c46",
+        "latex": "\\left(x+33.75\\right)^{2}+\\left(y-2\\right)^{2}=0.9025\\left\\{0<z<12.9\\right\\}",
+        "colorLatex": "J"
+      },
+      {
+        "type": "expression",
+        "id": "35",
+        "folderId": "58",
+        "color": "#6042a6",
+        "latex": "\\left(x+33.75\\right)^{2}+\\left(y+2\\right)^{2}=0.9025\\left\\{0<z<12.9\\right\\}",
+        "colorLatex": "J"
+      },
+      {
+        "type": "expression",
+        "id": "28",
+        "folderId": "58",
+        "color": "#2d70b3",
+        "latex": "\\left(x+33.75\\right)^{2}+\\left(y+5.9\\right)^{2}=0.9025\\ \\left\\{0<z<12.9\\right\\}",
+        "colorLatex": "J"
+      },
+      {
+        "type": "expression",
+        "id": "25",
+        "folderId": "58",
+        "color": "#aaaaaa",
+        "latex": "\\left(x+33.75\\right)^{2}+\\left(y+10.2\\right)^{2}=0.9025\\ \\left\\{0<z<12.9\\right\\}",
+        "colorLatex": "J"
+      },
+      {
+        "type": "expression",
+        "id": "21",
+        "folderId": "58",
+        "color": "#aaaaaa",
+        "latex": "\\left(x+33.75\\right)^{2}+\\left(y+14.5\\right)^{2}=0.9025\\ \\left\\{0<z<12.9\\right\\}",
+        "colorLatex": "J"
+      },
+      {
+        "type": "folder",
+        "id": "60",
+        "title": "bottom pillars",
+        "collapsed": true
+      },
+      {
+        "type": "expression",
+        "id": "42",
+        "folderId": "60",
+        "color": "#c74440",
+        "latex": "\\left(x+29.5\\right)^{2}+\\left(y+14.5\\right)^{2}=0.9025\\ \\left\\{0<z<12.9\\right\\}",
+        "colorLatex": "J"
+      },
+      {
+        "type": "expression",
+        "id": "43",
+        "folderId": "60",
+        "color": "#2d70b3",
+        "latex": "\\left(x+25.2\\right)^{2}+\\left(y+14.5\\right)^{2}=0.9025\\ \\left\\{0<z<12.9\\right\\}",
+        "colorLatex": "J"
+      },
+      {
+        "type": "expression",
+        "id": "44",
+        "folderId": "60",
+        "color": "#388c46",
+        "latex": "\\left(x+20.9\\right)^{2}+\\left(y+14.5\\right)^{2}=0.9025\\ \\left\\{0<z<12.9\\right\\}",
+        "colorLatex": "J"
+      },
+      {
+        "type": "expression",
+        "id": "45",
+        "folderId": "60",
+        "color": "#6042a6",
+        "latex": "\\ \\left(x+16.6\\right)^{2}+\\left(y+14.5\\right)^{2}=0.9025\\ \\left\\{0<z<12.9\\right\\}",
+        "colorLatex": "J"
+      },
+      {
+        "type": "expression",
+        "id": "46",
+        "folderId": "60",
+        "color": "#aaaaaa",
+        "latex": "\\ \\left(x+12.3\\right)^{2}+\\left(y+14.5\\right)^{2}=0.9025\\ \\left\\{0<z<12.9\\right\\}",
+        "colorLatex": "J"
+      },
+      {
+        "type": "expression",
+        "id": "47",
+        "folderId": "60",
+        "color": "#c74440",
+        "latex": "\\left(x+8\\right)^{2}+\\left(y+14.5\\right)^{2}=0.9025\\ \\left\\{0<z<12.9\\right\\}",
+        "colorLatex": "J"
+      },
+      {
+        "type": "expression",
+        "id": "48",
+        "folderId": "60",
+        "color": "#2d70b3",
+        "latex": "\\left(x+3.7\\right)^{2}+\\left(y+14.5\\right)^{2}=0.9025\\ \\left\\{0<z<12.9\\right\\}",
+        "colorLatex": "J"
+      },
+      {
+        "type": "expression",
+        "id": "49",
+        "folderId": "60",
+        "color": "#388c46",
+        "latex": "\\left(x+0\\right)^{2}+\\left(y+14.5\\right)^{2}=0.9025\\ \\left\\{0<z<12.9\\right\\}",
+        "colorLatex": "J"
+      },
+      {
+        "type": "expression",
+        "id": "50",
+        "folderId": "60",
+        "color": "#6042a6",
+        "latex": "\\left(x-3.7\\right)^{2}+\\left(y+14.5\\right)^{2}=0.9025\\ \\left\\{0<z<12.9\\right\\}",
+        "colorLatex": "J"
+      },
+      {
+        "type": "expression",
+        "id": "51",
+        "folderId": "60",
+        "color": "#aaaaaa",
+        "latex": "\\left(x-8\\right)^{2}+\\left(y+14.5\\right)^{2}=0.9025\\ \\left\\{0<z<12.9\\right\\}",
+        "colorLatex": "J"
+      },
+      {
+        "type": "expression",
+        "id": "52",
+        "folderId": "60",
+        "color": "#c74440",
+        "latex": "\\left(x-12.3\\right)^{2}+\\left(y+14.5\\right)^{2}=0.9025\\ \\left\\{0<z<12.9\\right\\}",
+        "colorLatex": "J"
+      },
+      {
+        "type": "expression",
+        "id": "53",
+        "folderId": "60",
+        "color": "#2d70b3",
+        "latex": "\\left(x-16.6\\right)^{2}+\\left(y+14.5\\right)^{2}=0.9025\\ \\left\\{0<z<12.9\\right\\}",
+        "colorLatex": "J"
+      },
+      {
+        "type": "expression",
+        "id": "54",
+        "folderId": "60",
+        "color": "#388c46",
+        "latex": "\\left(x-20.9\\right)^{2}+\\left(y+14.5\\right)^{2}=0.9025\\ \\left\\{0<z<12.9\\right\\}",
+        "colorLatex": "J"
+      },
+      {
+        "type": "expression",
+        "id": "55",
+        "folderId": "60",
+        "color": "#6042a6",
+        "latex": "\\left(x-25.2\\right)^{2}+\\left(y+14.5\\right)^{2}=0.9025\\ \\left\\{0<z<12.9\\right\\}",
+        "colorLatex": "J"
+      },
+      {
+        "type": "expression",
+        "id": "56",
+        "folderId": "60",
+        "color": "#aaaaaa",
+        "latex": "\\left(x-29.5\\right)^{2}+\\left(y+14.5\\right)^{2}=0.9025\\ \\left\\{0<z<12.9\\right\\}",
+        "colorLatex": "J"
+      },
+      {
+        "type": "folder",
+        "id": "64",
+        "title": "top pillars",
+        "collapsed": true
+      },
+      {
+        "type": "expression",
+        "id": "59",
+        "folderId": "64",
+        "color": "#c74440",
+        "latex": "\\left(x-29.5\\right)^{2}+\\left(y-14.5\\right)^{2}=0.9025\\ \\left\\{0<z<12.9\\right\\}",
+        "colorLatex": "J"
+      },
+      {
+        "type": "expression",
+        "id": "62",
+        "folderId": "64",
+        "color": "#388c46",
+        "latex": "\\left(x-25.2\\right)^{2}+\\left(y-14.5\\right)^{2}=0.9025\\ \\left\\{0<z<12.9\\right\\}",
+        "colorLatex": "J"
+      },
+      {
+        "type": "expression",
+        "id": "63",
+        "folderId": "64",
+        "color": "#6042a6",
+        "latex": "\\left(x-20.9\\right)^{2}+\\left(y-14.5\\right)^{2}=0.9025\\ \\left\\{0<z<12.9\\right\\}",
+        "colorLatex": "J"
+      },
+      {
+        "type": "expression",
+        "id": "65",
+        "folderId": "64",
+        "color": "#aaaaaa",
+        "latex": "\\left(x-16.6\\right)^{2}+\\left(y-14.5\\right)^{2}=0.9025\\ \\left\\{0<z<12.9\\right\\}",
+        "colorLatex": "J"
+      },
+      {
+        "type": "expression",
+        "id": "66",
+        "folderId": "64",
+        "color": "#c74440",
+        "latex": "\\left(x-12.3\\right)^{2}+\\left(y-14.5\\right)^{2}=0.9025\\ \\left\\{0<z<12.9\\right\\}",
+        "colorLatex": "J"
+      },
+      {
+        "type": "expression",
+        "id": "67",
+        "folderId": "64",
+        "color": "#2d70b3",
+        "latex": "\\left(x-8\\right)^{2}+\\left(y-14.5\\right)^{2}=0.9025\\ \\left\\{0<z<12.9\\right\\}",
+        "colorLatex": "J"
+      },
+      {
+        "type": "expression",
+        "id": "68",
+        "folderId": "64",
+        "color": "#388c46",
+        "latex": "\\left(x-3.7\\right)^{2}+\\left(y-14.5\\right)^{2}=0.9025\\ \\left\\{0<z<12.9\\right\\}",
+        "colorLatex": "J"
+      },
+      {
+        "type": "expression",
+        "id": "69",
+        "folderId": "64",
+        "color": "#6042a6",
+        "latex": "\\left(x+0\\right)^{2}+\\left(y-14.5\\right)^{2}=0.9025\\ \\left\\{0<z<12.9\\right\\}",
+        "colorLatex": "J"
+      },
+      {
+        "type": "expression",
+        "id": "70",
+        "folderId": "64",
+        "color": "#aaaaaa",
+        "latex": "\\left(x+3.7\\right)^{2}+\\left(y-14.5\\right)^{2}=0.9025\\ \\left\\{0<z<12.9\\right\\}",
+        "colorLatex": "J"
+      },
+      {
+        "type": "expression",
+        "id": "71",
+        "folderId": "64",
+        "color": "#c74440",
+        "latex": "\\left(x+8\\right)^{2}+\\left(y-14.5\\right)^{2}=0.9025\\ \\left\\{0<z<12.9\\right\\}",
+        "colorLatex": "J"
+      },
+      {
+        "type": "expression",
+        "id": "72",
+        "folderId": "64",
+        "color": "#2d70b3",
+        "latex": "\\left(x+12.3\\right)^{2}+\\left(y-14.5\\right)^{2}=0.9025\\ \\left\\{0<z<12.9\\right\\}",
+        "colorLatex": "J"
+      },
+      {
+        "type": "expression",
+        "id": "73",
+        "folderId": "64",
+        "color": "#388c46",
+        "latex": "\\ \\left(x+16.6\\right)^{2}+\\left(y-14.5\\right)^{2}=0.9025\\ \\left\\{0<z<12.9\\right\\}",
+        "colorLatex": "J"
+      },
+      {
+        "type": "expression",
+        "id": "75",
+        "folderId": "64",
+        "color": "#aaaaaa",
+        "latex": "\\left(x+20.9\\right)^{2}+\\left(y-14.5\\right)^{2}=0.9025\\ \\left\\{0<z<12.9\\right\\}",
+        "colorLatex": "J"
+      },
+      {
+        "type": "expression",
+        "id": "76",
+        "folderId": "64",
+        "color": "#c74440",
+        "latex": "\\left(x+25.2\\right)^{2}+\\left(y-14.5\\right)^{2}=0.9025\\ \\left\\{0<z<12.9\\right\\}",
+        "colorLatex": "J"
+      },
+      {
+        "type": "expression",
+        "id": "77",
+        "folderId": "64",
+        "color": "#2d70b3",
+        "latex": "\\left(x+29.5\\right)^{2}+\\left(y-14.5\\right)^{2}=0.9025\\ \\left\\{0<z<12.9\\right\\}",
+        "colorLatex": "J"
+      },
+      {
+        "type": "folder",
+        "id": "83",
+        "title": "stylobate (top stair)",
+        "collapsed": true
+      },
+      {
+        "type": "expression",
+        "id": "3",
+        "folderId": "83",
+        "color": "#aaaaaa",
+        "latex": "z=0.8\\left\\{-34.75<x<34.75\\right\\}\\left\\{-15.45<y<15.45\\right\\}",
+        "extendTo3D": true,
+        "colorLatex": "J"
+      },
+      {
+        "type": "expression",
+        "id": "81",
+        "folderId": "83",
+        "color": "#aaaaaa",
+        "latex": "y=15.45\\left\\{-34.75<x<34.75\\right\\}\\left\\{0<z<0.8\\right\\}",
+        "colorLatex": "J"
+      },
+      {
+        "type": "expression",
+        "id": "82",
+        "folderId": "83",
+        "color": "#aaaaaa",
+        "latex": "y=-15.45\\left\\{-34.75<x<34.75\\right\\}\\left\\{0<z<0.8\\right\\}",
+        "colorLatex": "J"
+      },
+      {
+        "type": "expression",
+        "id": "84",
+        "folderId": "83",
+        "color": "#aaaaaa",
+        "latex": "x=-34.75\\left\\{-15.45<y<15.45\\right\\}\\left\\{0<z<0.8\\right\\}",
+        "colorLatex": "J"
+      },
+      {
+        "type": "expression",
+        "id": "85",
+        "folderId": "83",
+        "color": "#aaaaaa",
+        "latex": "x=34.75\\left\\{-15.45<y<15.45\\right\\}\\left\\{0<z<0.8\\right\\}",
+        "colorLatex": "J"
+      },
+      {
+        "type": "folder",
+        "id": "87",
+        "title": "second stair",
+        "collapsed": true
+      },
+      {
+        "type": "expression",
+        "id": "80",
+        "folderId": "87",
+        "color": "#2d70b3",
+        "latex": "z=0.4\\left\\{-35.25<x<35.25\\right\\}\\left\\{-15.95<y<15.95\\right\\}",
+        "colorLatex": "J"
+      },
+      {
+        "type": "expression",
+        "id": "88",
+        "folderId": "87",
+        "color": "#2d70b3",
+        "latex": "y=15.95\\left\\{-35.25<x<35.25\\right\\}\\left\\{0<z<0.4\\right\\}",
+        "colorLatex": "J"
+      },
+      {
+        "type": "expression",
+        "id": "89",
+        "folderId": "87",
+        "color": "#2d70b3",
+        "latex": "y=-15.95\\left\\{-35.25<x<35.25\\right\\}\\left\\{0<z<0.4\\right\\}",
+        "colorLatex": "J"
+      },
+      {
+        "type": "expression",
+        "id": "90",
+        "folderId": "87",
+        "color": "#2d70b3",
+        "latex": "x=-35.25\\left\\{-15.95<y<15.95\\right\\}\\left\\{0<z<0.4\\right\\}",
+        "colorLatex": "J"
+      },
+      {
+        "type": "expression",
+        "id": "91",
+        "folderId": "87",
+        "color": "#2d70b3",
+        "latex": "x=35.25\\left\\{-15.95<y<15.95\\right\\}\\left\\{0<z<0.4\\right\\}",
+        "colorLatex": "J"
+      },
+      {
+        "type": "folder",
+        "id": "97",
+        "title": "bottom step (third step)"
+      },
+      {
+        "type": "expression",
+        "id": "79",
+        "folderId": "97",
+        "color": "#6042a6",
+        "latex": "z=0\\left\\{-35.75<x<35.75\\right\\}\\left\\{-16.45<y<16.45\\right\\}",
+        "colorLatex": "J"
+      },
+      {
+        "type": "folder",
+        "id": "100",
+        "title": "thing below the triangle roof",
+        "collapsed": true
+      },
+      {
+        "type": "expression",
+        "id": "93",
+        "folderId": "100",
+        "color": "#c74440",
+        "latex": "z=12.93\\left\\{-35.75<x<35.75\\right\\}\\left\\{-16.45<y<16.45\\right\\}",
+        "colorLatex": "J"
+      },
+      {
+        "type": "expression",
+        "id": "94",
+        "folderId": "100",
+        "color": "#2d70b3",
+        "latex": "x=34.75\\left\\{-15.45<y<15.45\\right\\}\\left\\{11.23<z<12.9\\right\\}",
+        "colorLatex": "J"
+      },
+      {
+        "type": "expression",
+        "id": "95",
+        "folderId": "100",
+        "color": "#388c46",
+        "latex": "x=-34.75\\left\\{-15.45<y<15.45\\right\\}\\left\\{11.23<z<12.9\\right\\}",
+        "colorLatex": "J"
+      },
+      {
+        "type": "expression",
+        "id": "96",
+        "folderId": "100",
+        "color": "#6042a6",
+        "latex": "y=15.45\\left\\{-34.75<x<34.75\\right\\}\\left\\{11.23<z<12.9\\right\\}",
+        "colorLatex": "J"
+      },
+      {
+        "type": "expression",
+        "id": "98",
+        "folderId": "100",
+        "color": "#6042a6",
+        "latex": "y=-15.45\\left\\{-34.75<x<34.75\\right\\}\\left\\{11.23<z<12.9\\right\\}",
+        "colorLatex": "J"
+      },
+      {
+        "type": "expression",
+        "id": "78",
+        "folderId": "100",
+        "color": "#388c46",
+        "latex": "z=11.23\\left\\{-34.75<x<34.75\\right\\}\\left\\{-15.45<y<15.45\\right\\}",
+        "colorLatex": "J"
+      },
+      {
+        "type": "folder",
+        "id": "120",
+        "title": "triangle roof",
+        "collapsed": true
+      },
+      {
+        "type": "expression",
+        "id": "102",
+        "folderId": "120",
+        "color": "#2d70b3",
+        "latex": "\\left(35.75,-16.45,13\\right)+u(\\left(-35.75,-16.45,13\\right)-\\left(35.75,-16.45,13\\right))+v(\\left(35.75,0,14.52\\right)-\\left(35.75,-16.45,13\\right))",
+        "parametricDomain3Du": {
+          "min": "0",
+          "max": "1"
+        },
+        "parametricDomain3Dv": {
+          "min": "0",
+          "max": "1"
+        },
+        "colorLatex": "J"
+      },
+      {
+        "type": "expression",
+        "id": "108",
+        "folderId": "120",
+        "color": "#388c46",
+        "latex": "\\left(35.75,16.45,13\\right)+u(\\left(-35.75,16.45,13\\right)-\\left(35.75,16.45,13\\right))+v(\\left(35.75,0,14.52\\right)-\\left(35.75,16.45,13\\right))",
+        "colorLatex": "J"
+      },
+      {
+        "type": "expression",
+        "id": "117",
+        "folderId": "120",
+        "color": "#2d70b3",
+        "latex": "\\operatorname{triangle}\\left(\\left(35,-15.76,12.93\\right),\\left(35,15.76,12.93\\right),\\left(35,0,14.52\\right)\\right)",
+        "colorLatex": "J"
+      },
+      {
+        "type": "expression",
+        "id": "118",
+        "folderId": "120",
+        "color": "#388c46",
+        "latex": "\\operatorname{triangle}\\left(\\left(-35,16.76,12.9\\right),\\left(-35,-16.76,12.9\\right),\\left(-35,0,14.52\\right)\\right)",
+        "colorLatex": "J"
+      },
+      {
+        "type": "expression",
+        "id": "92",
+        "color": "#aaaaaa",
+        "latex": "z=14.52\\left\\{-34.75<x<34.75\\right\\}\\left\\{-15.45<y<15.45\\right\\}",
+        "hidden": true
+      },
+      {
+        "type": "expression",
+        "id": "121",
+        "color": "#c74440",
+        "latex": "J=\\operatorname{rgb}(230,228,216)"
+      },
+      {
+        "type": "expression",
+        "id": "122",
+        "color": "#2d70b3"
+      }
+    ]
+  },
+  "includeFunctionParametersInRandomSeed": true,
+  "doNotMigrate3dLineWidthZero": true,
+  "doNotMigrateMovablePointStyle": true
+}

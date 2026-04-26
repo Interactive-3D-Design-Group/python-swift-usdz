@@ -1,0 +1,71 @@
+{
+  "source_file": "[4B] 3D Diagram - S2-04 Group D.json",
+  "total_items": 30,
+  "total_expressions": 23,
+  "meshed_expression_count": 20,
+  "supported_expression_count": 20,
+  "supported_but_not_meshed_count": 0,
+  "recognized_unsupported_count": 1,
+  "unrecognized_count": 2,
+  "geometry_ineligible_count": 0,
+  "groups": [
+    {
+      "fingerprint": "898df09cbef2577b",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "83"
+      ],
+      "example_latex": [
+        "484\\cdot2300000"
+      ],
+      "example_normalized": [
+        "484*2300000"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "c46f24883308ec70",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "86"
+      ],
+      "example_latex": [
+        ""
+      ],
+      "example_normalized": [
+        ""
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    }
+  ],
+  "diagnostics": [
+    {
+      "severity": "INFO",
+      "code": "COVERAGE_COMPLETE",
+      "message": "Coverage report complete",
+      "source_ref": null,
+      "details": {
+        "file": "[4B] 3D Diagram - S2-04 Group D.json",
+        "meshed_expression_ids": 20,
+        "supported_but_not_meshed": 0,
+        "group_count": 2
+      }
+    }
+  ]
+}

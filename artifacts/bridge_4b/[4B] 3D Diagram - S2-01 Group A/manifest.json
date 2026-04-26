@@ -1,0 +1,509 @@
+{
+  "schema_version": 1,
+  "mesh_count": 21,
+  "failed_mesh_count": 16,
+  "meshes": [
+    {
+      "name": "[4B] 3D Diagram - S2-01 Group A_244",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-01 Group A_244.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-01 Group A.json",
+      "expression_id": "244",
+      "family": "CONSTANT_PLANE",
+      "bounds": {
+        "min": [
+          -8.3,
+          -8.7,
+          0.0
+        ],
+        "max": [
+          9.0,
+          8.7,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-01 Group A_281",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-01 Group A_281.obj",
+      "color": "#2d70b3",
+      "source_file": "[4B] 3D Diagram - S2-01 Group A.json",
+      "expression_id": "281",
+      "family": "CONSTANT_PLANE",
+      "bounds": {
+        "min": [
+          -0.2,
+          -0.2,
+          5.4
+        ],
+        "max": [
+          0.2,
+          0.2,
+          5.4
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-01 Group A_161",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-01 Group A_161.obj",
+      "color": "#388c46",
+      "source_file": "[4B] 3D Diagram - S2-01 Group A.json",
+      "expression_id": "161",
+      "family": "Z_SLAB_REGION",
+      "bounds": {
+        "min": [
+          -3.1,
+          -7.3,
+          0.9
+        ],
+        "max": [
+          3.4999999999999987,
+          -7.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-01 Group A_288",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-01 Group A_288.obj",
+      "color": "#6042a6",
+      "source_file": "[4B] 3D Diagram - S2-01 Group A.json",
+      "expression_id": "288",
+      "family": "CONSTANT_PLANE",
+      "bounds": {
+        "min": [
+          -25.269501953756198,
+          -25.269501953756112,
+          0.0
+        ],
+        "max": [
+          25.269501953756198,
+          25.269501953756112,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-01 Group A_292",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-01 Group A_292.obj",
+      "color": "#388c46",
+      "source_file": "[4B] 3D Diagram - S2-01 Group A.json",
+      "expression_id": "292",
+      "family": "CONSTANT_PLANE",
+      "bounds": {
+        "min": [
+          -25.269501953756198,
+          -25.269501953756112,
+          0.0
+        ],
+        "max": [
+          25.269501953756198,
+          25.269501953756112,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-01 Group A_294",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-01 Group A_294.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-01 Group A.json",
+      "expression_id": "294",
+      "family": "CONSTANT_PLANE",
+      "bounds": {
+        "min": [
+          -25.269501953756198,
+          -25.269501953756112,
+          0.0
+        ],
+        "max": [
+          25.269501953756198,
+          25.269501953756112,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-01 Group A_296",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-01 Group A_296.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-01 Group A.json",
+      "expression_id": "296",
+      "family": "CONSTANT_PLANE",
+      "bounds": {
+        "min": [
+          -25.269501953756198,
+          -25.269501953756112,
+          0.1
+        ],
+        "max": [
+          25.269501953756198,
+          25.269501953756112,
+          0.1
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-01 Group A_295",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-01 Group A_295.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-01 Group A.json",
+      "expression_id": "295",
+      "family": "CONSTANT_PLANE",
+      "bounds": {
+        "min": [
+          -25.269501953756198,
+          -25.269501953756112,
+          0.1
+        ],
+        "max": [
+          25.269501953756198,
+          25.269501953756112,
+          0.1
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-01 Group A_298",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-01 Group A_298.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-01 Group A.json",
+      "expression_id": "298",
+      "family": "CONSTANT_PLANE",
+      "bounds": {
+        "min": [
+          -25.269501953756198,
+          -25.269501953756112,
+          0.0
+        ],
+        "max": [
+          25.269501953756198,
+          25.269501953756112,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-01 Group A_302",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-01 Group A_302.obj",
+      "color": "#2d70b3",
+      "source_file": "[4B] 3D Diagram - S2-01 Group A.json",
+      "expression_id": "302",
+      "family": "CONSTANT_PLANE",
+      "bounds": {
+        "min": [
+          -25.269501953756198,
+          -25.269501953756112,
+          0.0
+        ],
+        "max": [
+          25.269501953756198,
+          25.269501953756112,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-01 Group A_303",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-01 Group A_303.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-01 Group A.json",
+      "expression_id": "303",
+      "family": "CONSTANT_PLANE",
+      "bounds": {
+        "min": [
+          -25.269501953756198,
+          -25.269501953756112,
+          0.1
+        ],
+        "max": [
+          25.269501953756198,
+          25.269501953756112,
+          0.1
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-01 Group A_305",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-01 Group A_305.obj",
+      "color": "#388c46",
+      "source_file": "[4B] 3D Diagram - S2-01 Group A.json",
+      "expression_id": "305",
+      "family": "CONSTANT_PLANE",
+      "bounds": {
+        "min": [
+          -25.269501953756198,
+          -25.269501953756112,
+          0.0
+        ],
+        "max": [
+          25.269501953756198,
+          25.269501953756112,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-01 Group A_307",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-01 Group A_307.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-01 Group A.json",
+      "expression_id": "307",
+      "family": "CONSTANT_PLANE",
+      "bounds": {
+        "min": [
+          -25.269501953756198,
+          -25.269501953756112,
+          0.1
+        ],
+        "max": [
+          25.269501953756198,
+          25.269501953756112,
+          0.1
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-01 Group A_308",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-01 Group A_308.obj",
+      "color": "#c74440",
+      "source_file": "[4B] 3D Diagram - S2-01 Group A.json",
+      "expression_id": "308",
+      "family": "CONSTANT_PLANE",
+      "bounds": {
+        "min": [
+          -25.269501953756198,
+          -25.269501953756112,
+          0.0
+        ],
+        "max": [
+          25.269501953756198,
+          25.269501953756112,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-01 Group A_309",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-01 Group A_309.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-01 Group A.json",
+      "expression_id": "309",
+      "family": "CONSTANT_PLANE",
+      "bounds": {
+        "min": [
+          -25.269501953756198,
+          -25.269501953756112,
+          0.1
+        ],
+        "max": [
+          25.269501953756198,
+          25.269501953756112,
+          0.1
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-01 Group A_310",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-01 Group A_310.obj",
+      "color": "#388c46",
+      "source_file": "[4B] 3D Diagram - S2-01 Group A.json",
+      "expression_id": "310",
+      "family": "CONSTANT_PLANE",
+      "bounds": {
+        "min": [
+          -25.269501953756198,
+          -25.269501953756112,
+          0.0
+        ],
+        "max": [
+          25.269501953756198,
+          25.269501953756112,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-01 Group A_311",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-01 Group A_311.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-01 Group A.json",
+      "expression_id": "311",
+      "family": "CONSTANT_PLANE",
+      "bounds": {
+        "min": [
+          -25.269501953756198,
+          -25.269501953756112,
+          0.0
+        ],
+        "max": [
+          25.269501953756198,
+          25.269501953756112,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-01 Group A_346",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-01 Group A_346.obj",
+      "color": "#c74440",
+      "source_file": "[4B] 3D Diagram - S2-01 Group A.json",
+      "expression_id": "346",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          -4.0,
+          20.0,
+          -0.6400000000000001
+        ],
+        "max": [
+          0.0,
+          23.0,
+          0.30000000000000004
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-01 Group A_347",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-01 Group A_347.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-01 Group A.json",
+      "expression_id": "347",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          0.0,
+          20.0,
+          -0.6400000000000001
+        ],
+        "max": [
+          4.0,
+          23.0,
+          0.30000000000000004
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-01 Group A_349",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-01 Group A_349.obj",
+      "color": "#2d70b3",
+      "source_file": "[4B] 3D Diagram - S2-01 Group A.json",
+      "expression_id": "349",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          -4.0,
+          23.0,
+          -2.04
+        ],
+        "max": [
+          0.0,
+          40.0,
+          0.30000000000000004
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-01 Group A_348",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-01 Group A_348.obj",
+      "color": "#c74440",
+      "source_file": "[4B] 3D Diagram - S2-01 Group A.json",
+      "expression_id": "348",
+      "family": "LINEAR_SURFACE_PATCH",
+      "bounds": {
+        "min": [
+          0.0,
+          23.0,
+          -2.04
+        ],
+        "max": [
+          4.0,
+          40.0,
+          0.30000000000000004
+        ]
+      }
+    }
+  ],
+  "failures": [
+    {
+      "source_file": "[4B] 3D Diagram - S2-01 Group A.json",
+      "expression_id": "41",
+      "error": "No valid sampled cells after applying restrictions"
+    },
+    {
+      "source_file": "[4B] 3D Diagram - S2-01 Group A.json",
+      "expression_id": "35",
+      "error": "No valid sampled cells after applying restrictions"
+    },
+    {
+      "source_file": "[4B] 3D Diagram - S2-01 Group A.json",
+      "expression_id": "43",
+      "error": "No valid sampled cells after applying restrictions"
+    },
+    {
+      "source_file": "[4B] 3D Diagram - S2-01 Group A.json",
+      "expression_id": "56",
+      "error": "No valid sampled cells after applying restrictions"
+    },
+    {
+      "source_file": "[4B] 3D Diagram - S2-01 Group A.json",
+      "expression_id": "39",
+      "error": "No valid sampled cells after applying restrictions"
+    },
+    {
+      "source_file": "[4B] 3D Diagram - S2-01 Group A.json",
+      "expression_id": "37",
+      "error": "No valid sampled cells after applying restrictions"
+    },
+    {
+      "source_file": "[4B] 3D Diagram - S2-01 Group A.json",
+      "expression_id": "54",
+      "error": "No valid sampled cells after applying restrictions"
+    },
+    {
+      "source_file": "[4B] 3D Diagram - S2-01 Group A.json",
+      "expression_id": "50",
+      "error": "No valid sampled cells after applying restrictions"
+    },
+    {
+      "source_file": "[4B] 3D Diagram - S2-01 Group A.json",
+      "expression_id": "334",
+      "error": "No valid sampled cells after applying restrictions"
+    },
+    {
+      "source_file": "[4B] 3D Diagram - S2-01 Group A.json",
+      "expression_id": "335",
+      "error": "No valid sampled cells after applying restrictions"
+    },
+    {
+      "source_file": "[4B] 3D Diagram - S2-01 Group A.json",
+      "expression_id": "336",
+      "error": "No valid sampled cells after applying restrictions"
+    },
+    {
+      "source_file": "[4B] 3D Diagram - S2-01 Group A.json",
+      "expression_id": "339",
+      "error": "No valid sampled cells after applying restrictions"
+    },
+    {
+      "source_file": "[4B] 3D Diagram - S2-01 Group A.json",
+      "expression_id": "341",
+      "error": "Missing finite bounds for axis x"
+    },
+    {
+      "source_file": "[4B] 3D Diagram - S2-01 Group A.json",
+      "expression_id": "344",
+      "error": "Missing finite bounds for axis x"
+    },
+    {
+      "source_file": "[4B] 3D Diagram - S2-01 Group A.json",
+      "expression_id": "342",
+      "error": "No valid sampled cells after applying restrictions"
+    },
+    {
+      "source_file": "[4B] 3D Diagram - S2-01 Group A.json",
+      "expression_id": "345",
+      "error": "No valid sampled cells after applying restrictions"
+    }
+  ]
+}

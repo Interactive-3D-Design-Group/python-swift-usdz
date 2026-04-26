@@ -1,0 +1,438 @@
+{
+  "source_file": "[4B] 3D Diagram - S2-06 Group A.json",
+  "total_expressions": 572,
+  "supported_count": 486,
+  "recognized_unsupported_count": 0,
+  "unrecognized_count": 0,
+  "geometry_ineligible_count": 86,
+  "per_folder_summary": [
+    {
+      "folder_id": null,
+      "folder_name": null,
+      "total": 56,
+      "supported": 2,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 54
+    },
+    {
+      "folder_id": "614",
+      "folder_name": "Arches LVL 2 Part 1",
+      "total": 5,
+      "supported": 5,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 0
+    },
+    {
+      "folder_id": "602",
+      "folder_name": "Arches LVL 2 Part 2",
+      "total": 5,
+      "supported": 5,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 0
+    },
+    {
+      "folder_id": "955",
+      "folder_name": "Arches LVL 3 Part 1",
+      "total": 8,
+      "supported": 8,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 0
+    },
+    {
+      "folder_id": "342",
+      "folder_name": "Arches LVL 3 Part 2",
+      "total": 5,
+      "supported": 5,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 0
+    },
+    {
+      "folder_id": "942",
+      "folder_name": "Arches Part LVL 1 Part 1",
+      "total": 5,
+      "supported": 5,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 0
+    },
+    {
+      "folder_id": "949",
+      "folder_name": "Arches Part LVL 1 Part 2",
+      "total": 5,
+      "supported": 5,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 0
+    },
+    {
+      "folder_id": "288",
+      "folder_name": "Arches Pillar LVL 1 Part 1",
+      "total": 10,
+      "supported": 10,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 0
+    },
+    {
+      "folder_id": "603",
+      "folder_name": "Arches Pillar LVL 1 Part 2",
+      "total": 10,
+      "supported": 10,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 0
+    },
+    {
+      "folder_id": "304",
+      "folder_name": "Arches Pillar LVL 2 Part 1",
+      "total": 10,
+      "supported": 10,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 0
+    },
+    {
+      "folder_id": "510",
+      "folder_name": "Arches Pillar LVL 2 Part 2",
+      "total": 10,
+      "supported": 10,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 0
+    },
+    {
+      "folder_id": "360",
+      "folder_name": "Base of the Pointy thing + Arches",
+      "total": 19,
+      "supported": 17,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 2
+    },
+    {
+      "folder_id": "905",
+      "folder_name": "Clock Part 1",
+      "total": 15,
+      "supported": 10,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 5
+    },
+    {
+      "folder_id": "320",
+      "folder_name": "Clock Part 2",
+      "total": 15,
+      "supported": 8,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 7
+    },
+    {
+      "folder_id": "410",
+      "folder_name": "Middle Section LVL 1 Part 1",
+      "total": 18,
+      "supported": 18,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 0
+    },
+    {
+      "folder_id": "934",
+      "folder_name": "Middle Section LVL 1 Part 2",
+      "total": 17,
+      "supported": 13,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 4
+    },
+    {
+      "folder_id": "509",
+      "folder_name": "Middle Split Section ",
+      "total": 11,
+      "supported": 11,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 0
+    },
+    {
+      "folder_id": "167",
+      "folder_name": "Middle Split Section Pillar Part 1",
+      "total": 10,
+      "supported": 10,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 0
+    },
+    {
+      "folder_id": "819",
+      "folder_name": "Middle Split Section Pillar Part 2",
+      "total": 12,
+      "supported": 12,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 0
+    },
+    {
+      "folder_id": "935",
+      "folder_name": "Middle section LVL 2 Part 1",
+      "total": 17,
+      "supported": 17,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 0
+    },
+    {
+      "folder_id": "455",
+      "folder_name": "Middle section LVL 2 Part 2",
+      "total": 17,
+      "supported": 13,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 4
+    },
+    {
+      "folder_id": "523",
+      "folder_name": "Middle section LVL 3 Part 1",
+      "total": 17,
+      "supported": 17,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 0
+    },
+    {
+      "folder_id": "936",
+      "folder_name": "Middle section LVL 3 Part 2",
+      "total": 17,
+      "supported": 13,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 4
+    },
+    {
+      "folder_id": "858",
+      "folder_name": "Middle section LVL 4 Part 1",
+      "total": 17,
+      "supported": 17,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 0
+    },
+    {
+      "folder_id": "937",
+      "folder_name": "Middle section LVL 4 Part 2",
+      "total": 17,
+      "supported": 13,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 4
+    },
+    {
+      "folder_id": "21",
+      "folder_name": "Pillar LVL 1 Part 1",
+      "total": 10,
+      "supported": 10,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 0
+    },
+    {
+      "folder_id": "743",
+      "folder_name": "Pillar LVL 1 Part 2",
+      "total": 12,
+      "supported": 12,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 0
+    },
+    {
+      "folder_id": "806",
+      "folder_name": "Pillar LVL 1 Part 2",
+      "total": 12,
+      "supported": 12,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 0
+    },
+    {
+      "folder_id": "123",
+      "folder_name": "Pillar LVL 2 Part 1",
+      "total": 10,
+      "supported": 10,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 0
+    },
+    {
+      "folder_id": "183",
+      "folder_name": "Pillar LVL 3 Part 1",
+      "total": 10,
+      "supported": 10,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 0
+    },
+    {
+      "folder_id": "832",
+      "folder_name": "Pillar LVL 3 Part 2",
+      "total": 12,
+      "supported": 12,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 0
+    },
+    {
+      "folder_id": "228",
+      "folder_name": "Pillar LVL 4 Part 1",
+      "total": 10,
+      "supported": 10,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 0
+    },
+    {
+      "folder_id": "382",
+      "folder_name": "Pillar LVL 4 Part 2",
+      "total": 12,
+      "supported": 12,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 0
+    },
+    {
+      "folder_id": "411",
+      "folder_name": "Split Middle Section LVL 1",
+      "total": 11,
+      "supported": 11,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 0
+    },
+    {
+      "folder_id": "507",
+      "folder_name": "Split Middle Section LVL 2",
+      "total": 11,
+      "supported": 11,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 0
+    },
+    {
+      "folder_id": "893",
+      "folder_name": "Split Middle Section LVL 3",
+      "total": 11,
+      "supported": 11,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 0
+    },
+    {
+      "folder_id": "552",
+      "folder_name": "Split Middle Section LVL 4",
+      "total": 11,
+      "supported": 11,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 0
+    },
+    {
+      "folder_id": "412",
+      "folder_name": "Split Middle Section Pillar LVL 1 Part 1",
+      "total": 10,
+      "supported": 10,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 0
+    },
+    {
+      "folder_id": "780",
+      "folder_name": "Split Middle Section Pillar LVL 1 Part 2",
+      "total": 12,
+      "supported": 12,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 0
+    },
+    {
+      "folder_id": "151",
+      "folder_name": "Split Middle Section Pillar LVL 2 Part 1",
+      "total": 10,
+      "supported": 10,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 0
+    },
+    {
+      "folder_id": "793",
+      "folder_name": "Split Middle Section Pillar LVL 2 Part 2",
+      "total": 12,
+      "supported": 12,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 0
+    },
+    {
+      "folder_id": "256",
+      "folder_name": "Split Middle Section Pillar LVL 3 Part 1",
+      "total": 10,
+      "supported": 10,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 0
+    },
+    {
+      "folder_id": "845",
+      "folder_name": "Split Middle Section Pillar LVL 3 Part 2",
+      "total": 12,
+      "supported": 12,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 0
+    },
+    {
+      "folder_id": "272",
+      "folder_name": "Split Middle Section Pillar LVL 4 Part 1",
+      "total": 10,
+      "supported": 10,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 0
+    },
+    {
+      "folder_id": "767",
+      "folder_name": "Split Middle Section Pillar LVL 4 Part 2",
+      "total": 12,
+      "supported": 12,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 0
+    },
+    {
+      "folder_id": "376",
+      "folder_name": "Upper most pointy thing",
+      "total": 4,
+      "supported": 2,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 2
+    }
+  ],
+  "unsupported_expressions": [],
+  "unknown_fingerprints": [],
+  "diagnostics": [
+    {
+      "severity": "INFO",
+      "code": "AUDIT_COMPLETE",
+      "message": "Audit classification complete",
+      "source_ref": null,
+      "details": {
+        "file": "[4B] 3D Diagram - S2-06 Group A.json"
+      }
+    }
+  ],
+  "status": "PASS"
+}

@@ -1,0 +1,233 @@
+{
+  "source_file": "[4B] 3D Diagram - S2-01 Group B.json",
+  "total_expressions": 56,
+  "supported_count": 21,
+  "recognized_unsupported_count": 0,
+  "unrecognized_count": 18,
+  "geometry_ineligible_count": 17,
+  "per_folder_summary": [
+    {
+      "folder_id": null,
+      "folder_name": null,
+      "total": 56,
+      "supported": 21,
+      "recognized_unsupported": 0,
+      "unrecognized": 18,
+      "geometry_ineligible": 17
+    }
+  ],
+  "unsupported_expressions": [
+    {
+      "expression_id": "13",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "01dae6f7ad6cce85",
+      "latex": "A+t\\left(B-A\\right)",
+      "normalized_latex": "A+t(B-A)"
+    },
+    {
+      "expression_id": "16",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "f2b84775188632a0",
+      "latex": "A+t\\left(C-A\\right)",
+      "normalized_latex": "A+t(C-A)"
+    },
+    {
+      "expression_id": "19",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "2e1b0277ffb813d8",
+      "latex": "A+t\\left(E-A\\right)",
+      "normalized_latex": "A+t(E-A)"
+    },
+    {
+      "expression_id": "25",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "cbeb035927c0bbb5",
+      "latex": "A+t\\left(D-A\\right)",
+      "normalized_latex": "A+t(D-A)"
+    },
+    {
+      "expression_id": "32",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "21d9bcca1c6a0059",
+      "latex": "A+t\\left(F-A\\right)",
+      "normalized_latex": "A+t(F-A)"
+    },
+    {
+      "expression_id": "37",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "dd46d9329b43024b",
+      "latex": "F+t\\left(G-F\\right)",
+      "normalized_latex": "F+t(G-F)"
+    },
+    {
+      "expression_id": "40",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "ed2aaf8cdd3fbda8",
+      "latex": "D+t\\left(H-D\\right)",
+      "normalized_latex": "D+t(H-D)"
+    },
+    {
+      "expression_id": "41",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "5474a8def89e1c14",
+      "latex": "D+t\\left(F-D\\right)",
+      "normalized_latex": "D+t(F-D)"
+    },
+    {
+      "expression_id": "43",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "a843eeb01307c60c",
+      "latex": "H+t\\left(\\left(G-H\\right)\\right)",
+      "normalized_latex": "H+t((G-H))"
+    },
+    {
+      "expression_id": "46",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "91ba08289be18a93",
+      "latex": "B+t\\left(J-B\\right)",
+      "normalized_latex": "B+t(J-B)"
+    },
+    {
+      "expression_id": "47",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "5ff9ad5284288996",
+      "latex": "J+t\\left(G-J\\right)",
+      "normalized_latex": "J+t(G-J)"
+    },
+    {
+      "expression_id": "51",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "3c8aa586a86bc536",
+      "latex": "I+t\\left(C-I\\right)",
+      "normalized_latex": "I+t(C-I)"
+    },
+    {
+      "expression_id": "52",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "ac1a2c8658849f4d",
+      "latex": "I+t\\left(J-I\\right)",
+      "normalized_latex": "I+t(J-I)"
+    },
+    {
+      "expression_id": "53",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "93364263f263b538",
+      "latex": "H+t\\left(I-H\\right)",
+      "normalized_latex": "H+t(I-H)"
+    },
+    {
+      "expression_id": "55",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "0ff7f2f2478506d1",
+      "latex": "C+t\\left(D-C\\right)",
+      "normalized_latex": "C+t(D-C)"
+    },
+    {
+      "expression_id": "56",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "224c794e0ac22ea9",
+      "latex": "B+t\\left(C-B\\right)",
+      "normalized_latex": "B+t(C-B)"
+    },
+    {
+      "expression_id": "57",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "579074a384528460",
+      "latex": "F+t\\left(B-F\\right)",
+      "normalized_latex": "F+t(B-F)"
+    },
+    {
+      "expression_id": "92",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "0b0c8a407ecbcf9b",
+      "latex": "k=[1,...,50]",
+      "normalized_latex": "k=(1)"
+    }
+  ],
+  "unknown_fingerprints": [
+    "01dae6f7ad6cce85",
+    "0b0c8a407ecbcf9b",
+    "0ff7f2f2478506d1",
+    "21d9bcca1c6a0059",
+    "224c794e0ac22ea9",
+    "2e1b0277ffb813d8",
+    "3c8aa586a86bc536",
+    "5474a8def89e1c14",
+    "579074a384528460",
+    "5ff9ad5284288996",
+    "91ba08289be18a93",
+    "93364263f263b538",
+    "a843eeb01307c60c",
+    "ac1a2c8658849f4d",
+    "cbeb035927c0bbb5",
+    "dd46d9329b43024b",
+    "ed2aaf8cdd3fbda8",
+    "f2b84775188632a0"
+  ],
+  "diagnostics": [
+    {
+      "severity": "INFO",
+      "code": "AUDIT_COMPLETE",
+      "message": "Audit classification complete",
+      "source_ref": null,
+      "details": {
+        "file": "[4B] 3D Diagram - S2-01 Group B.json"
+      }
+    }
+  ],
+  "status": "PARTIAL"
+}

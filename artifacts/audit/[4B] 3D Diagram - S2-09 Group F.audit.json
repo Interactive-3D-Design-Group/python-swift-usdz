@@ -1,0 +1,55 @@
+{
+  "source_file": "[4B] 3D Diagram - S2-09 Group F.json",
+  "total_expressions": 29,
+  "supported_count": 1,
+  "recognized_unsupported_count": 0,
+  "unrecognized_count": 1,
+  "geometry_ineligible_count": 27,
+  "per_folder_summary": [
+    {
+      "folder_id": null,
+      "folder_name": null,
+      "total": 28,
+      "supported": 0,
+      "recognized_unsupported": 0,
+      "unrecognized": 1,
+      "geometry_ineligible": 27
+    },
+    {
+      "folder_id": "47",
+      "folder_name": "USDZ: supported fallback (pipeline)",
+      "total": 1,
+      "supported": 1,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 0
+    }
+  ],
+  "unsupported_expressions": [
+    {
+      "expression_id": "3",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "4a19dbfa97f76430",
+      "latex": "\\left(x-z\\tan\\left(5.5\\right)\\right)^{2}+y^{2}=260\\left\\{20<z<80\\right\\}",
+      "normalized_latex": "(x-ztan(5.5))^2+y^2=260{20<z<80}"
+    }
+  ],
+  "unknown_fingerprints": [
+    "4a19dbfa97f76430"
+  ],
+  "diagnostics": [
+    {
+      "severity": "INFO",
+      "code": "AUDIT_COMPLETE",
+      "message": "Audit classification complete",
+      "source_ref": null,
+      "details": {
+        "file": "[4B] 3D Diagram - S2-09 Group F.json"
+      }
+    }
+  ],
+  "status": "PARTIAL"
+}

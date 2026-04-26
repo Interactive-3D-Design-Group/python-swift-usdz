@@ -1,0 +1,42 @@
+{
+  "source_file": "[4B] 3D Diagram - S2-03 Group A.json",
+  "total_expressions": 114,
+  "supported_count": 108,
+  "recognized_unsupported_count": 0,
+  "unrecognized_count": 0,
+  "geometry_ineligible_count": 6,
+  "per_folder_summary": [
+    {
+      "folder_id": null,
+      "folder_name": null,
+      "total": 111,
+      "supported": 105,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 6
+    },
+    {
+      "folder_id": "33",
+      "folder_name": "pillar",
+      "total": 3,
+      "supported": 3,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 0
+    }
+  ],
+  "unsupported_expressions": [],
+  "unknown_fingerprints": [],
+  "diagnostics": [
+    {
+      "severity": "INFO",
+      "code": "AUDIT_COMPLETE",
+      "message": "Audit classification complete",
+      "source_ref": null,
+      "details": {
+        "file": "[4B] 3D Diagram - S2-03 Group A.json"
+      }
+    }
+  ],
+  "status": "PASS"
+}

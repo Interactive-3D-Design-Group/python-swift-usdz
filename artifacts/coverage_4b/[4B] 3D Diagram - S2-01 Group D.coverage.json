@@ -1,0 +1,379 @@
+{
+  "source_file": "[4B] 3D Diagram - S2-01 Group D.json",
+  "total_items": 21,
+  "total_expressions": 21,
+  "meshed_expression_count": 5,
+  "supported_expression_count": 5,
+  "supported_but_not_meshed_count": 0,
+  "recognized_unsupported_count": 0,
+  "unrecognized_count": 16,
+  "geometry_ineligible_count": 0,
+  "groups": [
+    {
+      "fingerprint": "2902e5699a0d0885",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "24"
+      ],
+      "example_latex": [
+        "(0,-(0.3-0.3t+0.15(4t(1-t))),8+t)\\left\\{0\\le t\\le1\\right\\}"
+      ],
+      "example_normalized": [
+        "(0,-(0.3-0.3t+0.15(4t(1-t))),8+t){0<=t<=1}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "47e6550dd2b5d5fd",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "3"
+      ],
+      "example_latex": [
+        "\\operatorname{segment}\\ \\left(\\left(2,\\ 2,\\ 1\\right),\\ \\left(0.5,\\ 0.5,0.1\\right)\\right)"
+      ],
+      "example_normalized": [
+        "operatorname{segment}((2,2,1),(0.5,0.5,0.1))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "497b81e9a79da95b",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "5"
+      ],
+      "example_latex": [
+        "\\operatorname{segment}\\ \\left(\\left(-2,\\ 2,\\ 1\\right),\\ \\left(-0.5,\\ 0.5,0.1\\right)\\right)"
+      ],
+      "example_normalized": [
+        "operatorname{segment}((-2,2,1),(-0.5,0.5,0.1))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "5723ca8ef1ba8bd9",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "10"
+      ],
+      "example_latex": [
+        "\\operatorname{segment}\\ \\left(\\left(-0.5,-0.5,1.1\\right),\\ \\left(\\left(-0.3,-0.3,7\\right)\\right)\\right)"
+      ],
+      "example_normalized": [
+        "operatorname{segment}((-0.5,-0.5,1.1),((-0.3,-0.3,7)))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "5f859dd064244aad",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "22"
+      ],
+      "example_latex": [
+        "\\left(0,0.3-0.3t+0.15\\left(4t\\left(1-t\\right)\\right),8+t\\right)\\left\\{0\\le t\\le1\\right\\}"
+      ],
+      "example_normalized": [
+        "(0,0.3-0.3t+0.15(4t(1-t)),8+t){0<=t<=1}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "618d5317baef7883",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "2"
+      ],
+      "example_latex": [
+        "\\operatorname{segment}\\ \\left(\\left(2,\\ -2,\\ 1\\right),\\ \\left(0.5,\\ -0.5,0.1\\right)\\right)"
+      ],
+      "example_normalized": [
+        "operatorname{segment}((2,-2,1),(0.5,-0.5,0.1))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "7ad18fde6da896eb",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "20"
+      ],
+      "example_latex": [
+        "\\left(-\\left(0.4-0.1t+0.05\\left(4t\\left(1-t\\right)-1\\right)\\right),0,7.3+0.7t\\right)\\left\\{0\\le t\\le1\\right\\}"
+      ],
+      "example_normalized": [
+        "(-(0.4-0.1t+0.05(4t(1-t)-1)),0,7.3+0.7t){0<=t<=1}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "b11eea577966f915",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "25"
+      ],
+      "example_latex": [
+        "(0.3-0.3t+0.15(4t(1-t)),0,8+t)\\left\\{0\\le t\\le1\\right\\}"
+      ],
+      "example_normalized": [
+        "(0.3-0.3t+0.15(4t(1-t)),0,8+t){0<=t<=1}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "b6ce590c595c4882",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "26"
+      ],
+      "example_latex": [
+        "(-(0.3-0.3t+0.15(4t(1-t))),0,8+t)\\left\\{0\\le t\\le1\\right\\}"
+      ],
+      "example_normalized": [
+        "(-(0.3-0.3t+0.15(4t(1-t))),0,8+t){0<=t<=1}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "c429e8bfb6fa7ee5",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "11"
+      ],
+      "example_latex": [
+        "\\operatorname{segment}\\ \\left(\\left(0.5,0.5,1.1\\right),\\ \\left(\\left(0.3,0.3,7\\right)\\right)\\right)"
+      ],
+      "example_normalized": [
+        "operatorname{segment}((0.5,0.5,1.1),((0.3,0.3,7)))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "d7578b3247e68a83",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "19"
+      ],
+      "example_latex": [
+        "\\left(0.4-0.1t+0.05\\left(4t\\left(1-t\\right)-1\\right),0,7.3+0.7t\\right)\\left\\{0\\le t\\le1\\right\\}"
+      ],
+      "example_normalized": [
+        "(0.4-0.1t+0.05(4t(1-t)-1),0,7.3+0.7t){0<=t<=1}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "e376dcc2eb784271",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "18"
+      ],
+      "example_latex": [
+        "\\left(0,-0.4+0.1t-0.05\\left(4t\\left(1-t\\right)-1\\right),7.3+0.7t\\right)\\left\\{0\\le t\\le1\\right\\}"
+      ],
+      "example_normalized": [
+        "(0,-0.4+0.1t-0.05(4t(1-t)-1),7.3+0.7t){0<=t<=1}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "e43466e0ebc04de3",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "17"
+      ],
+      "example_latex": [
+        "\\left(0,0.4-0.1t+0.05\\left(4t\\left(1-t\\right)-1\\right),7.3+0.7t\\right)\\left\\{0\\le t\\le1\\right\\}"
+      ],
+      "example_normalized": [
+        "(0,0.4-0.1t+0.05(4t(1-t)-1),7.3+0.7t){0<=t<=1}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "ed8b181d23ed50d2",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "4"
+      ],
+      "example_latex": [
+        "\\operatorname{segment}\\ \\left(\\left(-2,\\ -2,\\ 1\\right),\\ \\left(-0.5,\\ -0.5,0.1\\right)\\right)"
+      ],
+      "example_normalized": [
+        "operatorname{segment}((-2,-2,1),(-0.5,-0.5,0.1))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "f5c281ce21cbc614",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "9"
+      ],
+      "example_latex": [
+        "\\operatorname{segment}\\ \\left(\\left(-0.5,0.5,1.1\\right),\\ \\left(-0.3,0.3,7\\right)\\right)"
+      ],
+      "example_normalized": [
+        "operatorname{segment}((-0.5,0.5,1.1),(-0.3,0.3,7))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "fc4dd53ea9e94453",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "12"
+      ],
+      "example_latex": [
+        "\\operatorname{segment}\\ \\left(\\left(0.5,-0.5,1.1\\right),\\ \\left(\\left(0.3,-0.3,7\\right)\\right)\\right)"
+      ],
+      "example_normalized": [
+        "operatorname{segment}((0.5,-0.5,1.1),((0.3,-0.3,7)))"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    }
+  ],
+  "diagnostics": [
+    {
+      "severity": "INFO",
+      "code": "COVERAGE_COMPLETE",
+      "message": "Coverage report complete",
+      "source_ref": null,
+      "details": {
+        "file": "[4B] 3D Diagram - S2-01 Group D.json",
+        "meshed_expression_ids": 5,
+        "supported_but_not_meshed": 0,
+        "group_count": 16
+      }
+    }
+  ]
+}

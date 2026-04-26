@@ -4,6 +4,7 @@ import re
 from dataclasses import dataclass
 
 from desmos3d_pipeline.ir.models import RangeConstraint
+from desmos3d_pipeline.parse.math_eval import safe_eval, to_python_expr
 
 
 @dataclass(slots=True)
@@ -29,6 +30,20 @@ def detect_relations(core_expr: str) -> RelationInfo:
 
 def parse_interval_constraint(expr: str) -> RangeConstraint | None:
     expr = expr.strip()
+
+    # ``abs(axis) < c`` / legacy ``operatorname{abs}(axis) < c`` (normalized).
+    m = re.fullmatch(r"(?:abs|operatorname\{abs\})\(([xyz])\)(<=|<)([^<>=]+)", expr)
+    if m:
+        axis, op, c = m.groups()
+        bound = c.strip()
+        inc = op == "<="
+        return RangeConstraint(
+            axis=axis,
+            lower=_negate_expr(bound),
+            lower_inclusive=inc,
+            upper=bound,
+            upper_inclusive=inc,
+        )
 
     # Handle chained form with negated axis: lower < -x < upper  =>  -upper < x < -lower
     m = re.fullmatch(r"([^<>=]+)(<=|<)-([xyz])(<=|<)([^<>=]+)", expr)
@@ -133,4 +148,71 @@ def parse_interval_constraint(expr: str) -> RangeConstraint | None:
         # c >= -x  <=>  x >= -c
         return RangeConstraint(axis=axis, lower=_negate_expr(upper), lower_inclusive=op == ">=", upper=None, upper_inclusive=False)
 
+    # Degenerate interval: ``z=0`` (Desmos plane / slab at a constant).
+    m = re.fullmatch(r"([xyz])=([^<>=]+)", expr)
+    if m:
+        axis, val = m.groups()
+        return RangeConstraint(axis=axis, lower=val, lower_inclusive=True, upper=val, upper_inclusive=True)
+
     return None
+
+
+def restriction_chain_evaluable(expr: str) -> bool:
+    """True if ``expr`` is an odd-length chain ``a < b < c`` / ``<=`` style evaluable with ``x,y,z``."""
+    parts = [t.strip() for t in re.split(r"(<=|>=|<|>)", expr.strip()) if t != ""]
+    if len(parts) < 3 or len(parts) % 2 == 0:
+        return False
+    env = {"x": 0.1, "y": -0.2, "z": 0.3}
+    try:
+        for i in range(0, len(parts), 2):
+            safe_eval(to_python_expr(parts[i], {}), env)
+        return True
+    except Exception:
+        return False
+
+
+def split_interval_clauses(expr: str) -> list[str]:
+    """Split ``a<=z<=b,c<=z<=d``-style compound brace content into separate interval strings."""
+    expr = expr.strip()
+    if "," not in expr:
+        return [expr]
+    depth = 0
+    start = 0
+    parts: list[str] = []
+    for i, ch in enumerate(expr):
+        if ch == "(":
+            depth += 1
+        elif ch == ")":
+            depth -= 1
+        elif ch == "," and depth == 0:
+            parts.append(expr[start:i].strip())
+            start = i + 1
+    parts.append(expr[start:].strip())
+    if len(parts) < 2:
+        return [expr]
+    if not all(re.search(r"[<>=]", p) for p in parts):
+        return [expr]
+    return parts
+
+
+def restriction_axis_interval_ok(expr: str) -> bool:
+    """True if ``expr`` is one or more comma-separated pieces each matching ``parse_interval_constraint``."""
+    for clause in split_interval_clauses(expr):
+        if parse_interval_constraint(clause.strip()) is None:
+            return False
+    return True
+
+
+def surface_domain_meshable(restrictions: list[str], viewport: dict[str, float] | None) -> bool:
+    """Domain suitable for sampled/plane meshing: axis intervals and/or evaluable chains with viewport."""
+    if not restrictions:
+        return True
+    vp = viewport or {}
+    vp_xy = all(k in vp for k in ("xmin", "xmax", "ymin", "ymax"))
+    for r in restrictions:
+        if restriction_axis_interval_ok(r):
+            continue
+        if vp_xy and restriction_chain_evaluable(r):
+            continue
+        return False
+    return True

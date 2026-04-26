@@ -1,0 +1,792 @@
+{
+  "source_file": "[4B] 3D Diagram - S2-01 Group A.json",
+  "total_items": 222,
+  "total_expressions": 212,
+  "meshed_expression_count": 167,
+  "supported_expression_count": 199,
+  "supported_but_not_meshed_count": 32,
+  "recognized_unsupported_count": 0,
+  "unrecognized_count": 0,
+  "geometry_ineligible_count": 13,
+  "groups": [
+    {
+      "fingerprint": "0072fe9b4786ee5a",
+      "family": "LINEAR_SURFACE_PATCH",
+      "status": "SUPPORTED",
+      "reason": "Explicit z=f(x,y) surface",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "226"
+      ],
+      "example_latex": [
+        "z=\\left(ay+5.5\\right)\\left\\{-10.2<y-x<-10.1\\right\\}\\left\\{1<z<2.1\\right\\}"
+      ],
+      "example_normalized": [
+        "z=(ay+5.5){-10.2<y-x<-10.1}{1<z<2.1}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "0213aa4095df4c67",
+      "family": "LINEAR_SURFACE_PATCH",
+      "status": "SUPPORTED",
+      "reason": "Explicit z=f(x,y) surface",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "155"
+      ],
+      "example_latex": [
+        "z=\\left(ax+5.5\\right)\\left\\{-14.5<x+y<-14.4\\right\\}\\left\\{0<z<0.8\\right\\}"
+      ],
+      "example_normalized": [
+        "z=(ax+5.5){-14.5<x+y<-14.4}{0<z<0.8}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "05e06edbd74d6960",
+      "family": "LINEAR_SURFACE_PATCH",
+      "status": "SUPPORTED",
+      "reason": "Explicit z=f(x,y) surface",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "199"
+      ],
+      "example_latex": [
+        "z=\\left(-ay+0y+5.6\\right)\\left\\{14.6<y-x<14.7\\right\\}\\left\\{0<z<0.8\\right\\}"
+      ],
+      "example_normalized": [
+        "z=(-ay+0y+5.6){14.6<y-x<14.7}{0<z<0.8}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "338176f91fb6e650",
+      "family": "LINEAR_SURFACE_PATCH",
+      "status": "SUPPORTED",
+      "reason": "Explicit z=f(x,y) surface",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "229"
+      ],
+      "example_latex": [
+        "z=\\left(ay+5.5\\right)\\left\\{-11.9<x+y<-11.8\\right\\}\\left\\{0.45<z<1.6\\right\\}"
+      ],
+      "example_normalized": [
+        "z=(ay+5.5){-11.9<x+y<-11.8}{0.45<z<1.6}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "3f04f64ca8fcb765",
+      "family": "LINEAR_SURFACE_PATCH",
+      "status": "SUPPORTED",
+      "reason": "Explicit z=f(x,y) surface",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "195"
+      ],
+      "example_latex": [
+        "z=\\left(-ay+0y+5.6\\right)\\left\\{12.9<y-x<13\\right\\}\\left\\{0<z<1.3\\right\\}"
+      ],
+      "example_normalized": [
+        "z=(-ay+0y+5.6){12.9<y-x<13}{0<z<1.3}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "4c924277eed5a7e0",
+      "family": "LINEAR_SURFACE_PATCH",
+      "status": "SUPPORTED",
+      "reason": "Explicit z=f(x,y) surface",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "196"
+      ],
+      "example_latex": [
+        "z=\\left(-ay+0y+5.6\\right)\\left\\{13.7<y+x<13.8\\right\\}\\left\\{0<z<1.1\\right\\}"
+      ],
+      "example_normalized": [
+        "z=(-ay+0y+5.6){13.7<y+x<13.8}{0<z<1.1}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "4cf515bc0f8f6b65",
+      "family": "LINEAR_SURFACE_PATCH",
+      "status": "SUPPORTED",
+      "reason": "Explicit z=f(x,y) surface",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "113"
+      ],
+      "example_latex": [
+        "z=\\left(-ax+0y+5.6\\right)\\left\\{14.6<y+x<14.7\\right\\}\\left\\{0<z<0.7\\right\\}"
+      ],
+      "example_normalized": [
+        "z=(-ax+0y+5.6){14.6<y+x<14.7}{0<z<0.7}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "55f38e444c43a56e",
+      "family": "LINEAR_SURFACE_PATCH",
+      "status": "SUPPORTED",
+      "reason": "Explicit z=f(x,y) surface",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "215"
+      ],
+      "example_latex": [
+        "z=\\left(ay+5.5\\right)\\left\\{-6.2<x+y<-6.1\\right\\}\\left\\{1<z<3.4\\right\\}"
+      ],
+      "example_normalized": [
+        "z=(ay+5.5){-6.2<x+y<-6.1}{1<z<3.4}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "5b1a4734badf5fb3",
+      "family": "LINEAR_SURFACE_PATCH",
+      "status": "SUPPORTED",
+      "reason": "Explicit z=f(x,y) surface",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "273"
+      ],
+      "example_latex": [
+        "z=\\left(ay+5.5\\right)\\left\\{-16.1<y+x<-16\\right\\}\\left\\{0<z<0.3\\right\\}"
+      ],
+      "example_normalized": [
+        "z=(ay+5.5){-16.1<y+x<-16}{0<z<0.3}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "5f79fbc11f7ef882",
+      "family": "LINEAR_SURFACE_PATCH",
+      "status": "SUPPORTED",
+      "reason": "Explicit z=f(x,y) surface",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "185"
+      ],
+      "example_latex": [
+        "z=\\left(-ay+0y+5.6\\right)\\left\\{8.7<y-x<8.8\\right\\}\\left\\{0<z<2.7\\right\\}"
+      ],
+      "example_normalized": [
+        "z=(-ay+0y+5.6){8.7<y-x<8.8}{0<z<2.7}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "6a64ae51e19c3984",
+      "family": "LINEAR_SURFACE_PATCH",
+      "status": "SUPPORTED",
+      "reason": "Explicit z=f(x,y) surface",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "279"
+      ],
+      "example_latex": [
+        "z=\\left(ax+5.5\\right)\\left\\{-15.5<x+y<-15.4\\right\\}\\left\\{0<z<0.6\\right\\}"
+      ],
+      "example_normalized": [
+        "z=(ax+5.5){-15.5<x+y<-15.4}{0<z<0.6}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "71c43f2234b96f4b",
+      "family": "LINEAR_SURFACE_PATCH",
+      "status": "SUPPORTED",
+      "reason": "Explicit z=f(x,y) surface",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "275"
+      ],
+      "example_latex": [
+        "z=\\left(-ay+5.5\\right)\\left\\{15.4<y-x<15.5\\right\\}\\left\\{0<z<0.4\\right\\}"
+      ],
+      "example_normalized": [
+        "z=(-ay+5.5){15.4<y-x<15.5}{0<z<0.4}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "85817ae72f20998c",
+      "family": "LINEAR_SURFACE_PATCH",
+      "status": "SUPPORTED",
+      "reason": "Explicit z=f(x,y) surface",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "220"
+      ],
+      "example_latex": [
+        "z=\\left(ay+5.5\\right)\\left\\{-7.8<y-x<-7.7\\right\\}\\left\\{1<z<2.9\\right\\}"
+      ],
+      "example_normalized": [
+        "z=(ay+5.5){-7.8<y-x<-7.7}{1<z<2.9}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "88762d881b9488fd",
+      "family": "LINEAR_SURFACE_PATCH",
+      "status": "SUPPORTED",
+      "reason": "Explicit z=f(x,y) surface",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "83"
+      ],
+      "example_latex": [
+        "z=\\left(-ax+0y+5.6\\right)\\left\\{0.3<x-y<0.4\\right\\}\\left\\{4.5<z<5.45\\right\\}"
+      ],
+      "example_normalized": [
+        "z=(-ax+0y+5.6){0.3<x-y<0.4}{4.5<z<5.45}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "8ce09ffe5d708261",
+      "family": "LINEAR_SURFACE_PATCH",
+      "status": "SUPPORTED",
+      "reason": "Explicit z=f(x,y) surface",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "223"
+      ],
+      "example_latex": [
+        "z=\\left(ay+5.5\\right)\\left\\{-9.4<x+y<-9.3\\right\\}\\left\\{1<z<2.4\\right\\}"
+      ],
+      "example_normalized": [
+        "z=(ay+5.5){-9.4<x+y<-9.3}{1<z<2.4}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "916d261e736b2cde",
+      "family": "LINEAR_SURFACE_PATCH",
+      "status": "SUPPORTED",
+      "reason": "Explicit z=f(x,y) surface",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "153"
+      ],
+      "example_latex": [
+        "z=\\left(ax+5.5\\right)\\left\\{-13.6<x+y<-13.5\\right\\}\\left\\{0<z<1\\right\\}"
+      ],
+      "example_normalized": [
+        "z=(ax+5.5){-13.6<x+y<-13.5}{0<z<1}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "95c5ec0418530c2a",
+      "family": "LINEAR_SURFACE_PATCH",
+      "status": "SUPPORTED",
+      "reason": "Explicit z=f(x,y) surface",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "235"
+      ],
+      "example_latex": [
+        "z=\\left(ay+5.5\\right)\\left\\{-14.5<x+y<-14.4\\right\\}\\left\\{0<z<0.8\\right\\}"
+      ],
+      "example_normalized": [
+        "z=(ay+5.5){-14.5<x+y<-14.4}{0<z<0.8}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "9ade1c6c03933699",
+      "family": "LINEAR_SURFACE_PATCH",
+      "status": "SUPPORTED",
+      "reason": "Explicit z=f(x,y) surface",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "225"
+      ],
+      "example_latex": [
+        "z=\\left(ay+5.5\\right)\\left\\{-10.2<x+y<-10.1\\right\\}\\left\\{1<z<2.1\\right\\}"
+      ],
+      "example_normalized": [
+        "z=(ay+5.5){-10.2<x+y<-10.1}{1<z<2.1}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "9e30e3918c538ca4",
+      "family": "LINEAR_SURFACE_PATCH",
+      "status": "SUPPORTED",
+      "reason": "Explicit z=f(x,y) surface",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "280"
+      ],
+      "example_latex": [
+        "z=\\left(ax+5.5\\right)\\left\\{-15.5<x-y<-15.4\\right\\}\\left\\{0<z<0.6\\right\\}"
+      ],
+      "example_normalized": [
+        "z=(ax+5.5){-15.5<x-y<-15.4}{0<z<0.6}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "a2fe4fc49040ce92",
+      "family": "LINEAR_SURFACE_PATCH",
+      "status": "SUPPORTED",
+      "reason": "Explicit z=f(x,y) surface",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "230"
+      ],
+      "example_latex": [
+        "z=\\left(ay+5.5\\right)\\left\\{-11.9<y-x<-11.8\\right\\}\\left\\{0.58<z<1.6\\right\\}"
+      ],
+      "example_normalized": [
+        "z=(ay+5.5){-11.9<y-x<-11.8}{0.58<z<1.6}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "ab64448fe876eec5",
+      "family": "LINEAR_SURFACE_PATCH",
+      "status": "SUPPORTED",
+      "reason": "Explicit z=f(x,y) surface",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "105"
+      ],
+      "example_latex": [
+        "z=\\left(-ax+0y+5.6\\right)\\left\\{11.2<x-y<11.3\\right\\}\\left\\{0<z<1.8\\right\\}"
+      ],
+      "example_normalized": [
+        "z=(-ax+0y+5.6){11.2<x-y<11.3}{0<z<1.8}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "be7a45724db93e21",
+      "family": "LINEAR_SURFACE_PATCH",
+      "status": "SUPPORTED",
+      "reason": "Explicit z=f(x,y) surface",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "145"
+      ],
+      "example_latex": [
+        "z=\\left(ax+5.5\\right)\\left\\{-10.2<x-y<-10.1\\right\\}\\left\\{0<z<2.1\\right\\}"
+      ],
+      "example_normalized": [
+        "z=(ax+5.5){-10.2<x-y<-10.1}{0<z<2.1}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "c57e957329339030",
+      "family": "LINEAR_SURFACE_PATCH",
+      "status": "SUPPORTED",
+      "reason": "Explicit z=f(x,y) surface",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "277"
+      ],
+      "example_latex": [
+        "z=\\left(-ax+5.5\\right)\\left\\{15.4<y+x<15.5\\right\\}\\left\\{0<z<0.6\\right\\}"
+      ],
+      "example_normalized": [
+        "z=(-ax+5.5){15.4<y+x<15.5}{0<z<0.6}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "c83171f101d00072",
+      "family": "LINEAR_SURFACE_PATCH",
+      "status": "SUPPORTED",
+      "reason": "Explicit z=f(x,y) surface",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "117"
+      ],
+      "example_latex": [
+        "z=\\left(ax+5.5\\right)\\left\\{-0.4<y+x<-0.3\\right\\}\\left\\{4.3<z<5.4\\right\\}"
+      ],
+      "example_normalized": [
+        "z=(ax+5.5){-0.4<y+x<-0.3}{4.3<z<5.4}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "d0dc5bc1cea9d3c4",
+      "family": "LINEAR_SURFACE_PATCH",
+      "status": "SUPPORTED",
+      "reason": "Explicit z=f(x,y) surface",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "197"
+      ],
+      "example_latex": [
+        "z=\\left(-ay+0y+5.6\\right)\\left\\{13.7<y-x<13.8\\right\\}\\left\\{0<z<1.1\\right\\}"
+      ],
+      "example_normalized": [
+        "z=(-ay+0y+5.6){13.7<y-x<13.8}{0<z<1.1}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "d79b9292573514f2",
+      "family": "LINEAR_SURFACE_PATCH",
+      "status": "SUPPORTED",
+      "reason": "Explicit z=f(x,y) surface",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "274"
+      ],
+      "example_latex": [
+        "z=\\left(ay+5.5\\right)\\left\\{-16.1<y-x<-16\\right\\}\\left\\{0<z<0.3\\right\\}"
+      ],
+      "example_normalized": [
+        "z=(ay+5.5){-16.1<y-x<-16}{0<z<0.3}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "e278bb853c7047b9",
+      "family": "LINEAR_SURFACE_PATCH",
+      "status": "SUPPORTED",
+      "reason": "Explicit z=f(x,y) surface",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "201"
+      ],
+      "example_latex": [
+        "z=\\left(ay+5.5\\right)\\left\\{-0.4<y+x<-0.3\\right\\}\\left\\{4.3<z<5.4\\right\\}"
+      ],
+      "example_normalized": [
+        "z=(ay+5.5){-0.4<y+x<-0.3}{4.3<z<5.4}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "ed8a8e96b1ef4bb2",
+      "family": "LINEAR_SURFACE_PATCH",
+      "status": "SUPPORTED",
+      "reason": "Explicit z=f(x,y) surface",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "194"
+      ],
+      "example_latex": [
+        "z=\\left(-ay+0y+5.6\\right)\\left\\{12.9<y+x<13\\right\\}\\left\\{0<z<1.3\\right\\}"
+      ],
+      "example_normalized": [
+        "z=(-ay+0y+5.6){12.9<y+x<13}{0<z<1.3}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "f320345794507532",
+      "family": "LINEAR_SURFACE_PATCH",
+      "status": "SUPPORTED",
+      "reason": "Explicit z=f(x,y) surface",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "109"
+      ],
+      "example_latex": [
+        "z=\\left(-ax+0y+5.6\\right)\\left\\{12.9<x-y<13\\right\\}\\left\\{0<z<1.3\\right\\}"
+      ],
+      "example_normalized": [
+        "z=(-ax+0y+5.6){12.9<x-y<13}{0<z<1.3}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "f6a07b1bcd2f2ec4",
+      "family": "LINEAR_SURFACE_PATCH",
+      "status": "SUPPORTED",
+      "reason": "Explicit z=f(x,y) surface",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "108"
+      ],
+      "example_latex": [
+        "z=\\left(-ax+0y+5.6\\right)\\left\\{12.9<y+x<13\\right\\}\\left\\{0<z<1.3\\right\\}"
+      ],
+      "example_normalized": [
+        "z=(-ax+0y+5.6){12.9<y+x<13}{0<z<1.3}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "f939cbb47959667b",
+      "family": "LINEAR_SURFACE_PATCH",
+      "status": "SUPPORTED",
+      "reason": "Explicit z=f(x,y) surface",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "111"
+      ],
+      "example_latex": [
+        "z=\\left(-ax+0y+5.6\\right)\\left\\{13.7<x-y<13.8\\right\\}\\left\\{0<z<1\\right\\}"
+      ],
+      "example_normalized": [
+        "z=(-ax+0y+5.6){13.7<x-y<13.8}{0<z<1}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "fbb31fa4899b3c3f",
+      "family": "LINEAR_SURFACE_PATCH",
+      "status": "SUPPORTED",
+      "reason": "Explicit z=f(x,y) surface",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "278"
+      ],
+      "example_latex": [
+        "z=\\left(-ax+5.5\\right)\\left\\{15.4<x-y<15.5\\right\\}\\left\\{0<z<0.6\\right\\}"
+      ],
+      "example_normalized": [
+        "z=(-ax+5.5){15.4<x-y<15.5}{0<z<0.6}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    }
+  ],
+  "diagnostics": [
+    {
+      "severity": "WARNING",
+      "code": "COVERAGE_MESH_FAILURES",
+      "message": "Some meshes failed during coverage pass (these items may be missing)",
+      "source_ref": null,
+      "details": {
+        "failed_mesh_count": 32,
+        "failures": [
+          {
+            "source_file": "[4B] 3D Diagram - S2-01 Group A.json",
+            "expression_id": "83",
+            "error": "No valid sampled cells after applying restrictions"
+          },
+          {
+            "source_file": "[4B] 3D Diagram - S2-01 Group A.json",
+            "expression_id": "105",
+            "error": "No valid sampled cells after applying restrictions"
+          },
+          {
+            "source_file": "[4B] 3D Diagram - S2-01 Group A.json",
+            "expression_id": "108",
+            "error": "No valid sampled cells after applying restrictions"
+          },
+          {
+            "source_file": "[4B] 3D Diagram - S2-01 Group A.json",
+            "expression_id": "109",
+            "error": "No valid sampled cells after applying restrictions"
+          },
+          {
+            "source_file": "[4B] 3D Diagram - S2-01 Group A.json",
+            "expression_id": "111",
+            "error": "No valid sampled cells after applying restrictions"
+          },
+          {
+            "source_file": "[4B] 3D Diagram - S2-01 Group A.json",
+            "expression_id": "113",
+            "error": "No valid sampled cells after applying restrictions"
+          },
+          {
+            "source_file": "[4B] 3D Diagram - S2-01 Group A.json",
+            "expression_id": "277",
+            "error": "No valid sampled cells after applying restrictions"
+          },
+          {
+            "source_file": "[4B] 3D Diagram - S2-01 Group A.json",
+            "expression_id": "278",
+            "error": "No valid sampled cells after applying restrictions"
+          },
+          {
+            "source_file": "[4B] 3D Diagram - S2-01 Group A.json",
+            "expression_id": "117",
+            "error": "No valid sampled cells after applying restrictions"
+          },
+          {
+            "source_file": "[4B] 3D Diagram - S2-01 Group A.json",
+            "expression_id": "145",
+            "error": "No valid sampled cells after applying restrictions"
+          }
+        ]
+      }
+    },
+    {
+      "severity": "INFO",
+      "code": "COVERAGE_COMPLETE",
+      "message": "Coverage report complete",
+      "source_ref": null,
+      "details": {
+        "file": "[4B] 3D Diagram - S2-01 Group A.json",
+        "meshed_expression_ids": 167,
+        "supported_but_not_meshed": 32,
+        "group_count": 32
+      }
+    }
+  ]
+}

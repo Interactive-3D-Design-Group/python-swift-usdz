@@ -1,0 +1,2667 @@
+{
+  "source_file": "[4B] 3D Diagram - S2-10 Group F.json",
+  "total_items": 190,
+  "total_expressions": 175,
+  "meshed_expression_count": 47,
+  "supported_expression_count": 47,
+  "supported_but_not_meshed_count": 0,
+  "recognized_unsupported_count": 120,
+  "unrecognized_count": 0,
+  "geometry_ineligible_count": 8,
+  "groups": [
+    {
+      "fingerprint": "0168a198eb7107f8",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "441"
+      ],
+      "example_latex": [
+        "\\operatorname{mod}(y-0.5,\\ 1.4)\\le0.1\\left\\{5.2<z<6\\right\\}\\left\\{-9.5<y<9.5\\right\\}\\left\\{10>x>9.5\\right\\}\\left\\{-4.5<y<4.5\\right\\}"
+      ],
+      "example_normalized": [
+        "operatorname{mod}(y-0.5,1.4)<=0.1{5.2<z<6}{-9.5<y<9.5}{10>x>9.5}{-4.5<y<4.5}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "059be9d577843fef",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "268"
+      ],
+      "example_latex": [
+        "\\left(x-9\\right)^{2}+\\left(y+4\\right)^{2}<0.4^{2}\\left\\{0<z<5\\right\\}"
+      ],
+      "example_normalized": [
+        "(x-9)^{2}+(y+4)^{2}<0.4^{2}{0<z<5}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "07c3c36348b864c6",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "354"
+      ],
+      "example_latex": [
+        "\\left(x+7.6\\right)^{2}+\\left(y-1.3\\right)^{2}+\\left(z-5\\right)^{2}<0.5^{2}\\left\\{z<5\\right\\}"
+      ],
+      "example_normalized": [
+        "(x+7.6)^{2}+(y-1.3)^{2}+(z-5)^{2}<0.5^{2}{z<5}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "081bc3f8ec918f6f",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "261"
+      ],
+      "example_latex": [
+        "\\left(x+5\\right)^{2}+\\left(y+4\\right)^{2}<0.4^{2}\\left\\{0<z<5\\right\\}"
+      ],
+      "example_normalized": [
+        "(x+5)^{2}+(y+4)^{2}<0.4^{2}{0<z<5}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "0d96cf70c22188d1",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "431"
+      ],
+      "example_latex": [
+        "\\operatorname{mod}\\left(z,0.2\\right)<0.05\\left\\{0<z<5.2\\right\\}\\left\\{-2.8<y<2.8\\right\\}\\left\\{-6.7<x<6.7\\right\\}"
+      ],
+      "example_normalized": [
+        "operatorname{mod}(z,0.2)<0.05{0<z<5.2}{-2.8<y<2.8}{-6.7<x<6.7}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "107462ab36649eeb",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "264"
+      ],
+      "example_latex": [
+        "\\left(x-1\\right)^{2}+\\left(y+4\\right)^{2}<0.4^{2}\\left\\{0<z<5\\right\\}"
+      ],
+      "example_normalized": [
+        "(x-1)^{2}+(y+4)^{2}<0.4^{2}{0<z<5}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "14502cf04ca2d5d0",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "357"
+      ],
+      "example_latex": [
+        "\\left(x+7.6\\right)^{2}+\\left(y+1.3\\right)^{2}+\\left(z-5\\right)^{2}<0.5^{2}\\left\\{z<5\\right\\}"
+      ],
+      "example_normalized": [
+        "(x+7.6)^{2}+(y+1.3)^{2}+(z-5)^{2}<0.5^{2}{z<5}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "14e1f4987f36b3ea",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "392"
+      ],
+      "example_latex": [
+        "\\left(x+7\\right)^{2}+\\left(y-4\\right)^{2}<0.4^{2}\\left\\{0<z<5\\right\\}\\left\\{\\operatorname{mod}\\left(z,0.4\\right)<0.1\\right\\}"
+      ],
+      "example_normalized": [
+        "(x+7)^{2}+(y-4)^{2}<0.4^{2}{0<z<5}{operatorname{mod}(z,0.4)<0.1}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "151bfa31eebc6b3e",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "393"
+      ],
+      "example_latex": [
+        "\\left(x+9\\right)^{2}+\\left(y-4\\right)^{2}<0.4^{2}\\left\\{0<z<5\\right\\}\\left\\{\\operatorname{mod}\\left(z,0.4\\right)<0.1\\right\\}"
+      ],
+      "example_normalized": [
+        "(x+9)^{2}+(y-4)^{2}<0.4^{2}{0<z<5}{operatorname{mod}(z,0.4)<0.1}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "169b0985d112d40c",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "271"
+      ],
+      "example_latex": [
+        "\\left(x-9\\right)^{2}+\\left(y-2\\right)^{2}<0.4^{2}\\left\\{0<z<5\\right\\}"
+      ],
+      "example_normalized": [
+        "(x-9)^{2}+(y-2)^{2}<0.4^{2}{0<z<5}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "194552596df6f3f9",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "320"
+      ],
+      "example_latex": [
+        "\\left(x-9\\right)^{2}+\\left(y-2\\right)^{2}+\\left(z-5\\right)^{2}<0.5^{2}\\left\\{z<5\\right\\}"
+      ],
+      "example_normalized": [
+        "(x-9)^{2}+(y-2)^{2}+(z-5)^{2}<0.5^{2}{z<5}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "199b3cc89f26155c",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "352"
+      ],
+      "example_latex": [
+        "\\left(x-7.6\\right)^{2}+\\left(y+2.6\\right)^{2}+\\left(z-5\\right)^{2}<0.5^{2}\\left\\{z<5\\right\\}"
+      ],
+      "example_normalized": [
+        "(x-7.6)^{2}+(y+2.6)^{2}+(z-5)^{2}<0.5^{2}{z<5}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "1d157cbdf2951dd3",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "260"
+      ],
+      "example_latex": [
+        "\\left(x+7\\right)^{2}+\\left(y+4\\right)^{2}<0.4^{2}\\left\\{0<z<5\\right\\}"
+      ],
+      "example_normalized": [
+        "(x+7)^{2}+(y+4)^{2}<0.4^{2}{0<z<5}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "1edeefc2b0f43ecf",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "253"
+      ],
+      "example_latex": [
+        "\\left(x+5\\right)^{2}+\\left(y-4\\right)^{2}<0.4^{2}\\left\\{0<z<5\\right\\}"
+      ],
+      "example_normalized": [
+        "(x+5)^{2}+(y-4)^{2}<0.4^{2}{0<z<5}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "1f30ac6ec9c22293",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "311"
+      ],
+      "example_latex": [
+        "\\left(x+3\\right)^{2}+\\left(y+4\\right)^{2}+\\left(z-5\\right)^{2}<0.5^{2}\\left\\{z<5\\right\\}"
+      ],
+      "example_normalized": [
+        "(x+3)^{2}+(y+4)^{2}+(z-5)^{2}<0.5^{2}{z<5}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "1fbae24173a15406",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "285"
+      ],
+      "example_latex": [
+        "\\left(x-7.6\\right)^{2}+\\left(y-1.3\\right)^{2}<0.4^{2}\\left\\{0<z<5\\right\\}"
+      ],
+      "example_normalized": [
+        "(x-7.6)^{2}+(y-1.3)^{2}<0.4^{2}{0<z<5}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "230bdab725fbeee8",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "408"
+      ],
+      "example_latex": [
+        "\\left(x-9\\right)^{2}+y^{2}<0.4^{2}\\left\\{0<z<5\\right\\}\\left\\{\\operatorname{mod}\\left(z,0.4\\right)<0.1\\right\\}"
+      ],
+      "example_normalized": [
+        "(x-9)^{2}+y^{2}<0.4^{2}{0<z<5}{operatorname{mod}(z,0.4)<0.1}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "2656700e3189b0dc",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "277"
+      ],
+      "example_latex": [
+        "\\left(x-7.6\\right)^{2}+\\left(y-2.6\\right)^{2}<0.4^{2}\\left\\{0<z<5\\right\\}"
+      ],
+      "example_normalized": [
+        "(x-7.6)^{2}+(y-2.6)^{2}<0.4^{2}{0<z<5}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "285801d2989cee46",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "256"
+      ],
+      "example_latex": [
+        "\\left(x+9\\right)^{2}+\\left(y-2\\right)^{2}<0.4^{2}\\left\\{0<z<5\\right\\}"
+      ],
+      "example_normalized": [
+        "(x+9)^{2}+(y-2)^{2}<0.4^{2}{0<z<5}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "2a38434023caa2d2",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "400"
+      ],
+      "example_latex": [
+        "\\left(x+3\\right)^{2}+\\left(y+4\\right)^{2}<0.4^{2}\\left\\{0<z<5\\right\\}\\left\\{\\operatorname{mod}\\left(z,0.4\\right)<0.1\\right\\}"
+      ],
+      "example_normalized": [
+        "(x+3)^{2}+(y+4)^{2}<0.4^{2}{0<z<5}{operatorname{mod}(z,0.4)<0.1}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "2a804a06e39649fa",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "407"
+      ],
+      "example_latex": [
+        "\\left(x-9\\right)^{2}+\\left(y+2\\right)^{2}<0.4^{2}\\left\\{0<z<5\\right\\}\\left\\{\\operatorname{mod}\\left(z,0.4\\right)<0.1\\right\\}"
+      ],
+      "example_normalized": [
+        "(x-9)^{2}+(y+2)^{2}<0.4^{2}{0<z<5}{operatorname{mod}(z,0.4)<0.1}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "2ae9f20b5e0c100c",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "402"
+      ],
+      "example_latex": [
+        "\\left(x-1\\right)^{2}+\\left(y+4\\right)^{2}<0.4^{2}\\left\\{0<z<5\\right\\}\\left\\{\\operatorname{mod}\\left(z,0.4\\right)<0.1\\right\\}"
+      ],
+      "example_normalized": [
+        "(x-1)^{2}+(y+4)^{2}<0.4^{2}{0<z<5}{operatorname{mod}(z,0.4)<0.1}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "2c3816e4bbdc182b",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "248"
+      ],
+      "example_latex": [
+        "\\left(x-5\\right)^{2}+\\left(y-4\\right)^{2}<0.4^{2}\\left\\{0<z<5\\right\\}"
+      ],
+      "example_normalized": [
+        "(x-5)^{2}+(y-4)^{2}<0.4^{2}{0<z<5}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "2f15513ad787ae7e",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "296"
+      ],
+      "example_latex": [
+        "\\left(x-7\\right)^{2}+\\left(y-4\\right)^{2}+\\left(z-5\\right)^{2}<0.5^{2}\\left\\{z<5\\right\\}"
+      ],
+      "example_normalized": [
+        "(x-7)^{2}+(y-4)^{2}+(z-5)^{2}<0.5^{2}{z<5}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "301b878799dc4f47",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "249"
+      ],
+      "example_latex": [
+        "\\left(x-3\\right)^{2}+\\left(y-4\\right)^{2}<0.4^{2}\\left\\{0<z<5\\right\\}"
+      ],
+      "example_normalized": [
+        "(x-3)^{2}+(y-4)^{2}<0.4^{2}{0<z<5}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "36bd916e87e0546f",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "252"
+      ],
+      "example_latex": [
+        "\\left(x+3\\right)^{2}+\\left(y-4\\right)^{2}<0.4^{2}\\left\\{0<z<5\\right\\}"
+      ],
+      "example_normalized": [
+        "(x+3)^{2}+(y-4)^{2}<0.4^{2}{0<z<5}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "3825daf9dfd79878",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "398"
+      ],
+      "example_latex": [
+        "\\left(x+7\\right)^{2}+\\left(y+4\\right)^{2}<0.4^{2}\\left\\{0<z<5\\right\\}\\left\\{\\operatorname{mod}\\left(z,0.4\\right)<0.1\\right\\}"
+      ],
+      "example_normalized": [
+        "(x+7)^{2}+(y+4)^{2}<0.4^{2}{0<z<5}{operatorname{mod}(z,0.4)<0.1}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "4129097fc9af27a6",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "267"
+      ],
+      "example_latex": [
+        "\\left(x-7\\right)^{2}+\\left(y+4\\right)^{2}<0.4^{2}\\left\\{0<z<5\\right\\}"
+      ],
+      "example_normalized": [
+        "(x-7)^{2}+(y+4)^{2}<0.4^{2}{0<z<5}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "4173234a4e4db4a5",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "401"
+      ],
+      "example_latex": [
+        "\\left(x+1\\right)^{2}+\\left(y+4\\right)^{2}<0.4^{2}\\left\\{0<z<5\\right\\}\\left\\{\\operatorname{mod}\\left(z,0.4\\right)<0.1\\right\\}"
+      ],
+      "example_normalized": [
+        "(x+1)^{2}+(y+4)^{2}<0.4^{2}{0<z<5}{operatorname{mod}(z,0.4)<0.1}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "4197a0fa731dfe69",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "390"
+      ],
+      "example_latex": [
+        "\\left(x+3\\right)^{2}+\\left(y-4\\right)^{2}<0.4^{2}\\left\\{0<z<5\\right\\}\\left\\{\\operatorname{mod}\\left(z,0.4\\right)<0.1\\right\\}"
+      ],
+      "example_normalized": [
+        "(x+3)^{2}+(y-4)^{2}<0.4^{2}{0<z<5}{operatorname{mod}(z,0.4)<0.1}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "43a90d742a094974",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "358"
+      ],
+      "example_latex": [
+        "\\left(x+7.6\\right)^{2}+\\left(y+2.6\\right)^{2}+\\left(z-5\\right)^{2}<0.5^{2}\\left\\{z<5\\right\\}"
+      ],
+      "example_normalized": [
+        "(x+7.6)^{2}+(y+2.6)^{2}+(z-5)^{2}<0.5^{2}{z<5}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "49e65eb23053dc59",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "307"
+      ],
+      "example_latex": [
+        "\\left(x+9\\right)^{2}+\\left(y+2\\right)^{2}+\\left(z-5\\right)^{2}<0.5^{2}\\left\\{z<5\\right\\}"
+      ],
+      "example_normalized": [
+        "(x+9)^{2}+(y+2)^{2}+(z-5)^{2}<0.5^{2}{z<5}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "4b73035fb56c6e4c",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "387"
+      ],
+      "example_latex": [
+        "\\left(x-3\\right)^{2}+\\left(y-4\\right)^{2}<0.4^{2}\\left\\{0<z<5\\right\\}\\left\\{\\operatorname{mod}\\left(z,0.4\\right)<0.1\\right\\}"
+      ],
+      "example_normalized": [
+        "(x-3)^{2}+(y-4)^{2}<0.4^{2}{0<z<5}{operatorname{mod}(z,0.4)<0.1}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "4ba67e263ecf980f",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "297"
+      ],
+      "example_latex": [
+        "\\left(x-5\\right)^{2}+\\left(y-4\\right)^{2}+\\left(z-5\\right)^{2}<0.5^{2}\\left\\{z<5\\right\\}"
+      ],
+      "example_normalized": [
+        "(x-5)^{2}+(y-4)^{2}+(z-5)^{2}<0.5^{2}{z<5}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "4c08ac461d4e4ff6",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "259"
+      ],
+      "example_latex": [
+        "\\left(x+9\\right)^{2}+\\left(y+4\\right)^{2}<0.4^{2}\\left\\{0<z<5\\right\\}"
+      ],
+      "example_normalized": [
+        "(x+9)^{2}+(y+4)^{2}<0.4^{2}{0<z<5}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "4eb0a7fa336b8c3a",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "435"
+      ],
+      "example_latex": [
+        "\\operatorname{mod}(x-0.25,\\ 1.8)\\le0.1\\left\\{5.2<z<6\\right\\}\\left\\{-9.5<x<9.5\\right\\}\\left\\{4.5<y<4.8\\right\\}"
+      ],
+      "example_normalized": [
+        "operatorname{mod}(x-0.25,1.8)<=0.1{5.2<z<6}{-9.5<x<9.5}{4.5<y<4.8}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "50a4227545382071",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "269"
+      ],
+      "example_latex": [
+        "\\left(x-9\\right)^{2}+\\left(y+2\\right)^{2}<0.4^{2}\\left\\{0<z<5\\right\\}"
+      ],
+      "example_normalized": [
+        "(x-9)^{2}+(y+2)^{2}<0.4^{2}{0<z<5}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "51bddd6cfdff7d41",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "247"
+      ],
+      "example_latex": [
+        "\\left(x-7\\right)^{2}+\\left(y-4\\right)^{2}<0.4^{2}\\left\\{0<z<5\\right\\}"
+      ],
+      "example_normalized": [
+        "(x-7)^{2}+(y-4)^{2}<0.4^{2}{0<z<5}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "51e97ec622a6a075",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "236"
+      ],
+      "example_latex": [
+        "\\left(x-9\\right)^{2}+\\left(y-4\\right)^{2}<0.4^{2}\\left\\{0<z<5\\right\\}"
+      ],
+      "example_normalized": [
+        "(x-9)^{2}+(y-4)^{2}<0.4^{2}{0<z<5}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 1,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "54559d5a5bfe02f6",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "436"
+      ],
+      "example_latex": [
+        "\\operatorname{mod}(x,\\ 1.8)\\le0.1\\left\\{5.2<z<6\\right\\}\\left\\{-9.5<x<9.5\\right\\}\\left\\{4.5\\le y\\le4.8\\right\\}"
+      ],
+      "example_normalized": [
+        "operatorname{mod}(x,1.8)<=0.1{5.2<z<6}{-9.5<x<9.5}{4.5<=y<=4.8}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "5552241ebc564880",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "314"
+      ],
+      "example_latex": [
+        "\\left(x-3\\right)^{2}+\\left(y+4\\right)^{2}+\\left(z-5\\right)^{2}<0.5^{2}\\left\\{z<5\\right\\}"
+      ],
+      "example_normalized": [
+        "(x-3)^{2}+(y+4)^{2}+(z-5)^{2}<0.5^{2}{z<5}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "56a492c7e1c0011f",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "290"
+      ],
+      "example_latex": [
+        "\\left(x+7.6\\right)^{2}+\\left(y+1.3\\right)^{2}<0.4^{2}\\left\\{0<z<5\\right\\}"
+      ],
+      "example_normalized": [
+        "(x+7.6)^{2}+(y+1.3)^{2}<0.4^{2}{0<z<5}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "57542bb3194b6a15",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "265"
+      ],
+      "example_latex": [
+        "\\left(x-3\\right)^{2}+\\left(y+4\\right)^{2}<0.4^{2}\\left\\{0<z<5\\right\\}"
+      ],
+      "example_normalized": [
+        "(x-3)^{2}+(y+4)^{2}<0.4^{2}{0<z<5}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "57fc1ad7bff29cf4",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "386"
+      ],
+      "example_latex": [
+        "\\left(x-5\\right)^{2}+\\left(y-4\\right)^{2}<0.4^{2}\\left\\{0<z<5\\right\\}\\left\\{\\operatorname{mod}\\left(z,0.4\\right)<0.1\\right\\}"
+      ],
+      "example_normalized": [
+        "(x-5)^{2}+(y-4)^{2}<0.4^{2}{0<z<5}{operatorname{mod}(z,0.4)<0.1}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "591f749df75630cd",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "349"
+      ],
+      "example_latex": [
+        "\\left(x-7.6\\right)^{2}+\\left(y-1.3\\right)^{2}+\\left(z-5\\right)^{2}<0.5^{2}\\left\\{z<5\\right\\}"
+      ],
+      "example_normalized": [
+        "(x-7.6)^{2}+(y-1.3)^{2}+(z-5)^{2}<0.5^{2}{z<5}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "5c54ccfb94431cb9",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "440"
+      ],
+      "example_latex": [
+        "\\operatorname{mod}(y-0.25,\\ 1.4)\\le0.1\\left\\{5.2<z<6\\right\\}\\left\\{-9.5<y<9.5\\right\\}\\left\\{10>x>9.5\\right\\}\\left\\{-4.5<y<4.5\\right\\}"
+      ],
+      "example_normalized": [
+        "operatorname{mod}(y-0.25,1.4)<=0.1{5.2<z<6}{-9.5<y<9.5}{10>x>9.5}{-4.5<y<4.5}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "5db4d3ce2f90bdba",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "309"
+      ],
+      "example_latex": [
+        "\\left(x+7\\right)^{2}+\\left(y+4\\right)^{2}+\\left(z-5\\right)^{2}<0.5^{2}\\left\\{z<5\\right\\}"
+      ],
+      "example_normalized": [
+        "(x+7)^{2}+(y+4)^{2}+(z-5)^{2}<0.5^{2}{z<5}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "5f1996a695d3bfdf",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "286"
+      ],
+      "example_latex": [
+        "\\left(x-7.6\\right)^{2}+y^{2}<0.4^{2}\\left\\{0<z<5\\right\\}"
+      ],
+      "example_normalized": [
+        "(x-7.6)^{2}+y^{2}<0.4^{2}{0<z<5}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "5fab2951a14ffd5b",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "250"
+      ],
+      "example_latex": [
+        "\\left(x-1\\right)^{2}+\\left(y-4\\right)^{2}<0.4^{2}\\left\\{0<z<5\\right\\}"
+      ],
+      "example_normalized": [
+        "(x-1)^{2}+(y-4)^{2}<0.4^{2}{0<z<5}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "652030cda18031cb",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "353"
+      ],
+      "example_latex": [
+        "\\left(x+7.6\\right)^{2}+\\left(y-2.6\\right)^{2}+\\left(z-5\\right)^{2}<0.5^{2}\\left\\{z<5\\right\\}"
+      ],
+      "example_normalized": [
+        "(x+7.6)^{2}+(y-2.6)^{2}+(z-5)^{2}<0.5^{2}{z<5}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "68824ee67f39df44",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "427"
+      ],
+      "example_latex": [
+        "\\left(x+7.6\\right)^{2}+\\left(y+2.6\\right)^{2}<0.4^{2}\\left\\{\\operatorname{mod}\\left(z,0.4\\right)<0.1\\right\\}\\left\\{0<z<5\\right\\}"
+      ],
+      "example_normalized": [
+        "(x+7.6)^{2}+(y+2.6)^{2}<0.4^{2}{operatorname{mod}(z,0.4)<0.1}{0<z<5}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "68dfe30c1e14d620",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "289"
+      ],
+      "example_latex": [
+        "\\left(x+7.6\\right)^{2}+y^{2}<0.4^{2}\\left\\{0<z<5\\right\\}"
+      ],
+      "example_normalized": [
+        "(x+7.6)^{2}+y^{2}<0.4^{2}{0<z<5}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "6c1304f1198dd0ed",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "391"
+      ],
+      "example_latex": [
+        "\\left(x+5\\right)^{2}+\\left(y-4\\right)^{2}<0.4^{2}\\left\\{0<z<5\\right\\}\\left\\{\\operatorname{mod}\\left(z,0.4\\right)<0.1\\right\\}"
+      ],
+      "example_normalized": [
+        "(x+5)^{2}+(y-4)^{2}<0.4^{2}{0<z<5}{operatorname{mod}(z,0.4)<0.1}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "6ffe5f1a56861940",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "303"
+      ],
+      "example_latex": [
+        "\\left(x+7\\right)^{2}+\\left(y-4\\right)^{2}+\\left(z-5\\right)^{2}<0.5^{2}\\left\\{z<5\\right\\}"
+      ],
+      "example_normalized": [
+        "(x+7)^{2}+(y-4)^{2}+(z-5)^{2}<0.5^{2}{z<5}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "708d7f843afb7ced",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "306"
+      ],
+      "example_latex": [
+        "\\left(x+9\\right)^{2}+y^{2}+\\left(z-5\\right)^{2}<0.5^{2}\\left\\{z<5\\right\\}"
+      ],
+      "example_normalized": [
+        "(x+9)^{2}+y^{2}+(z-5)^{2}<0.5^{2}{z<5}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "70c2719233293f44",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "422"
+      ],
+      "example_latex": [
+        "\\left(x+7.6\\right)^{2}+\\left(y-1.3\\right)^{2}<0.4^{2}\\left\\{0<z<5\\right\\}"
+      ],
+      "example_normalized": [
+        "(x+7.6)^{2}+(y-1.3)^{2}<0.4^{2}{0<z<5}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "73822dafc4ccc804",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "308"
+      ],
+      "example_latex": [
+        "\\left(x+9\\right)^{2}+\\left(y+4\\right)^{2}+\\left(z-5\\right)^{2}<0.5^{2}\\left\\{z<5\\right\\}"
+      ],
+      "example_normalized": [
+        "(x+9)^{2}+(y+4)^{2}+(z-5)^{2}<0.5^{2}{z<5}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "74f2626e5ce942b8",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "263"
+      ],
+      "example_latex": [
+        "\\left(x+1\\right)^{2}+\\left(y+4\\right)^{2}<0.4^{2}\\left\\{0<z<5\\right\\}"
+      ],
+      "example_normalized": [
+        "(x+1)^{2}+(y+4)^{2}<0.4^{2}{0<z<5}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "76ee5ab07aad39e3",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "426"
+      ],
+      "example_latex": [
+        "\\left(x+7.6\\right)^{2}+\\left(y+1.3\\right)^{2}<0.4^{2}\\left\\{\\operatorname{mod}\\left(z,0.4\\right)<0.1\\right\\}\\left\\{0<z<5\\right\\}"
+      ],
+      "example_normalized": [
+        "(x+7.6)^{2}+(y+1.3)^{2}<0.4^{2}{operatorname{mod}(z,0.4)<0.1}{0<z<5}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "79314d9eadd117b2",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "389"
+      ],
+      "example_latex": [
+        "\\left(x+1\\right)^{2}+\\left(y-4\\right)^{2}<0.4^{2}\\left\\{0<z<5\\right\\}\\left\\{\\operatorname{mod}\\left(z,0.4\\right)<0.1\\right\\}"
+      ],
+      "example_normalized": [
+        "(x+1)^{2}+(y-4)^{2}<0.4^{2}{0<z<5}{operatorname{mod}(z,0.4)<0.1}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "850edcf45f47880d",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "316"
+      ],
+      "example_latex": [
+        "\\left(x-7\\right)^{2}+\\left(y+4\\right)^{2}+\\left(z-5\\right)^{2}<0.5^{2}\\left\\{z<5\\right\\}"
+      ],
+      "example_normalized": [
+        "(x-7)^{2}+(y+4)^{2}+(z-5)^{2}<0.5^{2}{z<5}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "85491769f12e7dae",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "283"
+      ],
+      "example_latex": [
+        "\\left(x+7.6\\right)^{2}+\\left(y+2.6\\right)^{2}<0.4^{2}\\left\\{0<z<5\\right\\}"
+      ],
+      "example_normalized": [
+        "(x+7.6)^{2}+(y+2.6)^{2}<0.4^{2}{0<z<5}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "86fc1c75568a28a9",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "258"
+      ],
+      "example_latex": [
+        "\\left(x+9\\right)^{2}+\\left(y+2\\right)^{2}<0.4^{2}\\left\\{0<z<5\\right\\}"
+      ],
+      "example_normalized": [
+        "(x+9)^{2}+(y+2)^{2}<0.4^{2}{0<z<5}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "893578b953e27128",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "444"
+      ],
+      "example_latex": [
+        "\\operatorname{mod}(y-0.5,\\ 1.)\\le0.1\\left\\{5.2<z<6\\right\\}\\left\\{-9.5<y<9.5\\right\\}\\left\\{-10<x<-9.5\\right\\}\\left\\{-4.5<y<4.5\\right\\}"
+      ],
+      "example_normalized": [
+        "operatorname{mod}(y-0.5,1.)<=0.1{5.2<z<6}{-9.5<y<9.5}{-10<x<-9.5}{-4.5<y<4.5}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "8ca5596d152d450d",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "266"
+      ],
+      "example_latex": [
+        "\\left(x-5\\right)^{2}+\\left(y+4\\right)^{2}<0.4^{2}\\left\\{0<z<5\\right\\}"
+      ],
+      "example_normalized": [
+        "(x-5)^{2}+(y+4)^{2}<0.4^{2}{0<z<5}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "8d473afd501e598f",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "317"
+      ],
+      "example_latex": [
+        "\\left(x-9\\right)^{2}+\\left(y+4\\right)^{2}+\\left(z-5\\right)^{2}<0.5^{2}\\left\\{z<5\\right\\}"
+      ],
+      "example_normalized": [
+        "(x-9)^{2}+(y+4)^{2}+(z-5)^{2}<0.5^{2}{z<5}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "8d5a9945a70bcc88",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "304"
+      ],
+      "example_latex": [
+        "\\left(x+9\\right)^{2}+\\left(y-4\\right)^{2}+\\left(z-5\\right)^{2}<0.5^{2}\\left\\{z<5\\right\\}"
+      ],
+      "example_normalized": [
+        "(x+9)^{2}+(y-4)^{2}+(z-5)^{2}<0.5^{2}{z<5}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "8d715398ff98b73e",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "414"
+      ],
+      "example_latex": [
+        "\\left(x-7.6\\right)^{2}+\\left(y-2.6\\right)^{2}<0.4^{2}\\left\\{\\operatorname{mod}\\left(z,0.4\\right)<0.1\\right\\}\\left\\{0<z<5\\right\\}"
+      ],
+      "example_normalized": [
+        "(x-7.6)^{2}+(y-2.6)^{2}<0.4^{2}{operatorname{mod}(z,0.4)<0.1}{0<z<5}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "904a285d448a4ee1",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "442"
+      ],
+      "example_latex": [
+        "\\operatorname{mod}(y,\\ 1.4)\\le0.1\\left\\{5.2<z<6\\right\\}\\left\\{-9.5<y<9.5\\right\\}\\left\\{-10<x<-9.5\\right\\}\\left\\{-4.5<y<4.5\\right\\}"
+      ],
+      "example_normalized": [
+        "operatorname{mod}(y,1.4)<=0.1{5.2<z<6}{-9.5<y<9.5}{-10<x<-9.5}{-4.5<y<4.5}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "91244d2326199ef5",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "417"
+      ],
+      "example_latex": [
+        "\\left(x-7.6\\right)^{2}+\\left(y-1.3\\right)^{2}<0.4^{2}\\left\\{\\operatorname{mod}\\left(z,0.4\\right)<0.1\\right\\}\\left\\{0<z<5\\right\\}"
+      ],
+      "example_normalized": [
+        "(x-7.6)^{2}+(y-1.3)^{2}<0.4^{2}{operatorname{mod}(z,0.4)<0.1}{0<z<5}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "94b39fe3afc8b2f4",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "376"
+      ],
+      "example_latex": [
+        "\\left(x-9\\right)^{2}+\\left(y-4\\right)^{2}<0.4^{2}\\left\\{0<z<5\\right\\}\\left\\{\\operatorname{mod}\\left(z,0.4\\right)<0.1\\right\\}"
+      ],
+      "example_normalized": [
+        "(x-9)^{2}+(y-4)^{2}<0.4^{2}{0<z<5}{operatorname{mod}(z,0.4)<0.1}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 1,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "94b80b5d1f5def92",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "385"
+      ],
+      "example_latex": [
+        "\\left(x-7\\right)^{2}+\\left(y-4\\right)^{2}<0.4^{2}\\left\\{0<z<5\\right\\}\\left\\{\\operatorname{mod}\\left(z,0.4\\right)<0.1\\right\\}"
+      ],
+      "example_normalized": [
+        "(x-7)^{2}+(y-4)^{2}<0.4^{2}{0<z<5}{operatorname{mod}(z,0.4)<0.1}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "9abfc6ff25643b4e",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "405"
+      ],
+      "example_latex": [
+        "\\left(x-7\\right)^{2}+\\left(y+4\\right)^{2}<0.4^{2}\\left\\{0<z<5\\right\\}\\left\\{\\operatorname{mod}\\left(z,0.4\\right)<0.1\\right\\}"
+      ],
+      "example_normalized": [
+        "(x-7)^{2}+(y+4)^{2}<0.4^{2}{0<z<5}{operatorname{mod}(z,0.4)<0.1}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "a0d945f51f09819a",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "298"
+      ],
+      "example_latex": [
+        "\\left(x-3\\right)^{2}+\\left(y-4\\right)^{2}+\\left(z-5\\right)^{2}<0.5^{2}\\left\\{z<5\\right\\}"
+      ],
+      "example_normalized": [
+        "(x-3)^{2}+(y-4)^{2}+(z-5)^{2}<0.5^{2}{z<5}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "a1225cc7ca7f8f95",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "284"
+      ],
+      "example_latex": [
+        "\\left(x-7.6\\right)^{2}+\\left(y+2.6\\right)^{2}<0.4^{2}\\left\\{0<z<5\\right\\}"
+      ],
+      "example_normalized": [
+        "(x-7.6)^{2}+(y+2.6)^{2}<0.4^{2}{0<z<5}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "a22c68b1be52d53f",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "424"
+      ],
+      "example_latex": [
+        "\\left(x+7.6\\right)^{2}+\\left(y-1.3\\right)^{2}<0.4^{2}\\left\\{\\operatorname{mod}\\left(z,0.4\\right)<0.1\\right\\}\\left\\{0<z<5\\right\\}"
+      ],
+      "example_normalized": [
+        "(x+7.6)^{2}+(y-1.3)^{2}<0.4^{2}{operatorname{mod}(z,0.4)<0.1}{0<z<5}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "a5972f72b8f0d880",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "409"
+      ],
+      "example_latex": [
+        "\\left(x-9\\right)^{2}+\\left(y-2\\right)^{2}<0.4^{2}\\left\\{0<z<5\\right\\}\\left\\{\\operatorname{mod}\\left(z,0.4\\right)<0.1\\right\\}"
+      ],
+      "example_normalized": [
+        "(x-9)^{2}+(y-2)^{2}<0.4^{2}{0<z<5}{operatorname{mod}(z,0.4)<0.1}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "a8966a5823895edc",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "351"
+      ],
+      "example_latex": [
+        "\\left(x-7.6\\right)^{2}+\\left(y+1.3\\right)^{2}+\\left(z-5\\right)^{2}<0.5^{2}\\left\\{z<5\\right\\}"
+      ],
+      "example_normalized": [
+        "(x-7.6)^{2}+(y+1.3)^{2}+(z-5)^{2}<0.5^{2}{z<5}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "abfb8dca1758e6cd",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "301"
+      ],
+      "example_latex": [
+        "\\left(x+3\\right)^{2}+\\left(y-4\\right)^{2}+\\left(z-5\\right)^{2}<0.5^{2}\\left\\{z<5\\right\\}"
+      ],
+      "example_normalized": [
+        "(x+3)^{2}+(y-4)^{2}+(z-5)^{2}<0.5^{2}{z<5}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "aed3a8570536e991",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "350"
+      ],
+      "example_latex": [
+        "\\left(x-7.6\\right)^{2}+y^{2}+\\left(z-5\\right)^{2}<0.5^{2}\\left\\{z<5\\right\\}"
+      ],
+      "example_normalized": [
+        "(x-7.6)^{2}+y^{2}+(z-5)^{2}<0.5^{2}{z<5}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "af18b59004cd58b3",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "418"
+      ],
+      "example_latex": [
+        "\\left(x-7.6\\right)^{2}+y^{2}<0.4^{2}\\left\\{\\operatorname{mod}\\left(z,0.4\\right)<0.1\\right\\}\\left\\{0<z<5\\right\\}"
+      ],
+      "example_normalized": [
+        "(x-7.6)^{2}+y^{2}<0.4^{2}{operatorname{mod}(z,0.4)<0.1}{0<z<5}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "b59908d384216ccb",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "404"
+      ],
+      "example_latex": [
+        "\\left(x-5\\right)^{2}+\\left(y+4\\right)^{2}<0.4^{2}\\left\\{0<z<5\\right\\}\\left\\{\\operatorname{mod}\\left(z,0.4\\right)<0.1\\right\\}"
+      ],
+      "example_normalized": [
+        "(x-5)^{2}+(y+4)^{2}<0.4^{2}{0<z<5}{operatorname{mod}(z,0.4)<0.1}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "b8d657816990bc62",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "270"
+      ],
+      "example_latex": [
+        "\\left(x-9\\right)^{2}+y^{2}<0.4^{2}\\left\\{0<z<5\\right\\}"
+      ],
+      "example_normalized": [
+        "(x-9)^{2}+y^{2}<0.4^{2}{0<z<5}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "b8f56fe5ad3c3eb3",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "347"
+      ],
+      "example_latex": [
+        "\\left(x-7.6\\right)^{2}+\\left(y-2.6\\right)^{2}+\\left(z-5\\right)^{2}<0.5^{2}\\left\\{z<5\\right\\}"
+      ],
+      "example_normalized": [
+        "(x-7.6)^{2}+(y-2.6)^{2}+(z-5)^{2}<0.5^{2}{z<5}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "be68891ee30df82a",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "312"
+      ],
+      "example_latex": [
+        "\\left(x+1\\right)^{2}+\\left(y+4\\right)^{2}+\\left(z-5\\right)^{2}<0.5^{2}\\left\\{z<5\\right\\}"
+      ],
+      "example_normalized": [
+        "(x+1)^{2}+(y+4)^{2}+(z-5)^{2}<0.5^{2}{z<5}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "c1533a0256456370",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "356"
+      ],
+      "example_latex": [
+        "\\left(x+7.6\\right)^{2}+y^{2}+\\left(z-5\\right)^{2}<0.5^{2}\\left\\{z<5\\right\\}"
+      ],
+      "example_normalized": [
+        "(x+7.6)^{2}+y^{2}+(z-5)^{2}<0.5^{2}{z<5}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "c1649aba71db85de",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "282"
+      ],
+      "example_latex": [
+        "\\left(x+7.6\\right)^{2}+\\left(y-2.6\\right)^{2}<0.4^{2}\\left\\{0<z<5\\right\\}"
+      ],
+      "example_normalized": [
+        "(x+7.6)^{2}+(y-2.6)^{2}<0.4^{2}{0<z<5}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "c1f4529af11258c7",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "443"
+      ],
+      "example_latex": [
+        "\\operatorname{mod}(y-0.25,\\ 1.4)\\le0.1\\left\\{5.2<z<6\\right\\}\\left\\{-9.5<y<9.5\\right\\}\\left\\{-10<x<-9.5\\right\\}\\left\\{-4.5<y<4.5\\right\\}"
+      ],
+      "example_normalized": [
+        "operatorname{mod}(y-0.25,1.4)<=0.1{5.2<z<6}{-9.5<y<9.5}{-10<x<-9.5}{-4.5<y<4.5}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "c21440189aff4fe4",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "421"
+      ],
+      "example_latex": [
+        "\\left(x+7.6\\right)^{2}+\\left(y-2.6\\right)^{2}<0.4^{2}\\left\\{\\operatorname{mod}\\left(z,0.4\\right)<0.1\\right\\}\\left\\{0<z<5\\right\\}"
+      ],
+      "example_normalized": [
+        "(x+7.6)^{2}+(y-2.6)^{2}<0.4^{2}{operatorname{mod}(z,0.4)<0.1}{0<z<5}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "c2d13697fb12ae6a",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "394"
+      ],
+      "example_latex": [
+        "\\left(x+9\\right)^{2}+\\left(y-2\\right)^{2}<0.4^{2}\\left\\{0<z<5\\right\\}\\left\\{\\operatorname{mod}\\left(z,0.4\\right)<0.1\\right\\}"
+      ],
+      "example_normalized": [
+        "(x+9)^{2}+(y-2)^{2}<0.4^{2}{0<z<5}{operatorname{mod}(z,0.4)<0.1}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "cb2310b880c55ab5",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "318"
+      ],
+      "example_latex": [
+        "\\left(x-9\\right)^{2}+\\left(y+2\\right)^{2}+\\left(z-5\\right)^{2}<0.5^{2}\\left\\{z<5\\right\\}"
+      ],
+      "example_normalized": [
+        "(x-9)^{2}+(y+2)^{2}+(z-5)^{2}<0.5^{2}{z<5}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "cb6a6c593f52f168",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "406"
+      ],
+      "example_latex": [
+        "\\left(x-9\\right)^{2}+\\left(y+4\\right)^{2}<0.4^{2}\\left\\{0<z<5\\right\\}\\left\\{\\operatorname{mod}\\left(z,0.4\\right)<0.1\\right\\}"
+      ],
+      "example_normalized": [
+        "(x-9)^{2}+(y+4)^{2}<0.4^{2}{0<z<5}{operatorname{mod}(z,0.4)<0.1}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "cc8c8ebfc0849eb3",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "254"
+      ],
+      "example_latex": [
+        "\\left(x+7\\right)^{2}+\\left(y-4\\right)^{2}<0.4^{2}\\left\\{0<z<5\\right\\}"
+      ],
+      "example_normalized": [
+        "(x+7)^{2}+(y-4)^{2}<0.4^{2}{0<z<5}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "cd87393dade9505e",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "310"
+      ],
+      "example_latex": [
+        "\\left(x+5\\right)^{2}+\\left(y+4\\right)^{2}+\\left(z-5\\right)^{2}<0.5^{2}\\left\\{z<5\\right\\}"
+      ],
+      "example_normalized": [
+        "(x+5)^{2}+(y+4)^{2}+(z-5)^{2}<0.5^{2}{z<5}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "ce2f007210e9c488",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "397"
+      ],
+      "example_latex": [
+        "\\left(x+9\\right)^{2}+\\left(y+4\\right)^{2}<0.4^{2}\\left\\{0<z<5\\right\\}\\left\\{\\operatorname{mod}\\left(z,0.4\\right)<0.1\\right\\}"
+      ],
+      "example_normalized": [
+        "(x+9)^{2}+(y+4)^{2}<0.4^{2}{0<z<5}{operatorname{mod}(z,0.4)<0.1}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "d3b994862e153975",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "319"
+      ],
+      "example_latex": [
+        "\\left(x-9\\right)^{2}+y^{2}+\\left(z-5\\right)^{2}<0.5^{2}\\left\\{z<5\\right\\}"
+      ],
+      "example_normalized": [
+        "(x-9)^{2}+y^{2}+(z-5)^{2}<0.5^{2}{z<5}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "d6179fe0a5ea71c6",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "434"
+      ],
+      "example_latex": [
+        "\\operatorname{mod}(x-0.5,\\ 1.8)\\le0.1\\left\\{5.2<z<6\\right\\}\\left\\{-9.5<x<9.5\\right\\}\\left\\{4.8>y>4.1\\right\\}"
+      ],
+      "example_normalized": [
+        "operatorname{mod}(x-0.5,1.8)<=0.1{5.2<z<6}{-9.5<x<9.5}{4.8>y>4.1}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "d9e16a64936e3733",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "420"
+      ],
+      "example_latex": [
+        "\\left(x-7.6\\right)^{2}+\\left(y+2.6\\right)^{2}<0.4^{2}\\left\\{\\operatorname{mod}\\left(z,0.4\\right)<0.1\\right\\}\\left\\{0<z<5\\right\\}"
+      ],
+      "example_normalized": [
+        "(x-7.6)^{2}+(y+2.6)^{2}<0.4^{2}{operatorname{mod}(z,0.4)<0.1}{0<z<5}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "dc0a3de10dc858d9",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "302"
+      ],
+      "example_latex": [
+        "\\left(x+5\\right)^{2}+\\left(y-4\\right)^{2}+\\left(z-5\\right)^{2}<0.5^{2}\\left\\{z<5\\right\\}"
+      ],
+      "example_normalized": [
+        "(x+5)^{2}+(y-4)^{2}+(z-5)^{2}<0.5^{2}{z<5}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "dde39fa7f461c461",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "255"
+      ],
+      "example_latex": [
+        "\\left(x+9\\right)^{2}+\\left(y-4\\right)^{2}<0.4^{2}\\left\\{0<z<5\\right\\}"
+      ],
+      "example_normalized": [
+        "(x+9)^{2}+(y-4)^{2}<0.4^{2}{0<z<5}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "de2ce8b7bfe2f949",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "403"
+      ],
+      "example_latex": [
+        "\\left(x-3\\right)^{2}+\\left(y+4\\right)^{2}<0.4^{2}\\left\\{0<z<5\\right\\}\\left\\{\\operatorname{mod}\\left(z,0.4\\right)<0.1\\right\\}"
+      ],
+      "example_normalized": [
+        "(x-3)^{2}+(y+4)^{2}<0.4^{2}{0<z<5}{operatorname{mod}(z,0.4)<0.1}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "de6f95502ac2bfbe",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "313"
+      ],
+      "example_latex": [
+        "\\left(x-1\\right)^{2}+\\left(y+4\\right)^{2}+\\left(z-5\\right)^{2}<0.5^{2}\\left\\{z<5\\right\\}"
+      ],
+      "example_normalized": [
+        "(x-1)^{2}+(y+4)^{2}+(z-5)^{2}<0.5^{2}{z<5}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "def38e3eee521488",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "315"
+      ],
+      "example_latex": [
+        "\\left(x-5\\right)^{2}+\\left(y+4\\right)^{2}+\\left(z-5\\right)^{2}<0.5^{2}\\left\\{z<5\\right\\}"
+      ],
+      "example_normalized": [
+        "(x-5)^{2}+(y+4)^{2}+(z-5)^{2}<0.5^{2}{z<5}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "e2356f4d832bbe9d",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "425"
+      ],
+      "example_latex": [
+        "\\left(x+7.6\\right)^{2}+y^{2}<0.4^{2}\\left\\{\\operatorname{mod}\\left(z,0.4\\right)<0.1\\right\\}\\left\\{0<z<5\\right\\}"
+      ],
+      "example_normalized": [
+        "(x+7.6)^{2}+y^{2}<0.4^{2}{operatorname{mod}(z,0.4)<0.1}{0<z<5}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "e25f0df0efd9f5dc",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "419"
+      ],
+      "example_latex": [
+        "\\left(x-7.6\\right)^{2}+\\left(y+1.3\\right)^{2}<0.4^{2}\\left\\{\\operatorname{mod}\\left(z,0.4\\right)<0.1\\right\\}\\left\\{0<z<5\\right\\}"
+      ],
+      "example_normalized": [
+        "(x-7.6)^{2}+(y+1.3)^{2}<0.4^{2}{operatorname{mod}(z,0.4)<0.1}{0<z<5}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "e3c5c963da599d82",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "395"
+      ],
+      "example_latex": [
+        "\\left(x+9\\right)^{2}+y^{2}<0.4^{2}\\left\\{0<z<5\\right\\}\\left\\{\\operatorname{mod}\\left(z,0.4\\right)<0.1\\right\\}"
+      ],
+      "example_normalized": [
+        "(x+9)^{2}+y^{2}<0.4^{2}{0<z<5}{operatorname{mod}(z,0.4)<0.1}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "e418a14013c23d84",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "287"
+      ],
+      "example_latex": [
+        "\\left(x-7.6\\right)^{2}+\\left(y+1.3\\right)^{2}<0.4^{2}\\left\\{0<z<5\\right\\}"
+      ],
+      "example_normalized": [
+        "(x-7.6)^{2}+(y+1.3)^{2}<0.4^{2}{0<z<5}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "e6aec02f25592161",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "388"
+      ],
+      "example_latex": [
+        "\\left(x-1\\right)^{2}+\\left(y-4\\right)^{2}<0.4^{2}\\left\\{0<z<5\\right\\}\\left\\{\\operatorname{mod}\\left(z,0.4\\right)<0.1\\right\\}"
+      ],
+      "example_normalized": [
+        "(x-1)^{2}+(y-4)^{2}<0.4^{2}{0<z<5}{operatorname{mod}(z,0.4)<0.1}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "e98a37c8e245d969",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "262"
+      ],
+      "example_latex": [
+        "\\left(x+3\\right)^{2}+\\left(y+4\\right)^{2}<0.4^{2}\\left\\{0<z<5\\right\\}"
+      ],
+      "example_normalized": [
+        "(x+3)^{2}+(y+4)^{2}<0.4^{2}{0<z<5}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "ee5ba022e1037617",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "251"
+      ],
+      "example_latex": [
+        "\\left(x+1\\right)^{2}+\\left(y-4\\right)^{2}<0.4^{2}\\left\\{0<z<5\\right\\}"
+      ],
+      "example_normalized": [
+        "(x+1)^{2}+(y-4)^{2}<0.4^{2}{0<z<5}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "eec4927218138a81",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "437"
+      ],
+      "example_latex": [
+        "\\operatorname{mod}(x-0.5,\\ 1.8)\\le0.1\\left\\{5.2<z<6\\right\\}\\left\\{-9.5<x<9.5\\right\\}\\left\\{-4.5>y>-4.8\\right\\}"
+      ],
+      "example_normalized": [
+        "operatorname{mod}(x-0.5,1.8)<=0.1{5.2<z<6}{-9.5<x<9.5}{-4.5>y>-4.8}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "ef3e52b5d6fd1546",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "305"
+      ],
+      "example_latex": [
+        "\\left(x+9\\right)^{2}+\\left(y-2\\right)^{2}+\\left(z-5\\right)^{2}<0.5^{2}\\left\\{z<5\\right\\}"
+      ],
+      "example_normalized": [
+        "(x+9)^{2}+(y-2)^{2}+(z-5)^{2}<0.5^{2}{z<5}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "efb2c930462695aa",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "439"
+      ],
+      "example_latex": [
+        "\\operatorname{mod}(y,\\ 1.4)\\le0.1\\left\\{5.2<z<6\\right\\}\\left\\{-9.5<y<9.5\\right\\}\\left\\{10>x>9.5\\right\\}\\left\\{-4.5<y<4.5\\right\\}"
+      ],
+      "example_normalized": [
+        "operatorname{mod}(y,1.4)<=0.1{5.2<z<6}{-9.5<y<9.5}{10>x>9.5}{-4.5<y<4.5}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "f14f7dd204e6ca21",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "295"
+      ],
+      "example_latex": [
+        "\\left(x-9\\right)^{2}+\\left(y-4\\right)^{2}+\\left(z-5\\right)^{2}<0.5^{2}\\left\\{z<5\\right\\}"
+      ],
+      "example_normalized": [
+        "(x-9)^{2}+(y-4)^{2}+(z-5)^{2}<0.5^{2}{z<5}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "f21e72b1d7751657",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "396"
+      ],
+      "example_latex": [
+        "\\left(x+9\\right)^{2}+\\left(y+2\\right)^{2}<0.4^{2}\\left\\{0<z<5\\right\\}\\left\\{\\operatorname{mod}\\left(z,0.4\\right)<0.1\\right\\}"
+      ],
+      "example_normalized": [
+        "(x+9)^{2}+(y+2)^{2}<0.4^{2}{0<z<5}{operatorname{mod}(z,0.4)<0.1}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "f55a3eb03ce7fc43",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "299"
+      ],
+      "example_latex": [
+        "\\left(x-1\\right)^{2}+\\left(y-4\\right)^{2}+\\left(z-5\\right)^{2}<0.5^{2}\\left\\{z<5\\right\\}"
+      ],
+      "example_normalized": [
+        "(x-1)^{2}+(y-4)^{2}+(z-5)^{2}<0.5^{2}{z<5}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "f6823877719715c9",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "438"
+      ],
+      "example_latex": [
+        "\\operatorname{mod}(x-0.25,\\ 1.8)\\le0.1\\left\\{5.2<z<6\\right\\}\\left\\{-9.5<x<9.5\\right\\}\\left\\{-4.5>y>-4.8\\right\\}"
+      ],
+      "example_normalized": [
+        "operatorname{mod}(x-0.25,1.8)<=0.1{5.2<z<6}{-9.5<x<9.5}{-4.5>y>-4.8}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "fc9eafdfad218130",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "257"
+      ],
+      "example_latex": [
+        "\\left(x+9\\right)^{2}+y^{2}<0.4^{2}\\left\\{0<z<5\\right\\}"
+      ],
+      "example_normalized": [
+        "(x+9)^{2}+y^{2}<0.4^{2}{0<z<5}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "fdb56b3df14baa8e",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "300"
+      ],
+      "example_latex": [
+        "\\left(x+1\\right)^{2}+\\left(y-4\\right)^{2}+\\left(z-5\\right)^{2}<0.5^{2}\\left\\{z<5\\right\\}"
+      ],
+      "example_normalized": [
+        "(x+1)^{2}+(y-4)^{2}+(z-5)^{2}<0.5^{2}{z<5}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "ff20521e4c672f30",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "399"
+      ],
+      "example_latex": [
+        "\\left(x+5\\right)^{2}+\\left(y+4\\right)^{2}<0.4^{2}\\left\\{0<z<5\\right\\}\\left\\{\\operatorname{mod}\\left(z,0.4\\right)<0.1\\right\\}"
+      ],
+      "example_normalized": [
+        "(x+5)^{2}+(y+4)^{2}<0.4^{2}{0<z<5}{operatorname{mod}(z,0.4)<0.1}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    }
+  ],
+  "diagnostics": [
+    {
+      "severity": "INFO",
+      "code": "COVERAGE_COMPLETE",
+      "message": "Coverage report complete",
+      "source_ref": null,
+      "details": {
+        "file": "[4B] 3D Diagram - S2-10 Group F.json",
+        "meshed_expression_ids": 47,
+        "supported_but_not_meshed": 0,
+        "group_count": 120
+      }
+    }
+  ]
+}

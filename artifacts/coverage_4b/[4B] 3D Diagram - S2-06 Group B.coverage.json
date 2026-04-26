@@ -1,0 +1,3525 @@
+{
+  "source_file": "[4B] 3D Diagram - S2-06 Group B.json",
+  "total_items": 258,
+  "total_expressions": 242,
+  "meshed_expression_count": 83,
+  "supported_expression_count": 83,
+  "supported_but_not_meshed_count": 0,
+  "recognized_unsupported_count": 125,
+  "unrecognized_count": 34,
+  "geometry_ineligible_count": 0,
+  "groups": [
+    {
+      "fingerprint": "01c47b5248fd23db",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "276"
+      ],
+      "example_latex": [
+        "\\frac{\\left(x\\ +\\ 5\\right)^{2}}{1^{2}}\\ +\\ \\frac{\\left(y\\ +\\ 20.7\\right)\\ ^{2\\ }}{1\\ ^{2}}<4\\left\\{-0.5<z<15\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(x+5)^{2}}{1^{2}}+frac{(y+20.7)^{2}}{1^{2}}<4{-0.5<z<15}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "047b39cdadbd3f7c",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "92"
+      ],
+      "example_latex": [
+        "-6.35>y>-6.5\\left\\{-7.1<x<7\\left\\{0<z<1.75\\right\\}\\right\\}"
+      ],
+      "example_normalized": [
+        "-6.35>y>-6.5{-7.1<x<7{0<z<1.75}}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "047cd5344f010895",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "319"
+      ],
+      "example_latex": [
+        "\\frac{\\left(x\\ -21\\right)^{2}}{1^{2}}\\ +\\ \\frac{\\left(y\\ +\\ 20.7\\right)\\ ^{2\\ }}{1\\ ^{2}}<3\\left\\{-0.5<z<24\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(x-21)^{2}}{1^{2}}+frac{(y+20.7)^{2}}{1^{2}}<3{-0.5<z<24}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "0636af0c8a51540f",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "270"
+      ],
+      "example_latex": [
+        "\\frac{\\left(x\\ +\\ 5\\right)^{2}}{1^{2}}\\ +\\ \\frac{\\left(y\\ -\\ 20.7\\right)\\ ^{2\\ }}{1\\ ^{2}}<5\\left\\{8.5<z<9\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(x+5)^{2}}{1^{2}}+frac{(y-20.7)^{2}}{1^{2}}<5{8.5<z<9}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "09ac0c3b61646c93",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "318"
+      ],
+      "example_latex": [
+        "\\frac{\\left(x\\ -21\\right)^{2}}{1^{2}}\\ +\\ \\frac{\\left(y\\ +\\ 20.7\\right)\\ ^{2\\ }}{1\\ ^{2}}<4\\left\\{14.75<z<15.25\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(x-21)^{2}}{1^{2}}+frac{(y+20.7)^{2}}{1^{2}}<4{14.75<z<15.25}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "0ceff37727e76ae4",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "200"
+      ],
+      "example_latex": [
+        "\\frac{\\left(x-0.5\\right)^{2}}{1^{2}}\\ +\\ \\frac{\\left(y\\ +\\ 8\\right)\\ ^{2\\ }}{1\\ ^{2}}<0.1\\left\\{20.75<z<25\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(x-0.5)^{2}}{1^{2}}+frac{(y+8)^{2}}{1^{2}}<0.1{20.75<z<25}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "0cf5b5e383828efc",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "196"
+      ],
+      "example_latex": [
+        "\\frac{\\left(x-0.5\\right)^{2}}{1^{2}}\\ +\\ \\frac{\\left(y\\ +\\ 8\\right)\\ ^{2\\ }}{1\\ ^{2}}<7\\left\\{20.75<z<21\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(x-0.5)^{2}}{1^{2}}+frac{(y+8)^{2}}{1^{2}}<7{20.75<z<21}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "0d58504762099688",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "168"
+      ],
+      "example_latex": [
+        "\\frac{\\left(x-8\\right)^{2}}{1^{2}}\\ +\\ \\frac{\\left(y\\ -\\ 0\\right)\\ ^{2\\ }}{1\\ ^{2}}<5\\left\\{18<z<27.5\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(x-8)^{2}}{1^{2}}+frac{(y-0)^{2}}{1^{2}}<5{18<z<27.5}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "117822bb6125646e",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "55"
+      ],
+      "example_latex": [
+        "\\frac{\\left(z-\\ 3\\right)^{2}}{10}+\\frac{\\left(y\\ -\\ 4\\right)^{2}}{0.5}\\ <\\frac{\\left(z-\\ 1\\right)^{2}}{1.5}+\\frac{\\left(y\\ -\\ 4\\right)^{2}}{0.25}<\\ 1\\left\\{-8.25<x<7\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(z-3)^{2}}{10}+frac{(y-4)^{2}}{0.5}<frac{(z-1)^{2}}{1.5}+frac{(y-4)^{2}}{0.25}<1{-8.25<x<7}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "12031e77746c4a44",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "241"
+      ],
+      "example_latex": [
+        "\\frac{\\left(x-15.5\\right)^{2}}{1^{2}}\\ +\\ \\frac{\\left(y\\ -\\ 8\\right)\\ ^{2\\ }}{1\\ ^{2}}<17\\left\\{15<z<15.7\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(x-15.5)^{2}}{1^{2}}+frac{(y-8)^{2}}{1^{2}}<17{15<z<15.7}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "1306fe3281b8e193",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "233"
+      ],
+      "example_latex": [
+        "\\frac{\\left(x-15.5\\right)^{2}}{1^{2}}\\ +\\ \\frac{\\left(y\\ +\\ 8\\right)\\ ^{2\\ }}{1\\ ^{2}}<1.75\\left\\{22.25<z<22.5\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(x-15.5)^{2}}{1^{2}}+frac{(y+8)^{2}}{1^{2}}<1.75{22.25<z<22.5}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "14370f193c207f2c",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "321"
+      ],
+      "example_latex": [
+        "\\frac{\\left(x\\ -21\\right)^{2}}{1^{2}}\\ +\\ \\frac{\\left(y\\ +\\ 20.7\\right)\\ ^{2\\ }}{1\\ ^{2}}<3.5\\left\\{24<z<24.5\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(x-21)^{2}}{1^{2}}+frac{(y+20.7)^{2}}{1^{2}}<3.5{24<z<24.5}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "14a2f4c89140035e",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "177"
+      ],
+      "example_latex": [
+        "\\frac{\\left(x-0.5\\right)^{2}}{1^{2}}\\ +\\ \\frac{\\left(y\\ -\\ 8\\right)\\ ^{2\\ }}{1\\ ^{2}}<17\\left\\{17.8<z<18\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(x-0.5)^{2}}{1^{2}}+frac{(y-8)^{2}}{1^{2}}<17{17.8<z<18}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "17efcb2fedcc926b",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "320"
+      ],
+      "example_latex": [
+        "\\frac{\\left(x\\ -21\\right)^{2}}{1^{2}}\\ +\\ \\frac{\\left(y\\ +\\ 20.7\\right)\\ ^{2\\ }}{1\\ ^{2}}<3.5\\left\\{20<z<20.5\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(x-21)^{2}}{1^{2}}+frac{(y+20.7)^{2}}{1^{2}}<3.5{20<z<20.5}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "18764faf891763b7",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "239"
+      ],
+      "example_latex": [
+        "\\frac{\\left(y\\ +\\ 8\\right)^{2}}{2.5}\\ +\\ \\frac{\\left(z\\ -\\ 15.5\\right)^{2}}{3.5}\\ <1\\left\\{19.7>x>19\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(y+8)^{2}}{2.5}+frac{(z-15.5)^{2}}{3.5}<1{19.7>x>19}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "1b050f7f6c8cefa4",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "77"
+      ],
+      "example_latex": [
+        "\\frac{\\left(z-\\ 3\\right)^{2}}{10}+\\frac{\\left(y\\ +\\ 10.5\\right)^{2}}{0.5}\\ <\\frac{\\left(z-\\ 1\\right)^{2}}{1.5}+\\frac{\\left(y\\ +\\ 10.5\\right)^{2}}{0.25}<\\ 1\\left\\{-7.1<x<7\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(z-3)^{2}}{10}+frac{(y+10.5)^{2}}{0.5}<frac{(z-1)^{2}}{1.5}+frac{(y+10.5)^{2}}{0.25}<1{-7.1<x<7}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "1bdb33db8ccc60ce",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "280"
+      ],
+      "example_latex": [
+        "\\frac{\\left(x\\ +\\ 5\\right)^{2}}{1^{2}}\\ +\\ \\frac{\\left(y\\ +\\ 20.7\\right)\\ ^{2\\ }}{1\\ ^{2}}<3.5\\left\\{24<z<24.5\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(x+5)^{2}}{1^{2}}+frac{(y+20.7)^{2}}{1^{2}}<3.5{24<z<24.5}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "1bf6c2680e574911",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "91"
+      ],
+      "example_latex": [
+        "-7>y>-7.15\\left\\{-7.1<x<7\\left\\{0<z<1.75\\right\\}\\right\\}"
+      ],
+      "example_normalized": [
+        "-7>y>-7.15{-7.1<x<7{0<z<1.75}}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "1cc74be18dcf9c0e",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "246"
+      ],
+      "example_latex": [
+        "\\frac{\\left(x-15.5\\right)^{2}}{1^{2}}\\ +\\ \\frac{\\left(y\\ -\\ 8\\right)\\ ^{2\\ }}{1\\ ^{2}}<16.75\\left\\{17.7<z<18.25\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(x-15.5)^{2}}{1^{2}}+frac{(y-8)^{2}}{1^{2}}<16.75{17.7<z<18.25}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "1f83d12578651f16",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "283"
+      ],
+      "example_latex": [
+        "\\frac{\\left(x\\ +\\ 5\\right)^{2}}{1^{2}}\\ +\\ \\frac{\\left(y\\ +\\ 20.7\\right)\\ ^{2\\ }}{1\\ ^{2}}<2.5\\left\\{26<z<26.25\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(x+5)^{2}}{1^{2}}+frac{(y+20.7)^{2}}{1^{2}}<2.5{26<z<26.25}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "213fde66a2127a82",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "287"
+      ],
+      "example_latex": [
+        "\\frac{\\left(x\\ -21\\right)^{2}}{1^{2}}\\ +\\ \\frac{\\left(y\\ -\\ 20.7\\right)\\ ^{2\\ }}{1\\ ^{2}}<5\\left\\{-0.5<z<9\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(x-21)^{2}}{1^{2}}+frac{(y-20.7)^{2}}{1^{2}}<5{-0.5<z<9}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "234213c36413753b",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "230"
+      ],
+      "example_latex": [
+        "\\frac{\\left(x-15.5\\right)^{2}}{1^{2}}\\ +\\ \\frac{\\left(y\\ +\\ 8\\right)\\ ^{2\\ }}{1\\ ^{2}}<7\\left\\{20.75<z<21\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(x-15.5)^{2}}{1^{2}}+frac{(y+8)^{2}}{1^{2}}<7{20.75<z<21}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "25dda7719b161a57",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "110"
+      ],
+      "example_latex": [
+        "\\frac{\\left(z-\\ 3\\right)^{2}}{10}+\\frac{\\left(y\\ -\\ 13.5\\right)^{2}}{0.5}\\ <\\frac{\\left(z-\\ 1\\right)^{2}}{1.5}+\\frac{\\left(y\\ -\\ 13.5\\right)^{2}}{0.25}<\\ 1\\left\\{-7.1<x<7\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(z-3)^{2}}{10}+frac{(y-13.5)^{2}}{0.5}<frac{(z-1)^{2}}{1.5}+frac{(y-13.5)^{2}}{0.25}<1{-7.1<x<7}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "26716a223ff3ed26",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "266"
+      ],
+      "example_latex": [
+        "\\frac{\\left(x\\ +\\ 5\\right)^{2}}{1^{2}}\\ +\\ \\frac{\\left(y\\ -\\ 20.7\\right)\\ ^{2\\ }}{1\\ ^{2}}<0.1\\left\\{26.25<z<28.5\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(x+5)^{2}}{1^{2}}+frac{(y-20.7)^{2}}{1^{2}}<0.1{26.25<z<28.5}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "29912fcf6b8c1094",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "199"
+      ],
+      "example_latex": [
+        "\\frac{\\left(x-0.5\\right)^{2}}{1^{2}}\\ +\\ \\frac{\\left(y\\ +\\ 8\\right)\\ ^{2\\ }}{1\\ ^{2}}<1.75\\left\\{22.25<z<22.5\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(x-0.5)^{2}}{1^{2}}+frac{(y+8)^{2}}{1^{2}}<1.75{22.25<z<22.5}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "2b877aac5909b9c1",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "107"
+      ],
+      "example_latex": [
+        "\\frac{\\left(z-\\ 3\\right)^{2}}{10}+\\frac{\\left(y\\ -\\ 12\\right)^{2}}{0.5}\\ <\\frac{\\left(z-\\ 1\\right)^{2}}{1.5}+\\frac{\\left(y\\ -\\ 12\\right)^{2}}{0.25}<\\ 1\\left\\{-7.1<x<7\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(z-3)^{2}}{10}+frac{(y-12)^{2}}{0.5}<frac{(z-1)^{2}}{1.5}+frac{(y-12)^{2}}{0.25}<1{-7.1<x<7}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "2d57180d96242e54",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "194"
+      ],
+      "example_latex": [
+        "\\frac{\\left(x-0.5\\right)^{2}}{1^{2}}\\ +\\ \\frac{\\left(y\\ +\\ 8\\right)\\ ^{2\\ }}{1\\ ^{2}}<17\\left\\{17.8<z<18\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(x-0.5)^{2}}{1^{2}}+frac{(y+8)^{2}}{1^{2}}<17{17.8<z<18}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "2ee9161a70bd170f",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "251"
+      ],
+      "example_latex": [
+        "\\frac{\\left(x-15.5\\right)^{2}}{1^{2}}\\ +\\ \\frac{\\left(y\\ -\\ 8\\right)\\ ^{2\\ }}{1\\ ^{2}}<0.1\\left\\{20.75<z<25\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(x-15.5)^{2}}{1^{2}}+frac{(y-8)^{2}}{1^{2}}<0.1{20.75<z<25}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "2f1b9d9a6dacf50d",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "112"
+      ],
+      "example_latex": [
+        "5.5<y<5.65\\left\\{-7.1<x<7\\left\\{0<z<1.75\\right\\}\\right\\}"
+      ],
+      "example_normalized": [
+        "5.5<y<5.65{-7.1<x<7{0<z<1.75}}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "308edfe6fd269e72",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "234"
+      ],
+      "example_latex": [
+        "\\frac{\\left(x-15.5\\right)^{2}}{1^{2}}\\ +\\ \\frac{\\left(y\\ +\\ 8\\right)\\ ^{2\\ }}{1\\ ^{2}}<0.1\\left\\{20.75<z<25\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(x-15.5)^{2}}{1^{2}}+frac{(y+8)^{2}}{1^{2}}<0.1{20.75<z<25}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "343cc40ed0b5a95b",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "132"
+      ],
+      "example_latex": [
+        "\\frac{\\left(y\\ -\\ 7.5\\right)^{2}}{2.5}\\ +\\ \\frac{\\left(z\\ -\\ 10\\right)^{2}}{4}\\ <1\\ \\ \\left\\{z>10\\right\\}\\left\\{-4.2<x<19.2\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(y-7.5)^{2}}{2.5}+frac{(z-10)^{2}}{4}<1{z>10}{-4.2<x<19.2}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "34ce19cd0f5119ec",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "62"
+      ],
+      "example_latex": [
+        "\\frac{\\left(z-\\ 3\\right)^{2}}{10}+\\frac{\\left(y\\ -\\ 1\\right)^{2}}{0.5}\\ <\\frac{\\left(z-\\ 1\\right)^{2}}{1.5}+\\frac{\\left(y\\ -\\ 1\\right)^{2}}{0.25}<\\ 1\\left\\{-8.25<x<7\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(z-3)^{2}}{10}+frac{(y-1)^{2}}{0.5}<frac{(z-1)^{2}}{1.5}+frac{(y-1)^{2}}{0.25}<1{-8.25<x<7}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "36df22c97284dc94",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "315"
+      ],
+      "example_latex": [
+        "\\frac{\\left(x\\ -21\\right)^{2}}{1^{2}}\\ +\\ \\frac{\\left(y\\ +\\ 20.7\\right)\\ ^{2\\ }}{1\\ ^{2}}<5\\left\\{-0.5<z<9\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(x-21)^{2}}{1^{2}}+frac{(y+20.7)^{2}}{1^{2}}<5{-0.5<z<9}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "3f66dac98f289370",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "106"
+      ],
+      "example_latex": [
+        "8.5<y<8.65\\left\\{-7.1<x<7\\left\\{0<z<1.75\\right\\}\\right\\}"
+      ],
+      "example_normalized": [
+        "8.5<y<8.65{-7.1<x<7{0<z<1.75}}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "42c14d5c234a4f6d",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "254"
+      ],
+      "example_latex": [
+        "\\frac{\\left(y\\ -\\ 8\\right)^{2}}{2.5}\\ +\\ \\frac{\\left(z\\ -\\ 15.5\\right)^{2}}{3.5}\\ <0.75\\left\\{19.7>x>19\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(y-8)^{2}}{2.5}+frac{(z-15.5)^{2}}{3.5}<0.75{19.7>x>19}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "4594e46542a7c8ef",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "155"
+      ],
+      "example_latex": [
+        "\\frac{\\left(x-8\\right)^{2}}{1^{2}}\\ +\\ \\frac{\\left(y\\ -\\ 0\\right)\\ ^{2\\ }}{1\\ ^{2}}<45\\left\\{15.5<z<18.5\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(x-8)^{2}}{1^{2}}+frac{(y-0)^{2}}{1^{2}}<45{15.5<z<18.5}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "4859fdfb7643e555",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "278"
+      ],
+      "example_latex": [
+        "\\frac{\\left(x\\ +\\ 5\\right)^{2}}{1^{2}}\\ +\\ \\frac{\\left(y\\ +\\ 20.7\\right)\\ ^{2\\ }}{1\\ ^{2}}<3\\left\\{-0.5<z<24\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(x+5)^{2}}{1^{2}}+frac{(y+20.7)^{2}}{1^{2}}<3{-0.5<z<24}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "487176984192549e",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "146"
+      ],
+      "example_latex": [
+        "\\frac{\\left(y\\ +\\ 7.5\\right)^{2}}{3.5}\\ +\\ \\frac{\\left(z\\ -\\ 10\\right)^{2}}{5}\\ <1\\ \\ \\left\\{z>10\\right\\}\\left\\{-4.1<x<19.1\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(y+7.5)^{2}}{3.5}+frac{(z-10)^{2}}{5}<1{z>10}{-4.1<x<19.1}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "4b1988ffc54c5bbe",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "109"
+      ],
+      "example_latex": [
+        "7<y<7.15\\left\\{-7.1<x<7\\left\\{0<z<1.75\\right\\}\\right\\}"
+      ],
+      "example_normalized": [
+        "7<y<7.15{-7.1<x<7{0<z<1.75}}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "4dda9f04483131b2",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "163"
+      ],
+      "example_latex": [
+        "\\frac{\\left(x-8\\right)^{2}}{1^{2}}\\ +\\ \\frac{\\left(y\\ -\\ 0\\right)\\ ^{2\\ }}{1\\ ^{2}}<0.1\\left\\{18<z<33.5\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(x-8)^{2}}{1^{2}}+frac{(y-0)^{2}}{1^{2}}<0.1{18<z<33.5}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "4fcae5db0cb0eefb",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "140"
+      ],
+      "example_latex": [
+        "\\frac{\\left(y\\ +\\ 7.5\\right)^{2}}{3.5}\\ +\\ \\frac{\\left(z\\ -\\ 4\\right)^{2}}{5}\\ <1\\ \\ \\left\\{z>4\\right\\}\\left\\{-4.1<x<19.1\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(y+7.5)^{2}}{3.5}+frac{(z-4)^{2}}{5}<1{z>4}{-4.1<x<19.1}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "502810571e385377",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "292"
+      ],
+      "example_latex": [
+        "\\frac{\\left(x\\ -21\\right)^{2}}{1^{2}}\\ +\\ \\frac{\\left(y\\ -\\ 20.7\\right)\\ ^{2\\ }}{1\\ ^{2}}<3\\left\\{-0.5<z<24\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(x-21)^{2}}{1^{2}}+frac{(y-20.7)^{2}}{1^{2}}<3{-0.5<z<24}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "502c55c97e907b5a",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "76"
+      ],
+      "example_latex": [
+        "\\frac{\\left(z-\\ 3\\right)^{2}}{10}+\\frac{\\left(y\\ +\\ 9\\right)^{2}}{0.5}\\ <\\frac{\\left(z-\\ 1\\right)^{2}}{1.5}+\\frac{\\left(y\\ +\\ 9\\right)^{2}}{0.25}<\\ 1\\left\\{-7.1<x<7\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(z-3)^{2}}{10}+frac{(y+9)^{2}}{0.5}<frac{(z-1)^{2}}{1.5}+frac{(y+9)^{2}}{0.25}<1{-7.1<x<7}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "54e4d4c00d71b091",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "154"
+      ],
+      "example_latex": [
+        "\\frac{\\left(x-8\\right)^{2}}{1^{2}}\\ +\\ \\frac{\\left(y\\ -\\ 0\\right)\\ ^{2\\ }}{1\\ ^{2}}<50\\left\\{15.3<z<16.5\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(x-8)^{2}}{1^{2}}+frac{(y-0)^{2}}{1^{2}}<50{15.3<z<16.5}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "5653db2594fc6eae",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "174"
+      ],
+      "example_latex": [
+        "\\frac{\\left(x-0.5\\right)^{2}}{1^{2}}\\ +\\ \\frac{\\left(y\\ -\\ 8\\right)\\ ^{2\\ }}{1\\ ^{2}}<17\\left\\{15<z<15.7\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(x-0.5)^{2}}{1^{2}}+frac{(y-8)^{2}}{1^{2}}<17{15<z<15.7}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "565fcbc6e859d269",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "298"
+      ],
+      "example_latex": [
+        "\\frac{\\left(x\\ -21\\right)^{2}}{1^{2}}\\ +\\ \\frac{\\left(y\\ -\\ 20.7\\right)\\ ^{2\\ }}{1\\ ^{2}}<0.1\\left\\{26.25<z<28.5\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(x-21)^{2}}{1^{2}}+frac{(y-20.7)^{2}}{1^{2}}<0.1{26.25<z<28.5}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "569180092b4be75a",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "127"
+      ],
+      "example_latex": [
+        "\\frac{\\left(y\\ -\\ 0\\right)^{2}}{2.5}\\ +\\ \\frac{\\left(z\\ -\\ 4\\right)^{2}}{5}\\ <1\\ \\left\\{-4.7<x<19.2\\right\\}\\left\\{z>4\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(y-0)^{2}}{2.5}+frac{(z-4)^{2}}{5}<1{-4.7<x<19.2}{z>4}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "5724bbb169bf56b4",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "257"
+      ],
+      "example_latex": [
+        "\\frac{\\left(x\\ +\\ 5\\right)^{2}}{1^{2}}\\ +\\ \\frac{\\left(y\\ -\\ 20.7\\right)\\ ^{2\\ }}{1\\ ^{2}}<4\\left\\{-0.5<z<15\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(x+5)^{2}}{1^{2}}+frac{(y-20.7)^{2}}{1^{2}}<4{-0.5<z<15}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "58cda6e87b475ce0",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "273"
+      ],
+      "example_latex": [
+        "\\frac{\\left(x\\ +\\ 5\\right)^{2}}{1^{2}}\\ +\\ \\frac{\\left(y\\ +\\ 20.7\\right)\\ ^{2\\ }}{1\\ ^{2}}<5\\left\\{-0.5<z<9\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(x+5)^{2}}{1^{2}}+frac{(y+20.7)^{2}}{1^{2}}<5{-0.5<z<9}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "58e36388cfa02b82",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "65"
+      ],
+      "example_latex": [
+        "\\frac{\\left(z-\\ 3\\right)^{2}}{10}+\\frac{\\left(y\\ +\\ 4\\right)^{2}}{0.5}\\ <\\frac{\\left(z-\\ 1\\right)^{2}}{1.5}+\\frac{\\left(y\\ +\\ 4\\right)^{2}}{0.25}<\\ 1\\left\\{-8.25<x<7\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(z-3)^{2}}{10}+frac{(y+4)^{2}}{0.5}<frac{(z-1)^{2}}{1.5}+frac{(y+4)^{2}}{0.25}<1{-8.25<x<7}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "5f33955df760ed1a",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "259"
+      ],
+      "example_latex": [
+        "\\frac{\\left(x\\ +\\ 5\\right)^{2}}{1^{2}}\\ +\\ \\frac{\\left(y\\ -\\ 20.7\\right)\\ ^{2\\ }}{1\\ ^{2}}<3.5\\left\\{20<z<20.5\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(x+5)^{2}}{1^{2}}+frac{(y-20.7)^{2}}{1^{2}}<3.5{20<z<20.5}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "63188a93b86f0718",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "100"
+      ],
+      "example_latex": [
+        "\\frac{\\left(z-\\ 3\\right)^{2}}{10}+\\frac{\\left(y\\ -\\ 9\\right)^{2}}{0.5}\\ <\\frac{\\left(z-\\ 1\\right)^{2}}{1.5}+\\frac{\\left(y\\ -\\ 9\\right)^{2}}{0.25}<\\ 1\\left\\{-7.1<x<7\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(z-3)^{2}}{10}+frac{(y-9)^{2}}{0.5}<frac{(z-1)^{2}}{1.5}+frac{(y-9)^{2}}{0.25}<1{-7.1<x<7}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "6a3453cfee174bc0",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "293"
+      ],
+      "example_latex": [
+        "\\frac{\\left(x\\ -21\\right)^{2}}{1^{2}}\\ +\\ \\frac{\\left(y\\ -\\ 20.7\\right)\\ ^{2\\ }}{1\\ ^{2}}<3.5\\left\\{20<z<20.5\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(x-21)^{2}}{1^{2}}+frac{(y-20.7)^{2}}{1^{2}}<3.5{20<z<20.5}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "6a860c9bf23e59aa",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "147"
+      ],
+      "example_latex": [
+        "\\frac{\\left(y\\ -\\ 0\\right)^{2}}{3.5}\\ +\\ \\frac{\\left(z\\ -\\ 10\\right)^{2}}{5}\\ <1\\ \\left\\{-4.6<x<19.1\\right\\}\\left\\{z>10\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(y-0)^{2}}{3.5}+frac{(z-10)^{2}}{5}<1{-4.6<x<19.1}{z>10}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "6bb62d49815e2610",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "225"
+      ],
+      "example_latex": [
+        "\\frac{\\left(x-15.5\\right)^{2}}{1^{2}}\\ +\\ \\frac{\\left(y\\ +\\ 8\\right)\\ ^{2\\ }}{1\\ ^{2}}<17\\left\\{15<z<15.7\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(x-15.5)^{2}}{1^{2}}+frac{(y+8)^{2}}{1^{2}}<17{15<z<15.7}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "6f6903535f28e069",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "126"
+      ],
+      "example_latex": [
+        "\\frac{\\left(y\\ -\\ 0\\right)^{2}}{2.5}\\ +\\ \\frac{\\left(z\\ -\\ 10\\right)^{2}}{3.5}\\ <1\\ \\left\\{-4.7<x<19.2\\right\\}\\left\\{z>10\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(y-0)^{2}}{2.5}+frac{(z-10)^{2}}{3.5}<1{-4.7<x<19.2}{z>10}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "70672c84897cc436",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "167"
+      ],
+      "example_latex": [
+        "\\frac{\\left(x-8\\right)^{2}}{1^{2}}\\ +\\ \\frac{\\left(y\\ -\\ 0\\right)\\ ^{2\\ }}{1\\ ^{2}}<0.05\\left\\{18<z<35.5\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(x-8)^{2}}{1^{2}}+frac{(y-0)^{2}}{1^{2}}<0.05{18<z<35.5}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "70c70be815658a84",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "131"
+      ],
+      "example_latex": [
+        "\\frac{\\left(y\\ -\\ 7.5\\right)^{2}}{2.5}\\ +\\ \\frac{\\left(z\\ -\\ 4\\right)^{2}}{4}\\ <1\\ \\ \\left\\{z>4\\right\\}\\left\\{-4.2<x<19.2\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(y-7.5)^{2}}{2.5}+frac{(z-4)^{2}}{4}<1{z>4}{-4.2<x<19.2}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "7235efd6b3d47bd6",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "175"
+      ],
+      "example_latex": [
+        "\\frac{\\left(x-0.5\\right)^{2}}{1^{2}}\\ +\\ \\frac{\\left(y\\ -\\ 8\\right)\\ ^{2\\ }}{1\\ ^{2}}<15\\left\\{15<z<18\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(x-0.5)^{2}}{1^{2}}+frac{(y-8)^{2}}{1^{2}}<15{15<z<18}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "72cfb32b6260176b",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "182"
+      ],
+      "example_latex": [
+        "\\frac{\\left(x-0.5\\right)^{2}}{1^{2}}\\ +\\ \\frac{\\left(y\\ -\\ 8\\right)\\ ^{2\\ }}{1\\ ^{2}}<1.75\\left\\{22.25<z<22.5\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(x-0.5)^{2}}{1^{2}}+frac{(y-8)^{2}}{1^{2}}<1.75{22.25<z<22.5}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "75ea616223792076",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "138"
+      ],
+      "example_latex": [
+        "\\frac{\\left(y\\ -\\ 7.5\\right)^{2}}{3.5}\\ +\\ \\frac{\\left(z\\ -\\ 10\\right)^{2}}{5}\\ <1\\ \\ \\left\\{z>10\\right\\}\\left\\{-4.1<x<19.1\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(y-7.5)^{2}}{3.5}+frac{(z-10)^{2}}{5}<1{z>10}{-4.1<x<19.1}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "762e26f2d62d6547",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "75"
+      ],
+      "example_latex": [
+        "\\frac{\\left(z-\\ 3\\right)^{2}}{10}+\\frac{\\left(y\\ +\\ 7.5\\right)^{2}}{0.5}\\ <\\frac{\\left(z-\\ 1\\right)^{2}}{1.5}+\\frac{\\left(y\\ +\\ 7.5\\right)^{2}}{0.25}<\\ 1\\left\\{-7.1<x<7\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(z-3)^{2}}{10}+frac{(y+7.5)^{2}}{0.5}<frac{(z-1)^{2}}{1.5}+frac{(y+7.5)^{2}}{0.25}<1{-7.1<x<7}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "7770a02423ef3164",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "71"
+      ],
+      "example_latex": [
+        "\\frac{\\left(z-\\ 3\\right)^{2}}{10}+\\frac{\\left(y\\ +\\ 1\\right)^{2}}{0.5}\\ <\\frac{\\left(z-\\ 1\\right)^{2}}{1.5}+\\frac{\\left(y\\ +\\ 1\\right)^{2}}{0.25}<\\ 1\\left\\{-8.25<x<7\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(z-3)^{2}}{10}+frac{(y+1)^{2}}{0.5}<frac{(z-1)^{2}}{1.5}+frac{(y+1)^{2}}{0.25}<1{-8.25<x<7}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "79c537bbd41d2b55",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "253"
+      ],
+      "example_latex": [
+        "\\frac{\\left(y\\ -\\ 8\\right)^{2}}{2.5}\\ +\\ \\frac{\\left(z\\ -\\ 15.5\\right)^{2}}{3.5}\\ <1\\left\\{19.7>x>19\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(y-8)^{2}}{2.5}+frac{(z-15.5)^{2}}{3.5}<1{19.7>x>19}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "79e4a5fe7abb0a46",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "97"
+      ],
+      "example_latex": [
+        "\\frac{\\left(z-\\ 3\\right)^{2}}{10}+\\frac{\\left(y\\ -\\ 7.5\\right)^{2}}{0.5}\\ <\\frac{\\left(z-\\ 1\\right)^{2}}{1.5}+\\frac{\\left(y\\ -\\ 7.5\\right)^{2}}{0.25}<\\ 1\\left\\{-7.1<x<7\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(z-3)^{2}}{10}+frac{(y-7.5)^{2}}{0.5}<frac{(z-1)^{2}}{1.5}+frac{(y-7.5)^{2}}{0.25}<1{-7.1<x<7}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "7b5d6116d9358150",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "247"
+      ],
+      "example_latex": [
+        "\\frac{\\left(x-15.5\\right)^{2}}{1^{2}}\\ +\\ \\frac{\\left(y\\ -\\ 8\\right)\\ ^{2\\ }}{1\\ ^{2}}<7\\left\\{20.75<z<21\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(x-15.5)^{2}}{1^{2}}+frac{(y-8)^{2}}{1^{2}}<7{20.75<z<21}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "7e82fa380675d592",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "108"
+      ],
+      "example_latex": [
+        "7.85<y<8\\left\\{-7.1<x<7\\left\\{0<z<1.75\\right\\}\\right\\}"
+      ],
+      "example_normalized": [
+        "7.85<y<8{-7.1<x<7{0<z<1.75}}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "82bf90f77b861b87",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "245"
+      ],
+      "example_latex": [
+        "\\frac{\\left(x-15.5\\right)^{2}}{1^{2}}\\ +\\ \\frac{\\left(y\\ -\\ 8\\right)\\ ^{2\\ }}{1\\ ^{2}}<17\\left\\{17.8<z<18\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(x-15.5)^{2}}{1^{2}}+frac{(y-8)^{2}}{1^{2}}<17{17.8<z<18}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "8674359799f0a4e2",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "316"
+      ],
+      "example_latex": [
+        "\\frac{\\left(x\\ -21\\right)^{2}}{1^{2}}\\ +\\ \\frac{\\left(y\\ +\\ 20.7\\right)\\ ^{2\\ }}{1\\ ^{2}}<5\\left\\{8.5<z<9\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(x-21)^{2}}{1^{2}}+frac{(y+20.7)^{2}}{1^{2}}<5{8.5<z<9}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "8c4a5fb7b4c2d68a",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "87"
+      ],
+      "example_latex": [
+        "-9.35>y>-9.5\\left\\{-7.1<x<7\\left\\{0<z<1.75\\right\\}\\right\\}"
+      ],
+      "example_normalized": [
+        "-9.35>y>-9.5{-7.1<x<7{0<z<1.75}}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "8d6a9cb74f3e9731",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "192"
+      ],
+      "example_latex": [
+        "\\frac{\\left(x-0.5\\right)^{2}}{1^{2}}\\ +\\ \\frac{\\left(y\\ +\\ 8\\right)\\ ^{2\\ }}{1\\ ^{2}}<15\\left\\{15<z<18\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(x-0.5)^{2}}{1^{2}}+frac{(y+8)^{2}}{1^{2}}<15{15<z<18}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "8e8de7f8eab2d3cf",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "297"
+      ],
+      "example_latex": [
+        "\\frac{\\left(x\\ -21\\right)^{2}}{1^{2}}\\ +\\ \\frac{\\left(y\\ -\\ 20.7\\right)\\ ^{2\\ }}{1\\ ^{2}}<2.5\\left\\{26<z<26.25\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(x-21)^{2}}{1^{2}}+frac{(y-20.7)^{2}}{1^{2}}<2.5{26<z<26.25}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "8e8e5a4448f511e1",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "164"
+      ],
+      "example_latex": [
+        "\\frac{\\left(x-8\\right)^{2}}{1^{2}}\\ +\\ \\frac{\\left(y\\ -\\ 0\\right)\\ ^{2\\ }}{1\\ ^{2}}<0.15\\left\\{18<z<31\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(x-8)^{2}}{1^{2}}+frac{(y-0)^{2}}{1^{2}}<0.15{18<z<31}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "8edda9557206a6e2",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "178"
+      ],
+      "example_latex": [
+        "\\frac{\\left(x-0.5\\right)^{2}}{1^{2}}\\ +\\ \\frac{\\left(y\\ -\\ 8\\right)\\ ^{2\\ }}{1\\ ^{2}}<16.75\\left\\{17.7<z<18.25\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(x-0.5)^{2}}{1^{2}}+frac{(y-8)^{2}}{1^{2}}<16.75{17.7<z<18.25}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "8faf99f086a740e8",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "265"
+      ],
+      "example_latex": [
+        "\\frac{\\left(x\\ +\\ 5\\right)^{2}}{1^{2}}\\ +\\ \\frac{\\left(y\\ -\\ 20.7\\right)\\ ^{2\\ }}{1\\ ^{2}}<2.5\\left\\{26<z<26.25\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(x+5)^{2}}{1^{2}}+frac{(y-20.7)^{2}}{1^{2}}<2.5{26<z<26.25}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "912cb24f6be42fc1",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "203"
+      ],
+      "example_latex": [
+        "\\frac{\\left(y\\ +\\ 8\\right)^{2}}{2.5}\\ +\\ \\frac{\\left(z\\ -\\ 15.5\\right)^{2}}{3.5}\\ <0.75\\left\\{-3.65<x<0.1\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(y+8)^{2}}{2.5}+frac{(z-15.5)^{2}}{3.5}<0.75{-3.65<x<0.1}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "913d58e53efe1a23",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "275"
+      ],
+      "example_latex": [
+        "\\frac{\\left(x\\ +\\ 5\\right)^{2}}{1^{2}}\\ +\\ \\frac{\\left(y\\ +\\ 20.7\\right)\\ ^{2\\ }}{1\\ ^{2}}<5\\left\\{8.5<z<9\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(x+5)^{2}}{1^{2}}+frac{(y+20.7)^{2}}{1^{2}}<5{8.5<z<9}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "94ac856d2d678831",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "291"
+      ],
+      "example_latex": [
+        "\\frac{\\left(x\\ -21\\right)^{2}}{1^{2}}\\ +\\ \\frac{\\left(y\\ -\\ 20.7\\right)\\ ^{2\\ }}{1\\ ^{2}}<4\\left\\{14.75<z<15.25\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(x-21)^{2}}{1^{2}}+frac{(y-20.7)^{2}}{1^{2}}<4{14.75<z<15.25}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "9dc5b09316e1aa37",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "186"
+      ],
+      "example_latex": [
+        "\\frac{\\left(y\\ -\\ 8\\right)^{2}}{2.5}\\ +\\ \\frac{\\left(z\\ -\\ 15.5\\right)^{2}}{3.5}\\ <0.75\\left\\{-3.66<x<0.1\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(y-8)^{2}}{2.5}+frac{(z-15.5)^{2}}{3.5}<0.75{-3.66<x<0.1}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "9fdc1cdf1db565b2",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "290"
+      ],
+      "example_latex": [
+        "\\frac{\\left(x\\ \\ -21\\right)^{2}}{1^{2}}\\ +\\ \\frac{\\left(y\\ -\\ 20.7\\right)\\ ^{2\\ }}{1\\ ^{2}}<4\\left\\{-0.5<z<15\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(x-21)^{2}}{1^{2}}+frac{(y-20.7)^{2}}{1^{2}}<4{-0.5<z<15}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "a379834cb65b5f86",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "158"
+      ],
+      "example_latex": [
+        "\\frac{\\left(x-8\\right)^{2}}{1^{2}}\\ +\\ \\frac{\\left(y\\ -\\ 0\\right)\\ ^{2\\ }}{1\\ ^{2}}<47.5\\left\\{18<z<19\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(x-8)^{2}}{1^{2}}+frac{(y-0)^{2}}{1^{2}}<47.5{18<z<19}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "a77360a8a9fb2bc8",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "180"
+      ],
+      "example_latex": [
+        "\\frac{\\left(x-0.5\\right)^{2}}{1^{2}}\\ +\\ \\frac{\\left(y\\ -\\ 8\\right)\\ ^{2\\ }}{1\\ ^{2}}<7\\left\\{20.75<z<21\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(x-0.5)^{2}}{1^{2}}+frac{(y-8)^{2}}{1^{2}}<7{20.75<z<21}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "a896f3033de5e932",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "156"
+      ],
+      "example_latex": [
+        "\\frac{\\left(x-8\\right)^{2}}{1^{2}}\\ +\\ \\frac{\\left(y\\ -\\ 0\\right)\\ ^{2\\ }}{1\\ ^{2}}<50\\left\\{18.5<z<19\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(x-8)^{2}}{1^{2}}+frac{(y-0)^{2}}{1^{2}}<50{18.5<z<19}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "adb15aabf3e7f19b",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "262"
+      ],
+      "example_latex": [
+        "\\frac{\\left(x\\ +\\ 5\\right)^{2}}{1^{2}}\\ +\\ \\frac{\\left(y\\ -\\ 20.7\\right)\\ ^{2\\ }}{1\\ ^{2}}<3.5\\left\\{24<z<24.5\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(x+5)^{2}}{1^{2}}+frac{(y-20.7)^{2}}{1^{2}}<3.5{24<z<24.5}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "af6f2b5dbc39fcfc",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "191"
+      ],
+      "example_latex": [
+        "\\frac{\\left(x-0.5\\right)^{2}}{1^{2}}\\ +\\ \\frac{\\left(y\\ +\\ 8\\right)\\ ^{2\\ }}{1\\ ^{2}}<17\\left\\{15<z<15.7\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(x-0.5)^{2}}{1^{2}}+frac{(y+8)^{2}}{1^{2}}<17{15<z<15.7}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "b283628ff8e54364",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "135"
+      ],
+      "example_latex": [
+        "\\frac{\\left(y\\ -\\ 7.5\\right)^{2}}{3.5}\\ +\\ \\frac{\\left(z\\ -\\ 4\\right)^{2}}{5}\\ <1\\ \\ \\left\\{z>4\\right\\}\\left\\{-4.1<x<19.1\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(y-7.5)^{2}}{3.5}+frac{(z-4)^{2}}{5}<1{z>4}{-4.1<x<19.1}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "b32e50549004cbf2",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "288"
+      ],
+      "example_latex": [
+        "\\frac{\\left(x\\ -21\\right)^{2}}{1^{2}}\\ +\\ \\frac{\\left(y\\ -\\ 20.7\\right)\\ ^{2\\ }}{1\\ ^{2}}<5\\left\\{8.5<z<9\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(x-21)^{2}}{1^{2}}+frac{(y-20.7)^{2}}{1^{2}}<5{8.5<z<9}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "b857bb5eb1841fcc",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "238"
+      ],
+      "example_latex": [
+        "\\frac{\\left(y\\ +\\ 8\\right)^{2}}{2.5}\\ +\\ \\frac{\\left(z\\ -\\ 15.5\\right)^{2}}{3.5}\\ <0.75\\left\\{19.7>x>19\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(y+8)^{2}}{2.5}+frac{(z-15.5)^{2}}{3.5}<0.75{19.7>x>19}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "b8f12c26758a8f9e",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "90"
+      ],
+      "example_latex": [
+        "-7.85>y>-8\\left\\{-7.1<x<7\\left\\{0<z<1.75\\right\\}\\right\\}"
+      ],
+      "example_normalized": [
+        "-7.85>y>-8{-7.1<x<7{0<z<1.75}}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "ba1c78a17c4f4f0c",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "94"
+      ],
+      "example_latex": [
+        "\\frac{\\left(z-\\ 3\\right)^{2}}{10}+\\frac{\\left(y\\ -\\ 6\\right)^{2}}{0.5}\\ <\\frac{\\left(z-\\ 1\\right)^{2}}{1.5}+\\frac{\\left(y\\ -\\ 6\\right)^{2}}{0.25}<\\ 1\\left\\{-7.1<x<7\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(z-3)^{2}}{10}+frac{(y-6)^{2}}{0.5}<frac{(z-1)^{2}}{1.5}+frac{(y-6)^{2}}{0.25}<1{-7.1<x<7}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "bd096da446773e59",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "258"
+      ],
+      "example_latex": [
+        "\\frac{\\left(x\\ +\\ 5\\right)^{2}}{1^{2}}\\ +\\ \\frac{\\left(y\\ -\\ 20.7\\right)\\ ^{2\\ }}{1\\ ^{2}}<3\\left\\{-0.5<z<24\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(x+5)^{2}}{1^{2}}+frac{(y-20.7)^{2}}{1^{2}}<3{-0.5<z<24}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "c147f6b598a85ddb",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "157"
+      ],
+      "example_latex": [
+        "\\frac{\\left(x-8\\right)^{2}}{1^{2}}\\ +\\ \\frac{\\left(y\\ -\\ 0\\right)\\ ^{2\\ }}{1\\ ^{2}}<47.5\\left\\{15.3<z<17\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(x-8)^{2}}{1^{2}}+frac{(y-0)^{2}}{1^{2}}<47.5{15.3<z<17}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "c19db4ef1497723c",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "269"
+      ],
+      "example_latex": [
+        "\\frac{\\left(x\\ +\\ 5\\right)^{2}}{1^{2}}\\ +\\ \\frac{\\left(y\\ -\\ 20.7\\right)\\ ^{2\\ }}{1\\ ^{2}}<4\\left\\{14.75<z<15.25\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(x+5)^{2}}{1^{2}}+frac{(y-20.7)^{2}}{1^{2}}<4{14.75<z<15.25}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "c27b7bf33cbbf566",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "78"
+      ],
+      "example_latex": [
+        "\\frac{\\left(z-\\ 3\\right)^{2}}{10}+\\frac{\\left(y\\ +\\ 12\\right)^{2}}{0.5}\\ <\\frac{\\left(z-\\ 1\\right)^{2}}{1.5}+\\frac{\\left(y\\ +\\ 12\\right)^{2}}{0.25}<\\ 1\\left\\{-7.1<x<7\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(z-3)^{2}}{10}+frac{(y+12)^{2}}{0.5}<frac{(z-1)^{2}}{1.5}+frac{(y+12)^{2}}{0.25}<1{-7.1<x<7}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "c47a3b6525c787c8",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "226"
+      ],
+      "example_latex": [
+        "\\frac{\\left(x-15.5\\right)^{2}}{1^{2}}\\ +\\ \\frac{\\left(y\\ +\\ 8\\right)\\ ^{2\\ }}{1\\ ^{2}}<15\\left\\{15<z<18\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(x-15.5)^{2}}{1^{2}}+frac{(y+8)^{2}}{1^{2}}<15{15<z<18}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "c5587e33034f1676",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "59"
+      ],
+      "example_latex": [
+        "\\frac{\\left(z-\\ 3\\right)^{2}}{10}+\\frac{\\left(y\\ -\\ 2.5\\right)^{2}}{0.5}\\ <\\frac{\\left(z-\\ 1\\right)^{2}}{1.5}+\\frac{\\left(y\\ -\\ 2.5\\right)^{2}}{0.25}<\\ 1\\left\\{-8.25<x<7\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(z-3)^{2}}{10}+frac{(y-2.5)^{2}}{0.5}<frac{(z-1)^{2}}{1.5}+frac{(y-2.5)^{2}}{0.25}<1{-8.25<x<7}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "c620e8ee47bf5af2",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "144"
+      ],
+      "example_latex": [
+        "\\frac{\\left(y\\ +\\ 7.5\\right)^{2}}{2.5}\\ +\\ \\frac{\\left(z\\ -\\ 10\\right)^{2}}{4}\\ <1\\ \\ \\left\\{z>10\\right\\}\\left\\{-4.2<x<19.2\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(y+7.5)^{2}}{2.5}+frac{(z-10)^{2}}{4}<1{z>10}{-4.2<x<19.2}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "c993c73637eace74",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "93"
+      ],
+      "example_latex": [
+        "-5.5>y>-5.65\\left\\{-7.1<x<7\\left\\{0<z<1.75\\right\\}\\right\\}"
+      ],
+      "example_normalized": [
+        "-5.5>y>-5.65{-7.1<x<7{0<z<1.75}}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "ce06efe0a6acece3",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "250"
+      ],
+      "example_latex": [
+        "\\frac{\\left(x-15.5\\right)^{2}}{1^{2}}\\ +\\ \\frac{\\left(y\\ -\\ 8\\right)\\ ^{2\\ }}{1\\ ^{2}}<1.75\\left\\{22.25<z<22.5\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(x-15.5)^{2}}{1^{2}}+frac{(y-8)^{2}}{1^{2}}<1.75{22.25<z<22.5}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "cf7626c1d6681117",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "111"
+      ],
+      "example_latex": [
+        "6.35<y<6.5\\left\\{-7.1<x<7\\left\\{0<z<1.75\\right\\}\\right\\}"
+      ],
+      "example_normalized": [
+        "6.35<y<6.5{-7.1<x<7{0<z<1.75}}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "cfa77b4da99d23e1",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "88"
+      ],
+      "example_latex": [
+        "-8.5>y>-8.65\\left\\{-7.1<x<7\\left\\{0<z<1.75\\right\\}\\right\\}"
+      ],
+      "example_normalized": [
+        "-8.5>y>-8.65{-7.1<x<7{0<z<1.75}}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "d67f6d907c4a38fa",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "105"
+      ],
+      "example_latex": [
+        "9.35<y<9.5\\left\\{-7.1<x<7\\left\\{0<z<1.75\\right\\}\\right\\}"
+      ],
+      "example_normalized": [
+        "9.35<y<9.5{-7.1<x<7{0<z<1.75}}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "d75db7f2602d9c43",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "183"
+      ],
+      "example_latex": [
+        "\\frac{\\left(x-0.5\\right)^{2}}{1^{2}}\\ +\\ \\frac{\\left(y\\ -\\ 8\\right)\\ ^{2\\ }}{1\\ ^{2}}<0.1\\left\\{20.75<z<25\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(x-0.5)^{2}}{1^{2}}+frac{(y-8)^{2}}{1^{2}}<0.1{20.75<z<25}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "d8439cf992ddacef",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "294"
+      ],
+      "example_latex": [
+        "\\frac{\\left(x\\ -21\\right)^{2}}{1^{2}}\\ +\\ \\frac{\\left(y\\ -\\ 20.7\\right)\\ ^{2\\ }}{1\\ ^{2}}<3.5\\left\\{24<z<24.5\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(x-21)^{2}}{1^{2}}+frac{(y-20.7)^{2}}{1^{2}}<3.5{24<z<24.5}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "d972db6a888fbe1b",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "229"
+      ],
+      "example_latex": [
+        "\\frac{\\left(x-15.5\\right)^{2}}{1^{2}}\\ +\\ \\frac{\\left(y\\ +\\ 8\\right)\\ ^{2\\ }}{1\\ ^{2}}<16.75\\left\\{17.7<z<18.25\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(x-15.5)^{2}}{1^{2}}+frac{(y+8)^{2}}{1^{2}}<16.75{17.7<z<18.25}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "d9b92408d2a4ef90",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "68"
+      ],
+      "example_latex": [
+        "\\frac{\\left(z-\\ 3\\right)^{2}}{10}+\\frac{\\left(y\\ +\\ 2.5\\right)^{2}}{0.5}\\ <\\frac{\\left(z-\\ 1\\right)^{2}}{1.5}+\\frac{\\left(y\\ +\\ 2.5\\right)^{2}}{0.25}<\\ 1\\left\\{-8.25<x<7\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(z-3)^{2}}{10}+frac{(y+2.5)^{2}}{0.5}<frac{(z-1)^{2}}{1.5}+frac{(y+2.5)^{2}}{0.25}<1{-8.25<x<7}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "da0f985f50e606f1",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "165"
+      ],
+      "example_latex": [
+        "\\frac{\\left(x-8\\right)^{2}}{1^{2}}\\ +\\ \\frac{\\left(y\\ -\\ 0\\right)\\ ^{2\\ }}{1\\ ^{2}}<0.5\\left\\{18<z<29\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(x-8)^{2}}{1^{2}}+frac{(y-0)^{2}}{1^{2}}<0.5{18<z<29}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "db917571796271b3",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "149"
+      ],
+      "example_latex": [
+        "\\frac{\\left(y\\ -\\ 0\\right)^{2}}{4}\\ +\\ \\frac{\\left(z\\ -\\ 4\\right)^{2}}{6.5}\\ <1\\ \\left\\{-4.6<x<19.1\\right\\}\\left\\{z>4\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(y-0)^{2}}{4}+frac{(z-4)^{2}}{6.5}<1{-4.6<x<19.1}{z>4}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "dd92e1de68e3a4db",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "256"
+      ],
+      "example_latex": [
+        "\\frac{\\left(x\\ +\\ 5\\right)^{2}}{1^{2}}\\ +\\ \\frac{\\left(y\\ -\\ 20.7\\right)\\ ^{2\\ }}{1\\ ^{2}}<5\\left\\{-0.5<z<9\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(x+5)^{2}}{1^{2}}+frac{(y-20.7)^{2}}{1^{2}}<5{-0.5<z<9}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "df12588b72f1c77a",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "79"
+      ],
+      "example_latex": [
+        "\\frac{\\left(z-\\ 3\\right)^{2}}{10}+\\frac{\\left(y\\ +\\ 13.5\\right)^{2}}{0.5}\\ <\\frac{\\left(z-\\ 1\\right)^{2}}{1.5}+\\frac{\\left(y\\ +\\ 13.5\\right)^{2}}{0.25}<\\ 1\\left\\{-7.1<x<7\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(z-3)^{2}}{10}+frac{(y+13.5)^{2}}{0.5}<frac{(z-1)^{2}}{1.5}+frac{(y+13.5)^{2}}{0.25}<1{-7.1<x<7}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "e16bb1a597135227",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "242"
+      ],
+      "example_latex": [
+        "\\frac{\\left(x-15.5\\right)^{2}}{1^{2}}\\ +\\ \\frac{\\left(y\\ -\\ 8\\right)\\ ^{2\\ }}{1\\ ^{2}}<15\\left\\{15<z<18\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(x-15.5)^{2}}{1^{2}}+frac{(y-8)^{2}}{1^{2}}<15{15<z<18}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "e63917daec6269cd",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "166"
+      ],
+      "example_latex": [
+        "\\frac{\\left(x-8\\right)^{2}}{1^{2}}\\ +\\ \\frac{\\left(y\\ -\\ 0\\right)\\ ^{2\\ }}{1\\ ^{2}}<19\\left\\{18<z<25.25\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(x-8)^{2}}{1^{2}}+frac{(y-0)^{2}}{1^{2}}<19{18<z<25.25}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "e6dad0fafc98beaf",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "104"
+      ],
+      "example_latex": [
+        "\\frac{\\left(z-\\ 3\\right)^{2}}{10}+\\frac{\\left(y\\ -\\ 10.5\\right)^{2}}{0.5}\\ <\\frac{\\left(z-\\ 1\\right)^{2}}{1.5}+\\frac{\\left(y\\ -10.5\\right)^{2}}{0.25}<\\ 1\\left\\{-7.1<x<7\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(z-3)^{2}}{10}+frac{(y-10.5)^{2}}{0.5}<frac{(z-1)^{2}}{1.5}+frac{(y-10.5)^{2}}{0.25}<1{-7.1<x<7}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "e7036027640f5b4a",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "185"
+      ],
+      "example_latex": [
+        "\\frac{\\left(y\\ -\\ 8\\right)^{2}}{2.5}\\ +\\ \\frac{\\left(z\\ -\\ 15.5\\right)^{2}}{3.5}\\ <1\\left\\{-3.65<x<0.1\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(y-8)^{2}}{2.5}+frac{(z-15.5)^{2}}{3.5}<1{-3.65<x<0.1}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "ec0b7d311766f660",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "284"
+      ],
+      "example_latex": [
+        "\\frac{\\left(x\\ +\\ 5\\right)^{2}}{1^{2}}\\ +\\ \\frac{\\left(y\\ +\\ 20.7\\right)\\ ^{2\\ }}{1\\ ^{2}}<0.1\\left\\{26.25<z<28.5\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(x+5)^{2}}{1^{2}}+frac{(y+20.7)^{2}}{1^{2}}<0.1{26.25<z<28.5}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "ed6ce595d30d6d55",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "74"
+      ],
+      "example_latex": [
+        "\\frac{\\left(z-\\ 3\\right)^{2}}{10}+\\frac{\\left(y\\ +\\ 6\\right)^{2}}{0.5}\\ <\\frac{\\left(z-\\ 1\\right)^{2}}{1.5}+\\frac{\\left(y\\ +\\ 6\\right)^{2}}{0.25}<\\ 1\\left\\{-7.1<x<7\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(z-3)^{2}}{10}+frac{(y+6)^{2}}{0.5}<frac{(z-1)^{2}}{1.5}+frac{(y+6)^{2}}{0.25}<1{-7.1<x<7}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "f00348f6c7a80abf",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "139"
+      ],
+      "example_latex": [
+        "\\frac{\\left(y\\ +\\ 7.5\\right)^{2}}{2.5}\\ +\\ \\frac{\\left(z\\ -\\ 4\\right)^{2}}{4}\\ <1\\ \\ \\left\\{z>4\\right\\}\\left\\{-4.2<x<19.2\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(y+7.5)^{2}}{2.5}+frac{(z-4)^{2}}{4}<1{z>4}{-4.2<x<19.2}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "f0754b6e0b90c82b",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "325"
+      ],
+      "example_latex": [
+        "\\frac{\\left(x\\ -21\\right)^{2}}{1^{2}}\\ +\\ \\frac{\\left(y\\ +\\ 20.7\\right)\\ ^{2\\ }}{1\\ ^{2}}<0.1\\left\\{26.25<z<28.5\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(x-21)^{2}}{1^{2}}+frac{(y+20.7)^{2}}{1^{2}}<0.1{26.25<z<28.5}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "f6e7fe03d2d0e33f",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "195"
+      ],
+      "example_latex": [
+        "\\frac{\\left(x-0.5\\right)^{2}}{1^{2}}\\ +\\ \\frac{\\left(y\\ +\\ 8\\right)\\ ^{2\\ }}{1\\ ^{2}}<16.75\\left\\{17.7<z<18.25\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(x-0.5)^{2}}{1^{2}}+frac{(y+8)^{2}}{1^{2}}<16.75{17.7<z<18.25}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "f74c38bd15b6272b",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "277"
+      ],
+      "example_latex": [
+        "\\frac{\\left(x\\ +\\ 5\\right)^{2}}{1^{2}}\\ +\\ \\frac{\\left(y\\ +\\ 20.7\\right)\\ ^{2\\ }}{1\\ ^{2}}<4\\left\\{14.75<z<15.25\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(x+5)^{2}}{1^{2}}+frac{(y+20.7)^{2}}{1^{2}}<4{14.75<z<15.25}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "f7d09d30b6db75b4",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "228"
+      ],
+      "example_latex": [
+        "\\frac{\\left(x-15.5\\right)^{2}}{1^{2}}\\ +\\ \\frac{\\left(y\\ +\\ 8\\right)\\ ^{2\\ }}{1\\ ^{2}}<17\\left\\{17.8<z<18\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(x-15.5)^{2}}{1^{2}}+frac{(y+8)^{2}}{1^{2}}<17{17.8<z<18}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "f7efbce036736bb8",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "202"
+      ],
+      "example_latex": [
+        "\\frac{\\left(y\\ +\\ 8\\right)^{2}}{2.5}\\ +\\ \\frac{\\left(z\\ -\\ 15.5\\right)^{2}}{3.5}\\ <1\\left\\{-3.65<x<0.1\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(y+8)^{2}}{2.5}+frac{(z-15.5)^{2}}{3.5}<1{-3.65<x<0.1}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "f89656fa99728b19",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "279"
+      ],
+      "example_latex": [
+        "\\frac{\\left(x\\ +\\ 5\\right)^{2}}{1^{2}}\\ +\\ \\frac{\\left(y\\ +\\ 20.7\\right)\\ ^{2\\ }}{1\\ ^{2}}<3.5\\left\\{20<z<20.5\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(x+5)^{2}}{1^{2}}+frac{(y+20.7)^{2}}{1^{2}}<3.5{20<z<20.5}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "fad3a2e8da3eaf4d",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "317"
+      ],
+      "example_latex": [
+        "\\frac{\\left(x\\ \\ -21\\right)^{2}}{1^{2}}\\ +\\ \\frac{\\left(y\\ +\\ 20.7\\right)\\ ^{2\\ }}{1\\ ^{2}}<4\\left\\{-0.5<z<15\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(x-21)^{2}}{1^{2}}+frac{(y+20.7)^{2}}{1^{2}}<4{-0.5<z<15}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "fe85e410636b9abc",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "324"
+      ],
+      "example_latex": [
+        "\\frac{\\left(x\\ -21\\right)^{2}}{1^{2}}\\ +\\ \\frac{\\left(y\\ +\\ 20.7\\right)\\ ^{2\\ }}{1\\ ^{2}}<2.5\\left\\{26<z<26.25\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{(x-21)^{2}}{1^{2}}+frac{(y+20.7)^{2}}{1^{2}}<2.5{26<z<26.25}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "0791ca55c296b4fa",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "244"
+      ],
+      "example_latex": [
+        "\\left(x\\ -15.5\\right)^{2}\\ +\\ \\left(y\\ \\ -\\ 8\\ \\right)^{2}+\\ \\left(z\\ -18\\right)^{2}\\ =\\ 15\\left\\{z>15.25\\right\\}"
+      ],
+      "example_normalized": [
+        "(x-15.5)^{2}+(y-8)^{2}+(z-18)^{2}=15{z>15.25}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "0a34c6a76b92a562",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "198"
+      ],
+      "example_latex": [
+        "\\left(x\\ -0.5\\right)^{2}\\ +\\ \\left(y\\ \\ +\\ 8\\ \\right)^{2}+\\ \\left(z\\ -21.75\\right)^{2}\\ =\\ 2\\left\\{z>15.25\\right\\}"
+      ],
+      "example_normalized": [
+        "(x-0.5)^{2}+(y+8)^{2}+(z-21.75)^{2}=2{z>15.25}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "0daaa5c1052ff0a7",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "231"
+      ],
+      "example_latex": [
+        "\\left(x\\ -15.5\\right)^{2}\\ +\\ \\left(y\\ \\ +\\ 8\\ \\right)^{2}+\\ \\left(z\\ -20\\right)^{2}\\ =\\ 7\\left\\{z>15.25\\right\\}"
+      ],
+      "example_normalized": [
+        "(x-15.5)^{2}+(y+8)^{2}+(z-20)^{2}=7{z>15.25}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "12ef7f25d4c8a4bd",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "296"
+      ],
+      "example_latex": [
+        "\\left(x\\ -21\\right)^{2}\\ +\\ \\left(y\\ \\ -\\ 20.7\\ \\right)^{2}+\\ \\left(z\\ -25.75\\right)^{2}\\ =\\ 2.5"
+      ],
+      "example_normalized": [
+        "(x-21)^{2}+(y-20.7)^{2}+(z-25.75)^{2}=2.5"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "2729e81d7545d9ff",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "267"
+      ],
+      "example_latex": [
+        "\\left(x\\ +5\\right)^{2}\\ +\\ \\left(y\\ \\ -\\ 20.7\\ \\right)^{2}+\\ \\left(z\\ -28.5\\right)^{2}\\ =\\ 0.25"
+      ],
+      "example_normalized": [
+        "(x+5)^{2}+(y-20.7)^{2}+(z-28.5)^{2}=0.25"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "2d6ada35a61e5228",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "170"
+      ],
+      "example_latex": [
+        "\\left(x\\ -8\\right)^{2}\\ +\\ \\left(y\\ \\ -\\ 0\\ \\right)^{2}+\\ \\left(z\\ -30.6\\right)^{2}\\ =\\ 0.3"
+      ],
+      "example_normalized": [
+        "(x-8)^{2}+(y-0)^{2}+(z-30.6)^{2}=0.3"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "2e93c4b53ccbf2c1",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "299"
+      ],
+      "example_latex": [
+        "\\left(x\\ -21\\right)^{2}\\ +\\ \\left(y\\ \\ -\\ 20.7\\ \\right)^{2}+\\ \\left(z\\ -28.5\\right)^{2}\\ =\\ 0.25"
+      ],
+      "example_normalized": [
+        "(x-21)^{2}+(y-20.7)^{2}+(z-28.5)^{2}=0.25"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "40504b40c90f05a4",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "248"
+      ],
+      "example_latex": [
+        "\\left(x\\ -15.5\\right)^{2}\\ +\\ \\left(y\\ \\ -\\ 8\\ \\right)^{2}+\\ \\left(z\\ -20\\right)^{2}\\ =\\ 7\\left\\{z>15.25\\right\\}"
+      ],
+      "example_normalized": [
+        "(x-15.5)^{2}+(y-8)^{2}+(z-20)^{2}=7{z>15.25}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "446e818fba4bf56c",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "153"
+      ],
+      "example_latex": [
+        "\\left(x\\ -8\\right)^{2}\\ +\\ \\left(y\\ \\ -\\ 0\\ \\right)^{2}+\\ \\left(z\\ -20\\right)^{2}\\ =\\ 42.5\\left\\{z>15.25\\right\\}"
+      ],
+      "example_normalized": [
+        "(x-8)^{2}+(y-0)^{2}+(z-20)^{2}=42.5{z>15.25}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "46120926dd33fe92",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "161"
+      ],
+      "example_latex": [
+        "\\left(x\\ -8\\right)^{2}\\ +\\ \\left(y\\ \\ -\\ 0\\ \\right)^{2}+\\ \\left(z\\ -23\\right)^{2}\\ =\\ 22.5\\left\\{z>25.25\\right\\}"
+      ],
+      "example_normalized": [
+        "(x-8)^{2}+(y-0)^{2}+(z-23)^{2}=22.5{z>25.25}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "4e3b51d93609c427",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "264"
+      ],
+      "example_latex": [
+        "\\left(x\\ +5\\right)^{2}\\ +\\ \\left(y\\ \\ -\\ 20.7\\ \\right)^{2}+\\ \\left(z\\ -25.75\\right)^{2}\\ =\\ 2.5"
+      ],
+      "example_normalized": [
+        "(x+5)^{2}+(y-20.7)^{2}+(z-25.75)^{2}=2.5"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "4ef7f34058752323",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "295"
+      ],
+      "example_latex": [
+        "\\left(x\\ -21\\right)^{2}\\ +\\ \\left(y\\ \\ -\\ 20.7\\ \\right)^{2}+\\ \\left(z\\ -25\\right)^{2}\\ =\\ 3.5"
+      ],
+      "example_normalized": [
+        "(x-21)^{2}+(y-20.7)^{2}+(z-25)^{2}=3.5"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "5bfa5e1f342605ae",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "184"
+      ],
+      "example_latex": [
+        "\\left(x\\ -0.5\\right)^{2}\\ +\\ \\left(y\\ \\ -\\ 8\\ \\right)^{2}+\\ \\left(z\\ -25\\right)^{2}\\ =\\ 0.25"
+      ],
+      "example_normalized": [
+        "(x-0.5)^{2}+(y-8)^{2}+(z-25)^{2}=0.25"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "61d6c5cd7747dfec",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "169"
+      ],
+      "example_latex": [
+        "\\left(x\\ -8\\right)^{2}\\ +\\ \\left(y\\ \\ -\\ 0\\ \\right)^{2}+\\ \\left(z\\ -29\\right)^{2}\\ =\\ 0.75"
+      ],
+      "example_normalized": [
+        "(x-8)^{2}+(y-0)^{2}+(z-29)^{2}=0.75"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "70f8c9c3c8bf9449",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "176"
+      ],
+      "example_latex": [
+        "\\left(x\\ -0.5\\right)^{2}\\ +\\ \\left(y\\ \\ -\\ 8\\ \\right)^{2}+\\ \\left(z\\ -18\\right)^{2}\\ =\\ 15\\left\\{z>15.25\\right\\}"
+      ],
+      "example_normalized": [
+        "(x-0.5)^{2}+(y-8)^{2}+(z-18)^{2}=15{z>15.25}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "732ac9bea9e9bbfd",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "232"
+      ],
+      "example_latex": [
+        "\\left(x\\ -15.5\\right)^{2}\\ +\\ \\left(y\\ \\ +\\ 8\\ \\right)^{2}+\\ \\left(z\\ -21.75\\right)^{2}\\ =\\ 2\\left\\{z>15.25\\right\\}"
+      ],
+      "example_normalized": [
+        "(x-15.5)^{2}+(y+8)^{2}+(z-21.75)^{2}=2{z>15.25}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "799894e2f44e1621",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "285"
+      ],
+      "example_latex": [
+        "\\left(x\\ +5\\right)^{2}\\ +\\ \\left(y\\ \\ +\\ 20.7\\ \\right)^{2}+\\ \\left(z\\ -28.5\\right)^{2}\\ =\\ 0.25"
+      ],
+      "example_normalized": [
+        "(x+5)^{2}+(y+20.7)^{2}+(z-28.5)^{2}=0.25"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "7e03e7a2b7dcba55",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "227"
+      ],
+      "example_latex": [
+        "\\left(x\\ -15.5\\right)^{2}\\ +\\ \\left(y\\ \\ +\\ 8\\ \\right)^{2}+\\ \\left(z\\ -18\\right)^{2}\\ =\\ 15\\left\\{z>15.25\\right\\}"
+      ],
+      "example_normalized": [
+        "(x-15.5)^{2}+(y+8)^{2}+(z-18)^{2}=15{z>15.25}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "7f9c2ea3b2de352c",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "263"
+      ],
+      "example_latex": [
+        "\\left(x\\ +5\\right)^{2}\\ +\\ \\left(y\\ \\ -\\ 20.7\\ \\right)^{2}+\\ \\left(z\\ -25\\right)^{2}\\ =\\ 3.5"
+      ],
+      "example_normalized": [
+        "(x+5)^{2}+(y-20.7)^{2}+(z-25)^{2}=3.5"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "86ab6cea130a4038",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "171"
+      ],
+      "example_latex": [
+        "\\left(x\\ -8\\right)^{2}\\ +\\ \\left(y\\ \\ -\\ 0\\ \\right)^{2}+\\ \\left(z\\ -32.4\\right)^{2}\\ =\\ 0.3"
+      ],
+      "example_normalized": [
+        "(x-8)^{2}+(y-0)^{2}+(z-32.4)^{2}=0.3"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "876d174150f6cb35",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "235"
+      ],
+      "example_latex": [
+        "\\left(x\\ -15.5\\right)^{2}\\ +\\ \\left(y\\ \\ +\\ 8\\ \\right)^{2}+\\ \\left(z\\ -25\\right)^{2}\\ =\\ 0.25"
+      ],
+      "example_normalized": [
+        "(x-15.5)^{2}+(y+8)^{2}+(z-25)^{2}=0.25"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "8b586f318bd1c7a7",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "252"
+      ],
+      "example_latex": [
+        "\\left(x\\ -15.5\\right)^{2}\\ +\\ \\left(y\\ \\ -\\ 8\\ \\right)^{2}+\\ \\left(z\\ -25\\right)^{2}\\ =\\ 0.25"
+      ],
+      "example_normalized": [
+        "(x-15.5)^{2}+(y-8)^{2}+(z-25)^{2}=0.25"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "9190b15cf9c94a75",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "249"
+      ],
+      "example_latex": [
+        "\\left(x\\ -15.5\\right)^{2}\\ +\\ \\left(y\\ \\ -\\ 8\\ \\right)^{2}+\\ \\left(z\\ -21.75\\right)^{2}\\ =\\ 2\\left\\{z>15.25\\right\\}"
+      ],
+      "example_normalized": [
+        "(x-15.5)^{2}+(y-8)^{2}+(z-21.75)^{2}=2{z>15.25}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "9fe9f20c88e95cfa",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "201"
+      ],
+      "example_latex": [
+        "\\left(x\\ -0.5\\right)^{2}\\ +\\ \\left(y\\ \\ +\\ 8\\ \\right)^{2}+\\ \\left(z\\ -25\\right)^{2}\\ =\\ 0.25"
+      ],
+      "example_normalized": [
+        "(x-0.5)^{2}+(y+8)^{2}+(z-25)^{2}=0.25"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "a8f551960b279b29",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "179"
+      ],
+      "example_latex": [
+        "\\left(x\\ -0.5\\right)^{2}\\ +\\ \\left(y\\ \\ -\\ 8\\ \\right)^{2}+\\ \\left(z\\ -20\\right)^{2}\\ =\\ 7\\left\\{z>15.25\\right\\}"
+      ],
+      "example_normalized": [
+        "(x-0.5)^{2}+(y-8)^{2}+(z-20)^{2}=7{z>15.25}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "acf95cfa49c3a132",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "326"
+      ],
+      "example_latex": [
+        "\\left(x\\ -21\\right)^{2}\\ +\\ \\left(y\\ \\ +\\ 20.7\\ \\right)^{2}+\\ \\left(z\\ -28.5\\right)^{2}\\ =\\ 0.25"
+      ],
+      "example_normalized": [
+        "(x-21)^{2}+(y+20.7)^{2}+(z-28.5)^{2}=0.25"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "b291a50663aaa7eb",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "197"
+      ],
+      "example_latex": [
+        "\\left(x\\ -0.5\\right)^{2}\\ +\\ \\left(y\\ \\ +\\ 8\\ \\right)^{2}+\\ \\left(z\\ -20\\right)^{2}\\ =\\ 7\\left\\{z>15.25\\right\\}"
+      ],
+      "example_normalized": [
+        "(x-0.5)^{2}+(y+8)^{2}+(z-20)^{2}=7{z>15.25}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "ba88ba3b53e6996b",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "282"
+      ],
+      "example_latex": [
+        "\\left(x\\ +5\\right)^{2}\\ +\\ \\left(y\\ \\ +\\ 20.7\\ \\right)^{2}+\\ \\left(z\\ -25.75\\right)^{2}\\ =\\ 2.5"
+      ],
+      "example_normalized": [
+        "(x+5)^{2}+(y+20.7)^{2}+(z-25.75)^{2}=2.5"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "c1962fe3e5390de1",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "323"
+      ],
+      "example_latex": [
+        "\\left(x\\ -21\\right)^{2}\\ +\\ \\left(y\\ \\ +\\ 20.7\\ \\right)^{2}+\\ \\left(z\\ -25.75\\right)^{2}\\ =\\ 2.5"
+      ],
+      "example_normalized": [
+        "(x-21)^{2}+(y+20.7)^{2}+(z-25.75)^{2}=2.5"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "ce1d95812de139b2",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "181"
+      ],
+      "example_latex": [
+        "\\left(x\\ -0.5\\right)^{2}\\ +\\ \\left(y\\ \\ -\\ 8\\ \\right)^{2}+\\ \\left(z\\ -21.75\\right)^{2}\\ =\\ 2\\left\\{z>15.25\\right\\}"
+      ],
+      "example_normalized": [
+        "(x-0.5)^{2}+(y-8)^{2}+(z-21.75)^{2}=2{z>15.25}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "d0ab8967339efaf0",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "322"
+      ],
+      "example_latex": [
+        "\\left(x\\ -21\\right)^{2}\\ +\\ \\left(y\\ \\ +\\ 20.7\\ \\right)^{2}+\\ \\left(z\\ -25\\right)^{2}\\ =\\ 3.5"
+      ],
+      "example_normalized": [
+        "(x-21)^{2}+(y+20.7)^{2}+(z-25)^{2}=3.5"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "d92d35eec196b12e",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "193"
+      ],
+      "example_latex": [
+        "\\left(x\\ -0.5\\right)^{2}\\ +\\ \\left(y\\ \\ +\\ 8\\ \\right)^{2}+\\ \\left(z\\ -18\\right)^{2}\\ =\\ 15\\left\\{z>15.25\\right\\}"
+      ],
+      "example_normalized": [
+        "(x-0.5)^{2}+(y+8)^{2}+(z-18)^{2}=15{z>15.25}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "ddb1408bee298baa",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "162"
+      ],
+      "example_latex": [
+        "\\left(x\\ -8\\right)^{2}\\ +\\ \\left(y\\ \\ -\\ 0\\ \\right)^{2}+\\ \\left(z\\ -26.5\\right)^{2}\\ =\\ 4\\left\\{z>25.25\\right\\}"
+      ],
+      "example_normalized": [
+        "(x-8)^{2}+(y-0)^{2}+(z-26.5)^{2}=4{z>25.25}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "de69c39c63f0e384",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "281"
+      ],
+      "example_latex": [
+        "\\left(x\\ +5\\right)^{2}\\ +\\ \\left(y\\ \\ +\\ 20.7\\ \\right)^{2}+\\ \\left(z\\ -25\\right)^{2}\\ =\\ 3.5"
+      ],
+      "example_normalized": [
+        "(x+5)^{2}+(y+20.7)^{2}+(z-25)^{2}=3.5"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    }
+  ],
+  "diagnostics": [
+    {
+      "severity": "INFO",
+      "code": "COVERAGE_COMPLETE",
+      "message": "Coverage report complete",
+      "source_ref": null,
+      "details": {
+        "file": "[4B] 3D Diagram - S2-06 Group B.json",
+        "meshed_expression_ids": 83,
+        "supported_but_not_meshed": 0,
+        "group_count": 159
+      }
+    }
+  ]
+}

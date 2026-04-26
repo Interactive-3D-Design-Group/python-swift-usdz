@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import argparse
 import json
+from collections.abc import Sequence
 from pathlib import Path
 
 from desmos3d_pipeline.export.bridge import export_obj_bundle
@@ -11,9 +12,12 @@ from desmos3d_pipeline.ir.models import BatchAuditSummary
 from desmos3d_pipeline.mesh.meshers import mesh_geometry_nodes
 from desmos3d_pipeline.qa.audit import run_audit_for_file
 from desmos3d_pipeline.qa.coverage import run_coverage_for_file
+from desmos3d_pipeline.qa.family_inventory import run_family_inventory
 
 
-def _resolve_inputs(single_input: str | None, input_glob: str | None, base_dir: Path) -> list[Path]:
+def _resolve_inputs(
+    single_input: str | None, input_glob: str | Sequence[str] | None, base_dir: Path
+) -> list[Path]:
     paths: list[Path] = []
     if single_input:
         p = Path(single_input)
@@ -21,7 +25,9 @@ def _resolve_inputs(single_input: str | None, input_glob: str | None, base_dir: 
             p = base_dir / p
         paths.append(p)
     if input_glob:
-        paths.extend(sorted(base_dir.glob(input_glob)))
+        patterns = [input_glob] if isinstance(input_glob, str) else list(input_glob)
+        for pattern in patterns:
+            paths.extend(sorted(base_dir.glob(pattern)))
     unique = sorted({p.resolve() for p in paths})
     return unique
 
@@ -63,7 +69,7 @@ def cmd_export_bridge(args: argparse.Namespace) -> int:
     for path in inputs:
         file_out = out_dir / path.stem
         file_out.mkdir(parents=True, exist_ok=True)
-        geometry = build_geometry_for_file(path)
+        geometry = build_geometry_for_file(path, include_hidden=args.include_hidden)
         meshes, failures = mesh_geometry_nodes(geometry.nodes)
         manifest_path = export_obj_bundle(meshes, failures, file_out)
         summary.append(
@@ -94,7 +100,7 @@ def cmd_coverage(args: argparse.Namespace) -> int:
 
     summary: list[dict[str, object]] = []
     for path in inputs:
-        report = run_coverage_for_file(path)
+        report = run_coverage_for_file(path, include_hidden=args.include_hidden)
         out_path = out_dir / f"{path.stem}.coverage.json"
         out_path.write_text(json.dumps(report.to_dict(), indent=2, default=str), encoding="utf-8")
         # Also write a concise markdown summary for quick review.
@@ -107,8 +113,8 @@ def cmd_coverage(args: argparse.Namespace) -> int:
             f"- meshed expression ids: **{report.meshed_expression_count}**",
             f"- supported expressions: **{report.supported_expression_count}**",
             f"- supported but not meshed: **{report.supported_but_not_meshed_count}**",
-            f"- recognized unsupported: **{report.recognized_unsupported_count}**",
-            f"- geometry ineligible (non-mesh): **{report.geometry_ineligible_count}**",
+            f"- recognized unsupported (reserved; classifier uses **0** — see geometry ineligible): **{report.recognized_unsupported_count}**",
+            f"- geometry ineligible (non-mesh: params, inequalities we skip, etc.): **{report.geometry_ineligible_count}**",
             f"- unrecognized: **{report.unrecognized_count}**",
             "",
             "## Top missing groups",
@@ -146,27 +152,96 @@ def cmd_coverage(args: argparse.Namespace) -> int:
     return 0
 
 
+def cmd_family_inventory(args: argparse.Namespace) -> int:
+    cwd = Path.cwd()
+    inputs = _resolve_inputs(args.input, args.input_glob, cwd)
+    if not inputs:
+        raise SystemExit("No input files matched. Use --input or --input-glob.")
+
+    out_path = Path(args.out)
+    if not out_path.is_absolute():
+        out_path = cwd / out_path
+    out_path.parent.mkdir(parents=True, exist_ok=True)
+
+    payload = run_family_inventory(inputs)
+    out_path.write_text(json.dumps(payload, indent=2), encoding="utf-8")
+    print(
+        f"Family inventory: {payload['files_scanned']} file(s), "
+        f"{payload['non_supported_expression_count']} non-supported / "
+        f"{payload['expressions_considered']} expressions. Wrote {out_path}"
+    )
+    return 0
+
+
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(prog="desmos3d")
     sub = parser.add_subparsers(dest="command", required=True)
 
     audit = sub.add_parser("audit", help="Audit and classify Desmos 3D JSON files")
     audit.add_argument("--input", type=str, default=None, help="Single input JSON file")
-    audit.add_argument("--input-glob", type=str, default=None, help="Glob for multiple files")
+    audit.add_argument(
+        "--input-glob",
+        action="append",
+        default=None,
+        metavar="PATTERN",
+        help="Glob for multiple files (repeat to merge several patterns, e.g. JSON*.json and [4B]*.json)",
+    )
     audit.add_argument("--out", type=str, default="artifacts/audit", help="Output report directory")
     audit.set_defaults(func=cmd_audit)
 
     bridge = sub.add_parser("export-bridge", help="Build geometry, mesh it, and export OBJ + manifest")
     bridge.add_argument("--input", type=str, default=None, help="Single input JSON file")
-    bridge.add_argument("--input-glob", type=str, default=None, help="Glob for multiple files")
+    bridge.add_argument(
+        "--input-glob",
+        action="append",
+        default=None,
+        metavar="PATTERN",
+        help="Glob for multiple files (repeat to merge several patterns, e.g. JSON*.json and [4B]*.json)",
+    )
     bridge.add_argument("--out", type=str, default="artifacts/bridge", help="Output bridge directory")
+    bridge.add_argument(
+        "--include-hidden",
+        action="store_true",
+        help="Mesh expressions marked hidden in Desmos (e.g. reference z=0 tiles); default skips them",
+    )
     bridge.set_defaults(func=cmd_export_bridge)
 
     cov = sub.add_parser("coverage", help="Report what expressions are missing from meshing, grouped by fingerprint")
     cov.add_argument("--input", type=str, default=None, help="Single input JSON file")
-    cov.add_argument("--input-glob", type=str, default=None, help="Glob for multiple files")
+    cov.add_argument(
+        "--input-glob",
+        action="append",
+        default=None,
+        metavar="PATTERN",
+        help="Glob for multiple files (repeat to merge several patterns, e.g. JSON*.json and [4B]*.json)",
+    )
     cov.add_argument("--out", type=str, default="artifacts/coverage", help="Output coverage report directory")
+    cov.add_argument(
+        "--include-hidden",
+        action="store_true",
+        help="Match export-bridge: count/mesh hidden expressions when measuring coverage",
+    )
     cov.set_defaults(func=cmd_coverage)
+
+    inv = sub.add_parser(
+        "family-inventory",
+        help="Aggregate classifier family+status for non-SUPPORTED expressions (strategy / backlog)",
+    )
+    inv.add_argument("--input", type=str, default=None, help="Single input JSON file")
+    inv.add_argument(
+        "--input-glob",
+        action="append",
+        default=None,
+        metavar="PATTERN",
+        help="Glob for multiple files (repeat to merge several patterns)",
+    )
+    inv.add_argument(
+        "--out",
+        type=str,
+        default="artifacts/family_inventory/unsupported_families.json",
+        help="Output JSON path",
+    )
+    inv.set_defaults(func=cmd_family_inventory)
 
     return parser
 

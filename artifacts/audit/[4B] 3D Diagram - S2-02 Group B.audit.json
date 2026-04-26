@@ -1,0 +1,55 @@
+{
+  "source_file": "[4B] 3D Diagram - S2-02 Group B.json",
+  "total_expressions": 24,
+  "supported_count": 21,
+  "recognized_unsupported_count": 0,
+  "unrecognized_count": 1,
+  "geometry_ineligible_count": 2,
+  "per_folder_summary": [
+    {
+      "folder_id": null,
+      "folder_name": null,
+      "total": 16,
+      "supported": 13,
+      "recognized_unsupported": 0,
+      "unrecognized": 1,
+      "geometry_ineligible": 2
+    },
+    {
+      "folder_id": "23",
+      "folder_name": "Triangle",
+      "total": 8,
+      "supported": 8,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 0
+    }
+  ],
+  "unsupported_expressions": [
+    {
+      "expression_id": "12",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "8e180c4f3ffc948b",
+      "latex": "\\left(x+-0.1\\right)^{2}+\\left(y+-0.001\\right)^{2}+\\left(z--0.5\\right)^{2\\ }=\\ 0.25",
+      "normalized_latex": "(x-0.1)^2+(y-0.001)^2+(z+0.5)^2=0.25"
+    }
+  ],
+  "unknown_fingerprints": [
+    "8e180c4f3ffc948b"
+  ],
+  "diagnostics": [
+    {
+      "severity": "INFO",
+      "code": "AUDIT_COMPLETE",
+      "message": "Audit classification complete",
+      "source_ref": null,
+      "details": {
+        "file": "[4B] 3D Diagram - S2-02 Group B.json"
+      }
+    }
+  ],
+  "status": "PARTIAL"
+}

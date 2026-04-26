@@ -1,0 +1,907 @@
+{
+  "source_file": "[4B] 3D Diagram - S2-04 Group A.json",
+  "total_items": 40,
+  "total_expressions": 40,
+  "meshed_expression_count": 0,
+  "supported_expression_count": 0,
+  "supported_but_not_meshed_count": 0,
+  "recognized_unsupported_count": 0,
+  "unrecognized_count": 40,
+  "geometry_ineligible_count": 0,
+  "groups": [
+    {
+      "fingerprint": "039127ff98a2cbeb",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "18"
+      ],
+      "example_latex": [
+        "(0.45\\cos(2\\pi v)-7,0.45\\sin(2\\pi v)+7,15u)"
+      ],
+      "example_normalized": [
+        "(0.45cos(2piv)-7,0.45sin(2piv)+7,15u)"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "0a7fa34a9fc13f02",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "33"
+      ],
+      "example_latex": [
+        "((0.45+0.3u)\\cos(2\\pi v)+7,(0.45+0.3u)\\sin(2\\pi v)+7,10)"
+      ],
+      "example_normalized": [
+        "((0.45+0.3u)cos(2piv)+7,(0.45+0.3u)sin(2piv)+7,10)"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "0a9a09e3f67c1a43",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "4"
+      ],
+      "example_latex": [
+        "(16u-8,16v-8,0)"
+      ],
+      "example_normalized": [
+        "(16u-8,16v-8,0)"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "15bd0975f18a4dd4",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "22"
+      ],
+      "example_latex": [
+        "((0.55\\cos(\\pi u/2)+0.3\\sin(\\pi u))\\cos(2\\pi v)-7,(0.55\\cos(\\pi u/2)+0.3\\sin(\\pi u))\\sin(2\\pi v)+7,2u+15)"
+      ],
+      "example_normalized": [
+        "((0.55cos(piu/2)+0.3sin(piu))cos(2piv)-7,(0.55cos(piu/2)+0.3sin(piu))sin(2piv)+7,2u+15)"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "180becdcb454e43a",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "42"
+      ],
+      "example_latex": [
+        "(24u-12,24v-12,-2)"
+      ],
+      "example_normalized": [
+        "(24u-12,24v-12,-2)"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "1baea7b57052a629",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "5"
+      ],
+      "example_latex": [
+        "(8u-4,-4,5v)"
+      ],
+      "example_normalized": [
+        "(8u-4,-4,5v)"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "2a3f63aa872669b2",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "25"
+      ],
+      "example_latex": [
+        "((2+0.2\\cos(2\\pi v))\\cos(\\pi u),-4+0.2\\sin(2\\pi v),(2+0.2\\cos(2\\pi v))\\sin(\\pi u)+0.8)"
+      ],
+      "example_normalized": [
+        "((2+0.2cos(2piv))cos(piu),-4+0.2sin(2piv),(2+0.2cos(2piv))sin(piu)+0.8)"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "3826314032401f53",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "24"
+      ],
+      "example_latex": [
+        "((0.55\\cos(\\pi u/2)+0.3\\sin(\\pi u))\\cos(2\\pi v)-7,(0.55\\cos(\\pi u/2)+0.3\\sin(\\pi u))\\sin(2\\pi v)-7,2u+15)"
+      ],
+      "example_normalized": [
+        "((0.55cos(piu/2)+0.3sin(piu))cos(2piv)-7,(0.55cos(piu/2)+0.3sin(piu))sin(2piv)-7,2u+15)"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "3e609dcd150692a9",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "17"
+      ],
+      "example_latex": [
+        "(0.45\\cos(2\\pi v)+7,0.45\\sin(2\\pi v)+7,15u)"
+      ],
+      "example_normalized": [
+        "(0.45cos(2piv)+7,0.45sin(2piv)+7,15u)"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "42a06bcd8bd3644d",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "21"
+      ],
+      "example_latex": [
+        "((0.55\\cos(\\pi u/2)+0.3\\sin(\\pi u))\\cos(2\\pi v)+7,(0.55\\cos(\\pi u/2)+0.3\\sin(\\pi u))\\sin(2\\pi v)+7,2u+15)"
+      ],
+      "example_normalized": [
+        "((0.55cos(piu/2)+0.3sin(piu))cos(2piv)+7,(0.55cos(piu/2)+0.3sin(piu))sin(2piv)+7,2u+15)"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "43ffd8db6377348f",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "11"
+      ],
+      "example_latex": [
+        "((2\\cos(\\pi u/2)+1.5\\sin(\\pi u))\\cos(2\\pi v),(2\\cos(\\pi u/2)+1.5\\sin(\\pi u))\\sin(2\\pi v),6u+6)"
+      ],
+      "example_normalized": [
+        "((2cos(piu/2)+1.5sin(piu))cos(2piv),(2cos(piu/2)+1.5sin(piu))sin(2piv),6u+6)"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "4a4340125ea4968c",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "39"
+      ],
+      "example_latex": [
+        "(0.25\\cos(2\\pi v)+3,0.25\\sin(2\\pi v)-3,2u+3)"
+      ],
+      "example_normalized": [
+        "(0.25cos(2piv)+3,0.25sin(2piv)-3,2u+3)"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "4ab882ce5309cbcd",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "29"
+      ],
+      "example_latex": [
+        "((0.45+0.3u)\\cos(2\\pi v)+7,(0.45+0.3u)\\sin(2\\pi v)+7,5)"
+      ],
+      "example_normalized": [
+        "((0.45+0.3u)cos(2piv)+7,(0.45+0.3u)sin(2piv)+7,5)"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "5fbdfafb2d106258",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "30"
+      ],
+      "example_latex": [
+        "((0.45+0.3u)\\cos(2\\pi v)-7,(0.45+0.3u)\\sin(2\\pi v)+7,5)"
+      ],
+      "example_normalized": [
+        "((0.45+0.3u)cos(2piv)-7,(0.45+0.3u)sin(2piv)+7,5)"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "6487aed2eb49c363",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "8"
+      ],
+      "example_latex": [
+        "(4,8u-4,5v)"
+      ],
+      "example_normalized": [
+        "(4,8u-4,5v)"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "6489f28d752200fc",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "12"
+      ],
+      "example_latex": [
+        "(0.12\\cos(2\\pi v),0.12\\sin(2\\pi v),u+12)"
+      ],
+      "example_normalized": [
+        "(0.12cos(2piv),0.12sin(2piv),u+12)"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "6e4521dd173c9d72",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "20"
+      ],
+      "example_latex": [
+        "(0.45\\cos(2\\pi v)-7,0.45\\sin(2\\pi v)-7,15u)"
+      ],
+      "example_normalized": [
+        "(0.45cos(2piv)-7,0.45sin(2piv)-7,15u)"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "70cfd82d382fb860",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "10"
+      ],
+      "example_latex": [
+        "(2\\cos(2\\pi v),2\\sin(2\\pi v),u+5)"
+      ],
+      "example_normalized": [
+        "(2cos(2piv),2sin(2piv),u+5)"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "71120be335b94400",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "13"
+      ],
+      "example_latex": [
+        "((0.6\\cos(\\pi u/2)+0.35\\sin(\\pi u))\\cos(2\\pi v)+3,(0.6\\cos(\\pi u/2)+0.35\\sin(\\pi u))\\sin(2\\pi v)+3,2u+5)"
+      ],
+      "example_normalized": [
+        "((0.6cos(piu/2)+0.35sin(piu))cos(2piv)+3,(0.6cos(piu/2)+0.35sin(piu))sin(2piv)+3,2u+5)"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "76cda756846c818f",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "19"
+      ],
+      "example_latex": [
+        "(0.45\\cos(2\\pi v)+7,0.45\\sin(2\\pi v)-7,15u)"
+      ],
+      "example_normalized": [
+        "(0.45cos(2piv)+7,0.45sin(2piv)-7,15u)"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "79a10073bd72fcbb",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "34"
+      ],
+      "example_latex": [
+        "((0.45+0.3u)\\cos(2\\pi v)-7,(0.45+0.3u)\\sin(2\\pi v)+7,10)"
+      ],
+      "example_normalized": [
+        "((0.45+0.3u)cos(2piv)-7,(0.45+0.3u)sin(2piv)+7,10)"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "7b1cd36a561edc83",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "28"
+      ],
+      "example_latex": [
+        "(4-0.2\\sin(2\\pi v),(2+0.2\\cos(2\\pi v))\\cos(\\pi u),(2+0.2\\cos(2\\pi v))\\sin(\\pi u)+0.8)"
+      ],
+      "example_normalized": [
+        "(4-0.2sin(2piv),(2+0.2cos(2piv))cos(piu),(2+0.2cos(2piv))sin(piu)+0.8)"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "803036b96775d366",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "14"
+      ],
+      "example_latex": [
+        "((0.6\\cos(\\pi u/2)+0.35\\sin(\\pi u))\\cos(2\\pi v)-3,(0.6\\cos(\\pi u/2)+0.35\\sin(\\pi u))\\sin(2\\pi v)+3,2u+5)"
+      ],
+      "example_normalized": [
+        "((0.6cos(piu/2)+0.35sin(piu))cos(2piv)-3,(0.6cos(piu/2)+0.35sin(piu))sin(2piv)+3,2u+5)"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "814c3f2cb2f69f7b",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "40"
+      ],
+      "example_latex": [
+        "(0.25\\cos(2\\pi v)-3,0.25\\sin(2\\pi v)-3,2u+3)"
+      ],
+      "example_normalized": [
+        "(0.25cos(2piv)-3,0.25sin(2piv)-3,2u+3)"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "835ecfc56dbe9c18",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "7"
+      ],
+      "example_latex": [
+        "(-4,8u-4,5v)"
+      ],
+      "example_normalized": [
+        "(-4,8u-4,5v)"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "9ed3fafd05a927bb",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "32"
+      ],
+      "example_latex": [
+        "((0.45+0.3u)\\cos(2\\pi v)-7,(0.45+0.3u)\\sin(2\\pi v)-7,5)"
+      ],
+      "example_normalized": [
+        "((0.45+0.3u)cos(2piv)-7,(0.45+0.3u)sin(2piv)-7,5)"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "a26c7d2920a1ca2d",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "36"
+      ],
+      "example_latex": [
+        "((0.45+0.3u)\\cos(2\\pi v)-7,(0.45+0.3u)\\sin(2\\pi v)-7,10)"
+      ],
+      "example_normalized": [
+        "((0.45+0.3u)cos(2piv)-7,(0.45+0.3u)sin(2piv)-7,10)"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "a430d53fdafca861",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "15"
+      ],
+      "example_latex": [
+        "((0.6\\cos(\\pi u/2)+0.35\\sin(\\pi u))\\cos(2\\pi v)+3,(0.6\\cos(\\pi u/2)+0.35\\sin(\\pi u))\\sin(2\\pi v)-3,2u+5)"
+      ],
+      "example_normalized": [
+        "((0.6cos(piu/2)+0.35sin(piu))cos(2piv)+3,(0.6cos(piu/2)+0.35sin(piu))sin(2piv)-3,2u+5)"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "ab12c327a9b0f296",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "6"
+      ],
+      "example_latex": [
+        "(8u-4,4,5v)"
+      ],
+      "example_normalized": [
+        "(8u-4,4,5v)"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "ab67b4f294f10549",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "38"
+      ],
+      "example_latex": [
+        "(0.25\\cos(2\\pi v)-3,0.25\\sin(2\\pi v)+3,2u+3)"
+      ],
+      "example_normalized": [
+        "(0.25cos(2piv)-3,0.25sin(2piv)+3,2u+3)"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "b25710254ed2bb8a",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "9"
+      ],
+      "example_latex": [
+        "(8u-4,8v-4,5)"
+      ],
+      "example_normalized": [
+        "(8u-4,8v-4,5)"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "b4ffa11cb9415d91",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "16"
+      ],
+      "example_latex": [
+        "((0.6\\cos(\\pi u/2)+0.35\\sin(\\pi u))\\cos(2\\pi v)-3,(0.6\\cos(\\pi u/2)+0.35\\sin(\\pi u))\\sin(2\\pi v)-3,2u+5)"
+      ],
+      "example_normalized": [
+        "((0.6cos(piu/2)+0.35sin(piu))cos(2piv)-3,(0.6cos(piu/2)+0.35sin(piu))sin(2piv)-3,2u+5)"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "b65be53688cc23d4",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "41"
+      ],
+      "example_latex": [
+        "(20u-10,20v-10,-1)"
+      ],
+      "example_normalized": [
+        "(20u-10,20v-10,-1)"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "b7966f1dc9850964",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "23"
+      ],
+      "example_latex": [
+        "((0.55\\cos(\\pi u/2)+0.3\\sin(\\pi u))\\cos(2\\pi v)+7,(0.55\\cos(\\pi u/2)+0.3\\sin(\\pi u))\\sin(2\\pi v)-7,2u+15)"
+      ],
+      "example_normalized": [
+        "((0.55cos(piu/2)+0.3sin(piu))cos(2piv)+7,(0.55cos(piu/2)+0.3sin(piu))sin(2piv)-7,2u+15)"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "c7e0304c350742de",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "37"
+      ],
+      "example_latex": [
+        "(0.25\\cos(2\\pi v)+3,0.25\\sin(2\\pi v)+3,2u+3)"
+      ],
+      "example_normalized": [
+        "(0.25cos(2piv)+3,0.25sin(2piv)+3,2u+3)"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "c9114c1cbefc1d0d",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "26"
+      ],
+      "example_latex": [
+        "((2+0.2\\cos(2\\pi v))\\cos(\\pi u),4-0.2\\sin(2\\pi v),(2+0.2\\cos(2\\pi v))\\sin(\\pi u)+0.8)"
+      ],
+      "example_normalized": [
+        "((2+0.2cos(2piv))cos(piu),4-0.2sin(2piv),(2+0.2cos(2piv))sin(piu)+0.8)"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "d3143575cd948eba",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "27"
+      ],
+      "example_latex": [
+        "(-4+0.2\\sin(2\\pi v),(2+0.2\\cos(2\\pi v))\\cos(\\pi u),(2+0.2\\cos(2\\pi v))\\sin(\\pi u)+0.8)"
+      ],
+      "example_normalized": [
+        "(-4+0.2sin(2piv),(2+0.2cos(2piv))cos(piu),(2+0.2cos(2piv))sin(piu)+0.8)"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "de720adcf210541a",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "31"
+      ],
+      "example_latex": [
+        "((0.45+0.3u)\\cos(2\\pi v)+7,(0.45+0.3u)\\sin(2\\pi v)-7,5)"
+      ],
+      "example_normalized": [
+        "((0.45+0.3u)cos(2piv)+7,(0.45+0.3u)sin(2piv)-7,5)"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "f9a8a0b3c74a861a",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "43"
+      ],
+      "example_latex": [
+        "(4u-2,12v-23,-0.1)"
+      ],
+      "example_normalized": [
+        "(4u-2,12v-23,-0.1)"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "fad6165d077a52f9",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "35"
+      ],
+      "example_latex": [
+        "((0.45+0.3u)\\cos(2\\pi v)+7,(0.45+0.3u)\\sin(2\\pi v)-7,10)"
+      ],
+      "example_normalized": [
+        "((0.45+0.3u)cos(2piv)+7,(0.45+0.3u)sin(2piv)-7,10)"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    }
+  ],
+  "diagnostics": [
+    {
+      "severity": "INFO",
+      "code": "COVERAGE_COMPLETE",
+      "message": "Coverage report complete",
+      "source_ref": null,
+      "details": {
+        "file": "[4B] 3D Diagram - S2-04 Group A.json",
+        "meshed_expression_ids": 0,
+        "supported_but_not_meshed": 0,
+        "group_count": 40
+      }
+    }
+  ]
+}

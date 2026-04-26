@@ -1,0 +1,2517 @@
+{
+  "source_file": "[4B] 3D Diagram - S2-07 Group F.json",
+  "total_items": 184,
+  "total_expressions": 184,
+  "meshed_expression_count": 31,
+  "supported_expression_count": 43,
+  "supported_but_not_meshed_count": 12,
+  "recognized_unsupported_count": 3,
+  "unrecognized_count": 99,
+  "geometry_ineligible_count": 39,
+  "groups": [
+    {
+      "fingerprint": "351bfdfa5769536e",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 2,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "145",
+        "150"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}(M[N.x],M[N.y],M[N.z])",
+        "\\operatorname{triangle}(M[N.x],M[N.y],M[N.z])"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}(M[N.x],M[N.y],M[N.z])",
+        "operatorname{triangle}(M[N.x],M[N.y],M[N.z])"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 2
+      }
+    },
+    {
+      "fingerprint": "80f95e07ba607035",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 2,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "181",
+        "186"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}(Q[R.x],Q[R.y],Q[R.z])",
+        "\\operatorname{triangle}(Q[R.x],Q[R.y],Q[R.z])"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}(Q[R.x],Q[R.y],Q[R.z])",
+        "operatorname{triangle}(Q[R.x],Q[R.y],Q[R.z])"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 2
+      }
+    },
+    {
+      "fingerprint": "833404bfe92bec17",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 2,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "195",
+        "200"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}(U[V.x],U[V.y],U[V.z])",
+        "\\operatorname{triangle}(U[V.x],U[V.y],U[V.z])"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}(U[V.x],U[V.y],U[V.z])",
+        "operatorname{triangle}(U[V.x],U[V.y],U[V.z])"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 2
+      }
+    },
+    {
+      "fingerprint": "36e395de58259b2b",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "178"
+      ],
+      "example_latex": [
+        ".8\\le z\\le1.3+.63(0.35-x)\\left\\{-10\\le0.35\\le x\\right\\}\\left\\{-0.85\\le y\\le-0.8\\right\\}"
+      ],
+      "example_normalized": [
+        ".8<=z<=1.3+.63(0.35-x){-10<=0.35<=x}{-0.85<=y<=-0.8}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "49cc252f804d60ed",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "176"
+      ],
+      "example_latex": [
+        ".8\\le z\\le1.3+.63(0.35-x)\\left\\{-10\\le0.35\\le x\\right\\}\\left\\{1.85\\le y\\le1.9\\right\\}"
+      ],
+      "example_normalized": [
+        ".8<=z<=1.3+.63(0.35-x){-10<=0.35<=x}{1.85<=y<=1.9}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "d8c0bd5e98d080d1",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "287"
+      ],
+      "example_latex": [
+        "3.32\\le z\\le3.42\\left\\{0.35>x>-0.35\\right\\}\\left\\{0.046\\le y\\le.95\\right\\}\\left\\{x+y\\le1.25\\right\\}\\left\\{-x+y\\le1.25\\right\\}\\left\\{-x-y\\le.25\\right\\}\\left\\{x-y\\le.25\\right\\}"
+      ],
+      "example_normalized": [
+        "3.32<=z<=3.42{0.35>x>-0.35}{0.046<=y<=.95}{x+y<=1.25}{-x+y<=1.25}{-x-y<=.25}{x-y<=.25}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "001b592899230b4b",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "245"
+      ],
+      "example_latex": [
+        "\\left(x-0.66\\right)^{2}+\\left(y-0.76\\right)^{2}+\\left(z-1.665\\right)^{2}=0.003\\ "
+      ],
+      "example_normalized": [
+        "(x-0.66)^{2}+(y-0.76)^{2}+(z-1.665)^{2}=0.003"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "0233a364188edfbe",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "139"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}(I[J.y],I[J.z],K[L.z])"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}(I[J.y],I[J.z],K[L.z])"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "04823d1ee056f877",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "205"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}(U[V.z],U[V.x],W[X.x])"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}(U[V.z],U[V.x],W[X.x])"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "051609a3e3e9585d",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "156"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}(M[N.z],O[P.z],O[P.x])"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}(M[N.z],O[P.z],O[P.x])"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "0596f6afc25b7a5b",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "202"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}(U[V.x],U[V.y],W[X.y])"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}(U[V.x],U[V.y],W[X.y])"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "07a71d2402cf49b8",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "142"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}(I[J.z],K[L.z],K[L.x])"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}(I[J.z],K[L.z],K[L.x])"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "0a2da1cbce6160b3",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "20"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}(A[B.x],C[D.x],C[D.y])"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}(A[B.x],C[D.x],C[D.y])"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "0af2c4a9e9112152",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "276"
+      ],
+      "example_latex": [
+        "\\left(x-0.13\\right)^{2}+\\left(y-1.29\\right)^{2}+\\left(z-1.665\\right)^{2}=0.003\\ "
+      ],
+      "example_normalized": [
+        "(x-0.13)^{2}+(y-1.29)^{2}+(z-1.665)^{2}=0.003"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "0b163d340dc1cc93",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "240"
+      ],
+      "example_latex": [
+        "\\left(x-0.66\\right)^{2}+\\left(y-0.92\\right)^{2}+\\left(z-1.665\\right)^{2}=0.003\\ "
+      ],
+      "example_normalized": [
+        "(x-0.66)^{2}+(y-0.92)^{2}+(z-1.665)^{2}=0.003"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "0ca10751c0586035",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "67"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}(E[F.y],E[F.z],G[H.z])"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}(E[F.y],E[F.z],G[H.z])"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "0f923037337e5f26",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "259"
+      ],
+      "example_latex": [
+        "\\left(x+0.69\\right)^{2}+\\left(y-0.12\\right)^{2}+\\left(z-1.665\\right)^{2}=0.003\\ "
+      ],
+      "example_normalized": [
+        "(x+0.69)^{2}+(y-0.12)^{2}+(z-1.665)^{2}=0.003"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "1393d3e61d3c5fef",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "25"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}(A[B.z],C[D.z],C[D.x])"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}(A[B.z],C[D.z],C[D.x])"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "16b65706c367f3f3",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "151"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}(M[N.x],O[P.x],O[P.y])"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}(M[N.x],O[P.x],O[P.y])"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "1747b397278d5ff7",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "141"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}(I[J.z],I[J.x],K[L.x])"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}(I[J.z],I[J.x],K[L.x])"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "17ac1603048c7abe",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "280"
+      ],
+      "example_latex": [
+        "\\left(x+0.47\\right)^{2}+\\left(y-1.29\\right)^{2}+\\left(z-1.665\\right)^{2}=0.003\\ "
+      ],
+      "example_normalized": [
+        "(x+0.47)^{2}+(y-1.29)^{2}+(z-1.665)^{2}=0.003"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "1c6f2c6fbe0c543f",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "137"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}(I[J.x],K[L.x],K[L.y])"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}(I[J.x],K[L.x],K[L.y])"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "1ea4f85db3c2dbca",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "248"
+      ],
+      "example_latex": [
+        "\\left(x-0.66\\right)^{2}+\\left(y-0.28\\right)^{2}+\\left(z-1.665\\right)^{2}=0.003\\ "
+      ],
+      "example_normalized": [
+        "(x-0.66)^{2}+(y-0.28)^{2}+(z-1.665)^{2}=0.003"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "20686e393bd082fd",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "277"
+      ],
+      "example_latex": [
+        "\\left(x+0.02\\right)^{2}+\\left(y-1.29\\right)^{2}+\\left(z-1.665\\right)^{2}=0.003\\ "
+      ],
+      "example_normalized": [
+        "(x+0.02)^{2}+(y-1.29)^{2}+(z-1.665)^{2}=0.003"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "22a0ad64a66cc022",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "155"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}(M[N.z],M[N.x],O[P.x])"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}(M[N.z],M[N.x],O[P.x])"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "240da67f2ea435f8",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "256"
+      ],
+      "example_latex": [
+        "\\left(x+0.69\\right)^{2}+\\left(y-0.60\\right)^{2}+\\left(z-1.665\\right)^{2}=0.003\\ "
+      ],
+      "example_normalized": [
+        "(x+0.69)^{2}+(y-0.60)^{2}+(z-1.665)^{2}=0.003"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "24359410468c9866",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "198"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}(W[X.x],W[X.y],W[X.z])"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}(W[X.x],W[X.y],W[X.z])"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "24f39b40427ed1d2",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "264"
+      ],
+      "example_latex": [
+        "\\left(x+0.47\\right)^{2}+\\left(y+0.29\\right)^{2}+\\left(z-1.665\\right)^{2}=0.003\\ "
+      ],
+      "example_normalized": [
+        "(x+0.47)^{2}+(y+0.29)^{2}+(z-1.665)^{2}=0.003"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "2594230986299379",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "35"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}\\left(E\\left[F.x\\right],E\\left[F.y\\right],E\\left[F.z\\right]\\right)"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}(E[F.x],E[F.y],E[F.z])"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "275fd385b2c9d5d5",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "152"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}(M[N.x],M[N.y],O[P.y])"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}(M[N.x],M[N.y],O[P.y])"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "278ffcd79ea73035",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "206"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}(U[V.z],W[X.z],W[X.x])"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}(U[V.z],W[X.z],W[X.x])"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "2fae5981dff684cd",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "203"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}(U[V.y],U[V.z],W[X.z])"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}(U[V.y],U[V.z],W[X.z])"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "30c4e09e16151334",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "263"
+      ],
+      "example_latex": [
+        "\\left(x+0.62\\right)^{2}+\\left(y+0.29\\right)^{2}+\\left(z-1.665\\right)^{2}=0.003\\ "
+      ],
+      "example_normalized": [
+        "(x+0.62)^{2}+(y+0.29)^{2}+(z-1.665)^{2}=0.003"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "3452c1da3142e48b",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "191"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}(Q[R.z],Q[R.x],S[T.x])"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}(Q[R.z],Q[R.x],S[T.x])"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "3aa5793d0081fb56",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "68"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}(E[F.y],G[H.y],G[H.z])"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}(E[F.y],G[H.y],G[H.z])"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "3b9bb5ecaec540b4",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "238"
+      ],
+      "example_latex": [
+        "\\left(x-0.66\\right)^{2}+\\left(y-1.24\\right)^{2}+\\left(z-1.665\\right)^{2}=0.003\\ "
+      ],
+      "example_normalized": [
+        "(x-0.66)^{2}+(y-1.24)^{2}+(z-1.665)^{2}=0.003"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "4222bd69eba37b04",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "247"
+      ],
+      "example_latex": [
+        "\\left(x-0.66\\right)^{2}+\\left(y-0.44\\right)^{2}+\\left(z-1.665\\right)^{2}=0.003\\ "
+      ],
+      "example_normalized": [
+        "(x-0.66)^{2}+(y-0.44)^{2}+(z-1.665)^{2}=0.003"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "4357a652b119a961",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "274"
+      ],
+      "example_latex": [
+        "\\left(x-0.43\\right)^{2}+\\left(y-1.29\\right)^{2}+\\left(z-1.665\\right)^{2}=0.003\\ "
+      ],
+      "example_normalized": [
+        "(x-0.43)^{2}+(y-1.29)^{2}+(z-1.665)^{2}=0.003"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "43d5a3430ee44c98",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "187"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}(Q[R.x],S[T.x],S[T.y])"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}(Q[R.x],S[T.x],S[T.y])"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "4ed6d73d8e0244d6",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "160"
+      ],
+      "example_latex": [
+        "2z=.75x+2.46\\left\\{-1.15\\le x\\le-0.35\\right\\}\\left\\{-0.8\\le y\\le1.85\\right\\}"
+      ],
+      "example_normalized": [
+        "2z=.75x+2.46{-1.15<=x<=-0.35}{-0.8<=y<=1.85}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "52a1372bce8ac519",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "239"
+      ],
+      "example_latex": [
+        "\\left(x-0.66\\right)^{2}+\\left(y-1.08\\right)^{2}+\\left(z-1.665\\right)^{2}=0.003\\ "
+      ],
+      "example_normalized": [
+        "(x-0.66)^{2}+(y-1.08)^{2}+(z-1.665)^{2}=0.003"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "54596dedbc15a9d0",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "268"
+      ],
+      "example_latex": [
+        "\\left(x+0.02\\right)^{2}+\\left(y+0.29\\right)^{2}+\\left(z-1.665\\right)^{2}=0.003\\ "
+      ],
+      "example_normalized": [
+        "(x+0.02)^{2}+(y+0.29)^{2}+(z-1.665)^{2}=0.003"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "54a9a043e986a3a8",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "184"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}(S[T.x],S[T.y],S[T.z])"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}(S[T.x],S[T.y],S[T.z])"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "579568b0b0f11ae5",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "59"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}(A[B.y],A[B.z],C[D.z])"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}(A[B.y],A[B.z],C[D.z])"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "59d3366942db7a2e",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "309"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}\\left(G_{1}\\left[H_{1}.x\\right],G_{1}\\left[H_{1}.y\\right],G_{1}\\left[H_{1}.z\\right]\\right)"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}(G_{1}[H_{1}.x],G_{1}[H_{1}.y],G_{1}[H_{1}.z])"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "5c0c25be364a7e7d",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "10"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}\\left(C\\left[D.x\\right],C\\left[D.y\\right],C\\left[D.z\\right]\\right)"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}(C[D.x],C[D.y],C[D.z])"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "63cb414b64807891",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "281"
+      ],
+      "example_latex": [
+        "\\left(x+0.62\\right)^{2}+\\left(y-1.29\\right)^{2}+\\left(z-1.665\\right)^{2}=0.003\\ "
+      ],
+      "example_normalized": [
+        "(x+0.62)^{2}+(y-1.29)^{2}+(z-1.665)^{2}=0.003"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "690426815bce3584",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "127"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}\\left(I\\left[J.x\\right],I\\left[J.y\\right],I\\left[J.z\\right]\\right)"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}(I[J.x],I[J.y],I[J.z])"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "6d8687dfc019bcc7",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "267"
+      ],
+      "example_latex": [
+        "\\left(x+0.17\\right)^{2}+\\left(y+0.29\\right)^{2}+\\left(z-1.665\\right)^{2}=0.003\\ "
+      ],
+      "example_normalized": [
+        "(x+0.17)^{2}+(y+0.29)^{2}+(z-1.665)^{2}=0.003"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "70a205fdd9d80129",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "148"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}(O[P.x],O[P.y],O[P.z])"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}(O[P.x],O[P.y],O[P.z])"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "7209e1a2b7fd368c",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "269"
+      ],
+      "example_latex": [
+        "\\left(x-0.13\\right)^{2}+\\left(y+0.29\\right)^{2}+\\left(z-1.665\\right)^{2}=0.003\\ "
+      ],
+      "example_normalized": [
+        "(x-0.13)^{2}+(y+0.29)^{2}+(z-1.665)^{2}=0.003"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "7376d661a0d899f8",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "278"
+      ],
+      "example_latex": [
+        "\\left(x+0.17\\right)^{2}+\\left(y-1.29\\right)^{2}+\\left(z-1.665\\right)^{2}=0.003\\ "
+      ],
+      "example_normalized": [
+        "(x+0.17)^{2}+(y-1.29)^{2}+(z-1.665)^{2}=0.003"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "83537b84c64641ae",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "163"
+      ],
+      "example_latex": [
+        "2z=-.75x+2.46\\left\\{0.35\\le x\\le1.15\\right\\}\\left\\{-0.8\\le y\\le1.85\\right\\}"
+      ],
+      "example_normalized": [
+        "2z=-.75x+2.46{0.35<=x<=1.15}{-0.8<=y<=1.85}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "8ad417d9d5077716",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "246"
+      ],
+      "example_latex": [
+        "\\left(x-0.66\\right)^{2}+\\left(y-0.60\\right)^{2}+\\left(z-1.665\\right)^{2}=0.003\\ "
+      ],
+      "example_normalized": [
+        "(x-0.66)^{2}+(y-0.60)^{2}+(z-1.665)^{2}=0.003"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "8af0dfd524a6231d",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "88"
+      ],
+      "example_latex": [
+        "2z=-.515x+1.91\\left\\{-1.55\\le y\\le2.6\\right\\}\\left\\{.6\\le x\\le2\\right\\}"
+      ],
+      "example_normalized": [
+        "2z=-.515x+1.91{-1.55<=y<=2.6}{.6<=x<=2}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "8be728bb8401532d",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "273"
+      ],
+      "example_latex": [
+        "\\left(x-0.58\\right)^{2}+\\left(y-1.29\\right)^{2}+\\left(z-1.665\\right)^{2}=0.003\\ "
+      ],
+      "example_normalized": [
+        "(x-0.58)^{2}+(y-1.29)^{2}+(z-1.665)^{2}=0.003"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "8c0be87024e94c62",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "257"
+      ],
+      "example_latex": [
+        "\\left(x+0.69\\right)^{2}+\\left(y-0.44\\right)^{2}+\\left(z-1.665\\right)^{2}=0.003\\ "
+      ],
+      "example_normalized": [
+        "(x+0.69)^{2}+(y-0.44)^{2}+(z-1.665)^{2}=0.003"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "8d51675eda79d703",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "279"
+      ],
+      "example_latex": [
+        "\\left(x+0.32\\right)^{2}+\\left(y-1.29\\right)^{2}+\\left(z-1.665\\right)^{2}=0.003\\ "
+      ],
+      "example_normalized": [
+        "(x+0.32)^{2}+(y-1.29)^{2}+(z-1.665)^{2}=0.003"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "8d8bd4ed03f819d5",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "24"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}(A[B.z],A[B.x],C[D.x])"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}(A[B.z],A[B.x],C[D.x])"
+      ],
+      "flags": {
+        "lines": 1,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "8f2ac14b454c8c1a",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "201"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}(U[V.x],W[X.x],W[X.y])"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}(U[V.x],W[X.x],W[X.y])"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "91e048b76855efe4",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "262"
+      ],
+      "example_latex": [
+        "\\left(x+0.69\\right)^{2}+\\left(y+0.20\\right)^{2}+\\left(z-1.665\\right)^{2}=0.003\\ "
+      ],
+      "example_normalized": [
+        "(x+0.69)^{2}+(y+0.20)^{2}+(z-1.665)^{2}=0.003"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "950dc41feae57f70",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "258"
+      ],
+      "example_latex": [
+        "\\left(x+0.69\\right)^{2}+\\left(y-0.28\\right)^{2}+\\left(z-1.665\\right)^{2}=0.003\\ "
+      ],
+      "example_normalized": [
+        "(x+0.69)^{2}+(y-0.28)^{2}+(z-1.665)^{2}=0.003"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "9b2053cd99e659b2",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "255"
+      ],
+      "example_latex": [
+        "\\left(x+0.69\\right)^{2}+\\left(y-0.76\\right)^{2}+\\left(z-1.665\\right)^{2}=0.003\\ "
+      ],
+      "example_normalized": [
+        "(x+0.69)^{2}+(y-0.76)^{2}+(z-1.665)^{2}=0.003"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "9de80eb3f3f5a3a4",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "48"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}\\left(G\\left[H.x\\right],G\\left[H.y\\right],G\\left[H.z\\right]\\right)"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}(G[H.x],G[H.y],G[H.z])"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "9f903d8d7d65b2b0",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "189"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}(Q[R.y],Q[R.z],S[T.z])"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}(Q[R.y],Q[R.z],S[T.z])"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "a11cd2d8124ee37d",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "275"
+      ],
+      "example_latex": [
+        "\\left(x-0.28\\right)^{2}+\\left(y-1.29\\right)^{2}+\\left(z-1.665\\right)^{2}=0.003\\ "
+      ],
+      "example_normalized": [
+        "(x-0.28)^{2}+(y-1.29)^{2}+(z-1.665)^{2}=0.003"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "a4722f6b29b67b23",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "66"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}(E[F.x],E[F.y],G[H.y])"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}(E[F.x],E[F.y],G[H.y])"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "a9879abe8cc5b951",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "154"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}(M[N.y],O[P.y],O[P.z])"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}(M[N.y],O[P.y],O[P.z])"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "ac22a763aa823cbd",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "140"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}(I[J.y],K[L.y],K[L.z])"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}(I[J.y],K[L.y],K[L.z])"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "b978ee90d9db37e6",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "266"
+      ],
+      "example_latex": [
+        "\\left(x+0.32\\right)^{2}+\\left(y+0.29\\right)^{2}+\\left(z-1.665\\right)^{2}=0.003\\ "
+      ],
+      "example_normalized": [
+        "(x+0.32)^{2}+(y+0.29)^{2}+(z-1.665)^{2}=0.003"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "b9f83190a666f889",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "72"
+      ],
+      "example_latex": [
+        "2z=.515x+1.91\\left\\{-1.55\\le y\\le2.6\\right\\}\\left\\{-2\\le x\\le-.6\\right\\}"
+      ],
+      "example_normalized": [
+        "2z=.515x+1.91{-1.55<=y<=2.6}{-2<=x<=-.6}"
+      ],
+      "flags": {
+        "lines": 1,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "be510e301563a8a7",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "254"
+      ],
+      "example_latex": [
+        "\\left(x+0.69\\right)^{2}+\\left(y-0.92\\right)^{2}+\\left(z-1.665\\right)^{2}=0.003\\ "
+      ],
+      "example_normalized": [
+        "(x+0.69)^{2}+(y-0.92)^{2}+(z-1.665)^{2}=0.003"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "c10b8f5289b6ebdb",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "260"
+      ],
+      "example_latex": [
+        "\\left(x+0.69\\right)^{2}+\\left(y+0.04\\right)^{2}+\\left(z-1.665\\right)^{2}=0.003\\ "
+      ],
+      "example_normalized": [
+        "(x+0.69)^{2}+(y+0.04)^{2}+(z-1.665)^{2}=0.003"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "c316dde923ff3468",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "250"
+      ],
+      "example_latex": [
+        "\\left(x-0.66\\right)^{2}+\\left(y+0.04\\right)^{2}+\\left(z-1.665\\right)^{2}=0.003\\ "
+      ],
+      "example_normalized": [
+        "(x-0.66)^{2}+(y+0.04)^{2}+(z-1.665)^{2}=0.003"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "c46f24883308ec70",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "332"
+      ],
+      "example_latex": [
+        ""
+      ],
+      "example_normalized": [
+        ""
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "c6da0f9d3df7cd1b",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "4"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}\\left(A\\left[B.x\\right],A\\left[B.y\\right],A\\left[B.z\\right]\\right)"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}(A[B.x],A[B.y],A[B.z])"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "c959812f5c26ade0",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "69"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}(E[F.z],E[F.x],G[H.x])"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}(E[F.z],E[F.x],G[H.x])"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "ca82768563e8acd2",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "271"
+      ],
+      "example_latex": [
+        "\\left(x-0.43\\right)^{2}+\\left(y+0.29\\right)^{2}+\\left(z-1.665\\right)^{2}=0.003\\ "
+      ],
+      "example_normalized": [
+        "(x-0.43)^{2}+(y+0.29)^{2}+(z-1.665)^{2}=0.003"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "d33e478b2cd9e4fe",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "272"
+      ],
+      "example_latex": [
+        "\\left(x-0.58\\right)^{2}+\\left(y+0.29\\right)^{2}+\\left(z-1.665\\right)^{2}=0.003\\ "
+      ],
+      "example_normalized": [
+        "(x-0.58)^{2}+(y+0.29)^{2}+(z-1.665)^{2}=0.003"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "d34bf411228a15b4",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "251"
+      ],
+      "example_latex": [
+        "\\left(x-0.66\\right)^{2}+\\left(y+0.20\\right)^{2}+\\left(z-1.665\\right)^{2}=0.003\\ "
+      ],
+      "example_normalized": [
+        "(x-0.66)^{2}+(y+0.20)^{2}+(z-1.665)^{2}=0.003"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "d4a7544a90fcd357",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "303"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}\\left(C_{1}\\left[D_{1}.x\\right],C_{1}\\left[D_{1}.y\\right],C_{1}\\left[D_{1}.z\\right]\\right)"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}(C_{1}[D_{1}.x],C_{1}[D_{1}.y],C_{1}[D_{1}.z])"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "d4bd0277e42fd0ae",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "270"
+      ],
+      "example_latex": [
+        "\\left(x-0.28\\right)^{2}+\\left(y+0.29\\right)^{2}+\\left(z-1.665\\right)^{2}=0.003\\ "
+      ],
+      "example_normalized": [
+        "(x-0.28)^{2}+(y+0.29)^{2}+(z-1.665)^{2}=0.003"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "da1dfaba0769c938",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "249"
+      ],
+      "example_latex": [
+        "\\left(x-0.66\\right)^{2}+\\left(y-0.12\\right)^{2}+\\left(z-1.665\\right)^{2}=0.003\\ "
+      ],
+      "example_normalized": [
+        "(x-0.66)^{2}+(y-0.12)^{2}+(z-1.665)^{2}=0.003"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "dba1273ff49e889b",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "138"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}(I[J.x],I[J.y],K[L.y])"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}(I[J.x],I[J.y],K[L.y])"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "ddff4b61a638d50a",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "65"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}(E[F.x],G[H.x],G[H.y])"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}(E[F.x],G[H.x],G[H.y])"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "de917ec7ef44b2d2",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "58"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}(A[B.x],A[B.y],C[D.y])"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}(A[B.x],A[B.y],C[D.y])"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "dee8be2db116f5a3",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "190"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}(Q[R.y],S[T.y],S[T.z])"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}(Q[R.y],S[T.y],S[T.z])"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "dfd9075928c4dfde",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "135"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}\\left(K\\left[L.x\\right],K\\left[L.y\\right],K\\left[L.z\\right]\\right)"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}(K[L.x],K[L.y],K[L.z])"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "e143ffc1aedd2c85",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "192"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}(Q[R.z],S[T.z],S[T.x])"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}(Q[R.z],S[T.z],S[T.x])"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "e4b3befc4de7e183",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "310"
+      ],
+      "example_latex": [
+        "\\left(x+a\\right)^{2}+\\left(y+b\\right)^{2}+\\left(z+c\\right)^{2}=d"
+      ],
+      "example_normalized": [
+        "(x+a)^{2}+(y+b)^{2}+(z+c)^{2}=d"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "e8292e4d9aa37482",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "204"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}(U[V.y],W[X.y],W[X.z])"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}(U[V.y],W[X.y],W[X.z])"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "f2c6f3b6c901b98d",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "253"
+      ],
+      "example_latex": [
+        "\\left(x+0.69\\right)^{2}+\\left(y-1.08\\right)^{2}+\\left(z-1.665\\right)^{2}=0.003\\ "
+      ],
+      "example_normalized": [
+        "(x+0.69)^{2}+(y-1.08)^{2}+(z-1.665)^{2}=0.003"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "f80355ea5baabff2",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "153"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}(M[N.y],M[N.z],O[P.z])"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}(M[N.y],M[N.z],O[P.z])"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "f827e8128df6fa42",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "70"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}(E[F.z],G[H.z],G[H.x])"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}(E[F.z],G[H.z],G[H.x])"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "fab9ec9c19a54d26",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "23"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}(A[B.y],C[D.y],C[D.z])"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}(A[B.y],C[D.y],C[D.z])"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "fc6afe94743f633a",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "300"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}\\left(A_{1}\\left[B_{1}.x\\right],A_{1}\\left[B_{1}.y\\right],A_{1}\\left[B_{1}.z\\right]\\right)"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}(A_{1}[B_{1}.x],A_{1}[B_{1}.y],A_{1}[B_{1}.z])"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "fe33a9f2da5e4461",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "252"
+      ],
+      "example_latex": [
+        "\\left(x+0.69\\right)^{2}+\\left(y-1.24\\right)^{2}+\\left(z-1.665\\right)^{2}=0.003\\ "
+      ],
+      "example_normalized": [
+        "(x+0.69)^{2}+(y-1.24)^{2}+(z-1.665)^{2}=0.003"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "fe8af63db8ae88fb",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "188"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}(Q[R.x],Q[R.y],S[T.y])"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}(Q[R.x],Q[R.y],S[T.y])"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "080243c0adc3fe96",
+      "family": "Z_SLAB_REGION",
+      "status": "SUPPORTED",
+      "reason": "z bounded between two functions",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "213"
+      ],
+      "example_latex": [
+        "0.2\\le z\\le1.57+5(y+0.3)\\ \\left\\{1<z<1.6\\right\\}\\ \\ \\left\\{-0.7<x<0.68\\right\\}\\left\\{0>y\\right\\}"
+      ],
+      "example_normalized": [
+        "0.2<=z<=1.57+5(y+0.3){1<z<1.6}{-0.7<x<0.68}{0>y}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "11e7f92bd18b57cc",
+      "family": "Z_SLAB_REGION",
+      "status": "SUPPORTED",
+      "reason": "z bounded between two functions",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "221"
+      ],
+      "example_latex": [
+        "0.2\\le z\\le8.58-3(y+1)\\left\\{1.8\\le z\\le2.1\\right\\}\\left\\{0.544>x>-0.567\\right\\}\\left\\{y>1\\right\\}"
+      ],
+      "example_normalized": [
+        "0.2<=z<=8.58-3(y+1){1.8<=z<=2.1}{0.544>x>-0.567}{y>1}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "190e3c992f51c415",
+      "family": "Z_SLAB_REGION",
+      "status": "SUPPORTED",
+      "reason": "z bounded between two functions",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "225"
+      ],
+      "example_latex": [
+        "0.2\\le z\\le17.7-10(x+1)\\left\\{2.32\\le z\\le3\\right\\}\\left\\{1.09>y>-0.09\\right\\}\\left\\{x>0\\right\\}"
+      ],
+      "example_normalized": [
+        "0.2<=z<=17.7-10(x+1){2.32<=z<=3}{1.09>y>-0.09}{x>0}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "3c03ff905c81c4e3",
+      "family": "Z_SLAB_REGION",
+      "status": "SUPPORTED",
+      "reason": "z bounded between two functions",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "228"
+      ],
+      "example_latex": [
+        "0.2\\le z\\le23.93-+10(y+1)\\left\\{2.32\\le z\\le3\\right\\}\\left\\{0.47>x>-0.49\\right\\}\\left\\{1<y\\right\\}"
+      ],
+      "example_normalized": [
+        "0.2<=z<=23.93-+10(y+1){2.32<=z<=3}{0.47>x>-0.49}{1<y}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "49308a9d0e3091c9",
+      "family": "Z_SLAB_REGION",
+      "status": "SUPPORTED",
+      "reason": "z bounded between two functions",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "218"
+      ],
+      "example_latex": [
+        "0.2\\le z\\le6.74-3(x+1)\\left\\{1.8\\le z\\le2.1\\right\\}\\left\\{-0.162\\le y\\le1.16\\right\\}\\left\\{x>0\\right\\}"
+      ],
+      "example_normalized": [
+        "0.2<=z<=6.74-3(x+1){1.8<=z<=2.1}{-0.162<=y<=1.16}{x>0}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "4ab9fe8c14026575",
+      "family": "Z_SLAB_REGION",
+      "status": "SUPPORTED",
+      "reason": "z bounded between two functions",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "229"
+      ],
+      "example_latex": [
+        "0.2\\le z\\le-6.08+10(y+1)\\left\\{2.32\\le z\\le3\\right\\}\\left\\{0.47>x>-0.49\\right\\}\\left\\{y<0\\right\\}"
+      ],
+      "example_normalized": [
+        "0.2<=z<=-6.08+10(y+1){2.32<=z<=3}{0.47>x>-0.49}{y<0}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "6bb6229719f8c730",
+      "family": "Z_SLAB_REGION",
+      "status": "SUPPORTED",
+      "reason": "z bounded between two functions",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "220"
+      ],
+      "example_latex": [
+        "0.2\\le z\\le-0.4+3(y+1)\\left\\{1.8\\le z\\le2.1\\right\\}\\left\\{y<0\\right\\}\\left\\{0.544>x>-0.567\\right\\}"
+      ],
+      "example_normalized": [
+        "0.2<=z<=-0.4+3(y+1){1.8<=z<=2.1}{y<0}{0.544>x>-0.567}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "89deeb32c028a234",
+      "family": "Z_SLAB_REGION",
+      "status": "SUPPORTED",
+      "reason": "z bounded between two functions",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "125"
+      ],
+      "example_latex": [
+        ".5\\le z\\le1+.43(0.6-x)\\left\\{0.6\\le x\\right\\}\\left\\{2.55\\le y\\le2.6\\right\\}"
+      ],
+      "example_normalized": [
+        ".5<=z<=1+.43(0.6-x){0.6<=x}{2.55<=y<=2.6}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "d5afc69cea7c942d",
+      "family": "Z_SLAB_REGION",
+      "status": "SUPPORTED",
+      "reason": "z bounded between two functions",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "226"
+      ],
+      "example_latex": [
+        "0.2\\le z\\le-2.1+10(x+1)\\left\\{2.32\\le z\\le3\\right\\}\\left\\{1.09>y>-0.09\\right\\}\\left\\{x<0\\right\\}"
+      ],
+      "example_normalized": [
+        "0.2<=z<=-2.1+10(x+1){2.32<=z<=3}{1.09>y>-0.09}{x<0}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "d8dc2208266afd53",
+      "family": "Z_SLAB_REGION",
+      "status": "SUPPORTED",
+      "reason": "z bounded between two functions",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "325"
+      ],
+      "example_latex": [
+        "(x-u)^{2}+(y-v)^{2}\\le w^{2}q-t/2\\le z\\le q+t/2\\ \\left\\{5<z<5.9\\right\\}"
+      ],
+      "example_normalized": [
+        "(x-u)^{2}+(y-v)^{2}<=w^{2}q-t/2<=z<=q+t/2{5<z<5.9}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "e5df17311c6e7f17",
+      "family": "Z_SLAB_REGION",
+      "status": "SUPPORTED",
+      "reason": "z bounded between two functions",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "123"
+      ],
+      "example_latex": [
+        ".5\\le z\\le1+.43(0.6-x)\\left\\{0.6\\le x\\right\\}\\left\\{-1.6\\le y\\le-1.55\\right\\}"
+      ],
+      "example_normalized": [
+        ".5<=z<=1+.43(0.6-x){0.6<=x}{-1.6<=y<=-1.55}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "f340c618484272a1",
+      "family": "Z_SLAB_REGION",
+      "status": "SUPPORTED",
+      "reason": "z bounded between two functions",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "219"
+      ],
+      "example_latex": [
+        "0.2\\le z\\le0.8+3(x+1)\\left\\{1.8\\le z\\le2.1\\right\\}\\left\\{-0.162\\le y\\le1.16\\right\\}\\left\\{x<0\\right\\}"
+      ],
+      "example_normalized": [
+        "0.2<=z<=0.8+3(x+1){1.8<=z<=2.1}{-0.162<=y<=1.16}{x<0}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    }
+  ],
+  "diagnostics": [
+    {
+      "severity": "WARNING",
+      "code": "COVERAGE_MESH_FAILURES",
+      "message": "Some meshes failed during coverage pass (these items may be missing)",
+      "source_ref": null,
+      "details": {
+        "failed_mesh_count": 12,
+        "failures": [
+          {
+            "source_file": "[4B] 3D Diagram - S2-07 Group F.json",
+            "expression_id": "123",
+            "error": "Missing finite bounds for axis x"
+          },
+          {
+            "source_file": "[4B] 3D Diagram - S2-07 Group F.json",
+            "expression_id": "125",
+            "error": "Missing finite bounds for axis x"
+          },
+          {
+            "source_file": "[4B] 3D Diagram - S2-07 Group F.json",
+            "expression_id": "213",
+            "error": "Missing finite bounds for axis y"
+          },
+          {
+            "source_file": "[4B] 3D Diagram - S2-07 Group F.json",
+            "expression_id": "218",
+            "error": "Missing finite bounds for axis x"
+          },
+          {
+            "source_file": "[4B] 3D Diagram - S2-07 Group F.json",
+            "expression_id": "219",
+            "error": "Missing finite bounds for axis x"
+          },
+          {
+            "source_file": "[4B] 3D Diagram - S2-07 Group F.json",
+            "expression_id": "220",
+            "error": "Missing finite bounds for axis y"
+          },
+          {
+            "source_file": "[4B] 3D Diagram - S2-07 Group F.json",
+            "expression_id": "221",
+            "error": "Missing finite bounds for axis y"
+          },
+          {
+            "source_file": "[4B] 3D Diagram - S2-07 Group F.json",
+            "expression_id": "225",
+            "error": "Missing finite bounds for axis x"
+          },
+          {
+            "source_file": "[4B] 3D Diagram - S2-07 Group F.json",
+            "expression_id": "226",
+            "error": "Missing finite bounds for axis x"
+          },
+          {
+            "source_file": "[4B] 3D Diagram - S2-07 Group F.json",
+            "expression_id": "228",
+            "error": "Missing finite bounds for axis y"
+          }
+        ]
+      }
+    },
+    {
+      "severity": "INFO",
+      "code": "COVERAGE_COMPLETE",
+      "message": "Coverage report complete",
+      "source_ref": null,
+      "details": {
+        "file": "[4B] 3D Diagram - S2-07 Group F.json",
+        "meshed_expression_ids": 31,
+        "supported_but_not_meshed": 12,
+        "group_count": 110
+      }
+    }
+  ]
+}

@@ -1,0 +1,475 @@
+{
+  "source_file": "[4B] 3D Diagram - S2-07 Group F.json",
+  "total_expressions": 184,
+  "supported_count": 47,
+  "recognized_unsupported_count": 0,
+  "unrecognized_count": 40,
+  "geometry_ineligible_count": 97,
+  "per_folder_summary": [
+    {
+      "folder_id": null,
+      "folder_name": null,
+      "total": 184,
+      "supported": 47,
+      "recognized_unsupported": 0,
+      "unrecognized": 40,
+      "geometry_ineligible": 97
+    }
+  ],
+  "unsupported_expressions": [
+    {
+      "expression_id": "238",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "3b9bb5ecaec540b4",
+      "latex": "\\left(x-0.66\\right)^{2}+\\left(y-1.24\\right)^{2}+\\left(z-1.665\\right)^{2}=0.003\\ ",
+      "normalized_latex": "(x-0.66)^2+(y-1.24)^2+(z-1.665)^2=0.003"
+    },
+    {
+      "expression_id": "239",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "52a1372bce8ac519",
+      "latex": "\\left(x-0.66\\right)^{2}+\\left(y-1.08\\right)^{2}+\\left(z-1.665\\right)^{2}=0.003\\ ",
+      "normalized_latex": "(x-0.66)^2+(y-1.08)^2+(z-1.665)^2=0.003"
+    },
+    {
+      "expression_id": "240",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "0b163d340dc1cc93",
+      "latex": "\\left(x-0.66\\right)^{2}+\\left(y-0.92\\right)^{2}+\\left(z-1.665\\right)^{2}=0.003\\ ",
+      "normalized_latex": "(x-0.66)^2+(y-0.92)^2+(z-1.665)^2=0.003"
+    },
+    {
+      "expression_id": "245",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "001b592899230b4b",
+      "latex": "\\left(x-0.66\\right)^{2}+\\left(y-0.76\\right)^{2}+\\left(z-1.665\\right)^{2}=0.003\\ ",
+      "normalized_latex": "(x-0.66)^2+(y-0.76)^2+(z-1.665)^2=0.003"
+    },
+    {
+      "expression_id": "246",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "8ad417d9d5077716",
+      "latex": "\\left(x-0.66\\right)^{2}+\\left(y-0.60\\right)^{2}+\\left(z-1.665\\right)^{2}=0.003\\ ",
+      "normalized_latex": "(x-0.66)^2+(y-0.60)^2+(z-1.665)^2=0.003"
+    },
+    {
+      "expression_id": "247",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "4222bd69eba37b04",
+      "latex": "\\left(x-0.66\\right)^{2}+\\left(y-0.44\\right)^{2}+\\left(z-1.665\\right)^{2}=0.003\\ ",
+      "normalized_latex": "(x-0.66)^2+(y-0.44)^2+(z-1.665)^2=0.003"
+    },
+    {
+      "expression_id": "248",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "1ea4f85db3c2dbca",
+      "latex": "\\left(x-0.66\\right)^{2}+\\left(y-0.28\\right)^{2}+\\left(z-1.665\\right)^{2}=0.003\\ ",
+      "normalized_latex": "(x-0.66)^2+(y-0.28)^2+(z-1.665)^2=0.003"
+    },
+    {
+      "expression_id": "249",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "da1dfaba0769c938",
+      "latex": "\\left(x-0.66\\right)^{2}+\\left(y-0.12\\right)^{2}+\\left(z-1.665\\right)^{2}=0.003\\ ",
+      "normalized_latex": "(x-0.66)^2+(y-0.12)^2+(z-1.665)^2=0.003"
+    },
+    {
+      "expression_id": "250",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "c316dde923ff3468",
+      "latex": "\\left(x-0.66\\right)^{2}+\\left(y+0.04\\right)^{2}+\\left(z-1.665\\right)^{2}=0.003\\ ",
+      "normalized_latex": "(x-0.66)^2+(y+0.04)^2+(z-1.665)^2=0.003"
+    },
+    {
+      "expression_id": "251",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "d34bf411228a15b4",
+      "latex": "\\left(x-0.66\\right)^{2}+\\left(y+0.20\\right)^{2}+\\left(z-1.665\\right)^{2}=0.003\\ ",
+      "normalized_latex": "(x-0.66)^2+(y+0.20)^2+(z-1.665)^2=0.003"
+    },
+    {
+      "expression_id": "252",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "fe33a9f2da5e4461",
+      "latex": "\\left(x+0.69\\right)^{2}+\\left(y-1.24\\right)^{2}+\\left(z-1.665\\right)^{2}=0.003\\ ",
+      "normalized_latex": "(x+0.69)^2+(y-1.24)^2+(z-1.665)^2=0.003"
+    },
+    {
+      "expression_id": "253",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "f2c6f3b6c901b98d",
+      "latex": "\\left(x+0.69\\right)^{2}+\\left(y-1.08\\right)^{2}+\\left(z-1.665\\right)^{2}=0.003\\ ",
+      "normalized_latex": "(x+0.69)^2+(y-1.08)^2+(z-1.665)^2=0.003"
+    },
+    {
+      "expression_id": "254",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "be510e301563a8a7",
+      "latex": "\\left(x+0.69\\right)^{2}+\\left(y-0.92\\right)^{2}+\\left(z-1.665\\right)^{2}=0.003\\ ",
+      "normalized_latex": "(x+0.69)^2+(y-0.92)^2+(z-1.665)^2=0.003"
+    },
+    {
+      "expression_id": "255",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "9b2053cd99e659b2",
+      "latex": "\\left(x+0.69\\right)^{2}+\\left(y-0.76\\right)^{2}+\\left(z-1.665\\right)^{2}=0.003\\ ",
+      "normalized_latex": "(x+0.69)^2+(y-0.76)^2+(z-1.665)^2=0.003"
+    },
+    {
+      "expression_id": "256",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "240da67f2ea435f8",
+      "latex": "\\left(x+0.69\\right)^{2}+\\left(y-0.60\\right)^{2}+\\left(z-1.665\\right)^{2}=0.003\\ ",
+      "normalized_latex": "(x+0.69)^2+(y-0.60)^2+(z-1.665)^2=0.003"
+    },
+    {
+      "expression_id": "257",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "8c0be87024e94c62",
+      "latex": "\\left(x+0.69\\right)^{2}+\\left(y-0.44\\right)^{2}+\\left(z-1.665\\right)^{2}=0.003\\ ",
+      "normalized_latex": "(x+0.69)^2+(y-0.44)^2+(z-1.665)^2=0.003"
+    },
+    {
+      "expression_id": "258",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "950dc41feae57f70",
+      "latex": "\\left(x+0.69\\right)^{2}+\\left(y-0.28\\right)^{2}+\\left(z-1.665\\right)^{2}=0.003\\ ",
+      "normalized_latex": "(x+0.69)^2+(y-0.28)^2+(z-1.665)^2=0.003"
+    },
+    {
+      "expression_id": "259",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "0f923037337e5f26",
+      "latex": "\\left(x+0.69\\right)^{2}+\\left(y-0.12\\right)^{2}+\\left(z-1.665\\right)^{2}=0.003\\ ",
+      "normalized_latex": "(x+0.69)^2+(y-0.12)^2+(z-1.665)^2=0.003"
+    },
+    {
+      "expression_id": "260",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "c10b8f5289b6ebdb",
+      "latex": "\\left(x+0.69\\right)^{2}+\\left(y+0.04\\right)^{2}+\\left(z-1.665\\right)^{2}=0.003\\ ",
+      "normalized_latex": "(x+0.69)^2+(y+0.04)^2+(z-1.665)^2=0.003"
+    },
+    {
+      "expression_id": "262",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "91e048b76855efe4",
+      "latex": "\\left(x+0.69\\right)^{2}+\\left(y+0.20\\right)^{2}+\\left(z-1.665\\right)^{2}=0.003\\ ",
+      "normalized_latex": "(x+0.69)^2+(y+0.20)^2+(z-1.665)^2=0.003"
+    },
+    {
+      "expression_id": "263",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "30c4e09e16151334",
+      "latex": "\\left(x+0.62\\right)^{2}+\\left(y+0.29\\right)^{2}+\\left(z-1.665\\right)^{2}=0.003\\ ",
+      "normalized_latex": "(x+0.62)^2+(y+0.29)^2+(z-1.665)^2=0.003"
+    },
+    {
+      "expression_id": "264",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "24f39b40427ed1d2",
+      "latex": "\\left(x+0.47\\right)^{2}+\\left(y+0.29\\right)^{2}+\\left(z-1.665\\right)^{2}=0.003\\ ",
+      "normalized_latex": "(x+0.47)^2+(y+0.29)^2+(z-1.665)^2=0.003"
+    },
+    {
+      "expression_id": "266",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "b978ee90d9db37e6",
+      "latex": "\\left(x+0.32\\right)^{2}+\\left(y+0.29\\right)^{2}+\\left(z-1.665\\right)^{2}=0.003\\ ",
+      "normalized_latex": "(x+0.32)^2+(y+0.29)^2+(z-1.665)^2=0.003"
+    },
+    {
+      "expression_id": "267",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "6d8687dfc019bcc7",
+      "latex": "\\left(x+0.17\\right)^{2}+\\left(y+0.29\\right)^{2}+\\left(z-1.665\\right)^{2}=0.003\\ ",
+      "normalized_latex": "(x+0.17)^2+(y+0.29)^2+(z-1.665)^2=0.003"
+    },
+    {
+      "expression_id": "268",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "54596dedbc15a9d0",
+      "latex": "\\left(x+0.02\\right)^{2}+\\left(y+0.29\\right)^{2}+\\left(z-1.665\\right)^{2}=0.003\\ ",
+      "normalized_latex": "(x+0.02)^2+(y+0.29)^2+(z-1.665)^2=0.003"
+    },
+    {
+      "expression_id": "269",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "7209e1a2b7fd368c",
+      "latex": "\\left(x-0.13\\right)^{2}+\\left(y+0.29\\right)^{2}+\\left(z-1.665\\right)^{2}=0.003\\ ",
+      "normalized_latex": "(x-0.13)^2+(y+0.29)^2+(z-1.665)^2=0.003"
+    },
+    {
+      "expression_id": "270",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "d4bd0277e42fd0ae",
+      "latex": "\\left(x-0.28\\right)^{2}+\\left(y+0.29\\right)^{2}+\\left(z-1.665\\right)^{2}=0.003\\ ",
+      "normalized_latex": "(x-0.28)^2+(y+0.29)^2+(z-1.665)^2=0.003"
+    },
+    {
+      "expression_id": "271",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "ca82768563e8acd2",
+      "latex": "\\left(x-0.43\\right)^{2}+\\left(y+0.29\\right)^{2}+\\left(z-1.665\\right)^{2}=0.003\\ ",
+      "normalized_latex": "(x-0.43)^2+(y+0.29)^2+(z-1.665)^2=0.003"
+    },
+    {
+      "expression_id": "272",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "d33e478b2cd9e4fe",
+      "latex": "\\left(x-0.58\\right)^{2}+\\left(y+0.29\\right)^{2}+\\left(z-1.665\\right)^{2}=0.003\\ ",
+      "normalized_latex": "(x-0.58)^2+(y+0.29)^2+(z-1.665)^2=0.003"
+    },
+    {
+      "expression_id": "273",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "8be728bb8401532d",
+      "latex": "\\left(x-0.58\\right)^{2}+\\left(y-1.29\\right)^{2}+\\left(z-1.665\\right)^{2}=0.003\\ ",
+      "normalized_latex": "(x-0.58)^2+(y-1.29)^2+(z-1.665)^2=0.003"
+    },
+    {
+      "expression_id": "274",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "4357a652b119a961",
+      "latex": "\\left(x-0.43\\right)^{2}+\\left(y-1.29\\right)^{2}+\\left(z-1.665\\right)^{2}=0.003\\ ",
+      "normalized_latex": "(x-0.43)^2+(y-1.29)^2+(z-1.665)^2=0.003"
+    },
+    {
+      "expression_id": "275",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "a11cd2d8124ee37d",
+      "latex": "\\left(x-0.28\\right)^{2}+\\left(y-1.29\\right)^{2}+\\left(z-1.665\\right)^{2}=0.003\\ ",
+      "normalized_latex": "(x-0.28)^2+(y-1.29)^2+(z-1.665)^2=0.003"
+    },
+    {
+      "expression_id": "276",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "0af2c4a9e9112152",
+      "latex": "\\left(x-0.13\\right)^{2}+\\left(y-1.29\\right)^{2}+\\left(z-1.665\\right)^{2}=0.003\\ ",
+      "normalized_latex": "(x-0.13)^2+(y-1.29)^2+(z-1.665)^2=0.003"
+    },
+    {
+      "expression_id": "277",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "20686e393bd082fd",
+      "latex": "\\left(x+0.02\\right)^{2}+\\left(y-1.29\\right)^{2}+\\left(z-1.665\\right)^{2}=0.003\\ ",
+      "normalized_latex": "(x+0.02)^2+(y-1.29)^2+(z-1.665)^2=0.003"
+    },
+    {
+      "expression_id": "278",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "7376d661a0d899f8",
+      "latex": "\\left(x+0.17\\right)^{2}+\\left(y-1.29\\right)^{2}+\\left(z-1.665\\right)^{2}=0.003\\ ",
+      "normalized_latex": "(x+0.17)^2+(y-1.29)^2+(z-1.665)^2=0.003"
+    },
+    {
+      "expression_id": "279",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "8d51675eda79d703",
+      "latex": "\\left(x+0.32\\right)^{2}+\\left(y-1.29\\right)^{2}+\\left(z-1.665\\right)^{2}=0.003\\ ",
+      "normalized_latex": "(x+0.32)^2+(y-1.29)^2+(z-1.665)^2=0.003"
+    },
+    {
+      "expression_id": "280",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "17ac1603048c7abe",
+      "latex": "\\left(x+0.47\\right)^{2}+\\left(y-1.29\\right)^{2}+\\left(z-1.665\\right)^{2}=0.003\\ ",
+      "normalized_latex": "(x+0.47)^2+(y-1.29)^2+(z-1.665)^2=0.003"
+    },
+    {
+      "expression_id": "281",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "63cb414b64807891",
+      "latex": "\\left(x+0.62\\right)^{2}+\\left(y-1.29\\right)^{2}+\\left(z-1.665\\right)^{2}=0.003\\ ",
+      "normalized_latex": "(x+0.62)^2+(y-1.29)^2+(z-1.665)^2=0.003"
+    },
+    {
+      "expression_id": "307",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "3d7c0f138b006de8",
+      "latex": "G_{1}=(0.24,.75,3.42),(0.24,.75,3.66),(0.29,.75,3.7),(0.28,.75,3.98),(0.301,.75,4.015),(0.28,.75,4.32),(0.38,.75,4.58),(0.14,.75,4.92),(-0.18,.75,4.92),(-0.24,.75,5.18),(-0.4,.75,5.16),(-0.44,.75,4.94),(-0.36,.75,4.8),(-0.35,.75,4.55),(-0.35,.75,4.25),(-0.3,.75,3.95),(-0.28,.75,3.42),(0,.85,3.7),(0,.85,4.2),(0,.85,4.5)",
+      "normalized_latex": "G_1=(0.24,.75,3.42),(0.24,.75,3.66),(0.29,.75,3.7),(0.28,.75,3.98),(0.301,.75,4.015),(0.28,.75,4.32),(0.38,.75,4.58),(0.14,.75,4.92),(-0.18,.75,4.92),(-0.24,.75,5.18),(-0.4,.75,5.16),(-0.44,.75,4.94),(-0.36,.75,4.8),(-0.35,.75,4.55),(-0.35,.75,4.25),(-0.3,.75,3.95),(-0.28,.75,3.42),(0,.85,3.7),(0,.85,4.2),(0,.85,4.5)"
+    },
+    {
+      "expression_id": "310",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "e4b3befc4de7e183",
+      "latex": "\\left(x+a\\right)^{2}+\\left(y+b\\right)^{2}+\\left(z+c\\right)^{2}=d",
+      "normalized_latex": "(x+a)^2+(y+b)^2+(z+c)^2=d"
+    }
+  ],
+  "unknown_fingerprints": [
+    "001b592899230b4b",
+    "0af2c4a9e9112152",
+    "0b163d340dc1cc93",
+    "0f923037337e5f26",
+    "17ac1603048c7abe",
+    "1ea4f85db3c2dbca",
+    "20686e393bd082fd",
+    "240da67f2ea435f8",
+    "24f39b40427ed1d2",
+    "30c4e09e16151334",
+    "3b9bb5ecaec540b4",
+    "3d7c0f138b006de8",
+    "4222bd69eba37b04",
+    "4357a652b119a961",
+    "52a1372bce8ac519",
+    "54596dedbc15a9d0",
+    "63cb414b64807891",
+    "6d8687dfc019bcc7",
+    "7209e1a2b7fd368c",
+    "7376d661a0d899f8",
+    "8ad417d9d5077716",
+    "8be728bb8401532d",
+    "8c0be87024e94c62",
+    "8d51675eda79d703",
+    "91e048b76855efe4",
+    "950dc41feae57f70",
+    "9b2053cd99e659b2",
+    "a11cd2d8124ee37d",
+    "b978ee90d9db37e6",
+    "be510e301563a8a7",
+    "c10b8f5289b6ebdb",
+    "c316dde923ff3468",
+    "ca82768563e8acd2",
+    "d33e478b2cd9e4fe",
+    "d34bf411228a15b4",
+    "d4bd0277e42fd0ae",
+    "da1dfaba0769c938",
+    "e4b3befc4de7e183",
+    "f2c6f3b6c901b98d",
+    "fe33a9f2da5e4461"
+  ],
+  "diagnostics": [
+    {
+      "severity": "INFO",
+      "code": "AUDIT_COMPLETE",
+      "message": "Audit classification complete",
+      "source_ref": null,
+      "details": {
+        "file": "[4B] 3D Diagram - S2-07 Group F.json"
+      }
+    }
+  ],
+  "status": "PARTIAL"
+}

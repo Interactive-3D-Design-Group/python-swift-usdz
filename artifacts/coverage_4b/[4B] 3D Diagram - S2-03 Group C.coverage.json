@@ -1,0 +1,351 @@
+{
+  "source_file": "[4B] 3D Diagram - S2-03 Group C.json",
+  "total_items": 138,
+  "total_expressions": 136,
+  "meshed_expression_count": 117,
+  "supported_expression_count": 118,
+  "supported_but_not_meshed_count": 1,
+  "recognized_unsupported_count": 13,
+  "unrecognized_count": 0,
+  "geometry_ineligible_count": 5,
+  "groups": [
+    {
+      "fingerprint": "0b1d5eea857fa888",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Partial axis bounds only",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "129"
+      ],
+      "example_latex": [
+        "z<0"
+      ],
+      "example_normalized": [
+        "z<0"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "0c5ba7d65d6fd086",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Partial axis bounds only",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "139"
+      ],
+      "example_latex": [
+        "z\\le-\\left(x-45\\right)\\left(x-45\\right)+112\\left\\{z\\ge107.30278\\right\\}\\left\\{40>y>20\\right\\}"
+      ],
+      "example_normalized": [
+        "z<=-(x-45)(x-45)+112{z>=107.30278}{40>y>20}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "4b9f4ba64a344246",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Partial axis bounds only",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "115"
+      ],
+      "example_latex": [
+        "z\\le-\\left(x-55\\right)\\left(x-55\\right)+102\\left\\{z\\ge97.30278\\right\\}\\left\\{0>y>-20\\right\\}"
+      ],
+      "example_normalized": [
+        "z<=-(x-55)(x-55)+102{z>=97.30278}{0>y>-20}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "65474751b80db526",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Partial axis bounds only",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "160"
+      ],
+      "example_latex": [
+        "z\\le-\\left(x-25\\right)\\left(x-35\\right)+152\\left\\{z\\ge170.37228\\right\\}\\left\\{0<y<20\\right\\}"
+      ],
+      "example_normalized": [
+        "z<=-(x-25)(x-35)+152{z>=170.37228}{0<y<20}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "779767d2b429f371",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Partial axis bounds only",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "103"
+      ],
+      "example_latex": [
+        "z\\le-\\left(x-25\\right)\\left(x-35\\right)+132\\left\\{z\\ge153.37228\\right\\}\\left\\{0>y>-20\\right\\}"
+      ],
+      "example_normalized": [
+        "z<=-(x-25)(x-35)+132{z>=153.37228}{0>y>-20}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "8359f87c4f431242",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Partial axis bounds only",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "142"
+      ],
+      "example_latex": [
+        "z\\le-\\left(x-25\\right)\\left(x-35\\right)+132\\left\\{z\\ge153.37228\\right\\}\\left\\{40>y>20\\right\\}"
+      ],
+      "example_normalized": [
+        "z<=-(x-25)(x-35)+132{z>=153.37228}{40>y>20}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "aa5efbed8900960c",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Partial axis bounds only",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "145"
+      ],
+      "example_latex": [
+        "z\\le-\\left(x-15\\right)\\left(x-15\\right)+112\\left\\{z\\ge107.30278\\right\\}\\left\\{40>y>20\\right\\}"
+      ],
+      "example_normalized": [
+        "z<=-(x-15)(x-15)+112{z>=107.30278}{40>y>20}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "b10183f7c685c113",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Partial axis bounds only",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "113"
+      ],
+      "example_latex": [
+        "z\\le-\\left(x-5\\right)\\left(x-5\\right)+102\\left\\{z\\ge97.30278\\right\\}\\left\\{0>y>-20\\right\\}"
+      ],
+      "example_normalized": [
+        "z<=-(x-5)(x-5)+102{z>=97.30278}{0>y>-20}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "ba45abdbb8aceaf5",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Partial axis bounds only",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "136"
+      ],
+      "example_latex": [
+        "z\\le-\\left(x-55\\right)\\left(x-55\\right)+102\\left\\{z\\ge97.30278\\right\\}\\left\\{40>y>20\\right\\}"
+      ],
+      "example_normalized": [
+        "z<=-(x-55)(x-55)+102{z>=97.30278}{40>y>20}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "bd6580da2a2070af",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Partial axis bounds only",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "148"
+      ],
+      "example_latex": [
+        "z\\le-\\left(x-5\\right)\\left(x-5\\right)+102\\left\\{z\\ge97.30278\\right\\}\\left\\{40>y>20\\right\\}"
+      ],
+      "example_normalized": [
+        "z<=-(x-5)(x-5)+102{z>=97.30278}{40>y>20}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "e96d5e9c79c56582",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Partial axis bounds only",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "110"
+      ],
+      "example_latex": [
+        "z\\le-\\left(x-45\\right)\\left(x-45\\right)+112\\left\\{z\\ge107.30278\\right\\}\\left\\{0>y>-20\\right\\}"
+      ],
+      "example_normalized": [
+        "z<=-(x-45)(x-45)+112{z>=107.30278}{0>y>-20}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "f0485f6a6a6e399e",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Partial axis bounds only",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "107"
+      ],
+      "example_latex": [
+        "z\\le-\\left(x-15\\right)\\left(x-15\\right)+112\\left\\{z\\ge107.30278\\right\\}\\left\\{0>y>-20\\right\\}"
+      ],
+      "example_normalized": [
+        "z<=-(x-15)(x-15)+112{z>=107.30278}{0>y>-20}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "f1997c30cdcf5f70",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Partial axis bounds only",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "104"
+      ],
+      "example_latex": [
+        "z<-\\left(x-20\\right)\\left(x-40\\right)-80\\left\\{140\\ge z\\ge0\\right\\}\\left\\{20<y<45\\right\\}"
+      ],
+      "example_normalized": [
+        "z<-(x-20)(x-40)-80{140>=z>=0}{20<y<45}"
+      ],
+      "flags": {
+        "lines": 1,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "4863cca369e64cbe",
+      "family": "LINEAR_SURFACE_PATCH",
+      "status": "SUPPORTED",
+      "reason": "Explicit z=f(x,y) surface",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "87"
+      ],
+      "example_latex": [
+        "z=-3x+56\\left\\{56\\le z\\le58\\right\\}\\left\\{20>y>-20\\right\\}"
+      ],
+      "example_normalized": [
+        "z=-3x+56{56<=z<=58}{20>y>-20}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    }
+  ],
+  "diagnostics": [
+    {
+      "severity": "WARNING",
+      "code": "COVERAGE_MESH_FAILURES",
+      "message": "Some meshes failed during coverage pass (these items may be missing)",
+      "source_ref": null,
+      "details": {
+        "failed_mesh_count": 1,
+        "failures": [
+          {
+            "source_file": "[4B] 3D Diagram - S2-03 Group C.json",
+            "expression_id": "87",
+            "error": "Missing finite bounds for axis x"
+          }
+        ]
+      }
+    },
+    {
+      "severity": "INFO",
+      "code": "COVERAGE_COMPLETE",
+      "message": "Coverage report complete",
+      "source_ref": null,
+      "details": {
+        "file": "[4B] 3D Diagram - S2-03 Group C.json",
+        "meshed_expression_ids": 117,
+        "supported_but_not_meshed": 1,
+        "group_count": 14
+      }
+    }
+  ]
+}

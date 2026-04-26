@@ -1,0 +1,651 @@
+{
+  "version": 11,
+  "randomSeed": "14f39a2c518ce98f4801600f7e786d5d",
+  "graph": {
+    "viewport": {
+      "xmin": -203.87160109971657,
+      "ymin": -203.87160109971657,
+      "zmin": -203.87160109971657,
+      "xmax": 203.87160109971657,
+      "ymax": 203.87160109971657,
+      "zmax": 203.87160109971657
+    },
+    "worldRotation3D": [
+      -0.48159552491768803,
+      -0.8740752016118702,
+      -0.06370472750513113,
+      0.8665270065544612,
+      -0.48579063589909394,
+      0.11462288159263552,
+      -0.13113617842190622,
+      -2.0703290124543367e-13,
+      0.9913643642521048
+    ],
+    "axis3D": [
+      0,
+      0,
+      1.0000000000013554
+    ],
+    "speed3D": 0.6648873340921768,
+    "product": "graphing-3d",
+    "threeDMode": true,
+    "__v12ViewportLatexStash": {
+      "xmin": "-203.87160109971657",
+      "xmax": "203.87160109971657",
+      "ymin": "-203.87160109971657",
+      "ymax": "203.87160109971657",
+      "zmin": "-203.87160109971657",
+      "zmax": "203.87160109971657"
+    }
+  },
+  "expressions": {
+    "list": [
+      {
+        "type": "expression",
+        "id": "e0",
+        "color": "#2d70b3",
+        "latex": "s(z)=5+35e^{-z/50}"
+      },
+      {
+        "type": "expression",
+        "id": "e1",
+        "color": "#8B1A1A",
+        "latex": "(s(t),s(t),t)",
+        "parametricDomain": {
+          "min": "0",
+          "max": "138"
+        },
+        "lineWidth": "w",
+        "domain": {
+          "min": "0",
+          "max": "138"
+        }
+      },
+      {
+        "type": "expression",
+        "id": "e2",
+        "color": "#8B1A1A",
+        "latex": "(-s(t),s(t),t)",
+        "parametricDomain": {
+          "min": "0",
+          "max": "138"
+        },
+        "lineWidth": "w",
+        "domain": {
+          "min": "0",
+          "max": "138"
+        }
+      },
+      {
+        "type": "expression",
+        "id": "e3",
+        "color": "#8B1A1A",
+        "latex": "(s(t),-s(t),t)",
+        "parametricDomain": {
+          "min": "0",
+          "max": "138"
+        },
+        "lineWidth": "w",
+        "domain": {
+          "min": "0",
+          "max": "138"
+        }
+      },
+      {
+        "type": "expression",
+        "id": "e4",
+        "color": "#8B1A1A",
+        "latex": "(-s(t),-s(t),t)",
+        "parametricDomain": {
+          "min": "0",
+          "max": "138"
+        },
+        "lineWidth": "w",
+        "domain": {
+          "min": "0",
+          "max": "138"
+        }
+      },
+      {
+        "type": "expression",
+        "id": "e9",
+        "color": "#388c46",
+        "latex": "N=14"
+      },
+      {
+        "type": "expression",
+        "id": "e10",
+        "color": "#6042a6",
+        "latex": "z_{0}=20"
+      },
+      {
+        "type": "expression",
+        "id": "e11",
+        "color": "#aaaaaa",
+        "latex": "h=(138-z_{0})/N"
+      },
+      {
+        "type": "expression",
+        "id": "e12",
+        "color": "#c74440",
+        "latex": "n=[0...N-1]"
+      },
+      {
+        "type": "expression",
+        "id": "e13",
+        "color": "#2d70b3",
+        "latex": "a(k)=s(z_{0}+kh)"
+      },
+      {
+        "type": "expression",
+        "id": "e14",
+        "color": "#388c46",
+        "latex": "b(k)=s(z_{0}+(k+1)h)"
+      },
+      {
+        "type": "expression",
+        "id": "e15",
+        "color": "#6B6B6B",
+        "latex": "((1-t)a(n)+tb(n),-a(n)+t(a(n)+b(n)),z_{0}+nh+th)",
+        "parametricDomain": {
+          "min": "0",
+          "max": "1"
+        },
+        "lineOpacity": "0.8",
+        "lineWidth": "1.5",
+        "domain": {
+          "min": "0",
+          "max": "1"
+        }
+      },
+      {
+        "type": "expression",
+        "id": "e16",
+        "color": "#6B6B6B",
+        "latex": "((1-t)a(n)+tb(n),a(n)-t(a(n)+b(n)),z_{0}+nh+th)",
+        "parametricDomain": {
+          "min": "0",
+          "max": "1"
+        },
+        "lineOpacity": "0.8",
+        "lineWidth": "1.5",
+        "domain": {
+          "min": "0",
+          "max": "1"
+        }
+      },
+      {
+        "type": "expression",
+        "id": "e17",
+        "color": "#6B6B6B",
+        "latex": "(-((1-t)a(n)+tb(n)),-a(n)+t(a(n)+b(n)),z_{0}+nh+th)",
+        "parametricDomain": {
+          "min": "0",
+          "max": "1"
+        },
+        "lineOpacity": "0.8",
+        "lineWidth": "1.5",
+        "domain": {
+          "min": "0",
+          "max": "1"
+        }
+      },
+      {
+        "type": "expression",
+        "id": "e18",
+        "color": "#6B6B6B",
+        "latex": "(-((1-t)a(n)+tb(n)),a(n)-t(a(n)+b(n)),z_{0}+nh+th)",
+        "parametricDomain": {
+          "min": "0",
+          "max": "1"
+        },
+        "lineOpacity": "0.8",
+        "lineWidth": "1.5",
+        "domain": {
+          "min": "0",
+          "max": "1"
+        }
+      },
+      {
+        "type": "expression",
+        "id": "e19",
+        "color": "#6B6B6B",
+        "latex": "(-a(n)+t(a(n)+b(n)),(1-t)a(n)+tb(n),z_{0}+nh+th)",
+        "parametricDomain": {
+          "min": "0",
+          "max": "1"
+        },
+        "lineOpacity": "0.8",
+        "lineWidth": "1.5",
+        "domain": {
+          "min": "0",
+          "max": "1"
+        }
+      },
+      {
+        "type": "expression",
+        "id": "e20",
+        "color": "#6B6B6B",
+        "latex": "(a(n)-t(a(n)+b(n)),(1-t)a(n)+tb(n),z_{0}+nh+th)",
+        "parametricDomain": {
+          "min": "0",
+          "max": "1"
+        },
+        "lineOpacity": "0.8",
+        "lineWidth": "1.5",
+        "domain": {
+          "min": "0",
+          "max": "1"
+        }
+      },
+      {
+        "type": "expression",
+        "id": "e21",
+        "color": "#6B6B6B",
+        "latex": "(-a(n)+t(a(n)+b(n)),-((1-t)a(n)+tb(n)),z_{0}+nh+th)",
+        "parametricDomain": {
+          "min": "0",
+          "max": "1"
+        },
+        "lineOpacity": "0.8",
+        "lineWidth": "1.5",
+        "domain": {
+          "min": "0",
+          "max": "1"
+        }
+      },
+      {
+        "type": "expression",
+        "id": "e22",
+        "color": "#6B6B6B",
+        "latex": "(a(n)-t(a(n)+b(n)),-((1-t)a(n)+tb(n)),z_{0}+nh+th)",
+        "parametricDomain": {
+          "min": "0",
+          "max": "1"
+        },
+        "lineOpacity": "0.8",
+        "lineWidth": "1.5",
+        "domain": {
+          "min": "0",
+          "max": "1"
+        }
+      },
+      {
+        "type": "expression",
+        "id": "e23",
+        "color": "#8B1A1A",
+        "latex": "(40\\cos(t),s(20\\sin(t)),20\\sin(t))",
+        "parametricDomain": {
+          "min": "0",
+          "max": "\\pi"
+        },
+        "lineWidth": "w_{a}",
+        "domain": {
+          "min": "0",
+          "max": "\\pi"
+        }
+      },
+      {
+        "type": "expression",
+        "id": "e24",
+        "color": "#8B1A1A",
+        "latex": "(40\\cos(t),-s(20\\sin(t)),20\\sin(t))",
+        "parametricDomain": {
+          "min": "0",
+          "max": "\\pi"
+        },
+        "lineWidth": "w_{a}",
+        "domain": {
+          "min": "0",
+          "max": "\\pi"
+        }
+      },
+      {
+        "type": "expression",
+        "id": "e25",
+        "color": "#8B1A1A",
+        "latex": "(s(20\\sin(t)),40\\cos(t),20\\sin(t))",
+        "parametricDomain": {
+          "min": "0",
+          "max": "\\pi"
+        },
+        "lineWidth": "w_{a}",
+        "domain": {
+          "min": "0",
+          "max": "\\pi"
+        }
+      },
+      {
+        "type": "expression",
+        "id": "e26",
+        "color": "#8B1A1A",
+        "latex": "(-s(20\\sin(t)),40\\cos(t),20\\sin(t))",
+        "parametricDomain": {
+          "min": "0",
+          "max": "\\pi"
+        },
+        "lineWidth": "w_{a}",
+        "domain": {
+          "min": "0",
+          "max": "\\pi"
+        }
+      },
+      {
+        "type": "expression",
+        "id": "e27",
+        "color": "#4A4A4A",
+        "latex": "(2,2,138+12t)",
+        "parametricDomain": {
+          "min": "0",
+          "max": "1"
+        },
+        "lineWidth": "3",
+        "domain": {
+          "min": "0",
+          "max": "1"
+        }
+      },
+      {
+        "type": "expression",
+        "id": "e28",
+        "color": "#4A4A4A",
+        "latex": "(-2,2,138+12t)",
+        "parametricDomain": {
+          "min": "0",
+          "max": "1"
+        },
+        "lineWidth": "3",
+        "domain": {
+          "min": "0",
+          "max": "1"
+        }
+      },
+      {
+        "type": "expression",
+        "id": "e29",
+        "color": "#4A4A4A",
+        "latex": "(2,-2,138+12t)",
+        "parametricDomain": {
+          "min": "0",
+          "max": "1"
+        },
+        "lineWidth": "3",
+        "domain": {
+          "min": "0",
+          "max": "1"
+        }
+      },
+      {
+        "type": "expression",
+        "id": "e30",
+        "color": "#4A4A4A",
+        "latex": "(-2,-2,138+12t)",
+        "parametricDomain": {
+          "min": "0",
+          "max": "1"
+        },
+        "lineWidth": "3",
+        "domain": {
+          "min": "0",
+          "max": "1"
+        }
+      },
+      {
+        "type": "expression",
+        "id": "e31",
+        "color": "#4A4A4A",
+        "latex": "(2u,2v,150)",
+        "fillOpacity": "0.5"
+      },
+      {
+        "type": "expression",
+        "id": "e32",
+        "color": "#2A2A2A",
+        "latex": "(0,0,150+15t)",
+        "parametricDomain": {
+          "min": "0",
+          "max": "1"
+        },
+        "lineWidth": "3",
+        "domain": {
+          "min": "0",
+          "max": "1"
+        }
+      },
+      {
+        "type": "expression",
+        "id": "w",
+        "color": "#6042a6",
+        "latex": "w=1.7",
+        "slider": {
+          "hardMin": true,
+          "hardMax": true,
+          "min": "0.5",
+          "max": "12",
+          "step": "0.1"
+        }
+      },
+      {
+        "type": "expression",
+        "id": "wa",
+        "color": "#aaaaaa",
+        "latex": "w_{a}=2.4",
+        "slider": {
+          "hardMin": true,
+          "hardMax": true,
+          "min": "0.5",
+          "max": "12",
+          "step": "0.1"
+        }
+      },
+      {
+        "type": "expression",
+        "id": "tp",
+        "color": "#c74440",
+        "latex": "t_{p}=1.8",
+        "slider": {
+          "hardMin": true,
+          "hardMax": true,
+          "min": "0.2",
+          "max": "4",
+          "step": "0.1"
+        }
+      },
+      {
+        "type": "expression",
+        "id": "p1a",
+        "color": "#333333",
+        "latex": "(s(20)(2u-1),s(20)(2v-1),20)",
+        "fillOpacity": "0.85",
+        "lineOpacity": "0.2"
+      },
+      {
+        "type": "expression",
+        "id": "p1b",
+        "color": "#333333",
+        "latex": "(s(20)(2u-1),s(20)(2v-1),(20-t_{p}))",
+        "fillOpacity": "0.85",
+        "lineOpacity": "0.2"
+      },
+      {
+        "type": "expression",
+        "id": "p1c",
+        "color": "#333333",
+        "latex": "(s(20),s(20)(2u-1),(20-t_{p}+t_{p}v))",
+        "fillOpacity": "0.85",
+        "lineOpacity": "0.2"
+      },
+      {
+        "type": "expression",
+        "id": "p1d",
+        "color": "#333333",
+        "latex": "(-s(20),s(20)(2u-1),(20-t_{p}+t_{p}v))",
+        "fillOpacity": "0.85",
+        "lineOpacity": "0.2"
+      },
+      {
+        "type": "expression",
+        "id": "p1e",
+        "color": "#333333",
+        "latex": "(s(20)(2u-1),s(20),(20-t_{p}+t_{p}v))",
+        "fillOpacity": "0.85",
+        "lineOpacity": "0.2"
+      },
+      {
+        "type": "expression",
+        "id": "p1f",
+        "color": "#333333",
+        "latex": "(s(20)(2u-1),-s(20),(20-t_{p}+t_{p}v))",
+        "fillOpacity": "0.85",
+        "lineOpacity": "0.2"
+      },
+      {
+        "type": "expression",
+        "id": "p2a",
+        "color": "#333333",
+        "latex": "(s(28.5)(2u-1),s(28.5)(2v-1),28.5)",
+        "fillOpacity": "0.85",
+        "lineOpacity": "0.2"
+      },
+      {
+        "type": "expression",
+        "id": "p2b",
+        "color": "#333333",
+        "latex": "(s(28.5)(2u-1),s(28.5)(2v-1),(28.5-t_{p}))",
+        "fillOpacity": "0.85",
+        "lineOpacity": "0.2"
+      },
+      {
+        "type": "expression",
+        "id": "p2c",
+        "color": "#333333",
+        "latex": "(s(28.5),s(28.5)(2u-1),(28.5-t_{p}+t_{p}v))",
+        "fillOpacity": "0.85",
+        "lineOpacity": "0.2"
+      },
+      {
+        "type": "expression",
+        "id": "p2d",
+        "color": "#333333",
+        "latex": "(-s(28.5),s(28.5)(2u-1),(28.5-t_{p}+t_{p}v))",
+        "fillOpacity": "0.85",
+        "lineOpacity": "0.2"
+      },
+      {
+        "type": "expression",
+        "id": "p2e",
+        "color": "#333333",
+        "latex": "(s(28.5)(2u-1),s(28.5),(28.5-t_{p}+t_{p}v))",
+        "fillOpacity": "0.85",
+        "lineOpacity": "0.2"
+      },
+      {
+        "type": "expression",
+        "id": "p2f",
+        "color": "#333333",
+        "latex": "(s(28.5)(2u-1),-s(28.5),(28.5-t_{p}+t_{p}v))",
+        "fillOpacity": "0.85",
+        "lineOpacity": "0.2"
+      },
+      {
+        "type": "expression",
+        "id": "p3a",
+        "color": "#333333",
+        "latex": "(s(57.5)(2u-1),s(57.5)(2v-1),57.5)",
+        "fillOpacity": "0.85",
+        "lineOpacity": "0.2"
+      },
+      {
+        "type": "expression",
+        "id": "p3b",
+        "color": "#333333",
+        "latex": "(s(57.5)(2u-1),s(57.5)(2v-1),(57.5-t_{p}))",
+        "fillOpacity": "0.85",
+        "lineOpacity": "0.2"
+      },
+      {
+        "type": "expression",
+        "id": "p3c",
+        "color": "#333333",
+        "latex": "(s(57.5),s(57.5)(2u-1),(57.5-t_{p}+t_{p}v))",
+        "fillOpacity": "0.85",
+        "lineOpacity": "0.2"
+      },
+      {
+        "type": "expression",
+        "id": "p3d",
+        "color": "#333333",
+        "latex": "(-s(57.5),s(57.5)(2u-1),(57.5-t_{p}+t_{p}v))",
+        "fillOpacity": "0.85",
+        "lineOpacity": "0.2"
+      },
+      {
+        "type": "expression",
+        "id": "p3e",
+        "color": "#333333",
+        "latex": "(s(57.5)(2u-1),s(57.5),(57.5-t_{p}+t_{p}v))",
+        "fillOpacity": "0.85",
+        "lineOpacity": "0.2"
+      },
+      {
+        "type": "expression",
+        "id": "p3f",
+        "color": "#333333",
+        "latex": "(s(57.5)(2u-1),-s(57.5),(57.5-t_{p}+t_{p}v))",
+        "fillOpacity": "0.85",
+        "lineOpacity": "0.2"
+      },
+      {
+        "type": "expression",
+        "id": "p4a",
+        "color": "#333333",
+        "latex": "(s(138)(2u-1),s(138)(2v-1),138)",
+        "fillOpacity": "0.85",
+        "lineOpacity": "0.2"
+      },
+      {
+        "type": "expression",
+        "id": "p4b",
+        "color": "#333333",
+        "latex": "(s(138)(2u-1),s(138)(2v-1),(138-t_{p}))",
+        "fillOpacity": "0.85",
+        "lineOpacity": "0.2"
+      },
+      {
+        "type": "expression",
+        "id": "p4c",
+        "color": "#333333",
+        "latex": "(s(138),s(138)(2u-1),(138-t_{p}+t_{p}v))",
+        "fillOpacity": "0.85",
+        "lineOpacity": "0.2"
+      },
+      {
+        "type": "expression",
+        "id": "p4d",
+        "color": "#333333",
+        "latex": "(-s(138),s(138)(2u-1),(138-t_{p}+t_{p}v))",
+        "fillOpacity": "0.85",
+        "lineOpacity": "0.2"
+      },
+      {
+        "type": "expression",
+        "id": "p4e",
+        "color": "#333333",
+        "latex": "(s(138)(2u-1),s(138),(138-t_{p}+t_{p}v))",
+        "fillOpacity": "0.85",
+        "lineOpacity": "0.2"
+      },
+      {
+        "type": "expression",
+        "id": "p4f",
+        "color": "#333333",
+        "latex": "(s(138)(2u-1),-s(138),(138-t_{p}+t_{p}v))",
+        "fillOpacity": "0.85",
+        "lineOpacity": "0.2"
+      }
+    ]
+  },
+  "includeFunctionParametersInRandomSeed": true,
+  "doNotMigrate3dLineWidthZero": true,
+  "doNotMigrateMovablePointStyle": true
+}

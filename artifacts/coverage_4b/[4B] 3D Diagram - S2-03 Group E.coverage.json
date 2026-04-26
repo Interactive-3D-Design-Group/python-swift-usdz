@@ -1,0 +1,2791 @@
+{
+  "source_file": "[4B] 3D Diagram - S2-03 Group E.json",
+  "total_items": 221,
+  "total_expressions": 214,
+  "meshed_expression_count": 34,
+  "supported_expression_count": 39,
+  "supported_but_not_meshed_count": 5,
+  "recognized_unsupported_count": 114,
+  "unrecognized_count": 13,
+  "geometry_ineligible_count": 48,
+  "groups": [
+    {
+      "fingerprint": "32dbaf9719edb7b2",
+      "family": "BOX_BOUNDED_REGION",
+      "status": "SUPPORTED",
+      "reason": "Box/prism bounded region",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "110"
+      ],
+      "example_latex": [
+        "20.5\\ \\le y\\ \\le\\ 20.5\\ +\\ 0.2\\left\\{3\\ \\ge\\ z\\ \\ge0\\right\\}\\left\\{20.5\\ -\\ p_{pattern}\\ \\ge x\\ge20.3-p_{pattern}\\right\\}"
+      ],
+      "example_normalized": [
+        "20.5<=y<=20.5+0.2{3>=z>=0}{20.5-p_{pattern}>=x>=20.3-p_{pattern}}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "4b8d8f5f5e28c669",
+      "family": "BOX_BOUNDED_REGION",
+      "status": "SUPPORTED",
+      "reason": "Box/prism bounded region",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "123"
+      ],
+      "example_latex": [
+        "-20.5\\ \\ge x\\ \\ge\\ -20.5\\ -\\ 0.2\\left\\{3\\ \\ge\\ z\\ \\ge0\\right\\}\\left\\{20.5\\ -\\ p_{pattern}\\ \\ge y\\ge20.3-p_{pattern}\\right\\}"
+      ],
+      "example_normalized": [
+        "-20.5>=x>=-20.5-0.2{3>=z>=0}{20.5-p_{pattern}>=y>=20.3-p_{pattern}}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "5973f0ee584c487f",
+      "family": "BOX_BOUNDED_REGION",
+      "status": "SUPPORTED",
+      "reason": "Box/prism bounded region",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "131"
+      ],
+      "example_latex": [
+        "20.5\\ \\le x\\ \\le\\ 20.5\\ +\\ 0.2\\left\\{3\\ \\ge\\ z\\ \\ge0\\right\\}\\left\\{20.5\\ -\\ p_{pattern2}\\ \\ge y\\ge20.3-p_{pattern2}\\right\\}"
+      ],
+      "example_normalized": [
+        "20.5<=x<=20.5+0.2{3>=z>=0}{20.5-p_{pattern2}>=y>=20.3-p_{pattern2}}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "b62ade360b52feef",
+      "family": "BOX_BOUNDED_REGION",
+      "status": "SUPPORTED",
+      "reason": "Box/prism bounded region",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "117"
+      ],
+      "example_latex": [
+        "-20.5\\ \\ge y\\ \\ge\\ -20.5\\ -\\ 0.2\\left\\{3\\ \\ge\\ z\\ \\ge0\\right\\}\\left\\{20.5\\ -\\ p_{pattern}\\ \\ge x\\ge20.3-p_{pattern}\\right\\}"
+      ],
+      "example_normalized": [
+        "-20.5>=y>=-20.5-0.2{3>=z>=0}{20.5-p_{pattern}>=x>=20.3-p_{pattern}}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "dc6fc09e03d01981",
+      "family": "BOX_BOUNDED_REGION",
+      "status": "SUPPORTED",
+      "reason": "Box/prism bounded region",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "140"
+      ],
+      "example_latex": [
+        "23.5\\ \\le x\\ \\le\\ 23.5\\ +\\ 0.2\\left\\{3\\ \\ge\\ z\\ \\ge0\\right\\}\\left\\{20.5\\ -\\ p_{pattern3}\\ \\ge y\\ge20.3-p_{pattern3}\\right\\}"
+      ],
+      "example_normalized": [
+        "23.5<=x<=23.5+0.2{3>=z>=0}{20.5-p_{pattern3}>=y>=20.3-p_{pattern3}}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "04ae857554ad58f2",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "93"
+      ],
+      "example_latex": [
+        "\\frac{s_{sidelength}}{2}\\ \\ge\\ \\frac{\\left(x-f_{6}.x\\ +\\left(\\ y-f_{6}.y\\right)\\right)}{\\sqrt{2}}\\ge\\ \\frac{s_{sidelength}}{2}\\ -\\ 0.2\\ \\left\\{3\\ \\ge\\ z\\ \\ge\\ 0\\ \\right\\}\\left\\{-0.2\\ \\le\\ \\frac{\\left(y-f_{6}.y-\\left(x-f_{6}.x\\right)\\right)}"
+      ],
+      "example_normalized": [
+        "frac{s_{sidelength}}{2}>=frac{(x-f_{6}.x+(y-f_{6}.y))}{sqrt{2}}>=frac{s_{sidelength}}{2}-0.2{3>=z>=0}{-0.2<=frac{(y-f_{6}.y-(x-f_{6}.x))}{-sqrt{2}}<=0.2}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "0c0209ecffdaa823",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "249"
+      ],
+      "example_latex": [
+        "-w\\le y\\le-w\\ +\\ \\frac{r_{arc}}{2}\\ \\left\\{2.5\\ \\le\\ z\\ \\le\\ d_{height}\\right\\}\\left\\{-11\\ <\\ x\\ <-9\\right\\}"
+      ],
+      "example_normalized": [
+        "-w<=y<=-w+frac{r_{arc}}{2}{2.5<=z<=d_{height}}{-11<x<-9}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "0fb275f9535cf521",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "245"
+      ],
+      "example_latex": [
+        "w\\ge y\\ge\\ w\\ -\\ \\frac{r_{arc}}{2}\\ \\left\\{2.5\\ \\le\\ z\\ \\le\\ d_{height}\\right\\}\\left\\{-11\\ <\\ x\\ <-9\\right\\}"
+      ],
+      "example_normalized": [
+        "w>=y>=w-frac{r_{arc}}{2}{2.5<=z<=d_{height}}{-11<x<-9}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "1070daa6b79a296d",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "268"
+      ],
+      "example_latex": [
+        "\\left(\\frac{x\\ +\\ y}{\\sqrt{2}}\\ -\\ p_{3}\\right)^{2}\\ +\\ \\left(z\\ -\\ p_{2}\\right)^{2}\\ \\ge\\ r_{arc}^{2}\\ \\left\\{-\\frac{d_{length}}{2}\\ \\le\\ \\frac{x\\ +\\ y}{\\sqrt{2}}\\ \\le\\ \\frac{d_{length}}{2}\\right\\}\\left\\{d_{height}\\ +\\ 2.5\\ \\ge z\\ \\ge\\ p_{"
+      ],
+      "example_normalized": [
+        "(frac{x+y}{sqrt{2}}-p_{3})^{2}+(z-p_{2})^{2}>=r_{arc}^{2}{-frac{d_{length}}{2}<=frac{x+y}{sqrt{2}}<=frac{d_{length}}{2}}{d_{height}+2.5>=z>=p_{2}}{sqrt{162}-2<frac{x-y}{sqrt{2}}<sqrt{162}}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "113ea096ff06623c",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "239"
+      ],
+      "example_latex": [
+        "\\left(y\\ +\\ p_{1}\\right)^{2}\\ +\\ \\left(z\\ -\\ p_{2}\\right)^{2}\\ >\\ r_{arc}^{2}\\ \\left\\{-w\\ \\le\\ y\\ \\le\\ -\\sqrt{\\frac{d_{height}}{2}}\\right\\}\\left\\{d_{height}\\ +\\ 2.5\\ \\ge z\\ \\ge\\ p_{2}\\right\\}\\left\\{-11\\ <\\ x\\ <\\ -9\\right\\}"
+      ],
+      "example_normalized": [
+        "(y+p_{1})^{2}+(z-p_{2})^{2}>r_{arc}^{2}{-w<=y<=-sqrt{frac{d_{height}}{2}}}{d_{height}+2.5>=z>=p_{2}}{-11<x<-9}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "120bc47ad7583a98",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "353"
+      ],
+      "example_latex": [
+        "\\left(x\\ -\\ h\\right)^{\\ 2}\\ +\\ \\left(y\\ -\\ k\\right)^{2}\\ \\le\\ (a-0.7)-0.5*(z-2.5)/17.5\\ \\left\\{2.5\\ \\le\\ z\\ \\le18\\right\\}"
+      ],
+      "example_normalized": [
+        "(x-h)^{2}+(y-k)^{2}<=(a-0.7)-0.5*(z-2.5)/17.5{2.5<=z<=18}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 1,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "14721817214132d6",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "304"
+      ],
+      "example_latex": [
+        "\\left(x\\right)^{2}\\ +\\ \\left(y\\right)^{2}\\ <\\ 0.15^{2}\\ \\left\\{25\\ \\le\\ z\\ \\le\\ 28\\right\\}"
+      ],
+      "example_normalized": [
+        "(x)^{2}+(y)^{2}<0.15^{2}{25<=z<=28}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "14e14c98d85401b5",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "241"
+      ],
+      "example_latex": [
+        "\\left(y\\ -\\ p_{1}\\right)^{2}\\ +\\ \\left(z\\ -\\ \\frac{p_{2}}{2}\\right)^{2}\\ >\\ r_{arc}^{2}\\ \\left\\{w\\ \\ge\\ y\\ \\ge\\ \\sqrt{\\frac{d_{height}}{2}}\\right\\}\\left\\{d_{height}\\ \\ -\\ \\frac{p_{2}}{2}\\ \\ge z\\ \\ge\\ \\frac{p_{2}}{2}\\right\\}\\left\\{-11\\ <\\ x\\"
+      ],
+      "example_normalized": [
+        "(y-p_{1})^{2}+(z-frac{p_{2}}{2})^{2}>r_{arc}^{2}{w>=y>=sqrt{frac{d_{height}}{2}}}{d_{height}-frac{p_{2}}{2}>=z>=frac{p_{2}}{2}}{-11<x<-9}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "1519e8b39ccba6f3",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "208"
+      ],
+      "example_latex": [
+        "w\\ge x\\ge\\ w\\ -\\ \\frac{r_{arc}}{2}\\ \\left\\{2.5\\ \\le\\ z\\ \\le\\ d_{height}\\right\\}\\left\\{11\\ >\\ y\\ >9\\right\\}"
+      ],
+      "example_normalized": [
+        "w>=x>=w-frac{r_{arc}}{2}{2.5<=z<=d_{height}}{11>y>9}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "15b1dce3d6375088",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "86"
+      ],
+      "example_latex": [
+        "-\\frac{s_{sidelength}}{2}\\ \\le\\ \\frac{\\left(x-f_{5}.x\\ -\\left(\\ y-f_{5}.y\\right)\\right)}{\\sqrt{2}}\\le\\ \\frac{s_{sidelength}}{2}\\ \\left\\{0.2\\ \\ge\\ z\\ \\ge\\ 0\\ \\right\\}\\left\\{-0.2\\ \\le\\ \\frac{\\left(y-f_{5}.y+\\left(x-f_{5}.x\\right)\\right)}{-\\sq"
+      ],
+      "example_normalized": [
+        "-frac{s_{sidelength}}{2}<=frac{(x-f_{5}.x-(y-f_{5}.y))}{sqrt{2}}<=frac{s_{sidelength}}{2}{0.2>=z>=0}{-0.2<=frac{(y-f_{5}.y+(x-f_{5}.x))}{-sqrt{2}}<=0.2}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "168e3ff7d96f03f5",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "75"
+      ],
+      "example_latex": [
+        "f_{4}.x-\\frac{s_{sidelength}}{2}\\ \\le\\ x\\le\\ f_{4}.x\\ +\\frac{s_{sidelength}}{2}\\ \\left\\{2\\ \\ge\\ z\\ \\ge\\ 1.8\\ \\right\\}\\left\\{-0.2\\ +\\ f_{4}.y\\ \\le\\ y\\le\\ 0.2+f_{4}.y\\right\\}"
+      ],
+      "example_normalized": [
+        "f_{4}.x-frac{s_{sidelength}}{2}<=x<=f_{4}.x+frac{s_{sidelength}}{2}{2>=z>=1.8}{-0.2+f_{4}.y<=y<=0.2+f_{4}.y}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "1bff92d2068456f5",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "236"
+      ],
+      "example_latex": [
+        "\\left(y\\ -\\ p_{1}\\right)^{2}\\ +\\ \\left(z\\ -\\ p_{2}\\right)^{2}\\ >\\ r_{arc}^{2}\\ \\left\\{w\\ \\ge\\ y\\ \\ge\\ \\sqrt{\\frac{d_{height}}{2}}\\right\\}\\left\\{d_{height}\\ +\\ 2.5\\ \\ge z\\ \\ge\\ p_{2}\\right\\}\\left\\{11\\ >\\ x\\ >\\ 9\\right\\}"
+      ],
+      "example_normalized": [
+        "(y-p_{1})^{2}+(z-p_{2})^{2}>r_{arc}^{2}{w>=y>=sqrt{frac{d_{height}}{2}}}{d_{height}+2.5>=z>=p_{2}}{11>x>9}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "1ca7206951cc5632",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "221"
+      ],
+      "example_latex": [
+        "\\left(x\\ +\\ p_{1}\\right)^{2}\\ +\\ \\left(z\\ -\\ p_{2}\\right)^{2}\\ >\\ r_{arc}^{2}\\ \\left\\{-w\\ \\le\\ x\\ \\le\\ -\\sqrt{\\frac{d_{height}}{2}}\\right\\}\\left\\{d_{height}\\ +\\ 2.5\\ \\ge z\\ \\ge\\ p_{2}\\right\\}\\left\\{-11\\ <\\ y\\ <\\ -9\\right\\}"
+      ],
+      "example_normalized": [
+        "(x+p_{1})^{2}+(z-p_{2})^{2}>r_{arc}^{2}{-w<=x<=-sqrt{frac{d_{height}}{2}}}{d_{height}+2.5>=z>=p_{2}}{-11<y<-9}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "1e1bde2edf943422",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "53"
+      ],
+      "example_latex": [
+        "f_{1}.y-\\frac{s_{sidelength}}{2}\\ \\le\\ y\\le\\ f_{1}.y\\ +\\frac{s_{sidelength}}{2}\\ \\left\\{3\\ \\ge\\ z\\ \\ge\\ 2.8\\ \\right\\}\\left\\{-0.2\\ +\\ f_{1}.x\\ \\le\\ x\\le\\ 0.2+f_{1}.x\\right\\}"
+      ],
+      "example_normalized": [
+        "f_{1}.y-frac{s_{sidelength}}{2}<=y<=f_{1}.y+frac{s_{sidelength}}{2}{3>=z>=2.8}{-0.2+f_{1}.x<=x<=0.2+f_{1}.x}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "252346ad92696969",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "219"
+      ],
+      "example_latex": [
+        "\\left(x\\ -\\ p_{1}\\right)^{2}\\ +\\ \\left(z\\ -\\ p_{2}\\right)^{2}\\ >\\ r_{arc}^{2}\\ \\left\\{w\\ \\ge\\ x\\ \\ge\\ \\sqrt{\\frac{d_{height}}{2}}\\right\\}\\left\\{d_{height}\\ +\\ 2.5\\ \\ge z\\ \\ge\\ p_{2}\\right\\}\\left\\{-11\\ <\\ y\\ <\\ -9\\right\\}"
+      ],
+      "example_normalized": [
+        "(x-p_{1})^{2}+(z-p_{2})^{2}>r_{arc}^{2}{w>=x>=sqrt{frac{d_{height}}{2}}}{d_{height}+2.5>=z>=p_{2}}{-11<y<-9}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "25c51edc1862b297",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "230"
+      ],
+      "example_latex": [
+        "-w\\le x\\le-w\\ +\\ \\frac{r_{arc}}{2}\\ \\left\\{2.5\\ \\le\\ z\\ \\le\\ d_{height}\\right\\}\\left\\{-11\\ <\\ y\\ <-9\\right\\}"
+      ],
+      "example_normalized": [
+        "-w<=x<=-w+frac{r_{arc}}{2}{2.5<=z<=d_{height}}{-11<y<-9}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "2831cd4bf4ebe435",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "94"
+      ],
+      "example_latex": [
+        "-\\frac{s_{sidelength}}{2}\\ \\le\\ \\frac{\\left(x-f_{8}.x\\ -\\left(\\ y-f_{8}.y\\right)\\right)}{\\sqrt{2}}\\le\\ \\frac{s_{sidelength}}{2}\\ \\left\\{3\\ \\ge\\ z\\ \\ge\\ 2.8\\ \\right\\}\\left\\{-0.2\\ \\le\\ \\frac{\\left(y-f_{8}.y+\\left(x-f_{8}.x\\right)\\right)}{-\\sq"
+      ],
+      "example_normalized": [
+        "-frac{s_{sidelength}}{2}<=frac{(x-f_{8}.x-(y-f_{8}.y))}{sqrt{2}}<=frac{s_{sidelength}}{2}{3>=z>=2.8}{-0.2<=frac{(y-f_{8}.y+(x-f_{8}.x))}{-sqrt{2}}<=0.2}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "2a3d2ebef5dbbd2a",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "271"
+      ],
+      "example_latex": [
+        "\\left(\\frac{x\\ +\\ y}{\\sqrt{2}}\\ -\\ p_{3}\\right)^{2}\\ +\\ \\left(z\\ -\\ \\frac{p_{2}}{2}\\right)^{2}\\ \\ge\\ r_{arc}^{2}\\ \\left\\{-\\frac{d_{length}}{2}\\ \\le\\ \\frac{x\\ +\\ y}{\\sqrt{2}}\\ \\le\\ \\frac{d_{length}}{2}\\right\\}\\left\\{d_{height}\\ \\ -\\ \\frac{p_"
+      ],
+      "example_normalized": [
+        "(frac{x+y}{sqrt{2}}-p_{3})^{2}+(z-frac{p_{2}}{2})^{2}>=r_{arc}^{2}{-frac{d_{length}}{2}<=frac{x+y}{sqrt{2}}<=frac{d_{length}}{2}}{d_{height}-frac{p_{2}}{2}>=z>=frac{p_{2}}{2}}{-sqrt{162}+2>frac{x-y}{sqrt{2}}>-sqrt{162}}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "2c00b6dd200bbad4",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "214"
+      ],
+      "example_latex": [
+        "-\\sqrt{\\frac{d_{height}}{2}}\\ge x\\ge\\ -\\sqrt{\\frac{d_{height}}{2}}\\ -\\ \\frac{r_{arc}}{2}\\left\\{2.5\\ \\le\\ z\\ \\le\\ d_{height}\\right\\}\\left\\{11\\ >\\ y\\ >9\\right\\}"
+      ],
+      "example_normalized": [
+        "-sqrt{frac{d_{height}}{2}}>=x>=-sqrt{frac{d_{height}}{2}}-frac{r_{arc}}{2}{2.5<=z<=d_{height}}{11>y>9}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "2e9cf153589edee3",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "68"
+      ],
+      "example_latex": [
+        "f_{3}.x-\\frac{s_{sidelength}}{2}\\ \\le\\ x\\le\\ f_{3}.x\\ +\\frac{s_{sidelength}}{2}\\ \\left\\{3\\ \\ge\\ z\\ \\ge\\ 2.8\\ \\right\\}\\left\\{-0.2\\ +\\ f_{3}.y\\ \\le\\ y\\le\\ 0.2+f_{3}.y\\right\\}"
+      ],
+      "example_normalized": [
+        "f_{3}.x-frac{s_{sidelength}}{2}<=x<=f_{3}.x+frac{s_{sidelength}}{2}{3>=z>=2.8}{-0.2+f_{3}.y<=y<=0.2+f_{3}.y}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "2f9fcacad6688eaf",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "286"
+      ],
+      "example_latex": [
+        "11\\ \\ge\\ x\\ \\ge\\ 9\\ \\left\\{-\\sqrt{\\frac{d_{height}}{2}}\\ -\\ \\frac{r_{arc}}{2}\\le\\ y\\ \\le\\ \\sqrt{\\frac{d_{height}}{2}}\\ +\\ \\frac{r_{arc}}{2}\\right\\}\\left\\{d_{height}\\ +\\ 2.5\\ \\le\\ z\\ <\\ d_{height}\\ +\\ 2.5\\ +\\ 2.5\\ \\right\\}"
+      ],
+      "example_normalized": [
+        "11>=x>=9{-sqrt{frac{d_{height}}{2}}-frac{r_{arc}}{2}<=y<=sqrt{frac{d_{height}}{2}}+frac{r_{arc}}{2}}{d_{height}+2.5<=z<d_{height}+2.5+2.5}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 1,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "333b75eb11ce1e6f",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "356"
+      ],
+      "example_latex": [
+        "\\left(x\\ -\\ h\\right)^{\\ 2}\\ +\\ \\left(y\\ -\\ k\\right)^{2}\\ \\le\\ (a\\ -\\ 0.2)^{2}\\ \\left\\{7\\ \\le\\ z\\ \\le7.5\\right\\}"
+      ],
+      "example_normalized": [
+        "(x-h)^{2}+(y-k)^{2}<=(a-0.2)^{2}{7<=z<=7.5}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 1,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "3651fd2ce10ccdf3",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "232"
+      ],
+      "example_latex": [
+        "-\\sqrt{\\frac{d_{height}}{2}}\\ge x\\ge\\ -\\sqrt{\\frac{d_{height}}{2}}\\ -\\ \\frac{r_{arc}}{2}\\left\\{2.5\\ \\le\\ z\\ \\le\\ d_{height}\\right\\}\\left\\{-11\\ <\\ y\\ <-\\ 9\\right\\}"
+      ],
+      "example_normalized": [
+        "-sqrt{frac{d_{height}}{2}}>=x>=-sqrt{frac{d_{height}}{2}}-frac{r_{arc}}{2}{2.5<=z<=d_{height}}{-11<y<-9}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "3893eb17182a8705",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "263"
+      ],
+      "example_latex": [
+        "\\left(\\frac{x\\ -\\ y}{\\sqrt{2}}\\ -\\ p_{3}\\right)^{2}\\ +\\ \\left(z\\ -\\ \\frac{p_{2}}{2}\\right)^{2}\\ \\ge\\ r_{arc}^{2}\\ \\left\\{-\\frac{d_{length}}{2}\\ \\le\\ \\frac{x\\ -\\ y}{\\sqrt{2}}\\ \\le\\ \\frac{d_{length}}{2}\\right\\}\\left\\{d_{height}\\ \\ -\\ \\frac{p_"
+      ],
+      "example_normalized": [
+        "(frac{x-y}{sqrt{2}}-p_{3})^{2}+(z-frac{p_{2}}{2})^{2}>=r_{arc}^{2}{-frac{d_{length}}{2}<=frac{x-y}{sqrt{2}}<=frac{d_{length}}{2}}{d_{height}-frac{p_{2}}{2}>=z>=frac{p_{2}}{2}}{-sqrt{162}+2>frac{x+y}{sqrt{2}}>-sqrt{162}}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "3ab0f0b8d3bae7fb",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "96"
+      ],
+      "example_latex": [
+        "-\\frac{s_{sidelength}}{2}\\ \\le\\ \\frac{\\left(x-f_{8}.x\\ -\\left(\\ y-f_{8}.y\\right)\\right)}{\\sqrt{2}}\\le\\ \\frac{s_{sidelength}}{2}\\ \\left\\{0.2\\ \\ge\\ z\\ \\ge\\ 0\\ \\right\\}\\left\\{-0.2\\ \\le\\ \\frac{\\left(y-f_{8}.y+\\left(x-f_{8}.x\\right)\\right)}{-\\sq"
+      ],
+      "example_normalized": [
+        "-frac{s_{sidelength}}{2}<=frac{(x-f_{8}.x-(y-f_{8}.y))}{sqrt{2}}<=frac{s_{sidelength}}{2}{0.2>=z>=0}{-0.2<=frac{(y-f_{8}.y+(x-f_{8}.x))}{-sqrt{2}}<=0.2}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "3d54484410e3676e",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "234"
+      ],
+      "example_latex": [
+        "z\\ >\\ d_{height}\\ -\\ r_{arc}\\left(\\frac{d_{height}}{i_{intercept}^{2}}\\right)y^{2}\\ \\left\\{-11\\ \\le\\ x\\ \\le\\ -9\\right\\}\\left\\{-\\sqrt{\\frac{d_{height}}{2}}\\le\\ y\\ \\le\\ \\sqrt{\\frac{d_{height}}{2}}\\right\\}\\left\\{i_{intercept}\\ \\le\\ z\\ \\le2.5\\ "
+      ],
+      "example_normalized": [
+        "z>d_{height}-r_{arc}(frac{d_{height}}{i_{intercept}^{2}})y^{2}{-11<=x<=-9}{-sqrt{frac{d_{height}}{2}}<=y<=sqrt{frac{d_{height}}{2}}}{i_{intercept}<=z<=2.5+d_{height}}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "3da4dc61ac9c53ed",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "67"
+      ],
+      "example_latex": [
+        "f_{2}.y+\\frac{s_{sidelength}}{2}\\ \\ge\\ y\\ge\\ f_{2}.y\\ +\\frac{s_{sidelength}}{2}-0.2\\ \\left\\{3\\ \\ge\\ z\\ \\ge\\ 0\\right\\}\\left\\{-0.2\\ +\\ f_{2}.x\\ \\le\\ x\\le\\ 0.2+f_{2}.x\\right\\}"
+      ],
+      "example_normalized": [
+        "f_{2}.y+frac{s_{sidelength}}{2}>=y>=f_{2}.y+frac{s_{sidelength}}{2}-0.2{3>=z>=0}{-0.2+f_{2}.x<=x<=0.2+f_{2}.x}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "47cdaaaf3a6245e7",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "90"
+      ],
+      "example_latex": [
+        "-\\frac{s_{sidelength}}{2}\\ \\le\\ \\frac{\\left(x-f_{6}.x\\ +\\left(\\ y-f_{6}.y\\right)\\right)}{\\sqrt{2}}\\le\\ \\frac{s_{sidelength}}{2}\\ \\left\\{2\\ \\ge\\ z\\ \\ge\\ 1.8\\ \\right\\}\\left\\{-0.2\\ \\le\\ \\frac{\\left(y-f_{6}.y-\\left(x-f_{6}.x\\right)\\right)}{-\\sq"
+      ],
+      "example_normalized": [
+        "-frac{s_{sidelength}}{2}<=frac{(x-f_{6}.x+(y-f_{6}.y))}{sqrt{2}}<=frac{s_{sidelength}}{2}{2>=z>=1.8}{-0.2<=frac{(y-f_{6}.y-(x-f_{6}.x))}{-sqrt{2}}<=0.2}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "4ad7c5739618c891",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "73"
+      ],
+      "example_latex": [
+        "f_{3}.x+\\frac{s_{sidelength}}{2}\\ \\ge\\ x\\ge\\ f_{3}.x\\ +\\frac{s_{sidelength}}{2}\\ -\\ 0.2\\left\\{3\\ \\ge\\ z\\ \\ge\\ 0\\ \\right\\}\\left\\{-0.2\\ +\\ f_{3}.y\\ \\le\\ y\\le\\ 0.2+f_{3}.y\\right\\}"
+      ],
+      "example_normalized": [
+        "f_{3}.x+frac{s_{sidelength}}{2}>=x>=f_{3}.x+frac{s_{sidelength}}{2}-0.2{3>=z>=0}{-0.2+f_{3}.y<=y<=0.2+f_{3}.y}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "54d8c524fb856bc2",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "257"
+      ],
+      "example_latex": [
+        "\\left(\\frac{x\\ -\\ y}{\\sqrt{2}}\\ -\\ p_{3}\\right)^{2}\\ +\\ \\left(z\\ -\\ \\frac{p_{2}}{2}\\right)^{2}\\ \\ge\\ r_{arc}^{2}\\ \\left\\{-\\frac{d_{length}}{2}\\ \\le\\ \\frac{x\\ -\\ y}{\\sqrt{2}}\\ \\le\\ \\frac{d_{length}}{2}\\right\\}\\left\\{d_{height}\\ \\ -\\ \\frac{p_"
+      ],
+      "example_normalized": [
+        "(frac{x-y}{sqrt{2}}-p_{3})^{2}+(z-frac{p_{2}}{2})^{2}>=r_{arc}^{2}{-frac{d_{length}}{2}<=frac{x-y}{sqrt{2}}<=frac{d_{length}}{2}}{d_{height}-frac{p_{2}}{2}>=z>=frac{p_{2}}{2}}{sqrt{162}-2<frac{x+y}{sqrt{2}}<sqrt{162}}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "56582cd4e6388305",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "260"
+      ],
+      "example_latex": [
+        "-\\frac{d_{length}}{2}\\ \\le\\ \\frac{x\\ -\\ y}{\\sqrt{2}}\\ \\le\\ -\\frac{d_{length}}{2}\\ +\\ \\frac{r_{arc}}{2}\\ \\left\\{\\sqrt{162}\\ -\\ 2\\le\\frac{x\\ +\\ y}{\\sqrt{2}}\\ \\le\\ \\sqrt{162}\\right\\}\\ \\left\\{2.5\\ \\le\\ z\\ \\le\\ d_{height}\\ +\\ 2.5\\right\\}"
+      ],
+      "example_normalized": [
+        "-frac{d_{length}}{2}<=frac{x-y}{sqrt{2}}<=-frac{d_{length}}{2}+frac{r_{arc}}{2}{sqrt{162}-2<=frac{x+y}{sqrt{2}}<=sqrt{162}}{2.5<=z<=d_{height}+2.5}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "5d3d0c2fb3062d7e",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "275"
+      ],
+      "example_latex": [
+        "-\\frac{d_{length}}{2}\\ \\le\\ \\frac{x\\ +\\ y}{\\sqrt{2}}\\ \\le\\ -\\frac{d_{length}}{2}\\ +\\ \\frac{r_{arc}}{2}\\ \\left\\{-\\sqrt{162}\\ +\\ 2\\ \\ge\\frac{x\\ -\\ y}{\\sqrt{2}}\\ \\ge\\ -\\sqrt{162}\\right\\}\\ \\left\\{2.5\\ \\le\\ z\\ \\le\\ d_{height}\\ +\\ 2.5\\right\\}"
+      ],
+      "example_normalized": [
+        "-frac{d_{length}}{2}<=frac{x+y}{sqrt{2}}<=-frac{d_{length}}{2}+frac{r_{arc}}{2}{-sqrt{162}+2>=frac{x-y}{sqrt{2}}>=-sqrt{162}}{2.5<=z<=d_{height}+2.5}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "5e56787ad7d1bba3",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "224"
+      ],
+      "example_latex": [
+        "\\left(x\\ +\\ p_{1}\\right)^{2}\\ +\\ \\left(z\\ -\\ \\frac{p_{2}}{2}\\right)^{2}\\ >\\ r_{arc}^{2}\\ \\left\\{-w\\ \\le\\ x\\ \\le\\ -\\sqrt{\\frac{d_{height}}{2}}\\right\\}\\left\\{d_{height}\\ \\ -\\ \\frac{p_{2}}{2}\\ \\ge z\\ \\ge\\ \\frac{p_{2}}{2}\\right\\}\\left\\{-11\\ <\\ "
+      ],
+      "example_normalized": [
+        "(x+p_{1})^{2}+(z-frac{p_{2}}{2})^{2}>r_{arc}^{2}{-w<=x<=-sqrt{frac{d_{height}}{2}}}{d_{height}-frac{p_{2}}{2}>=z>=frac{p_{2}}{2}}{-11<y<-9}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "5e8f33a04a0be11a",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "77"
+      ],
+      "example_latex": [
+        "f_{4}.x-\\frac{s_{sidelength}}{2}\\ \\le\\ x\\le\\ f_{4}.x\\ -\\frac{s_{sidelength}}{2}\\ +\\ 0.2\\left\\{3\\ \\ge\\ z\\ \\ge\\ 0\\ \\right\\}\\left\\{-0.2\\ +\\ f_{4}.y\\ \\le\\ y\\le\\ 0.2+f_{4}.y\\right\\}"
+      ],
+      "example_normalized": [
+        "f_{4}.x-frac{s_{sidelength}}{2}<=x<=f_{4}.x-frac{s_{sidelength}}{2}+0.2{3>=z>=0}{-0.2+f_{4}.y<=y<=0.2+f_{4}.y}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "5fa7326dd91c001d",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "99"
+      ],
+      "example_latex": [
+        "-\\frac{s_{sidelength}}{2}\\ \\le\\ \\frac{\\left(x-f_{7}.x\\ +\\left(\\ y-f_{7}.y\\right)\\right)}{\\sqrt{2}}\\le\\ \\frac{s_{sidelength}}{2}\\ \\left\\{3\\ \\ge\\ z\\ \\ge\\ 2.8\\ \\right\\}\\left\\{-0.2\\ \\le\\ \\frac{\\left(y-f_{7}.y-\\left(x-f_{7}.x\\right)\\right)}{-\\sq"
+      ],
+      "example_normalized": [
+        "-frac{s_{sidelength}}{2}<=frac{(x-f_{7}.x+(y-f_{7}.y))}{sqrt{2}}<=frac{s_{sidelength}}{2}{3>=z>=2.8}{-0.2<=frac{(y-f_{7}.y-(x-f_{7}.x))}{-sqrt{2}}<=0.2}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "6245f52530d15564",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "347"
+      ],
+      "example_latex": [
+        "\\left(x\\ -\\ p_{points}.x\\right)^{2}\\ +\\ \\left(y\\ -\\ p_{points}.y\\right)^{2}\\ <\\ r_{pil}^{2}\\ \\left\\{2.5\\ \\le z\\ \\le\\ d_{height}\\ +\\ 5\\right\\}"
+      ],
+      "example_normalized": [
+        "(x-p_{points}.x)^{2}+(y-p_{points}.y)^{2}<r_{pil}^{2}{2.5<=z<=d_{height}+5}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "62bd53e39e9e1883",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "251"
+      ],
+      "example_latex": [
+        "-\\sqrt{\\frac{d_{height}}{2}}\\ge y\\ge\\ -\\sqrt{\\frac{d_{height}}{2}}\\ -\\ \\frac{r_{arc}}{2}\\left\\{2.5\\ \\le\\ z\\ \\le\\ d_{height}\\right\\}\\left\\{-11\\ <\\ x\\ <-\\ 9\\right\\}"
+      ],
+      "example_normalized": [
+        "-sqrt{frac{d_{height}}{2}}>=y>=-sqrt{frac{d_{height}}{2}}-frac{r_{arc}}{2}{2.5<=z<=d_{height}}{-11<x<-9}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "6319b15cd26cc1d6",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "65"
+      ],
+      "example_latex": [
+        "f_{2}.y-\\frac{s_{sidelength}}{2}\\ \\le\\ y\\le\\ f_{2}.y\\ +\\frac{s_{sidelength}}{2}\\ \\left\\{0.2\\ \\ge\\ z\\ \\ge\\ 0\\ \\right\\}\\left\\{-0.2\\ +\\ f_{2}.x\\ \\le\\ x\\le\\ 0.2+f_{2}.x\\right\\}"
+      ],
+      "example_normalized": [
+        "f_{2}.y-frac{s_{sidelength}}{2}<=y<=f_{2}.y+frac{s_{sidelength}}{2}{0.2>=z>=0}{-0.2+f_{2}.x<=x<=0.2+f_{2}.x}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "65c08a9610547b6b",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "269"
+      ],
+      "example_latex": [
+        "\\left(\\frac{x\\ +\\ y}{\\sqrt{2}}\\ -\\ p_{3}\\right)^{2}\\ +\\ \\left(z\\ -\\ p_{2}\\right)^{2}\\ \\ge\\ r_{arc}^{2}\\ \\left\\{-\\frac{d_{length}}{2}\\ \\le\\ \\frac{x\\ +\\ y}{\\sqrt{2}}\\ \\le\\ \\frac{d_{length}}{2}\\right\\}\\left\\{d_{height}\\ +\\ 2.5\\ \\ge z\\ \\ge\\ p_{"
+      ],
+      "example_normalized": [
+        "(frac{x+y}{sqrt{2}}-p_{3})^{2}+(z-p_{2})^{2}>=r_{arc}^{2}{-frac{d_{length}}{2}<=frac{x+y}{sqrt{2}}<=frac{d_{length}}{2}}{d_{height}+2.5>=z>=p_{2}}{-sqrt{162}+2>frac{x-y}{sqrt{2}}>-sqrt{162}}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "666d7782946e71a4",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "226"
+      ],
+      "example_latex": [
+        "w\\ge x\\ge\\ w\\ -\\ \\frac{r_{arc}}{2}\\ \\left\\{2.5\\ \\le\\ z\\ \\le\\ d_{height}\\right\\}\\left\\{-11\\ <\\ y\\ <-9\\right\\}"
+      ],
+      "example_normalized": [
+        "w>=x>=w-frac{r_{arc}}{2}{2.5<=z<=d_{height}}{-11<y<-9}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "68653394832174ae",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "237"
+      ],
+      "example_latex": [
+        "\\left(y\\ -\\ p_{1}\\right)^{2}\\ +\\ \\left(z\\ -\\ p_{2}\\right)^{2}\\ >\\ r_{arc}^{2}\\ \\left\\{w\\ \\ge\\ y\\ \\ge\\ \\sqrt{\\frac{d_{height}}{2}}\\right\\}\\left\\{d_{height}\\ +\\ 2.5\\ \\ge z\\ \\ge\\ p_{2}\\right\\}\\left\\{-11\\ <\\ x\\ <\\ -9\\right\\}"
+      ],
+      "example_normalized": [
+        "(y-p_{1})^{2}+(z-p_{2})^{2}>r_{arc}^{2}{w>=y>=sqrt{frac{d_{height}}{2}}}{d_{height}+2.5>=z>=p_{2}}{-11<x<-9}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "6c4b2514b4f020c8",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "76"
+      ],
+      "example_latex": [
+        "f_{4}.x-\\frac{s_{sidelength}}{2}\\ \\le\\ x\\le\\ f_{4}.x\\ +\\frac{s_{sidelength}}{2}\\ \\left\\{0.2\\ \\ge\\ z\\ \\ge\\ 0\\ \\right\\}\\left\\{-0.2\\ +\\ f_{4}.y\\ \\le\\ y\\le\\ 0.2+f_{4}.y\\right\\}"
+      ],
+      "example_normalized": [
+        "f_{4}.x-frac{s_{sidelength}}{2}<=x<=f_{4}.x+frac{s_{sidelength}}{2}{0.2>=z>=0}{-0.2+f_{4}.y<=y<=0.2+f_{4}.y}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "71c35fbbba03502d",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "212"
+      ],
+      "example_latex": [
+        "\\left(x\\ -\\ p_{1}\\right)^{2}\\ +\\ \\left(z\\ -\\ \\frac{p_{2}}{2}\\right)^{2}\\ >\\ r_{arc}^{2}\\ \\left\\{w\\ \\ge\\ x\\ \\ge\\ \\sqrt{\\frac{d_{height}}{2}}\\right\\}\\left\\{d_{height}\\ \\ -\\ \\frac{p_{2}}{2}\\ \\ge z\\ \\ge\\ \\frac{p_{2}}{2}\\right\\}\\left\\{11\\ >\\ y\\ "
+      ],
+      "example_normalized": [
+        "(x-p_{1})^{2}+(z-frac{p_{2}}{2})^{2}>r_{arc}^{2}{w>=x>=sqrt{frac{d_{height}}{2}}}{d_{height}-frac{p_{2}}{2}>=z>=frac{p_{2}}{2}}{11>y>9}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "7261946f1b2a8465",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "294"
+      ],
+      "example_latex": [
+        "\\max\\left(\\left|\\left(x\\ -\\ s\\right)\\right|,\\left|\\left(y\\ -\\ q\\right)\\right|,\\frac{\\left|\\left(x\\ -\\ s\\right)+\\left(y\\ -\\ q\\right)\\right|}{\\sqrt{2}},\\frac{\\left|\\left(x\\ -\\ s\\right)-\\left(y\\ -\\ q\\right)\\right|}{\\sqrt{2}}\\right)\\le s_{size}"
+      ],
+      "example_normalized": [
+        "max(|(x-s)|,|(y-q)|,frac{|(x-s)+(y-q)|}{sqrt{2}},frac{|(x-s)-(y-q)|}{sqrt{2}})<=s_{size}{d_{height}+2.5<=z<=d_{height}+3.5}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "73c0a2f72c5ee95f",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "31"
+      ],
+      "example_latex": [
+        "\\max\\left(\\left|\\left(x\\ -\\ h\\right)\\right|,\\left|\\left(y\\ -\\ k\\right)\\right|,\\frac{\\left|\\left(x\\ -\\ h\\right)+\\left(y\\ -\\ k\\right)\\right|}{\\sqrt{2}},\\frac{\\left|\\left(x\\ -\\ h\\right)-\\left(y\\ -\\ k\\right)\\right|}{\\sqrt{2}}\\right)\\le a\\ \\left"
+      ],
+      "example_normalized": [
+        "max(|(x-h)|,|(y-k)|,frac{|(x-h)+(y-k)|}{sqrt{2}},frac{|(x-h)-(y-k)|}{sqrt{2}})<=a{0<=z<=3}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "74ba856d25d3edfe",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "185"
+      ],
+      "example_latex": [
+        "\\left(x\\ \\right)^{2}\\ +\\ \\left(y\\right)^{2}\\ <\\ t^{2}\\ \\ \\left\\{2.5\\ +\\ d_{height}\\ \\le\\ z\\ \\le2.5\\ +\\ d_{height}\\ +\\ 3.5\\right\\}"
+      ],
+      "example_normalized": [
+        "(x)^{2}+(y)^{2}<t^{2}{2.5+d_{height}<=z<=2.5+d_{height}+3.5}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "74ca77bcca9c3251",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "190"
+      ],
+      "example_latex": [
+        "z\\ >\\ d_{height}\\ -\\ r_{arc}\\left(\\frac{d_{height}}{i_{intercept}^{2}}\\right)x^{2}\\ \\left\\{11\\ >\\ y\\ >\\ 9\\right\\}\\left\\{-\\sqrt{\\frac{d_{height}}{2}}\\le\\ x\\ \\le\\ \\sqrt{\\frac{d_{height}}{2}}\\right\\}\\left\\{i_{intercept}\\ \\le\\ z\\ \\le2.5\\ +\\ d_{"
+      ],
+      "example_normalized": [
+        "z>d_{height}-r_{arc}(frac{d_{height}}{i_{intercept}^{2}})x^{2}{11>y>9}{-sqrt{frac{d_{height}}{2}}<=x<=sqrt{frac{d_{height}}{2}}}{i_{intercept}<=z<=2.5+d_{height}}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "77960a6e0c66bbf1",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "84"
+      ],
+      "example_latex": [
+        "-\\frac{s_{sidelength}}{2}\\ \\le\\ \\frac{\\left(x-f_{5}.x\\ -\\left(\\ y-f_{5}.y\\right)\\right)}{\\sqrt{2}}\\le\\ \\frac{s_{sidelength}}{2}\\ \\left\\{3\\ \\ge\\ z\\ \\ge\\ 2.8\\ \\right\\}\\left\\{-0.2\\ \\le\\ \\frac{\\left(y-f_{5}.y+\\left(x-f_{5}.x\\right)\\right)}{-\\sq"
+      ],
+      "example_normalized": [
+        "-frac{s_{sidelength}}{2}<=frac{(x-f_{5}.x-(y-f_{5}.y))}{sqrt{2}}<=frac{s_{sidelength}}{2}{3>=z>=2.8}{-0.2<=frac{(y-f_{5}.y+(x-f_{5}.x))}{-sqrt{2}}<=0.2}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "7a4dcf6abf7a63b3",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "85"
+      ],
+      "example_latex": [
+        "-\\frac{s_{sidelength}}{2}\\ \\le\\ \\frac{\\left(x-f_{5}.x\\ -\\left(\\ y-f_{5}.y\\right)\\right)}{\\sqrt{2}}\\le\\ \\frac{s_{sidelength}}{2}\\ \\left\\{2\\ \\ge\\ z\\ \\ge\\ 1.8\\ \\right\\}\\left\\{-0.2\\ \\le\\ \\frac{\\left(y-f_{5}.y+\\left(x-f_{5}.x\\right)\\right)}{-\\sq"
+      ],
+      "example_normalized": [
+        "-frac{s_{sidelength}}{2}<=frac{(x-f_{5}.x-(y-f_{5}.y))}{sqrt{2}}<=frac{s_{sidelength}}{2}{2>=z>=1.8}{-0.2<=frac{(y-f_{5}.y+(x-f_{5}.x))}{-sqrt{2}}<=0.2}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "7b1578b25fc425ac",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "279"
+      ],
+      "example_latex": [
+        "-\\frac{d_{length}}{2}\\ \\le\\ \\frac{x\\ +\\ y}{\\sqrt{2}}\\ \\le\\ \\frac{d_{length}}{2}\\ \\left\\{\\sqrt{162}\\ -\\ 2\\ >\\ \\frac{x\\ -\\ y}{\\sqrt{2}}\\ >\\ -\\sqrt{162}\\ +\\ 2\\right\\}\\left\\{d_{height}\\ +\\ 2.5\\ \\ge\\ z\\ \\ge\\ d_{height}\\right\\}"
+      ],
+      "example_normalized": [
+        "-frac{d_{length}}{2}<=frac{x+y}{sqrt{2}}<=frac{d_{length}}{2}{sqrt{162}-2>frac{x-y}{sqrt{2}}>-sqrt{162}+2}{d_{height}+2.5>=z>=d_{height}}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "7bf74a629f865f7e",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "91"
+      ],
+      "example_latex": [
+        "-\\frac{s_{sidelength}}{2}\\ \\le\\ \\frac{\\left(x-f_{6}.x\\ +\\left(\\ y-f_{6}.y\\right)\\right)}{\\sqrt{2}}\\le\\ \\frac{s_{sidelength}}{2}\\ \\left\\{0.2\\ \\ge\\ z\\ \\ge\\ 0\\ \\right\\}\\left\\{-0.2\\ \\le\\ \\frac{\\left(y-f_{6}.y-\\left(x-f_{6}.x\\right)\\right)}{-\\sq"
+      ],
+      "example_normalized": [
+        "-frac{s_{sidelength}}{2}<=frac{(x-f_{6}.x+(y-f_{6}.y))}{sqrt{2}}<=frac{s_{sidelength}}{2}{0.2>=z>=0}{-0.2<=frac{(y-f_{6}.y-(x-f_{6}.x))}{-sqrt{2}}<=0.2}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "7cfb8ae1d350d817",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "284"
+      ],
+      "example_latex": [
+        "-11\\ \\le\\ y\\ \\le\\ -9\\ \\left\\{-\\sqrt{\\frac{d_{height}}{2}}\\ -\\ \\frac{r_{arc}}{2}\\ \\le\\ x\\ \\le\\ \\sqrt{\\frac{d_{height}}{2}}\\ +\\ \\frac{r_{arc}}{2}\\right\\}\\left\\{d_{height}\\ +\\ 2.5\\ \\le\\ z\\ <\\ d_{height}\\ +\\ 2.5\\ +\\ 2.5\\ \\right\\}"
+      ],
+      "example_normalized": [
+        "-11<=y<=-9{-sqrt{frac{d_{height}}{2}}-frac{r_{arc}}{2}<=x<=sqrt{frac{d_{height}}{2}}+frac{r_{arc}}{2}}{d_{height}+2.5<=z<d_{height}+2.5+2.5}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 1,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "7ffc20ae00e4fee2",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "246"
+      ],
+      "example_latex": [
+        "\\sqrt{\\frac{d_{height}}{2}}\\le y\\le\\ \\sqrt{\\frac{d_{height}}{2}}+\\ \\frac{r_{arc}}{2}\\ \\left\\{2.5\\ \\le\\ z\\ \\le\\ d_{height}\\right\\}\\left\\{11\\ >\\ x\\ >9\\right\\}"
+      ],
+      "example_normalized": [
+        "sqrt{frac{d_{height}}{2}}<=y<=sqrt{frac{d_{height}}{2}}+frac{r_{arc}}{2}{2.5<=z<=d_{height}}{11>x>9}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "80902568ce3d9d9f",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "213"
+      ],
+      "example_latex": [
+        "\\left(x\\ +\\ p_{1}\\right)^{2}\\ +\\ \\left(z\\ -\\ p_{2}\\right)^{2}\\ >\\ r_{arc}^{2}\\ \\left\\{-w\\ \\le\\ x\\ \\le\\ -\\sqrt{\\frac{d_{height}}{2}}\\right\\}\\left\\{d_{height}\\ +\\ 2.5\\ \\ge z\\ \\ge\\ p_{2}\\right\\}\\left\\{11\\ >\\ y\\ >\\ 9\\right\\}"
+      ],
+      "example_normalized": [
+        "(x+p_{1})^{2}+(z-p_{2})^{2}>r_{arc}^{2}{-w<=x<=-sqrt{frac{d_{height}}{2}}}{d_{height}+2.5>=z>=p_{2}}{11>y>9}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "841b108ed6dc163f",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "265"
+      ],
+      "example_latex": [
+        "\\frac{d_{length}}{2}\\ \\ge\\ \\frac{x\\ -\\ y}{\\sqrt{2}}\\ \\ge\\ \\frac{d_{length}}{2}\\ -\\ \\frac{r_{arc}}{2}\\ \\left\\{-\\sqrt{162}\\ +\\ 2\\ge\\frac{x\\ +\\ y}{\\sqrt{2}}\\ \\ge\\ -\\sqrt{162}\\right\\}\\ \\left\\{2.5\\ \\le\\ z\\ \\le\\ d_{height}\\ +\\ 2.5\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{d_{length}}{2}>=frac{x-y}{sqrt{2}}>=frac{d_{length}}{2}-frac{r_{arc}}{2}{-sqrt{162}+2>=frac{x+y}{sqrt{2}}>=-sqrt{162}}{2.5<=z<=d_{height}+2.5}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "85b243176b6637a0",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "261"
+      ],
+      "example_latex": [
+        "\\left(\\frac{x\\ -\\ y}{\\sqrt{2}}\\ -\\ p_{3}\\right)^{2}\\ +\\ \\left(z\\ -\\ p_{2}\\right)^{2}\\ \\ge\\ r_{arc}^{2}\\ \\left\\{-\\frac{d_{length}}{2}\\ \\le\\ \\frac{x\\ -\\ y}{\\sqrt{2}}\\ \\le\\ \\frac{d_{length}}{2}\\right\\}\\left\\{d_{height}\\ +\\ 2.5\\ \\ge z\\ \\ge\\ p_{"
+      ],
+      "example_normalized": [
+        "(frac{x-y}{sqrt{2}}-p_{3})^{2}+(z-p_{2})^{2}>=r_{arc}^{2}{-frac{d_{length}}{2}<=frac{x-y}{sqrt{2}}<=frac{d_{length}}{2}}{d_{height}+2.5>=z>=p_{2}}{-sqrt{162}+2>frac{x+y}{sqrt{2}}>-sqrt{162}}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "8ba3e8290e8186de",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "87"
+      ],
+      "example_latex": [
+        "-\\frac{s_{sidelength}}{2}\\ \\le\\ \\frac{\\left(x-f_{5}.x\\ -\\left(\\ y-f_{5}.y\\right)\\right)}{\\sqrt{2}}\\le\\ -\\frac{s_{sidelength}}{2}\\ +\\ 0.2\\left\\{3\\ \\ge\\ z\\ \\ge\\ 0\\right\\}\\left\\{-0.2\\ \\le\\ \\frac{\\left(y-f_{5}.y+\\left(x-f_{5}.x\\right)\\right)}{-"
+      ],
+      "example_normalized": [
+        "-frac{s_{sidelength}}{2}<=frac{(x-f_{5}.x-(y-f_{5}.y))}{sqrt{2}}<=-frac{s_{sidelength}}{2}+0.2{3>=z>=0}{-0.2<=frac{(y-f_{5}.y+(x-f_{5}.x))}{-sqrt{2}}<=0.2}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "8ceb0e1bfb8ed3dd",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "365"
+      ],
+      "example_latex": [
+        "\\left(x\\ -\\ h\\right)^{2}\\ +\\ \\left(y\\ -\\ k\\right)^{2}\\ <\\ \\left(r_{pil}\\ -\\ 0.1\\right)^{2}\\ \\left\\{2.5\\ \\le z\\ \\le\\ 23.2\\right\\}"
+      ],
+      "example_normalized": [
+        "(x-h)^{2}+(y-k)^{2}<(r_{pil}-0.1)^{2}{2.5<=z<=23.2}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "900072be99c91cdf",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "361"
+      ],
+      "example_latex": [
+        "\\left(x\\ -\\ h\\right)^{\\ 2}\\ +\\ \\left(y\\ -\\ k\\right)^{2}\\ \\le\\ (a\\ -\\ 0.7)^{2}\\ \\left\\{18.5\\ \\le\\ z\\ \\le18.5\\ +\\ 2.3\\right\\}"
+      ],
+      "example_normalized": [
+        "(x-h)^{2}+(y-k)^{2}<=(a-0.7)^{2}{18.5<=z<=18.5+2.3}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "949309ab69ff1135",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "71"
+      ],
+      "example_latex": [
+        "f_{3}.x-\\frac{s_{sidelength}}{2}\\ \\le\\ x\\le\\ f_{3}.x\\ +\\frac{s_{sidelength}}{2}\\ \\left\\{0.2\\ \\ge\\ z\\ \\ge\\ 0\\ \\right\\}\\left\\{-0.2\\ +\\ f_{3}.y\\ \\le\\ y\\le\\ 0.2+f_{3}.y\\right\\}"
+      ],
+      "example_normalized": [
+        "f_{3}.x-frac{s_{sidelength}}{2}<=x<=f_{3}.x+frac{s_{sidelength}}{2}{0.2>=z>=0}{-0.2+f_{3}.y<=y<=0.2+f_{3}.y}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "967dcc6652525f7f",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "287"
+      ],
+      "example_latex": [
+        "11\\ \\ge\\ y\\ \\ge\\ 9\\ \\left\\{-\\sqrt{\\frac{d_{height}}{2}}\\ -\\ \\frac{r_{arc}}{2}\\ \\le\\ x\\ \\le\\ \\sqrt{\\frac{d_{height}}{2}}\\ +\\ \\frac{r_{arc}}{2}\\right\\}\\left\\{d_{height}\\ +\\ 2.5\\ \\le\\ z\\ <\\ d_{height}\\ +\\ 2.5\\ +\\ 2.5\\ \\right\\}"
+      ],
+      "example_normalized": [
+        "11>=y>=9{-sqrt{frac{d_{height}}{2}}-frac{r_{arc}}{2}<=x<=sqrt{frac{d_{height}}{2}}+frac{r_{arc}}{2}}{d_{height}+2.5<=z<d_{height}+2.5+2.5}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 1,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "980d4743b94418c5",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "102"
+      ],
+      "example_latex": [
+        "-\\frac{s_{sidelength}}{2}\\ \\le\\ \\frac{\\left(x-f_{7}.x\\ +\\left(\\ y-f_{7}.y\\right)\\right)}{\\sqrt{2}}\\le\\ -\\frac{s_{sidelength}}{2}\\ +\\ 0.2\\ \\left\\{3\\ \\ge\\ z\\ \\ge\\ 0\\ \\right\\}\\left\\{-0.2\\ \\le\\ \\frac{\\left(y-f_{7}.y-\\left(x-f_{7}.x\\right)\\right"
+      ],
+      "example_normalized": [
+        "-frac{s_{sidelength}}{2}<=frac{(x-f_{7}.x+(y-f_{7}.y))}{sqrt{2}}<=-frac{s_{sidelength}}{2}+0.2{3>=z>=0}{-0.2<=frac{(y-f_{7}.y-(x-f_{7}.x))}{-sqrt{2}}<=0.2}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "9a05b4ae1b9cafd5",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "254"
+      ],
+      "example_latex": [
+        "\\left(\\frac{x\\ -\\ y}{\\sqrt{2}}\\ -\\ p_{3}\\right)^{2}\\ +\\ \\left(z\\ -\\ p_{2}\\right)^{2}\\ \\ge\\ r_{arc}^{2}\\ \\left\\{-\\frac{d_{length}}{2}\\ \\le\\ \\frac{x\\ -\\ y}{\\sqrt{2}}\\ \\le\\ \\frac{d_{length}}{2}\\right\\}\\left\\{d_{height}\\ +\\ 2.5\\ \\ge z\\ \\ge\\ p_{"
+      ],
+      "example_normalized": [
+        "(frac{x-y}{sqrt{2}}-p_{3})^{2}+(z-p_{2})^{2}>=r_{arc}^{2}{-frac{d_{length}}{2}<=frac{x-y}{sqrt{2}}<=frac{d_{length}}{2}}{d_{height}+2.5>=z>=p_{2}}{sqrt{162}-2<frac{x+y}{sqrt{2}}<sqrt{162}}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "9a88aa0c94106a07",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "217"
+      ],
+      "example_latex": [
+        "z\\ >\\ d_{height}\\ -\\ r_{arc}\\left(\\frac{d_{height}}{i_{intercept}^{2}}\\right)x^{2}\\ \\left\\{-11\\ \\le\\ y\\ \\le\\ -9\\right\\}\\left\\{-\\sqrt{\\frac{d_{height}}{2}}\\le\\ x\\ \\le\\ \\sqrt{\\frac{d_{height}}{2}}\\right\\}\\left\\{i_{intercept}\\ \\le\\ z\\ \\le2.5\\ "
+      ],
+      "example_normalized": [
+        "z>d_{height}-r_{arc}(frac{d_{height}}{i_{intercept}^{2}})x^{2}{-11<=y<=-9}{-sqrt{frac{d_{height}}{2}}<=x<=sqrt{frac{d_{height}}{2}}}{i_{intercept}<=z<=2.5+d_{height}}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "9cf9ce76e90c936d",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "92"
+      ],
+      "example_latex": [
+        "-\\frac{s_{sidelength}}{2}\\ \\le\\ \\frac{\\left(x-f_{6}.x\\ +\\left(\\ y-f_{6}.y\\right)\\right)}{\\sqrt{2}}\\le\\ -\\frac{s_{sidelength}}{2}\\ +\\ 0.2\\ \\left\\{3\\ \\ge\\ z\\ \\ge\\ 0\\ \\right\\}\\left\\{-0.2\\ \\le\\ \\frac{\\left(y-f_{6}.y-\\left(x-f_{6}.x\\right)\\right"
+      ],
+      "example_normalized": [
+        "-frac{s_{sidelength}}{2}<=frac{(x-f_{6}.x+(y-f_{6}.y))}{sqrt{2}}<=-frac{s_{sidelength}}{2}+0.2{3>=z>=0}{-0.2<=frac{(y-f_{6}.y-(x-f_{6}.x))}{-sqrt{2}}<=0.2}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "9d5fb2e13d4168a3",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "215"
+      ],
+      "example_latex": [
+        "\\left(x\\ +\\ p_{1}\\right)^{2}\\ +\\ \\left(z\\ -\\ \\frac{p_{2}}{2}\\right)^{2}\\ >\\ r_{arc}^{2}\\ \\left\\{-w\\ \\le\\ x\\ \\le\\ -\\sqrt{\\frac{d_{height}}{2}}\\right\\}\\left\\{d_{height}\\ \\ -\\ \\frac{p_{2}}{2}\\ \\ge z\\ \\ge\\ \\frac{p_{2}}{2}\\right\\}\\left\\{11\\ >\\ y"
+      ],
+      "example_normalized": [
+        "(x+p_{1})^{2}+(z-frac{p_{2}}{2})^{2}>r_{arc}^{2}{-w<=x<=-sqrt{frac{d_{height}}{2}}}{d_{height}-frac{p_{2}}{2}>=z>=frac{p_{2}}{2}}{11>y>9}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "9e9808573a3184fc",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "359"
+      ],
+      "example_latex": [
+        "\\left(x\\ -\\ h\\right)^{\\ 2}\\ +\\ \\left(y\\ -\\ k\\right)^{2}\\ \\le\\ (a\\ -\\ 0.4)^{2}\\ \\left\\{18\\ \\le\\ z\\ \\le18.5\\right\\}"
+      ],
+      "example_normalized": [
+        "(x-h)^{2}+(y-k)^{2}<=(a-0.4)^{2}{18<=z<=18.5}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "a063594118e53ad7",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "100"
+      ],
+      "example_latex": [
+        "-\\frac{s_{sidelength}}{2}\\ \\le\\ \\frac{\\left(x-f_{7}.x\\ +\\left(\\ y-f_{7}.y\\right)\\right)}{\\sqrt{2}}\\le\\ \\frac{s_{sidelength}}{2}\\ \\left\\{2\\ \\ge\\ z\\ \\ge\\ 1.8\\ \\right\\}\\left\\{-0.2\\ \\le\\ \\frac{\\left(y-f_{7}.y-\\left(x-f_{7}.x\\right)\\right)}{-\\sq"
+      ],
+      "example_normalized": [
+        "-frac{s_{sidelength}}{2}<=frac{(x-f_{7}.x+(y-f_{7}.y))}{sqrt{2}}<=frac{s_{sidelength}}{2}{2>=z>=1.8}{-0.2<=frac{(y-f_{7}.y-(x-f_{7}.x))}{-sqrt{2}}<=0.2}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "a14353ad3c992ed1",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "207"
+      ],
+      "example_latex": [
+        "-w\\le x\\le-w\\ +\\ \\frac{r_{arc}}{2}\\ \\left\\{2.5\\ \\le\\ z\\ \\le\\ d_{height}\\right\\}\\left\\{11\\ >\\ y\\ >9\\right\\}"
+      ],
+      "example_normalized": [
+        "-w<=x<=-w+frac{r_{arc}}{2}{2.5<=z<=d_{height}}{11>y>9}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "a7a2c769f320edda",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "278"
+      ],
+      "example_latex": [
+        "-\\frac{d_{length}}{2}\\ \\le\\ \\frac{x\\ -\\ y}{\\sqrt{2}}\\ \\le\\ \\frac{d_{length}}{2}\\ \\left\\{\\sqrt{162}\\ -\\ 2\\ >\\ \\frac{x\\ +\\ y}{\\sqrt{2}}\\ >\\ -\\sqrt{162}\\ +\\ 2\\right\\}\\left\\{d_{height}\\ +\\ 2.5\\ \\ge\\ z\\ \\ge\\ d_{height}\\right\\}"
+      ],
+      "example_normalized": [
+        "-frac{d_{length}}{2}<=frac{x-y}{sqrt{2}}<=frac{d_{length}}{2}{sqrt{162}-2>frac{x+y}{sqrt{2}}>-sqrt{162}+2}{d_{height}+2.5>=z>=d_{height}}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 1,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "a9bc5f5177a7f1c7",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "56"
+      ],
+      "example_latex": [
+        "f_{1}.y-\\frac{s_{sidelength}}{2}\\ \\le\\ y\\le\\ f_{1}.y\\ +\\frac{s_{sidelength}}{2}\\ \\left\\{0.2\\ \\ge\\ z\\ \\ge\\ 0\\ \\right\\}\\left\\{-0.2\\ +\\ f_{1}.x\\ \\le\\ x\\le\\ 0.2+f_{1}.x\\right\\}"
+      ],
+      "example_normalized": [
+        "f_{1}.y-frac{s_{sidelength}}{2}<=y<=f_{1}.y+frac{s_{sidelength}}{2}{0.2>=z>=0}{-0.2+f_{1}.x<=x<=0.2+f_{1}.x}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "af5d2dcca5f135c7",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "233"
+      ],
+      "example_latex": [
+        "z\\ >\\ d_{height}\\ -\\ r_{arc}\\left(\\frac{d_{height}}{i_{intercept}^{2}}\\right)y^{2}\\ \\left\\{11\\ >\\ x\\ >\\ 9\\right\\}\\left\\{-\\sqrt{\\frac{d_{height}}{2}}\\le\\ y\\ \\le\\ \\sqrt{\\frac{d_{height}}{2}}\\right\\}\\left\\{i_{intercept}\\ \\le\\ z\\ \\le2.5\\ +\\ d_{"
+      ],
+      "example_normalized": [
+        "z>d_{height}-r_{arc}(frac{d_{height}}{i_{intercept}^{2}})y^{2}{11>x>9}{-sqrt{frac{d_{height}}{2}}<=y<=sqrt{frac{d_{height}}{2}}}{i_{intercept}<=z<=2.5+d_{height}}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "b12e73cac1b6cb90",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "303"
+      ],
+      "example_latex": [
+        "\\left(x\\ -\\ s\\right)^{2}\\ +\\ \\left(y\\ -\\ q\\right)^{2}\\ <\\ 0.1^{2}\\ \\left\\{18\\ \\le\\ z\\ \\le\\ 20\\right\\}"
+      ],
+      "example_normalized": [
+        "(x-s)^{2}+(y-q)^{2}<0.1^{2}{18<=z<=20}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "b34357060078c67a",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "103"
+      ],
+      "example_latex": [
+        "\\frac{s_{sidelength}}{2}\\ \\ge\\ \\frac{\\left(x-f_{7}.x\\ +\\left(\\ y-f_{7}.y\\right)\\right)}{\\sqrt{2}}\\ge\\ \\frac{s_{sidelength}}{2}\\ -\\ 0.2\\ \\left\\{3\\ \\ge\\ z\\ \\ge\\ 0\\ \\right\\}\\left\\{-0.2\\ \\le\\ \\frac{\\left(y-f_{7}.y-\\left(x-f_{7}.x\\right)\\right)}"
+      ],
+      "example_normalized": [
+        "frac{s_{sidelength}}{2}>=frac{(x-f_{7}.x+(y-f_{7}.y))}{sqrt{2}}>=frac{s_{sidelength}}{2}-0.2{3>=z>=0}{-0.2<=frac{(y-f_{7}.y-(x-f_{7}.x))}{-sqrt{2}}<=0.2}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "b378917a97272d75",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "95"
+      ],
+      "example_latex": [
+        "-\\frac{s_{sidelength}}{2}\\ \\le\\ \\frac{\\left(x-f_{8}.x\\ -\\left(\\ y-f_{8}.y\\right)\\right)}{\\sqrt{2}}\\le\\ \\frac{s_{sidelength}}{2}\\ \\left\\{2\\ \\ge\\ z\\ \\ge\\ 1.8\\ \\right\\}\\left\\{-0.2\\ \\le\\ \\frac{\\left(y-f_{8}.y+\\left(x-f_{8}.x\\right)\\right)}{-\\sq"
+      ],
+      "example_normalized": [
+        "-frac{s_{sidelength}}{2}<=frac{(x-f_{8}.x-(y-f_{8}.y))}{sqrt{2}}<=frac{s_{sidelength}}{2}{2>=z>=1.8}{-0.2<=frac{(y-f_{8}.y+(x-f_{8}.x))}{-sqrt{2}}<=0.2}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "b392e77e9258683e",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "64"
+      ],
+      "example_latex": [
+        "f_{2}.y-\\frac{s_{sidelength}}{2}\\ \\le\\ y\\le\\ f_{2}.y\\ +\\frac{s_{sidelength}}{2}\\ \\left\\{2\\ \\ge\\ z\\ \\ge\\ 1.8\\ \\right\\}\\left\\{-0.2\\ +\\ f_{2}.x\\ \\le\\ x\\le\\ 0.2+f_{2}.x\\right\\}"
+      ],
+      "example_normalized": [
+        "f_{2}.y-frac{s_{sidelength}}{2}<=y<=f_{2}.y+frac{s_{sidelength}}{2}{2>=z>=1.8}{-0.2+f_{2}.x<=x<=0.2+f_{2}.x}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "b5a120ed097b91e3",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "63"
+      ],
+      "example_latex": [
+        "f_{2}.y-\\frac{s_{sidelength}}{2}\\ \\le\\ y\\le\\ f_{2}.y\\ +\\frac{s_{sidelength}}{2}\\ \\left\\{3\\ \\ge\\ z\\ \\ge\\ 2.8\\ \\right\\}\\left\\{-0.2\\ +\\ f_{2}.x\\ \\le\\ x\\le\\ 0.2+f_{2}.x\\right\\}"
+      ],
+      "example_normalized": [
+        "f_{2}.y-frac{s_{sidelength}}{2}<=y<=f_{2}.y+frac{s_{sidelength}}{2}{3>=z>=2.8}{-0.2+f_{2}.x<=x<=0.2+f_{2}.x}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "b77e3831bfe7f5e3",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "78"
+      ],
+      "example_latex": [
+        "f_{4}.x+\\frac{s_{sidelength}}{2}\\ \\ge\\ x\\ge\\ f_{4}.x\\ +\\frac{s_{sidelength}}{2}\\ -\\ 0.2\\left\\{3\\ \\ge\\ z\\ \\ge\\ 0\\ \\right\\}\\left\\{-0.2\\ +\\ f_{4}.y\\ \\le\\ y\\le\\ 0.2+f_{4}.y\\right\\}"
+      ],
+      "example_normalized": [
+        "f_{4}.x+frac{s_{sidelength}}{2}>=x>=f_{4}.x+frac{s_{sidelength}}{2}-0.2{3>=z>=0}{-0.2+f_{4}.y<=y<=0.2+f_{4}.y}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "b9cd00109c850a32",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "57"
+      ],
+      "example_latex": [
+        "f_{1}.y-\\frac{s_{sidelength}}{2}\\ \\le\\ y\\le\\ f_{1}.y\\ -\\frac{s_{sidelength}}{2}+\\ 0.2\\ \\left\\{3\\ \\ge\\ z\\ \\ge\\ 0\\ \\right\\}\\left\\{-0.2\\ +\\ f_{1}.x\\ \\le\\ x\\le\\ 0.2+f_{1}.x\\right\\}"
+      ],
+      "example_normalized": [
+        "f_{1}.y-frac{s_{sidelength}}{2}<=y<=f_{1}.y-frac{s_{sidelength}}{2}+0.2{3>=z>=0}{-0.2+f_{1}.x<=x<=0.2+f_{1}.x}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "c21a82f93bc53ce7",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "222"
+      ],
+      "example_latex": [
+        "\\left(x\\ -\\ p_{1}\\right)^{2}\\ +\\ \\left(z\\ -\\ \\frac{p_{2}}{2}\\right)^{2}\\ >\\ r_{arc}^{2}\\ \\left\\{w\\ \\ge\\ x\\ \\ge\\ \\sqrt{\\frac{d_{height}}{2}}\\right\\}\\left\\{d_{height}\\ \\ -\\ \\frac{p_{2}}{2}\\ \\ge z\\ \\ge\\ \\frac{p_{2}}{2}\\right\\}\\left\\{-11\\ <\\ y\\"
+      ],
+      "example_normalized": [
+        "(x-p_{1})^{2}+(z-frac{p_{2}}{2})^{2}>r_{arc}^{2}{w>=x>=sqrt{frac{d_{height}}{2}}}{d_{height}-frac{p_{2}}{2}>=z>=frac{p_{2}}{2}}{-11<y<-9}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "c5625a9c7b9e42e0",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "267"
+      ],
+      "example_latex": [
+        "-\\frac{d_{length}}{2}\\ \\le\\ \\frac{x\\ -\\ y}{\\sqrt{2}}\\ \\le\\ -\\frac{d_{length}}{2}\\ +\\ \\frac{r_{arc}}{2}\\ \\left\\{-\\sqrt{162}\\ +\\ 2\\ \\ge\\frac{x\\ +\\ y}{\\sqrt{2}}\\ \\ge\\ -\\sqrt{162}\\right\\}\\ \\left\\{2.5\\ \\le\\ z\\ \\le\\ d_{height}\\ +\\ 2.5\\right\\}"
+      ],
+      "example_normalized": [
+        "-frac{d_{length}}{2}<=frac{x-y}{sqrt{2}}<=-frac{d_{length}}{2}+frac{r_{arc}}{2}{-sqrt{162}+2>=frac{x+y}{sqrt{2}}>=-sqrt{162}}{2.5<=z<=d_{height}+2.5}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "c578d4152a1d746f",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "273"
+      ],
+      "example_latex": [
+        "\\frac{d_{length}}{2}\\ \\ge\\ \\frac{x\\ +\\ y}{\\sqrt{2}}\\ \\ge\\ \\frac{d_{length}}{2}\\ -\\ \\frac{r_{arc}}{2}\\ \\left\\{-\\sqrt{162}\\ +\\ 2\\ge\\frac{x\\ -\\ y}{\\sqrt{2}}\\ \\ge\\ -\\sqrt{162}\\right\\}\\ \\left\\{2.5\\ \\le\\ z\\ \\le\\ d_{height}\\ +\\ 2.5\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{d_{length}}{2}>=frac{x+y}{sqrt{2}}>=frac{d_{length}}{2}-frac{r_{arc}}{2}{-sqrt{162}+2>=frac{x-y}{sqrt{2}}>=-sqrt{162}}{2.5<=z<=d_{height}+2.5}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "c6a8c304a0fd6d96",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "272"
+      ],
+      "example_latex": [
+        "\\frac{d_{length}}{2}\\ \\ge\\ \\frac{x\\ +\\ y}{\\sqrt{2}}\\ \\ge\\ \\frac{d_{length}}{2}\\ -\\ \\frac{r_{arc}}{2}\\ \\left\\{\\sqrt{162}\\ -\\ 2\\le\\frac{x\\ -\\ y}{\\sqrt{2}}\\ \\le\\ \\sqrt{162}\\right\\}\\ \\left\\{2.5\\ \\le\\ z\\ \\le\\ d_{height}\\ +\\ 2.5\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{d_{length}}{2}>=frac{x+y}{sqrt{2}}>=frac{d_{length}}{2}-frac{r_{arc}}{2}{sqrt{162}-2<=frac{x-y}{sqrt{2}}<=sqrt{162}}{2.5<=z<=d_{height}+2.5}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "c9ae749f95ddde50",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "72"
+      ],
+      "example_latex": [
+        "f_{3}.x-\\frac{s_{sidelength}}{2}\\ \\le\\ x\\le\\ f_{3}.x\\ -\\frac{s_{sidelength}}{2}\\ +\\ 0.2\\left\\{3\\ \\ge\\ z\\ \\ge\\ 0\\ \\right\\}\\left\\{-0.2\\ +\\ f_{3}.y\\ \\le\\ y\\le\\ 0.2+f_{3}.y\\right\\}"
+      ],
+      "example_normalized": [
+        "f_{3}.x-frac{s_{sidelength}}{2}<=x<=f_{3}.x-frac{s_{sidelength}}{2}+0.2{3>=z>=0}{-0.2+f_{3}.y<=y<=0.2+f_{3}.y}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "cab9751f20ebfbe5",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "228"
+      ],
+      "example_latex": [
+        "\\sqrt{\\frac{d_{height}}{2}}\\le x\\le\\ \\sqrt{\\frac{d_{height}}{2}}+\\ \\frac{r_{arc}}{2}\\ \\left\\{2.5\\ \\le\\ z\\ \\le\\ d_{height}\\right\\}\\left\\{-11\\ <\\ y\\ <-9\\right\\}"
+      ],
+      "example_normalized": [
+        "sqrt{frac{d_{height}}{2}}<=x<=sqrt{frac{d_{height}}{2}}+frac{r_{arc}}{2}{2.5<=z<=d_{height}}{-11<y<-9}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "cca3325ce8d76825",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Partial axis bounds only",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "367"
+      ],
+      "example_latex": [
+        "z\\ \\le\\ 0"
+      ],
+      "example_normalized": [
+        "z<=0"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "cccf5ae0cfa71c7a",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "89"
+      ],
+      "example_latex": [
+        "-\\frac{s_{sidelength}}{2}\\ \\le\\ \\frac{\\left(x-f_{6}.x\\ +\\left(\\ y-f_{6}.y\\right)\\right)}{\\sqrt{2}}\\le\\ \\frac{s_{sidelength}}{2}\\ \\left\\{3\\ \\ge\\ z\\ \\ge\\ 2.8\\ \\right\\}\\left\\{-0.2\\ \\le\\ \\frac{\\left(y-f_{6}.y-\\left(x-f_{6}.x\\right)\\right)}{-\\sq"
+      ],
+      "example_normalized": [
+        "-frac{s_{sidelength}}{2}<=frac{(x-f_{6}.x+(y-f_{6}.y))}{sqrt{2}}<=frac{s_{sidelength}}{2}{3>=z>=2.8}{-0.2<=frac{(y-f_{6}.y-(x-f_{6}.x))}{-sqrt{2}}<=0.2}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "cd13fe293fa8ffec",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "70"
+      ],
+      "example_latex": [
+        "f_{3}.x-\\frac{s_{sidelength}}{2}\\ \\le\\ x\\le\\ f_{3}.x\\ +\\frac{s_{sidelength}}{2}\\ \\left\\{2\\ \\ge\\ z\\ \\ge\\ 1.8\\ \\right\\}\\left\\{-0.2\\ +\\ f_{3}.y\\ \\le\\ y\\le\\ 0.2+f_{3}.y\\right\\}"
+      ],
+      "example_normalized": [
+        "f_{3}.x-frac{s_{sidelength}}{2}<=x<=f_{3}.x+frac{s_{sidelength}}{2}{2>=z>=1.8}{-0.2+f_{3}.y<=y<=0.2+f_{3}.y}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "cded41cd5509dcc7",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "259"
+      ],
+      "example_latex": [
+        "\\frac{d_{length}}{2}\\ \\ge\\ \\frac{x\\ -\\ y}{\\sqrt{2}}\\ \\ge\\ \\frac{d_{length}}{2}\\ -\\ \\frac{r_{arc}}{2}\\ \\left\\{\\sqrt{162}\\ -\\ 2\\le\\frac{x\\ +\\ y}{\\sqrt{2}}\\ \\le\\ \\sqrt{162}\\right\\}\\ \\left\\{2.5\\ \\le\\ z\\ \\le\\ d_{height}\\ +\\ 2.5\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{d_{length}}{2}>=frac{x-y}{sqrt{2}}>=frac{d_{length}}{2}-frac{r_{arc}}{2}{sqrt{162}-2<=frac{x+y}{sqrt{2}}<=sqrt{162}}{2.5<=z<=d_{height}+2.5}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "d34eb1f7390a728f",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "210"
+      ],
+      "example_latex": [
+        "\\sqrt{\\frac{d_{height}}{2}}\\le x\\le\\ \\sqrt{\\frac{d_{height}}{2}}+\\ \\frac{r_{arc}}{2}\\ \\left\\{2.5\\ \\le\\ z\\ \\le\\ d_{height}\\right\\}\\left\\{11\\ >\\ y\\ >9\\right\\}"
+      ],
+      "example_normalized": [
+        "sqrt{frac{d_{height}}{2}}<=x<=sqrt{frac{d_{height}}{2}}+frac{r_{arc}}{2}{2.5<=z<=d_{height}}{11>y>9}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "d4da2c126f98d951",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "66"
+      ],
+      "example_latex": [
+        "f_{2}.y-\\frac{s_{sidelength}}{2}\\ \\le\\ y\\le\\ f_{2}.y\\ -\\frac{s_{sidelength}}{2}+0.2\\ \\left\\{3\\ \\ge\\ z\\ \\ge\\ 0\\right\\}\\left\\{-0.2\\ +\\ f_{2}.x\\ \\le\\ x\\le\\ 0.2+f_{2}.x\\right\\}"
+      ],
+      "example_normalized": [
+        "f_{2}.y-frac{s_{sidelength}}{2}<=y<=f_{2}.y-frac{s_{sidelength}}{2}+0.2{3>=z>=0}{-0.2+f_{2}.x<=x<=0.2+f_{2}.x}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "db247cb75bd63e54",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "270"
+      ],
+      "example_latex": [
+        "\\left(\\frac{x\\ +\\ y}{\\sqrt{2}}\\ -\\ p_{3}\\right)^{2}\\ +\\ \\left(z\\ -\\ \\frac{p_{2}}{2}\\right)^{2}\\ \\ge\\ r_{arc}^{2}\\ \\left\\{-\\frac{d_{length}}{2}\\ \\le\\ \\frac{x\\ +\\ y}{\\sqrt{2}}\\ \\le\\ \\frac{d_{length}}{2}\\right\\}\\left\\{d_{height}\\ \\ -\\ \\frac{p_"
+      ],
+      "example_normalized": [
+        "(frac{x+y}{sqrt{2}}-p_{3})^{2}+(z-frac{p_{2}}{2})^{2}>=r_{arc}^{2}{-frac{d_{length}}{2}<=frac{x+y}{sqrt{2}}<=frac{d_{length}}{2}}{d_{height}-frac{p_{2}}{2}>=z>=frac{p_{2}}{2}}{sqrt{162}-2<frac{x-y}{sqrt{2}}<sqrt{162}}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "dc5b49a615215488",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "58"
+      ],
+      "example_latex": [
+        "f_{1}.y+\\frac{s_{sidelength}}{2}\\ \\ge\\ y\\ge\\ f_{1}.y\\ +\\frac{s_{sidelength}}{2}-\\ 0.2\\ \\left\\{3\\ \\ge\\ z\\ \\ge\\ 0\\ \\right\\}\\left\\{-0.2\\ +\\ f_{1}.x\\ \\le\\ x\\le\\ 0.2+f_{1}.x\\right\\}"
+      ],
+      "example_normalized": [
+        "f_{1}.y+frac{s_{sidelength}}{2}>=y>=f_{1}.y+frac{s_{sidelength}}{2}-0.2{3>=z>=0}{-0.2+f_{1}.x<=x<=0.2+f_{1}.x}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "dc9456bede7ef70e",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "248"
+      ],
+      "example_latex": [
+        "-w\\le y\\le-w\\ +\\ \\frac{r_{arc}}{2}\\ \\left\\{2.5\\ \\le\\ z\\ \\le\\ d_{height}\\right\\}\\left\\{11\\ >\\ x\\ >9\\right\\}"
+      ],
+      "example_normalized": [
+        "-w<=y<=-w+frac{r_{arc}}{2}{2.5<=z<=d_{height}}{11>x>9}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "e1c07376ab745014",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "55"
+      ],
+      "example_latex": [
+        "f_{1}.y-\\frac{s_{sidelength}}{2}\\ \\le\\ y\\le\\ f_{1}.y\\ +\\frac{s_{sidelength}}{2}\\ \\left\\{2\\ \\ge\\ z\\ \\ge\\ 1.8\\ \\right\\}\\left\\{-0.2\\ +\\ f_{1}.x\\ \\le\\ x\\le\\ 0.2+f_{1}.x\\right\\}"
+      ],
+      "example_normalized": [
+        "f_{1}.y-frac{s_{sidelength}}{2}<=y<=f_{1}.y+frac{s_{sidelength}}{2}{2>=z>=1.8}{-0.2+f_{1}.x<=x<=0.2+f_{1}.x}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "e2a8e214b8aebbff",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "242"
+      ],
+      "example_latex": [
+        "\\left(y\\ +\\ p_{1}\\right)^{2}\\ +\\ \\left(z\\ -\\ \\frac{p_{2}}{2}\\right)^{2}\\ >\\ r_{arc}^{2}\\ \\left\\{-w\\ \\le\\ y\\ \\le\\ -\\sqrt{\\frac{d_{height}}{2}}\\right\\}\\left\\{d_{height}\\ \\ -\\ \\frac{p_{2}}{2}\\ \\ge z\\ \\ge\\ \\frac{p_{2}}{2}\\right\\}\\left\\{11\\ >\\ x"
+      ],
+      "example_normalized": [
+        "(y+p_{1})^{2}+(z-frac{p_{2}}{2})^{2}>r_{arc}^{2}{-w<=y<=-sqrt{frac{d_{height}}{2}}}{d_{height}-frac{p_{2}}{2}>=z>=frac{p_{2}}{2}}{11>x>9}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "e5e28596b9fa346d",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "244"
+      ],
+      "example_latex": [
+        "w\\ge y\\ge\\ w\\ -\\ \\frac{r_{arc}}{2}\\ \\left\\{2.5\\ \\le\\ z\\ \\le\\ d_{height}\\right\\}\\left\\{11\\ >\\ x\\ >9\\right\\}"
+      ],
+      "example_normalized": [
+        "w>=y>=w-frac{r_{arc}}{2}{2.5<=z<=d_{height}}{11>x>9}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "e5ffdec52b2afde5",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "274"
+      ],
+      "example_latex": [
+        "-\\frac{d_{length}}{2}\\ \\le\\ \\frac{x\\ +\\ y}{\\sqrt{2}}\\ \\le\\ -\\frac{d_{length}}{2}\\ +\\ \\frac{r_{arc}}{2}\\ \\left\\{\\sqrt{162}\\ -\\ 2\\le\\frac{x\\ -\\ y}{\\sqrt{2}}\\ \\le\\ \\sqrt{162}\\right\\}\\ \\left\\{2.5\\ \\le\\ z\\ \\le\\ d_{height}\\ +\\ 2.5\\right\\}"
+      ],
+      "example_normalized": [
+        "-frac{d_{length}}{2}<=frac{x+y}{sqrt{2}}<=-frac{d_{length}}{2}+frac{r_{arc}}{2}{sqrt{162}-2<=frac{x-y}{sqrt{2}}<=sqrt{162}}{2.5<=z<=d_{height}+2.5}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "e734e1c8a9d9c35a",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "362"
+      ],
+      "example_latex": [
+        "\\left(x\\ -\\ h\\right)^{\\ 2}\\ +\\ \\left(y\\ -\\ k\\right)^{2}\\ \\le\\ (a\\ -\\ 0.3)^{2}\\ \\left\\{18.5\\ +\\ 2.3\\ \\le\\ z\\ \\le18.5\\ +\\ 2.3\\ +\\ 0.3\\right\\}"
+      ],
+      "example_normalized": [
+        "(x-h)^{2}+(y-k)^{2}<=(a-0.3)^{2}{18.5+2.3<=z<=18.5+2.3+0.3}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "e8d4d8923d584fcf",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "97"
+      ],
+      "example_latex": [
+        "-\\frac{s_{sidelength}}{2}\\ \\le\\ \\frac{\\left(x-f_{8}.x\\ -\\left(\\ y-f_{8}.y\\right)\\right)}{\\sqrt{2}}\\le\\ -\\frac{s_{sidelength}}{2}\\ +\\ 0.2\\ \\left\\{3\\ \\ge\\ z\\ \\ge\\ 0\\ \\right\\}\\left\\{-0.2\\ \\le\\ \\frac{\\left(y-f_{8}.y+\\left(x-f_{8}.x\\right)\\right"
+      ],
+      "example_normalized": [
+        "-frac{s_{sidelength}}{2}<=frac{(x-f_{8}.x-(y-f_{8}.y))}{sqrt{2}}<=-frac{s_{sidelength}}{2}+0.2{3>=z>=0}{-0.2<=frac{(y-f_{8}.y+(x-f_{8}.x))}{-sqrt{2}}<=0.2}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "ebeb506bd2913699",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "88"
+      ],
+      "example_latex": [
+        "\\frac{s_{sidelength}}{2}\\ \\ge\\ \\frac{\\left(x-f_{5}.x\\ -\\left(\\ y-f_{5}.y\\right)\\right)}{\\sqrt{2}}\\ge\\ \\frac{s_{sidelength}}{2}\\ -\\ 0.2\\left\\{3\\ \\ge\\ z\\ \\ge\\ 0\\right\\}\\left\\{-0.2\\ \\le\\ \\frac{\\left(y-f_{5}.y+\\left(x-f_{5}.x\\right)\\right)}{-\\s"
+      ],
+      "example_normalized": [
+        "frac{s_{sidelength}}{2}>=frac{(x-f_{5}.x-(y-f_{5}.y))}{sqrt{2}}>=frac{s_{sidelength}}{2}-0.2{3>=z>=0}{-0.2<=frac{(y-f_{5}.y+(x-f_{5}.x))}{-sqrt{2}}<=0.2}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "ec56b5a4e3c934c5",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "282"
+      ],
+      "example_latex": [
+        "-11\\ \\le\\ x\\ \\le\\ -9\\ \\left\\{-\\sqrt{\\frac{d_{height}}{2}}\\ -\\ \\frac{r_{arc}}{2}\\ \\le\\ y\\ \\le\\ \\sqrt{\\frac{d_{height}}{2}}\\ +\\ \\frac{r_{arc}}{2}\\right\\}\\left\\{d_{height}\\ +\\ 2.5\\ \\le\\ z\\ <\\ d_{height}\\ +\\ 2.5\\ +\\ 2.5\\ \\right\\}"
+      ],
+      "example_normalized": [
+        "-11<=x<=-9{-sqrt{frac{d_{height}}{2}}-frac{r_{arc}}{2}<=y<=sqrt{frac{d_{height}}{2}}+frac{r_{arc}}{2}}{d_{height}+2.5<=z<d_{height}+2.5+2.5}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 1,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "f0d5669e7da137d1",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "351"
+      ],
+      "example_latex": [
+        "\\left(x\\ -\\ j_{points}.x\\right)^{2}\\ +\\ \\left(y\\ -\\ j_{points}.y\\right)^{2}\\ <\\ r_{pil}^{2}\\ \\left\\{2.5\\ \\le z\\ \\le\\ 19\\right\\}"
+      ],
+      "example_normalized": [
+        "(x-j_{points}.x)^{2}+(y-j_{points}.y)^{2}<r_{pil}^{2}{2.5<=z<=19}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "f1839d36a1436a7e",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "243"
+      ],
+      "example_latex": [
+        "\\left(y\\ +\\ p_{1}\\right)^{2}\\ +\\ \\left(z\\ -\\ \\frac{p_{2}}{2}\\right)^{2}\\ >\\ r_{arc}^{2}\\ \\left\\{-w\\ \\le\\ y\\ \\le\\ -\\sqrt{\\frac{d_{height}}{2}}\\right\\}\\left\\{d_{height}\\ \\ -\\ \\frac{p_{2}}{2}\\ \\ge z\\ \\ge\\ \\frac{p_{2}}{2}\\right\\}\\left\\{-11\\ <\\ "
+      ],
+      "example_normalized": [
+        "(y+p_{1})^{2}+(z-frac{p_{2}}{2})^{2}>r_{arc}^{2}{-w<=y<=-sqrt{frac{d_{height}}{2}}}{d_{height}-frac{p_{2}}{2}>=z>=frac{p_{2}}{2}}{-11<x<-9}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "f23f09975799fe4b",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "98"
+      ],
+      "example_latex": [
+        "\\frac{s_{sidelength}}{2}\\ \\ge\\ \\frac{\\left(x-f_{8}.x\\ -\\left(\\ y-f_{8}.y\\right)\\right)}{\\sqrt{2}}\\ge\\frac{s_{sidelength}}{2}\\ -\\ 0.2\\ \\left\\{3\\ \\ge\\ z\\ \\ge\\ 0\\ \\right\\}\\left\\{-0.2\\ \\le\\ \\frac{\\left(y-f_{8}.y+\\left(x-f_{8}.x\\right)\\right)}{-"
+      ],
+      "example_normalized": [
+        "frac{s_{sidelength}}{2}>=frac{(x-f_{8}.x-(y-f_{8}.y))}{sqrt{2}}>=frac{s_{sidelength}}{2}-0.2{3>=z>=0}{-0.2<=frac{(y-f_{8}.y+(x-f_{8}.x))}{-sqrt{2}}<=0.2}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "f3b010643a1b6606",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "298"
+      ],
+      "example_latex": [
+        "\\max\\left(\\left|\\left(x\\ -\\ s\\right)\\right|,\\left|\\left(y\\ -\\ q\\right)\\right|,\\frac{\\left|\\left(x\\ -\\ s\\right)+\\left(y\\ -\\ q\\right)\\right|}{\\sqrt{2}},\\frac{\\left|\\left(x\\ -\\ s\\right)-\\left(y\\ -\\ q\\right)\\right|}{\\sqrt{2}}\\right)\\le s_{size}"
+      ],
+      "example_normalized": [
+        "max(|(x-s)|,|(y-q)|,frac{|(x-s)+(y-q)|}{sqrt{2}},frac{|(x-s)-(y-q)|}{sqrt{2}})<=s_{size}-0.3{d_{height}+3.5<=z<=d_{height}+5.6}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "f50c4c14420db14d",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "74"
+      ],
+      "example_latex": [
+        "f_{4}.x-\\frac{s_{sidelength}}{2}\\ \\le\\ x\\le\\ f_{4}.x\\ +\\frac{s_{sidelength}}{2}\\ \\left\\{3\\ \\ge\\ z\\ \\ge\\ 2.8\\ \\right\\}\\left\\{-0.2\\ +\\ f_{4}.y\\ \\le\\ y\\le\\ 0.2+f_{4}.y\\right\\}"
+      ],
+      "example_normalized": [
+        "f_{4}.x-frac{s_{sidelength}}{2}<=x<=f_{4}.x+frac{s_{sidelength}}{2}{3>=z>=2.8}{-0.2+f_{4}.y<=y<=0.2+f_{4}.y}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "f5284e041eac18eb",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "240"
+      ],
+      "example_latex": [
+        "\\left(y\\ -\\ p_{1}\\right)^{2}\\ +\\ \\left(z\\ -\\ \\frac{p_{2}}{2}\\right)^{2}\\ >\\ r_{arc}^{2}\\ \\left\\{w\\ \\ge\\ y\\ \\ge\\ \\sqrt{\\frac{d_{height}}{2}}\\right\\}\\left\\{d_{height}\\ \\ -\\ \\frac{p_{2}}{2}\\ \\ge z\\ \\ge\\ \\frac{p_{2}}{2}\\right\\}\\left\\{11\\ >\\ x\\ "
+      ],
+      "example_normalized": [
+        "(y-p_{1})^{2}+(z-frac{p_{2}}{2})^{2}>r_{arc}^{2}{w>=y>=sqrt{frac{d_{height}}{2}}}{d_{height}-frac{p_{2}}{2}>=z>=frac{p_{2}}{2}}{11>x>9}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "f634d0495389e0e8",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "247"
+      ],
+      "example_latex": [
+        "\\sqrt{\\frac{d_{height}}{2}}\\le y\\le\\ \\sqrt{\\frac{d_{height}}{2}}+\\ \\frac{r_{arc}}{2}\\ \\left\\{2.5\\ \\le\\ z\\ \\le\\ d_{height}\\right\\}\\left\\{-11\\ <\\ x<-9\\right\\}"
+      ],
+      "example_normalized": [
+        "sqrt{frac{d_{height}}{2}}<=y<=sqrt{frac{d_{height}}{2}}+frac{r_{arc}}{2}{2.5<=z<=d_{height}}{-11<x<-9}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "f819bbc9193e27d1",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "357"
+      ],
+      "example_latex": [
+        "\\left(x\\ -\\ h\\right)^{\\ 2}\\ +\\ \\left(y\\ -\\ k\\right)^{2}\\ \\le\\ (a\\ -\\ 0.3)^{2}\\ \\left\\{12.5\\ \\le\\ z\\ \\le12.5+\\ 0.5\\right\\}"
+      ],
+      "example_normalized": [
+        "(x-h)^{2}+(y-k)^{2}<=(a-0.3)^{2}{12.5<=z<=12.5+0.5}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "f890addb5c4a7001",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "238"
+      ],
+      "example_latex": [
+        "\\left(y\\ +\\ p_{1}\\right)^{2}\\ +\\ \\left(z\\ -\\ p_{2}\\right)^{2}\\ >\\ r_{arc}^{2}\\ \\left\\{-w\\ \\le\\ y\\ \\le\\ -\\sqrt{\\frac{d_{height}}{2}}\\right\\}\\left\\{d_{height}\\ +\\ 2.5\\ \\ge z\\ \\ge\\ p_{2}\\right\\}\\left\\{11\\ >\\ x\\ >\\ 9\\right\\}"
+      ],
+      "example_normalized": [
+        "(y+p_{1})^{2}+(z-p_{2})^{2}>r_{arc}^{2}{-w<=y<=-sqrt{frac{d_{height}}{2}}}{d_{height}+2.5>=z>=p_{2}}{11>x>9}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "f9f5c21bf390a374",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "202"
+      ],
+      "example_latex": [
+        "\\left(x\\ -\\ p_{1}\\right)^{2}\\ +\\ \\left(z\\ -\\ p_{2}\\right)^{2}\\ >\\ r_{arc}^{2}\\ \\left\\{w\\ \\ge\\ x\\ \\ge\\ \\sqrt{\\frac{d_{height}}{2}}\\right\\}\\left\\{d_{height}\\ +\\ 2.5\\ \\ge z\\ \\ge\\ p_{2}\\right\\}\\left\\{11\\ >\\ y\\ >\\ 9\\right\\}"
+      ],
+      "example_normalized": [
+        "(x-p_{1})^{2}+(z-p_{2})^{2}>r_{arc}^{2}{w>=x>=sqrt{frac{d_{height}}{2}}}{d_{height}+2.5>=z>=p_{2}}{11>y>9}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "fcb501ede5c48a9a",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "299"
+      ],
+      "example_latex": [
+        "\\max\\left(\\left|\\left(x\\ -\\ s\\right)\\right|,\\left|\\left(y\\ -\\ q\\right)\\right|,\\frac{\\left|\\left(x\\ -\\ s\\right)+\\left(y\\ -\\ q\\right)\\right|}{\\sqrt{2}},\\frac{\\left|\\left(x\\ -\\ s\\right)-\\left(y\\ -\\ q\\right)\\right|}{\\sqrt{2}}\\right)\\le s_{size}"
+      ],
+      "example_normalized": [
+        "max(|(x-s)|,|(y-q)|,frac{|(x-s)+(y-q)|}{sqrt{2}},frac{|(x-s)-(y-q)|}{sqrt{2}})<=s_{size}+0.3{d_{height}+5.2<=z<=d_{height}+5.4}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "fcd2274fde0c7fcb",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "250"
+      ],
+      "example_latex": [
+        "-\\sqrt{\\frac{d_{height}}{2}}\\ge y\\ge\\ -\\sqrt{\\frac{d_{height}}{2}}\\ -\\ \\frac{r_{arc}}{2}\\left\\{2.5\\ \\le\\ z\\ \\le\\ d_{height}\\right\\}\\left\\{11\\ >\\ x\\ >9\\right\\}"
+      ],
+      "example_normalized": [
+        "-sqrt{frac{d_{height}}{2}}>=y>=-sqrt{frac{d_{height}}{2}}-frac{r_{arc}}{2}{2.5<=z<=d_{height}}{11>x>9}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "033b796003774be0",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "189"
+      ],
+      "example_latex": [
+        "x^{2}\\ +\\ y^{2}\\ +\\ \\left(z\\ -\\ \\left(2.5\\ +\\ d_{height}\\ +\\ 4\\ +\\ 2.5\\right)\\right)^{2}\\ =\\ \\left(t\\ +\\ 0.5\\right)^{2}\\ "
+      ],
+      "example_normalized": [
+        "x^{2}+y^{2}+(z-(2.5+d_{height}+4+2.5))^{2}=(t+0.5)^{2}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "087955edca34af39",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "311"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}\\left(\\left(x_{pos}\\ +\\ r_{circumradius}\\cos\\left(\\frac{2\\pi T}{n_{sides}}\\ +\\ d_{turn}\\right),\\ y_{pos}\\ +\\ r_{circumradius}\\sin\\left(\\frac{2\\pi T}{n_{sides}}\\ +\\ d_{turn}\\right),\\ z_{pos}\\right),\\ \\left(x_{pos}\\ +\\ "
+      ],
+      "example_normalized": [
+        "operatorname{triangle}((x_{pos}+r_{circumradius}cos(frac{2piT}{n_{sides}}+d_{turn}),y_{pos}+r_{circumradius}sin(frac{2piT}{n_{sides}}+d_{turn}),z_{pos}),(x_{pos}+r_{circumradius}cos(frac{2pioperatorname{mod}(T+1,n_{sides})}{n_{sides}}+d_{tu"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "4915df1ce7b67bab",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "329"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}\\left(\\left(x_{A}+r_{A}\\cos\\left(\\frac{2\\pi L}{n_{A}}+d_{A}\\right),y_{A}+r_{A}\\sin\\left(\\frac{2\\pi L}{n_{A}}+d_{A}\\right),z_{A}\\right),\\left(x_{A}+r_{A}\\cos\\left(\\frac{2\\pi\\operatorname{mod}(L+1,n_{A})}{n_{A}}+d_{A}\\r"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}((x_{A}+r_{A}cos(frac{2piL}{n_{A}}+d_{A}),y_{A}+r_{A}sin(frac{2piL}{n_{A}}+d_{A}),z_{A}),(x_{A}+r_{A}cos(frac{2pioperatorname{mod}(L+1,n_{A})}{n_{A}}+d_{A}),y_{A}+r_{A}sin(frac{2pioperatorname{mod}(L+1,n_{A})}{n_{A}}+d"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "9c53e78bc5fa8666",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "300"
+      ],
+      "example_latex": [
+        "\\left(x\\ -\\ s\\right)^{2}\\ +\\ \\left(y\\ -\\ q\\right)^{2}\\ +\\ \\left(z\\ -\\ 17.8\\right)^{2}\\ =\\ c^{2}"
+      ],
+      "example_normalized": [
+        "(x-s)^{2}+(y-q)^{2}+(z-17.8)^{2}=c^{2}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "a0907e1108813c89",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "363"
+      ],
+      "example_latex": [
+        "\\left(x\\ -\\ h\\right)^{2}\\ +\\ \\left(y\\ -\\ k\\right)^{2}\\ +\\ \\left(z\\ -\\ \\left(18.5\\ +\\ 2.3\\ +\\ 0.3\\right)\\right)^{2}\\ =\\ s_{top}^{2}\\ \\left\\{z\\ \\ge\\ 18.5\\ +\\ 2.3\\ +\\ 0.3\\right\\}"
+      ],
+      "example_normalized": [
+        "(x-h)^{2}+(y-k)^{2}+(z-(18.5+2.3+0.3))^{2}=s_{top}^{2}{z>=18.5+2.3+0.3}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    }
+  ],
+  "diagnostics": [
+    {
+      "severity": "WARNING",
+      "code": "COVERAGE_MESH_FAILURES",
+      "message": "Some meshes failed during coverage pass (these items may be missing)",
+      "source_ref": null,
+      "details": {
+        "failed_mesh_count": 5,
+        "failures": [
+          {
+            "source_file": "[4B] 3D Diagram - S2-03 Group E.json",
+            "expression_id": "110",
+            "error": "Unknown symbol: p_pattern"
+          },
+          {
+            "source_file": "[4B] 3D Diagram - S2-03 Group E.json",
+            "expression_id": "117",
+            "error": "Unknown symbol: p_pattern"
+          },
+          {
+            "source_file": "[4B] 3D Diagram - S2-03 Group E.json",
+            "expression_id": "123",
+            "error": "Unknown symbol: p_pattern"
+          },
+          {
+            "source_file": "[4B] 3D Diagram - S2-03 Group E.json",
+            "expression_id": "131",
+            "error": "Unknown symbol: p_pattern2"
+          },
+          {
+            "source_file": "[4B] 3D Diagram - S2-03 Group E.json",
+            "expression_id": "140",
+            "error": "Unknown symbol: p_pattern3"
+          }
+        ]
+      }
+    },
+    {
+      "severity": "INFO",
+      "code": "COVERAGE_COMPLETE",
+      "message": "Coverage report complete",
+      "source_ref": null,
+      "details": {
+        "file": "[4B] 3D Diagram - S2-03 Group E.json",
+        "meshed_expression_ids": 34,
+        "supported_but_not_meshed": 5,
+        "group_count": 124
+      }
+    }
+  ]
+}

@@ -1,0 +1,335 @@
+{
+  "source_file": "[4B] 3D Diagram - S2-02 Group E.json",
+  "total_items": 62,
+  "total_expressions": 62,
+  "meshed_expression_count": 45,
+  "supported_expression_count": 45,
+  "supported_but_not_meshed_count": 0,
+  "recognized_unsupported_count": 5,
+  "unrecognized_count": 9,
+  "geometry_ineligible_count": 3,
+  "groups": [
+    {
+      "fingerprint": "23bd0ead6bcf6b22",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Partial axis bounds only",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "102"
+      ],
+      "example_latex": [
+        "z<-3"
+      ],
+      "example_normalized": [
+        "z<-3"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "2821390dd5514597",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "37"
+      ],
+      "example_latex": [
+        "\\frac{1}{2}x^{2}+x-4\\ge-z+x\\left\\{-3\\le x\\le3\\right\\}\\left\\{2\\le z\\le5\\right\\}\\left\\{-3.7\\le y\\le3.7\\right\\}"
+      ],
+      "example_normalized": [
+        "(1)/(2)x^{2}+x-4>=-z+x{-3<=x<=3}{2<=z<=5}{-3.7<=y<=3.7}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "76ce4fac89b3db79",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "88"
+      ],
+      "example_latex": [
+        "\\frac{1}{2}\\left(2x-17\\right)\\left(2x-8\\right)\\ge-2z-x+2\\left\\{4\\le x\\le8.5\\right\\}\\left\\{2\\le z\\le5\\right\\}\\left\\{-3.2\\le y\\le3.2\\right\\}"
+      ],
+      "example_normalized": [
+        "(1)/(2)(2x-17)(2x-8)>=-2z-x+2{4<=x<=8.5}{2<=z<=5}{-3.2<=y<=3.2}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "f1cb8723b7095b95",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Partial axis bounds only",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "22"
+      ],
+      "example_latex": [
+        "5\\le y\\le2.5\\left\\{5\\le x\\le2.5\\right\\}\\left\\{7\\le x\\le8\\right\\}"
+      ],
+      "example_normalized": [
+        "5<=y<=2.5{5<=x<=2.5}{7<=x<=8}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 1,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "f750fe6be1106126",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "78"
+      ],
+      "example_latex": [
+        "\\frac{1}{2}\\left(2x+11.5\\right)\\left(2x+13.5\\right)\\ge-2z-x-1\\left\\{-8.5\\le x\\le-4\\right\\}\\left\\{2\\le z\\le5\\right\\}\\left\\{-3.2\\le y\\le3.2\\right\\}"
+      ],
+      "example_normalized": [
+        "(1)/(2)(2x+11.5)(2x+13.5)>=-2z-x-1{-8.5<=x<=-4}{2<=z<=5}{-3.2<=y<=3.2}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "2d7d436371e9374b",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "39"
+      ],
+      "example_latex": [
+        "\\left(x+3.35\\right)^{2}+\\left(y-4\\right)^{2}=0.72\\left\\{0\\le z\\le8.5\\right\\}"
+      ],
+      "example_normalized": [
+        "(x+3.35)^{2}+(y-4)^{2}=0.72{0<=z<=8.5}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "39feaff8b0156622",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "74"
+      ],
+      "example_latex": [
+        "\\operatorname{sphere}\\left(\\left(3.35,-4,8.5\\right),0.8\\right)"
+      ],
+      "example_normalized": [
+        "operatorname{sphere}((3.35,-4,8.5),0.8)"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "86b5acd4667698f4",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "19"
+      ],
+      "example_latex": [
+        "\\left(x+3.35\\right)^{2}+\\left(y+4\\right)^{2}=0.72\\left\\{0\\le z\\le8.5\\right\\}"
+      ],
+      "example_normalized": [
+        "(x+3.35)^{2}+(y+4)^{2}=0.72{0<=z<=8.5}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 1,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "8fce6aa08a7ef74b",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "40"
+      ],
+      "example_latex": [
+        "\\left(x-3.35\\right)^{2}+\\left(y-4\\right)^{2}=0.72\\left\\{0\\le z\\le8.5\\right\\}"
+      ],
+      "example_normalized": [
+        "(x-3.35)^{2}+(y-4)^{2}=0.72{0<=z<=8.5}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "94125108e5e5f41a",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "73"
+      ],
+      "example_latex": [
+        "\\operatorname{sphere}\\left(\\left(3.35,4,8.5\\right),0.8\\right)"
+      ],
+      "example_normalized": [
+        "operatorname{sphere}((3.35,4,8.5),0.8)"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "9ea4df5fdb7c49a2",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "76"
+      ],
+      "example_latex": [
+        "\\operatorname{sphere}\\left(\\left(-3.35,-4,8.5\\right),0.8\\right)\\ "
+      ],
+      "example_normalized": [
+        "operatorname{sphere}((-3.35,-4,8.5),0.8)"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "a09f731bcabf6122",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "38"
+      ],
+      "example_latex": [
+        "\\left(x-3.35\\right)^{2}+\\left(y+4\\right)^{2}=0.72\\left\\{0\\le z\\le8.5\\right\\}"
+      ],
+      "example_normalized": [
+        "(x-3.35)^{2}+(y+4)^{2}=0.72{0<=z<=8.5}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "cb380750e9bbf2a4",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "77"
+      ],
+      "example_latex": [
+        "\\operatorname{sphere}\\left(\\left(-3.35,4,8.5\\right),0.8\\right)\\ "
+      ],
+      "example_normalized": [
+        "operatorname{sphere}((-3.35,4,8.5),0.8)"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "fc17d04a899a37ac",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "64"
+      ],
+      "example_latex": [
+        "\\frac{x^{2}}{2.46^{2}}+\\frac{y^{2}}{3^{2}}+\\frac{\\left(z-5\\right)^{2}}{2.9^{2}}=1\\left\\{5\\le z\\le10\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{x^{2}}{2.46^{2}}+frac{y^{2}}{3^{2}}+frac{(z-5)^{2}}{2.9^{2}}=1{5<=z<=10}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    }
+  ],
+  "diagnostics": [
+    {
+      "severity": "INFO",
+      "code": "COVERAGE_COMPLETE",
+      "message": "Coverage report complete",
+      "source_ref": null,
+      "details": {
+        "file": "[4B] 3D Diagram - S2-02 Group E.json",
+        "meshed_expression_ids": 45,
+        "supported_but_not_meshed": 0,
+        "group_count": 14
+      }
+    }
+  ]
+}

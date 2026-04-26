@@ -1,0 +1,91 @@
+{
+  "source_file": "[4B] 3D Diagram - S2-04 Group D.json",
+  "total_expressions": 30,
+  "supported_count": 20,
+  "recognized_unsupported_count": 0,
+  "unrecognized_count": 1,
+  "geometry_ineligible_count": 9,
+  "per_folder_summary": [
+    {
+      "folder_id": null,
+      "folder_name": null,
+      "total": 9,
+      "supported": 0,
+      "recognized_unsupported": 0,
+      "unrecognized": 1,
+      "geometry_ineligible": 8
+    },
+    {
+      "folder_id": "56",
+      "folder_name": "bridge",
+      "total": 2,
+      "supported": 2,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 0
+    },
+    {
+      "folder_id": "58",
+      "folder_name": "cables",
+      "total": 6,
+      "supported": 6,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 0
+    },
+    {
+      "folder_id": "69",
+      "folder_name": "misc",
+      "total": 1,
+      "supported": 0,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 1
+    },
+    {
+      "folder_id": "49",
+      "folder_name": "pillars on +y",
+      "total": 6,
+      "supported": 6,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 0
+    },
+    {
+      "folder_id": "41",
+      "folder_name": "pillars on -y",
+      "total": 6,
+      "supported": 6,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 0
+    }
+  ],
+  "unsupported_expressions": [
+    {
+      "expression_id": "83",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "898df09cbef2577b",
+      "latex": "484\\cdot2300000",
+      "normalized_latex": "484*2300000"
+    }
+  ],
+  "unknown_fingerprints": [
+    "898df09cbef2577b"
+  ],
+  "diagnostics": [
+    {
+      "severity": "INFO",
+      "code": "AUDIT_COMPLETE",
+      "message": "Audit classification complete",
+      "source_ref": null,
+      "details": {
+        "file": "[4B] 3D Diagram - S2-04 Group D.json"
+      }
+    }
+  ],
+  "status": "PARTIAL"
+}

@@ -1,0 +1,475 @@
+{
+  "source_file": "[4B] 3D Diagram - S2-03 Group F.json",
+  "total_expressions": 52,
+  "supported_count": 12,
+  "recognized_unsupported_count": 0,
+  "unrecognized_count": 40,
+  "geometry_ineligible_count": 0,
+  "per_folder_summary": [
+    {
+      "folder_id": null,
+      "folder_name": null,
+      "total": 52,
+      "supported": 12,
+      "recognized_unsupported": 0,
+      "unrecognized": 40,
+      "geometry_ineligible": 0
+    }
+  ],
+  "unsupported_expressions": [
+    {
+      "expression_id": "71",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "6386a03345110515",
+      "latex": "(6.25-2.65*t,6.25-2.65*t,5.7*t)",
+      "normalized_latex": "(6.25-2.65*t,6.25-2.65*t,5.7*t)"
+    },
+    {
+      "expression_id": "72",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "6ae8d296d535c57e",
+      "latex": "(-6.25+2.65*t,6.25-2.65*t,5.7*t)",
+      "normalized_latex": "(-6.25+2.65*t,6.25-2.65*t,5.7*t)"
+    },
+    {
+      "expression_id": "73",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "a95e2242c09a01f1",
+      "latex": "(6.25-2.65*t,-6.25+2.65*t,5.7*t)",
+      "normalized_latex": "(6.25-2.65*t,-6.25+2.65*t,5.7*t)"
+    },
+    {
+      "expression_id": "74",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "f8e914bb9f68ce41",
+      "latex": "(-6.25+2.65*t,-6.25+2.65*t,5.7*t)",
+      "normalized_latex": "(-6.25+2.65*t,-6.25+2.65*t,5.7*t)"
+    },
+    {
+      "expression_id": "75",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "7af86f94c8331eac",
+      "latex": "(3.6-1.8*t,3.6-1.8*t,5.7+5.8*t)",
+      "normalized_latex": "(3.6-1.8*t,3.6-1.8*t,5.7+5.8*t)"
+    },
+    {
+      "expression_id": "76",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "0f1cce77b39db693",
+      "latex": "(-3.6+1.8*t,3.6-1.8*t,5.7+5.8*t)",
+      "normalized_latex": "(-3.6+1.8*t,3.6-1.8*t,5.7+5.8*t)"
+    },
+    {
+      "expression_id": "77",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "042c63f15f6abc35",
+      "latex": "(3.6-1.8*t,-3.6+1.8*t,5.7+5.8*t)",
+      "normalized_latex": "(3.6-1.8*t,-3.6+1.8*t,5.7+5.8*t)"
+    },
+    {
+      "expression_id": "78",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "ec04a4c9f361889c",
+      "latex": "(-3.6+1.8*t,-3.6+1.8*t,5.7+5.8*t)",
+      "normalized_latex": "(-3.6+1.8*t,-3.6+1.8*t,5.7+5.8*t)"
+    },
+    {
+      "expression_id": "79",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "2255323b16fd9291",
+      "latex": "(1.8-1.2*t,1.8-1.2*t,11.5+16.1*t)",
+      "normalized_latex": "(1.8-1.2*t,1.8-1.2*t,11.5+16.1*t)"
+    },
+    {
+      "expression_id": "80",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "4700e427bc58f62e",
+      "latex": "(-1.8+1.2*t,1.8-1.2*t,11.5+16.1*t)",
+      "normalized_latex": "(-1.8+1.2*t,1.8-1.2*t,11.5+16.1*t)"
+    },
+    {
+      "expression_id": "81",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "d0f6e5ea428a4e5f",
+      "latex": "(1.8-1.2*t,-1.8+1.2*t,11.5+16.1*t)",
+      "normalized_latex": "(1.8-1.2*t,-1.8+1.2*t,11.5+16.1*t)"
+    },
+    {
+      "expression_id": "82",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "6d90168543060571",
+      "latex": "(-1.8+1.2*t,-1.8+1.2*t,11.5+16.1*t)",
+      "normalized_latex": "(-1.8+1.2*t,-1.8+1.2*t,11.5+16.1*t)"
+    },
+    {
+      "expression_id": "83",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "09e503b41a428b80",
+      "latex": "(0.6-0.6*t,0.6-0.6*t,27.6+2.4*t)",
+      "normalized_latex": "(0.6-0.6*t,0.6-0.6*t,27.6+2.4*t)"
+    },
+    {
+      "expression_id": "84",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "3fed304b64d1270d",
+      "latex": "(-0.6+0.6*t,0.6-0.6*t,27.6+2.4*t)",
+      "normalized_latex": "(-0.6+0.6*t,0.6-0.6*t,27.6+2.4*t)"
+    },
+    {
+      "expression_id": "85",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "0c796ffd3a925675",
+      "latex": "(0.6-0.6*t,-0.6+0.6*t,27.6+2.4*t)",
+      "normalized_latex": "(0.6-0.6*t,-0.6+0.6*t,27.6+2.4*t)"
+    },
+    {
+      "expression_id": "86",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "7fb93d579319c485",
+      "latex": "(-0.6+0.6*t,-0.6+0.6*t,27.6+2.4*t)",
+      "normalized_latex": "(-0.6+0.6*t,-0.6+0.6*t,27.6+2.4*t)"
+    },
+    {
+      "expression_id": "88",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "13257bf3afd2df9d",
+      "latex": "(-3.9+7.8*t,3.9,5.7)",
+      "normalized_latex": "(-3.9+7.8*t,3.9,5.7)"
+    },
+    {
+      "expression_id": "89",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "fdd4a3947545738a",
+      "latex": "(3.9,-3.9+7.8*t,5.7)",
+      "normalized_latex": "(3.9,-3.9+7.8*t,5.7)"
+    },
+    {
+      "expression_id": "91",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "68400cc737b07e2e",
+      "latex": "(-3.9,3.9-7.8*t,5.7)",
+      "normalized_latex": "(-3.9,3.9-7.8*t,5.7)"
+    },
+    {
+      "expression_id": "92",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "61d63be6191165a6",
+      "latex": "(-1.9+3.8*t,1.9,11.5)",
+      "normalized_latex": "(-1.9+3.8*t,1.9,11.5)"
+    },
+    {
+      "expression_id": "93",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "b5022c20113ef0e4",
+      "latex": "(1.9,-1.9+3.8*t,11.5)",
+      "normalized_latex": "(1.9,-1.9+3.8*t,11.5)"
+    },
+    {
+      "expression_id": "95",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "0a0b23a520929ff2",
+      "latex": "(-1.9,1.9-3.8*t,11.5)",
+      "normalized_latex": "(-1.9,1.9-3.8*t,11.5)"
+    },
+    {
+      "expression_id": "96",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "544cf3368e9ed1f2",
+      "latex": "(-0.7+1.4*t,0.7,27.6)",
+      "normalized_latex": "(-0.7+1.4*t,0.7,27.6)"
+    },
+    {
+      "expression_id": "97",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "fa13c40f11b3437c",
+      "latex": "(0.7,-0.7+1.4*t,27.6)",
+      "normalized_latex": "(0.7,-0.7+1.4*t,27.6)"
+    },
+    {
+      "expression_id": "99",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "b95b886cd6aa926f",
+      "latex": "(-0.7,0.7-1.4*t,27.6)",
+      "normalized_latex": "(-0.7,0.7-1.4*t,27.6)"
+    },
+    {
+      "expression_id": "100",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "ca4e5076cd079a0b",
+      "latex": "(6.25-12.5*t,6.25,0)",
+      "normalized_latex": "(6.25-12.5*t,6.25,0)"
+    },
+    {
+      "expression_id": "101",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "88ce802325f53e10",
+      "latex": "(6.25,-6.25+12.5*t,0)",
+      "normalized_latex": "(6.25,-6.25+12.5*t,0)"
+    },
+    {
+      "expression_id": "103",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "721cc1beaacb3af9",
+      "latex": "(-6.25,6.25-12.5*t,0)",
+      "normalized_latex": "(-6.25,6.25-12.5*t,0)"
+    },
+    {
+      "expression_id": "108",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "e49721d7868d7bf6",
+      "latex": "(-6.25+9.85*t,6.25-2.65*t,5.7*t)",
+      "normalized_latex": "(-6.25+9.85*t,6.25-2.65*t,5.7*t)"
+    },
+    {
+      "expression_id": "109",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "e60c7a63afa304be",
+      "latex": "(6.25-9.85*t,6.25-2.65*t,5.7*t)",
+      "normalized_latex": "(6.25-9.85*t,6.25-2.65*t,5.7*t)"
+    },
+    {
+      "expression_id": "110",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "52d60b321ff3661d",
+      "latex": "(-6.25+9.85*t,-6.25+2.65*t,5.7*t)",
+      "normalized_latex": "(-6.25+9.85*t,-6.25+2.65*t,5.7*t)"
+    },
+    {
+      "expression_id": "111",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "796e2ecc333fd038",
+      "latex": "(6.25-9.85*t,-6.25+2.65*t,5.7*t)",
+      "normalized_latex": "(6.25-9.85*t,-6.25+2.65*t,5.7*t)"
+    },
+    {
+      "expression_id": "122",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "0d39e16a0e794f48",
+      "latex": "(((1-v)*3.9+v*1.9)*(2*u-1),(1-v)*3.9+v*1.9,5.7+5.8*v)",
+      "normalized_latex": "(((1-v)*3.9+v*1.9)*(2*u-1),(1-v)*3.9+v*1.9,5.7+5.8*v)"
+    },
+    {
+      "expression_id": "123",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "1c3a7c540c295a39",
+      "latex": "(((1-v)*3.9+v*1.9)*(2*u-1),-((1-v)*3.9+v*1.9),5.7+5.8*v)",
+      "normalized_latex": "(((1-v)*3.9+v*1.9)*(2*u-1),-((1-v)*3.9+v*1.9),5.7+5.8*v)"
+    },
+    {
+      "expression_id": "124",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "9b9db54ee4b697b5",
+      "latex": "((1-v)*3.9+v*1.9,((1-v)*3.9+v*1.9)*(2*u-1),5.7+5.8*v)",
+      "normalized_latex": "((1-v)*3.9+v*1.9,((1-v)*3.9+v*1.9)*(2*u-1),5.7+5.8*v)"
+    },
+    {
+      "expression_id": "125",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "fdc81d447fbc3a90",
+      "latex": "(-((1-v)*3.9+v*1.9),((1-v)*3.9+v*1.9)*(2*u-1),5.7+5.8*v)",
+      "normalized_latex": "(-((1-v)*3.9+v*1.9),((1-v)*3.9+v*1.9)*(2*u-1),5.7+5.8*v)"
+    },
+    {
+      "expression_id": "127",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "a0c21f47a4197094",
+      "latex": "(((1-v)*1.9+v*0.7)*(2*u-1),(1-v)*1.9+v*0.7,11.5+16.1*v)",
+      "normalized_latex": "(((1-v)*1.9+v*0.7)*(2*u-1),(1-v)*1.9+v*0.7,11.5+16.1*v)"
+    },
+    {
+      "expression_id": "128",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "5d7bb9ffa33fecf5",
+      "latex": "(((1-v)*1.9+v*0.7)*(2*u-1),-((1-v)*1.9+v*0.7),11.5+16.1*v)",
+      "normalized_latex": "(((1-v)*1.9+v*0.7)*(2*u-1),-((1-v)*1.9+v*0.7),11.5+16.1*v)"
+    },
+    {
+      "expression_id": "129",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "5c5c3bac8cf2f5d8",
+      "latex": "((1-v)*1.9+v*0.7,((1-v)*1.9+v*0.7)*(2*u-1),11.5+16.1*v)",
+      "normalized_latex": "((1-v)*1.9+v*0.7,((1-v)*1.9+v*0.7)*(2*u-1),11.5+16.1*v)"
+    },
+    {
+      "expression_id": "130",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "7012a806b639f73d",
+      "latex": "(-((1-v)*1.9+v*0.7),((1-v)*1.9+v*0.7)*(2*u-1),11.5+16.1*v)",
+      "normalized_latex": "(-((1-v)*1.9+v*0.7),((1-v)*1.9+v*0.7)*(2*u-1),11.5+16.1*v)"
+    }
+  ],
+  "unknown_fingerprints": [
+    "042c63f15f6abc35",
+    "09e503b41a428b80",
+    "0a0b23a520929ff2",
+    "0c796ffd3a925675",
+    "0d39e16a0e794f48",
+    "0f1cce77b39db693",
+    "13257bf3afd2df9d",
+    "1c3a7c540c295a39",
+    "2255323b16fd9291",
+    "3fed304b64d1270d",
+    "4700e427bc58f62e",
+    "52d60b321ff3661d",
+    "544cf3368e9ed1f2",
+    "5c5c3bac8cf2f5d8",
+    "5d7bb9ffa33fecf5",
+    "61d63be6191165a6",
+    "6386a03345110515",
+    "68400cc737b07e2e",
+    "6ae8d296d535c57e",
+    "6d90168543060571",
+    "7012a806b639f73d",
+    "721cc1beaacb3af9",
+    "796e2ecc333fd038",
+    "7af86f94c8331eac",
+    "7fb93d579319c485",
+    "88ce802325f53e10",
+    "9b9db54ee4b697b5",
+    "a0c21f47a4197094",
+    "a95e2242c09a01f1",
+    "b5022c20113ef0e4",
+    "b95b886cd6aa926f",
+    "ca4e5076cd079a0b",
+    "d0f6e5ea428a4e5f",
+    "e49721d7868d7bf6",
+    "e60c7a63afa304be",
+    "ec04a4c9f361889c",
+    "f8e914bb9f68ce41",
+    "fa13c40f11b3437c",
+    "fdc81d447fbc3a90",
+    "fdd4a3947545738a"
+  ],
+  "diagnostics": [
+    {
+      "severity": "INFO",
+      "code": "AUDIT_COMPLETE",
+      "message": "Audit classification complete",
+      "source_ref": null,
+      "details": {
+        "file": "[4B] 3D Diagram - S2-03 Group F.json"
+      }
+    }
+  ],
+  "status": "PARTIAL"
+}

@@ -1,0 +1,313 @@
+{
+  "source_file": "[4B] 3D Diagram - S2-05 Group F.json",
+  "total_items": 39,
+  "total_expressions": 35,
+  "meshed_expression_count": 8,
+  "supported_expression_count": 8,
+  "supported_but_not_meshed_count": 0,
+  "recognized_unsupported_count": 9,
+  "unrecognized_count": 4,
+  "geometry_ineligible_count": 14,
+  "groups": [
+    {
+      "fingerprint": "08351c8c35b01323",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "31"
+      ],
+      "example_latex": [
+        "0.9<\\frac{\\left(x\\right)^{2}}{X^{2}}+\\frac{\\left(y\\right)^{2}}{Y^{2}}<0.98"
+      ],
+      "example_normalized": [
+        "0.9<frac{(x)^{2}}{X^{2}}+frac{(y)^{2}}{Y^{2}}<0.98"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "56cc8933f485b00b",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Partial axis bounds only",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "42"
+      ],
+      "example_latex": [
+        "x_{2}-5<x<x_{2}\\left\\{-y_{2}<y<y_{2}\\right\\}"
+      ],
+      "example_normalized": [
+        "x_{2}-5<x<x_{2}{-y_{2}<y<y_{2}}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "62879ae83bbb6c65",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "19"
+      ],
+      "example_latex": [
+        "0.9<\\frac{\\left(x-h\\right)^{2}}{a^{2}}+\\frac{\\left(y-k\\right)^{2}}{b^{2}}<1"
+      ],
+      "example_normalized": [
+        "0.9<frac{(x-h)^{2}}{a^{2}}+frac{(y-k)^{2}}{b^{2}}<1"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "7d1498cb8208de3a",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "30"
+      ],
+      "example_latex": [
+        "0.9<\\frac{\\left(x+h\\right)^{2}}{a^{2}}+\\frac{\\left(y+k\\right)^{2}}{b^{2}}<1"
+      ],
+      "example_normalized": [
+        "0.9<frac{(x+h)^{2}}{a^{2}}+frac{(y+k)^{2}}{b^{2}}<1"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "8ecceb3a99763bdc",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "45"
+      ],
+      "example_latex": [
+        "0.8<\\frac{\\left(x-H\\right)^{2}}{A_{1}^{2}}+\\frac{\\left(y-K\\right)^{2}}{B_{1}^{2}}<1\\left\\{\\frac{\\left(x+h\\right)^{2}}{a^{2}}+\\frac{\\left(y+k\\right)^{2}}{b^{2}}<1\\right\\}"
+      ],
+      "example_normalized": [
+        "0.8<frac{(x-H)^{2}}{A_{1}^{2}}+frac{(y-K)^{2}}{B_{1}^{2}}<1{frac{(x+h)^{2}}{a^{2}}+frac{(y+k)^{2}}{b^{2}}<1}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "c40bb40abb86f0cf",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "15"
+      ],
+      "example_latex": [
+        "25^{2}>x^{2}+y^{2}"
+      ],
+      "example_normalized": [
+        "25^{2}>x^{2}+y^{2}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "e1bbb3f8a281607d",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Partial axis bounds only",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "36"
+      ],
+      "example_latex": [
+        "x_{1}<x<x_{2}\\left\\{y_{1}<y<y_{2}\\right\\}"
+      ],
+      "example_normalized": [
+        "x_{1}<x<x_{2}{y_{1}<y<y_{2}}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "e927d6c9beb52fbc",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Partial axis bounds only",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "41"
+      ],
+      "example_latex": [
+        "x_{1}<x<x_{2}\\left\\{-y_{1}>y>-y_{2}\\right\\}"
+      ],
+      "example_normalized": [
+        "x_{1}<x<x_{2}{-y_{1}>y>-y_{2}}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "eb026821bf187696",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "16"
+      ],
+      "example_latex": [
+        "35^{2}>x^{2}+y^{2}>30^{2}"
+      ],
+      "example_normalized": [
+        "35^{2}>x^{2}+y^{2}>30^{2}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "139454691e0cdeed",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "10"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}\\left(A,B,T\\right)"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}(A,B,T)"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "677405a972c5f3ff",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "12"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}\\left(C,D,T\\right)"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}(C,D,T)"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "7094437e5d858a4d",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "11"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}\\left(C,B,T\\right)"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}(C,B,T)"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "cd917f8eba17babc",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "13"
+      ],
+      "example_latex": [
+        "\\operatorname{triangle}\\left(A,D,T\\right)"
+      ],
+      "example_normalized": [
+        "operatorname{triangle}(A,D,T)"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    }
+  ],
+  "diagnostics": [
+    {
+      "severity": "INFO",
+      "code": "COVERAGE_COMPLETE",
+      "message": "Coverage report complete",
+      "source_ref": null,
+      "details": {
+        "file": "[4B] 3D Diagram - S2-05 Group F.json",
+        "meshed_expression_ids": 8,
+        "supported_but_not_meshed": 0,
+        "group_count": 13
+      }
+    }
+  ]
+}

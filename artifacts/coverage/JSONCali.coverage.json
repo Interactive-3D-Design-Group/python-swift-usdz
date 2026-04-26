@@ -6,35 +6,9 @@
   "supported_expression_count": 341,
   "supported_but_not_meshed_count": 0,
   "recognized_unsupported_count": 0,
-  "unrecognized_count": 2,
-  "geometry_ineligible_count": 0,
-  "groups": [
-    {
-      "fingerprint": "c46f24883308ec70",
-      "family": "UNKNOWN",
-      "status": "UNRECOGNIZED",
-      "reason": "Unrecognized expression form",
-      "count": 2,
-      "meshed_count": 0,
-      "example_expression_ids": [
-        "135",
-        "377"
-      ],
-      "example_latex": [
-        "",
-        ""
-      ],
-      "example_normalized": [
-        "",
-        ""
-      ],
-      "flags": {
-        "lines": 0,
-        "extendTo3D": 0,
-        "has_color": 2
-      }
-    }
-  ],
+  "unrecognized_count": 0,
+  "geometry_ineligible_count": 2,
+  "groups": [],
   "diagnostics": [
     {
       "severity": "INFO",
@@ -45,7 +19,7 @@
         "file": "JSONCali.json",
         "meshed_expression_ids": 341,
         "supported_but_not_meshed": 0,
-        "group_count": 1
+        "group_count": 0
       }
     }
   ]

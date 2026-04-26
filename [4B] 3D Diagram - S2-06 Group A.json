@@ -1,0 +1,4075 @@
+{
+  "version": 11,
+  "randomSeed": "8c4aa6fc362143190556054e512bd061",
+  "graph": {
+    "viewport": {
+      "xmin": -176.11394603707765,
+      "ymin": -174.34590583490774,
+      "zmin": -100.21832251624477,
+      "xmax": 190.01015849409373,
+      "ymax": 191.77819869626364,
+      "zmax": 265.9057820149266
+    },
+    "worldRotation3D": [
+      -0.8313989202869771,
+      -0.5517077667793391,
+      -0.06629008539002108,
+      0.5499623762121473,
+      -0.8340374932072078,
+      0.04385025285828092,
+      -0.07948094172033827,
+      2.8309766589471817e-13,
+      0.9968363857239964
+    ],
+    "axis3D": [
+      0,
+      0,
+      -0.9999999999951819
+    ],
+    "perspectiveDistortion": 0,
+    "showAxis3D": false,
+    "product": "graphing-3d",
+    "threeDMode": true,
+    "__v12ViewportLatexStash": {
+      "xmin": "-176.11394603707765",
+      "xmax": "190.01015849409373",
+      "ymin": "-174.34590583490774",
+      "ymax": "191.77819869626364",
+      "zmin": "-100.21832251624477",
+      "zmax": "265.9057820149266"
+    }
+  },
+  "expressions": {
+    "list": [
+      {
+        "type": "expression",
+        "id": "22",
+        "color": "#6042a6",
+        "latex": "-19<x<19\\ \\left\\{1<y<39\\right\\}\\ \\left\\{0<z<158\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "365",
+        "color": "#c74440",
+        "latex": "9<y<29\\ \\left\\{-9<x<9\\right\\}\\left\\{150<z<192\\right\\}",
+        "hidden": true,
+        "extendTo3D": true
+      },
+      {
+        "type": "expression",
+        "id": "381",
+        "color": "#c74440",
+        "latex": "19<y<19.1\\ \\left\\{0<x<0.1\\right\\}",
+        "hidden": true,
+        "extendTo3D": true
+      },
+      {
+        "type": "text",
+        "id": "567",
+        "text": "POINTY THING AT THE TOP"
+      },
+      {
+        "type": "folder",
+        "id": "376",
+        "title": "Upper most pointy thing",
+        "collapsed": true
+      },
+      {
+        "type": "expression",
+        "id": "377",
+        "folderId": "376",
+        "color": "#2d70b3",
+        "latex": "z=3.7y+173\\ \\left\\{205<z<260\\right\\}\\left\\{z<4.8x+248\\right\\}\\left\\{z<-4.8x+248\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "617",
+        "folderId": "376",
+        "color": "#2d70b3",
+        "latex": "z=-3.7y+320\\left\\{205<z<260\\right\\}\\left\\{z<4.8x+248\\right\\}\\left\\{z<-4.8x+248\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "930",
+        "folderId": "376",
+        "color": "#2d70b3",
+        "latex": "x=0.2z+-50\\left\\{205<z<260\\right\\}\\left\\{z<-3.7y+320\\right\\}\\left\\{z<3.7y+173\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "931",
+        "folderId": "376",
+        "color": "#2d70b3",
+        "latex": "x=-0.2z+50\\left\\{205<z<260\\right\\}\\left\\{x>0\\right\\}\\left\\{y<0.2x\\ 6+20\\right\\}\\left\\{y>-0.2x\\ 6+20\\right\\}\\left\\{z<-3.7y+320\\right\\}\\left\\{z<3.7y+173\\right\\}"
+      },
+      {
+        "type": "folder",
+        "id": "360",
+        "title": "Base of the Pointy thing + Arches",
+        "collapsed": true
+      },
+      {
+        "type": "expression",
+        "id": "366",
+        "folderId": "360",
+        "color": "#2d70b3",
+        "latex": "z=4.7y+149\\ \\left\\{z<3x+220\\right\\}\\left\\{z<-3x+220\\right\\}\\left\\{162<z<192\\right\\}\\left\\{-19<x<19\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "615",
+        "folderId": "360",
+        "color": "#2d70b3",
+        "latex": "z=-4.7y+336\\ \\left\\{z<3x+220\\right\\}\\left\\{z<-3x+220\\right\\}\\left\\{162<z<192\\right\\}\\left\\{-19<x<19\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "932",
+        "folderId": "360",
+        "color": "#2d70b3",
+        "latex": "x=0.33z+-73\\ \\left\\{162<z<192\\right\\}\\left\\{z<4.7y+149\\right\\}\\left\\{z<-4.7y+336\\right\\}",
+        "extendTo3D": true
+      },
+      {
+        "type": "expression",
+        "id": "933",
+        "folderId": "360",
+        "color": "#2d70b3",
+        "latex": "x=-0.33z+73\\ \\left\\{162<z<192\\right\\}\\left\\{z<4.7y+149\\right\\}\\left\\{z<-4.7y+336\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "367",
+        "folderId": "360",
+        "color": "#388c46",
+        "latex": "192<z<193\\ \\left\\{9<y<31\\right\\}\\left\\{-9<x<9\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "370",
+        "folderId": "360",
+        "color": "#c74440",
+        "latex": "-9<x<-5.5\\ \\left\\{-3.6\\left(x+7.2\\right)^{2}\\ +\\ 204<z\\right\\}\\left\\{193<z<205\\right\\}\\left\\{9<y<31\\right\\}",
+        "extendTo3D": true
+      },
+      {
+        "type": "expression",
+        "id": "971",
+        "folderId": "360",
+        "color": "#c74440",
+        "latex": "9<y<13.4\\left\\{-3.6\\left(y-11.2\\right)^{2}\\ +\\ 204<z\\right\\}\\left\\{-9.2<x<9.2\\right\\}\\left\\{193<z<205\\right\\}",
+        "extendTo3D": true
+      },
+      {
+        "type": "expression",
+        "id": "371",
+        "folderId": "360",
+        "color": "#2d70b3",
+        "latex": "-5.5<x<-2\\ \\left\\{-3.6\\left(x+3.2\\right)^{2}\\ +\\ 204<z\\right\\}\\left\\{193<z<205\\right\\}\\left\\{9<y<31\\right\\}",
+        "extendTo3D": true
+      },
+      {
+        "type": "expression",
+        "id": "966",
+        "folderId": "360",
+        "color": "#2d70b3",
+        "latex": "13.4<y<17.8\\left\\{-3.6\\left(y-15.4\\right)^{2}\\ +\\ 204<z\\right\\}\\left\\{-9.2<x<9.2\\right\\}\\left\\{193<z<205\\right\\}",
+        "extendTo3D": true
+      },
+      {
+        "type": "expression",
+        "id": "372",
+        "folderId": "360",
+        "color": "#388c46",
+        "latex": "-2<x<1.5\\ \\left\\{-3.6\\left(x+0.2\\right)^{2}\\ +\\ 204<z\\right\\}\\left\\{193<z<205\\right\\}\\left\\{9<y<31\\right\\}",
+        "extendTo3D": true
+      },
+      {
+        "type": "expression",
+        "id": "967",
+        "folderId": "360",
+        "color": "#388c46",
+        "latex": "17.8<y<22.2\\left\\{-3.6\\left(y-19.6\\right)^{2}\\ +\\ 204<z\\right\\}\\left\\{-9.2<x<9.2\\right\\}\\left\\{193<z<205\\right\\}",
+        "extendTo3D": true
+      },
+      {
+        "type": "expression",
+        "id": "373",
+        "folderId": "360",
+        "color": "#6042a6",
+        "latex": "1.5<x<5\\ \\left\\{-3.6\\left(x-3.2\\right)^{2}\\ +\\ 204<z\\right\\}\\left\\{193<z<205\\right\\}\\left\\{9<y<31\\right\\}",
+        "extendTo3D": true
+      },
+      {
+        "type": "expression",
+        "id": "968",
+        "folderId": "360",
+        "color": "#6042a6",
+        "latex": "22.2<y<26.6\\left\\{-3.6\\left(y-24\\right)^{2}\\ +\\ 204<z\\right\\}\\left\\{-9.2<x<9.2\\right\\}\\left\\{193<z<205\\right\\}",
+        "extendTo3D": true
+      },
+      {
+        "type": "expression",
+        "id": "374",
+        "folderId": "360",
+        "color": "#aaaaaa",
+        "latex": "5<x<9\\ \\left\\{-3.6\\left(x-6.75\\right)^{2}\\ +\\ 204<z\\right\\}\\left\\{193<z<205\\right\\}\\left\\{9<y<31\\right\\}",
+        "extendTo3D": true
+      },
+      {
+        "type": "expression",
+        "id": "970",
+        "folderId": "360",
+        "color": "#aaaaaa",
+        "latex": "26.6<y<31\\left\\{-3.6\\left(y-28.9\\right)^{2}\\ +\\ 204<z\\right\\}\\left\\{-9.2<x<9.2\\right\\}\\left\\{193<z<205\\right\\}",
+        "extendTo3D": true
+      },
+      {
+        "type": "expression",
+        "id": "973",
+        "folderId": "360",
+        "color": "#fa7e19",
+        "latex": "9<x<9.1\\ \\left\\{9<y<31\\right\\}\\left\\{193<z<205\\right\\}",
+        "extendTo3D": true
+      },
+      {
+        "type": "expression",
+        "id": "974",
+        "folderId": "360",
+        "color": "#fa7e19",
+        "latex": "-9.1<x<-9\\ \\left\\{193<z<205\\right\\}\\left\\{9<y<31\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "975",
+        "folderId": "360",
+        "color": "#fa7e19",
+        "latex": "-9.1<x<-9\\ \\left\\{193<z<205\\right\\}\\left\\{9<y<31\\right\\}",
+        "extendTo3D": true
+      },
+      {
+        "type": "expression",
+        "id": "976",
+        "folderId": "360",
+        "color": "#fa7e19",
+        "latex": "9.1>x>9\\ \\left\\{193<z<205\\right\\}\\left\\{9<y<31\\right\\}"
+      },
+      {
+        "type": "folder",
+        "id": "342",
+        "title": "Arches LVL 3 Part 2",
+        "collapsed": true
+      },
+      {
+        "type": "expression",
+        "id": "353",
+        "folderId": "342",
+        "color": "#aaaaaa",
+        "latex": "4.7<y<10.4\\ \\left\\{-1.9\\left(y-7.5\\right)^{2}+159<z\\right\\}\\left\\{-19.5<x<19.5\\right\\}\\left\\{146<z<160\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "356",
+        "folderId": "342",
+        "color": "#c74440",
+        "latex": "10.4<y<16.1\\ \\left\\{-1.9\\left(y-13.4\\right)^{2}+159<z\\right\\}\\left\\{-19.5<x<19.5\\right\\}\\left\\{146<z<160\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "354",
+        "folderId": "342",
+        "color": "#aaaaaa",
+        "latex": "16.1<y<21.8\\ \\ \\left\\{-1.9\\left(y-18.7\\right)^{2}+159<z\\right\\}\\left\\{-19.5<x<19.5\\right\\}\\left\\{146<z<160\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "355",
+        "folderId": "342",
+        "color": "#c74440",
+        "latex": "21.8<y<28\\left\\{-1.9\\left(y-24.8\\right)^{2}+159<z\\right\\}\\ \\left\\{-19.5<x<19.5\\right\\}\\left\\{146<z<160\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "357",
+        "folderId": "342",
+        "color": "#aaaaaa",
+        "latex": "28<y<34.5\\ \\left\\{-1.9\\left(y-31\\right)^{2}+159<z\\right\\}\\left\\{-19.5<x<19.5\\right\\}\\left\\{146<z<160\\right\\}"
+      },
+      {
+        "type": "folder",
+        "id": "955",
+        "title": "Arches LVL 3 Part 1",
+        "collapsed": true
+      },
+      {
+        "type": "expression",
+        "id": "956",
+        "folderId": "955",
+        "color": "#c74440",
+        "latex": "-19<x<19\\ \\left\\{-1<y<41\\right\\}\\left\\{160<z<162\\right\\}",
+        "extendTo3D": true
+      },
+      {
+        "type": "expression",
+        "id": "957",
+        "folderId": "955",
+        "color": "#388c46",
+        "latex": "13<x<19\\ \\left\\{-1<y<41\\right\\}\\left\\{146<z<160\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "958",
+        "folderId": "955",
+        "color": "#388c46",
+        "latex": "-13>x>-19\\ \\left\\{-1<y<41\\right\\}\\left\\{146<z<160\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "959",
+        "folderId": "955",
+        "color": "#aaaaaa",
+        "latex": "-13<x<-7.5\\ \\ \\left\\{-1.9\\left(x+10\\right)^{2}+159<z\\right\\}\\left\\{-1<y<41\\right\\}\\left\\{146<z<160\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "960",
+        "folderId": "955",
+        "color": "#aaaaaa",
+        "latex": "13>x>7.5\\ \\ \\left\\{-1.9\\left(x-10\\right)^{2}+159<z\\right\\}\\left\\{-1<y<41\\right\\}\\left\\{146<z<160\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "961",
+        "folderId": "955",
+        "color": "#c74440",
+        "latex": "-7.5<x<-2.5\\left\\{-1.9\\left(x+5\\right)^{2}+159<z\\right\\}\\ \\left\\{-1<y<41\\right\\}\\left\\{146<z<160\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "962",
+        "folderId": "955",
+        "color": "#c74440",
+        "latex": "7.5>x>2.5\\ \\left\\{-1.9\\left(x-5\\right)^{2}+159<z\\right\\}\\left\\{-1<y<41\\right\\}\\left\\{146<z<160\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "963",
+        "folderId": "955",
+        "color": "#aaaaaa",
+        "latex": "-2.5<x<2.5\\ \\left\\{-1.9\\left(x+0\\right)^{2}+159<z\\right\\}\\left\\{-1<y<41\\right\\}\\left\\{146<z<160\\right\\}"
+      },
+      {
+        "type": "text",
+        "id": "566",
+        "text": "CLOCK"
+      },
+      {
+        "type": "folder",
+        "id": "320",
+        "title": "Clock Part 2",
+        "collapsed": true
+      },
+      {
+        "type": "expression",
+        "id": "321",
+        "folderId": "320",
+        "color": "#c74440",
+        "latex": "13<x<22\\ \\left\\{-4<y<44\\right\\}\\left\\{120<z<150\\right\\}",
+        "extendTo3D": true
+      },
+      {
+        "type": "expression",
+        "id": "338",
+        "folderId": "320",
+        "color": "#388c46",
+        "latex": "16<x<22\\ \\left\\{-5<y<45\\right\\}\\left\\{120<z<150\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "339",
+        "folderId": "320",
+        "color": "#6042a6",
+        "latex": "19<x<22\\ \\left\\{-6<y<46\\right\\}\\left\\{120<z<150\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "323",
+        "folderId": "320",
+        "color": "#c74440",
+        "latex": "-13>x>-21\\ \\left\\{-4<y<44\\right\\}\\left\\{120<z<150\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "340",
+        "folderId": "320",
+        "color": "#388c46",
+        "latex": "-16>x>-22\\ \\left\\{-5<y<45\\right\\}\\left\\{120<z<150\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "341",
+        "folderId": "320",
+        "color": "#6042a6",
+        "latex": "-19>x>-22\\ \\left\\{-6<y<46\\right\\}\\left\\{120<z<150\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "324",
+        "folderId": "320",
+        "color": "#6042a6",
+        "latex": "-13<x<13\\ \\left\\{-4<y<44\\right\\}\\left\\{120<z<150\\right\\}",
+        "extendTo3D": true
+      },
+      {
+        "type": "expression",
+        "id": "325",
+        "folderId": "320",
+        "color": "#aaaaaa",
+        "latex": "\\left(z-133\\right)^{2}+\\left(x+0\\right)^{2}<11^{2}\\ \\left\\{-4<y<44\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "326",
+        "folderId": "320",
+        "color": "#c74440",
+        "latex": "\\left(z-133\\right)^{2}+\\left(x+0\\right)^{2}<4^{2}\\left\\{\\left(z-133\\right)^{2}+\\left(x+0\\right)^{2}>3^{2}\\right\\}\\ \\left\\{-4<y<44\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "327",
+        "folderId": "320",
+        "color": "#2d70b3",
+        "latex": "\\left(z-133\\right)^{2}+\\left(x+0\\right)^{2}<8^{2}\\ \\left\\{\\left(z-133\\right)^{2}+\\left(x+0\\right)^{2}>7^{2}\\right\\}\\left\\{-4<y<44\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "328",
+        "folderId": "320",
+        "color": "#388c46",
+        "latex": "\\left(z-133\\right)^{2}+\\left(x+0\\right)^{2}<12^{2}\\ \\left\\{\\left(z-133\\right)^{2}+\\left(x+0\\right)^{2}>10^{2}\\right\\}\\left\\{-4<y<44\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "329",
+        "folderId": "320",
+        "color": "#6042a6",
+        "latex": "-0.5<x<0.5\\left\\{\\left(z-133\\right)^{2}+\\left(x+0\\right)^{2}<7^{2}\\right\\}\\left\\{\\left(z-133\\right)^{2}+\\left(x+0\\right)^{2}>3^{2}\\right\\}\\ \\left\\{-4<y<44\\right\\}\\left\\{120<z<145\\right\\}",
+        "extendTo3D": true
+      },
+      {
+        "type": "expression",
+        "id": "330",
+        "folderId": "320",
+        "color": "#6042a6",
+        "latex": "132<z<133\\left\\{\\left(z-133\\right)^{2}+\\left(x+0\\right)^{2}<7^{2}\\right\\}\\left\\{\\left(z-133\\right)^{2}+\\left(x+0\\right)^{2}>3^{2}\\right\\}\\ \\left\\{-4<y<44\\right\\}\\left\\{120<z<145\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "331",
+        "folderId": "320",
+        "color": "#c74440",
+        "latex": "x<z-131\\ \\left\\{x>z-133\\right\\}\\left\\{-4<y<44\\right\\}\\left\\{\\left(z-133\\right)^{2}+\\left(x+0\\right)^{2}<7^{2}\\right\\}\\left\\{\\left(z-132.5\\right)^{2}+\\left(x+0\\right)^{2}>3^{2}\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "334",
+        "folderId": "320",
+        "color": "#6042a6",
+        "latex": "x<-z+133\\ \\left\\{x>-z+131\\right\\}\\left\\{-4<y<44\\right\\}\\left\\{\\left(z-133\\right)^{2}+\\left(x+0\\right)^{2}<7^{2}\\right\\}\\left\\{\\left(z-132.5\\right)^{2}+\\left(x+0\\right)^{2}>3^{2}\\right\\}"
+      },
+      {
+        "type": "folder",
+        "id": "905",
+        "title": "Clock Part 1",
+        "collapsed": true
+      },
+      {
+        "type": "expression",
+        "id": "906",
+        "folderId": "905",
+        "color": "#c74440",
+        "latex": "\\ -3<y<5\\ \\left\\{-22.5<x<22.5\\right\\}\\ \\left\\{120<z<150\\right\\}",
+        "extendTo3D": true
+      },
+      {
+        "type": "expression",
+        "id": "907",
+        "folderId": "905",
+        "color": "#388c46",
+        "latex": "-3<y<2\\ \\left\\{-23.5<x<22.5\\right\\}\\left\\{120<z<150\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "908",
+        "folderId": "905",
+        "color": "#6042a6",
+        "latex": "-3<y<0\\ \\left\\{-24.5<x<23.5\\right\\}\\left\\{120<z<150\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "909",
+        "folderId": "905",
+        "color": "#c74440",
+        "latex": "43>y>35\\ \\left\\{-22.5<x<22.5\\right\\}\\left\\{120<z<150\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "910",
+        "folderId": "905",
+        "color": "#388c46",
+        "latex": "43>y>38\\left\\{-23.5<x<22.5\\right\\}\\left\\{120<z<150\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "911",
+        "folderId": "905",
+        "color": "#6042a6",
+        "latex": "43>y>40\\ \\left\\{-24.5<x<23.5\\right\\}\\left\\{120<z<150\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "912",
+        "folderId": "905",
+        "color": "#6042a6",
+        "latex": "-19<x<22\\ \\left\\{-3.5<y<43.5\\right\\}\\left\\{120<z<150\\right\\}",
+        "extendTo3D": true
+      },
+      {
+        "type": "expression",
+        "id": "913",
+        "folderId": "905",
+        "color": "#aaaaaa",
+        "latex": "\\left(z-133\\right)^{2}+\\left(y-20\\right)^{2}<11^{2}\\ \\left\\{-22.5<x<22.5\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "914",
+        "folderId": "905",
+        "color": "#c74440",
+        "latex": "\\left(z-133\\right)^{2}+\\left(y-20\\right)^{2}<4^{2}\\left\\{\\left(z-133\\right)^{2}+\\left(y-20\\right)^{2}>3^{2}\\right\\}\\ \\left\\{-22.5<x<22.5\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "915",
+        "folderId": "905",
+        "color": "#2d70b3",
+        "latex": "\\left(z-133\\right)^{2}+\\left(y-20\\right)^{2}<8^{2}\\ \\left\\{\\left(z-133\\right)^{2}+\\left(y-20\\right)^{2}>7^{2}\\right\\}\\left\\{-22.5<x<22.5\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "916",
+        "folderId": "905",
+        "color": "#388c46",
+        "latex": "\\left(z-133\\right)^{2}+\\left(y-20\\right)^{2}<12^{2}\\ \\left\\{\\left(z-133\\right)^{2}+\\left(y-20\\right)^{2}>10^{2}\\right\\}\\left\\{-22.5<x<22.5\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "917",
+        "folderId": "905",
+        "color": "#6042a6",
+        "latex": "19.5<y<20.5\\left\\{\\left(z-133\\right)^{2}+\\left(y-20\\right)^{2}<7^{2}\\right\\}\\left\\{\\left(z-133\\right)^{2}+\\left(y-20\\right)^{2}>3^{2}\\right\\}\\ \\left\\{-22.5<x<22.5\\right\\}\\left\\{120<z<145\\right\\}",
+        "extendTo3D": true
+      },
+      {
+        "type": "expression",
+        "id": "918",
+        "folderId": "905",
+        "color": "#6042a6",
+        "latex": "132<z<133\\left\\{\\left(z-133\\right)^{2}+\\left(y-20\\right)^{2}<7^{2}\\right\\}\\left\\{\\left(z-133\\right)^{2}+\\left(y-20\\right)^{2}>3^{2}\\right\\}\\ \\left\\{-22.5<x<22.5\\right\\}\\left\\{120<z<145\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "919",
+        "folderId": "905",
+        "color": "#c74440",
+        "latex": "y<z-112\\left\\{y>z-114\\right\\}\\ \\left\\{\\left(z-133\\right)^{2}+\\left(y-20\\right)^{2}<7^{2}\\right\\}\\left\\{\\left(z-133\\right)^{2}+\\left(y-20\\right)^{2}>3^{2}\\right\\}\\ \\left\\{-22.5<x<22.5\\right\\}\\left\\{120<z<145\\right\\}",
+        "extendTo3D": true
+      },
+      {
+        "type": "expression",
+        "id": "929",
+        "folderId": "905",
+        "color": "#6042a6",
+        "latex": "y<-z+152\\ \\left\\{y>-z+150\\right\\}\\left\\{\\left(z-133\\right)^{2}+\\left(y-20\\right)^{2}<7^{2}\\right\\}\\left\\{\\left(z-133\\right)^{2}+\\left(y-20\\right)^{2}>3^{2}\\right\\}\\ \\left\\{-22.5<x<22.5\\right\\}\\left\\{120<z<145\\right\\}",
+        "extendTo3D": true
+      },
+      {
+        "type": "text",
+        "id": "565",
+        "text": "ARCHES PART 1"
+      },
+      {
+        "type": "folder",
+        "id": "510",
+        "title": "Arches Pillar LVL 2 Part 2",
+        "collapsed": true
+      },
+      {
+        "type": "expression",
+        "id": "511",
+        "folderId": "510",
+        "color": "#388c46",
+        "latex": "13<x<19\\ \\left\\{43>y>35\\right\\}\\left\\{110<z<120\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "512",
+        "folderId": "510",
+        "color": "#388c46",
+        "latex": "-13>x>-19\\ \\left\\{43>y>35\\right\\}\\left\\{110<z<120\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "513",
+        "folderId": "510",
+        "color": "#388c46",
+        "latex": "14<x<18\\ \\left\\{43.5>y>35\\right\\}\\left\\{110<z<120\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "514",
+        "folderId": "510",
+        "color": "#388c46",
+        "latex": "-14>x>-18\\ \\left\\{43.5>y>35\\right\\}\\left\\{110<z<120\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "515",
+        "folderId": "510",
+        "color": "#388c46",
+        "latex": "42>y>45\\ \\ \\left\\{19.5>x>15\\right\\}\\left\\{110<z<120\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "516",
+        "folderId": "510",
+        "color": "#388c46",
+        "latex": "42>y>44\\ \\ \\left\\{-19.5<x<-15\\right\\}\\left\\{110<z<120\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "517",
+        "folderId": "510",
+        "color": "#388c46",
+        "latex": "17>x>15\\ \\left\\{44>y>35\\right\\}\\left\\{110<z<120\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "518",
+        "folderId": "510",
+        "color": "#388c46",
+        "latex": "-17<x<-15\\ \\left\\{44>y>35\\right\\}\\left\\{110<z<120\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "519",
+        "folderId": "510",
+        "color": "#388c46",
+        "latex": "35<y<42\\ \\ \\left\\{20>x>15\\right\\}\\left\\{110<z<120\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "520",
+        "folderId": "510",
+        "color": "#388c46",
+        "latex": "35<y<42\\ \\left\\{-20<x<-15\\right\\}\\left\\{110<z<120\\right\\}"
+      },
+      {
+        "type": "folder",
+        "id": "304",
+        "title": "Arches Pillar LVL 2 Part 1",
+        "collapsed": true
+      },
+      {
+        "type": "expression",
+        "id": "305",
+        "folderId": "304",
+        "color": "#388c46",
+        "latex": "13<x<21\\ \\left\\{-3<y<5\\right\\}\\left\\{110<z<120\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "306",
+        "folderId": "304",
+        "color": "#388c46",
+        "latex": "-13>x>-21\\ \\left\\{-3<y<5\\right\\}\\left\\{110<z<120\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "307",
+        "folderId": "304",
+        "color": "#388c46",
+        "latex": "14<x<20\\ \\left\\{-3.5<y<5\\right\\}\\left\\{110<z<120\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "308",
+        "folderId": "304",
+        "color": "#388c46",
+        "latex": "-14>x>-20\\ \\left\\{-3.5<y<5\\right\\}\\left\\{110<z<120\\right\\}",
+        "lines": true
+      },
+      {
+        "type": "expression",
+        "id": "309",
+        "folderId": "304",
+        "color": "#388c46",
+        "latex": "-2<y<5\\ \\left\\{21.5>x>15\\right\\}\\left\\{110<z<120\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "310",
+        "folderId": "304",
+        "color": "#388c46",
+        "latex": "-2<y<4\\ \\left\\{-21.5<x<-15\\right\\}\\left\\{110<z<120\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "311",
+        "folderId": "304",
+        "color": "#388c46",
+        "latex": "19>x>15\\ \\left\\{-4<y<5\\right\\}\\left\\{110<z<120\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "312",
+        "folderId": "304",
+        "color": "#388c46",
+        "latex": "-19<x<-15\\ \\left\\{-4<y<5\\right\\}\\left\\{110<z<120\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "313",
+        "folderId": "304",
+        "color": "#388c46",
+        "latex": "-1<y<4\\ \\left\\{22>x>15\\right\\}\\left\\{110<z<120\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "314",
+        "folderId": "304",
+        "color": "#388c46",
+        "latex": "-1<y<3\\ \\left\\{-22<x<-15\\right\\}\\left\\{110<z<120\\right\\}"
+      },
+      {
+        "type": "folder",
+        "id": "602",
+        "title": "Arches LVL 2 Part 2",
+        "collapsed": true
+      },
+      {
+        "type": "expression",
+        "id": "299",
+        "folderId": "602",
+        "color": "#aaaaaa",
+        "latex": "4<y<10\\ \\ \\left\\{-2\\left(y-7.2\\right)^{2}+118<z\\right\\}\\left\\{-22.5<x<22.5\\right\\}\\left\\{110<z<120\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "301",
+        "folderId": "602",
+        "color": "#c74440",
+        "latex": "10<y<16\\left\\{-2\\left(y-13\\right)^{2}+118<z\\right\\}\\ \\left\\{-22.5<x<22.5\\right\\}\\left\\{110<z<120\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "300",
+        "folderId": "602",
+        "color": "#aaaaaa",
+        "latex": "16<y<22\\ \\ \\left\\{-2\\left(y-18.7\\right)^{2}+118<z\\right\\}\\left\\{-22.5<x<22.5\\right\\}\\left\\{110<z<120\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "302",
+        "folderId": "602",
+        "color": "#c74440",
+        "latex": "22<y<28\\ \\left\\{-2\\left(y-24.8\\right)^{2}+118<z\\right\\}\\left\\{-22.5<x<22.5\\right\\}\\left\\{110<z<120\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "303",
+        "folderId": "602",
+        "color": "#aaaaaa",
+        "latex": "28<y<34.5\\ \\left\\{-2\\left(y-31\\right)^{2}+118<z\\right\\}\\left\\{-22.5<x<22.5\\right\\}\\left\\{110<z<120\\right\\}"
+      },
+      {
+        "type": "folder",
+        "id": "614",
+        "title": "Arches LVL 2 Part 1",
+        "collapsed": true
+      },
+      {
+        "type": "expression",
+        "id": "315",
+        "folderId": "614",
+        "color": "#aaaaaa",
+        "latex": "-13<x<-7.5\\ \\ \\left\\{-2\\left(x+10\\right)^{2}+118<z\\right\\}\\left\\{-3<y<43\\right\\}\\left\\{110<z<120\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "316",
+        "folderId": "614",
+        "color": "#aaaaaa",
+        "latex": "13>x>7.5\\ \\ \\left\\{-2\\left(x-10\\right)^{2}+118<z\\right\\}\\left\\{-3<y<43\\right\\}\\left\\{110<z<120\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "317",
+        "folderId": "614",
+        "color": "#c74440",
+        "latex": "-7.5<x<-2.5\\left\\{-2\\left(x+5\\right)^{2}+118<z\\right\\}\\ \\left\\{-3<y<43\\right\\}\\left\\{110<z<120\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "318",
+        "folderId": "614",
+        "color": "#c74440",
+        "latex": "7.5>x>2.5\\ \\left\\{-2\\left(x-5\\right)^{2}+118<z\\right\\}\\left\\{-3<y<43\\right\\}\\left\\{110<z<120\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "319",
+        "folderId": "614",
+        "color": "#aaaaaa",
+        "latex": "-2.5<x<2.5\\ \\left\\{-2\\left(x+0\\right)^{2}+118<z\\right\\}\\left\\{-3<y<43\\right\\}\\left\\{110<z<120\\right\\}"
+      },
+      {
+        "type": "folder",
+        "id": "603",
+        "title": "Arches Pillar LVL 1 Part 2",
+        "collapsed": true
+      },
+      {
+        "type": "expression",
+        "id": "604",
+        "folderId": "603",
+        "color": "#388c46",
+        "latex": "13<x<19\\ \\left\\{41>y>35\\right\\}\\left\\{100<z<110\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "605",
+        "folderId": "603",
+        "color": "#388c46",
+        "latex": "-13>x>-19\\ \\left\\{41>y>35\\right\\}\\left\\{100<z<110\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "606",
+        "folderId": "603",
+        "color": "#388c46",
+        "latex": "14<x<18\\ \\left\\{41.5>y>35\\right\\}\\left\\{100<z<110\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "607",
+        "folderId": "603",
+        "color": "#388c46",
+        "latex": "-14>x>-18\\ \\left\\{41.5>y>35\\right\\}\\left\\{100<z<110\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "608",
+        "folderId": "603",
+        "color": "#388c46",
+        "latex": "40>y>44\\ \\ \\left\\{19.5>x>15\\right\\}\\left\\{100<z<110\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "609",
+        "folderId": "603",
+        "color": "#388c46",
+        "latex": "40>y>44\\ \\ \\left\\{-19.5<x<-15\\right\\}\\left\\{100<z<110\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "610",
+        "folderId": "603",
+        "color": "#388c46",
+        "latex": "17>x>15\\ \\left\\{42>y>35\\right\\}\\left\\{100<z<110\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "611",
+        "folderId": "603",
+        "color": "#388c46",
+        "latex": "-17<x<-15\\ \\left\\{42>y>35\\right\\}\\left\\{100<z<110\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "612",
+        "folderId": "603",
+        "color": "#388c46",
+        "latex": "35<y<40\\ \\ \\left\\{20>x>15\\right\\}\\left\\{100<z<110\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "613",
+        "folderId": "603",
+        "color": "#388c46",
+        "latex": "35<y<40\\ \\left\\{-20<x<-15\\right\\}\\left\\{100<z<110\\right\\}"
+      },
+      {
+        "type": "folder",
+        "id": "288",
+        "title": "Arches Pillar LVL 1 Part 1",
+        "collapsed": true
+      },
+      {
+        "type": "expression",
+        "id": "289",
+        "folderId": "288",
+        "color": "#388c46",
+        "latex": "13<x<19\\ \\left\\{-1<y<5\\right\\}\\left\\{100<z<110\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "290",
+        "folderId": "288",
+        "color": "#388c46",
+        "latex": "-13>x>-19\\ \\left\\{-1<y<5\\right\\}\\left\\{100<z<110\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "291",
+        "folderId": "288",
+        "color": "#388c46",
+        "latex": "14<x<18\\ \\left\\{-1.5<y<5\\right\\}\\left\\{100<z<110\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "292",
+        "folderId": "288",
+        "color": "#388c46",
+        "latex": "-14>x>-18\\ \\left\\{-1.5<y<5\\right\\}\\left\\{100<z<110\\right\\}",
+        "lines": true
+      },
+      {
+        "type": "expression",
+        "id": "293",
+        "folderId": "288",
+        "color": "#388c46",
+        "latex": "0<y<4\\ \\left\\{19.5>x>15\\right\\}\\left\\{100<z<110\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "294",
+        "folderId": "288",
+        "color": "#388c46",
+        "latex": "0<y<4\\ \\left\\{-19.5<x<-15\\right\\}\\left\\{100<z<110\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "295",
+        "folderId": "288",
+        "color": "#388c46",
+        "latex": "17>x>15\\ \\left\\{-2<y<5\\right\\}\\left\\{100<z<110\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "296",
+        "folderId": "288",
+        "color": "#388c46",
+        "latex": "-17<x<-15\\ \\left\\{-2<y<5\\right\\}\\left\\{100<z<110\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "297",
+        "folderId": "288",
+        "color": "#388c46",
+        "latex": "1<y<3\\ \\left\\{20>x>15\\right\\}\\left\\{100<z<110\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "298",
+        "folderId": "288",
+        "color": "#388c46",
+        "latex": "1<y<3\\ \\left\\{-20<x<-15\\right\\}\\left\\{100<z<110\\right\\}"
+      },
+      {
+        "type": "folder",
+        "id": "949",
+        "title": "Arches Part LVL 1 Part 2",
+        "collapsed": true
+      },
+      {
+        "type": "expression",
+        "id": "950",
+        "folderId": "949",
+        "color": "#aaaaaa",
+        "latex": "4<y<10\\ \\ \\left\\{-2\\left(y-7.2\\right)^{2}+108<z\\right\\}\\left\\{-19.5<x<19.5\\right\\}\\left\\{100<z<110\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "951",
+        "folderId": "949",
+        "color": "#c74440",
+        "latex": "10<y<16\\left\\{-2\\left(y-13\\right)^{2}+108<z\\right\\}\\ \\left\\{-19.5<x<19.5\\right\\}\\left\\{100<z<110\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "952",
+        "folderId": "949",
+        "color": "#aaaaaa",
+        "latex": "16<y<22\\ \\ \\left\\{-2\\left(y-18.7\\right)^{2}+108<z\\right\\}\\left\\{-19.5<x<19.5\\right\\}\\left\\{100<z<110\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "953",
+        "folderId": "949",
+        "color": "#c74440",
+        "latex": "22<y<28\\ \\left\\{-2\\left(y-24.8\\right)^{2}+108<z\\right\\}\\left\\{-19.5<x<19.5\\right\\}\\left\\{100<z<110\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "954",
+        "folderId": "949",
+        "color": "#aaaaaa",
+        "latex": "28<y<34.5\\ \\left\\{-2\\left(y-31\\right)^{2}+108<z\\right\\}\\left\\{-19.5<x<19.5\\right\\}\\left\\{100<z<110\\right\\}"
+      },
+      {
+        "type": "folder",
+        "id": "942",
+        "title": "Arches Part LVL 1 Part 1",
+        "collapsed": true
+      },
+      {
+        "type": "expression",
+        "id": "943",
+        "folderId": "942",
+        "color": "#aaaaaa",
+        "latex": "-13<x<-7.5\\ \\ \\left\\{-2\\left(x+10\\right)^{2}+108<z\\right\\}\\left\\{-1<y<41\\right\\}\\left\\{100<z<110\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "944",
+        "folderId": "942",
+        "color": "#aaaaaa",
+        "latex": "13>x>7.5\\ \\ \\left\\{-2\\left(x-10\\right)^{2}+108<z\\right\\}\\left\\{-1<y<41\\right\\}\\left\\{100<z<110\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "945",
+        "folderId": "942",
+        "color": "#c74440",
+        "latex": "-7.5<x<-2.5\\left\\{-2\\left(x+5\\right)^{2}+108<z\\right\\}\\ \\left\\{-1<y<41\\right\\}\\left\\{100<z<110\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "946",
+        "folderId": "942",
+        "color": "#c74440",
+        "latex": "7.5>x>2.5\\ \\left\\{-2\\left(x-5\\right)^{2}+108<z\\right\\}\\left\\{-1<y<41\\right\\}\\left\\{100<z<110\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "947",
+        "folderId": "942",
+        "color": "#aaaaaa",
+        "latex": "-2.5<x<2.5\\ \\left\\{-2\\left(x+0\\right)^{2}+108<z\\right\\}\\left\\{-1<y<41\\right\\}\\left\\{100<z<110\\right\\}"
+      },
+      {
+        "type": "text",
+        "id": "564",
+        "text": "FOURTH LEVEL"
+      },
+      {
+        "type": "folder",
+        "id": "767",
+        "title": "Split Middle Section Pillar LVL 4 Part 2",
+        "collapsed": true
+      },
+      {
+        "type": "expression",
+        "id": "768",
+        "folderId": "767",
+        "color": "#aaaaaa",
+        "latex": "13<x<19\\ \\left\\{41>y>35\\right\\}\\left\\{96<z<100\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "769",
+        "folderId": "767",
+        "color": "#aaaaaa",
+        "latex": "14<x<18\\ \\left\\{41.5>y>35\\right\\}\\left\\{96<z<100\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "770",
+        "folderId": "767",
+        "color": "#aaaaaa",
+        "latex": "40>y>44\\ \\left\\{19.5>x>15\\right\\}\\left\\{96<z<100\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "771",
+        "folderId": "767",
+        "color": "#aaaaaa",
+        "latex": "17>x>15\\ \\left\\{42>y>35\\right\\}\\left\\{96<z<100\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "772",
+        "folderId": "767",
+        "color": "#aaaaaa",
+        "latex": "-19<x<-13\\ \\left\\{41>y>35\\right\\}\\left\\{96<z<100\\right\\}",
+        "extendTo3D": true
+      },
+      {
+        "type": "expression",
+        "id": "773",
+        "folderId": "767",
+        "color": "#aaaaaa",
+        "latex": "-18<x<-14\\ \\left\\{41.5>y>35\\right\\}\\left\\{96<z<100\\right\\}",
+        "extendTo3D": true
+      },
+      {
+        "type": "expression",
+        "id": "774",
+        "folderId": "767",
+        "color": "#aaaaaa",
+        "latex": "40>y>44\\ \\left\\{-19.5<x<-15\\right\\}\\left\\{96<z<100\\right\\}",
+        "extendTo3D": true
+      },
+      {
+        "type": "expression",
+        "id": "775",
+        "folderId": "767",
+        "color": "#aaaaaa",
+        "latex": "-17<x<-15\\ \\left\\{42>y>35\\right\\}\\left\\{96<z<100\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "776",
+        "folderId": "767",
+        "color": "#aaaaaa",
+        "latex": "36<y<40\\ \\left\\{-19.5<x<-15\\right\\}\\left\\{96<z<100\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "777",
+        "folderId": "767",
+        "color": "#aaaaaa",
+        "latex": "37<y<39\\ \\left\\{-20<x<-15\\right\\}\\left\\{96<z<100\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "778",
+        "folderId": "767",
+        "color": "#aaaaaa",
+        "latex": "36<y<40\\ \\left\\{19.5>x>15\\right\\}\\left\\{96<z<100\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "779",
+        "folderId": "767",
+        "color": "#aaaaaa",
+        "latex": "37<y<39\\ \\left\\{20>x>15\\right\\}\\left\\{96<z<100\\right\\}"
+      },
+      {
+        "type": "folder",
+        "id": "272",
+        "title": "Split Middle Section Pillar LVL 4 Part 1",
+        "collapsed": true
+      },
+      {
+        "type": "expression",
+        "id": "273",
+        "folderId": "272",
+        "color": "#aaaaaa",
+        "latex": "13<x<19\\ \\left\\{-1<y<5\\right\\}\\left\\{96<z<100\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "274",
+        "folderId": "272",
+        "color": "#aaaaaa",
+        "latex": "-13>x>-19\\ \\left\\{-1<y<5\\right\\}\\left\\{96<z<100\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "275",
+        "folderId": "272",
+        "color": "#aaaaaa",
+        "latex": "14<x<18\\ \\left\\{-1.5<y<5\\right\\}\\left\\{96<z<100\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "276",
+        "folderId": "272",
+        "color": "#aaaaaa",
+        "latex": "-14>x>-18\\ \\left\\{-1.5<y<5\\right\\}\\left\\{96<z<100\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "277",
+        "folderId": "272",
+        "color": "#aaaaaa",
+        "latex": "0<y<4\\ \\left\\{19.5>x>15\\right\\}\\left\\{96<z<100\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "278",
+        "folderId": "272",
+        "color": "#aaaaaa",
+        "latex": "0<y<4\\ \\left\\{-19.5<x<-15\\right\\}\\left\\{96<z<100\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "279",
+        "folderId": "272",
+        "color": "#aaaaaa",
+        "latex": "17>x>15\\ \\left\\{-2<y<5\\right\\}\\left\\{96<z<100\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "280",
+        "folderId": "272",
+        "color": "#aaaaaa",
+        "latex": "-17<x<-15\\ \\left\\{-2<y<5\\right\\}\\left\\{96<z<100\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "281",
+        "folderId": "272",
+        "color": "#aaaaaa",
+        "latex": "1<y<3\\ \\left\\{20>x>15\\right\\}\\left\\{96<z<100\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "282",
+        "folderId": "272",
+        "color": "#aaaaaa",
+        "latex": "1<y<3\\ \\left\\{-20<x<-15\\right\\}\\left\\{96<z<100\\right\\}"
+      },
+      {
+        "type": "folder",
+        "id": "552",
+        "title": "Split Middle Section LVL 4",
+        "collapsed": true
+      },
+      {
+        "type": "expression",
+        "id": "267",
+        "folderId": "552",
+        "color": "#c74440",
+        "latex": "-13<x<-7.5\\ \\ \\left\\{-1<y<41\\right\\}\\left\\{96<z<100\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "728",
+        "folderId": "552",
+        "color": "#c74440",
+        "latex": "-20<x<20\\ \\left\\{5<y<10\\right\\}\\left\\{96<z<100\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "729",
+        "folderId": "552",
+        "color": "#388c46",
+        "latex": "-20<x<20\\ \\left\\{10<y<15\\right\\}\\left\\{96<z<100\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "730",
+        "folderId": "552",
+        "color": "#c74440",
+        "latex": "-20<x<20\\ \\left\\{15<y<20\\right\\}\\left\\{96<z<100\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "731",
+        "folderId": "552",
+        "color": "#388c46",
+        "latex": "-20<x<20\\left\\{20<y<25\\right\\}\\left\\{96<z<100\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "732",
+        "folderId": "552",
+        "color": "#c74440",
+        "latex": "-20<x<20\\left\\{25<y<30\\right\\}\\left\\{96<z<100\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "733",
+        "folderId": "552",
+        "color": "#388c46",
+        "latex": "-20<x<20\\left\\{30<y<35\\right\\}\\left\\{96<z<100\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "268",
+        "folderId": "552",
+        "color": "#c74440",
+        "latex": "13>x>7.5\\ \\ \\left\\{-1<y<41\\right\\}\\left\\{96<z<100\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "269",
+        "folderId": "552",
+        "color": "#388c46",
+        "latex": "-7.5<x<-2.5\\ \\left\\{-1<y<41\\right\\}\\left\\{96<z<100\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "270",
+        "folderId": "552",
+        "color": "#388c46",
+        "latex": "7.5>x>2.5\\ \\left\\{-1<y<41\\right\\}\\left\\{96<z<100\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "271",
+        "folderId": "552",
+        "color": "#c74440",
+        "latex": "-2.5<x<2.5\\ \\left\\{-1<y<41\\right\\}\\left\\{96<z<100\\right\\}"
+      },
+      {
+        "type": "folder",
+        "id": "382",
+        "title": "Pillar LVL 4 Part 2",
+        "collapsed": true
+      },
+      {
+        "type": "expression",
+        "id": "383",
+        "folderId": "382",
+        "color": "#c74440",
+        "latex": "13<x<19\\ \\left\\{41>y>35\\right\\}\\left\\{76<z<96\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "384",
+        "folderId": "382",
+        "color": "#c74440",
+        "latex": "14<x<18\\ \\left\\{41.5>y>35\\right\\}\\left\\{76<z<96\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "385",
+        "folderId": "382",
+        "color": "#c74440",
+        "latex": "40>y>44\\ \\left\\{19.5>x>15\\right\\}\\left\\{76<z<96\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "386",
+        "folderId": "382",
+        "color": "#c74440",
+        "latex": "17>x>15\\ \\left\\{42>y>35\\right\\}\\left\\{76<z<96\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "388",
+        "folderId": "382",
+        "color": "#c74440",
+        "latex": "-19<x<-13\\ \\left\\{41>y>35\\right\\}\\left\\{76<z<96\\right\\}",
+        "extendTo3D": true
+      },
+      {
+        "type": "expression",
+        "id": "389",
+        "folderId": "382",
+        "color": "#c74440",
+        "latex": "-18<x<-14\\ \\left\\{41.5>y>35\\right\\}\\left\\{76<z<96\\right\\}",
+        "extendTo3D": true
+      },
+      {
+        "type": "expression",
+        "id": "390",
+        "folderId": "382",
+        "color": "#c74440",
+        "latex": "40>y>44\\ \\left\\{-19.5<x<-15\\right\\}\\left\\{76<z<96\\right\\}",
+        "extendTo3D": true
+      },
+      {
+        "type": "expression",
+        "id": "391",
+        "folderId": "382",
+        "color": "#c74440",
+        "latex": "-17<x<-15\\ \\left\\{42>y>35\\right\\}\\left\\{76<z<96\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "392",
+        "folderId": "382",
+        "color": "#c74440",
+        "latex": "36<y<40\\ \\left\\{-19.5<x<-15\\right\\}\\left\\{76<z<96\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "741",
+        "folderId": "382",
+        "color": "#c74440",
+        "latex": "37<y<39\\ \\left\\{-20<x<-15\\right\\}\\left\\{76<z<96\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "737",
+        "folderId": "382",
+        "color": "#c74440",
+        "latex": "36<y<40\\ \\left\\{19.5>x>15\\right\\}\\left\\{76<z<96\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "742",
+        "folderId": "382",
+        "color": "#c74440",
+        "latex": "37<y<39\\ \\left\\{20>x>15\\right\\}\\left\\{76<z<96\\right\\}"
+      },
+      {
+        "type": "folder",
+        "id": "228",
+        "title": "Pillar LVL 4 Part 1",
+        "collapsed": true
+      },
+      {
+        "type": "expression",
+        "id": "229",
+        "folderId": "228",
+        "color": "#c74440",
+        "latex": "13<x<19\\ \\left\\{-1<y<5\\right\\}\\left\\{76<z<96\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "230",
+        "folderId": "228",
+        "color": "#c74440",
+        "latex": "14<x<18\\ \\left\\{-1.5<y<5\\right\\}\\left\\{76<z<96\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "231",
+        "folderId": "228",
+        "color": "#c74440",
+        "latex": "0<y<4\\ \\left\\{19.5>x>15\\right\\}\\left\\{76<z<96\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "232",
+        "folderId": "228",
+        "color": "#c74440",
+        "latex": "17>x>15\\ \\left\\{-2<y<5\\right\\}\\left\\{76<z<96\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "233",
+        "folderId": "228",
+        "color": "#c74440",
+        "latex": "1<y<3\\ \\left\\{20>x>15\\right\\}\\left\\{76<z<96\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "234",
+        "folderId": "228",
+        "color": "#c74440",
+        "latex": "-19<x<-13\\ \\left\\{-1<y<5\\right\\}\\left\\{76<z<96\\right\\}",
+        "extendTo3D": true
+      },
+      {
+        "type": "expression",
+        "id": "235",
+        "folderId": "228",
+        "color": "#c74440",
+        "latex": "-18<x<-14\\ \\left\\{-1.5<y<5\\right\\}\\left\\{76<z<96\\right\\}",
+        "extendTo3D": true
+      },
+      {
+        "type": "expression",
+        "id": "236",
+        "folderId": "228",
+        "color": "#c74440",
+        "latex": "0<y<4\\ \\left\\{-19.5<x<-15\\right\\}\\left\\{76<z<96\\right\\}",
+        "extendTo3D": true
+      },
+      {
+        "type": "expression",
+        "id": "237",
+        "folderId": "228",
+        "color": "#c74440",
+        "latex": "-17<x<-15\\ \\left\\{-2<y<5\\right\\}\\left\\{76<z<96\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "238",
+        "folderId": "228",
+        "color": "#c74440",
+        "latex": "1<y<3\\ \\left\\{-20<x<-15\\right\\}\\left\\{76<z<96\\right\\}"
+      },
+      {
+        "type": "folder",
+        "id": "937",
+        "title": "Middle section LVL 4 Part 2",
+        "collapsed": true
+      },
+      {
+        "type": "expression",
+        "id": "880",
+        "folderId": "937",
+        "color": "#fa7e19",
+        "latex": "5<y<7\\ \\left\\{76<z<96\\right\\}\\left\\{-19.5<x<19.5\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "879",
+        "folderId": "937",
+        "color": "#fa7e19",
+        "latex": "9<y<11\\ \\left\\{76<z<96\\right\\}\\ \\left\\{-19.5<x<19.5\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "878",
+        "folderId": "937",
+        "color": "#fa7e19",
+        "latex": "13<y<15\\ \\left\\{76<z<96\\right\\}\\ \\left\\{-19.5<x<19.5\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "877",
+        "folderId": "937",
+        "color": "#fa7e19",
+        "latex": "25<y<27\\ \\left\\{76<z<96\\right\\}\\left\\{-19.5<x<19.5\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "876",
+        "folderId": "937",
+        "color": "#fa7e19",
+        "latex": "29<y<31\\ \\left\\{76<z<96\\right\\}\\ \\left\\{-19.5<x<19.5\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "875",
+        "folderId": "937",
+        "color": "#fa7e19",
+        "latex": "33<y<35\\ \\left\\{76<z<96\\right\\}\\ \\left\\{-19.5<x<19.5\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "886",
+        "folderId": "937",
+        "color": "#2d70b3",
+        "latex": "5.5<y<6.5\\ \\left\\{76<z<96\\right\\}\\left\\{-20<x<20\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "885",
+        "folderId": "937",
+        "color": "#2d70b3",
+        "latex": "9.5<y<10.5\\left\\{76<z<96\\right\\}\\left\\{-20<x<20\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "884",
+        "folderId": "937",
+        "color": "#2d70b3",
+        "latex": "13.5<y<14.5\\ \\left\\{76<z<96\\right\\}\\left\\{-20<x<20\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "883",
+        "folderId": "937",
+        "color": "#2d70b3",
+        "latex": "25.5<y<26.5\\ \\left\\{76<z<96\\right\\}\\left\\{-20<x<20\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "882",
+        "folderId": "937",
+        "color": "#2d70b3",
+        "latex": "29.5<y<30.5\\ \\left\\{76<z<96\\right\\}\\left\\{-20<x<20\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "881",
+        "folderId": "937",
+        "color": "#2d70b3",
+        "latex": "33.5<y<34.5\\ \\left\\{76<z<96\\right\\}\\left\\{-20<x<20\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "892",
+        "folderId": "937",
+        "color": "#c74440",
+        "latex": "15<y<25\\ \\left\\{76<z<96\\right\\}\\ \\left\\{-19.5<x<19.5\\right\\}",
+        "extendTo3D": true
+      },
+      {
+        "type": "expression",
+        "id": "938",
+        "folderId": "937",
+        "color": "#2d70b3",
+        "latex": "-19<x<19\\ \\left\\{-15\\left(y-8.1\\right)^{2}+96>z\\right\\}\\left\\{76<z\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "939",
+        "folderId": "937",
+        "color": "#2d70b3",
+        "latex": "-19<x<19\\ \\left\\{-15\\left(y-12.1\\right)^{2}+96>z\\right\\}\\left\\{76<z\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "940",
+        "folderId": "937",
+        "color": "#2d70b3",
+        "latex": "-19<x<19\\left\\{-15\\left(y-28.1\\right)^{2}+96>z\\right\\}\\left\\{76<z\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "941",
+        "folderId": "937",
+        "color": "#2d70b3",
+        "latex": "-19<x<19\\left\\{-15\\left(y-32.1\\right)^{2}+96>z\\right\\}\\left\\{76<z\\right\\}"
+      },
+      {
+        "type": "folder",
+        "id": "858",
+        "title": "Middle section LVL 4 Part 1",
+        "collapsed": true
+      },
+      {
+        "type": "expression",
+        "id": "859",
+        "folderId": "858",
+        "color": "#2d70b3",
+        "latex": "-11<x<-9\\ \\ \\left\\{-15\\left(x+10\\right)^{2}+96>z\\right\\}\\left\\{1<y<39\\right\\}\\left\\{z>76\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "860",
+        "folderId": "858",
+        "color": "#fa7e19",
+        "latex": "-13<x<-11\\ \\ \\left\\{0<y<40\\right\\}\\left\\{76<z<96\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "861",
+        "folderId": "858",
+        "color": "#2d70b3",
+        "latex": "-12.5<x<-11.5\\ \\ \\left\\{-0.5<y<40.5\\right\\}\\left\\{76<z<96\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "862",
+        "folderId": "858",
+        "color": "#fa7e19",
+        "latex": "-9<x<-7\\ \\ \\left\\{0<y<40\\right\\}\\left\\{76<z<96\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "863",
+        "folderId": "858",
+        "color": "#2d70b3",
+        "latex": "-8.5<x<-7.5\\ \\left\\{-0.5<y<40.5\\right\\}\\left\\{76<z<96\\right\\}",
+        "extendTo3D": true
+      },
+      {
+        "type": "expression",
+        "id": "864",
+        "folderId": "858",
+        "color": "#fa7e19",
+        "latex": "7<x<9\\ \\left\\{0<y<40\\right\\}\\left\\{76<z<96\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "865",
+        "folderId": "858",
+        "color": "#2d70b3",
+        "latex": "7.5<x<8.5\\ \\left\\{-0.5<y<40.5\\right\\}\\left\\{76<z<96\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "866",
+        "folderId": "858",
+        "color": "#2d70b3",
+        "latex": "-7<x<-5\\ \\ \\left\\{-15\\left(x+6\\right)^{2}+96>z\\right\\}\\left\\{1<y<39\\right\\}\\left\\{76<z<96\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "867",
+        "folderId": "858",
+        "color": "#2d70b3",
+        "latex": "5<x<7\\left\\{-15\\left(x-6\\right)^{2}+96>z\\right\\}\\left\\{1<y<39\\right\\}\\left\\{76<z<96\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "868",
+        "folderId": "858",
+        "color": "#2d70b3",
+        "latex": "9<x<15\\left\\{-15\\left(x-10\\right)^{2}+96>z\\right\\}\\left\\{1<y<39\\right\\}\\left\\{76<z<96\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "869",
+        "folderId": "858",
+        "color": "#fa7e19",
+        "latex": "11<x<13\\ \\left\\{0<y<40\\right\\}\\left\\{76<z<96\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "870",
+        "folderId": "858",
+        "color": "#2d70b3",
+        "latex": "11.5<x<12.5\\ \\left\\{-0.5<y<40.5\\right\\}\\left\\{76<z<96\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "871",
+        "folderId": "858",
+        "color": "#fa7e19",
+        "latex": "-5<x<-3\\left\\{0<y<40\\right\\}\\left\\{76<z<96\\right\\}",
+        "extendTo3D": true
+      },
+      {
+        "type": "expression",
+        "id": "872",
+        "folderId": "858",
+        "color": "#2d70b3",
+        "latex": "-4.5<x<-3.5\\ \\left\\{-0.5<y<40.5\\right\\}\\left\\{76<z<96\\right\\}",
+        "extendTo3D": true
+      },
+      {
+        "type": "expression",
+        "id": "873",
+        "folderId": "858",
+        "color": "#fa7e19",
+        "latex": "3<x<5\\ \\left\\{0<y<40\\right\\}\\left\\{76<z<96\\right\\}",
+        "extendTo3D": true
+      },
+      {
+        "type": "expression",
+        "id": "874",
+        "folderId": "858",
+        "color": "#2d70b3",
+        "latex": "3.5<x<4.5\\ \\left\\{-0.5<y<40.5\\right\\}\\left\\{76<z<96\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "891",
+        "folderId": "858",
+        "color": "#c74440",
+        "latex": "-3<x<3\\ \\left\\{0<y<40\\right\\}\\left\\{76<z<96\\right\\}"
+      },
+      {
+        "type": "text",
+        "id": "521",
+        "text": "THIRD LEVEL"
+      },
+      {
+        "type": "folder",
+        "id": "845",
+        "title": "Split Middle Section Pillar LVL 3 Part 2",
+        "collapsed": true
+      },
+      {
+        "type": "expression",
+        "id": "846",
+        "folderId": "845",
+        "color": "#aaaaaa",
+        "latex": "13<x<19\\ \\left\\{41>y>35\\right\\}\\left\\{72<z<76\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "847",
+        "folderId": "845",
+        "color": "#aaaaaa",
+        "latex": "14<x<18\\ \\left\\{41.5>y>35\\right\\}\\left\\{72<z<76\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "848",
+        "folderId": "845",
+        "color": "#aaaaaa",
+        "latex": "40>y>44\\ \\left\\{19.5>x>15\\right\\}\\left\\{72<z<76\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "849",
+        "folderId": "845",
+        "color": "#aaaaaa",
+        "latex": "17>x>15\\ \\left\\{42>y>35\\right\\}\\left\\{72<z<76\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "850",
+        "folderId": "845",
+        "color": "#aaaaaa",
+        "latex": "-19<x<-13\\ \\left\\{41>y>35\\right\\}\\left\\{72<z<76\\right\\}",
+        "extendTo3D": true
+      },
+      {
+        "type": "expression",
+        "id": "851",
+        "folderId": "845",
+        "color": "#aaaaaa",
+        "latex": "-18<x<-14\\ \\left\\{41.5>y>35\\right\\}\\left\\{72<z<76\\right\\}",
+        "extendTo3D": true
+      },
+      {
+        "type": "expression",
+        "id": "852",
+        "folderId": "845",
+        "color": "#aaaaaa",
+        "latex": "40>y>44\\ \\left\\{-19.5<x<-15\\right\\}\\left\\{72<z<76\\right\\}",
+        "extendTo3D": true
+      },
+      {
+        "type": "expression",
+        "id": "853",
+        "folderId": "845",
+        "color": "#aaaaaa",
+        "latex": "-17<x<-15\\ \\left\\{42>y>35\\right\\}\\left\\{72<z<76\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "854",
+        "folderId": "845",
+        "color": "#aaaaaa",
+        "latex": "36<y<40\\ \\left\\{-19.5<x<-15\\right\\}\\left\\{72<z<76\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "855",
+        "folderId": "845",
+        "color": "#aaaaaa",
+        "latex": "37<y<39\\ \\left\\{-20<x<-15\\right\\}\\left\\{72<z<76\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "856",
+        "folderId": "845",
+        "color": "#aaaaaa",
+        "latex": "36<y<40\\ \\left\\{19.5>x>15\\right\\}\\left\\{72<z<76\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "857",
+        "folderId": "845",
+        "color": "#aaaaaa",
+        "latex": "37<y<39\\ \\left\\{20>x>15\\right\\}\\left\\{72<z<76\\right\\}"
+      },
+      {
+        "type": "folder",
+        "id": "256",
+        "title": "Split Middle Section Pillar LVL 3 Part 1",
+        "collapsed": true
+      },
+      {
+        "type": "expression",
+        "id": "257",
+        "folderId": "256",
+        "color": "#aaaaaa",
+        "latex": "13<x<19\\ \\left\\{-1<y<5\\right\\}\\left\\{72<z<76\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "258",
+        "folderId": "256",
+        "color": "#aaaaaa",
+        "latex": "-13>x>-19\\ \\left\\{-1<y<5\\right\\}\\left\\{72<z<76\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "259",
+        "folderId": "256",
+        "color": "#aaaaaa",
+        "latex": "14<x<18\\ \\left\\{-1.5<y<5\\right\\}\\left\\{72<z<76\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "260",
+        "folderId": "256",
+        "color": "#aaaaaa",
+        "latex": "-14>x>-18\\ \\left\\{-1.5<y<5\\right\\}\\left\\{72<z<76\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "261",
+        "folderId": "256",
+        "color": "#aaaaaa",
+        "latex": "0<y<4\\ \\left\\{19.5>x>15\\right\\}\\left\\{72<z<76\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "262",
+        "folderId": "256",
+        "color": "#aaaaaa",
+        "latex": "0<y<4\\ \\left\\{-19.5<x<-15\\right\\}\\left\\{72<z<76\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "263",
+        "folderId": "256",
+        "color": "#aaaaaa",
+        "latex": "17>x>15\\ \\left\\{-2<y<5\\right\\}\\left\\{72<z<76\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "264",
+        "folderId": "256",
+        "color": "#aaaaaa",
+        "latex": "-17<x<-15\\ \\left\\{-2<y<5\\right\\}\\left\\{72<z<76\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "265",
+        "folderId": "256",
+        "color": "#aaaaaa",
+        "latex": "1<y<3\\ \\left\\{20>x>15\\right\\}\\left\\{72<z<76\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "266",
+        "folderId": "256",
+        "color": "#aaaaaa",
+        "latex": "1<y<3\\ \\left\\{-20<x<-15\\right\\}\\left\\{72<z<76\\right\\}"
+      },
+      {
+        "type": "folder",
+        "id": "893",
+        "title": "Split Middle Section LVL 3",
+        "collapsed": true
+      },
+      {
+        "type": "expression",
+        "id": "894",
+        "folderId": "893",
+        "color": "#c74440",
+        "latex": "-13<x<-7.5\\ \\ \\left\\{-1<y<41\\right\\}\\left\\{72<z<76\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "895",
+        "folderId": "893",
+        "color": "#c74440",
+        "latex": "-20<x<20\\ \\left\\{5<y<10\\right\\}\\left\\{72<z<76\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "896",
+        "folderId": "893",
+        "color": "#388c46",
+        "latex": "-20<x<20\\ \\left\\{10<y<15\\right\\}\\left\\{72<z<76\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "897",
+        "folderId": "893",
+        "color": "#c74440",
+        "latex": "-20<x<20\\left\\{15<y<20\\right\\}\\left\\{72<z<76\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "898",
+        "folderId": "893",
+        "color": "#388c46",
+        "latex": "-20<x<20\\left\\{20<y<25\\right\\}\\left\\{72<z<76\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "899",
+        "folderId": "893",
+        "color": "#c74440",
+        "latex": "-20<x<20\\ \\left\\{25<y<30\\right\\}\\left\\{72<z<76\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "900",
+        "folderId": "893",
+        "color": "#388c46",
+        "latex": "-20<x<20\\ \\left\\{30<y<35\\right\\}\\left\\{72<z<76\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "901",
+        "folderId": "893",
+        "color": "#c74440",
+        "latex": "13>x>7.5\\ \\ \\left\\{-1<y<41\\right\\}\\left\\{72<z<76\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "902",
+        "folderId": "893",
+        "color": "#388c46",
+        "latex": "-7.5<x<-2.5\\ \\left\\{-1<y<41\\right\\}\\left\\{72<z<76\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "903",
+        "folderId": "893",
+        "color": "#388c46",
+        "latex": "7.5>x>2.5\\ \\left\\{-1<y<41\\right\\}\\left\\{72<z<76\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "904",
+        "folderId": "893",
+        "color": "#c74440",
+        "latex": "-2.5<x<2.5\\ \\left\\{-1<y<41\\right\\}\\left\\{72<z<76\\right\\}"
+      },
+      {
+        "type": "folder",
+        "id": "832",
+        "title": "Pillar LVL 3 Part 2",
+        "collapsed": true
+      },
+      {
+        "type": "expression",
+        "id": "833",
+        "folderId": "832",
+        "color": "#c74440",
+        "latex": "13<x<19\\ \\left\\{41>y>35\\right\\}\\left\\{52<z<72\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "834",
+        "folderId": "832",
+        "color": "#c74440",
+        "latex": "14<x<18\\ \\left\\{41.5>y>35\\right\\}\\left\\{52<z<72\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "835",
+        "folderId": "832",
+        "color": "#c74440",
+        "latex": "40>y>44\\ \\left\\{19.5>x>15\\right\\}\\left\\{52<z<72\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "836",
+        "folderId": "832",
+        "color": "#c74440",
+        "latex": "17>x>15\\ \\left\\{42>y>35\\right\\}\\left\\{52<z<72\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "837",
+        "folderId": "832",
+        "color": "#c74440",
+        "latex": "-19<x<-13\\ \\left\\{41>y>35\\right\\}\\left\\{52<z<72\\right\\}",
+        "extendTo3D": true
+      },
+      {
+        "type": "expression",
+        "id": "838",
+        "folderId": "832",
+        "color": "#c74440",
+        "latex": "-18<x<-14\\ \\left\\{41.5>y>35\\right\\}\\left\\{52<z<72\\right\\}",
+        "extendTo3D": true
+      },
+      {
+        "type": "expression",
+        "id": "839",
+        "folderId": "832",
+        "color": "#c74440",
+        "latex": "40>y>44\\ \\left\\{-19.5<x<-15\\right\\}\\left\\{52<z<72\\right\\}",
+        "extendTo3D": true
+      },
+      {
+        "type": "expression",
+        "id": "840",
+        "folderId": "832",
+        "color": "#c74440",
+        "latex": "-17<x<-15\\ \\left\\{42>y>35\\right\\}\\left\\{52<z<72\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "841",
+        "folderId": "832",
+        "color": "#c74440",
+        "latex": "36<y<40\\ \\left\\{-19.5<x<-15\\right\\}\\left\\{52<z<72\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "842",
+        "folderId": "832",
+        "color": "#c74440",
+        "latex": "37<y<39\\ \\left\\{-20<x<-15\\right\\}\\left\\{52<z<72\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "843",
+        "folderId": "832",
+        "color": "#c74440",
+        "latex": "36<y<40\\ \\left\\{19.5>x>15\\right\\}\\left\\{52<z<72\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "844",
+        "folderId": "832",
+        "color": "#c74440",
+        "latex": "37<y<39\\ \\left\\{20>x>15\\right\\}\\left\\{52<z<72\\right\\}"
+      },
+      {
+        "type": "folder",
+        "id": "183",
+        "title": "Pillar LVL 3 Part 1",
+        "collapsed": true
+      },
+      {
+        "type": "expression",
+        "id": "184",
+        "folderId": "183",
+        "color": "#c74440",
+        "latex": "13<x<19\\ \\left\\{-1<y<5\\right\\}\\left\\{52<z<72\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "185",
+        "folderId": "183",
+        "color": "#c74440",
+        "latex": "14<x<18\\ \\left\\{-1.5<y<5\\right\\}\\left\\{52<z<72\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "186",
+        "folderId": "183",
+        "color": "#c74440",
+        "latex": "0<y<4\\ \\left\\{19.5>x>15\\right\\}\\left\\{52<z<72\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "187",
+        "folderId": "183",
+        "color": "#c74440",
+        "latex": "17>x>15\\ \\left\\{-2<y<5\\right\\}\\left\\{52<z<72\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "188",
+        "folderId": "183",
+        "color": "#c74440",
+        "latex": "1<y<3\\ \\left\\{20>x>15\\right\\}\\left\\{52<z<72\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "189",
+        "folderId": "183",
+        "color": "#c74440",
+        "latex": "-19<x<-13\\ \\left\\{-1<y<5\\right\\}\\left\\{52<z<72\\right\\}",
+        "extendTo3D": true
+      },
+      {
+        "type": "expression",
+        "id": "190",
+        "folderId": "183",
+        "color": "#c74440",
+        "latex": "-18<x<-14\\ \\left\\{-1.5<y<5\\right\\}\\left\\{52<z<72\\right\\}",
+        "extendTo3D": true
+      },
+      {
+        "type": "expression",
+        "id": "191",
+        "folderId": "183",
+        "color": "#c74440",
+        "latex": "0<y<4\\ \\left\\{-19.5<x<-15\\right\\}\\left\\{52<z<72\\right\\}",
+        "extendTo3D": true
+      },
+      {
+        "type": "expression",
+        "id": "192",
+        "folderId": "183",
+        "color": "#c74440",
+        "latex": "-17<x<-15\\ \\left\\{-2<y<5\\right\\}\\left\\{52<z<72\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "193",
+        "folderId": "183",
+        "color": "#c74440",
+        "latex": "1<y<3\\ \\left\\{-20<x<-15\\right\\}\\left\\{52<z<72\\right\\}"
+      },
+      {
+        "type": "folder",
+        "id": "936",
+        "title": "Middle section LVL 3 Part 2",
+        "collapsed": true
+      },
+      {
+        "type": "expression",
+        "id": "718",
+        "folderId": "936",
+        "color": "#fa7e19",
+        "latex": "5<y<7\\ \\left\\{52<z<72\\right\\}\\ \\ \\ \\left\\{-19.5<x<19.5\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "717",
+        "folderId": "936",
+        "color": "#fa7e19",
+        "latex": "9<y<11\\ \\left\\{52<z<72\\right\\}\\ \\ \\ \\left\\{-19.5<x<19.5\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "715",
+        "folderId": "936",
+        "color": "#fa7e19",
+        "latex": "13<y<15\\ \\left\\{52<z<72\\right\\}\\ \\ \\left\\{-19.5<x<19.5\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "713",
+        "folderId": "936",
+        "color": "#fa7e19",
+        "latex": "25<y<27\\ \\left\\{52<z<72\\right\\}\\ \\ \\left\\{-19.5<x<19.5\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "712",
+        "folderId": "936",
+        "color": "#fa7e19",
+        "latex": "29<y<31\\ \\left\\{52<z<72\\right\\}\\ \\ \\left\\{-19.5<x<19.5\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "709",
+        "folderId": "936",
+        "color": "#fa7e19",
+        "latex": "33<y<35\\ \\left\\{52<z<72\\right\\}\\ \\ \\left\\{-19.5<x<19.5\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "727",
+        "folderId": "936",
+        "color": "#2d70b3",
+        "latex": "5.5<y<6.5\\ \\left\\{52<z<72\\right\\}\\left\\{-20<x<20\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "726",
+        "folderId": "936",
+        "color": "#2d70b3",
+        "latex": "9.5<y<10.5\\ \\left\\{52<z<72\\right\\}\\left\\{-20<x<20\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "725",
+        "folderId": "936",
+        "color": "#2d70b3",
+        "latex": "13.5<y<14.5\\ \\left\\{52<z<72\\right\\}\\left\\{-20<x<20\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "723",
+        "folderId": "936",
+        "color": "#2d70b3",
+        "latex": "25.5<y<26.5\\ \\left\\{52<z<72\\right\\}\\left\\{-20<x<20\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "722",
+        "folderId": "936",
+        "color": "#2d70b3",
+        "latex": "29.5<y<30.5\\ \\left\\{52<z<72\\right\\}\\left\\{-20<x<20\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "710",
+        "folderId": "936",
+        "color": "#2d70b3",
+        "latex": "33.5<y<34.5\\ \\left\\{52<z<72\\right\\}\\left\\{-20<x<20\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "721",
+        "folderId": "936",
+        "color": "#2d70b3",
+        "latex": "-19<x<19\\ \\left\\{-15\\left(y-8.1\\right)^{2}+72>z\\right\\}\\left\\{52<z\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "720",
+        "folderId": "936",
+        "color": "#2d70b3",
+        "latex": "-19<x<19\\ \\left\\{-15\\left(y-12.1\\right)^{2}+72>z\\right\\}\\left\\{52<z\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "719",
+        "folderId": "936",
+        "color": "#2d70b3",
+        "latex": "-19<x<19\\left\\{-15\\left(y-28.1\\right)^{2}+72>z\\right\\}\\left\\{52<z\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "711",
+        "folderId": "936",
+        "color": "#2d70b3",
+        "latex": "-19<x<19\\left\\{-15\\left(y-32.1\\right)^{2}+72>z\\right\\}\\left\\{52<z\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "714",
+        "folderId": "936",
+        "color": "#c74440",
+        "latex": "15<y<25\\ \\left\\{52<z<72\\right\\}\\left\\{-19.5<x<19.5\\right\\}"
+      },
+      {
+        "type": "folder",
+        "id": "523",
+        "title": "Middle section LVL 3 Part 1",
+        "collapsed": true
+      },
+      {
+        "type": "expression",
+        "id": "524",
+        "folderId": "523",
+        "color": "#2d70b3",
+        "latex": "-11<x<-9\\ \\ \\left\\{-15\\left(x+10\\right)^{2}+73>z\\right\\}\\left\\{1<y<39\\right\\}\\left\\{52<z<72\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "525",
+        "folderId": "523",
+        "color": "#fa7e19",
+        "latex": "-13<x<-11\\ \\ \\left\\{0<y<40\\right\\}\\left\\{52<z<72\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "526",
+        "folderId": "523",
+        "color": "#2d70b3",
+        "latex": "-12.5<x<-11.5\\ \\ \\left\\{-0.5<y<40.5\\right\\}\\left\\{52<z<72\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "527",
+        "folderId": "523",
+        "color": "#fa7e19",
+        "latex": "-9<x<-7\\ \\ \\left\\{0<y<40\\right\\}\\left\\{52<z<72\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "528",
+        "folderId": "523",
+        "color": "#2d70b3",
+        "latex": "-8.5<x<-7.5\\ \\left\\{-0.5<y<40.5\\right\\}\\left\\{52<z<72\\right\\}",
+        "extendTo3D": true
+      },
+      {
+        "type": "expression",
+        "id": "529",
+        "folderId": "523",
+        "color": "#fa7e19",
+        "latex": "7<x<9\\ \\left\\{0<y<40\\right\\}\\left\\{52<z<72\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "530",
+        "folderId": "523",
+        "color": "#2d70b3",
+        "latex": "7.5<x<8.5\\ \\left\\{-0.5<y<40.5\\right\\}\\left\\{52<z<72\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "531",
+        "folderId": "523",
+        "color": "#2d70b3",
+        "latex": "-7<x<-5\\ \\ \\left\\{-15\\left(x+6\\right)^{2}+73>z\\right\\}\\left\\{1<y<39\\right\\}\\left\\{52<z<72\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "532",
+        "folderId": "523",
+        "color": "#2d70b3",
+        "latex": "5<x<7\\left\\{-15\\left(x-6\\right)^{2}+73>z\\right\\}\\left\\{1<y<39\\right\\}\\left\\{52<z<72\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "708",
+        "folderId": "523",
+        "color": "#2d70b3",
+        "latex": "9<x<15\\left\\{-15\\left(x-10\\right)^{2}+73>z\\right\\}\\left\\{1<y<39\\right\\}\\left\\{52<z<72\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "534",
+        "folderId": "523",
+        "color": "#fa7e19",
+        "latex": "11<x<13\\ \\left\\{0<y<40\\right\\}\\left\\{52<z<72\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "535",
+        "folderId": "523",
+        "color": "#2d70b3",
+        "latex": "11.5<x<12.5\\ \\left\\{-0.5<y<40.5\\right\\}\\left\\{52<z<72\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "536",
+        "folderId": "523",
+        "color": "#fa7e19",
+        "latex": "-5<x<-3\\left\\{0<y<40\\right\\}\\left\\{52<z<72\\right\\}",
+        "extendTo3D": true
+      },
+      {
+        "type": "expression",
+        "id": "537",
+        "folderId": "523",
+        "color": "#2d70b3",
+        "latex": "-4.5<x<-3.5\\ \\left\\{-0.5<y<40.5\\right\\}\\left\\{52<z<72\\right\\}",
+        "extendTo3D": true
+      },
+      {
+        "type": "expression",
+        "id": "538",
+        "folderId": "523",
+        "color": "#fa7e19",
+        "latex": "3<x<5\\ \\left\\{0<y<40\\right\\}\\left\\{52<z<72\\right\\}",
+        "extendTo3D": true
+      },
+      {
+        "type": "expression",
+        "id": "539",
+        "folderId": "523",
+        "color": "#2d70b3",
+        "latex": "3.5<x<4.5\\ \\left\\{-0.5<y<40.5\\right\\}\\left\\{52<z<72\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "540",
+        "folderId": "523",
+        "color": "#c74440",
+        "latex": "-3<x<3\\ \\left\\{0<y<40\\right\\}\\left\\{52<z<72\\right\\}"
+      },
+      {
+        "type": "text",
+        "id": "508",
+        "text": "MIDDLE SPILT"
+      },
+      {
+        "type": "folder",
+        "id": "819",
+        "title": "Middle Split Section Pillar Part 2",
+        "collapsed": true
+      },
+      {
+        "type": "expression",
+        "id": "820",
+        "folderId": "819",
+        "color": "#aaaaaa",
+        "latex": "13<x<19\\ \\left\\{41>y>35\\right\\}\\left\\{48<z<52\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "821",
+        "folderId": "819",
+        "color": "#aaaaaa",
+        "latex": "14<x<18\\ \\left\\{41.5>y>35\\right\\}\\left\\{48<z<52\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "822",
+        "folderId": "819",
+        "color": "#aaaaaa",
+        "latex": "40>y>44\\ \\left\\{19.5>x>15\\right\\}\\left\\{48<z<52\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "823",
+        "folderId": "819",
+        "color": "#aaaaaa",
+        "latex": "17>x>15\\ \\left\\{42>y>35\\right\\}\\left\\{48<z<52\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "824",
+        "folderId": "819",
+        "color": "#aaaaaa",
+        "latex": "-19<x<-13\\ \\left\\{41>y>35\\right\\}\\left\\{48<z<52\\right\\}",
+        "extendTo3D": true
+      },
+      {
+        "type": "expression",
+        "id": "825",
+        "folderId": "819",
+        "color": "#aaaaaa",
+        "latex": "-18<x<-14\\ \\left\\{41.5>y>35\\right\\}\\left\\{48<z<52\\right\\}",
+        "extendTo3D": true
+      },
+      {
+        "type": "expression",
+        "id": "826",
+        "folderId": "819",
+        "color": "#aaaaaa",
+        "latex": "40>y>44\\ \\left\\{-19.5<x<-15\\right\\}\\left\\{48<z<52\\right\\}",
+        "extendTo3D": true
+      },
+      {
+        "type": "expression",
+        "id": "827",
+        "folderId": "819",
+        "color": "#aaaaaa",
+        "latex": "-17<x<-15\\ \\left\\{42>y>35\\right\\}\\left\\{48<z<52\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "828",
+        "folderId": "819",
+        "color": "#aaaaaa",
+        "latex": "36<y<40\\ \\left\\{-19.5<x<-15\\right\\}\\left\\{48<z<52\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "829",
+        "folderId": "819",
+        "color": "#aaaaaa",
+        "latex": "37<y<39\\ \\left\\{-20<x<-15\\right\\}\\left\\{48<z<52\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "830",
+        "folderId": "819",
+        "color": "#aaaaaa",
+        "latex": "36<y<40\\ \\left\\{19.5>x>15\\right\\}\\left\\{48<z<52\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "831",
+        "folderId": "819",
+        "color": "#aaaaaa",
+        "latex": "37<y<39\\ \\left\\{20>x>15\\right\\}\\left\\{48<z<52\\right\\}"
+      },
+      {
+        "type": "folder",
+        "id": "167",
+        "title": "Middle Split Section Pillar Part 1",
+        "collapsed": true
+      },
+      {
+        "type": "expression",
+        "id": "173",
+        "folderId": "167",
+        "color": "#aaaaaa",
+        "latex": "13<x<19\\ \\left\\{-1<y<5\\right\\}\\left\\{48<z<52\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "174",
+        "folderId": "167",
+        "color": "#aaaaaa",
+        "latex": "-13>x>-19\\ \\left\\{-1<y<5\\right\\}\\left\\{48<z<52\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "175",
+        "folderId": "167",
+        "color": "#aaaaaa",
+        "latex": "14<x<18\\ \\left\\{-1.5<y<5\\right\\}\\left\\{48<z<52\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "176",
+        "folderId": "167",
+        "color": "#aaaaaa",
+        "latex": "-14>x>-18\\ \\left\\{-1.5<y<5\\right\\}\\left\\{48<z<52\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "177",
+        "folderId": "167",
+        "color": "#aaaaaa",
+        "latex": "0<y<4\\ \\left\\{19.5>x>15\\right\\}\\left\\{48<z<52\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "178",
+        "folderId": "167",
+        "color": "#aaaaaa",
+        "latex": "0<y<4\\ \\left\\{-19.5<x<-15\\right\\}\\left\\{48<z<52\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "179",
+        "folderId": "167",
+        "color": "#aaaaaa",
+        "latex": "17>x>15\\ \\left\\{-2<y<5\\right\\}\\left\\{48<z<52\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "180",
+        "folderId": "167",
+        "color": "#aaaaaa",
+        "latex": "-17<x<-15\\ \\left\\{-2<y<5\\right\\}\\left\\{48<z<52\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "181",
+        "folderId": "167",
+        "color": "#aaaaaa",
+        "latex": "1<y<3\\ \\left\\{20>x>15\\right\\}\\left\\{48<z<52\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "182",
+        "folderId": "167",
+        "color": "#aaaaaa",
+        "latex": "1<y<3\\ \\left\\{-20<x<-15\\right\\}\\left\\{48<z<52\\right\\}"
+      },
+      {
+        "type": "folder",
+        "id": "509",
+        "title": "Middle Split Section ",
+        "collapsed": true
+      },
+      {
+        "type": "expression",
+        "id": "168",
+        "folderId": "509",
+        "color": "#388c46",
+        "latex": "-13<x<-7.5\\ \\ \\left\\{-1<y<41\\right\\}\\left\\{48<z<52\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "169",
+        "folderId": "509",
+        "color": "#388c46",
+        "latex": "13>x>7.5\\ \\ \\left\\{-1<y<41\\right\\}\\left\\{48<z<52\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "701",
+        "folderId": "509",
+        "color": "#388c46",
+        "latex": "10>y>5\\ \\ \\left\\{-20<x<20\\right\\}\\left\\{48<z<52\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "702",
+        "folderId": "509",
+        "color": "#c74440",
+        "latex": "15>y>10\\ \\ \\left\\{-20<x<20\\right\\}\\left\\{48<z<52\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "703",
+        "folderId": "509",
+        "color": "#388c46",
+        "latex": "20>y>15\\ \\ \\left\\{-20<x<20\\right\\}\\left\\{48<z<52\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "704",
+        "folderId": "509",
+        "color": "#c74440",
+        "latex": "20<y<25\\ \\ \\left\\{-20<x<20\\right\\}\\left\\{48<z<52\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "705",
+        "folderId": "509",
+        "color": "#388c46",
+        "latex": "25<y<30\\ \\ \\left\\{-20<x<20\\right\\}\\left\\{48<z<52\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "706",
+        "folderId": "509",
+        "color": "#c74440",
+        "latex": "30<y<35\\ \\ \\left\\{-20<x<20\\right\\}\\left\\{48<z<52\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "170",
+        "folderId": "509",
+        "color": "#c74440",
+        "latex": "-7.5<x<-2.5\\ \\left\\{-1<y<41\\right\\}\\left\\{48<z<52\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "171",
+        "folderId": "509",
+        "color": "#c74440",
+        "latex": "7.5>x>2.5\\ \\left\\{-1<y<41\\right\\}\\left\\{48<z<52\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "172",
+        "folderId": "509",
+        "color": "#388c46",
+        "latex": "-2.5<x<2.5\\ \\left\\{-1<y<41\\right\\}\\left\\{48<z<52\\right\\}"
+      },
+      {
+        "type": "text",
+        "id": "495",
+        "text": "SECOND LEVEL"
+      },
+      {
+        "type": "folder",
+        "id": "793",
+        "title": "Split Middle Section Pillar LVL 2 Part 2",
+        "collapsed": true
+      },
+      {
+        "type": "expression",
+        "id": "794",
+        "folderId": "793",
+        "color": "#aaaaaa",
+        "latex": "13<x<19\\ \\left\\{41>y>35\\right\\}\\left\\{44<z<48\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "795",
+        "folderId": "793",
+        "color": "#aaaaaa",
+        "latex": "14<x<18\\ \\left\\{41.5>y>35\\right\\}\\left\\{44<z<48\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "796",
+        "folderId": "793",
+        "color": "#aaaaaa",
+        "latex": "40>y>44\\ \\left\\{19.5>x>15\\right\\}\\left\\{44<z<48\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "797",
+        "folderId": "793",
+        "color": "#aaaaaa",
+        "latex": "17>x>15\\ \\left\\{42>y>35\\right\\}\\left\\{44<z<48\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "798",
+        "folderId": "793",
+        "color": "#aaaaaa",
+        "latex": "-19<x<-13\\ \\left\\{41>y>35\\right\\}\\left\\{44<z<48\\right\\}",
+        "extendTo3D": true
+      },
+      {
+        "type": "expression",
+        "id": "799",
+        "folderId": "793",
+        "color": "#aaaaaa",
+        "latex": "-18<x<-14\\ \\left\\{41.5>y>35\\right\\}\\left\\{44<z<48\\right\\}",
+        "extendTo3D": true
+      },
+      {
+        "type": "expression",
+        "id": "800",
+        "folderId": "793",
+        "color": "#aaaaaa",
+        "latex": "40>y>44\\ \\left\\{-19.5<x<-15\\right\\}\\left\\{44<z<48\\right\\}",
+        "extendTo3D": true
+      },
+      {
+        "type": "expression",
+        "id": "801",
+        "folderId": "793",
+        "color": "#aaaaaa",
+        "latex": "-17<x<-15\\ \\left\\{42>y>35\\right\\}\\left\\{44<z<48\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "802",
+        "folderId": "793",
+        "color": "#aaaaaa",
+        "latex": "36<y<40\\ \\left\\{-19.5<x<-15\\right\\}\\left\\{44<z<48\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "803",
+        "folderId": "793",
+        "color": "#aaaaaa",
+        "latex": "37<y<39\\ \\left\\{-20<x<-15\\right\\}\\left\\{44<z<48\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "804",
+        "folderId": "793",
+        "color": "#aaaaaa",
+        "latex": "36<y<40\\ \\left\\{19.5>x>15\\right\\}\\left\\{44<z<48\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "805",
+        "folderId": "793",
+        "color": "#aaaaaa",
+        "latex": "37<y<39\\ \\left\\{20>x>15\\right\\}\\left\\{44<z<48\\right\\}"
+      },
+      {
+        "type": "folder",
+        "id": "151",
+        "title": "Split Middle Section Pillar LVL 2 Part 1",
+        "collapsed": true
+      },
+      {
+        "type": "expression",
+        "id": "152",
+        "folderId": "151",
+        "color": "#aaaaaa",
+        "latex": "13<x<19\\ \\left\\{-1<y<5\\right\\}\\left\\{44<z<48\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "153",
+        "folderId": "151",
+        "color": "#aaaaaa",
+        "latex": "-13>x>-19\\ \\left\\{-1<y<5\\right\\}\\left\\{44<z<48\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "154",
+        "folderId": "151",
+        "color": "#aaaaaa",
+        "latex": "14<x<18\\ \\left\\{-1.5<y<5\\right\\}\\left\\{44<z<48\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "155",
+        "folderId": "151",
+        "color": "#aaaaaa",
+        "latex": "-14>x>-18\\ \\left\\{-1.5<y<5\\right\\}\\left\\{44<z<48\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "156",
+        "folderId": "151",
+        "color": "#aaaaaa",
+        "latex": "0<y<4\\ \\left\\{19.5>x>15\\right\\}\\left\\{44<z<48\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "157",
+        "folderId": "151",
+        "color": "#aaaaaa",
+        "latex": "0<y<4\\ \\left\\{-19.5<x<-15\\right\\}\\left\\{44<z<48\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "158",
+        "folderId": "151",
+        "color": "#aaaaaa",
+        "latex": "17>x>15\\ \\left\\{-2<y<5\\right\\}\\left\\{44<z<48\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "159",
+        "folderId": "151",
+        "color": "#aaaaaa",
+        "latex": "-17<x<-15\\ \\left\\{-2<y<5\\right\\}\\left\\{44<z<48\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "160",
+        "folderId": "151",
+        "color": "#aaaaaa",
+        "latex": "1<y<3\\ \\left\\{20>x>15\\right\\}\\left\\{44<z<48\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "161",
+        "folderId": "151",
+        "color": "#aaaaaa",
+        "latex": "1<y<3\\ \\left\\{-20<x<-15\\right\\}\\left\\{44<z<48\\right\\}"
+      },
+      {
+        "type": "folder",
+        "id": "507",
+        "title": "Split Middle Section LVL 2",
+        "collapsed": true
+      },
+      {
+        "type": "expression",
+        "id": "162",
+        "folderId": "507",
+        "color": "#c74440",
+        "latex": "-13<x<-7.5\\ \\left\\{-1<y<41\\right\\}\\left\\{44<z<48\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "677",
+        "folderId": "507",
+        "color": "#c74440",
+        "latex": "-20<x<20\\left\\{5<y<10\\right\\}\\left\\{44<z<48\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "678",
+        "folderId": "507",
+        "color": "#388c46",
+        "latex": "-20<x<20\\left\\{10<y<15\\right\\}\\left\\{44<z<48\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "679",
+        "folderId": "507",
+        "color": "#c74440",
+        "latex": "-20<x<20\\left\\{15<y<20\\right\\}\\left\\{44<z<48\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "680",
+        "folderId": "507",
+        "color": "#388c46",
+        "latex": "-20<x<20\\left\\{20<y<25\\right\\}\\left\\{44<z<48\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "681",
+        "folderId": "507",
+        "color": "#c74440",
+        "latex": "-20<x<20\\left\\{25<y<30\\right\\}\\left\\{44<z<48\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "682",
+        "folderId": "507",
+        "color": "#388c46",
+        "latex": "-20<x<20\\left\\{30<y<35\\right\\}\\left\\{44<z<48\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "163",
+        "folderId": "507",
+        "color": "#c74440",
+        "latex": "13>x>7.5\\ \\left\\{-1<y<41\\right\\}\\left\\{44<z<48\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "164",
+        "folderId": "507",
+        "color": "#388c46",
+        "latex": "-7.5<x<-2.5\\ \\left\\{-1<y<41\\right\\}\\left\\{44<z<48\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "165",
+        "folderId": "507",
+        "color": "#388c46",
+        "latex": "7.5>x>2.5\\ \\left\\{-1<y<41\\right\\}\\left\\{44<z<48\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "166",
+        "folderId": "507",
+        "color": "#c74440",
+        "latex": "-2.5<x<2.5\\ \\left\\{-1<y<41\\right\\}\\left\\{44<z<48\\right\\}"
+      },
+      {
+        "type": "folder",
+        "id": "806",
+        "title": "Pillar LVL 1 Part 2",
+        "collapsed": true
+      },
+      {
+        "type": "expression",
+        "id": "807",
+        "folderId": "806",
+        "color": "#c74440",
+        "latex": "13<x<19\\ \\left\\{41>y>35\\right\\}\\left\\{24<z<44\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "808",
+        "folderId": "806",
+        "color": "#c74440",
+        "latex": "14<x<18\\ \\left\\{41.5>y>35\\right\\}\\left\\{24<z<44\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "809",
+        "folderId": "806",
+        "color": "#c74440",
+        "latex": "40>y>44\\ \\left\\{19.5>x>15\\right\\}\\left\\{24<z<44\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "810",
+        "folderId": "806",
+        "color": "#c74440",
+        "latex": "17>x>15\\ \\left\\{42>y>35\\right\\}\\left\\{24<z<44\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "811",
+        "folderId": "806",
+        "color": "#c74440",
+        "latex": "-19<x<-13\\ \\left\\{41>y>35\\right\\}\\left\\{24<z<44\\right\\}",
+        "extendTo3D": true
+      },
+      {
+        "type": "expression",
+        "id": "812",
+        "folderId": "806",
+        "color": "#c74440",
+        "latex": "-18<x<-14\\ \\left\\{41.5>y>35\\right\\}\\left\\{24<z<44\\right\\}",
+        "extendTo3D": true
+      },
+      {
+        "type": "expression",
+        "id": "813",
+        "folderId": "806",
+        "color": "#c74440",
+        "latex": "40>y>44\\ \\left\\{-19.5<x<-15\\right\\}\\left\\{24<z<44\\right\\}",
+        "extendTo3D": true
+      },
+      {
+        "type": "expression",
+        "id": "814",
+        "folderId": "806",
+        "color": "#c74440",
+        "latex": "-17<x<-15\\ \\left\\{42>y>35\\right\\}\\left\\{24<z<44\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "815",
+        "folderId": "806",
+        "color": "#c74440",
+        "latex": "36<y<40\\ \\left\\{-19.5<x<-15\\right\\}\\left\\{24<z<44\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "816",
+        "folderId": "806",
+        "color": "#c74440",
+        "latex": "37<y<39\\ \\left\\{-20<x<-15\\right\\}\\left\\{24<z<44\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "817",
+        "folderId": "806",
+        "color": "#c74440",
+        "latex": "36<y<40\\ \\left\\{19.5>x>15\\right\\}\\left\\{24<z<44\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "818",
+        "folderId": "806",
+        "color": "#c74440",
+        "latex": "37<y<39\\ \\left\\{20>x>15\\right\\}\\left\\{24<z<44\\right\\}"
+      },
+      {
+        "type": "folder",
+        "id": "123",
+        "title": "Pillar LVL 2 Part 1",
+        "collapsed": true
+      },
+      {
+        "type": "expression",
+        "id": "124",
+        "folderId": "123",
+        "color": "#c74440",
+        "latex": "13<x<19\\ \\left\\{-1<y<5\\right\\}\\left\\{24<z<44\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "125",
+        "folderId": "123",
+        "color": "#c74440",
+        "latex": "14<x<18\\ \\left\\{-1.5<y<5\\right\\}\\left\\{24<z<44\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "126",
+        "folderId": "123",
+        "color": "#c74440",
+        "latex": "0<y<4\\ \\left\\{19.5>x>15\\right\\}\\left\\{24<z<44\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "127",
+        "folderId": "123",
+        "color": "#c74440",
+        "latex": "17>x>15\\ \\left\\{-2<y<5\\right\\}\\left\\{24<z<44\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "128",
+        "folderId": "123",
+        "color": "#c74440",
+        "latex": "1<y<3\\ \\left\\{20>x>15\\right\\}\\left\\{24<z<44\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "129",
+        "folderId": "123",
+        "color": "#c74440",
+        "latex": "-19<x<-13\\ \\left\\{-1<y<5\\right\\}\\left\\{24<z<44\\right\\}",
+        "extendTo3D": true
+      },
+      {
+        "type": "expression",
+        "id": "130",
+        "folderId": "123",
+        "color": "#c74440",
+        "latex": "-18<x<-14\\ \\left\\{-1.5<y<5\\right\\}\\left\\{24<z<44\\right\\}",
+        "extendTo3D": true
+      },
+      {
+        "type": "expression",
+        "id": "131",
+        "folderId": "123",
+        "color": "#c74440",
+        "latex": "0<y<4\\ \\left\\{-19.5<x<-15\\right\\}\\left\\{24<z<44\\right\\}",
+        "extendTo3D": true
+      },
+      {
+        "type": "expression",
+        "id": "132",
+        "folderId": "123",
+        "color": "#c74440",
+        "latex": "-17<x<-15\\ \\left\\{-2<y<5\\right\\}\\left\\{24<z<44\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "133",
+        "folderId": "123",
+        "color": "#c74440",
+        "latex": "1<y<3\\ \\left\\{-20<x<-15\\right\\}\\left\\{24<z<44\\right\\}"
+      },
+      {
+        "type": "folder",
+        "id": "455",
+        "title": "Middle section LVL 2 Part 2",
+        "collapsed": true
+      },
+      {
+        "type": "expression",
+        "id": "683",
+        "folderId": "455",
+        "color": "#fa7e19",
+        "latex": "33<y<35\\ \\left\\{24<z<44\\right\\}\\ \\ \\left\\{-19.5<x<19.5\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "686",
+        "folderId": "455",
+        "color": "#fa7e19",
+        "latex": "29<y<31\\ \\left\\{24<z<44\\right\\}\\ \\ \\left\\{-19.5<x<19.5\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "687",
+        "folderId": "455",
+        "color": "#fa7e19",
+        "latex": "25<y<27\\ \\left\\{24<z<44\\right\\}\\ \\left\\{-19.5<x<19.5\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "691",
+        "folderId": "455",
+        "color": "#fa7e19",
+        "latex": "5<y<7\\ \\left\\{24<z<44\\right\\}\\ \\ \\left\\{-19.5<x<19.5\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "692",
+        "folderId": "455",
+        "color": "#fa7e19",
+        "latex": "9<y<11\\ \\left\\{24<z<44\\right\\}\\ \\ \\left\\{-19.5<x<19.5\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "693",
+        "folderId": "455",
+        "color": "#fa7e19",
+        "latex": "13<y<15\\ \\left\\{24<z<44\\right\\}\\ \\left\\{-19.5<x<19.5\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "684",
+        "folderId": "455",
+        "color": "#2d70b3",
+        "latex": "33.5<y<34.5\\ \\left\\{24<z<44\\right\\}\\left\\{-20<x<20\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "688",
+        "folderId": "455",
+        "color": "#2d70b3",
+        "latex": "29.5<y<30.5\\ \\left\\{24<z<44\\right\\}\\ \\left\\{-20<x<20\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "689",
+        "folderId": "455",
+        "color": "#2d70b3",
+        "latex": "25.5<y<26.5\\ \\left\\{24<z<44\\right\\}\\ \\left\\{-20<x<20\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "694",
+        "folderId": "455",
+        "color": "#2d70b3",
+        "latex": "5.5<y<6.5\\ \\left\\{24<z<44\\right\\}\\ \\left\\{-20<x<20\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "695",
+        "folderId": "455",
+        "color": "#2d70b3",
+        "latex": "9.5<y<10.5\\ \\left\\{24<z<44\\right\\}\\ \\left\\{-20<x<20\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "696",
+        "folderId": "455",
+        "color": "#2d70b3",
+        "latex": "13.5<y<14.5\\ \\left\\{24<z<44\\right\\}\\ \\left\\{-20<x<20\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "700",
+        "folderId": "455",
+        "color": "#c74440",
+        "latex": "15<y<25\\ \\left\\{24<z<44\\right\\}\\ \\left\\{-19.5<x<19.5\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "685",
+        "folderId": "455",
+        "color": "#2d70b3",
+        "latex": "-19<x<19\\ \\left\\{-15\\left(y-32.1\\right)^{2}+44>z\\right\\}\\left\\{24<z\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "690",
+        "folderId": "455",
+        "color": "#2d70b3",
+        "latex": "-19<x<19\\ \\left\\{-15\\left(y-28.1\\right)^{2}+44>z\\right\\}\\left\\{24<z\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "697",
+        "folderId": "455",
+        "color": "#2d70b3",
+        "latex": "-19<x<19\\ \\left\\{-15\\left(y-8.1\\right)^{2}+44>z\\right\\}\\left\\{24<z\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "698",
+        "folderId": "455",
+        "color": "#2d70b3",
+        "latex": "-19<x<19\\ \\left\\{-15\\left(y-12.1\\right)^{2}+44>z\\right\\}\\left\\{24<z\\right\\}"
+      },
+      {
+        "type": "folder",
+        "id": "935",
+        "title": "Middle section LVL 2 Part 1",
+        "collapsed": true
+      },
+      {
+        "type": "expression",
+        "id": "458",
+        "folderId": "935",
+        "color": "#2d70b3",
+        "latex": "-12.5<x<-11.5\\ \\ \\left\\{-0.5<y<40.5\\right\\}\\left\\{24<z<44\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "460",
+        "folderId": "935",
+        "color": "#2d70b3",
+        "latex": "-8.5<x<-7.5\\ \\left\\{-0.5<y<40.5\\right\\}\\left\\{24<z<44\\right\\}",
+        "extendTo3D": true
+      },
+      {
+        "type": "expression",
+        "id": "467",
+        "folderId": "935",
+        "color": "#2d70b3",
+        "latex": "11.5<x<12.5\\ \\left\\{-0.5<y<40.5\\right\\}\\left\\{24<z<44\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "462",
+        "folderId": "935",
+        "color": "#2d70b3",
+        "latex": "7.5<x<8.5\\ \\left\\{-0.5<y<40.5\\right\\}\\left\\{24<z<44\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "471",
+        "folderId": "935",
+        "color": "#2d70b3",
+        "latex": "3.5<x<4.5\\ \\left\\{-0.5<y<40.5\\right\\}\\left\\{24<z<44\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "457",
+        "folderId": "935",
+        "color": "#fa7e19",
+        "latex": "-13<x<-11\\ \\ \\left\\{0<y<40\\right\\}\\left\\{24<z<44\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "459",
+        "folderId": "935",
+        "color": "#fa7e19",
+        "latex": "-9<x<-7\\ \\ \\left\\{0<y<40\\right\\}\\left\\{24<z<44\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "461",
+        "folderId": "935",
+        "color": "#fa7e19",
+        "latex": "7<x<9\\ \\left\\{0<y<40\\right\\}\\left\\{24<z<44\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "466",
+        "folderId": "935",
+        "color": "#fa7e19",
+        "latex": "11<x<13\\ \\left\\{0<y<40\\right\\}\\left\\{24<z<44\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "468",
+        "folderId": "935",
+        "color": "#fa7e19",
+        "latex": "-5<x<-3\\left\\{0<y<40\\right\\}\\left\\{24<z<44\\right\\}",
+        "extendTo3D": true
+      },
+      {
+        "type": "expression",
+        "id": "470",
+        "folderId": "935",
+        "color": "#fa7e19",
+        "latex": "3<x<5\\ \\left\\{0<y<40\\right\\}\\left\\{24<z<44\\right\\}",
+        "extendTo3D": true
+      },
+      {
+        "type": "expression",
+        "id": "469",
+        "folderId": "935",
+        "color": "#2d70b3",
+        "latex": "-4.5<x<-3.5\\ \\left\\{-0.5<y<40.5\\right\\}\\left\\{24<z<44\\right\\}",
+        "extendTo3D": true
+      },
+      {
+        "type": "expression",
+        "id": "456",
+        "folderId": "935",
+        "color": "#2d70b3",
+        "latex": "-11<x<-9\\ \\ \\left\\{-15\\left(x+10\\right)^{2}+44>z\\right\\}\\left\\{1<y<39\\right\\}\\left\\{24<z<44\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "463",
+        "folderId": "935",
+        "color": "#2d70b3",
+        "latex": "-7<x<-5\\ \\ \\left\\{-15\\left(x+6\\right)^{2}+44>z\\right\\}\\left\\{1<y<39\\right\\}\\left\\{24<z<44\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "464",
+        "folderId": "935",
+        "color": "#2d70b3",
+        "latex": "5<x<7\\left\\{-15\\left(x-6\\right)^{2}+44>z\\right\\}\\left\\{1<y<39\\right\\}\\left\\{24<z<44\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "465",
+        "folderId": "935",
+        "color": "#2d70b3",
+        "latex": "9<x<11\\left\\{24<z<44\\right\\}\\left\\{-15\\left(x-10\\right)^{2}+44>z\\right\\}\\left\\{1<y<39\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "472",
+        "folderId": "935",
+        "color": "#c74440",
+        "latex": "-3<x<3\\ \\left\\{0<y<40\\right\\}\\left\\{24<z<44\\right\\}"
+      },
+      {
+        "type": "text",
+        "id": "423",
+        "text": "FIRST LEVEL"
+      },
+      {
+        "type": "folder",
+        "id": "780",
+        "title": "Split Middle Section Pillar LVL 1 Part 2",
+        "collapsed": true
+      },
+      {
+        "type": "expression",
+        "id": "781",
+        "folderId": "780",
+        "color": "#aaaaaa",
+        "latex": "13<x<19\\ \\left\\{41>y>35\\right\\}\\left\\{20<z<24\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "782",
+        "folderId": "780",
+        "color": "#aaaaaa",
+        "latex": "14<x<18\\ \\left\\{41.5>y>35\\right\\}\\left\\{20<z<24\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "783",
+        "folderId": "780",
+        "color": "#aaaaaa",
+        "latex": "40>y>44\\ \\left\\{19.5>x>15\\right\\}\\left\\{20<z<24\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "784",
+        "folderId": "780",
+        "color": "#aaaaaa",
+        "latex": "17>x>15\\ \\left\\{42>y>35\\right\\}\\left\\{20<z<24\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "785",
+        "folderId": "780",
+        "color": "#aaaaaa",
+        "latex": "-19<x<-13\\ \\left\\{41>y>35\\right\\}\\left\\{20<z<24\\right\\}",
+        "extendTo3D": true
+      },
+      {
+        "type": "expression",
+        "id": "786",
+        "folderId": "780",
+        "color": "#aaaaaa",
+        "latex": "-18<x<-14\\ \\left\\{41.5>y>35\\right\\}\\left\\{20<z<24\\right\\}",
+        "extendTo3D": true
+      },
+      {
+        "type": "expression",
+        "id": "787",
+        "folderId": "780",
+        "color": "#aaaaaa",
+        "latex": "40>y>44\\ \\left\\{-19.5<x<-15\\right\\}\\left\\{20<z<24\\right\\}",
+        "extendTo3D": true
+      },
+      {
+        "type": "expression",
+        "id": "788",
+        "folderId": "780",
+        "color": "#aaaaaa",
+        "latex": "-17<x<-15\\ \\left\\{42>y>35\\right\\}\\left\\{20<z<24\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "789",
+        "folderId": "780",
+        "color": "#aaaaaa",
+        "latex": "36<y<40\\ \\left\\{-19.5<x<-15\\right\\}\\left\\{20<z<24\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "790",
+        "folderId": "780",
+        "color": "#aaaaaa",
+        "latex": "37<y<39\\ \\left\\{-20<x<-15\\right\\}\\left\\{20<z<24\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "791",
+        "folderId": "780",
+        "color": "#aaaaaa",
+        "latex": "36<y<40\\ \\left\\{19.5>x>15\\right\\}\\left\\{20<z<24\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "792",
+        "folderId": "780",
+        "color": "#aaaaaa",
+        "latex": "37<y<39\\ \\left\\{20>x>15\\right\\}\\left\\{20<z<24\\right\\}"
+      },
+      {
+        "type": "folder",
+        "id": "412",
+        "title": "Split Middle Section Pillar LVL 1 Part 1",
+        "collapsed": true
+      },
+      {
+        "type": "expression",
+        "id": "413",
+        "folderId": "412",
+        "color": "#aaaaaa",
+        "latex": "13<x<19\\ \\left\\{-1<y<5\\right\\}\\left\\{20<z<24\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "414",
+        "folderId": "412",
+        "color": "#aaaaaa",
+        "latex": "-13>x>-19\\ \\left\\{-1<y<5\\right\\}\\left\\{20<z<24\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "415",
+        "folderId": "412",
+        "color": "#aaaaaa",
+        "latex": "14<x<18\\ \\left\\{-1.5<y<5\\right\\}\\left\\{20<z<24\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "416",
+        "folderId": "412",
+        "color": "#aaaaaa",
+        "latex": "-14>x>-18\\ \\left\\{-1.5<y<5\\right\\}\\left\\{20<z<24\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "417",
+        "folderId": "412",
+        "color": "#aaaaaa",
+        "latex": "0<y<4\\ \\left\\{19.5>x>15\\right\\}\\left\\{20<z<24\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "418",
+        "folderId": "412",
+        "color": "#aaaaaa",
+        "latex": "0<y<4\\ \\left\\{-19.5<x<-15\\right\\}\\left\\{20<z<24\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "419",
+        "folderId": "412",
+        "color": "#aaaaaa",
+        "latex": "17>x>15\\ \\left\\{-2<y<5\\right\\}\\left\\{20<z<24\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "420",
+        "folderId": "412",
+        "color": "#aaaaaa",
+        "latex": "-17<x<-15\\ \\left\\{-2<y<5\\right\\}\\left\\{20<z<24\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "421",
+        "folderId": "412",
+        "color": "#aaaaaa",
+        "latex": "1<y<3\\ \\left\\{20>x>15\\right\\}\\left\\{20<z<24\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "422",
+        "folderId": "412",
+        "color": "#aaaaaa",
+        "latex": "1<y<3\\ \\left\\{-20<x<-15\\right\\}\\left\\{20<z<24\\right\\}"
+      },
+      {
+        "type": "folder",
+        "id": "411",
+        "title": "Split Middle Section LVL 1",
+        "collapsed": true
+      },
+      {
+        "type": "expression",
+        "id": "111",
+        "folderId": "411",
+        "color": "#c74440",
+        "latex": "-13<x<-7.5\\ \\ \\left\\{-1<y<41\\right\\}\\left\\{20<z<24\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "643",
+        "folderId": "411",
+        "color": "#c74440",
+        "latex": "-20<x<20\\left\\{5<y<10\\right\\}\\left\\{20<z<24\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "644",
+        "folderId": "411",
+        "color": "#388c46",
+        "latex": "-20<x<20\\left\\{10<y<15\\right\\}\\left\\{20<z<24\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "645",
+        "folderId": "411",
+        "color": "#c74440",
+        "latex": "-20<x<20\\left\\{15<y<20\\right\\}\\left\\{20<z<24\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "646",
+        "folderId": "411",
+        "color": "#388c46",
+        "latex": "-20<x<20\\left\\{20<y<25\\right\\}\\left\\{20<z<24\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "647",
+        "folderId": "411",
+        "color": "#c74440",
+        "latex": "-20<x<20\\left\\{25<y<30\\right\\}\\left\\{20<z<24\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "648",
+        "folderId": "411",
+        "color": "#388c46",
+        "latex": "-20<x<20\\left\\{30<y<35\\right\\}\\left\\{20<z<24\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "120",
+        "folderId": "411",
+        "color": "#c74440",
+        "latex": "13>x>7.5\\ \\ \\left\\{-1<y<41\\right\\}\\left\\{20<z<24\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "118",
+        "folderId": "411",
+        "color": "#388c46",
+        "latex": "-7.5<x<-2.5\\left\\{-1<y<41\\right\\}\\left\\{20<z<24\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "121",
+        "folderId": "411",
+        "color": "#388c46",
+        "latex": "7.5>x>2.5\\ \\left\\{-1<y<41\\right\\}\\left\\{20<z<24\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "122",
+        "folderId": "411",
+        "color": "#c74440",
+        "latex": "-2.5<x<2.5\\ \\left\\{-1<y<41\\right\\}\\left\\{20<z<24\\right\\}"
+      },
+      {
+        "type": "folder",
+        "id": "743",
+        "title": "Pillar LVL 1 Part 2",
+        "collapsed": true
+      },
+      {
+        "type": "expression",
+        "id": "744",
+        "folderId": "743",
+        "color": "#c74440",
+        "latex": "13<x<19\\ \\left\\{41>y>35\\right\\}\\left\\{0<z<20\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "745",
+        "folderId": "743",
+        "color": "#c74440",
+        "latex": "14<x<18\\ \\left\\{41.5>y>35\\right\\}\\left\\{0<z<20\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "746",
+        "folderId": "743",
+        "color": "#c74440",
+        "latex": "40>y>44\\ \\left\\{19.5>x>15\\right\\}\\left\\{0<z<20\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "747",
+        "folderId": "743",
+        "color": "#c74440",
+        "latex": "17>x>15\\ \\left\\{42>y>35\\right\\}\\left\\{0<z<20\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "748",
+        "folderId": "743",
+        "color": "#c74440",
+        "latex": "-19<x<-13\\ \\left\\{41>y>35\\right\\}\\left\\{0<z<20\\right\\}",
+        "extendTo3D": true
+      },
+      {
+        "type": "expression",
+        "id": "749",
+        "folderId": "743",
+        "color": "#c74440",
+        "latex": "-18<x<-14\\ \\left\\{41.5>y>35\\right\\}\\left\\{0<z<20\\right\\}",
+        "extendTo3D": true
+      },
+      {
+        "type": "expression",
+        "id": "750",
+        "folderId": "743",
+        "color": "#c74440",
+        "latex": "40>y>44\\ \\left\\{-19.5<x<-15\\right\\}\\left\\{0<z<20\\right\\}",
+        "extendTo3D": true
+      },
+      {
+        "type": "expression",
+        "id": "751",
+        "folderId": "743",
+        "color": "#c74440",
+        "latex": "-17<x<-15\\ \\left\\{42>y>35\\right\\}\\left\\{0<z<20\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "752",
+        "folderId": "743",
+        "color": "#c74440",
+        "latex": "36<y<40\\ \\left\\{-19.5<x<-15\\right\\}\\left\\{0<z<20\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "753",
+        "folderId": "743",
+        "color": "#c74440",
+        "latex": "37<y<39\\ \\left\\{-20<x<-15\\right\\}\\left\\{0<z<20\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "754",
+        "folderId": "743",
+        "color": "#c74440",
+        "latex": "36<y<40\\ \\left\\{19.5>x>15\\right\\}\\left\\{0<z<20\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "755",
+        "folderId": "743",
+        "color": "#c74440",
+        "latex": "37<y<39\\ \\left\\{20>x>15\\right\\}\\left\\{0<z<20\\right\\}"
+      },
+      {
+        "type": "folder",
+        "id": "21",
+        "title": "Pillar LVL 1 Part 1",
+        "collapsed": true
+      },
+      {
+        "type": "expression",
+        "id": "37",
+        "folderId": "21",
+        "color": "#c74440",
+        "latex": "13<x<19\\ \\left\\{-1<y<5\\right\\}\\left\\{0<z<20\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "97",
+        "folderId": "21",
+        "color": "#c74440",
+        "latex": "14<x<18\\ \\left\\{-1.5<y<5\\right\\}\\left\\{0<z<20\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "98",
+        "folderId": "21",
+        "color": "#c74440",
+        "latex": "0<y<4\\ \\left\\{19.5>x>15\\right\\}\\left\\{0<z<20\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "99",
+        "folderId": "21",
+        "color": "#c74440",
+        "latex": "17>x>15\\ \\left\\{-2<y<5\\right\\}\\left\\{0<z<20\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "100",
+        "folderId": "21",
+        "color": "#c74440",
+        "latex": "1<y<3\\ \\left\\{20>x>15\\right\\}\\left\\{0<z<20\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "36",
+        "folderId": "21",
+        "color": "#c74440",
+        "latex": "-19<x<-13\\ \\left\\{-1<y<5\\right\\}\\left\\{0<z<20\\right\\}",
+        "extendTo3D": true
+      },
+      {
+        "type": "expression",
+        "id": "90",
+        "folderId": "21",
+        "color": "#c74440",
+        "latex": "-18<x<-14\\ \\left\\{-1.5<y<5\\right\\}\\left\\{0<z<20\\right\\}",
+        "extendTo3D": true
+      },
+      {
+        "type": "expression",
+        "id": "91",
+        "folderId": "21",
+        "color": "#c74440",
+        "latex": "0<y<4\\ \\left\\{-19.5<x<-15\\right\\}\\left\\{0<z<20\\right\\}",
+        "extendTo3D": true
+      },
+      {
+        "type": "expression",
+        "id": "92",
+        "folderId": "21",
+        "color": "#c74440",
+        "latex": "-17<x<-15\\ \\left\\{-2<y<5\\right\\}\\left\\{0<z<20\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "740",
+        "folderId": "21",
+        "color": "#c74440",
+        "latex": "1<y<3\\ \\left\\{-20<x<-15\\right\\}\\left\\{0<z<20\\right\\}"
+      },
+      {
+        "type": "folder",
+        "id": "934",
+        "title": "Middle Section LVL 1 Part 2",
+        "collapsed": true
+      },
+      {
+        "type": "expression",
+        "id": "734",
+        "folderId": "934",
+        "color": "#c74440",
+        "latex": "15<y<25\\ \\left\\{-19.5<x<19.5\\right\\}\\left\\{0<z<20\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "638",
+        "folderId": "934",
+        "color": "#2d70b3",
+        "latex": "5.5<y<6.5\\ \\left\\{0<z<20\\right\\}\\left\\{-20<x<20\\right\\}",
+        "extendTo3D": true
+      },
+      {
+        "type": "expression",
+        "id": "659",
+        "folderId": "934",
+        "color": "#2d70b3",
+        "latex": "9.5<y<10.5\\ \\left\\{0<z<20\\right\\}\\left\\{-20<x<20\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "662",
+        "folderId": "934",
+        "color": "#2d70b3",
+        "latex": "13.5<y<14.5\\ \\left\\{0<z<20\\right\\}\\left\\{-20<x<20\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "671",
+        "folderId": "934",
+        "color": "#2d70b3",
+        "latex": "25.5<y<26.5\\ \\left\\{0<z<20\\right\\}\\left\\{-20<x<20\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "672",
+        "folderId": "934",
+        "color": "#2d70b3",
+        "latex": "29.5<y<30.5\\ \\left\\{0<z<20\\right\\}\\left\\{-20<x<20\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "673",
+        "folderId": "934",
+        "color": "#2d70b3",
+        "latex": "33.5<y<34.5\\ \\left\\{0<z<20\\right\\}\\left\\{-20<x<20\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "641",
+        "folderId": "934",
+        "color": "#fa7e19",
+        "latex": "5<y<7\\ \\left\\{0<z<20\\right\\}\\ \\left\\{-19.5<x<19.5\\right\\}",
+        "extendTo3D": true
+      },
+      {
+        "type": "expression",
+        "id": "658",
+        "folderId": "934",
+        "color": "#fa7e19",
+        "latex": "9<y<11\\ \\left\\{0<z<20\\right\\}\\left\\{-19.5<x<19.5\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "661",
+        "folderId": "934",
+        "color": "#fa7e19",
+        "latex": "13<y<15\\ \\left\\{0<z<20\\right\\}\\ \\left\\{-19.5<x<19.5\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "666",
+        "folderId": "934",
+        "color": "#fa7e19",
+        "latex": "25<y<27\\ \\left\\{0<z<20\\right\\}\\ \\left\\{-19.5<x<19.5\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "667",
+        "folderId": "934",
+        "color": "#fa7e19",
+        "latex": "29<y<31\\ \\left\\{0<z<20\\right\\}\\left\\{-19.5<x<19.5\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "668",
+        "folderId": "934",
+        "color": "#fa7e19",
+        "latex": "33<y<35\\ \\left\\{0<z<20\\right\\}\\ \\left\\{-19.5<x<19.5\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "651",
+        "folderId": "934",
+        "color": "#2d70b3",
+        "latex": "-19<x<19\\ \\left\\{-15\\left(y-8.1\\right)^{2}+19>z\\right\\}\\left\\{0<z\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "660",
+        "folderId": "934",
+        "color": "#2d70b3",
+        "latex": "-19<x<19\\ \\left\\{-15\\left(y-12.1\\right)^{2}+19>z\\right\\}\\left\\{0<z\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "675",
+        "folderId": "934",
+        "color": "#2d70b3",
+        "latex": "-19<x<19\\left\\{-15\\left(y-28.1\\right)^{2}+19>z\\right\\}\\left\\{0<z\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "676",
+        "folderId": "934",
+        "color": "#2d70b3",
+        "latex": "-19<x<19\\ \\left\\{-15\\left(y-32.1\\right)^{2}+19>z\\right\\}\\left\\{0<z\\right\\}"
+      },
+      {
+        "type": "folder",
+        "id": "410",
+        "title": "Middle Section LVL 1 Part 1",
+        "collapsed": true
+      },
+      {
+        "type": "expression",
+        "id": "393",
+        "folderId": "410",
+        "color": "#2d70b3",
+        "latex": "-11<x<-9\\ \\ \\left\\{1<y<39\\right\\}\\left\\{0<z<20\\right\\}\\left\\{-15\\left(x+10\\right)^{2}+19>z\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "394",
+        "folderId": "410",
+        "color": "#fa7e19",
+        "latex": "-13<x<-11\\ \\ \\left\\{0<y<40\\right\\}\\left\\{0<z<20\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "395",
+        "folderId": "410",
+        "color": "#2d70b3",
+        "latex": "-12.5<x<-11.5\\ \\ \\left\\{-0.5<y<40.5\\right\\}\\left\\{0<z<20\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "396",
+        "folderId": "410",
+        "color": "#fa7e19",
+        "latex": "-9<x<-7\\ \\ \\left\\{0<y<40\\right\\}\\left\\{0<z<20\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "397",
+        "folderId": "410",
+        "color": "#2d70b3",
+        "latex": "-8.5<x<-7.5\\ \\left\\{-0.5<y<40.5\\right\\}\\left\\{0<z<20\\right\\}",
+        "extendTo3D": true
+      },
+      {
+        "type": "expression",
+        "id": "398",
+        "folderId": "410",
+        "color": "#fa7e19",
+        "latex": "7<x<9\\ \\left\\{0<y<40\\right\\}\\left\\{0<z<20\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "399",
+        "folderId": "410",
+        "color": "#2d70b3",
+        "latex": "7.5<x<8.5\\ \\left\\{-0.5<y<40.5\\right\\}\\left\\{0<z<20\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "400",
+        "folderId": "410",
+        "color": "#2d70b3",
+        "latex": "-7<x<-5\\ \\ \\left\\{-15\\left(x+6\\right)^{2}+19>z\\right\\}\\left\\{1<y<39\\right\\}\\left\\{0<z<20\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "637",
+        "folderId": "410",
+        "color": "#2d70b3",
+        "latex": "-7<x<-5\\ \\ \\left\\{-15\\left(x+6\\right)^{2}+19>z\\right\\}\\left\\{1<y<39\\right\\}\\left\\{0<z<20\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "401",
+        "folderId": "410",
+        "color": "#2d70b3",
+        "latex": "5<x<7\\ \\left\\{-15\\left(x-6\\right)^{2}+19>z\\right\\}\\left\\{1<y<39\\right\\}\\left\\{0<z<20\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "402",
+        "folderId": "410",
+        "color": "#2d70b3",
+        "latex": "9<x<11\\ \\left\\{0<z<20\\right\\}\\left\\{-15\\left(x-10\\right)^{2}+19>z\\right\\}\\left\\{1<y<39\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "403",
+        "folderId": "410",
+        "color": "#fa7e19",
+        "latex": "11<x<13\\ \\left\\{0<y<40\\right\\}\\left\\{0<z<20\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "404",
+        "folderId": "410",
+        "color": "#2d70b3",
+        "latex": "11.5<x<12.5\\ \\left\\{-0.5<y<40.5\\right\\}\\left\\{0<z<20\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "405",
+        "folderId": "410",
+        "color": "#fa7e19",
+        "latex": "-5<x<-3\\left\\{0<y<40\\right\\}\\left\\{0<z<20\\right\\}",
+        "extendTo3D": true
+      },
+      {
+        "type": "expression",
+        "id": "406",
+        "folderId": "410",
+        "color": "#2d70b3",
+        "latex": "-4.5<x<-3.5\\ \\left\\{-0.5<y<40.5\\right\\}\\left\\{0<z<20\\right\\}",
+        "extendTo3D": true
+      },
+      {
+        "type": "expression",
+        "id": "407",
+        "folderId": "410",
+        "color": "#fa7e19",
+        "latex": "3<x<5\\ \\left\\{0<y<40\\right\\}\\left\\{0<z<20\\right\\}",
+        "extendTo3D": true
+      },
+      {
+        "type": "expression",
+        "id": "408",
+        "folderId": "410",
+        "color": "#2d70b3",
+        "latex": "3.5<x<4.5\\ \\left\\{-0.5<y<40.5\\right\\}\\left\\{0<z<20\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "409",
+        "folderId": "410",
+        "color": "#c74440",
+        "latex": "-3<x<3\\ \\left\\{0<y<40\\right\\}\\left\\{0<z<20\\right\\}"
+      }
+    ]
+  },
+  "includeFunctionParametersInRandomSeed": true,
+  "doNotMigrate3dLineWidthZero": true,
+  "doNotMigrateMovablePointStyle": true
+}

@@ -1,0 +1,225 @@
+{
+  "version": 11,
+  "randomSeed": "4bc805329df4f516ad2fb7ab4c00ab72",
+  "graph": {
+    "viewport": {
+      "xmin": -33.52375577202188,
+      "ymin": -33.52375577202188,
+      "zmin": -33.52375577202188,
+      "xmax": 33.52375577202188,
+      "ymax": 33.52375577202188,
+      "zmax": 33.52375577202188
+    },
+    "degreeMode": true,
+    "worldRotation3D": [
+      0.33988860869867427,
+      0.4085010335054044,
+      0.8471143012026334,
+      -0.15211575211818062,
+      0.912757857060123,
+      -0.37912252944468255,
+      -0.9280821793539706,
+      1.7699286040913962e-12,
+      0.37237544006782214
+    ],
+    "axis3D": [
+      0,
+      0,
+      -0.999999999999941
+    ],
+    "speed3D": 1.2368475014133773,
+    "product": "graphing-3d",
+    "threeDMode": true,
+    "__v12ViewportLatexStash": {
+      "xmin": "-33.52375577202188",
+      "xmax": "33.52375577202188",
+      "ymin": "-33.52375577202188",
+      "ymax": "33.52375577202188",
+      "zmin": "-33.52375577202188",
+      "zmax": "33.52375577202188"
+    }
+  },
+  "expressions": {
+    "list": [
+      {
+        "type": "expression",
+        "id": "2",
+        "color": "#c74440",
+        "latex": "\\left(x-z\\tan\\left(5.5\\right)\\right)^{2}+y^{2}<360\\left\\{0<z<20\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "3",
+        "color": "#fa7e19",
+        "latex": "\\left(x-z\\tan\\left(5.5\\right)\\right)^{2}+y^{2}=260\\left\\{20<z<80\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "4",
+        "color": "#fa7e19",
+        "latex": "\\left(x-z\\tan\\left(5.5\\right)\\right)^{2}+y^{2}<360\\left\\{30<z<32\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "5",
+        "color": "#fa7e19",
+        "latex": "\\left(x-z\\tan\\left(5.5\\right)\\right)^{2}+y^{2}<360\\left\\{40<z<42\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "6",
+        "color": "#fa7e19",
+        "latex": "\\left(x-z\\tan\\left(5.5\\right)\\right)^{2}+y^{2}<360\\left\\{50<z<52\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "7",
+        "color": "#fa7e19",
+        "latex": "\\left(x-z\\tan\\left(5.5\\right)\\right)^{2}+y^{2}<360\\left\\{60<z<62\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "8",
+        "color": "#fa7e19",
+        "latex": "\\left(x-z\\tan\\left(5.5\\right)\\right)^{2}+y^{2}<360\\left\\{70<z<72\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "9",
+        "color": "#fa7e19",
+        "latex": "\\left(x-z\\tan\\left(5.5\\right)\\right)^{2}+y^{2}<360\\left\\{80<z<82\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "11",
+        "color": "#fa7e19",
+        "latex": "\\left(x-z\\tan\\left(5.5\\right)\\right)^{2}+y^{2}<230\\left\\{80<z<95\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "12",
+        "color": "#c74440",
+        "latex": "\\left(x-z\\tan\\left(5.5\\right)+11\\right)^{2}+\\left(y+11\\right)^{2}<10\\left\\{1<z<95\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "13",
+        "color": "#c74440",
+        "latex": "\\left(x-z\\tan\\left(5.5\\right)-11\\right)^{2}+\\left(y-11\\right)^{2}<10\\left\\{1<z<95\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "14",
+        "color": "#c74440",
+        "latex": "\\left(x-z\\tan\\left(5.5\\right)-11\\right)^{2}+\\left(y+11\\right)^{2}<10\\left\\{1<z<95\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "15",
+        "color": "#c74440",
+        "latex": "\\left(x-z\\tan\\left(5.5\\right)+11\\right)^{2}+\\left(y-11\\right)^{2}<10\\left\\{1<z<95\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "16",
+        "color": "#c74440",
+        "latex": "\\left(x-z\\tan\\left(5.5\\right)-15\\right)^{2}+\\left(y-4\\right)^{2}<10\\left\\{1<z<95\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "17",
+        "color": "#c74440",
+        "latex": "\\left(x-z\\tan\\left(5.5\\right)-15\\right)^{2}+\\left(y+4\\right)^{2}<10\\left\\{1<z<95\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "18",
+        "color": "#c74440",
+        "latex": "\\left(x-z\\tan\\left(5.5\\right)+15\\right)^{2}+\\left(y-4\\right)^{2}<10\\left\\{1<z<95\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "20",
+        "color": "#c74440",
+        "latex": "\\left(x-z\\tan\\left(5.5\\right)+15\\right)^{2}+\\left(y+4\\right)^{2}<10\\left\\{1<z<95\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "21",
+        "color": "#c74440",
+        "latex": "\\left(x-z\\tan\\left(5.5\\right)-15\\right)^{2}+\\left(y+4\\right)^{2}<10\\left\\{1<z<95\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "22",
+        "color": "#c74440",
+        "latex": "\\left(x-z\\tan\\left(5.5\\right)-4\\right)^{2}+\\left(y+15\\right)^{2}<10\\left\\{1<z<95\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "23",
+        "color": "#c74440",
+        "latex": "\\left(x-z\\tan\\left(5.5\\right)+4\\right)^{2}+\\left(y-15\\right)^{2}<10\\left\\{1<z<95\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "24",
+        "color": "#c74440",
+        "latex": "\\left(x-z\\tan\\left(5.5\\right)-4\\right)^{2}+\\left(y-15\\right)^{2}<10\\left\\{1<z<95\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "25",
+        "color": "#c74440",
+        "latex": "\\left(x-z\\tan\\left(5.5\\right)+4\\right)^{2}+\\left(y+15\\right)^{2}<10\\left\\{1<z<95\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "26",
+        "color": "#fa7e19",
+        "latex": "\\left(x-z\\tan\\left(5.5\\right)\\right)^{2}+y^{2}<360\\left\\{95<z<97\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "27",
+        "color": "#6042a6",
+        "latex": "\\left(x-z\\tan\\left(5.5\\right)\\right)^{2}+y^{2}<10\\left\\{97<z<115\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "44",
+        "color": "#6042a6",
+        "latex": "\\left(x-z\\tan\\left(5.5\\right)\\right)^{2}+y^{2}<10\\left\\{105<z<115\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "45",
+        "color": "#c74440",
+        "latex": "\\left(x-z\\tan\\left(5.5\\right)-3\\right)^{2}+y^{2}<10\\left\\{106<z<114\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "46",
+        "color": "#c74440",
+        "latex": "\\left(x-z\\tan\\left(5.5\\right)-6\\right)^{2}+y^{2}<10\\left\\{107<z<113\\right\\}"
+      },
+      {
+        "type": "folder",
+        "id": "47",
+        "title": "USDZ: supported fallback (pipeline)",
+        "collapsed": true
+      },
+      {
+        "type": "expression",
+        "id": "48",
+        "folderId": "47",
+        "color": "#888888",
+        "latex": "z=0\\left\\{-2<x<2\\right\\}\\left\\{-2<y<2\\right\\}",
+        "hidden": true
+      }
+    ]
+  },
+  "includeFunctionParametersInRandomSeed": true,
+  "doNotMigrate3dLineWidthZero": true,
+  "doNotMigrateMovablePointStyle": true
+}

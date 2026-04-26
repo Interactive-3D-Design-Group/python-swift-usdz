@@ -1,0 +1,268 @@
+{
+  "schema_version": 1,
+  "mesh_count": 13,
+  "failed_mesh_count": 0,
+  "meshes": [
+    {
+      "name": "[4B] 3D Diagram - S2-09 Group E_36",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-09 Group E_36.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-09 Group E.json",
+      "expression_id": "36",
+      "family": "VERTICAL_CYLINDER_SURFACE",
+      "bounds": {
+        "min": [
+          -0.7071067811865476,
+          -0.7071067811865476,
+          6.7
+        ],
+        "max": [
+          0.7071067811865476,
+          0.7071067811865476,
+          7.0
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-09 Group E_37",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-09 Group E_37.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-09 Group E.json",
+      "expression_id": "37",
+      "family": "VERTICAL_CYLINDER_SURFACE",
+      "bounds": {
+        "min": [
+          -0.5477225575051661,
+          -0.5477225575051661,
+          7.7
+        ],
+        "max": [
+          0.5477225575051661,
+          0.5477225575051661,
+          8.0
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-09 Group E_44",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-09 Group E_44.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-09 Group E.json",
+      "expression_id": "44",
+      "family": "VERTICAL_CYLINDER_SURFACE",
+      "bounds": {
+        "min": [
+          -1.0488088481701516,
+          -1.0488088481701516,
+          3.7
+        ],
+        "max": [
+          1.0488088481701516,
+          1.0488088481701516,
+          4.0
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-09 Group E_45",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-09 Group E_45.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-09 Group E.json",
+      "expression_id": "45",
+      "family": "VERTICAL_CYLINDER_SURFACE",
+      "bounds": {
+        "min": [
+          -1.0954451150103321,
+          -1.0954451150103321,
+          3.2
+        ],
+        "max": [
+          1.0954451150103321,
+          1.0954451150103321,
+          3.5
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-09 Group E_46",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-09 Group E_46.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-09 Group E.json",
+      "expression_id": "46",
+      "family": "VERTICAL_CYLINDER_SURFACE",
+      "bounds": {
+        "min": [
+          -1.0,
+          -1.0,
+          4.2
+        ],
+        "max": [
+          1.0,
+          1.0,
+          4.5
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-09 Group E_47",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-09 Group E_47.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-09 Group E.json",
+      "expression_id": "47",
+      "family": "VERTICAL_CYLINDER_SURFACE",
+      "bounds": {
+        "min": [
+          -0.8944271909999159,
+          -0.8944271909999159,
+          5.35
+        ],
+        "max": [
+          0.8944271909999159,
+          0.8944271909999159,
+          5.5
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-09 Group E_49",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-09 Group E_49.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-09 Group E.json",
+      "expression_id": "49",
+      "family": "CONSTANT_PLANE",
+      "bounds": {
+        "min": [
+          -0.1,
+          0.0,
+          0.0
+        ],
+        "max": [
+          0.1,
+          0.0,
+          10.5
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-09 Group E_50",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-09 Group E_50.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-09 Group E.json",
+      "expression_id": "50",
+      "family": "CONSTANT_PLANE",
+      "bounds": {
+        "min": [
+          0.0,
+          -0.1,
+          0.0
+        ],
+        "max": [
+          0.0,
+          0.1,
+          10.5
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-09 Group E_69",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-09 Group E_69.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-09 Group E.json",
+      "expression_id": "69",
+      "family": "DISK_EXTRUSION_SOLID",
+      "bounds": {
+        "min": [
+          -5.477235575051661,
+          -5.477235575051661,
+          0.0
+        ],
+        "max": [
+          5.477235575051661,
+          5.477235575051661,
+          0.5
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-09 Group E_70",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-09 Group E_70.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-09 Group E.json",
+      "expression_id": "70",
+      "family": "X_SLAB_REGION",
+      "bounds": {
+        "min": [
+          -7.0,
+          -2.0,
+          0.0
+        ],
+        "max": [
+          -3.0,
+          2.0,
+          0.5
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-09 Group E_74",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-09 Group E_74.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-09 Group E.json",
+      "expression_id": "74",
+      "family": "X_SLAB_REGION",
+      "bounds": {
+        "min": [
+          3.0,
+          -2.0,
+          0.0
+        ],
+        "max": [
+          7.0,
+          2.0,
+          0.5
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-09 Group E_77",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-09 Group E_77.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-09 Group E.json",
+      "expression_id": "77",
+      "family": "Y_SLAB_REGION",
+      "bounds": {
+        "min": [
+          -2.0,
+          -7.0,
+          0.0
+        ],
+        "max": [
+          2.0,
+          -3.0,
+          0.5
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-09 Group E_78",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-09 Group E_78.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-09 Group E.json",
+      "expression_id": "78",
+      "family": "Y_SLAB_REGION",
+      "bounds": {
+        "min": [
+          -2.0,
+          3.0,
+          0.0
+        ],
+        "max": [
+          2.0,
+          7.0,
+          0.5
+        ]
+      }
+    }
+  ],
+  "failures": []
+}

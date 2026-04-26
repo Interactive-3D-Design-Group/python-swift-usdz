@@ -1,0 +1,219 @@
+{
+  "source_file": "[4B] 3D Diagram - S2-03 Group E.json",
+  "total_expressions": 221,
+  "supported_count": 40,
+  "recognized_unsupported_count": 0,
+  "unrecognized_count": 11,
+  "geometry_ineligible_count": 170,
+  "per_folder_summary": [
+    {
+      "folder_id": null,
+      "folder_name": null,
+      "total": 7,
+      "supported": 0,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 7
+    },
+    {
+      "folder_id": "366",
+      "folder_name": "background",
+      "total": 1,
+      "supported": 0,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 1
+    },
+    {
+      "folder_id": "12",
+      "folder_name": "base - main",
+      "total": 10,
+      "supported": 10,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 0
+    },
+    {
+      "folder_id": "29",
+      "folder_name": "base - pillars",
+      "total": 13,
+      "supported": 0,
+      "recognized_unsupported": 0,
+      "unrecognized": 1,
+      "geometry_ineligible": 12
+    },
+    {
+      "folder_id": "167",
+      "folder_name": "centerpiece",
+      "total": 105,
+      "supported": 3,
+      "recognized_unsupported": 0,
+      "unrecognized": 2,
+      "geometry_ineligible": 100
+    },
+    {
+      "folder_id": "15",
+      "folder_name": "colours",
+      "total": 7,
+      "supported": 0,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 7
+    },
+    {
+      "folder_id": "105",
+      "folder_name": "patterns - base - bottom",
+      "total": 30,
+      "supported": 27,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 3
+    },
+    {
+      "folder_id": "61",
+      "folder_name": "patterns - pillar - bottom",
+      "total": 48,
+      "supported": 0,
+      "recognized_unsupported": 0,
+      "unrecognized": 8,
+      "geometry_ineligible": 40
+    }
+  ],
+  "unsupported_expressions": [
+    {
+      "expression_id": "42",
+      "folder": "patterns - pillar - bottom",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "dd505b83a00e6b10",
+      "latex": "f_{1}\\ =\\left(h\\ +\\ a,\\ k\\right)",
+      "normalized_latex": "f_1=(h+a,k)"
+    },
+    {
+      "expression_id": "43",
+      "folder": "patterns - pillar - bottom",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "bbc579572238d9b8",
+      "latex": "f_{2}\\ =\\ \\left(h\\ -\\ a,\\ k\\right)",
+      "normalized_latex": "f_2=(h-a,k)"
+    },
+    {
+      "expression_id": "44",
+      "folder": "patterns - pillar - bottom",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "ca313aca725db953",
+      "latex": "f_{3}\\ =\\ \\left(h,\\ k\\ +\\ a\\right)",
+      "normalized_latex": "f_3=(h,k+a)"
+    },
+    {
+      "expression_id": "45",
+      "folder": "patterns - pillar - bottom",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "69798d2dca17e14d",
+      "latex": "f_{4}\\ =\\ \\left(h,\\ k\\ -\\ a\\right)",
+      "normalized_latex": "f_4=(h,k-a)"
+    },
+    {
+      "expression_id": "47",
+      "folder": "patterns - pillar - bottom",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "1a2aa70beb96a2f8",
+      "latex": "f_{5}=\\ \\left(h\\ +\\ \\frac{a}{\\sqrt{2}},\\ k\\ +\\ \\frac{a}{\\sqrt{2}}\\right)",
+      "normalized_latex": "f_5=(h+frac{a}{sqrt{2}},k+frac{a}{sqrt{2}})"
+    },
+    {
+      "expression_id": "48",
+      "folder": "patterns - pillar - bottom",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "582eb319e41be02f",
+      "latex": "f_{6}=\\ \\left(h\\ -\\ \\frac{a}{\\sqrt{2}},\\ k\\ +\\ \\frac{a}{\\sqrt{2}}\\right)",
+      "normalized_latex": "f_6=(h-frac{a}{sqrt{2}},k+frac{a}{sqrt{2}})"
+    },
+    {
+      "expression_id": "49",
+      "folder": "patterns - pillar - bottom",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "03a10c1df49ea960",
+      "latex": "f_{7}=\\ \\left(h\\ +\\ \\frac{a}{\\sqrt{2}},\\ k\\ -\\ \\frac{a}{\\sqrt{2}}\\right)",
+      "normalized_latex": "f_7=(h+frac{a}{sqrt{2}},k-frac{a}{sqrt{2}})"
+    },
+    {
+      "expression_id": "50",
+      "folder": "patterns - pillar - bottom",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "04dfd8c0b397dcb9",
+      "latex": "f_{8}=\\ \\left(h\\ -\\ \\frac{a}{\\sqrt{2}},\\ k\\ -\\ \\frac{a}{\\sqrt{2}}\\right)",
+      "normalized_latex": "f_8=(h-frac{a}{sqrt{2}},k-frac{a}{sqrt{2}})"
+    },
+    {
+      "expression_id": "363",
+      "folder": "base - pillars",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "a0907e1108813c89",
+      "latex": "\\left(x\\ -\\ h\\right)^{2}\\ +\\ \\left(y\\ -\\ k\\right)^{2}\\ +\\ \\left(z\\ -\\ \\left(18.5\\ +\\ 2.3\\ +\\ 0.3\\right)\\right)^{2}\\ =\\ s_{top}^{2}\\ \\left\\{z\\ \\ge\\ 18.5\\ +\\ 2.3\\ +\\ 0.3\\right\\}",
+      "normalized_latex": "(x-h)^2+(y-k)^2+(z-(18.5+2.3+0.3))^2=s_top^2{z>=18.5+2.3+0.3}"
+    },
+    {
+      "expression_id": "189",
+      "folder": "centerpiece",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "033b796003774be0",
+      "latex": "x^{2}\\ +\\ y^{2}\\ +\\ \\left(z\\ -\\ \\left(2.5\\ +\\ d_{height}\\ +\\ 4\\ +\\ 2.5\\right)\\right)^{2}\\ =\\ \\left(t\\ +\\ 0.5\\right)^{2}\\ ",
+      "normalized_latex": "x^2+y^2+(z-(2.5+d_height+4+2.5))^2=(t+0.5)^2"
+    },
+    {
+      "expression_id": "300",
+      "folder": "centerpiece",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "9c53e78bc5fa8666",
+      "latex": "\\left(x\\ -\\ s\\right)^{2}\\ +\\ \\left(y\\ -\\ q\\right)^{2}\\ +\\ \\left(z\\ -\\ 17.8\\right)^{2}\\ =\\ c^{2}",
+      "normalized_latex": "(x-s)^2+(y-q)^2+(z-17.8)^2=c^2"
+    }
+  ],
+  "unknown_fingerprints": [
+    "033b796003774be0",
+    "03a10c1df49ea960",
+    "04dfd8c0b397dcb9",
+    "1a2aa70beb96a2f8",
+    "582eb319e41be02f",
+    "69798d2dca17e14d",
+    "9c53e78bc5fa8666",
+    "a0907e1108813c89",
+    "bbc579572238d9b8",
+    "ca313aca725db953",
+    "dd505b83a00e6b10"
+  ],
+  "diagnostics": [
+    {
+      "severity": "INFO",
+      "code": "AUDIT_COMPLETE",
+      "message": "Audit classification complete",
+      "source_ref": null,
+      "details": {
+        "file": "[4B] 3D Diagram - S2-03 Group E.json"
+      }
+    }
+  ],
+  "status": "PARTIAL"
+}

@@ -1,0 +1,57 @@
+{
+  "source_file": "[4B] 3D Diagram - S2-04 Group C.json",
+  "total_expressions": 22,
+  "supported_count": 6,
+  "recognized_unsupported_count": 0,
+  "unrecognized_count": 2,
+  "geometry_ineligible_count": 14,
+  "per_folder_summary": [
+    {
+      "folder_id": null,
+      "folder_name": null,
+      "total": 22,
+      "supported": 6,
+      "recognized_unsupported": 0,
+      "unrecognized": 2,
+      "geometry_ineligible": 14
+    }
+  ],
+  "unsupported_expressions": [
+    {
+      "expression_id": "322",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "146c9972334cc9c7",
+      "latex": "x^{2}+y^{2}=\\left(0.25-0.03\\left(z-6\\right)\\right)^{2}\\left\\{6\\le z\\le8\\right\\}",
+      "normalized_latex": "x^2+y^2=(0.25-0.03(z-6))^2{6<=z<=8}"
+    },
+    {
+      "expression_id": "323",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "e911a00794e4232c",
+      "latex": "x^{2}+y^{2}=\\left(0.16-0.024\\left(z-8\\right)\\right)^{2}\\left\\{8\\le z\\le10.5\\right\\}",
+      "normalized_latex": "x^2+y^2=(0.16-0.024(z-8))^2{8<=z<=10.5}"
+    }
+  ],
+  "unknown_fingerprints": [
+    "146c9972334cc9c7",
+    "e911a00794e4232c"
+  ],
+  "diagnostics": [
+    {
+      "severity": "INFO",
+      "code": "AUDIT_COMPLETE",
+      "message": "Audit classification complete",
+      "source_ref": null,
+      "details": {
+        "file": "[4B] 3D Diagram - S2-04 Group C.json"
+      }
+    }
+  ],
+  "status": "PARTIAL"
+}

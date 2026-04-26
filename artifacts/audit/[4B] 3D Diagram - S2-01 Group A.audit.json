@@ -1,0 +1,123 @@
+{
+  "source_file": "[4B] 3D Diagram - S2-01 Group A.json",
+  "total_expressions": 222,
+  "supported_count": 199,
+  "recognized_unsupported_count": 0,
+  "unrecognized_count": 0,
+  "geometry_ineligible_count": 23,
+  "per_folder_summary": [
+    {
+      "folder_id": null,
+      "folder_name": null,
+      "total": 14,
+      "supported": 0,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 14
+    },
+    {
+      "folder_id": "243",
+      "folder_name": "base",
+      "total": 6,
+      "supported": 1,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 5
+    },
+    {
+      "folder_id": "333",
+      "folder_name": "diamond v2",
+      "total": 12,
+      "supported": 12,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 0
+    },
+    {
+      "folder_id": "246",
+      "folder_name": "entrance",
+      "total": 3,
+      "supported": 1,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 2
+    },
+    {
+      "folder_id": "300",
+      "folder_name": "ext floot",
+      "total": 16,
+      "supported": 14,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 2
+    },
+    {
+      "folder_id": "45",
+      "folder_name": "lines 1",
+      "total": 38,
+      "supported": 38,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 0
+    },
+    {
+      "folder_id": "52",
+      "folder_name": "lines 2",
+      "total": 38,
+      "supported": 38,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 0
+    },
+    {
+      "folder_id": "163",
+      "folder_name": "lines 3",
+      "total": 38,
+      "supported": 38,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 0
+    },
+    {
+      "folder_id": "200",
+      "folder_name": "lines 4",
+      "total": 40,
+      "supported": 40,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 0
+    },
+    {
+      "folder_id": "23",
+      "folder_name": "pyramid (use v2)",
+      "total": 8,
+      "supported": 8,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 0
+    },
+    {
+      "folder_id": "270",
+      "folder_name": "pyramid v2",
+      "total": 9,
+      "supported": 9,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 0
+    }
+  ],
+  "unsupported_expressions": [],
+  "unknown_fingerprints": [],
+  "diagnostics": [
+    {
+      "severity": "INFO",
+      "code": "AUDIT_COMPLETE",
+      "message": "Audit classification complete",
+      "source_ref": null,
+      "details": {
+        "file": "[4B] 3D Diagram - S2-01 Group A.json"
+      }
+    }
+  ],
+  "status": "PASS"
+}

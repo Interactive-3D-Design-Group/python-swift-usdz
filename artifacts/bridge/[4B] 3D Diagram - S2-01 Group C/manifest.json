@@ -1,0 +1,248 @@
+{
+  "schema_version": 1,
+  "mesh_count": 12,
+  "failed_mesh_count": 0,
+  "meshes": [
+    {
+      "name": "[4B] 3D Diagram - S2-01 Group C_17",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-01 Group C_17.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-01 Group C.json",
+      "expression_id": "17",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -5.0,
+          -5.0,
+          0.0
+        ],
+        "max": [
+          5.0,
+          5.0,
+          0.5
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-01 Group C_20",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-01 Group C_20.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-01 Group C.json",
+      "expression_id": "20",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -3.0,
+          -3.0,
+          0.5
+        ],
+        "max": [
+          3.0,
+          3.0,
+          3.5
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-01 Group C_23",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-01 Group C_23.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-01 Group C.json",
+      "expression_id": "23",
+      "family": "DISK_EXTRUSION_SOLID",
+      "bounds": {
+        "min": [
+          3.883762233983162,
+          3.883762233983162,
+          0.5
+        ],
+        "max": [
+          4.516237766016838,
+          4.516237766016838,
+          4.5
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-01 Group C_24",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-01 Group C_24.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-01 Group C.json",
+      "expression_id": "24",
+      "family": "DISK_EXTRUSION_SOLID",
+      "bounds": {
+        "min": [
+          -4.516237766016838,
+          3.883762233983162,
+          0.5
+        ],
+        "max": [
+          -3.883762233983162,
+          4.516237766016838,
+          4.5
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-01 Group C_25",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-01 Group C_25.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-01 Group C.json",
+      "expression_id": "25",
+      "family": "DISK_EXTRUSION_SOLID",
+      "bounds": {
+        "min": [
+          3.883762233983162,
+          -4.516237766016838,
+          0.5
+        ],
+        "max": [
+          4.516237766016838,
+          -3.883762233983162,
+          4.5
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-01 Group C_26",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-01 Group C_26.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-01 Group C.json",
+      "expression_id": "26",
+      "family": "DISK_EXTRUSION_SOLID",
+      "bounds": {
+        "min": [
+          -4.516237766016838,
+          -4.516237766016838,
+          0.5
+        ],
+        "max": [
+          -3.883762233983162,
+          -3.883762233983162,
+          4.5
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-01 Group C_30",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-01 Group C_30.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-01 Group C.json",
+      "expression_id": "30",
+      "family": "DISK_EXTRUSION_SOLID",
+      "bounds": {
+        "min": [
+          -0.10001,
+          -0.10001,
+          4.5
+        ],
+        "max": [
+          0.10001,
+          0.10001,
+          5.5
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-01 Group C_32",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-01 Group C_32.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-01 Group C.json",
+      "expression_id": "32",
+      "family": "CONSTANT_PLANE",
+      "bounds": {
+        "min": [
+          -3.5,
+          -19.0,
+          0.1
+        ],
+        "max": [
+          3.5,
+          -5.0,
+          0.1
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-01 Group C_38",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-01 Group C_38.obj",
+      "color": "#2d70b3",
+      "source_file": "[4B] 3D Diagram - S2-01 Group C.json",
+      "expression_id": "38",
+      "family": "CONSTANT_PLANE",
+      "bounds": {
+        "min": [
+          -1.2,
+          -18.0,
+          0.15
+        ],
+        "max": [
+          1.2,
+          -5.0,
+          0.15
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-01 Group C_39",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-01 Group C_39.obj",
+      "color": "#388c46",
+      "source_file": "[4B] 3D Diagram - S2-01 Group C.json",
+      "expression_id": "39",
+      "family": "CONSTANT_PLANE",
+      "bounds": {
+        "min": [
+          -15.0,
+          -25.0,
+          0.0
+        ],
+        "max": [
+          15.0,
+          25.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-01 Group C_50",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-01 Group C_50.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-01 Group C.json",
+      "expression_id": "50",
+      "family": "CONSTANT_PLANE",
+      "bounds": {
+        "min": [
+          -18.66728161170779,
+          -3.49965,
+          1.2
+        ],
+        "max": [
+          18.66728161170779,
+          -3.0003,
+          1.2
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-01 Group C_51",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-01 Group C_51.obj",
+      "color": "#fa7e19",
+      "source_file": "[4B] 3D Diagram - S2-01 Group C.json",
+      "expression_id": "51",
+      "family": "SPHERE_SOLID",
+      "bounds": {
+        "min": [
+          14.127006653792582,
+          8.127006653792582,
+          16.127006653792584
+        ],
+        "max": [
+          21.872993346207416,
+          15.872993346207418,
+          23.872993346207416
+        ]
+      }
+    }
+  ],
+  "failures": []
+}

@@ -1,0 +1,225 @@
+{
+  "source_file": "[4B] 3D Diagram - S2-08 Group B.json",
+  "total_items": 20,
+  "total_expressions": 19,
+  "meshed_expression_count": 10,
+  "supported_expression_count": 10,
+  "supported_but_not_meshed_count": 0,
+  "recognized_unsupported_count": 4,
+  "unrecognized_count": 5,
+  "geometry_ineligible_count": 0,
+  "groups": [
+    {
+      "fingerprint": "02856223b85796dd",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "56"
+      ],
+      "example_latex": [
+        "1+\\sqrt{5^{2}-\\left(x+4.81\\right)^{2}}+18<z<24.72\\left\\{-9.62<x<0\\right\\}\\left\\{0<y<7.7\\right\\}"
+      ],
+      "example_normalized": [
+        "1+sqrt{5^{2}-(x+4.81)^{2}}+18<z<24.72{-9.62<x<0}{0<y<7.7}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "20dc35b1d17f23a3",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "60"
+      ],
+      "example_latex": [
+        "1+\\sqrt{3.6^{2}-\\left(y-11\\right)^{2}}+14.5<z<23\\left\\{0<x<11.58\\right\\}"
+      ],
+      "example_normalized": [
+        "1+sqrt{3.6^{2}-(y-11)^{2}}+14.5<z<23{0<x<11.58}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "7d9cf3b9262943b5",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "59"
+      ],
+      "example_latex": [
+        "1+\\sqrt{5^{2}-\\left(x+4.81\\right)^{2}}+18<z<24.72\\left\\{-9.62<x<0\\right\\}\\left\\{\\frac{1078}{75}<y<\\frac{3211}{150}\\right\\}"
+      ],
+      "example_normalized": [
+        "1+sqrt{5^{2}-(x+4.81)^{2}}+18<z<24.72{-9.62<x<0}{(1078)/(75)<y<(3211)/(150)}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "9cd7ef58bc5a1e08",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "64"
+      ],
+      "example_latex": [
+        "1+\\sqrt{3.6^{2}-\\left(y-11\\right)^{2}}+14.5<z<23\\left\\{-21.2<x<-9.62\\right\\}"
+      ],
+      "example_normalized": [
+        "1+sqrt{3.6^{2}-(y-11)^{2}}+14.5<z<23{-21.2<x<-9.62}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "3d9d2df2b4738409",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "29"
+      ],
+      "example_latex": [
+        "\\left(y-11\\right)^{2}+\\left(z-18\\right)^{2}=\\frac{1001}{300}^{2}\\left\\{18<z\\right\\}\\left\\{-21.2<x<-9.62\\right\\}"
+      ],
+      "example_normalized": [
+        "(y-11)^{2}+(z-18)^{2}=(1001)/(300)^{2}{18<z}{-21.2<x<-9.62}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "656b2a5d5b7121f7",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "24"
+      ],
+      "example_latex": [
+        "\\left(y-11\\right)^{2}+\\left(z-18\\right)^{2}=\\frac{1001}{300}^{2}\\left\\{18<z\\right\\}\\left\\{0<x<11.58\\right\\}"
+      ],
+      "example_normalized": [
+        "(y-11)^{2}+(z-18)^{2}=(1001)/(300)^{2}{18<z}{0<x<11.58}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "96662e9c08cee068",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "19"
+      ],
+      "example_latex": [
+        "\\left(x+5\\right)^{2}+\\left(z-18\\right)^{2}=5^{2}\\ \\left\\{0<y<7.7\\right\\}\\left\\{18<z\\right\\}"
+      ],
+      "example_normalized": [
+        "(x+5)^{2}+(z-18)^{2}=5^{2}{0<y<7.7}{18<z}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "b35f7559232358fa",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "45"
+      ],
+      "example_latex": [
+        "\\left(x+4.81\\right)^{2}+\\left(y-10\\right)^{2}+\\left(z-37.75512679\\right)^{2}\\ =\\ 6.22^{2}"
+      ],
+      "example_normalized": [
+        "(x+4.81)^{2}+(y-10)^{2}+(z-37.75512679)^{2}=6.22^{2}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "ebe06aeba50f9d4b",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "20"
+      ],
+      "example_latex": [
+        "\\left(x+5\\right)^{2}+\\left(z-18\\right)^{2}=5^{2}\\ \\left\\{\\frac{1078}{75}<y<\\frac{3211}{150}\\right\\}\\left\\{18<z\\right\\}"
+      ],
+      "example_normalized": [
+        "(x+5)^{2}+(z-18)^{2}=5^{2}{(1078)/(75)<y<(3211)/(150)}{18<z}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    }
+  ],
+  "diagnostics": [
+    {
+      "severity": "INFO",
+      "code": "COVERAGE_COMPLETE",
+      "message": "Coverage report complete",
+      "source_ref": null,
+      "details": {
+        "file": "[4B] 3D Diagram - S2-08 Group B.json",
+        "meshed_expression_ids": 10,
+        "supported_but_not_meshed": 0,
+        "group_count": 9
+      }
+    }
+  ]
+}

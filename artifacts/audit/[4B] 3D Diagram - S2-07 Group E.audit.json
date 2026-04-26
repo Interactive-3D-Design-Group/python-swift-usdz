@@ -1,0 +1,68 @@
+{
+  "source_file": "[4B] 3D Diagram - S2-07 Group E.json",
+  "total_expressions": 46,
+  "supported_count": 27,
+  "recognized_unsupported_count": 0,
+  "unrecognized_count": 3,
+  "geometry_ineligible_count": 16,
+  "per_folder_summary": [
+    {
+      "folder_id": null,
+      "folder_name": null,
+      "total": 46,
+      "supported": 27,
+      "recognized_unsupported": 0,
+      "unrecognized": 3,
+      "geometry_ineligible": 16
+    }
+  ],
+  "unsupported_expressions": [
+    {
+      "expression_id": "36",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "1595fe6ed884ad22",
+      "latex": "\\left(\\cos\\left(t\\cdot2\\pi\\right)\\cdot f\\left(s\\cdot\\operatorname{mod}\\left(t,\\frac{1}{s}\\right),k_{1}\\right),\\sin\\left(t\\cdot2\\pi\\right)\\cdot f\\left(s\\cdot\\operatorname{mod}\\left(t,\\frac{1}{s}\\right),k_{1}\\right)\\left\\{c_{ut}\\le t\\right\\}\\right)",
+      "normalized_latex": "(cos(t*2pi)*f(s*operatorname{mod}(t,(1)/(s)),k_1),sin(t*2pi)*f(s*operatorname{mod}(t,(1)/(s)),k_1){c_ut<=t})"
+    },
+    {
+      "expression_id": "37",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "d4583a662b267bc4",
+      "latex": "f\\left(x,k\\right)=\\left(\\frac{\\left(x-x\\cdot k\\right)}{k-\\left|x\\right|\\cdot2\\cdot k+1}\\ \\right)",
+      "normalized_latex": "f(x,k)=(((x-x*k))/(k-|x|*2*k+1))"
+    },
+    {
+      "expression_id": "38",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "11accea7dd9e5719",
+      "latex": "k_{1}=\\left\\{s\\ <\\ 20:0.99,0.99-s\\right\\}",
+      "normalized_latex": "k_1={s<20:0.99,0.99-s}"
+    }
+  ],
+  "unknown_fingerprints": [
+    "11accea7dd9e5719",
+    "1595fe6ed884ad22",
+    "d4583a662b267bc4"
+  ],
+  "diagnostics": [
+    {
+      "severity": "INFO",
+      "code": "AUDIT_COMPLETE",
+      "message": "Audit classification complete",
+      "source_ref": null,
+      "details": {
+        "file": "[4B] 3D Diagram - S2-07 Group E.json"
+      }
+    }
+  ],
+  "status": "PARTIAL"
+}

@@ -19,10 +19,14 @@ class PointDefinition:
 
 
 def parse_assignment(core_expr: str) -> SymbolAssignment | None:
-    m = re.fullmatch(r"([A-Za-z](?:_[A-Za-z0-9]+|\{[^{}]+\})?)(?:=)(.+)", core_expr)
+    m = re.fullmatch(
+        r"([A-Za-z](?:(?:_[A-Za-z0-9]+)|(?:_\{[^{}]+\})|(?:\{[^{}]+\}))?)(?:=)(.+)",
+        core_expr,
+    )
     if not m:
         return None
     name, rhs = m.groups()
+    name = re.sub(r"_\{([^{}]+)\}", r"_\1", name)
     if name in {"x", "y", "z"}:
         return None
     if rhs.startswith("(") and rhs.endswith(")"):
@@ -31,9 +35,18 @@ def parse_assignment(core_expr: str) -> SymbolAssignment | None:
 
 
 def parse_point_definition(core_expr: str) -> PointDefinition | None:
+    c = core_expr.strip()
+    for _ in range(4):
+        mwrap = re.fullmatch(
+            r"([A-Za-z](?:(?:_[A-Za-z0-9]+)|(?:_\{[^{}]+\})|(?:\{[^{}]+\}))?)=\(\(([^,]+),([^,]+),([^\)]+)\)\)",
+            c,
+        )
+        if not mwrap:
+            break
+        c = f"{mwrap.group(1)}=({mwrap.group(2)},{mwrap.group(3)},{mwrap.group(4)})"
     m = re.fullmatch(
         r"([A-Za-z](?:(?:_[A-Za-z0-9]+)|(?:_\{[^{}]+\})|(?:\{[^{}]+\}))?)=\(([^,]+),([^,]+),([^\)]+)\)",
-        core_expr,
+        c,
     )
     if not m:
         return None

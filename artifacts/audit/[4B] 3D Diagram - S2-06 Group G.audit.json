@@ -1,0 +1,78 @@
+{
+  "source_file": "[4B] 3D Diagram - S2-06 Group G.json",
+  "total_expressions": 57,
+  "supported_count": 49,
+  "recognized_unsupported_count": 0,
+  "unrecognized_count": 0,
+  "geometry_ineligible_count": 8,
+  "per_folder_summary": [
+    {
+      "folder_id": null,
+      "folder_name": null,
+      "total": 6,
+      "supported": 0,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 6
+    },
+    {
+      "folder_id": "29",
+      "folder_name": "Bottom of Tower",
+      "total": 4,
+      "supported": 4,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 0
+    },
+    {
+      "folder_id": "72",
+      "folder_name": "Middle Pillars of Tower",
+      "total": 4,
+      "supported": 4,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 0
+    },
+    {
+      "folder_id": "32",
+      "folder_name": "Middle Platform of Tower",
+      "total": 39,
+      "supported": 39,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 0
+    },
+    {
+      "folder_id": "83",
+      "folder_name": "Testing (Irrelevant)",
+      "total": 2,
+      "supported": 0,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 2
+    },
+    {
+      "folder_id": "78",
+      "folder_name": "Top of Tower",
+      "total": 2,
+      "supported": 2,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 0
+    }
+  ],
+  "unsupported_expressions": [],
+  "unknown_fingerprints": [],
+  "diagnostics": [
+    {
+      "severity": "INFO",
+      "code": "AUDIT_COMPLETE",
+      "message": "Audit classification complete",
+      "source_ref": null,
+      "details": {
+        "file": "[4B] 3D Diagram - S2-06 Group G.json"
+      }
+    }
+  ],
+  "status": "PASS"
+}

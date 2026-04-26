@@ -1,0 +1,163 @@
+{
+  "version": 11,
+  "randomSeed": "0d8611e4148a759739113f6a9d06763c",
+  "graph": {
+    "viewport": {
+      "xmin": -36.525488552217396,
+      "ymin": -114.98684767504099,
+      "zmin": -42.25297780357885,
+      "xmax": 72.86647019549959,
+      "ymax": -5.594888927322742,
+      "zmax": 67.13898094413886
+    },
+    "worldRotation3D": [
+      0.35912376427481385,
+      -0.9298133397506747,
+      0.08048152057943539,
+      0.9073084934474474,
+      0.36803145683717076,
+      0.20333259575490176,
+      -0.21868109120636062,
+      1.7968912580795356e-14,
+      0.9757963826274321
+    ],
+    "axis3D": [
+      0,
+      0,
+      -0.9999999999867174
+    ],
+    "product": "graphing-3d",
+    "threeDMode": true,
+    "__v12ViewportLatexStash": {
+      "xmin": "-36.525488552217396",
+      "xmax": "72.86647019549959",
+      "ymin": "-114.98684767504099",
+      "ymax": "-5.594888927322742",
+      "zmin": "-42.25297780357885",
+      "zmax": "67.13898094413886"
+    }
+  },
+  "expressions": {
+    "list": [
+      {
+        "type": "folder",
+        "id": "45",
+        "title": "walls"
+      },
+      {
+        "type": "expression",
+        "id": "1",
+        "folderId": "45",
+        "color": "#c74440",
+        "latex": "\\frac{x^{2}}{94.5^{2}}+\\frac{y^{2}}{78^{2}}<1\\left\\{\\frac{x^{2}}{94.5^{2}}+\\frac{y^{2}}{78^{2}}>0.905^{2}\\right\\}\\left\\{0\\le z\\le50\\right\\}\\left\\{\\min\\left(\\operatorname{mod}\\left(\\frac{\\left(\\arctan\\left(156x,198y\\right)+\\pi\\right)}{2\\pi},\\frac{1}{16}\\right)-\\frac{1}{32},z,20-z\\right)\\le0\\right\\}\\left\\{0.5^{2}<\\left(g\\left(x,y\\right)-0.5\\right)^{2}+\\left(\\frac{z-20}{20}\\right)^{2}\\right\\}",
+        "colorLatex": "c_{1}"
+      },
+      {
+        "type": "expression",
+        "id": "24",
+        "folderId": "45",
+        "color": "#c74440",
+        "latex": "\\frac{x^{2}}{94.5^{2}}+\\frac{y^{2}}{78^{2}}<1\\left\\{\\frac{x^{2}}{94.5^{2}}+\\frac{y^{2}}{78^{2}}>0.905^{2}\\right\\}\\left\\{0\\le z-55.4\\le50\\right\\}\\left\\{\\min\\left(\\operatorname{mod}\\left(\\frac{\\left(\\arctan\\left(156x,198y\\right)+\\pi\\right)}{2\\pi},\\frac{1}{16}\\right)-\\frac{1}{32},z-55.4,20-z+55.4\\right)\\le0\\right\\}\\left\\{0.5^{2}<\\left(g\\left(x,y\\right)-0.5\\right)^{2}+\\left(\\frac{z-20-55.4}{20}\\right)^{2}\\right\\}\\left\\{\\frac{x^{2}}{94.5^{2}}+\\frac{y^{2}}{78^{2}}>0.0005\\left(z-55.4\\right)^{2}\\right\\}",
+        "colorLatex": "c_{1}"
+      },
+      {
+        "type": "expression",
+        "id": "23",
+        "folderId": "45",
+        "color": "#388c46",
+        "latex": "\\frac{x^{2}}{94.5^{2}}+\\frac{y^{2}}{78^{2}}<1\\left\\{50\\le z\\le55\\right\\}\\left\\{0.76^{2}<\\frac{x^{2}}{94.5^{2}}+\\frac{y^{2}}{78^{2}}<1\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "14",
+        "color": "#6042a6",
+        "latex": "g\\left(x,y\\right)=32\\left(\\operatorname{mod}\\left(\\frac{\\left(\\arctan\\left(156x,198y\\right)+\\pi\\right)}{2\\pi},\\frac{1}{16}\\right)-\\frac{1}{32}\\right)",
+        "hidden": true
+      },
+      {
+        "type": "expression",
+        "id": "19",
+        "color": "#6042a6",
+        "latex": "0.5^{2}>\\left(g\\left(x,y\\right)-0.5\\right)^{2}+\\left(\\frac{z-20}{20}\\right)^{2}",
+        "hidden": true
+      },
+      {
+        "type": "expression",
+        "id": "35",
+        "color": "#c74440",
+        "latex": "h\\left(\\operatorname{floor}\\left(\\frac{x}{6.6}\\right),\\operatorname{floor}\\left(\\frac{y}{6.6}\\right)\\right)<0.5\\left\\{\\operatorname{mod}\\left(x,6.6\\right)<\\left(6.6\\right)0.2\\right\\}\\left\\{\\frac{x^{2}}{94.5^{2}}+\\frac{y^{2}}{78^{2}}\\le0.905^{2}\\right\\}\\left\\{5\\le z\\le30\\right\\}",
+        "extendTo3D": true
+      },
+      {
+        "type": "expression",
+        "id": "28",
+        "color": "#aaaaaa",
+        "latex": "\\frac{x^{2}}{94.5^{2}}+\\frac{y^{2}}{78^{2}}\\le0.905^{2}\\left\\{0\\le z\\le5\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "30",
+        "color": "#c74440",
+        "latex": "h\\left(p_{1},p_{2}\\right)=\\operatorname{mod}\\left(43758.5453\\sin\\left(12.9898p_{1}+78.233p_{2}\\right),1\\right)"
+      },
+      {
+        "type": "folder",
+        "id": "48",
+        "title": "arena",
+        "collapsed": true
+      },
+      {
+        "type": "expression",
+        "id": "38",
+        "folderId": "48",
+        "color": "#6042a6",
+        "latex": "h\\left(\\operatorname{floor}\\left(\\frac{x+1000}{6.6}\\right),\\operatorname{floor}\\left(\\frac{y+1000}{6.6}\\right)\\right)<0.5\\left\\{\\operatorname{mod}\\left(y,6.6\\right)<\\left(6.6\\right)0.2\\right\\}\\left\\{\\frac{x^{2}}{94.5^{2}}+\\frac{y^{2}}{78^{2}}\\le0.905^{2}\\right\\}\\left\\{5\\le z\\le30\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "39",
+        "folderId": "48",
+        "color": "#388c46",
+        "latex": "h\\left(x+238,y+058\\right)\\left\\{-100\\le y\\le100\\right\\}\\left\\{-100\\le x\\le100\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "50",
+        "folderId": "48",
+        "color": "#2d70b3",
+        "latex": "g\\left(x,y\\right)<-0.9\\left\\{\\frac{x^{2}}{94.5^{2}}+\\frac{y^{2}}{78^{2}}<0.905^{2}\\right\\}\\left\\{\\frac{x^{2}}{94.5^{2}}+\\frac{y^{2}}{78^{2}}>0.4525^{2}\\right\\}\\left\\{0\\le z\\le50\\right\\}\\left\\{\\frac{x^{2}}{94.5^{2}}+\\frac{y^{2}}{78^{2}}>0.00012z^{2}+0.4525^{2}\\right\\}",
+        "extendTo3D": true
+      },
+      {
+        "type": "folder",
+        "id": "42",
+        "title": "colours",
+        "collapsed": true
+      },
+      {
+        "type": "expression",
+        "id": "40",
+        "folderId": "42",
+        "color": "#c74440",
+        "latex": "c_{1}\\ =\\ \\operatorname{rgb}\\left(h\\left(x+z,y+z\\right)\\cdot93+142,h\\left(x+z,y+z\\right)\\cdot86+142,h\\left(x+z,y+z\\right)\\cdot76+137\\right)"
+      },
+      {
+        "type": "folder",
+        "id": "51",
+        "title": "USDZ: supported fallback (pipeline)",
+        "collapsed": true
+      },
+      {
+        "type": "expression",
+        "id": "52",
+        "folderId": "51",
+        "color": "#888888",
+        "latex": "z=0\\left\\{-2<x<2\\right\\}\\left\\{-2<y<2\\right\\}",
+        "hidden": true
+      }
+    ]
+  },
+  "includeFunctionParametersInRandomSeed": true,
+  "doNotMigrate3dLineWidthZero": true,
+  "doNotMigrateMovablePointStyle": true
+}

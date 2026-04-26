@@ -1,0 +1,1997 @@
+{
+  "source_file": "[4B] 3D Diagram - S2-04 Group G.json",
+  "total_items": 119,
+  "total_expressions": 117,
+  "meshed_expression_count": 10,
+  "supported_expression_count": 10,
+  "supported_but_not_meshed_count": 0,
+  "recognized_unsupported_count": 17,
+  "unrecognized_count": 76,
+  "geometry_ineligible_count": 14,
+  "groups": [
+    {
+      "fingerprint": "05b9740e1b6db0d9",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 2,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "178",
+        "179"
+      ],
+      "example_latex": [
+        "15^{2}\\le y^{2}+\\left(z-70\\right)^{2}\\le18^{2}\\left\\{x=60\\right\\}\\left\\{z\\ge70\\right\\}",
+        "15^{2}\\le y^{2}+\\left(z-70\\right)^{2}\\le18^{2}\\left\\{x=60\\right\\}\\left\\{z\\ge70\\right\\}"
+      ],
+      "example_normalized": [
+        "15^{2}<=y^{2}+(z-70)^{2}<=18^{2}{x=60}{z>=70}",
+        "15^{2}<=y^{2}+(z-70)^{2}<=18^{2}{x=60}{z>=70}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 2
+      }
+    },
+    {
+      "fingerprint": "546f2128373b3e6c",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 2,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "26",
+        "93"
+      ],
+      "example_latex": [
+        "\\frac{x}{\\infty}=z-90\\left\\{60>x>-60\\right\\}\\left\\{30>y>-30\\right\\}",
+        "\\frac{x}{\\infty}=z-90\\left\\{60>x>-60\\right\\}\\left\\{30>y>-30\\right\\}"
+      ],
+      "example_normalized": [
+        "(x)/(infty)=z-90{60>x>-60}{30>y>-30}",
+        "(x)/(infty)=z-90{60>x>-60}{30>y>-30}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 2
+      }
+    },
+    {
+      "fingerprint": "6398cc33816f44ba",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 2,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "34",
+        "90"
+      ],
+      "example_latex": [
+        "\\left(x+h\\right)^{2}+\\left(y+k\\right)^{2\\ }=60\\ \\left\\{10<z<120\\right\\}",
+        "\\left(x+h\\right)^{2}+\\left(y+k\\right)^{2\\ }=60\\ \\left\\{10<z<120\\right\\}"
+      ],
+      "example_normalized": [
+        "(x+h)^{2}+(y+k)^{2}=60{10<z<120}",
+        "(x+h)^{2}+(y+k)^{2}=60{10<z<120}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 2
+      }
+    },
+    {
+      "fingerprint": "9854244efed15d34",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 2,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "83",
+        "181"
+      ],
+      "example_latex": [
+        "\\left(x+-37\\right)^{2}+\\left(y+37\\right)^{2\\ }=170\\left\\{10<z<102.5\\right\\}",
+        "\\left(x+-37\\right)^{2}+\\left(y+37\\right)^{2\\ }=170\\left\\{10<z<102.5\\right\\}"
+      ],
+      "example_normalized": [
+        "(x-37)^{2}+(y+37)^{2}=170{10<z<102.5}",
+        "(x-37)^{2}+(y+37)^{2}=170{10<z<102.5}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 2
+      }
+    },
+    {
+      "fingerprint": "024098dda8c3813c",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "194"
+      ],
+      "example_latex": [
+        "15^{2}\\le y^{2}+\\left(z-70\\right)^{2}\\le18^{2}\\left\\{x=-60\\right\\}\\left\\{z\\ge70\\right\\}"
+      ],
+      "example_normalized": [
+        "15^{2}<=y^{2}+(z-70)^{2}<=18^{2}{x=-60}{z>=70}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "098d5f8147d53851",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Equation recognized but not yet meshable",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "22"
+      ],
+      "example_latex": [
+        "x=y-90\\left\\{30<y<60\\right\\}\\left\\{90>z>0\\right\\}"
+      ],
+      "example_normalized": [
+        "x=y-90{30<y<60}{90>z>0}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "0f2cb17b341a9596",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Equation recognized but not yet meshable",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "24"
+      ],
+      "example_latex": [
+        "x=-y-90\\left\\{90>z>0\\right\\}\\left\\{-30>y>-60\\right\\}"
+      ],
+      "example_normalized": [
+        "x=-y-90{90>z>0}{-30>y>-60}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "20564934f3bb4cf3",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Equation recognized but not yet meshable",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "125"
+      ],
+      "example_latex": [
+        "x=\\frac{z}{\\infty}-60\\ \\left\\{70>z>10\\right\\}\\left\\{15<y<18\\right\\}"
+      ],
+      "example_normalized": [
+        "x=(z)/(infty)-60{70>z>10}{15<y<18}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "27e88d9b86f747f7",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "195"
+      ],
+      "example_latex": [
+        "15^{2}\\le x^{2}+\\left(z-70\\right)^{2}\\le18^{2}\\left\\{y=-60\\right\\}\\left\\{z\\ge70\\right\\}"
+      ],
+      "example_normalized": [
+        "15^{2}<=x^{2}+(z-70)^{2}<=18^{2}{y=-60}{z>=70}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "36dca8fd46c8d41f",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Equation recognized but not yet meshable",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "116"
+      ],
+      "example_latex": [
+        "y=\\frac{z}{\\infty}+60\\ \\left\\{70>z>10\\right\\}\\left\\{15<x<18\\right\\}"
+      ],
+      "example_normalized": [
+        "y=(z)/(infty)+60{70>z>10}{15<x<18}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "3cd0506c45396bd7",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Equation recognized but not yet meshable",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "111"
+      ],
+      "example_latex": [
+        "y=\\frac{z}{\\infty}-60\\ \\left\\{70>z>10\\right\\}\\left\\{-15>x>-18\\right\\}"
+      ],
+      "example_normalized": [
+        "y=(z)/(infty)-60{70>z>10}{-15>x>-18}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "3fb30a58084c1edb",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Equation recognized but not yet meshable",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "110"
+      ],
+      "example_latex": [
+        "y=\\frac{z}{\\infty}-60\\ \\left\\{70>z>10\\right\\}\\left\\{15<x<18\\right\\}"
+      ],
+      "example_normalized": [
+        "y=(z)/(infty)-60{70>z>10}{15<x<18}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "6c58452a9cea8813",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Equation recognized but not yet meshable",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "21"
+      ],
+      "example_latex": [
+        "y=x-90\\left\\{30<x<60\\right\\}\\left\\{90>z>0\\right\\}"
+      ],
+      "example_normalized": [
+        "y=x-90{30<x<60}{90>z>0}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 1,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "6fc4a5fded1d48f0",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "177"
+      ],
+      "example_latex": [
+        "15^{2}\\le x^{2}+\\left(z-70\\right)^{2}\\le18^{2}\\left\\{y=60\\right\\}\\left\\{z\\ge70\\right\\}"
+      ],
+      "example_normalized": [
+        "15^{2}<=x^{2}+(z-70)^{2}<=18^{2}{y=60}{z>=70}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "7d981d6998675291",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Equation recognized but not yet meshable",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "7"
+      ],
+      "example_latex": [
+        "z=a\\ \\left\\{100>y>-100\\right\\}\\left\\{100>x>-100\\right\\}"
+      ],
+      "example_normalized": [
+        "z=a{100>y>-100}{100>x>-100}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "b1414cee7456db5d",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Equation recognized but not yet meshable",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "121"
+      ],
+      "example_latex": [
+        "x=\\frac{z}{\\infty}+60\\ \\left\\{70>z>10\\right\\}\\left\\{-15>y>-18\\right\\}"
+      ],
+      "example_normalized": [
+        "x=(z)/(infty)+60{70>z>10}{-15>y>-18}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "c6b64a4dc55cf0a9",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Equation recognized but not yet meshable",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "123"
+      ],
+      "example_latex": [
+        "x=\\frac{z}{\\infty}-60\\ \\left\\{70>z>10\\right\\}\\left\\{-15>y>-18\\right\\}"
+      ],
+      "example_normalized": [
+        "x=(z)/(infty)-60{70>z>10}{-15>y>-18}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "c87f4d0caa72b47e",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Equation recognized but not yet meshable",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "119"
+      ],
+      "example_latex": [
+        "x=\\frac{z}{\\infty}+60\\ \\left\\{70>z>10\\right\\}\\left\\{15<y<18\\right\\}"
+      ],
+      "example_normalized": [
+        "x=(z)/(infty)+60{70>z>10}{15<y<18}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "ed1a09d38ea69040",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Equation recognized but not yet meshable",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "114"
+      ],
+      "example_latex": [
+        "y=\\frac{z}{\\infty}+60\\ \\left\\{70>z>10\\right\\}\\left\\{-15>x>-18\\right\\}"
+      ],
+      "example_normalized": [
+        "y=(z)/(infty)+60{70>z>10}{-15>x>-18}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "00b1f5575e18b2c1",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "176"
+      ],
+      "example_latex": [
+        "((x-370)^2)/16 + ((y+50)^2)/16 + ((z-6)^2)/36 = 1"
+      ],
+      "example_normalized": [
+        "((x-370)^2)/16+((y+50)^2)/16+((z-6)^2)/36=1"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "016d9980bbec2307",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "189"
+      ],
+      "example_latex": [
+        "\\operatorname{sphere}\\left(\\left(37,-37,97\\right),13.1\\right)"
+      ],
+      "example_normalized": [
+        "operatorname{sphere}((37,-37,97),13.1)"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "01980e0e29e8937b",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "88"
+      ],
+      "example_latex": [
+        "\\left(x+-37\\right)^{2}+\\left(y+-37\\right)^{2\\ }=170\\left\\{10<z<102.5\\right\\}"
+      ],
+      "example_normalized": [
+        "(x-37)^{2}+(y-37)^{2}=170{10<z<102.5}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "06c208c02d6b6843",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "183"
+      ],
+      "example_latex": [
+        "\\operatorname{sphere}\\left(\\left(-37,37,97\\right),13.1\\right)"
+      ],
+      "example_normalized": [
+        "operatorname{sphere}((-37,37,97),13.1)"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "0b20268ee43ec3e0",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "49"
+      ],
+      "example_latex": [
+        "\\frac{x}{\\infty}=z-1\\left\\{30>y>-30\\right\\}\\left\\{120<x<370\\right\\}"
+      ],
+      "example_normalized": [
+        "(x)/(infty)=z-1{30>y>-30}{120<x<370}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "0f9e1cfcc0ed62e3",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "169"
+      ],
+      "example_latex": [
+        "((x-230)^2)/16 + ((y+50)^2)/16 + ((z-6)^2)/36 = 1"
+      ],
+      "example_normalized": [
+        "((x-230)^2)/16+((y+50)^2)/16+((z-6)^2)/36=1"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "0f9f6513c8291bc9",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "193"
+      ],
+      "example_latex": [
+        "\\operatorname{sphere}\\left(\\left(-37,-37,99\\right),13.1\\right)"
+      ],
+      "example_normalized": [
+        "operatorname{sphere}((-37,-37,99),13.1)"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "160ffedc945e104b",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "42"
+      ],
+      "example_latex": [
+        "\\ \\left(y-t\\right)^{2}+\\left(x+f\\right)^{2\\ }=5\\ \\left\\{10<z<120\\right\\}"
+      ],
+      "example_normalized": [
+        "(y-t)^{2}+(x+f)^{2}=5{10<z<120}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "1a00e5376b076029",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "190"
+      ],
+      "example_latex": [
+        "\\operatorname{sphere}\\left(\\left(37,-37,99\\right),13.1\\right)"
+      ],
+      "example_normalized": [
+        "operatorname{sphere}((37,-37,99),13.1)"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "1a0e8513e42a2eaa",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "35"
+      ],
+      "example_latex": [
+        "\\ \\left(x+t\\right)^{2}+\\left(y+f\\right)^{2\\ }=5\\ \\left\\{10<z<120\\right\\}"
+      ],
+      "example_normalized": [
+        "(x+t)^{2}+(y+f)^{2}=5{10<z<120}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 1,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "236bc3072ac4ee2e",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "89"
+      ],
+      "example_latex": [
+        "\\left(x+37\\right)^{2}+\\left(y-37\\right)^{2\\ }=170\\left\\{10<z<102.5\\right\\}"
+      ],
+      "example_normalized": [
+        "(x+37)^{2}+(y-37)^{2}=170{10<z<102.5}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "271ce87c50149a9e",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "184"
+      ],
+      "example_latex": [
+        "\\operatorname{sphere}\\left(\\left(-37,37,99\\right),13.1\\right)"
+      ],
+      "example_normalized": [
+        "operatorname{sphere}((-37,37,99),13.1)"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "309c8ab5bf732ea7",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "40"
+      ],
+      "example_latex": [
+        "\\ \\left(x+t\\right)^{2}+\\left(y-f\\right)^{2\\ }=5\\ \\left\\{10<z<120\\right\\}"
+      ],
+      "example_normalized": [
+        "(x+t)^{2}+(y-f)^{2}=5{10<z<120}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "33cef4569c4822c5",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "56"
+      ],
+      "example_latex": [
+        "\\operatorname{sphere}\\left(\\left(-85,85,120\\right),8\\right)"
+      ],
+      "example_normalized": [
+        "operatorname{sphere}((-85,85,120),8)"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "3a474d11a20b1d81",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "58"
+      ],
+      "example_latex": [
+        "\\operatorname{sphere}\\left(\\left(85,-85,120\\right),8\\right)"
+      ],
+      "example_normalized": [
+        "operatorname{sphere}((85,-85,120),8)"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "3cd97ba8683966b3",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "63"
+      ],
+      "example_latex": [
+        "\\ \\left(y+i\\right)^{2}+\\left(x+g\\right)^{2\\ }=5\\ \\left\\{10<z<134\\right\\}"
+      ],
+      "example_normalized": [
+        "(y+i)^{2}+(x+g)^{2}=5{10<z<134}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "41932454ee1ca5cf",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "54"
+      ],
+      "example_latex": [
+        "\\operatorname{sphere}\\left(\\left(85,85,120\\right),8\\right)"
+      ],
+      "example_normalized": [
+        "operatorname{sphere}((85,85,120),8)"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "4347a92617ef2323",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "145"
+      ],
+      "example_latex": [
+        "((x-290)^2)/16 + ((y-50)^2)/16 + ((z-6)^2)/36 = 1"
+      ],
+      "example_normalized": [
+        "((x-290)^2)/16+((y-50)^2)/16+((z-6)^2)/36=1"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "4f2a6223bacacc35",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "143"
+      ],
+      "example_latex": [
+        "((x-250)^2)/16 + ((y-50)^2)/16 + ((z-6)^2)/36 = 1"
+      ],
+      "example_normalized": [
+        "((x-250)^2)/16+((y-50)^2)/16+((z-6)^2)/36=1"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "51f1b74985f70b22",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "174"
+      ],
+      "example_latex": [
+        "((x-330)^2)/16 + ((y+50)^2)/16 + ((z-6)^2)/36 = 1"
+      ],
+      "example_normalized": [
+        "((x-330)^2)/16+((y+50)^2)/16+((z-6)^2)/36=1"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "5216403861e117f9",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "191"
+      ],
+      "example_latex": [
+        "\\operatorname{sphere}\\left(\\left(-37,-37,95\\right),13.1\\right)"
+      ],
+      "example_normalized": [
+        "operatorname{sphere}((-37,-37,95),13.1)"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "57dfe47a46249798",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "77"
+      ],
+      "example_latex": [
+        "\\operatorname{sphere}\\left(\\left(-s,-d,p\\right),o\\right)"
+      ],
+      "example_normalized": [
+        "operatorname{sphere}((-s,-d,p),o)"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "59dadb59a7c444a1",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "65"
+      ],
+      "example_latex": [
+        "\\ \\left(y\\right)^{2}+\\left(x\\right)^{2\\ }=5\\ \\left\\{10<z<150\\right\\}"
+      ],
+      "example_normalized": [
+        "(y)^{2}+(x)^{2}=5{10<z<150}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "5a65a0b4ae1ee544",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "170"
+      ],
+      "example_latex": [
+        "((x-250)^2)/16 + ((y+50)^2)/16 + ((z-6)^2)/36 = 1"
+      ],
+      "example_normalized": [
+        "((x-250)^2)/16+((y+50)^2)/16+((z-6)^2)/36=1"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "61149c437629ea4c",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "68"
+      ],
+      "example_latex": [
+        "\\operatorname{sphere}\\left(\\left(s,d,p\\right),o\\right)"
+      ],
+      "example_normalized": [
+        "operatorname{sphere}((s,d,p),o)"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "615f306a34764a7b",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "182"
+      ],
+      "example_latex": [
+        "\\operatorname{sphere}\\left(\\left(-37,37,95\\right),13.1\\right)"
+      ],
+      "example_normalized": [
+        "operatorname{sphere}((-37,37,95),13.1)"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "62df283925fdc72e",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "165"
+      ],
+      "example_latex": [
+        "((x-150)^2)/16 + ((y+50)^2)/16 + ((z-6)^2)/36 = 1"
+      ],
+      "example_normalized": [
+        "((x-150)^2)/16+((y+50)^2)/16+((z-6)^2)/36=1"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "675002d0ad0f191f",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "23"
+      ],
+      "example_latex": [
+        "-x=y-90\\left\\{90>z>0\\right\\}\\left\\{30<y<60\\right\\}"
+      ],
+      "example_normalized": [
+        "-x=y-90{90>z>0}{30<y<60}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "679045647ad84cc1",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "53"
+      ],
+      "example_latex": [
+        "\\operatorname{sphere}\\left(\\left(0,0,100\\right),40\\right)"
+      ],
+      "example_normalized": [
+        "operatorname{sphere}((0,0,100),40)"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "6a8415f8b8816877",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "175"
+      ],
+      "example_latex": [
+        "((x-350)^2)/16 + ((y+50)^2)/16 + ((z-6)^2)/36 = 1"
+      ],
+      "example_normalized": [
+        "((x-350)^2)/16+((y+50)^2)/16+((z-6)^2)/36=1"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "7485512df6321c0e",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "188"
+      ],
+      "example_latex": [
+        "\\operatorname{sphere}\\left(\\left(37,-37,95\\right),13.1\\right)"
+      ],
+      "example_normalized": [
+        "operatorname{sphere}((37,-37,95),13.1)"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "74d168130e196733",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "57"
+      ],
+      "example_latex": [
+        "\\operatorname{sphere}\\left(\\left(-85,-85,120\\right),8\\right)"
+      ],
+      "example_normalized": [
+        "operatorname{sphere}((-85,-85,120),8)"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "7be77094c2b0d75c",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "171"
+      ],
+      "example_latex": [
+        "((x-270)^2)/16 + ((y+50)^2)/16 + ((z-6)^2)/36 = 1"
+      ],
+      "example_normalized": [
+        "((x-270)^2)/16+((y+50)^2)/16+((z-6)^2)/36=1"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "7c0bb730263f04d4",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "167"
+      ],
+      "example_latex": [
+        "((x-190)^2)/16 + ((y+50)^2)/16 + ((z-6)^2)/36 = 1"
+      ],
+      "example_normalized": [
+        "((x-190)^2)/16+((y+50)^2)/16+((z-6)^2)/36=1"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "81430566a39d2333",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "62"
+      ],
+      "example_latex": [
+        "\\ \\left(y+i\\right)^{2}+\\left(x-g\\right)^{2\\ }=5\\ \\left\\{10<z<134\\right\\}"
+      ],
+      "example_normalized": [
+        "(y+i)^{2}+(x-g)^{2}=5{10<z<134}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "855ebdfb9650ddae",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "168"
+      ],
+      "example_latex": [
+        "((x-210)^2)/16 + ((y+50)^2)/16 + ((z-6)^2)/36 = 1"
+      ],
+      "example_normalized": [
+        "((x-210)^2)/16+((y+50)^2)/16+((z-6)^2)/36=1"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "8961a0f5b5b14c5e",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "138"
+      ],
+      "example_latex": [
+        "((x-150)^2)/16 + ((y-50)^2)/16 + ((z-6)^2)/36 = 1"
+      ],
+      "example_normalized": [
+        "((x-150)^2)/16+((y-50)^2)/16+((z-6)^2)/36=1"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "89a69a8f8c9d1666",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "127"
+      ],
+      "example_latex": [
+        "\\left(x\\right)^{2}+\\left(y\\right)^{2\\ }=1530\\ \\left\\{10<z<110\\right\\}"
+      ],
+      "example_normalized": [
+        "(x)^{2}+(y)^{2}=1530{10<z<110}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "8c1fab64324e0465",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "25"
+      ],
+      "example_latex": [
+        "\\frac{x}{\\infty}=z-90\\left\\{60>y>-60\\right\\}\\left\\{30>x>-30\\right\\}"
+      ],
+      "example_normalized": [
+        "(x)/(infty)=z-90{60>y>-60}{30>x>-30}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "94426a42609cd0c6",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "79"
+      ],
+      "example_latex": [
+        "\\operatorname{sphere}\\left(\\left(s,-d,p\\right),o\\right)"
+      ],
+      "example_normalized": [
+        "operatorname{sphere}((s,-d,p),o)"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "9519d67dd09b68f5",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "149"
+      ],
+      "example_latex": [
+        "((x-370)^2)/16 + ((y-50)^2)/16 + ((z-6)^2)/36 = 1"
+      ],
+      "example_normalized": [
+        "((x-370)^2)/16+((y-50)^2)/16+((z-6)^2)/36=1"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "9f7100385d077d05",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "185"
+      ],
+      "example_latex": [
+        "\\operatorname{sphere}\\left(\\left(37,37,95\\right),13.1\\right)"
+      ],
+      "example_normalized": [
+        "operatorname{sphere}((37,37,95),13.1)"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "a3afe6f104ce9679",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "186"
+      ],
+      "example_latex": [
+        "\\operatorname{sphere}\\left(\\left(37,37,97\\right),13.1\\right)"
+      ],
+      "example_normalized": [
+        "operatorname{sphere}((37,37,97),13.1)"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "a8c2443fc3643fe3",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "187"
+      ],
+      "example_latex": [
+        "\\operatorname{sphere}\\left(\\left(37,37,99\\right),13.1\\right)"
+      ],
+      "example_normalized": [
+        "operatorname{sphere}((37,37,99),13.1)"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "a938fa09bfe9a716",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "137"
+      ],
+      "example_latex": [
+        "((x-130)^2)/16 + ((y-50)^2)/16 + ((z-6)^2)/36 = 1"
+      ],
+      "example_normalized": [
+        "((x-130)^2)/16+((y-50)^2)/16+((z-6)^2)/36=1"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "af1d1c73bdfda477",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "64"
+      ],
+      "example_latex": [
+        "\\ \\left(y-i\\right)^{2}+\\left(x+g\\right)^{2\\ }=5\\ \\left\\{10<z<134\\right\\}"
+      ],
+      "example_normalized": [
+        "(y-i)^{2}+(x+g)^{2}=5{10<z<134}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "b2fc95eddc1a11ce",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "140"
+      ],
+      "example_latex": [
+        "((x-190)^2)/16 + ((y-50)^2)/16 + ((z-6)^2)/36 = 1"
+      ],
+      "example_normalized": [
+        "((x-190)^2)/16+((y-50)^2)/16+((z-6)^2)/36=1"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "b9269e5518766695",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "139"
+      ],
+      "example_latex": [
+        "((x-170)^2)/16 + ((y-50)^2)/16 + ((z-6)^2)/36 = 1"
+      ],
+      "example_normalized": [
+        "((x-170)^2)/16+((y-50)^2)/16+((z-6)^2)/36=1"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "bd99d17d41d17c1a",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "192"
+      ],
+      "example_latex": [
+        "\\operatorname{sphere}\\left(\\left(-37,-37,97\\right),13.1\\right)"
+      ],
+      "example_normalized": [
+        "operatorname{sphere}((-37,-37,97),13.1)"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "bf05432702ab383c",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "142"
+      ],
+      "example_latex": [
+        "((x-230)^2)/16 + ((y-50)^2)/16 + ((z-6)^2)/36 = 1"
+      ],
+      "example_normalized": [
+        "((x-230)^2)/16+((y-50)^2)/16+((z-6)^2)/36=1"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "c018f929b3731c5f",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "27"
+      ],
+      "example_latex": [
+        "\\left(x-h\\right)^{2}+\\left(y-k\\right)^{2\\ }=60\\ \\left\\{10<z<120\\right\\}"
+      ],
+      "example_normalized": [
+        "(x-h)^{2}+(y-k)^{2}=60{10<z<120}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 1,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "c0d3828034c15779",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "41"
+      ],
+      "example_latex": [
+        "\\ \\left(y+t\\right)^{2}+\\left(x+f\\right)^{2\\ }=5\\ \\left\\{10<z<120\\right\\}"
+      ],
+      "example_normalized": [
+        "(y+t)^{2}+(x+f)^{2}=5{10<z<120}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "c3a80edd5ea8813f",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "39"
+      ],
+      "example_latex": [
+        "\\ \\left(x-t\\right)^{2}+\\left(y-f\\right)^{2\\ }=5\\ \\left\\{10<z<120\\right\\}"
+      ],
+      "example_normalized": [
+        "(x-t)^{2}+(y-f)^{2}=5{10<z<120}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "c9698bf54da1c6aa",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "146"
+      ],
+      "example_latex": [
+        "((x-310)^2)/16 + ((y-50)^2)/16 + ((z-6)^2)/36 = 1"
+      ],
+      "example_normalized": [
+        "((x-310)^2)/16+((y-50)^2)/16+((z-6)^2)/36=1"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "ca87b9c3be783e22",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "59"
+      ],
+      "example_latex": [
+        "\\ \\left(y-i\\right)^{2}+\\left(x-g\\right)^{2\\ }=5\\ \\left\\{10<z<134\\right\\}"
+      ],
+      "example_normalized": [
+        "(y-i)^{2}+(x-g)^{2}=5{10<z<134}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "caf416679f3b5d89",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "172"
+      ],
+      "example_latex": [
+        "((x-290)^2)/16 + ((y+50)^2)/16 + ((z-6)^2)/36 = 1"
+      ],
+      "example_normalized": [
+        "((x-290)^2)/16+((y+50)^2)/16+((z-6)^2)/36=1"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "cf01bfb7f60dd31c",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "44"
+      ],
+      "example_latex": [
+        "\\ \\left(y-t\\right)^{2}+\\left(x-f\\right)^{2\\ }=5\\ \\left\\{10<z<120\\right\\}"
+      ],
+      "example_normalized": [
+        "(y-t)^{2}+(x-f)^{2}=5{10<z<120}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "d0db70c3c9f75ba5",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "43"
+      ],
+      "example_latex": [
+        "\\ \\left(y+t\\right)^{2}+\\left(x-f\\right)^{2\\ }=5\\ \\left\\{10<z<120\\right\\}"
+      ],
+      "example_normalized": [
+        "(y+t)^{2}+(x-f)^{2}=5{10<z<120}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "d293c0c0b81a826b",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "144"
+      ],
+      "example_latex": [
+        "((x-270)^2)/16 + ((y-50)^2)/16 + ((z-6)^2)/36 = 1"
+      ],
+      "example_normalized": [
+        "((x-270)^2)/16+((y-50)^2)/16+((z-6)^2)/36=1"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "d298f0d7fead5c16",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "32"
+      ],
+      "example_latex": [
+        "\\left(x-h\\right)^{2}+\\left(y+k\\right)^{2\\ }=60\\ \\left\\{10<z<120\\right\\}"
+      ],
+      "example_normalized": [
+        "(x-h)^{2}+(y+k)^{2}=60{10<z<120}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "d43ccc160be24d8f",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "141"
+      ],
+      "example_latex": [
+        "((x-210)^2)/16 + ((y-50)^2)/16 + ((z-6)^2)/36 = 1"
+      ],
+      "example_normalized": [
+        "((x-210)^2)/16+((y-50)^2)/16+((z-6)^2)/36=1"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "d93d96e4237c278e",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "75"
+      ],
+      "example_latex": [
+        "\\operatorname{sphere}\\left(\\left(-s,d,p\\right),o\\right)"
+      ],
+      "example_normalized": [
+        "operatorname{sphere}((-s,d,p),o)"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "e0388d73cdb01f42",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "33"
+      ],
+      "example_latex": [
+        "\\left(x+h\\right)^{2}+\\left(y-k\\right)^{2\\ }=60\\ \\left\\{10<z<120\\right\\}"
+      ],
+      "example_normalized": [
+        "(x+h)^{2}+(y-k)^{2}=60{10<z<120}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "e980d28c05a14eec",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "87"
+      ],
+      "example_latex": [
+        "\\left(x+37\\right)^{2}+\\left(y+37\\right)^{2\\ }=170\\left\\{10<z<102.5\\right\\}"
+      ],
+      "example_normalized": [
+        "(x+37)^{2}+(y+37)^{2}=170{10<z<102.5}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "eac158d64fd284c4",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "148"
+      ],
+      "example_latex": [
+        "((x-350)^2)/16 + ((y-50)^2)/16 + ((z-6)^2)/36 = 1"
+      ],
+      "example_normalized": [
+        "((x-350)^2)/16+((y-50)^2)/16+((z-6)^2)/36=1"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "eac21513b1afe776",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "164"
+      ],
+      "example_latex": [
+        "((x-130)^2)/16 + ((y+50)^2)/16 + ((z-6)^2)/36 = 1"
+      ],
+      "example_normalized": [
+        "((x-130)^2)/16+((y+50)^2)/16+((z-6)^2)/36=1"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "ec1985ad601bc954",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "147"
+      ],
+      "example_latex": [
+        "((x-330)^2)/16 + ((y-50)^2)/16 + ((z-6)^2)/36 = 1"
+      ],
+      "example_normalized": [
+        "((x-330)^2)/16+((y-50)^2)/16+((z-6)^2)/36=1"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "ef689e18538ddc78",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "166"
+      ],
+      "example_latex": [
+        "((x-170)^2)/16 + ((y+50)^2)/16 + ((z-6)^2)/36 = 1"
+      ],
+      "example_normalized": [
+        "((x-170)^2)/16+((y+50)^2)/16+((z-6)^2)/36=1"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "f2b553fa318f2580",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "173"
+      ],
+      "example_latex": [
+        "((x-310)^2)/16 + ((y+50)^2)/16 + ((z-6)^2)/36 = 1"
+      ],
+      "example_normalized": [
+        "((x-310)^2)/16+((y+50)^2)/16+((z-6)^2)/36=1"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "f6c1cdd297e8a419",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "38"
+      ],
+      "example_latex": [
+        "\\ \\left(x-t\\right)^{2}+\\left(y+f\\right)^{2\\ }=5\\ \\left\\{10<z<120\\right\\}"
+      ],
+      "example_normalized": [
+        "(x-t)^{2}+(y+f)^{2}=5{10<z<120}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    }
+  ],
+  "diagnostics": [
+    {
+      "severity": "INFO",
+      "code": "COVERAGE_COMPLETE",
+      "message": "Coverage report complete",
+      "source_ref": null,
+      "details": {
+        "file": "[4B] 3D Diagram - S2-04 Group G.json",
+        "meshed_expression_ids": 10,
+        "supported_but_not_meshed": 0,
+        "group_count": 89
+      }
+    }
+  ]
+}

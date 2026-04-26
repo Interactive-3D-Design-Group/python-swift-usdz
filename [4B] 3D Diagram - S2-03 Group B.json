@@ -1,0 +1,128 @@
+{
+  "version": 11,
+  "randomSeed": "306675680316475aeeb4f76092a2857c",
+  "graph": {
+    "viewport": {
+      "xmin": -36.82684179764464,
+      "ymin": -43.613799281632375,
+      "zmin": -45.88072034436584,
+      "xmax": 57.51574003402937,
+      "ymax": 50.728782550041025,
+      "zmax": 48.46186148730756
+    },
+    "worldRotation3D": [
+      -0.012009678931698414,
+      0.9982747000297314,
+      -0.05747513281880589,
+      -0.20418393036528504,
+      -0.05871646515741333,
+      -0.9771700462560432,
+      -0.9788588714378493,
+      3.021201394916642e-15,
+      0.20453681773083998
+    ],
+    "axis3D": [
+      -0.9982747000336939,
+      0.05871646515771114,
+      -1.2424617528130897e-13
+    ],
+    "speed3D": 0.4684399692204422,
+    "product": "graphing-3d",
+    "threeDMode": true,
+    "__v12ViewportLatexStash": {
+      "xmin": "-36.82684179764464",
+      "xmax": "57.51574003402937",
+      "ymin": "-43.613799281632375",
+      "ymax": "50.728782550041025",
+      "zmin": "-45.88072034436584",
+      "zmax": "48.46186148730756"
+    }
+  },
+  "expressions": {
+    "list": [
+      {
+        "type": "expression",
+        "id": "110",
+        "color": "#aaaaaa",
+        "latex": "z=-0.5*(0.5*(x-12.5))^{2}-0.5*(y-8)^{2}+10\\left\\{x>11.7\\right\\}\\left\\{y>-8\\right\\}\\left\\{z>3\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "119",
+        "color": "#aaaaaa",
+        "latex": "z=-0.5*(0.5(x-25))^{2}-0.5*(y-8)^{2}+10\\left\\{x<25.8\\right\\}\\left\\{y>2\\right\\}\\left\\{z>3\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "120",
+        "color": "#aaaaaa",
+        "latex": "z=-0.5*(0.5(x-32))^{2}-0.5*(y-8)^{2}+10\\left\\{x<32.8\\right\\}\\left\\{y>2\\right\\}\\left\\{z>3\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "121",
+        "color": "#aaaaaa",
+        "latex": "z=-0.8*(0.5(x-38))^{2}-0.8*(y-8)^{2}+7.5\\left\\{x<38.8\\right\\}\\left\\{y>2\\right\\}\\left\\{z>3\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "123",
+        "color": "#2d70b3",
+        "latex": "0<z<2\\left\\{-10<y<20\\right\\}\\left\\{-10<x<45\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "127",
+        "color": "#aaaaaa",
+        "latex": "z=-0.8*(0.5*(x-13.5))^{2}-0.8*(y-1)^{2}+9.5\\left\\{x>13.5\\right\\}\\left\\{z>3\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "130",
+        "color": "#aaaaaa",
+        "latex": "z=-0.5*(0.5(x-39-0.4*(y-1)))^{2}-0.8*(y-1)^{2}+7.5\\left\\{x-0.4*(y-1)<38.8\\right\\}\\left\\{z>3\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "131",
+        "color": "#aaaaaa",
+        "latex": "z=-0.5*(0.5(x-32-0.4*(y-1)))^{2}-0.5*(y-1)^{2}+10\\left\\{x-0.4*(y-1)<32.8\\right\\}\\left\\{z>3\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "132",
+        "color": "#aaaaaa",
+        "latex": "z=-0.5*(0.5(x-25-1*(y-1)))^{2}-0.5*(y-1)^{2}+10\\left\\{x-0.4*(y-1)<25.8\\right\\}\\left\\{z>3\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "134",
+        "color": "#aaaaaa",
+        "latex": "z=-0.3(0.5(x\\cos(a)-y\\sin(a)+5))^{2}-0.8(x\\sin(a)+y\\cos(a)-8)^{2}+9\\left\\{x\\cos(a)-y\\sin(a)>-5\\right\\}\\left\\{x\\sin(a)+y\\cos(a)>0\\right\\}\\left\\{z>2\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "135",
+        "color": "#388c46",
+        "latex": "a=0.07",
+        "hidden": true
+      },
+      {
+        "type": "expression",
+        "id": "136",
+        "color": "#fa7e19",
+        "latex": "2<z<4\\left\\{-5<y<15\\right\\}\\left\\{-6<x<39\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "149",
+        "color": "#2d70b3",
+        "latex": "40\\le x\\le50-0.05y^{2}\\left\\{-10\\le y<30\\right\\}\\left\\{0\\le z\\le2\\right\\}",
+        "extendTo3D": true
+      }
+    ]
+  },
+  "includeFunctionParametersInRandomSeed": true,
+  "doNotMigrate3dLineWidthZero": true,
+  "doNotMigrateMovablePointStyle": true
+}

@@ -1,0 +1,1061 @@
+{
+  "source_file": "[4B] 3D Diagram - S2-09 Group G.json",
+  "total_items": 94,
+  "total_expressions": 91,
+  "meshed_expression_count": 40,
+  "supported_expression_count": 40,
+  "supported_but_not_meshed_count": 0,
+  "recognized_unsupported_count": 44,
+  "unrecognized_count": 3,
+  "geometry_ineligible_count": 4,
+  "groups": [
+    {
+      "fingerprint": "078cc90360eeeb74",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "31"
+      ],
+      "example_latex": [
+        "27<x<28\\left\\{\\operatorname{abs}\\left(y\\right)<28\\right\\}\\left\\{2<z<4\\right\\}"
+      ],
+      "example_normalized": [
+        "27<x<28{operatorname{abs}(y)<28}{2<z<4}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "0b93706180535384",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "66"
+      ],
+      "example_latex": [
+        "23.5<x<24.5\\left\\{\\operatorname{abs}\\left(y\\right)<24.5\\right\\}\\left\\{19<z<28\\right\\}"
+      ],
+      "example_normalized": [
+        "23.5<x<24.5{operatorname{abs}(y)<24.5}{19<z<28}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "113d82ea9fb209bf",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "287"
+      ],
+      "example_latex": [
+        "5(1-(x^{2}+y^{2})/900)^{2}+44>z\\left\\{\\operatorname{abs}\\left(x\\right)<20\\right\\}\\left\\{\\operatorname{abs}\\left(y\\right)<20\\right\\}>5(1-(x^{2}+y^{2})/900)^{2}+43"
+      ],
+      "example_normalized": [
+        "5(1-(x^{2}+y^{2})/900)^{2}+44>z{operatorname{abs}(x)<20}{operatorname{abs}(y)<20}>5(1-(x^{2}+y^{2})/900)^{2}+43"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "1350aa70e6b3c6e3",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "77"
+      ],
+      "example_latex": [
+        "\\operatorname{abs}\\left(x\\right)<30\\left\\{28<y<29\\right\\}\\left\\{19<z<21\\right\\}"
+      ],
+      "example_normalized": [
+        "operatorname{abs}(x)<30{28<y<29}{19<z<21}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "1a5762f2dfe4f139",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "285"
+      ],
+      "example_latex": [
+        "42<z<45-0.1\\operatorname{abs}\\left(x\\right)\\left\\{z<45-0.1\\operatorname{abs}\\left(y\\right)\\right\\}\\left\\{\\operatorname{abs}(x)<20\\right\\}\\left\\{\\operatorname{abs}(y)<20\\right\\}"
+      ],
+      "example_normalized": [
+        "42<z<45-0.1operatorname{abs}(x){z<45-0.1operatorname{abs}(y)}{operatorname{abs}(x)<20}{operatorname{abs}(y)<20}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "1f238a9ffd9d5e34",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "281"
+      ],
+      "example_latex": [
+        "-10<y<-6\\left\\{-12>x>-12.5\\right\\}\\left\\{34.5<z<37.5+\\sqrt{2^{2}-(y+8)^{2}}\\right\\}"
+      ],
+      "example_normalized": [
+        "-10<y<-6{-12>x>-12.5}{34.5<z<37.5+sqrt{2^{2}-(y+8)^{2}}}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "2189f79533e33ec5",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "251"
+      ],
+      "example_latex": [
+        "\\operatorname{abs}\\left(x\\right)<15.5\\left\\{-14.5>y>-15.5\\right\\}\\left\\{32<z<33\\right\\}"
+      ],
+      "example_normalized": [
+        "operatorname{abs}(x)<15.5{-14.5>y>-15.5}{32<z<33}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "2ac547bd08e5bcc0",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "290"
+      ],
+      "example_latex": [
+        "0(1-(x^{2}+y^{2})/900)^{2}+44>z\\left\\{\\operatorname{abs}\\left(x\\right)<20\\right\\}\\left\\{\\operatorname{abs}\\left(y\\right)<20\\right\\}>0(1-(x^{2}+y^{2})/900)^{2}+43"
+      ],
+      "example_normalized": [
+        "0(1-(x^{2}+y^{2})/900)^{2}+44>z{operatorname{abs}(x)<20}{operatorname{abs}(y)<20}>0(1-(x^{2}+y^{2})/900)^{2}+43"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "2e73b12125332a69",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "30"
+      ],
+      "example_latex": [
+        "\\operatorname{abs}\\left(x\\right)<28\\left\\{-27>y>-28\\right\\}\\left\\{2<z<4\\right\\}"
+      ],
+      "example_normalized": [
+        "operatorname{abs}(x)<28{-27>y>-28}{2<z<4}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "3ee52e239859f940",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "36"
+      ],
+      "example_latex": [
+        "-23.5>x>-24.5\\left\\{\\operatorname{abs}\\left(y\\right)<24.5\\right\\}\\left\\{14<z<18\\right\\}"
+      ],
+      "example_normalized": [
+        "-23.5>x>-24.5{operatorname{abs}(y)<24.5}{14<z<18}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "401788fff1396501",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "263"
+      ],
+      "example_latex": [
+        "\\operatorname{abs}\\left(x\\right)<4\\left\\{-12>y>-12.5\\right\\}\\left\\{32<z<39.5\\right\\}"
+      ],
+      "example_normalized": [
+        "operatorname{abs}(x)<4{-12>y>-12.5}{32<z<39.5}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "4afdd6cfac7c4bdd",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "275"
+      ],
+      "example_latex": [
+        "10>x>6\\left\\{-12>y>-12.5\\right\\}\\left\\{34.5<z<37.5+\\sqrt{2^{2}-(x-8)^{2}}\\right\\}"
+      ],
+      "example_normalized": [
+        "10>x>6{-12>y>-12.5}{34.5<z<37.5+sqrt{2^{2}-(x-8)^{2}}}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "4dc769c180b771f4",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "261"
+      ],
+      "example_latex": [
+        "\\operatorname{abs}\\left(x\\right)<4\\left\\{12<y<12.5\\right\\}\\left\\{32<z<39.5\\right\\}"
+      ],
+      "example_normalized": [
+        "operatorname{abs}(x)<4{12<y<12.5}{32<z<39.5}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "4f4ea94fb2cc9295",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "265"
+      ],
+      "example_latex": [
+        "12<x<12.5\\left\\{\\operatorname{abs}\\left(y\\right)<4\\right\\}\\left\\{32<z<39.5\\right\\}"
+      ],
+      "example_normalized": [
+        "12<x<12.5{operatorname{abs}(y)<4}{32<z<39.5}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "522b335a8e594f72",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "249"
+      ],
+      "example_latex": [
+        "\\operatorname{abs}\\left(x\\right)<16\\left\\{\\operatorname{abs}\\left(y\\right)<16\\right\\}\\left\\{28<z<32\\right\\}"
+      ],
+      "example_normalized": [
+        "operatorname{abs}(x)<16{operatorname{abs}(y)<16}{28<z<32}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "5553ae3249067534",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "2"
+      ],
+      "example_latex": [
+        "\\operatorname{abs}\\left(x\\right)<30\\left\\{\\operatorname{abs}\\left(y\\right)<30\\right\\}\\left\\{0<z<2\\right\\}"
+      ],
+      "example_normalized": [
+        "operatorname{abs}(x)<30{operatorname{abs}(y)<30}{0<z<2}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "56275d1d1579492c",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "267"
+      ],
+      "example_latex": [
+        "-12>x>-12.5\\left\\{\\operatorname{abs}\\left(y\\right)<4\\right\\}\\left\\{32<z<39.5\\right\\}"
+      ],
+      "example_normalized": [
+        "-12>x>-12.5{operatorname{abs}(y)<4}{32<z<39.5}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "5897b66794e53d1b",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "32"
+      ],
+      "example_latex": [
+        "-27>x>-28\\left\\{\\operatorname{abs}\\left(y\\right)<28\\right\\}\\left\\{2<z<4\\right\\}"
+      ],
+      "example_normalized": [
+        "-27>x>-28{operatorname{abs}(y)<28}{2<z<4}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "6712641220e14d7e",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "271"
+      ],
+      "example_latex": [
+        "10>x>6\\left\\{12<y<12.5\\right\\}\\left\\{34.5<z<37.5+\\sqrt{2^{2}-(x-8)^{2}}\\right\\}"
+      ],
+      "example_normalized": [
+        "10>x>6{12<y<12.5}{34.5<z<37.5+sqrt{2^{2}-(x-8)^{2}}}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "6cfe6873556e9945",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "52"
+      ],
+      "example_latex": [
+        "\\operatorname{abs}\\left(x\\right)<30\\left\\{\\operatorname{abs}\\left(y\\right)<30\\right\\}\\left\\{18<z<18.5\\right\\}"
+      ],
+      "example_normalized": [
+        "operatorname{abs}(x)<30{operatorname{abs}(y)<30}{18<z<18.5}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "6d9c235711297888",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "51"
+      ],
+      "example_latex": [
+        "\\operatorname{abs}\\left(x\\right)<24.5\\left\\{23.5<y<24.5\\right\\}\\left\\{2<z<14\\right\\}"
+      ],
+      "example_normalized": [
+        "operatorname{abs}(x)<24.5{23.5<y<24.5}{2<z<14}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "7b1c35566d24182a",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "257"
+      ],
+      "example_latex": [
+        "14.5<x<15.5\\left\\{\\operatorname{abs}\\left(y\\right)<15.5\\right\\}\\left\\{32<z<33\\right\\}"
+      ],
+      "example_normalized": [
+        "14.5<x<15.5{operatorname{abs}(y)<15.5}{32<z<33}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "7b62d3da8e360143",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "55"
+      ],
+      "example_latex": [
+        "\\operatorname{abs}\\left(x\\right)<30\\left\\{-28>y>-29\\right\\}\\left\\{19<z<21\\right\\}"
+      ],
+      "example_normalized": [
+        "operatorname{abs}(x)<30{-28>y>-29}{19<z<21}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "826d550776a578b0",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "246"
+      ],
+      "example_latex": [
+        "2(1-(x^{2}+y^{2})/900)^{2}+30\\left\\{x^{2}+y^{2}>15^{2}\\right\\}>z\\left\\{\\operatorname{abs}\\left(x\\right)<30\\right\\}\\left\\{\\operatorname{abs}\\left(y\\right)<30\\right\\}>1(1-(x^{2}+y^{2})/900)^{2}+29\\left\\{x^{2}+y^{2}>15^{2}\\right\\}"
+      ],
+      "example_normalized": [
+        "2(1-(x^{2}+y^{2})/900)^{2}+30{x^{2}+y^{2}>15^{2}}>z{operatorname{abs}(x)<30}{operatorname{abs}(y)<30}>1(1-(x^{2}+y^{2})/900)^{2}+29{x^{2}+y^{2}>15^{2}}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "8548624518311e3c",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "61"
+      ],
+      "example_latex": [
+        "\\operatorname{abs}\\left(x+24\\right)<0.75\\left\\{\\operatorname{abs}\\left(y+24\\right)<0.75\\right\\}\\left\\{19<z<28\\right\\}"
+      ],
+      "example_normalized": [
+        "operatorname{abs}(x+24)<0.75{operatorname{abs}(y+24)<0.75}{19<z<28}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 1,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "8860288342069a84",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "259"
+      ],
+      "example_latex": [
+        "\\operatorname{abs}\\left(x\\right)<12\\left\\{\\operatorname{abs}\\left(y\\right)<12\\right\\}\\left\\{32<z<42\\right\\}"
+      ],
+      "example_normalized": [
+        "operatorname{abs}(x)<12{operatorname{abs}(y)<12}{32<z<42}"
+      ],
+      "flags": {
+        "lines": 1,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "96ce234ce0b211c9",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "47"
+      ],
+      "example_latex": [
+        "\\operatorname{abs}\\left(x\\right)<24.5\\left\\{-13.5>y>-14.5\\right\\}\\left\\{2<z<6\\right\\}"
+      ],
+      "example_normalized": [
+        "operatorname{abs}(x)<24.5{-13.5>y>-14.5}{2<z<6}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "98625ecb4b5d9769",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "277"
+      ],
+      "example_latex": [
+        "-10<y<-6\\left\\{12<x<12.5\\right\\}\\left\\{34.5<z<37.5+\\sqrt{2^{2}-(y+8)^{2}}\\right\\}"
+      ],
+      "example_normalized": [
+        "-10<y<-6{12<x<12.5}{34.5<z<37.5+sqrt{2^{2}-(y+8)^{2}}}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "9cc3f1c9a505178a",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "279"
+      ],
+      "example_latex": [
+        "10>y>6\\left\\{12<x<12.5\\right\\}\\left\\{34.5<z<37.5+\\sqrt{2^{2}-(y-8)^{2}}\\right\\}"
+      ],
+      "example_normalized": [
+        "10>y>6{12<x<12.5}{34.5<z<37.5+sqrt{2^{2}-(y-8)^{2}}}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "b184b9b6dd7d42da",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "33"
+      ],
+      "example_latex": [
+        "\\operatorname{abs}\\left(x\\right)<24.5\\left\\{23.5<y<24.5\\right\\}\\left\\{14<z<18\\right\\}"
+      ],
+      "example_normalized": [
+        "operatorname{abs}(x)<24.5{23.5<y<24.5}{14<z<18}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 1,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "b5ba979f647deacb",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "255"
+      ],
+      "example_latex": [
+        "-14.5>x>-15.5\\left\\{\\operatorname{abs}\\left(y\\right)<15.5\\right\\}\\left\\{32<z<33\\right\\}"
+      ],
+      "example_normalized": [
+        "-14.5>x>-15.5{operatorname{abs}(y)<15.5}{32<z<33}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "b8d4593d83f3ad4d",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "34"
+      ],
+      "example_latex": [
+        "\\operatorname{abs}\\left(x\\right)<24.5\\left\\{-23.5>y>-24.5\\right\\}\\left\\{14<z<18\\right\\}"
+      ],
+      "example_normalized": [
+        "operatorname{abs}(x)<24.5{-23.5>y>-24.5}{14<z<18}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "ba5efc13824cb9f7",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "314"
+      ],
+      "example_latex": [
+        "\\operatorname{abs}\\left(x\\right)<30\\left\\{\\operatorname{abs}\\left(y\\right)<30\\right\\}\\left\\{18.5<z<19\\right\\}"
+      ],
+      "example_normalized": [
+        "operatorname{abs}(x)<30{operatorname{abs}(y)<30}{18.5<z<19}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "bf28a4697b670559",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "273"
+      ],
+      "example_latex": [
+        "-10<x<-6\\left\\{-12>y>-12.5\\right\\}\\left\\{34.5<z<37.5+\\sqrt{2^{2}-(x+8)^{2}}\\right\\}"
+      ],
+      "example_normalized": [
+        "-10<x<-6{-12>y>-12.5}{34.5<z<37.5+sqrt{2^{2}-(x+8)^{2}}}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "c5062f91d2734ada",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "63"
+      ],
+      "example_latex": [
+        "\\operatorname{abs}\\left(x+12\\right)<0.75\\left\\{\\operatorname{abs}\\left(y+24\\right)<0.75\\right\\}\\left\\{19<z<28\\right\\}"
+      ],
+      "example_normalized": [
+        "operatorname{abs}(x+12)<0.75{operatorname{abs}(y+24)<0.75}{19<z<28}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 1,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "c76b5627dbe1eda0",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "35"
+      ],
+      "example_latex": [
+        "23.5<x<24.5\\left\\{\\operatorname{abs}\\left(y\\right)<24.5\\right\\}\\left\\{14<z<18\\right\\}"
+      ],
+      "example_normalized": [
+        "23.5<x<24.5{operatorname{abs}(y)<24.5}{14<z<18}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "cb6b3599fb046cce",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "57"
+      ],
+      "example_latex": [
+        "-28>x>-29\\left\\{\\operatorname{abs}\\left(y\\right)<30\\right\\}\\left\\{19<z<21\\right\\}"
+      ],
+      "example_normalized": [
+        "-28>x>-29{operatorname{abs}(y)<30}{19<z<21}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "cf48c2eb3459f200",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "283"
+      ],
+      "example_latex": [
+        "10>y>6\\left\\{-12>x>-12.5\\right\\}\\left\\{34.5<z<37.5+\\sqrt{2^{2}-(y-8)^{2}}\\right\\}"
+      ],
+      "example_normalized": [
+        "10>y>6{-12>x>-12.5}{34.5<z<37.5+sqrt{2^{2}-(y-8)^{2}}}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "d71adb23a932586b",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "248"
+      ],
+      "example_latex": [
+        "28<z<29\\left\\{\\operatorname{abs}\\left(x\\right)<30\\right\\}\\left\\{\\operatorname{abs}\\left(y\\right)<30\\right\\}"
+      ],
+      "example_normalized": [
+        "28<z<29{operatorname{abs}(x)<30}{operatorname{abs}(y)<30}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 1,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "dc7531d2dd7d4072",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "67"
+      ],
+      "example_latex": [
+        "\\operatorname{abs}\\left(x\\right)<24.5\\left\\{23.5<y<24.5\\right\\}\\left\\{19<z<28\\right\\}"
+      ],
+      "example_normalized": [
+        "operatorname{abs}(x)<24.5{23.5<y<24.5}{19<z<28}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "eba0d774daaced15",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "253"
+      ],
+      "example_latex": [
+        "\\operatorname{abs}\\left(x\\right)<15.5\\left\\{14.5<y<15.5\\right\\}\\left\\{32<z<33\\right\\}"
+      ],
+      "example_normalized": [
+        "operatorname{abs}(x)<15.5{14.5<y<15.5}{32<z<33}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "ece5d309d27fd614",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "29"
+      ],
+      "example_latex": [
+        "\\operatorname{abs}\\left(x\\right)<28\\left\\{27<y<28\\right\\}\\left\\{2<z<4\\right\\}"
+      ],
+      "example_normalized": [
+        "operatorname{abs}(x)<28{27<y<28}{2<z<4}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "f4fcfe3e99fc79ff",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "56"
+      ],
+      "example_latex": [
+        "28<x<29\\left\\{\\operatorname{abs}\\left(y\\right)<30\\right\\}\\left\\{19<z<21\\right\\}"
+      ],
+      "example_normalized": [
+        "28<x<29{operatorname{abs}(y)<30}{19<z<21}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "fb2026cbd2e1c3b4",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "269"
+      ],
+      "example_latex": [
+        "-10<x<-6\\left\\{12<y<12.5\\right\\}\\left\\{34.5<z<37.5+\\sqrt{2^{2}-(x+8)^{2}}\\right\\}"
+      ],
+      "example_normalized": [
+        "-10<x<-6{12<y<12.5}{34.5<z<37.5+sqrt{2^{2}-(x+8)^{2}}}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "016c9072673812c8",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "321"
+      ],
+      "example_latex": [
+        "\\operatorname{sphere}\\left(\\left(-1,\\ 0,\\ 55\\right),\\ 1.5\\right)"
+      ],
+      "example_normalized": [
+        "operatorname{sphere}((-1,0,55),1.5)"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "55afea104ca8cda6",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "330"
+      ],
+      "example_latex": [
+        "\\operatorname{sphere}\\left(\\left(0,\\ -1,\\ 58.6\\right),0.4\\right)"
+      ],
+      "example_normalized": [
+        "operatorname{sphere}((0,-1,58.6),0.4)"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "96b4a1819ce4ef65",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "323"
+      ],
+      "example_latex": [
+        "\\operatorname{sphere}\\left(\\left(-1,\\ 0,\\ 58\\right),\\ 0.8\\right)"
+      ],
+      "example_normalized": [
+        "operatorname{sphere}((-1,0,58),0.8)"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    }
+  ],
+  "diagnostics": [
+    {
+      "severity": "INFO",
+      "code": "COVERAGE_COMPLETE",
+      "message": "Coverage report complete",
+      "source_ref": null,
+      "details": {
+        "file": "[4B] 3D Diagram - S2-09 Group G.json",
+        "meshed_expression_ids": 40,
+        "supported_but_not_meshed": 0,
+        "group_count": 47
+      }
+    }
+  ]
+}

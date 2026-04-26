@@ -1,0 +1,46 @@
+{
+  "source_file": "[4B] 3D Diagram - S2-02 Group E.json",
+  "total_expressions": 62,
+  "supported_count": 53,
+  "recognized_unsupported_count": 0,
+  "unrecognized_count": 1,
+  "geometry_ineligible_count": 8,
+  "per_folder_summary": [
+    {
+      "folder_id": null,
+      "folder_name": null,
+      "total": 62,
+      "supported": 53,
+      "recognized_unsupported": 0,
+      "unrecognized": 1,
+      "geometry_ineligible": 8
+    }
+  ],
+  "unsupported_expressions": [
+    {
+      "expression_id": "64",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "fc17d04a899a37ac",
+      "latex": "\\frac{x^{2}}{2.46^{2}}+\\frac{y^{2}}{3^{2}}+\\frac{\\left(z-5\\right)^{2}}{2.9^{2}}=1\\left\\{5\\le z\\le10\\right\\}",
+      "normalized_latex": "frac{x^2}{2.46^2}+frac{y^2}{3^2}+frac{(z-5)^2}{2.9^2}=1{5<=z<=10}"
+    }
+  ],
+  "unknown_fingerprints": [
+    "fc17d04a899a37ac"
+  ],
+  "diagnostics": [
+    {
+      "severity": "INFO",
+      "code": "AUDIT_COMPLETE",
+      "message": "Audit classification complete",
+      "source_ref": null,
+      "details": {
+        "file": "[4B] 3D Diagram - S2-02 Group E.json"
+      }
+    }
+  ],
+  "status": "PARTIAL"
+}

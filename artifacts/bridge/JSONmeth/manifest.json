@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "mesh_count": 442,
+  "mesh_count": 559,
   "failed_mesh_count": 0,
   "meshes": [
     {
@@ -80,6 +80,346 @@
           25.0,
           8.0,
           40.0
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_166",
+      "obj_file": "meshes/JSONmeth_166.obj",
+      "color": "#6042a6",
+      "source_file": "JSONmeth.json",
+      "expression_id": "166",
+      "family": "PARAMETRIC_T_CURVE",
+      "bounds": {
+        "min": [
+          15.0,
+          7.6232140372181245,
+          39.623214037218126
+        ],
+        "max": [
+          25.0,
+          8.376785962781875,
+          40.376785962781874
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_167",
+      "obj_file": "meshes/JSONmeth_167.obj",
+      "color": "#6042a6",
+      "source_file": "JSONmeth.json",
+      "expression_id": "167",
+      "family": "PARAMETRIC_T_CURVE",
+      "bounds": {
+        "min": [
+          15.0,
+          7.6232140372181245,
+          8.623214037218125
+        ],
+        "max": [
+          25.0,
+          8.376785962781875,
+          9.376785962781875
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_168",
+      "obj_file": "meshes/JSONmeth_168.obj",
+      "color": "#6042a6",
+      "source_file": "JSONmeth.json",
+      "expression_id": "168",
+      "family": "PARAMETRIC_T_CURVE",
+      "bounds": {
+        "min": [
+          15.0,
+          -8.376785962781875,
+          39.623214037218126
+        ],
+        "max": [
+          25.0,
+          -7.6232140372181245,
+          40.376785962781874
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_169",
+      "obj_file": "meshes/JSONmeth_169.obj",
+      "color": "#6042a6",
+      "source_file": "JSONmeth.json",
+      "expression_id": "169",
+      "family": "PARAMETRIC_T_CURVE",
+      "bounds": {
+        "min": [
+          14.962508395428298,
+          -8.376785962781875,
+          8.625083954282957
+        ],
+        "max": [
+          25.037491604571702,
+          -7.6232140372181245,
+          10.374916045717043
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_170",
+      "obj_file": "meshes/JSONmeth_170.obj",
+      "color": "#6042a6",
+      "source_file": "JSONmeth.json",
+      "expression_id": "170",
+      "family": "PARAMETRIC_T_CURVE",
+      "bounds": {
+        "min": [
+          24.623214037218123,
+          7.6232140372181245,
+          9.0
+        ],
+        "max": [
+          25.376785962781877,
+          8.376785962781875,
+          40.0
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_171",
+      "obj_file": "meshes/JSONmeth_171.obj",
+      "color": "#6042a6",
+      "source_file": "JSONmeth.json",
+      "expression_id": "171",
+      "family": "PARAMETRIC_T_CURVE",
+      "bounds": {
+        "min": [
+          14.623214037218125,
+          7.6232140372181245,
+          9.0
+        ],
+        "max": [
+          15.376785962781875,
+          8.376785962781875,
+          40.0
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_172",
+      "obj_file": "meshes/JSONmeth_172.obj",
+      "color": "#6042a6",
+      "source_file": "JSONmeth.json",
+      "expression_id": "172",
+      "family": "PARAMETRIC_T_CURVE",
+      "bounds": {
+        "min": [
+          14.623214037218125,
+          -8.376785962781875,
+          9.0
+        ],
+        "max": [
+          15.376785962781875,
+          -7.6232140372181245,
+          40.0
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_173",
+      "obj_file": "meshes/JSONmeth_173.obj",
+      "color": "#6042a6",
+      "source_file": "JSONmeth.json",
+      "expression_id": "173",
+      "family": "PARAMETRIC_T_CURVE",
+      "bounds": {
+        "min": [
+          24.623214037218123,
+          -8.0,
+          8.623214037218125
+        ],
+        "max": [
+          25.376785962781877,
+          8.0,
+          9.376785962781875
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_175",
+      "obj_file": "meshes/JSONmeth_175.obj",
+      "color": "#6042a6",
+      "source_file": "JSONmeth.json",
+      "expression_id": "175",
+      "family": "PARAMETRIC_T_CURVE",
+      "bounds": {
+        "min": [
+          24.623214037218123,
+          -8.0,
+          39.623214037218126
+        ],
+        "max": [
+          25.376785962781877,
+          8.0,
+          40.376785962781874
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_174",
+      "obj_file": "meshes/JSONmeth_174.obj",
+      "color": "#6042a6",
+      "source_file": "JSONmeth.json",
+      "expression_id": "174",
+      "family": "PARAMETRIC_T_CURVE",
+      "bounds": {
+        "min": [
+          24.623214037218123,
+          -8.376785962781875,
+          10.0
+        ],
+        "max": [
+          25.376785962781877,
+          -7.6232140372181245,
+          40.0
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_176",
+      "obj_file": "meshes/JSONmeth_176.obj",
+      "color": "#6042a6",
+      "source_file": "JSONmeth.json",
+      "expression_id": "176",
+      "family": "PARAMETRIC_T_CURVE",
+      "bounds": {
+        "min": [
+          14.623214037218125,
+          -8.0,
+          39.623214037218126
+        ],
+        "max": [
+          15.376785962781875,
+          8.0,
+          40.376785962781874
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_177",
+      "obj_file": "meshes/JSONmeth_177.obj",
+      "color": "#6042a6",
+      "source_file": "JSONmeth.json",
+      "expression_id": "177",
+      "family": "PARAMETRIC_T_CURVE",
+      "bounds": {
+        "min": [
+          14.623214037218125,
+          7.6232140372181245,
+          9.0
+        ],
+        "max": [
+          15.376785962781875,
+          8.376785962781875,
+          40.0
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_178",
+      "obj_file": "meshes/JSONmeth_178.obj",
+      "color": "#6042a6",
+      "source_file": "JSONmeth.json",
+      "expression_id": "178",
+      "family": "PARAMETRIC_T_CURVE",
+      "bounds": {
+        "min": [
+          14.623214037218125,
+          -8.0,
+          8.623214037218125
+        ],
+        "max": [
+          15.376785962781875,
+          8.0,
+          9.376785962781875
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_940",
+      "obj_file": "meshes/JSONmeth_940.obj",
+      "color": "#aaaaaa",
+      "source_file": "JSONmeth.json",
+      "expression_id": "940",
+      "family": "TRIANGLE_CALL",
+      "bounds": {
+        "min": [
+          -25.0,
+          0.0,
+          40.0
+        ],
+        "max": [
+          -15.0,
+          8.0,
+          50.0
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_941",
+      "obj_file": "meshes/JSONmeth_941.obj",
+      "color": "#2d70b3",
+      "source_file": "JSONmeth.json",
+      "expression_id": "941",
+      "family": "TRIANGLE_CALL",
+      "bounds": {
+        "min": [
+          -25.0,
+          -8.0,
+          40.0
+        ],
+        "max": [
+          -15.0,
+          0.0,
+          50.0
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_942",
+      "obj_file": "meshes/JSONmeth_942.obj",
+      "color": "#aaaaaa",
+      "source_file": "JSONmeth.json",
+      "expression_id": "942",
+      "family": "TRIANGLE_CALL",
+      "bounds": {
+        "min": [
+          -20.0,
+          -8.0,
+          40.0
+        ],
+        "max": [
+          -15.0,
+          8.0,
+          50.0
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_943",
+      "obj_file": "meshes/JSONmeth_943.obj",
+      "color": "#aaaaaa",
+      "source_file": "JSONmeth.json",
+      "expression_id": "943",
+      "family": "TRIANGLE_CALL",
+      "bounds": {
+        "min": [
+          -25.0,
+          -8.0,
+          40.0
+        ],
+        "max": [
+          -20.0,
+          8.0,
+          50.0
         ]
       }
     },
@@ -244,6 +584,86 @@
       }
     },
     {
+      "name": "JSONmeth_1009",
+      "obj_file": "meshes/JSONmeth_1009.obj",
+      "color": "#2d70b3",
+      "source_file": "JSONmeth.json",
+      "expression_id": "1009",
+      "family": "TRIANGLE_CALL",
+      "bounds": {
+        "min": [
+          -22.0,
+          8.0,
+          42.5
+        ],
+        "max": [
+          -18.0,
+          8.0,
+          46.5
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_1010",
+      "obj_file": "meshes/JSONmeth_1010.obj",
+      "color": "#388c46",
+      "source_file": "JSONmeth.json",
+      "expression_id": "1010",
+      "family": "TRIANGLE_CALL",
+      "bounds": {
+        "min": [
+          -22.0,
+          -8.0,
+          42.5
+        ],
+        "max": [
+          -18.0,
+          -8.0,
+          46.5
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_1011",
+      "obj_file": "meshes/JSONmeth_1011.obj",
+      "color": "#6042a6",
+      "source_file": "JSONmeth.json",
+      "expression_id": "1011",
+      "family": "TRIANGLE_CALL",
+      "bounds": {
+        "min": [
+          -25.0,
+          -3.0,
+          42.0
+        ],
+        "max": [
+          -25.0,
+          3.0,
+          46.5
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_1012",
+      "obj_file": "meshes/JSONmeth_1012.obj",
+      "color": "#aaaaaa",
+      "source_file": "JSONmeth.json",
+      "expression_id": "1012",
+      "family": "TRIANGLE_CALL",
+      "bounds": {
+        "min": [
+          -15.0,
+          -3.0,
+          42.0
+        ],
+        "max": [
+          -15.0,
+          3.0,
+          46.5
+        ]
+      }
+    },
+    {
       "name": "JSONmeth_1013",
       "obj_file": "meshes/JSONmeth_1013.obj",
       "color": "#c74440",
@@ -324,6 +744,86 @@
       }
     },
     {
+      "name": "JSONmeth_1021",
+      "obj_file": "meshes/JSONmeth_1021.obj",
+      "color": "#6042a6",
+      "source_file": "JSONmeth.json",
+      "expression_id": "1021",
+      "family": "TRIANGLE_CALL",
+      "bounds": {
+        "min": [
+          18.0,
+          8.0,
+          42.5
+        ],
+        "max": [
+          22.0,
+          8.0,
+          46.5
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_1022",
+      "obj_file": "meshes/JSONmeth_1022.obj",
+      "color": "#aaaaaa",
+      "source_file": "JSONmeth.json",
+      "expression_id": "1022",
+      "family": "TRIANGLE_CALL",
+      "bounds": {
+        "min": [
+          18.0,
+          -8.0,
+          42.5
+        ],
+        "max": [
+          22.0,
+          -8.0,
+          46.5
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_1023",
+      "obj_file": "meshes/JSONmeth_1023.obj",
+      "color": "#c74440",
+      "source_file": "JSONmeth.json",
+      "expression_id": "1023",
+      "family": "TRIANGLE_CALL",
+      "bounds": {
+        "min": [
+          25.0,
+          -3.0,
+          42.0
+        ],
+        "max": [
+          25.0,
+          3.0,
+          46.5
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_1024",
+      "obj_file": "meshes/JSONmeth_1024.obj",
+      "color": "#2d70b3",
+      "source_file": "JSONmeth.json",
+      "expression_id": "1024",
+      "family": "TRIANGLE_CALL",
+      "bounds": {
+        "min": [
+          15.0,
+          -3.0,
+          42.0
+        ],
+        "max": [
+          15.0,
+          3.0,
+          46.5
+        ]
+      }
+    },
+    {
       "name": "JSONmeth_1017",
       "obj_file": "meshes/JSONmeth_1017.obj",
       "color": "#aaaaaa",
@@ -400,6 +900,406 @@
           22.0,
           8.0,
           42.5
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_966",
+      "obj_file": "meshes/JSONmeth_966.obj",
+      "color": "#c74440",
+      "source_file": "JSONmeth.json",
+      "expression_id": "966",
+      "family": "TRIANGLE_CALL",
+      "bounds": {
+        "min": [
+          14.0,
+          8.0,
+          43.0
+        ],
+        "max": [
+          16.0,
+          9.5,
+          48.0
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_968",
+      "obj_file": "meshes/JSONmeth_968.obj",
+      "color": "#6042a6",
+      "source_file": "JSONmeth.json",
+      "expression_id": "968",
+      "family": "TRIANGLE_CALL",
+      "bounds": {
+        "min": [
+          13.5,
+          8.0,
+          43.0
+        ],
+        "max": [
+          15.0,
+          9.5,
+          48.0
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_969",
+      "obj_file": "meshes/JSONmeth_969.obj",
+      "color": "#aaaaaa",
+      "source_file": "JSONmeth.json",
+      "expression_id": "969",
+      "family": "TRIANGLE_CALL",
+      "bounds": {
+        "min": [
+          13.5,
+          6.5,
+          43.0
+        ],
+        "max": [
+          15.0,
+          8.0,
+          48.0
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_970",
+      "obj_file": "meshes/JSONmeth_970.obj",
+      "color": "#c74440",
+      "source_file": "JSONmeth.json",
+      "expression_id": "970",
+      "family": "TRIANGLE_CALL",
+      "bounds": {
+        "min": [
+          15.0,
+          8.0,
+          43.0
+        ],
+        "max": [
+          16.5,
+          9.5,
+          48.0
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_971",
+      "obj_file": "meshes/JSONmeth_971.obj",
+      "color": "#388c46",
+      "source_file": "JSONmeth.json",
+      "expression_id": "971",
+      "family": "TRIANGLE_CALL",
+      "bounds": {
+        "min": [
+          15.0,
+          6.5,
+          43.0
+        ],
+        "max": [
+          16.5,
+          8.0,
+          48.0
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_972",
+      "obj_file": "meshes/JSONmeth_972.obj",
+      "color": "#6042a6",
+      "source_file": "JSONmeth.json",
+      "expression_id": "972",
+      "family": "TRIANGLE_CALL",
+      "bounds": {
+        "min": [
+          24.0,
+          8.0,
+          43.0
+        ],
+        "max": [
+          26.0,
+          9.5,
+          48.0
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_979",
+      "obj_file": "meshes/JSONmeth_979.obj",
+      "color": "#aaaaaa",
+      "source_file": "JSONmeth.json",
+      "expression_id": "979",
+      "family": "TRIANGLE_CALL",
+      "bounds": {
+        "min": [
+          24.0,
+          6.5,
+          43.0
+        ],
+        "max": [
+          26.0,
+          8.0,
+          48.0
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_980",
+      "obj_file": "meshes/JSONmeth_980.obj",
+      "color": "#c74440",
+      "source_file": "JSONmeth.json",
+      "expression_id": "980",
+      "family": "TRIANGLE_CALL",
+      "bounds": {
+        "min": [
+          23.5,
+          8.0,
+          43.0
+        ],
+        "max": [
+          25.0,
+          9.5,
+          48.0
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_981",
+      "obj_file": "meshes/JSONmeth_981.obj",
+      "color": "#2d70b3",
+      "source_file": "JSONmeth.json",
+      "expression_id": "981",
+      "family": "TRIANGLE_CALL",
+      "bounds": {
+        "min": [
+          23.5,
+          6.5,
+          43.0
+        ],
+        "max": [
+          25.0,
+          8.0,
+          48.0
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_982",
+      "obj_file": "meshes/JSONmeth_982.obj",
+      "color": "#388c46",
+      "source_file": "JSONmeth.json",
+      "expression_id": "982",
+      "family": "TRIANGLE_CALL",
+      "bounds": {
+        "min": [
+          25.0,
+          8.0,
+          43.0
+        ],
+        "max": [
+          26.5,
+          9.5,
+          48.0
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_983",
+      "obj_file": "meshes/JSONmeth_983.obj",
+      "color": "#6042a6",
+      "source_file": "JSONmeth.json",
+      "expression_id": "983",
+      "family": "TRIANGLE_CALL",
+      "bounds": {
+        "min": [
+          25.0,
+          6.5,
+          43.0
+        ],
+        "max": [
+          26.5,
+          8.0,
+          48.0
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_984",
+      "obj_file": "meshes/JSONmeth_984.obj",
+      "color": "#aaaaaa",
+      "source_file": "JSONmeth.json",
+      "expression_id": "984",
+      "family": "TRIANGLE_CALL",
+      "bounds": {
+        "min": [
+          14.0,
+          -9.5,
+          43.0
+        ],
+        "max": [
+          16.0,
+          -8.0,
+          48.0
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_993",
+      "obj_file": "meshes/JSONmeth_993.obj",
+      "color": "#c74440",
+      "source_file": "JSONmeth.json",
+      "expression_id": "993",
+      "family": "TRIANGLE_CALL",
+      "bounds": {
+        "min": [
+          14.0,
+          -8.0,
+          43.0
+        ],
+        "max": [
+          16.0,
+          -6.5,
+          48.0
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_995",
+      "obj_file": "meshes/JSONmeth_995.obj",
+      "color": "#2d70b3",
+      "source_file": "JSONmeth.json",
+      "expression_id": "995",
+      "family": "TRIANGLE_CALL",
+      "bounds": {
+        "min": [
+          13.5,
+          -9.5,
+          43.0
+        ],
+        "max": [
+          15.0,
+          -8.0,
+          48.0
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_997",
+      "obj_file": "meshes/JSONmeth_997.obj",
+      "color": "#6042a6",
+      "source_file": "JSONmeth.json",
+      "expression_id": "997",
+      "family": "TRIANGLE_CALL",
+      "bounds": {
+        "min": [
+          15.0,
+          -9.5,
+          43.0
+        ],
+        "max": [
+          16.5,
+          -8.0,
+          48.0
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_998",
+      "obj_file": "meshes/JSONmeth_998.obj",
+      "color": "#aaaaaa",
+      "source_file": "JSONmeth.json",
+      "expression_id": "998",
+      "family": "TRIANGLE_CALL",
+      "bounds": {
+        "min": [
+          15.0,
+          -8.0,
+          43.0
+        ],
+        "max": [
+          16.5,
+          -6.5,
+          48.0
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_1002",
+      "obj_file": "meshes/JSONmeth_1002.obj",
+      "color": "#c74440",
+      "source_file": "JSONmeth.json",
+      "expression_id": "1002",
+      "family": "TRIANGLE_CALL",
+      "bounds": {
+        "min": [
+          24.0,
+          -8.0,
+          43.0
+        ],
+        "max": [
+          26.0,
+          -6.5,
+          48.0
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_1005",
+      "obj_file": "meshes/JSONmeth_1005.obj",
+      "color": "#2d70b3",
+      "source_file": "JSONmeth.json",
+      "expression_id": "1005",
+      "family": "TRIANGLE_CALL",
+      "bounds": {
+        "min": [
+          23.5,
+          -8.0,
+          43.0
+        ],
+        "max": [
+          25.0,
+          -6.5,
+          48.0
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_1006",
+      "obj_file": "meshes/JSONmeth_1006.obj",
+      "color": "#388c46",
+      "source_file": "JSONmeth.json",
+      "expression_id": "1006",
+      "family": "TRIANGLE_CALL",
+      "bounds": {
+        "min": [
+          25.0,
+          -9.5,
+          43.0
+        ],
+        "max": [
+          26.5,
+          -8.0,
+          48.0
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_1007",
+      "obj_file": "meshes/JSONmeth_1007.obj",
+      "color": "#6042a6",
+      "source_file": "JSONmeth.json",
+      "expression_id": "1007",
+      "family": "TRIANGLE_CALL",
+      "bounds": {
+        "min": [
+          25.0,
+          -8.0,
+          43.0
+        ],
+        "max": [
+          26.5,
+          -6.5,
+          48.0
         ]
       }
     },
@@ -564,6 +1464,326 @@
       }
     },
     {
+      "name": "JSONmeth_140",
+      "obj_file": "meshes/JSONmeth_140.obj",
+      "color": "#6042a6",
+      "source_file": "JSONmeth.json",
+      "expression_id": "140",
+      "family": "PARAMETRIC_T_CURVE",
+      "bounds": {
+        "min": [
+          -25.0,
+          7.6232140372181245,
+          39.623214037218126
+        ],
+        "max": [
+          -15.0,
+          8.376785962781875,
+          40.376785962781874
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_141",
+      "obj_file": "meshes/JSONmeth_141.obj",
+      "color": "#6042a6",
+      "source_file": "JSONmeth.json",
+      "expression_id": "141",
+      "family": "PARAMETRIC_T_CURVE",
+      "bounds": {
+        "min": [
+          -25.0,
+          7.6232140372181245,
+          8.623214037218125
+        ],
+        "max": [
+          -15.0,
+          8.376785962781875,
+          9.376785962781875
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_142",
+      "obj_file": "meshes/JSONmeth_142.obj",
+      "color": "#6042a6",
+      "source_file": "JSONmeth.json",
+      "expression_id": "142",
+      "family": "PARAMETRIC_T_CURVE",
+      "bounds": {
+        "min": [
+          -25.0,
+          -8.376785962781875,
+          39.623214037218126
+        ],
+        "max": [
+          -15.0,
+          -7.6232140372181245,
+          40.376785962781874
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_143",
+      "obj_file": "meshes/JSONmeth_143.obj",
+      "color": "#6042a6",
+      "source_file": "JSONmeth.json",
+      "expression_id": "143",
+      "family": "PARAMETRIC_T_CURVE",
+      "bounds": {
+        "min": [
+          -25.0,
+          -8.376785962781875,
+          8.623214037218125
+        ],
+        "max": [
+          -15.0,
+          -7.6232140372181245,
+          9.376785962781875
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_144",
+      "obj_file": "meshes/JSONmeth_144.obj",
+      "color": "#6042a6",
+      "source_file": "JSONmeth.json",
+      "expression_id": "144",
+      "family": "PARAMETRIC_T_CURVE",
+      "bounds": {
+        "min": [
+          -25.376785962781877,
+          7.6232140372181245,
+          9.0
+        ],
+        "max": [
+          -24.623214037218123,
+          8.376785962781875,
+          40.0
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_145",
+      "obj_file": "meshes/JSONmeth_145.obj",
+      "color": "#6042a6",
+      "source_file": "JSONmeth.json",
+      "expression_id": "145",
+      "family": "PARAMETRIC_T_CURVE",
+      "bounds": {
+        "min": [
+          -15.376785962781875,
+          7.6232140372181245,
+          9.0
+        ],
+        "max": [
+          -14.623214037218125,
+          8.376785962781875,
+          40.0
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_146",
+      "obj_file": "meshes/JSONmeth_146.obj",
+      "color": "#6042a6",
+      "source_file": "JSONmeth.json",
+      "expression_id": "146",
+      "family": "PARAMETRIC_T_CURVE",
+      "bounds": {
+        "min": [
+          -25.376785962781877,
+          -8.376785962781875,
+          9.0
+        ],
+        "max": [
+          -24.623214037218123,
+          -7.6232140372181245,
+          40.0
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_147",
+      "obj_file": "meshes/JSONmeth_147.obj",
+      "color": "#6042a6",
+      "source_file": "JSONmeth.json",
+      "expression_id": "147",
+      "family": "PARAMETRIC_T_CURVE",
+      "bounds": {
+        "min": [
+          -15.376785962781875,
+          -8.376785962781875,
+          9.0
+        ],
+        "max": [
+          -14.623214037218125,
+          -7.6232140372181245,
+          40.0
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_148",
+      "obj_file": "meshes/JSONmeth_148.obj",
+      "color": "#6042a6",
+      "source_file": "JSONmeth.json",
+      "expression_id": "148",
+      "family": "PARAMETRIC_T_CURVE",
+      "bounds": {
+        "min": [
+          -15.376785962781875,
+          -8.0,
+          39.623214037218126
+        ],
+        "max": [
+          -14.623214037218125,
+          8.0,
+          40.376785962781874
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_149",
+      "obj_file": "meshes/JSONmeth_149.obj",
+      "color": "#6042a6",
+      "source_file": "JSONmeth.json",
+      "expression_id": "149",
+      "family": "PARAMETRIC_T_CURVE",
+      "bounds": {
+        "min": [
+          -25.376785962781877,
+          -8.0,
+          39.623214037218126
+        ],
+        "max": [
+          -24.623214037218123,
+          8.0,
+          40.376785962781874
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_150",
+      "obj_file": "meshes/JSONmeth_150.obj",
+      "color": "#6042a6",
+      "source_file": "JSONmeth.json",
+      "expression_id": "150",
+      "family": "PARAMETRIC_T_CURVE",
+      "bounds": {
+        "min": [
+          -15.376785962781875,
+          -8.0,
+          8.623214037218125
+        ],
+        "max": [
+          -14.623214037218125,
+          8.0,
+          9.376785962781875
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_152",
+      "obj_file": "meshes/JSONmeth_152.obj",
+      "color": "#6042a6",
+      "source_file": "JSONmeth.json",
+      "expression_id": "152",
+      "family": "PARAMETRIC_T_CURVE",
+      "bounds": {
+        "min": [
+          -25.376785962781877,
+          -8.0,
+          8.623214037218125
+        ],
+        "max": [
+          -24.623214037218123,
+          8.0,
+          9.376785962781875
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_868",
+      "obj_file": "meshes/JSONmeth_868.obj",
+      "color": "#c74440",
+      "source_file": "JSONmeth.json",
+      "expression_id": "868",
+      "family": "TRIANGLE_CALL",
+      "bounds": {
+        "min": [
+          15.0,
+          0.0,
+          40.0
+        ],
+        "max": [
+          25.0,
+          8.0,
+          50.0
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_869",
+      "obj_file": "meshes/JSONmeth_869.obj",
+      "color": "#2d70b3",
+      "source_file": "JSONmeth.json",
+      "expression_id": "869",
+      "family": "TRIANGLE_CALL",
+      "bounds": {
+        "min": [
+          15.0,
+          -8.0,
+          40.0
+        ],
+        "max": [
+          25.0,
+          0.0,
+          50.0
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_870",
+      "obj_file": "meshes/JSONmeth_870.obj",
+      "color": "#388c46",
+      "source_file": "JSONmeth.json",
+      "expression_id": "870",
+      "family": "TRIANGLE_CALL",
+      "bounds": {
+        "min": [
+          15.0,
+          -8.0,
+          40.0
+        ],
+        "max": [
+          20.0,
+          8.0,
+          50.0
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_871",
+      "obj_file": "meshes/JSONmeth_871.obj",
+      "color": "#6042a6",
+      "source_file": "JSONmeth.json",
+      "expression_id": "871",
+      "family": "TRIANGLE_CALL",
+      "bounds": {
+        "min": [
+          20.0,
+          -8.0,
+          40.0
+        ],
+        "max": [
+          25.0,
+          8.0,
+          50.0
+        ]
+      }
+    },
+    {
       "name": "JSONmeth_908",
       "obj_file": "meshes/JSONmeth_908.obj",
       "color": "#aaaaaa",
@@ -724,6 +1944,486 @@
       }
     },
     {
+      "name": "JSONmeth_879",
+      "obj_file": "meshes/JSONmeth_879.obj",
+      "color": "#c74440",
+      "source_file": "JSONmeth.json",
+      "expression_id": "879",
+      "family": "TRIANGLE_CALL",
+      "bounds": {
+        "min": [
+          -16.0,
+          8.0,
+          43.0
+        ],
+        "max": [
+          -14.0,
+          9.5,
+          48.0
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_881",
+      "obj_file": "meshes/JSONmeth_881.obj",
+      "color": "#388c46",
+      "source_file": "JSONmeth.json",
+      "expression_id": "881",
+      "family": "TRIANGLE_CALL",
+      "bounds": {
+        "min": [
+          -16.0,
+          6.5,
+          43.0
+        ],
+        "max": [
+          -14.0,
+          8.0,
+          48.0
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_883",
+      "obj_file": "meshes/JSONmeth_883.obj",
+      "color": "#6042a6",
+      "source_file": "JSONmeth.json",
+      "expression_id": "883",
+      "family": "TRIANGLE_CALL",
+      "bounds": {
+        "min": [
+          -15.0,
+          8.0,
+          43.0
+        ],
+        "max": [
+          -13.5,
+          9.5,
+          48.0
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_884",
+      "obj_file": "meshes/JSONmeth_884.obj",
+      "color": "#aaaaaa",
+      "source_file": "JSONmeth.json",
+      "expression_id": "884",
+      "family": "TRIANGLE_CALL",
+      "bounds": {
+        "min": [
+          -15.0,
+          6.5,
+          43.0
+        ],
+        "max": [
+          -13.5,
+          8.0,
+          48.0
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_885",
+      "obj_file": "meshes/JSONmeth_885.obj",
+      "color": "#c74440",
+      "source_file": "JSONmeth.json",
+      "expression_id": "885",
+      "family": "TRIANGLE_CALL",
+      "bounds": {
+        "min": [
+          -16.5,
+          8.0,
+          43.0
+        ],
+        "max": [
+          -15.0,
+          9.5,
+          48.0
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_887",
+      "obj_file": "meshes/JSONmeth_887.obj",
+      "color": "#388c46",
+      "source_file": "JSONmeth.json",
+      "expression_id": "887",
+      "family": "TRIANGLE_CALL",
+      "bounds": {
+        "min": [
+          -16.5,
+          6.5,
+          43.0
+        ],
+        "max": [
+          -15.0,
+          8.0,
+          48.0
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_888",
+      "obj_file": "meshes/JSONmeth_888.obj",
+      "color": "#6042a6",
+      "source_file": "JSONmeth.json",
+      "expression_id": "888",
+      "family": "TRIANGLE_CALL",
+      "bounds": {
+        "min": [
+          -26.0,
+          8.0,
+          43.0
+        ],
+        "max": [
+          -24.0,
+          9.5,
+          48.0
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_889",
+      "obj_file": "meshes/JSONmeth_889.obj",
+      "color": "#aaaaaa",
+      "source_file": "JSONmeth.json",
+      "expression_id": "889",
+      "family": "TRIANGLE_CALL",
+      "bounds": {
+        "min": [
+          -26.0,
+          6.5,
+          43.0
+        ],
+        "max": [
+          -24.0,
+          8.0,
+          48.0
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_890",
+      "obj_file": "meshes/JSONmeth_890.obj",
+      "color": "#c74440",
+      "source_file": "JSONmeth.json",
+      "expression_id": "890",
+      "family": "TRIANGLE_CALL",
+      "bounds": {
+        "min": [
+          -25.0,
+          8.0,
+          43.0
+        ],
+        "max": [
+          -23.5,
+          9.5,
+          48.0
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_891",
+      "obj_file": "meshes/JSONmeth_891.obj",
+      "color": "#2d70b3",
+      "source_file": "JSONmeth.json",
+      "expression_id": "891",
+      "family": "TRIANGLE_CALL",
+      "bounds": {
+        "min": [
+          -25.0,
+          6.5,
+          43.0
+        ],
+        "max": [
+          -23.5,
+          8.0,
+          48.0
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_892",
+      "obj_file": "meshes/JSONmeth_892.obj",
+      "color": "#388c46",
+      "source_file": "JSONmeth.json",
+      "expression_id": "892",
+      "family": "TRIANGLE_CALL",
+      "bounds": {
+        "min": [
+          -26.5,
+          8.0,
+          43.0
+        ],
+        "max": [
+          -25.0,
+          9.5,
+          48.0
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_893",
+      "obj_file": "meshes/JSONmeth_893.obj",
+      "color": "#6042a6",
+      "source_file": "JSONmeth.json",
+      "expression_id": "893",
+      "family": "TRIANGLE_CALL",
+      "bounds": {
+        "min": [
+          -26.5,
+          6.5,
+          43.0
+        ],
+        "max": [
+          -25.0,
+          8.0,
+          48.0
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_894",
+      "obj_file": "meshes/JSONmeth_894.obj",
+      "color": "#aaaaaa",
+      "source_file": "JSONmeth.json",
+      "expression_id": "894",
+      "family": "TRIANGLE_CALL",
+      "bounds": {
+        "min": [
+          -16.0,
+          -9.5,
+          43.0
+        ],
+        "max": [
+          -14.0,
+          -8.0,
+          48.0
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_895",
+      "obj_file": "meshes/JSONmeth_895.obj",
+      "color": "#c74440",
+      "source_file": "JSONmeth.json",
+      "expression_id": "895",
+      "family": "TRIANGLE_CALL",
+      "bounds": {
+        "min": [
+          -16.0,
+          -8.0,
+          43.0
+        ],
+        "max": [
+          -14.0,
+          -6.5,
+          48.0
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_896",
+      "obj_file": "meshes/JSONmeth_896.obj",
+      "color": "#2d70b3",
+      "source_file": "JSONmeth.json",
+      "expression_id": "896",
+      "family": "TRIANGLE_CALL",
+      "bounds": {
+        "min": [
+          -15.0,
+          -9.5,
+          43.0
+        ],
+        "max": [
+          -13.5,
+          -8.0,
+          48.0
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_897",
+      "obj_file": "meshes/JSONmeth_897.obj",
+      "color": "#388c46",
+      "source_file": "JSONmeth.json",
+      "expression_id": "897",
+      "family": "TRIANGLE_CALL",
+      "bounds": {
+        "min": [
+          -15.0,
+          -8.0,
+          43.0
+        ],
+        "max": [
+          -13.5,
+          -6.5,
+          48.0
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_898",
+      "obj_file": "meshes/JSONmeth_898.obj",
+      "color": "#6042a6",
+      "source_file": "JSONmeth.json",
+      "expression_id": "898",
+      "family": "TRIANGLE_CALL",
+      "bounds": {
+        "min": [
+          -16.5,
+          -9.5,
+          43.0
+        ],
+        "max": [
+          -15.0,
+          -8.0,
+          48.0
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_899",
+      "obj_file": "meshes/JSONmeth_899.obj",
+      "color": "#aaaaaa",
+      "source_file": "JSONmeth.json",
+      "expression_id": "899",
+      "family": "TRIANGLE_CALL",
+      "bounds": {
+        "min": [
+          -16.5,
+          -8.0,
+          43.0
+        ],
+        "max": [
+          -15.0,
+          -6.5,
+          48.0
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_900",
+      "obj_file": "meshes/JSONmeth_900.obj",
+      "color": "#c74440",
+      "source_file": "JSONmeth.json",
+      "expression_id": "900",
+      "family": "TRIANGLE_CALL",
+      "bounds": {
+        "min": [
+          -26.0,
+          -9.5,
+          43.0
+        ],
+        "max": [
+          -24.0,
+          -8.0,
+          48.0
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_905",
+      "obj_file": "meshes/JSONmeth_905.obj",
+      "color": "#c74440",
+      "source_file": "JSONmeth.json",
+      "expression_id": "905",
+      "family": "TRIANGLE_CALL",
+      "bounds": {
+        "min": [
+          -26.0,
+          -8.0,
+          43.0
+        ],
+        "max": [
+          -24.0,
+          -6.5,
+          48.0
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_906",
+      "obj_file": "meshes/JSONmeth_906.obj",
+      "color": "#2d70b3",
+      "source_file": "JSONmeth.json",
+      "expression_id": "906",
+      "family": "TRIANGLE_CALL",
+      "bounds": {
+        "min": [
+          -25.0,
+          -9.5,
+          43.0
+        ],
+        "max": [
+          -23.5,
+          -8.0,
+          48.0
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_901",
+      "obj_file": "meshes/JSONmeth_901.obj",
+      "color": "#2d70b3",
+      "source_file": "JSONmeth.json",
+      "expression_id": "901",
+      "family": "TRIANGLE_CALL",
+      "bounds": {
+        "min": [
+          -25.0,
+          -8.0,
+          43.0
+        ],
+        "max": [
+          -23.5,
+          -6.5,
+          48.0
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_902",
+      "obj_file": "meshes/JSONmeth_902.obj",
+      "color": "#388c46",
+      "source_file": "JSONmeth.json",
+      "expression_id": "902",
+      "family": "TRIANGLE_CALL",
+      "bounds": {
+        "min": [
+          -26.5,
+          -9.5,
+          43.0
+        ],
+        "max": [
+          -25.0,
+          -8.0,
+          48.0
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_903",
+      "obj_file": "meshes/JSONmeth_903.obj",
+      "color": "#6042a6",
+      "source_file": "JSONmeth.json",
+      "expression_id": "903",
+      "family": "TRIANGLE_CALL",
+      "bounds": {
+        "min": [
+          -26.5,
+          -8.0,
+          43.0
+        ],
+        "max": [
+          -25.0,
+          -6.5,
+          48.0
+        ]
+      }
+    },
+    {
       "name": "JSONmeth_425",
       "obj_file": "meshes/JSONmeth_425.obj",
       "color": "#6042a6",
@@ -860,6 +2560,246 @@
           -57.0,
           7.0,
           20.0
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_99",
+      "obj_file": "meshes/JSONmeth_99.obj",
+      "color": "#c74440",
+      "source_file": "JSONmeth.json",
+      "expression_id": "99",
+      "family": "PARAMETRIC_T_CURVE",
+      "bounds": {
+        "min": [
+          -67.0,
+          6.6232140372181245,
+          19.623214037218123
+        ],
+        "max": [
+          -57.0,
+          7.3767859627818755,
+          20.376785962781877
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_100",
+      "obj_file": "meshes/JSONmeth_100.obj",
+      "color": "#c74440",
+      "source_file": "JSONmeth.json",
+      "expression_id": "100",
+      "family": "PARAMETRIC_T_CURVE",
+      "bounds": {
+        "min": [
+          -67.0,
+          6.6232140372181245,
+          8.623214037218125
+        ],
+        "max": [
+          -57.0,
+          7.3767859627818755,
+          9.376785962781875
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_101",
+      "obj_file": "meshes/JSONmeth_101.obj",
+      "color": "#c74440",
+      "source_file": "JSONmeth.json",
+      "expression_id": "101",
+      "family": "PARAMETRIC_T_CURVE",
+      "bounds": {
+        "min": [
+          -67.0,
+          -7.3767859627818755,
+          19.623214037218123
+        ],
+        "max": [
+          -57.0,
+          -6.6232140372181245,
+          20.376785962781877
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_102",
+      "obj_file": "meshes/JSONmeth_102.obj",
+      "color": "#c74440",
+      "source_file": "JSONmeth.json",
+      "expression_id": "102",
+      "family": "PARAMETRIC_T_CURVE",
+      "bounds": {
+        "min": [
+          -67.0,
+          -7.3767859627818755,
+          8.623214037218125
+        ],
+        "max": [
+          -57.0,
+          -6.6232140372181245,
+          9.376785962781875
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_103",
+      "obj_file": "meshes/JSONmeth_103.obj",
+      "color": "#c74440",
+      "source_file": "JSONmeth.json",
+      "expression_id": "103",
+      "family": "PARAMETRIC_T_CURVE",
+      "bounds": {
+        "min": [
+          -67.37678596278188,
+          6.6232140372181245,
+          9.0
+        ],
+        "max": [
+          -66.62321403721812,
+          7.3767859627818755,
+          20.0
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_104",
+      "obj_file": "meshes/JSONmeth_104.obj",
+      "color": "#c74440",
+      "source_file": "JSONmeth.json",
+      "expression_id": "104",
+      "family": "PARAMETRIC_T_CURVE",
+      "bounds": {
+        "min": [
+          -57.376785962781874,
+          6.6232140372181245,
+          9.0
+        ],
+        "max": [
+          -56.623214037218126,
+          7.3767859627818755,
+          20.0
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_105",
+      "obj_file": "meshes/JSONmeth_105.obj",
+      "color": "#c74440",
+      "source_file": "JSONmeth.json",
+      "expression_id": "105",
+      "family": "PARAMETRIC_T_CURVE",
+      "bounds": {
+        "min": [
+          -57.376785962781874,
+          -7.3767859627818755,
+          9.0
+        ],
+        "max": [
+          -56.623214037218126,
+          -6.6232140372181245,
+          20.0
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_106",
+      "obj_file": "meshes/JSONmeth_106.obj",
+      "color": "#c74440",
+      "source_file": "JSONmeth.json",
+      "expression_id": "106",
+      "family": "PARAMETRIC_T_CURVE",
+      "bounds": {
+        "min": [
+          -67.37678596278188,
+          -7.3767859627818755,
+          9.0
+        ],
+        "max": [
+          -66.62321403721812,
+          -6.6232140372181245,
+          20.0
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_107",
+      "obj_file": "meshes/JSONmeth_107.obj",
+      "color": "#c74440",
+      "source_file": "JSONmeth.json",
+      "expression_id": "107",
+      "family": "PARAMETRIC_T_CURVE",
+      "bounds": {
+        "min": [
+          -57.376785962781874,
+          -7.0,
+          19.623214037218123
+        ],
+        "max": [
+          -56.623214037218126,
+          7.0,
+          20.376785962781877
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_108",
+      "obj_file": "meshes/JSONmeth_108.obj",
+      "color": "#c74440",
+      "source_file": "JSONmeth.json",
+      "expression_id": "108",
+      "family": "PARAMETRIC_T_CURVE",
+      "bounds": {
+        "min": [
+          -67.37678596278188,
+          -7.0,
+          19.623214037218123
+        ],
+        "max": [
+          -66.62321403721812,
+          7.0,
+          20.376785962781877
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_109",
+      "obj_file": "meshes/JSONmeth_109.obj",
+      "color": "#c74440",
+      "source_file": "JSONmeth.json",
+      "expression_id": "109",
+      "family": "PARAMETRIC_T_CURVE",
+      "bounds": {
+        "min": [
+          -57.376785962781874,
+          -7.0,
+          8.623214037218125
+        ],
+        "max": [
+          -56.623214037218126,
+          7.0,
+          9.376785962781875
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_110",
+      "obj_file": "meshes/JSONmeth_110.obj",
+      "color": "#c74440",
+      "source_file": "JSONmeth.json",
+      "expression_id": "110",
+      "family": "PARAMETRIC_T_CURVE",
+      "bounds": {
+        "min": [
+          -67.37678596278188,
+          -7.0,
+          8.623214037218125
+        ],
+        "max": [
+          -66.62321403721812,
+          7.0,
+          9.376785962781875
         ]
       }
     },
@@ -1084,6 +3024,46 @@
       }
     },
     {
+      "name": "JSONmeth_802",
+      "obj_file": "meshes/JSONmeth_802.obj",
+      "color": "#aaaaaa",
+      "source_file": "JSONmeth.json",
+      "expression_id": "802",
+      "family": "TRIANGLE_CALL",
+      "bounds": {
+        "min": [
+          -65.0,
+          -7.0,
+          22.5
+        ],
+        "max": [
+          -59.0,
+          -7.0,
+          27.0
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_810",
+      "obj_file": "meshes/JSONmeth_810.obj",
+      "color": "#388c46",
+      "source_file": "JSONmeth.json",
+      "expression_id": "810",
+      "family": "TRIANGLE_CALL",
+      "bounds": {
+        "min": [
+          -65.0,
+          7.0,
+          22.5
+        ],
+        "max": [
+          -59.0,
+          7.0,
+          27.0
+        ]
+      }
+    },
+    {
       "name": "JSONmeth_803",
       "obj_file": "meshes/JSONmeth_803.obj",
       "color": "#c74440",
@@ -1119,6 +3099,46 @@
         "max": [
           -57.0,
           7.0,
+          25.0
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_805",
+      "obj_file": "meshes/JSONmeth_805.obj",
+      "color": "#c74440",
+      "source_file": "JSONmeth.json",
+      "expression_id": "805",
+      "family": "TRIANGLE_CALL",
+      "bounds": {
+        "min": [
+          -67.0,
+          -1.65,
+          22.5
+        ],
+        "max": [
+          -67.0,
+          1.65,
+          25.0
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_813",
+      "obj_file": "meshes/JSONmeth_813.obj",
+      "color": "#c74440",
+      "source_file": "JSONmeth.json",
+      "expression_id": "813",
+      "family": "TRIANGLE_CALL",
+      "bounds": {
+        "min": [
+          -57.0,
+          -1.65,
+          22.5
+        ],
+        "max": [
+          -57.0,
+          1.65,
           25.0
         ]
       }
@@ -1259,6 +3279,246 @@
         "max": [
           67.0,
           7.0,
+          20.0
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_195",
+      "obj_file": "meshes/JSONmeth_195.obj",
+      "color": "#c74440",
+      "source_file": "JSONmeth.json",
+      "expression_id": "195",
+      "family": "PARAMETRIC_T_CURVE",
+      "bounds": {
+        "min": [
+          57.0,
+          6.6232140372181245,
+          19.623214037218123
+        ],
+        "max": [
+          67.0,
+          7.3767859627818755,
+          20.376785962781877
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_120",
+      "obj_file": "meshes/JSONmeth_120.obj",
+      "color": "#c74440",
+      "source_file": "JSONmeth.json",
+      "expression_id": "120",
+      "family": "PARAMETRIC_T_CURVE",
+      "bounds": {
+        "min": [
+          57.0,
+          6.6232140372181245,
+          9.623214037218125
+        ],
+        "max": [
+          67.0,
+          7.3767859627818755,
+          10.376785962781875
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_122",
+      "obj_file": "meshes/JSONmeth_122.obj",
+      "color": "#c74440",
+      "source_file": "JSONmeth.json",
+      "expression_id": "122",
+      "family": "PARAMETRIC_T_CURVE",
+      "bounds": {
+        "min": [
+          57.0,
+          -7.3767859627818755,
+          19.623214037218123
+        ],
+        "max": [
+          67.0,
+          -6.6232140372181245,
+          20.376785962781877
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_123",
+      "obj_file": "meshes/JSONmeth_123.obj",
+      "color": "#c74440",
+      "source_file": "JSONmeth.json",
+      "expression_id": "123",
+      "family": "PARAMETRIC_T_CURVE",
+      "bounds": {
+        "min": [
+          57.0,
+          -7.3767859627818755,
+          9.623214037218125
+        ],
+        "max": [
+          67.0,
+          -6.6232140372181245,
+          10.376785962781875
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_124",
+      "obj_file": "meshes/JSONmeth_124.obj",
+      "color": "#c74440",
+      "source_file": "JSONmeth.json",
+      "expression_id": "124",
+      "family": "PARAMETRIC_T_CURVE",
+      "bounds": {
+        "min": [
+          66.62321403721812,
+          6.6232140372181245,
+          10.0
+        ],
+        "max": [
+          67.37678596278188,
+          7.3767859627818755,
+          20.0
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_125",
+      "obj_file": "meshes/JSONmeth_125.obj",
+      "color": "#c74440",
+      "source_file": "JSONmeth.json",
+      "expression_id": "125",
+      "family": "PARAMETRIC_T_CURVE",
+      "bounds": {
+        "min": [
+          56.623214037218126,
+          6.6232140372181245,
+          10.0
+        ],
+        "max": [
+          57.376785962781874,
+          7.3767859627818755,
+          20.0
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_126",
+      "obj_file": "meshes/JSONmeth_126.obj",
+      "color": "#c74440",
+      "source_file": "JSONmeth.json",
+      "expression_id": "126",
+      "family": "PARAMETRIC_T_CURVE",
+      "bounds": {
+        "min": [
+          56.623214037218126,
+          -7.3767859627818755,
+          10.0
+        ],
+        "max": [
+          57.376785962781874,
+          -6.6232140372181245,
+          25.0
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_127",
+      "obj_file": "meshes/JSONmeth_127.obj",
+      "color": "#c74440",
+      "source_file": "JSONmeth.json",
+      "expression_id": "127",
+      "family": "PARAMETRIC_T_CURVE",
+      "bounds": {
+        "min": [
+          66.62321403721812,
+          -7.0,
+          19.623214037218123
+        ],
+        "max": [
+          67.37678596278188,
+          7.0,
+          20.376785962781877
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_128",
+      "obj_file": "meshes/JSONmeth_128.obj",
+      "color": "#c74440",
+      "source_file": "JSONmeth.json",
+      "expression_id": "128",
+      "family": "PARAMETRIC_T_CURVE",
+      "bounds": {
+        "min": [
+          56.623214037218126,
+          -7.0,
+          19.623214037218123
+        ],
+        "max": [
+          57.376785962781874,
+          7.0,
+          20.376785962781877
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_129",
+      "obj_file": "meshes/JSONmeth_129.obj",
+      "color": "#c74440",
+      "source_file": "JSONmeth.json",
+      "expression_id": "129",
+      "family": "PARAMETRIC_T_CURVE",
+      "bounds": {
+        "min": [
+          56.623214037218126,
+          -7.0,
+          9.623214037218125
+        ],
+        "max": [
+          57.376785962781874,
+          7.0,
+          10.376785962781875
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_130",
+      "obj_file": "meshes/JSONmeth_130.obj",
+      "color": "#c74440",
+      "source_file": "JSONmeth.json",
+      "expression_id": "130",
+      "family": "PARAMETRIC_T_CURVE",
+      "bounds": {
+        "min": [
+          66.62321403721812,
+          -7.0,
+          9.623214037218125
+        ],
+        "max": [
+          67.37678596278188,
+          7.0,
+          10.376785962781875
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_131",
+      "obj_file": "meshes/JSONmeth_131.obj",
+      "color": "#c74440",
+      "source_file": "JSONmeth.json",
+      "expression_id": "131",
+      "family": "PARAMETRIC_T_CURVE",
+      "bounds": {
+        "min": [
+          66.62321403721812,
+          -7.3767859627818755,
+          10.0
+        ],
+        "max": [
+          67.37678596278188,
+          -6.6232140372181245,
           20.0
         ]
       }
@@ -1504,6 +3764,46 @@
       }
     },
     {
+      "name": "JSONmeth_844",
+      "obj_file": "meshes/JSONmeth_844.obj",
+      "color": "#aaaaaa",
+      "source_file": "JSONmeth.json",
+      "expression_id": "844",
+      "family": "TRIANGLE_CALL",
+      "bounds": {
+        "min": [
+          59.0,
+          -7.0,
+          22.5
+        ],
+        "max": [
+          65.0,
+          -7.0,
+          27.0
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_845",
+      "obj_file": "meshes/JSONmeth_845.obj",
+      "color": "#388c46",
+      "source_file": "JSONmeth.json",
+      "expression_id": "845",
+      "family": "TRIANGLE_CALL",
+      "bounds": {
+        "min": [
+          59.0,
+          7.0,
+          22.5
+        ],
+        "max": [
+          65.0,
+          7.0,
+          27.0
+        ]
+      }
+    },
+    {
       "name": "JSONmeth_846",
       "obj_file": "meshes/JSONmeth_846.obj",
       "color": "#c74440",
@@ -1539,6 +3839,46 @@
         "max": [
           67.0,
           7.0,
+          25.0
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_848",
+      "obj_file": "meshes/JSONmeth_848.obj",
+      "color": "#c74440",
+      "source_file": "JSONmeth.json",
+      "expression_id": "848",
+      "family": "TRIANGLE_CALL",
+      "bounds": {
+        "min": [
+          67.0,
+          -1.65,
+          22.5
+        ],
+        "max": [
+          67.0,
+          1.65,
+          25.0
+        ]
+      }
+    },
+    {
+      "name": "JSONmeth_849",
+      "obj_file": "meshes/JSONmeth_849.obj",
+      "color": "#c74440",
+      "source_file": "JSONmeth.json",
+      "expression_id": "849",
+      "family": "TRIANGLE_CALL",
+      "bounds": {
+        "min": [
+          57.0,
+          -1.65,
+          22.5
+        ],
+        "max": [
+          57.0,
+          1.65,
           25.0
         ]
       }

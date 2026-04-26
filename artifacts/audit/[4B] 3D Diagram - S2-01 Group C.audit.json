@@ -1,0 +1,57 @@
+{
+  "source_file": "[4B] 3D Diagram - S2-01 Group C.json",
+  "total_expressions": 21,
+  "supported_count": 11,
+  "recognized_unsupported_count": 0,
+  "unrecognized_count": 2,
+  "geometry_ineligible_count": 8,
+  "per_folder_summary": [
+    {
+      "folder_id": null,
+      "folder_name": null,
+      "total": 21,
+      "supported": 11,
+      "recognized_unsupported": 0,
+      "unrecognized": 2,
+      "geometry_ineligible": 8
+    }
+  ],
+  "unsupported_expressions": [
+    {
+      "expression_id": "47",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "804e6af81665a5a2",
+      "latex": "\\operatorname{abs}(\\operatorname{abs}(x)-2.5)=0.3\\left\\{y<-3\\right\\}\\left\\{y>-3.5\\right\\}\\left\\{1.2<z<2.5\\right\\}",
+      "normalized_latex": "abs(abs(x)-2.5)=0.3{y<-3}{y>-3.5}{1.2<z<2.5}"
+    },
+    {
+      "expression_id": "49",
+      "folder": null,
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "fingerprint": "2cb67c2f5b247c4e",
+      "latex": "(\\operatorname{abs}(x)-2.5)^{2}+4(z-2.5)^{2}=0.3^{2}\\left\\{z>2.5\\right\\}\\left\\{y<-3\\right\\}\\left\\{y>-3.5\\right\\}",
+      "normalized_latex": "(abs(x)-2.5)^2+4(z-2.5)^2=0.3^2{z>2.5}{y<-3}{y>-3.5}"
+    }
+  ],
+  "unknown_fingerprints": [
+    "2cb67c2f5b247c4e",
+    "804e6af81665a5a2"
+  ],
+  "diagnostics": [
+    {
+      "severity": "INFO",
+      "code": "AUDIT_COMPLETE",
+      "message": "Audit classification complete",
+      "source_ref": null,
+      "details": {
+        "file": "[4B] 3D Diagram - S2-01 Group C.json"
+      }
+    }
+  ],
+  "status": "PARTIAL"
+}

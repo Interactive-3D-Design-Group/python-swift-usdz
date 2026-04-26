@@ -1,0 +1,479 @@
+{
+  "source_file": "[4B] 3D Diagram - S2-06 Group E.json",
+  "total_items": 61,
+  "total_expressions": 53,
+  "meshed_expression_count": 0,
+  "supported_expression_count": 0,
+  "supported_but_not_meshed_count": 0,
+  "recognized_unsupported_count": 21,
+  "unrecognized_count": 4,
+  "geometry_ineligible_count": 28,
+  "groups": [
+    {
+      "fingerprint": "3454c0f366edf51b",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 6,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "214",
+        "217",
+        "218",
+        "222",
+        "230"
+      ],
+      "example_latex": [
+        "e^{-\\frac{\\left(x-\\operatorname{random}\\left(1000\\right)\\cdot1000+500\\right)^{2}+\\left(y-\\operatorname{random}\\left(1000\\right)\\cdot600+300\\right)^{2}}{1.1}}>0.0000001\\left\\{-\\sqrt{100000\\left(1-\\frac{x^{2}}{200000}\\right)}<y<\\sqrt{100000\\l",
+        "e^{-\\frac{\\left(x-\\operatorname{random}\\left(1000\\right)\\cdot1000+500\\right)^{2}+\\left(y-\\operatorname{random}\\left(1000\\right)\\cdot600+300\\right)^{2}}{1.1}}>0.0000001\\left\\{-\\sqrt{100000\\left(1-\\frac{x^{2}}{200000}\\right)}<y<\\sqrt{100000\\l",
+        "e^{-\\frac{\\left(x-\\operatorname{random}\\left(1000\\right)\\cdot1000+500\\right)^{2}+\\left(y-\\operatorname{random}\\left(1000\\right)\\cdot600+300\\right)^{2}}{1.1}}>0.0000001\\left\\{-\\sqrt{100000\\left(1-\\frac{x^{2}}{200000}\\right)}<y<\\sqrt{100000\\l",
+        "e^{-\\frac{\\left(x-\\operatorname{random}\\left(1000\\right)\\cdot1000+500\\right)^{2}+\\left(y-\\operatorname{random}\\left(1000\\right)\\cdot600+300\\right)^{2}}{1.1}}>0.0000001\\left\\{-\\sqrt{100000\\left(1-\\frac{x^{2}}{200000}\\right)}<y<\\sqrt{100000\\l",
+        "e^{-\\frac{\\left(x-\\operatorname{random}\\left(1000\\right)\\cdot1000+500\\right)^{2}+\\left(y-\\operatorname{random}\\left(1000\\right)\\cdot600+300\\right)^{2}}{1.1}}>0.0000001\\left\\{-\\sqrt{100000\\left(1-\\frac{x^{2}}{200000}\\right)}<y<\\sqrt{100000\\l"
+      ],
+      "example_normalized": [
+        "e^{-frac{(x-operatorname{random}(1000)*1000+500)^{2}+(y-operatorname{random}(1000)*600+300)^{2}}{1.1}}>0.0000001{-sqrt{100000(1-frac{x^{2}}{200000})}<y<sqrt{100000(1-frac{x^{2}}{200000})}}",
+        "e^{-frac{(x-operatorname{random}(1000)*1000+500)^{2}+(y-operatorname{random}(1000)*600+300)^{2}}{1.1}}>0.0000001{-sqrt{100000(1-frac{x^{2}}{200000})}<y<sqrt{100000(1-frac{x^{2}}{200000})}}",
+        "e^{-frac{(x-operatorname{random}(1000)*1000+500)^{2}+(y-operatorname{random}(1000)*600+300)^{2}}{1.1}}>0.0000001{-sqrt{100000(1-frac{x^{2}}{200000})}<y<sqrt{100000(1-frac{x^{2}}{200000})}}",
+        "e^{-frac{(x-operatorname{random}(1000)*1000+500)^{2}+(y-operatorname{random}(1000)*600+300)^{2}}{1.1}}>0.0000001{-sqrt{100000(1-frac{x^{2}}{200000})}<y<sqrt{100000(1-frac{x^{2}}{200000})}}",
+        "e^{-frac{(x-operatorname{random}(1000)*1000+500)^{2}+(y-operatorname{random}(1000)*600+300)^{2}}{1.1}}>0.0000001{-sqrt{100000(1-frac{x^{2}}{200000})}<y<sqrt{100000(1-frac{x^{2}}{200000})}}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 6
+      }
+    },
+    {
+      "fingerprint": "026b86ee38424392",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "169"
+      ],
+      "example_latex": [
+        "98000<\\frac{x^{2}}{2}+y^{2}<100000\\left\\{35<z<40\\right\\}"
+      ],
+      "example_normalized": [
+        "98000<frac{x^{2}}{2}+y^{2}<100000{35<z<40}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "162fad5a6f82ca84",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "177"
+      ],
+      "example_latex": [
+        "90000<\\frac{x^{2}}{2}+y^{2}<96000\\left\\{70<z<75\\right\\}"
+      ],
+      "example_normalized": [
+        "90000<frac{x^{2}}{2}+y^{2}<96000{70<z<75}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "2416b9191f424b79",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "176"
+      ],
+      "example_latex": [
+        "y\\left\\{-\\sqrt{96000\\left(1-\\frac{x^{2}}{196000}\\right)}<y<\\sqrt{96000\\left(1-\\frac{x^{2}}{196000}\\right)}\\right\\}=\\frac{b_{3}\\sin\\left(j+230\\right)-b_{3}\\sin\\left(t+230\\right)}{a_{3}\\cos\\left(j+230\\right)-a_{3}\\cos\\left(t+230\\right)}\\left("
+      ],
+      "example_normalized": [
+        "y{-sqrt{96000(1-frac{x^{2}}{196000})}<y<sqrt{96000(1-frac{x^{2}}{196000})}}=frac{b_{3}sin(j+230)-b_{3}sin(t+230)}{a_{3}cos(j+230)-a_{3}cos(t+230)}(x-a_{3}cos(t+230))+b_{3}sin(t+230){75<z<105}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "2567af057221d71b",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "165"
+      ],
+      "example_latex": [
+        "y\\left\\{-\\sqrt{98000\\left(1-\\frac{x^{2}}{198000}\\right)}<y<\\sqrt{98000\\left(1-\\frac{x^{2}}{198000}\\right)}\\right\\}=\\frac{b_{2}\\sin\\left(j+230\\right)-b_{2}\\sin\\left(t+230\\right)}{a_{2}\\cos\\left(j+230\\right)-a_{2}\\cos\\left(t+230\\right)}\\left("
+      ],
+      "example_normalized": [
+        "y{-sqrt{98000(1-frac{x^{2}}{198000})}<y<sqrt{98000(1-frac{x^{2}}{198000})}}=frac{b_{2}sin(j+230)-b_{2}sin(t+230)}{a_{2}cos(j+230)-a_{2}cos(t+230)}(x-a_{2}cos(t+230))+b_{2}sin(t+230){40<z<70}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "503e7e307d373145",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "146"
+      ],
+      "example_latex": [
+        "y\\left\\{-\\sqrt{100000\\left(1-\\frac{x^{2}}{200000}\\right)}<y<\\sqrt{100000\\left(1-\\frac{x^{2}}{200000}\\right)}\\right\\}=\\frac{b_{1}\\sin\\left(j+230\\right)-b_{1}\\sin\\left(t+230\\right)}{a_{1}\\cos\\left(j+230\\right)-a_{1}\\cos\\left(t+230\\right)}\\lef"
+      ],
+      "example_normalized": [
+        "y{-sqrt{100000(1-frac{x^{2}}{200000})}<y<sqrt{100000(1-frac{x^{2}}{200000})}}=frac{b_{1}sin(j+230)-b_{1}sin(t+230)}{a_{1}cos(j+230)-a_{1}cos(t+230)}(x-a_{1}cos(t+230))+b_{1}sin(t+230){0<z<30}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "56c6ee843bc5e284",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "184"
+      ],
+      "example_latex": [
+        "y\\left\\{-\\sqrt{94000\\left(1-\\frac{x^{2}}{194000}\\right)}<y<\\sqrt{94000\\left(1-\\frac{x^{2}}{194000}\\right)}\\right\\}=\\frac{b_{4}\\sin\\left(j+230\\right)-b_{4}\\sin\\left(t+230\\right)}{a_{4}\\cos\\left(j+230\\right)-a_{4}\\cos\\left(t+230\\right)}\\left("
+      ],
+      "example_normalized": [
+        "y{-sqrt{94000(1-frac{x^{2}}{194000})}<y<sqrt{94000(1-frac{x^{2}}{194000})}}=frac{b_{4}sin(j+230)-b_{4}sin(t+230)}{a_{4}cos(j+230)-a_{4}cos(t+230)}(x-a_{4}cos(t+230))+b_{4}sin(t+230){110<z<170}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "70f5c3974dd1417e",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "182"
+      ],
+      "example_latex": [
+        "a_{4}\\cos\\left(t+230\\right)-2.5<x<a_{4}\\cos\\left(t+230\\right)+2.5\\left\\{\\ b_{4}\\sin\\left(t+230\\right)<y+5<\\ b_{4}\\sin\\left(t+230\\right)+10\\right\\}\\left\\{110<z<170\\right\\}"
+      ],
+      "example_normalized": [
+        "a_{4}cos(t+230)-2.5<x<a_{4}cos(t+230)+2.5{b_{4}sin(t+230)<y+5<b_{4}sin(t+230)+10}{110<z<170}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "9131397e6d5f51f3",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "175"
+      ],
+      "example_latex": [
+        "a_{3}\\cos\\left(t+230\\right)-2.5<x<a_{3}\\cos\\left(t+230\\right)+2.5\\left\\{\\ b_{3}\\sin\\left(t+230\\right)<y+5<\\ b_{3}\\sin\\left(t+230\\right)+10\\right\\}\\left\\{75<z<105\\right\\}"
+      ],
+      "example_normalized": [
+        "a_{3}cos(t+230)-2.5<x<a_{3}cos(t+230)+2.5{b_{3}sin(t+230)<y+5<b_{3}sin(t+230)+10}{75<z<105}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "b80ab67cf8bfcf21",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "25"
+      ],
+      "example_latex": [
+        "a_{1}\\cos\\left(t+230\\right)-2.5<x<a_{1}\\cos\\left(t+230\\right)+2.5\\left\\{\\ b_{1}\\sin\\left(t+230\\right)<y+5<\\ b_{1}\\sin\\left(t+230\\right)+10\\right\\}\\left\\{0<z<30\\right\\}"
+      ],
+      "example_normalized": [
+        "a_{1}cos(t+230)-2.5<x<a_{1}cos(t+230)+2.5{b_{1}sin(t+230)<y+5<b_{1}sin(t+230)+10}{0<z<30}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "b9a984b2bbe2308e",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "168"
+      ],
+      "example_latex": [
+        "a_{2}\\cos\\left(t+230\\right)-2.5<x<a_{2}\\cos\\left(t+230\\right)+2.5\\left\\{\\ b_{2}\\sin\\left(t+230\\right)<y+5<\\ b_{2}\\sin\\left(t+230\\right)+10\\right\\}\\left\\{40<z<70\\right\\}"
+      ],
+      "example_normalized": [
+        "a_{2}cos(t+230)-2.5<x<a_{2}cos(t+230)+2.5{b_{2}sin(t+230)<y+5<b_{2}sin(t+230)+10}{40<z<70}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "d87007570b069526",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "191"
+      ],
+      "example_latex": [
+        "55000<\\frac{x^{2}}{2}+y^{2}<60000\\left\\{170<z<175\\right\\}"
+      ],
+      "example_normalized": [
+        "55000<frac{x^{2}}{2}+y^{2}<60000{170<z<175}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "ddd52cb2e1dcbe22",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "213"
+      ],
+      "example_latex": [
+        "\\frac{x^{2}}{2}+y^{2}<100000"
+      ],
+      "example_normalized": [
+        "frac{x^{2}}{2}+y^{2}<100000"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "ea6555a5d09edf74",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "246"
+      ],
+      "example_latex": [
+        "e^{-\\frac{\\left(x-\\operatorname{random}\\left(10000\\right)\\cdot1000+500\\right)^{2}+\\left(y-\\operatorname{random}\\left(10000\\right)\\cdot600+300\\right)^{2}}{1.1}}>0.0000001\\left\\{-\\sqrt{100000\\left(1-\\frac{x^{2}}{200000}\\right)}<y<\\sqrt{100000"
+      ],
+      "example_normalized": [
+        "e^{-frac{(x-operatorname{random}(10000)*1000+500)^{2}+(y-operatorname{random}(10000)*600+300)^{2}}{1.1}}>0.0000001{-sqrt{100000(1-frac{x^{2}}{200000})}<y<sqrt{100000(1-frac{x^{2}}{200000})}}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "f39d04535a3406f4",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "189"
+      ],
+      "example_latex": [
+        "60000<\\frac{x^{2}}{2}+y^{2}<100000\\left\\{170<z<175\\right\\}"
+      ],
+      "example_normalized": [
+        "60000<frac{x^{2}}{2}+y^{2}<100000{170<z<175}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "f934e0b248652cd8",
+      "family": "INEQUALITY_REGION",
+      "status": "RECOGNIZED_UNSUPPORTED",
+      "reason": "Inequality region recognized",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "183"
+      ],
+      "example_latex": [
+        "94000<\\frac{x^{2}}{2}+y^{2}<100000\\left\\{105<z<110\\right\\}"
+      ],
+      "example_normalized": [
+        "94000<frac{x^{2}}{2}+y^{2}<100000{105<z<110}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "06e37c8bfd88381e",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "150"
+      ],
+      "example_latex": [
+        "\\frac{x^{2}}{2}+y^{2}=102000\\left\\{30<z<35\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{x^{2}}{2}+y^{2}=102000{30<z<35}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "c46f24883308ec70",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "247"
+      ],
+      "example_latex": [
+        ""
+      ],
+      "example_normalized": [
+        ""
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "d128c809428862fd",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "23"
+      ],
+      "example_latex": [
+        "t=\\frac{2\\pi k}{80}"
+      ],
+      "example_normalized": [
+        "t=(2pik)/(80)"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "d828230aaa9fa896",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "1"
+      ],
+      "example_latex": [
+        "\\frac{x^{2}}{2}+y^{2}=100000\\left\\{0<z<5\\right\\}"
+      ],
+      "example_normalized": [
+        "frac{x^{2}}{2}+y^{2}=100000{0<z<5}"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 1,
+        "has_color": 1
+      }
+    }
+  ],
+  "diagnostics": [
+    {
+      "severity": "INFO",
+      "code": "COVERAGE_COMPLETE",
+      "message": "Coverage report complete",
+      "source_ref": null,
+      "details": {
+        "file": "[4B] 3D Diagram - S2-06 Group E.json",
+        "meshed_expression_ids": 0,
+        "supported_but_not_meshed": 0,
+        "group_count": 20
+      }
+    }
+  ]
+}

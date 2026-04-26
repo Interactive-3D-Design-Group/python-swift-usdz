@@ -1,0 +1,274 @@
+{
+  "schema_version": 1,
+  "mesh_count": 12,
+  "failed_mesh_count": 5,
+  "meshes": [
+    {
+      "name": "[4B] 3D Diagram - S2-10 Group D_131",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-10 Group D_131.obj",
+      "color": "#6042a6",
+      "source_file": "[4B] 3D Diagram - S2-10 Group D.json",
+      "expression_id": "131",
+      "family": "CONSTANT_PLANE",
+      "bounds": {
+        "min": [
+          -3.0,
+          -3.0,
+          3.0
+        ],
+        "max": [
+          3.0,
+          3.0,
+          3.0
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-10 Group D_133",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-10 Group D_133.obj",
+      "color": "#2d70b3",
+      "source_file": "[4B] 3D Diagram - S2-10 Group D.json",
+      "expression_id": "133",
+      "family": "CONSTANT_PLANE",
+      "bounds": {
+        "min": [
+          -2.0,
+          -2.0,
+          5.0
+        ],
+        "max": [
+          2.0,
+          2.0,
+          5.0
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-10 Group D_134",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-10 Group D_134.obj",
+      "color": "#c74440",
+      "source_file": "[4B] 3D Diagram - S2-10 Group D.json",
+      "expression_id": "134",
+      "family": "CONSTANT_PLANE",
+      "bounds": {
+        "min": [
+          -1.0,
+          -1.0,
+          10.0
+        ],
+        "max": [
+          1.0,
+          1.0,
+          10.0
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-10 Group D_135",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-10 Group D_135.obj",
+      "color": "#c74440",
+      "source_file": "[4B] 3D Diagram - S2-10 Group D.json",
+      "expression_id": "135",
+      "family": "CONSTANT_PLANE",
+      "bounds": {
+        "min": [
+          1.0,
+          -1.0,
+          10.0
+        ],
+        "max": [
+          1.0,
+          1.0,
+          11.0
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-10 Group D_136",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-10 Group D_136.obj",
+      "color": "#c74440",
+      "source_file": "[4B] 3D Diagram - S2-10 Group D.json",
+      "expression_id": "136",
+      "family": "CONSTANT_PLANE",
+      "bounds": {
+        "min": [
+          -1.0,
+          1.0,
+          10.0
+        ],
+        "max": [
+          1.0,
+          1.0,
+          11.0
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-10 Group D_137",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-10 Group D_137.obj",
+      "color": "#c74440",
+      "source_file": "[4B] 3D Diagram - S2-10 Group D.json",
+      "expression_id": "137",
+      "family": "CONSTANT_PLANE",
+      "bounds": {
+        "min": [
+          -1.0,
+          -1.0,
+          10.0
+        ],
+        "max": [
+          -1.0,
+          1.0,
+          11.0
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-10 Group D_138",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-10 Group D_138.obj",
+      "color": "#c74440",
+      "source_file": "[4B] 3D Diagram - S2-10 Group D.json",
+      "expression_id": "138",
+      "family": "CONSTANT_PLANE",
+      "bounds": {
+        "min": [
+          -1.0,
+          -1.0,
+          10.0
+        ],
+        "max": [
+          1.0,
+          -1.0,
+          11.0
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-10 Group D_139",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-10 Group D_139.obj",
+      "color": "#c74440",
+      "source_file": "[4B] 3D Diagram - S2-10 Group D.json",
+      "expression_id": "139",
+      "family": "CONSTANT_PLANE",
+      "bounds": {
+        "min": [
+          -1.0,
+          -1.0,
+          11.0
+        ],
+        "max": [
+          1.0,
+          1.0,
+          11.0
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-10 Group D_141",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-10 Group D_141.obj",
+      "color": "#fa7e19",
+      "source_file": "[4B] 3D Diagram - S2-10 Group D.json",
+      "expression_id": "141",
+      "family": "CONSTANT_PLANE",
+      "bounds": {
+        "min": [
+          0.1,
+          -0.1,
+          11.0
+        ],
+        "max": [
+          0.1,
+          0.1,
+          13.0
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-10 Group D_142",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-10 Group D_142.obj",
+      "color": "#fa7e19",
+      "source_file": "[4B] 3D Diagram - S2-10 Group D.json",
+      "expression_id": "142",
+      "family": "CONSTANT_PLANE",
+      "bounds": {
+        "min": [
+          -0.1,
+          -0.1,
+          11.0
+        ],
+        "max": [
+          -0.1,
+          0.1,
+          13.0
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-10 Group D_144",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-10 Group D_144.obj",
+      "color": "#fa7e19",
+      "source_file": "[4B] 3D Diagram - S2-10 Group D.json",
+      "expression_id": "144",
+      "family": "CONSTANT_PLANE",
+      "bounds": {
+        "min": [
+          -0.1,
+          -0.1,
+          11.0
+        ],
+        "max": [
+          0.1,
+          -0.1,
+          13.0
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-10 Group D_145",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-10 Group D_145.obj",
+      "color": "#fa7e19",
+      "source_file": "[4B] 3D Diagram - S2-10 Group D.json",
+      "expression_id": "145",
+      "family": "CONSTANT_PLANE",
+      "bounds": {
+        "min": [
+          -0.1,
+          -0.1,
+          13.0
+        ],
+        "max": [
+          0.1,
+          0.1,
+          13.0
+        ]
+      }
+    }
+  ],
+  "failures": [
+    {
+      "source_file": "[4B] 3D Diagram - S2-10 Group D.json",
+      "expression_id": "120",
+      "error": "Missing finite bounds for axis x"
+    },
+    {
+      "source_file": "[4B] 3D Diagram - S2-10 Group D.json",
+      "expression_id": "123",
+      "error": "Missing finite bounds for axis y"
+    },
+    {
+      "source_file": "[4B] 3D Diagram - S2-10 Group D.json",
+      "expression_id": "126",
+      "error": "Missing finite bounds for axis x"
+    },
+    {
+      "source_file": "[4B] 3D Diagram - S2-10 Group D.json",
+      "expression_id": "127",
+      "error": "Missing finite bounds for axis y"
+    },
+    {
+      "source_file": "[4B] 3D Diagram - S2-10 Group D.json",
+      "expression_id": "170",
+      "error": "Missing finite bounds for axis x"
+    }
+  ]
+}

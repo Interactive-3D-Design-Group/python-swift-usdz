@@ -1,0 +1,1808 @@
+{
+  "version": 11,
+  "randomSeed": "e720046e34010baa812324edb22163c2",
+  "graph": {
+    "viewport": {
+      "xmin": -38.288446875000005,
+      "ymin": -38.288446875000005,
+      "zmin": -29.946136250000006,
+      "xmax": 38.288446875000005,
+      "ymax": 38.288446875000005,
+      "zmax": 46.6307575
+    },
+    "worldRotation3D": [
+      -0.8188905311018554,
+      0.48142590538756813,
+      -0.31248583278851294,
+      -0.44979013793748046,
+      -0.8764867926111644,
+      -0.1716383820490747,
+      -0.3565208687944507,
+      -1.7700760336873805e-13,
+      0.9342873594960288
+    ],
+    "axis3D": [
+      0,
+      0,
+      -1.0000000000016098
+    ],
+    "perspectiveDistortion": 0,
+    "showAxis3D": false,
+    "product": "graphing-3d",
+    "threeDMode": true,
+    "__v12ViewportLatexStash": {
+      "xmin": "-38.288446875000005",
+      "xmax": "38.288446875000005",
+      "ymin": "-38.288446875000005",
+      "ymax": "38.288446875000005",
+      "zmin": "-29.946136250000006",
+      "zmax": "46.6307575"
+    }
+  },
+  "expressions": {
+    "list": [
+      {
+        "type": "folder",
+        "id": "366",
+        "title": "background",
+        "collapsed": true
+      },
+      {
+        "type": "expression",
+        "id": "367",
+        "folderId": "366",
+        "color": "#388c46",
+        "latex": "z\\ \\le\\ 0"
+      },
+      {
+        "type": "folder",
+        "id": "15",
+        "title": "colours",
+        "collapsed": true
+      },
+      {
+        "type": "expression",
+        "id": "16",
+        "folderId": "15",
+        "color": "#388c46",
+        "latex": "c_{lightbeige}\\ =\\ \\operatorname{rgb}(255,243,224)"
+      },
+      {
+        "type": "expression",
+        "id": "17",
+        "folderId": "15",
+        "color": "#6042a6",
+        "latex": "c_{darkbeige}=\\ \\operatorname{rgb}(220,192,145)"
+      },
+      {
+        "type": "expression",
+        "id": "59",
+        "folderId": "15",
+        "color": "#aaaaaa",
+        "latex": "c_{darkerbeige}=\\ \\operatorname{rgb}(190,162,115)"
+      },
+      {
+        "type": "expression",
+        "id": "18",
+        "folderId": "15",
+        "color": "#aaaaaa",
+        "latex": "c_{lessbeige}\\ =\\operatorname{rgb}(255,232,193)"
+      },
+      {
+        "type": "expression",
+        "id": "19",
+        "folderId": "15",
+        "color": "#c74440",
+        "latex": "c_{beige}\\ =\\ \\operatorname{rgb}(237,213,172)"
+      },
+      {
+        "type": "expression",
+        "id": "20",
+        "folderId": "15",
+        "color": "#2d70b3",
+        "latex": "c_{white}\\ =\\ \\operatorname{rgb}\\left(255,\\ 255,\\ 255\\right)"
+      },
+      {
+        "type": "expression",
+        "id": "21",
+        "folderId": "15",
+        "color": "#388c46",
+        "latex": "c_{grey}\\ =\\ \\operatorname{rgb}\\left(50,\\ 50,\\ 50\\right)"
+      },
+      {
+        "type": "folder",
+        "id": "12",
+        "title": "base - main",
+        "collapsed": true
+      },
+      {
+        "type": "expression",
+        "id": "1",
+        "folderId": "12",
+        "color": "#c74440",
+        "latex": "-20\\ \\le\\ x\\ \\le\\ 20\\ \\left\\{-20\\ \\le\\ y\\ \\le\\ 20\\right\\}\\ \\left\\{0\\ \\le\\ z\\ \\le\\ 2.5\\right\\}",
+        "colorLatex": "c_{beige}"
+      },
+      {
+        "type": "expression",
+        "id": "7",
+        "folderId": "12",
+        "color": "#2d70b3",
+        "latex": "20\\ \\le\\ x\\ \\le\\ 23\\ \\left\\{-6\\ \\le\\ y\\ \\le\\ 6\\right\\}\\ \\left\\{0\\ \\le\\ z\\ \\le\\ 2.5\\right\\}",
+        "colorLatex": "c_{beige}"
+      },
+      {
+        "type": "expression",
+        "id": "14",
+        "folderId": "12",
+        "color": "#2d70b3",
+        "latex": "20\\ \\le\\ x\\ \\le\\ 20.5\\ \\left\\{-20.5\\ \\le\\ y\\ \\le-6\\right\\}\\left\\{0\\ \\le\\ z\\ \\le\\ 3\\right\\}",
+        "colorLatex": "c_{darkbeige}"
+      },
+      {
+        "type": "expression",
+        "id": "22",
+        "folderId": "12",
+        "color": "#6042a6",
+        "latex": "20\\ \\le\\ x\\ \\le\\ 20.5\\ \\left\\{6\\ \\le\\ y\\ \\le20.5\\right\\}\\left\\{0\\ \\le\\ z\\ \\le\\ 3\\right\\}",
+        "colorLatex": "c_{darkbeige}"
+      },
+      {
+        "type": "expression",
+        "id": "23",
+        "folderId": "12",
+        "color": "#aaaaaa",
+        "latex": "-20.5\\ \\le\\ x\\ \\le\\ -20\\ \\left\\{-20.5\\ \\le\\ y\\ \\le20.5\\right\\}\\left\\{0\\ \\le\\ z\\ \\le\\ 3\\right\\}",
+        "colorLatex": "c_{darkbeige}"
+      },
+      {
+        "type": "expression",
+        "id": "24",
+        "folderId": "12",
+        "color": "#c74440",
+        "latex": "-20.5\\ \\le\\ y\\ \\le\\ -20\\ \\left\\{-20\\ \\le\\ x\\ \\le20\\right\\}\\left\\{0\\ \\le\\ z\\ \\le\\ 3\\right\\}",
+        "colorLatex": "c_{darkbeige}"
+      },
+      {
+        "type": "expression",
+        "id": "25",
+        "folderId": "12",
+        "color": "#2d70b3",
+        "latex": "20\\ \\le\\ y\\ \\le\\ 20.5\\ \\left\\{-20\\ \\le\\ x\\ \\le20\\right\\}\\left\\{0\\ \\le\\ z\\ \\le\\ 3\\right\\}",
+        "colorLatex": "c_{darkbeige}"
+      },
+      {
+        "type": "expression",
+        "id": "26",
+        "folderId": "12",
+        "color": "#388c46",
+        "latex": "23\\ \\le\\ x\\ \\le\\ 23.5\\ \\left\\{-6.5\\ \\le\\ y\\ \\le\\ 6.5\\right\\}\\left\\{0\\ \\le\\ z\\ \\le3\\right\\}",
+        "colorLatex": "c_{darkbeige}"
+      },
+      {
+        "type": "expression",
+        "id": "27",
+        "folderId": "12",
+        "color": "#6042a6",
+        "latex": "20.5\\ \\le\\ x\\ \\le23\\ \\left\\{-6.5\\ \\le\\ y\\ \\le-6\\right\\}\\left\\{0\\le z\\le3\\right\\}",
+        "colorLatex": "c_{darkbeige}"
+      },
+      {
+        "type": "expression",
+        "id": "28",
+        "folderId": "12",
+        "color": "#aaaaaa",
+        "latex": "20.5\\ \\le\\ x\\ \\le23\\ \\left\\{6.5\\ \\ge\\ y\\ \\ge6\\right\\}\\left\\{0\\le z\\le3\\right\\}",
+        "colorLatex": "c_{darkbeige}"
+      },
+      {
+        "type": "folder",
+        "id": "61",
+        "title": "patterns - pillar - bottom",
+        "collapsed": true
+      },
+      {
+        "type": "expression",
+        "id": "42",
+        "folderId": "61",
+        "color": "#388c46",
+        "latex": "f_{1}\\ =\\left(h\\ +\\ a,\\ k\\right)",
+        "hidden": true
+      },
+      {
+        "type": "expression",
+        "id": "43",
+        "folderId": "61",
+        "color": "#6042a6",
+        "latex": "f_{2}\\ =\\ \\left(h\\ -\\ a,\\ k\\right)",
+        "hidden": true
+      },
+      {
+        "type": "expression",
+        "id": "44",
+        "folderId": "61",
+        "color": "#aaaaaa",
+        "latex": "f_{3}\\ =\\ \\left(h,\\ k\\ +\\ a\\right)",
+        "hidden": true
+      },
+      {
+        "type": "expression",
+        "id": "45",
+        "folderId": "61",
+        "color": "#c74440",
+        "latex": "f_{4}\\ =\\ \\left(h,\\ k\\ -\\ a\\right)",
+        "hidden": true
+      },
+      {
+        "type": "expression",
+        "id": "47",
+        "folderId": "61",
+        "color": "#388c46",
+        "latex": "f_{5}=\\ \\left(h\\ +\\ \\frac{a}{\\sqrt{2}},\\ k\\ +\\ \\frac{a}{\\sqrt{2}}\\right)",
+        "hidden": true
+      },
+      {
+        "type": "expression",
+        "id": "48",
+        "folderId": "61",
+        "color": "#6042a6",
+        "latex": "f_{6}=\\ \\left(h\\ -\\ \\frac{a}{\\sqrt{2}},\\ k\\ +\\ \\frac{a}{\\sqrt{2}}\\right)",
+        "hidden": true
+      },
+      {
+        "type": "expression",
+        "id": "49",
+        "folderId": "61",
+        "color": "#aaaaaa",
+        "latex": "f_{7}=\\ \\left(h\\ +\\ \\frac{a}{\\sqrt{2}},\\ k\\ -\\ \\frac{a}{\\sqrt{2}}\\right)",
+        "hidden": true
+      },
+      {
+        "type": "expression",
+        "id": "50",
+        "folderId": "61",
+        "color": "#c74440",
+        "latex": "f_{8}=\\ \\left(h\\ -\\ \\frac{a}{\\sqrt{2}},\\ k\\ -\\ \\frac{a}{\\sqrt{2}}\\right)",
+        "hidden": true
+      },
+      {
+        "type": "expression",
+        "id": "51",
+        "folderId": "61",
+        "color": "#2d70b3",
+        "latex": "s_{sidelength}\\ =\\ 2a\\left(\\sqrt{2}\\ -\\ 1\\right)"
+      },
+      {
+        "type": "expression",
+        "id": "53",
+        "folderId": "61",
+        "color": "#6042a6",
+        "latex": "f_{1}.y-\\frac{s_{sidelength}}{2}\\ \\le\\ y\\le\\ f_{1}.y\\ +\\frac{s_{sidelength}}{2}\\ \\left\\{3\\ \\ge\\ z\\ \\ge\\ 2.8\\ \\right\\}\\left\\{-0.2\\ +\\ f_{1}.x\\ \\le\\ x\\le\\ 0.2+f_{1}.x\\right\\}",
+        "colorLatex": "c_{darkerbeige}"
+      },
+      {
+        "type": "expression",
+        "id": "55",
+        "folderId": "61",
+        "color": "#c74440",
+        "latex": "f_{1}.y-\\frac{s_{sidelength}}{2}\\ \\le\\ y\\le\\ f_{1}.y\\ +\\frac{s_{sidelength}}{2}\\ \\left\\{2\\ \\ge\\ z\\ \\ge\\ 1.8\\ \\right\\}\\left\\{-0.2\\ +\\ f_{1}.x\\ \\le\\ x\\le\\ 0.2+f_{1}.x\\right\\}",
+        "colorLatex": "c_{darkerbeige}"
+      },
+      {
+        "type": "expression",
+        "id": "56",
+        "folderId": "61",
+        "color": "#2d70b3",
+        "latex": "f_{1}.y-\\frac{s_{sidelength}}{2}\\ \\le\\ y\\le\\ f_{1}.y\\ +\\frac{s_{sidelength}}{2}\\ \\left\\{0.2\\ \\ge\\ z\\ \\ge\\ 0\\ \\right\\}\\left\\{-0.2\\ +\\ f_{1}.x\\ \\le\\ x\\le\\ 0.2+f_{1}.x\\right\\}",
+        "colorLatex": "c_{darkerbeige}"
+      },
+      {
+        "type": "expression",
+        "id": "57",
+        "folderId": "61",
+        "color": "#388c46",
+        "latex": "f_{1}.y-\\frac{s_{sidelength}}{2}\\ \\le\\ y\\le\\ f_{1}.y\\ -\\frac{s_{sidelength}}{2}+\\ 0.2\\ \\left\\{3\\ \\ge\\ z\\ \\ge\\ 0\\ \\right\\}\\left\\{-0.2\\ +\\ f_{1}.x\\ \\le\\ x\\le\\ 0.2+f_{1}.x\\right\\}",
+        "colorLatex": "c_{darkerbeige}"
+      },
+      {
+        "type": "expression",
+        "id": "58",
+        "folderId": "61",
+        "color": "#6042a6",
+        "latex": "f_{1}.y+\\frac{s_{sidelength}}{2}\\ \\ge\\ y\\ge\\ f_{1}.y\\ +\\frac{s_{sidelength}}{2}-\\ 0.2\\ \\left\\{3\\ \\ge\\ z\\ \\ge\\ 0\\ \\right\\}\\left\\{-0.2\\ +\\ f_{1}.x\\ \\le\\ x\\le\\ 0.2+f_{1}.x\\right\\}",
+        "colorLatex": "c_{darkerbeige}"
+      },
+      {
+        "type": "expression",
+        "id": "63",
+        "folderId": "61",
+        "color": "#388c46",
+        "latex": "f_{2}.y-\\frac{s_{sidelength}}{2}\\ \\le\\ y\\le\\ f_{2}.y\\ +\\frac{s_{sidelength}}{2}\\ \\left\\{3\\ \\ge\\ z\\ \\ge\\ 2.8\\ \\right\\}\\left\\{-0.2\\ +\\ f_{2}.x\\ \\le\\ x\\le\\ 0.2+f_{2}.x\\right\\}",
+        "colorLatex": "c_{darkerbeige}"
+      },
+      {
+        "type": "expression",
+        "id": "64",
+        "folderId": "61",
+        "color": "#6042a6",
+        "latex": "f_{2}.y-\\frac{s_{sidelength}}{2}\\ \\le\\ y\\le\\ f_{2}.y\\ +\\frac{s_{sidelength}}{2}\\ \\left\\{2\\ \\ge\\ z\\ \\ge\\ 1.8\\ \\right\\}\\left\\{-0.2\\ +\\ f_{2}.x\\ \\le\\ x\\le\\ 0.2+f_{2}.x\\right\\}",
+        "colorLatex": "c_{darkerbeige}"
+      },
+      {
+        "type": "expression",
+        "id": "65",
+        "folderId": "61",
+        "color": "#aaaaaa",
+        "latex": "f_{2}.y-\\frac{s_{sidelength}}{2}\\ \\le\\ y\\le\\ f_{2}.y\\ +\\frac{s_{sidelength}}{2}\\ \\left\\{0.2\\ \\ge\\ z\\ \\ge\\ 0\\ \\right\\}\\left\\{-0.2\\ +\\ f_{2}.x\\ \\le\\ x\\le\\ 0.2+f_{2}.x\\right\\}",
+        "colorLatex": "c_{darkerbeige}"
+      },
+      {
+        "type": "expression",
+        "id": "66",
+        "folderId": "61",
+        "color": "#c74440",
+        "latex": "f_{2}.y-\\frac{s_{sidelength}}{2}\\ \\le\\ y\\le\\ f_{2}.y\\ -\\frac{s_{sidelength}}{2}+0.2\\ \\left\\{3\\ \\ge\\ z\\ \\ge\\ 0\\right\\}\\left\\{-0.2\\ +\\ f_{2}.x\\ \\le\\ x\\le\\ 0.2+f_{2}.x\\right\\}",
+        "colorLatex": "c_{darkerbeige}"
+      },
+      {
+        "type": "expression",
+        "id": "67",
+        "folderId": "61",
+        "color": "#2d70b3",
+        "latex": "f_{2}.y+\\frac{s_{sidelength}}{2}\\ \\ge\\ y\\ge\\ f_{2}.y\\ +\\frac{s_{sidelength}}{2}-0.2\\ \\left\\{3\\ \\ge\\ z\\ \\ge\\ 0\\right\\}\\left\\{-0.2\\ +\\ f_{2}.x\\ \\le\\ x\\le\\ 0.2+f_{2}.x\\right\\}",
+        "colorLatex": "c_{darkerbeige}"
+      },
+      {
+        "type": "expression",
+        "id": "68",
+        "folderId": "61",
+        "color": "#388c46",
+        "latex": "f_{3}.x-\\frac{s_{sidelength}}{2}\\ \\le\\ x\\le\\ f_{3}.x\\ +\\frac{s_{sidelength}}{2}\\ \\left\\{3\\ \\ge\\ z\\ \\ge\\ 2.8\\ \\right\\}\\left\\{-0.2\\ +\\ f_{3}.y\\ \\le\\ y\\le\\ 0.2+f_{3}.y\\right\\}",
+        "colorLatex": "c_{darkerbeige}"
+      },
+      {
+        "type": "expression",
+        "id": "70",
+        "folderId": "61",
+        "color": "#aaaaaa",
+        "latex": "f_{3}.x-\\frac{s_{sidelength}}{2}\\ \\le\\ x\\le\\ f_{3}.x\\ +\\frac{s_{sidelength}}{2}\\ \\left\\{2\\ \\ge\\ z\\ \\ge\\ 1.8\\ \\right\\}\\left\\{-0.2\\ +\\ f_{3}.y\\ \\le\\ y\\le\\ 0.2+f_{3}.y\\right\\}",
+        "colorLatex": "c_{darkerbeige}"
+      },
+      {
+        "type": "expression",
+        "id": "71",
+        "folderId": "61",
+        "color": "#c74440",
+        "latex": "f_{3}.x-\\frac{s_{sidelength}}{2}\\ \\le\\ x\\le\\ f_{3}.x\\ +\\frac{s_{sidelength}}{2}\\ \\left\\{0.2\\ \\ge\\ z\\ \\ge\\ 0\\ \\right\\}\\left\\{-0.2\\ +\\ f_{3}.y\\ \\le\\ y\\le\\ 0.2+f_{3}.y\\right\\}",
+        "colorLatex": "c_{darkerbeige}"
+      },
+      {
+        "type": "expression",
+        "id": "72",
+        "folderId": "61",
+        "color": "#2d70b3",
+        "latex": "f_{3}.x-\\frac{s_{sidelength}}{2}\\ \\le\\ x\\le\\ f_{3}.x\\ -\\frac{s_{sidelength}}{2}\\ +\\ 0.2\\left\\{3\\ \\ge\\ z\\ \\ge\\ 0\\ \\right\\}\\left\\{-0.2\\ +\\ f_{3}.y\\ \\le\\ y\\le\\ 0.2+f_{3}.y\\right\\}",
+        "colorLatex": "c_{darkerbeige}"
+      },
+      {
+        "type": "expression",
+        "id": "73",
+        "folderId": "61",
+        "color": "#388c46",
+        "latex": "f_{3}.x+\\frac{s_{sidelength}}{2}\\ \\ge\\ x\\ge\\ f_{3}.x\\ +\\frac{s_{sidelength}}{2}\\ -\\ 0.2\\left\\{3\\ \\ge\\ z\\ \\ge\\ 0\\ \\right\\}\\left\\{-0.2\\ +\\ f_{3}.y\\ \\le\\ y\\le\\ 0.2+f_{3}.y\\right\\}",
+        "colorLatex": "c_{darkerbeige}"
+      },
+      {
+        "type": "expression",
+        "id": "74",
+        "folderId": "61",
+        "color": "#6042a6",
+        "latex": "f_{4}.x-\\frac{s_{sidelength}}{2}\\ \\le\\ x\\le\\ f_{4}.x\\ +\\frac{s_{sidelength}}{2}\\ \\left\\{3\\ \\ge\\ z\\ \\ge\\ 2.8\\ \\right\\}\\left\\{-0.2\\ +\\ f_{4}.y\\ \\le\\ y\\le\\ 0.2+f_{4}.y\\right\\}",
+        "colorLatex": "c_{darkerbeige}"
+      },
+      {
+        "type": "expression",
+        "id": "75",
+        "folderId": "61",
+        "color": "#aaaaaa",
+        "latex": "f_{4}.x-\\frac{s_{sidelength}}{2}\\ \\le\\ x\\le\\ f_{4}.x\\ +\\frac{s_{sidelength}}{2}\\ \\left\\{2\\ \\ge\\ z\\ \\ge\\ 1.8\\ \\right\\}\\left\\{-0.2\\ +\\ f_{4}.y\\ \\le\\ y\\le\\ 0.2+f_{4}.y\\right\\}",
+        "colorLatex": "c_{darkerbeige}"
+      },
+      {
+        "type": "expression",
+        "id": "76",
+        "folderId": "61",
+        "color": "#c74440",
+        "latex": "f_{4}.x-\\frac{s_{sidelength}}{2}\\ \\le\\ x\\le\\ f_{4}.x\\ +\\frac{s_{sidelength}}{2}\\ \\left\\{0.2\\ \\ge\\ z\\ \\ge\\ 0\\ \\right\\}\\left\\{-0.2\\ +\\ f_{4}.y\\ \\le\\ y\\le\\ 0.2+f_{4}.y\\right\\}",
+        "colorLatex": "c_{darkerbeige}"
+      },
+      {
+        "type": "expression",
+        "id": "77",
+        "folderId": "61",
+        "color": "#2d70b3",
+        "latex": "f_{4}.x-\\frac{s_{sidelength}}{2}\\ \\le\\ x\\le\\ f_{4}.x\\ -\\frac{s_{sidelength}}{2}\\ +\\ 0.2\\left\\{3\\ \\ge\\ z\\ \\ge\\ 0\\ \\right\\}\\left\\{-0.2\\ +\\ f_{4}.y\\ \\le\\ y\\le\\ 0.2+f_{4}.y\\right\\}",
+        "colorLatex": "c_{darkerbeige}"
+      },
+      {
+        "type": "expression",
+        "id": "78",
+        "folderId": "61",
+        "color": "#388c46",
+        "latex": "f_{4}.x+\\frac{s_{sidelength}}{2}\\ \\ge\\ x\\ge\\ f_{4}.x\\ +\\frac{s_{sidelength}}{2}\\ -\\ 0.2\\left\\{3\\ \\ge\\ z\\ \\ge\\ 0\\ \\right\\}\\left\\{-0.2\\ +\\ f_{4}.y\\ \\le\\ y\\le\\ 0.2+f_{4}.y\\right\\}",
+        "colorLatex": "c_{darkerbeige}"
+      },
+      {
+        "type": "expression",
+        "id": "84",
+        "folderId": "61",
+        "color": "#6042a6",
+        "latex": "-\\frac{s_{sidelength}}{2}\\ \\le\\ \\frac{\\left(x-f_{5}.x\\ -\\left(\\ y-f_{5}.y\\right)\\right)}{\\sqrt{2}}\\le\\ \\frac{s_{sidelength}}{2}\\ \\left\\{3\\ \\ge\\ z\\ \\ge\\ 2.8\\ \\right\\}\\left\\{-0.2\\ \\le\\ \\frac{\\left(y-f_{5}.y+\\left(x-f_{5}.x\\right)\\right)}{-\\sqrt{2}}\\le\\ 0.2\\right\\}",
+        "colorLatex": "c_{darkerbeige}"
+      },
+      {
+        "type": "expression",
+        "id": "85",
+        "folderId": "61",
+        "color": "#aaaaaa",
+        "latex": "-\\frac{s_{sidelength}}{2}\\ \\le\\ \\frac{\\left(x-f_{5}.x\\ -\\left(\\ y-f_{5}.y\\right)\\right)}{\\sqrt{2}}\\le\\ \\frac{s_{sidelength}}{2}\\ \\left\\{2\\ \\ge\\ z\\ \\ge\\ 1.8\\ \\right\\}\\left\\{-0.2\\ \\le\\ \\frac{\\left(y-f_{5}.y+\\left(x-f_{5}.x\\right)\\right)}{-\\sqrt{2}}\\le\\ 0.2\\right\\}",
+        "colorLatex": "c_{darkerbeige}"
+      },
+      {
+        "type": "expression",
+        "id": "86",
+        "folderId": "61",
+        "color": "#c74440",
+        "latex": "-\\frac{s_{sidelength}}{2}\\ \\le\\ \\frac{\\left(x-f_{5}.x\\ -\\left(\\ y-f_{5}.y\\right)\\right)}{\\sqrt{2}}\\le\\ \\frac{s_{sidelength}}{2}\\ \\left\\{0.2\\ \\ge\\ z\\ \\ge\\ 0\\ \\right\\}\\left\\{-0.2\\ \\le\\ \\frac{\\left(y-f_{5}.y+\\left(x-f_{5}.x\\right)\\right)}{-\\sqrt{2}}\\le\\ 0.2\\right\\}",
+        "colorLatex": "c_{darkerbeige}"
+      },
+      {
+        "type": "expression",
+        "id": "87",
+        "folderId": "61",
+        "color": "#388c46",
+        "latex": "-\\frac{s_{sidelength}}{2}\\ \\le\\ \\frac{\\left(x-f_{5}.x\\ -\\left(\\ y-f_{5}.y\\right)\\right)}{\\sqrt{2}}\\le\\ -\\frac{s_{sidelength}}{2}\\ +\\ 0.2\\left\\{3\\ \\ge\\ z\\ \\ge\\ 0\\right\\}\\left\\{-0.2\\ \\le\\ \\frac{\\left(y-f_{5}.y+\\left(x-f_{5}.x\\right)\\right)}{-\\sqrt{2}}\\le\\ 0.2\\right\\}",
+        "colorLatex": "c_{darkerbeige}"
+      },
+      {
+        "type": "expression",
+        "id": "88",
+        "folderId": "61",
+        "color": "#388c46",
+        "latex": "\\frac{s_{sidelength}}{2}\\ \\ge\\ \\frac{\\left(x-f_{5}.x\\ -\\left(\\ y-f_{5}.y\\right)\\right)}{\\sqrt{2}}\\ge\\ \\frac{s_{sidelength}}{2}\\ -\\ 0.2\\left\\{3\\ \\ge\\ z\\ \\ge\\ 0\\right\\}\\left\\{-0.2\\ \\le\\ \\frac{\\left(y-f_{5}.y+\\left(x-f_{5}.x\\right)\\right)}{-\\sqrt{2}}\\le\\ 0.2\\right\\}",
+        "colorLatex": "c_{darkerbeige}"
+      },
+      {
+        "type": "expression",
+        "id": "89",
+        "folderId": "61",
+        "color": "#6042a6",
+        "latex": "-\\frac{s_{sidelength}}{2}\\ \\le\\ \\frac{\\left(x-f_{6}.x\\ +\\left(\\ y-f_{6}.y\\right)\\right)}{\\sqrt{2}}\\le\\ \\frac{s_{sidelength}}{2}\\ \\left\\{3\\ \\ge\\ z\\ \\ge\\ 2.8\\ \\right\\}\\left\\{-0.2\\ \\le\\ \\frac{\\left(y-f_{6}.y-\\left(x-f_{6}.x\\right)\\right)}{-\\sqrt{2}}\\le\\ 0.2\\right\\}",
+        "colorLatex": "c_{darkerbeige}"
+      },
+      {
+        "type": "expression",
+        "id": "90",
+        "folderId": "61",
+        "color": "#aaaaaa",
+        "latex": "-\\frac{s_{sidelength}}{2}\\ \\le\\ \\frac{\\left(x-f_{6}.x\\ +\\left(\\ y-f_{6}.y\\right)\\right)}{\\sqrt{2}}\\le\\ \\frac{s_{sidelength}}{2}\\ \\left\\{2\\ \\ge\\ z\\ \\ge\\ 1.8\\ \\right\\}\\left\\{-0.2\\ \\le\\ \\frac{\\left(y-f_{6}.y-\\left(x-f_{6}.x\\right)\\right)}{-\\sqrt{2}}\\le\\ 0.2\\right\\}",
+        "colorLatex": "c_{darkerbeige}"
+      },
+      {
+        "type": "expression",
+        "id": "91",
+        "folderId": "61",
+        "color": "#c74440",
+        "latex": "-\\frac{s_{sidelength}}{2}\\ \\le\\ \\frac{\\left(x-f_{6}.x\\ +\\left(\\ y-f_{6}.y\\right)\\right)}{\\sqrt{2}}\\le\\ \\frac{s_{sidelength}}{2}\\ \\left\\{0.2\\ \\ge\\ z\\ \\ge\\ 0\\ \\right\\}\\left\\{-0.2\\ \\le\\ \\frac{\\left(y-f_{6}.y-\\left(x-f_{6}.x\\right)\\right)}{-\\sqrt{2}}\\le\\ 0.2\\right\\}",
+        "colorLatex": "c_{darkerbeige}"
+      },
+      {
+        "type": "expression",
+        "id": "92",
+        "folderId": "61",
+        "color": "#2d70b3",
+        "latex": "-\\frac{s_{sidelength}}{2}\\ \\le\\ \\frac{\\left(x-f_{6}.x\\ +\\left(\\ y-f_{6}.y\\right)\\right)}{\\sqrt{2}}\\le\\ -\\frac{s_{sidelength}}{2}\\ +\\ 0.2\\ \\left\\{3\\ \\ge\\ z\\ \\ge\\ 0\\ \\right\\}\\left\\{-0.2\\ \\le\\ \\frac{\\left(y-f_{6}.y-\\left(x-f_{6}.x\\right)\\right)}{-\\sqrt{2}}\\le\\ 0.2\\right\\}",
+        "colorLatex": "c_{darkerbeige}"
+      },
+      {
+        "type": "expression",
+        "id": "93",
+        "folderId": "61",
+        "color": "#388c46",
+        "latex": "\\frac{s_{sidelength}}{2}\\ \\ge\\ \\frac{\\left(x-f_{6}.x\\ +\\left(\\ y-f_{6}.y\\right)\\right)}{\\sqrt{2}}\\ge\\ \\frac{s_{sidelength}}{2}\\ -\\ 0.2\\ \\left\\{3\\ \\ge\\ z\\ \\ge\\ 0\\ \\right\\}\\left\\{-0.2\\ \\le\\ \\frac{\\left(y-f_{6}.y-\\left(x-f_{6}.x\\right)\\right)}{-\\sqrt{2}}\\le\\ 0.2\\right\\}",
+        "colorLatex": "c_{darkerbeige}"
+      },
+      {
+        "type": "expression",
+        "id": "99",
+        "folderId": "61",
+        "color": "#6042a6",
+        "latex": "-\\frac{s_{sidelength}}{2}\\ \\le\\ \\frac{\\left(x-f_{7}.x\\ +\\left(\\ y-f_{7}.y\\right)\\right)}{\\sqrt{2}}\\le\\ \\frac{s_{sidelength}}{2}\\ \\left\\{3\\ \\ge\\ z\\ \\ge\\ 2.8\\ \\right\\}\\left\\{-0.2\\ \\le\\ \\frac{\\left(y-f_{7}.y-\\left(x-f_{7}.x\\right)\\right)}{-\\sqrt{2}}\\le\\ 0.2\\right\\}",
+        "colorLatex": "c_{darkerbeige}"
+      },
+      {
+        "type": "expression",
+        "id": "100",
+        "folderId": "61",
+        "color": "#aaaaaa",
+        "latex": "-\\frac{s_{sidelength}}{2}\\ \\le\\ \\frac{\\left(x-f_{7}.x\\ +\\left(\\ y-f_{7}.y\\right)\\right)}{\\sqrt{2}}\\le\\ \\frac{s_{sidelength}}{2}\\ \\left\\{2\\ \\ge\\ z\\ \\ge\\ 1.8\\ \\right\\}\\left\\{-0.2\\ \\le\\ \\frac{\\left(y-f_{7}.y-\\left(x-f_{7}.x\\right)\\right)}{-\\sqrt{2}}\\le\\ 0.2\\right\\}",
+        "colorLatex": "c_{darkerbeige}"
+      },
+      {
+        "type": "expression",
+        "id": "102",
+        "folderId": "61",
+        "color": "#2d70b3",
+        "latex": "-\\frac{s_{sidelength}}{2}\\ \\le\\ \\frac{\\left(x-f_{7}.x\\ +\\left(\\ y-f_{7}.y\\right)\\right)}{\\sqrt{2}}\\le\\ -\\frac{s_{sidelength}}{2}\\ +\\ 0.2\\ \\left\\{3\\ \\ge\\ z\\ \\ge\\ 0\\ \\right\\}\\left\\{-0.2\\ \\le\\ \\frac{\\left(y-f_{7}.y-\\left(x-f_{7}.x\\right)\\right)}{-\\sqrt{2}}\\le\\ 0.2\\right\\}",
+        "colorLatex": "c_{darkerbeige}"
+      },
+      {
+        "type": "expression",
+        "id": "103",
+        "folderId": "61",
+        "color": "#388c46",
+        "latex": "\\frac{s_{sidelength}}{2}\\ \\ge\\ \\frac{\\left(x-f_{7}.x\\ +\\left(\\ y-f_{7}.y\\right)\\right)}{\\sqrt{2}}\\ge\\ \\frac{s_{sidelength}}{2}\\ -\\ 0.2\\ \\left\\{3\\ \\ge\\ z\\ \\ge\\ 0\\ \\right\\}\\left\\{-0.2\\ \\le\\ \\frac{\\left(y-f_{7}.y-\\left(x-f_{7}.x\\right)\\right)}{-\\sqrt{2}}\\le\\ 0.2\\right\\}",
+        "colorLatex": "c_{darkerbeige}"
+      },
+      {
+        "type": "expression",
+        "id": "94",
+        "folderId": "61",
+        "color": "#6042a6",
+        "latex": "-\\frac{s_{sidelength}}{2}\\ \\le\\ \\frac{\\left(x-f_{8}.x\\ -\\left(\\ y-f_{8}.y\\right)\\right)}{\\sqrt{2}}\\le\\ \\frac{s_{sidelength}}{2}\\ \\left\\{3\\ \\ge\\ z\\ \\ge\\ 2.8\\ \\right\\}\\left\\{-0.2\\ \\le\\ \\frac{\\left(y-f_{8}.y+\\left(x-f_{8}.x\\right)\\right)}{-\\sqrt{2}}\\le\\ 0.2\\right\\}",
+        "colorLatex": "c_{darkerbeige}"
+      },
+      {
+        "type": "expression",
+        "id": "95",
+        "folderId": "61",
+        "color": "#aaaaaa",
+        "latex": "-\\frac{s_{sidelength}}{2}\\ \\le\\ \\frac{\\left(x-f_{8}.x\\ -\\left(\\ y-f_{8}.y\\right)\\right)}{\\sqrt{2}}\\le\\ \\frac{s_{sidelength}}{2}\\ \\left\\{2\\ \\ge\\ z\\ \\ge\\ 1.8\\ \\right\\}\\left\\{-0.2\\ \\le\\ \\frac{\\left(y-f_{8}.y+\\left(x-f_{8}.x\\right)\\right)}{-\\sqrt{2}}\\le\\ 0.2\\right\\}",
+        "colorLatex": "c_{darkerbeige}"
+      },
+      {
+        "type": "expression",
+        "id": "96",
+        "folderId": "61",
+        "color": "#c74440",
+        "latex": "-\\frac{s_{sidelength}}{2}\\ \\le\\ \\frac{\\left(x-f_{8}.x\\ -\\left(\\ y-f_{8}.y\\right)\\right)}{\\sqrt{2}}\\le\\ \\frac{s_{sidelength}}{2}\\ \\left\\{0.2\\ \\ge\\ z\\ \\ge\\ 0\\ \\right\\}\\left\\{-0.2\\ \\le\\ \\frac{\\left(y-f_{8}.y+\\left(x-f_{8}.x\\right)\\right)}{-\\sqrt{2}}\\le\\ 0.2\\right\\}",
+        "colorLatex": "c_{darkerbeige}"
+      },
+      {
+        "type": "expression",
+        "id": "97",
+        "folderId": "61",
+        "color": "#2d70b3",
+        "latex": "-\\frac{s_{sidelength}}{2}\\ \\le\\ \\frac{\\left(x-f_{8}.x\\ -\\left(\\ y-f_{8}.y\\right)\\right)}{\\sqrt{2}}\\le\\ -\\frac{s_{sidelength}}{2}\\ +\\ 0.2\\ \\left\\{3\\ \\ge\\ z\\ \\ge\\ 0\\ \\right\\}\\left\\{-0.2\\ \\le\\ \\frac{\\left(y-f_{8}.y+\\left(x-f_{8}.x\\right)\\right)}{-\\sqrt{2}}\\le\\ 0.2\\right\\}",
+        "colorLatex": "c_{darkerbeige}"
+      },
+      {
+        "type": "expression",
+        "id": "98",
+        "folderId": "61",
+        "color": "#388c46",
+        "latex": "\\frac{s_{sidelength}}{2}\\ \\ge\\ \\frac{\\left(x-f_{8}.x\\ -\\left(\\ y-f_{8}.y\\right)\\right)}{\\sqrt{2}}\\ge\\frac{s_{sidelength}}{2}\\ -\\ 0.2\\ \\left\\{3\\ \\ge\\ z\\ \\ge\\ 0\\ \\right\\}\\left\\{-0.2\\ \\le\\ \\frac{\\left(y-f_{8}.y+\\left(x-f_{8}.x\\right)\\right)}{-\\sqrt{2}}\\le\\ 0.2\\right\\}",
+        "colorLatex": "c_{darkerbeige}"
+      },
+      {
+        "type": "folder",
+        "id": "105",
+        "title": "patterns - base - bottom",
+        "collapsed": true
+      },
+      {
+        "type": "expression",
+        "id": "106",
+        "folderId": "105",
+        "color": "#aaaaaa",
+        "latex": "p_{pattern}\\ =\\ s_{sidelength}\\ \\ \\cdot\\ \\left[0...24\\right]"
+      },
+      {
+        "type": "expression",
+        "id": "132",
+        "folderId": "105",
+        "color": "#388c46",
+        "latex": "p_{pattern2}\\ =\\ s_{sidelength}\\ \\ \\cdot\\ \\operatorname{join}\\left(\\left[0...8\\right],\\ \\left[17...24\\right]\\right)"
+      },
+      {
+        "type": "expression",
+        "id": "136",
+        "folderId": "105",
+        "color": "#aaaaaa",
+        "latex": "p_{pattern3}\\ =\\ s_{sidelength}\\ \\cdot\\ \\left[9...16\\right]"
+      },
+      {
+        "type": "expression",
+        "id": "107",
+        "folderId": "105",
+        "color": "#c74440",
+        "latex": "20.5\\ \\le y\\ \\le\\ 20.5\\ +\\ 0.2\\ \\left\\{-20.5\\ \\le x\\ \\le\\ 20.5\\right\\}\\left\\{3\\ \\ge z\\ \\ge2.8\\right\\}",
+        "colorLatex": "c_{darkerbeige}"
+      },
+      {
+        "type": "expression",
+        "id": "108",
+        "folderId": "105",
+        "color": "#2d70b3",
+        "latex": "20.5\\ \\le y\\ \\le\\ 20.5\\ +\\ 0.2\\ \\left\\{-20.5\\ \\le x\\ \\le\\ 20.5\\right\\}\\left\\{2\\ \\ge z\\ \\ge1.8\\right\\}",
+        "colorLatex": "c_{darkerbeige}"
+      },
+      {
+        "type": "expression",
+        "id": "109",
+        "folderId": "105",
+        "color": "#388c46",
+        "latex": "20.5\\ \\le y\\ \\le\\ 20.5\\ +\\ 0.2\\ \\left\\{-20.5\\ \\le x\\ \\le\\ 20.5\\right\\}\\left\\{0.2\\ \\ge z\\ \\ge0\\right\\}",
+        "colorLatex": "c_{darkerbeige}"
+      },
+      {
+        "type": "expression",
+        "id": "110",
+        "folderId": "105",
+        "color": "#6042a6",
+        "latex": "20.5\\ \\le y\\ \\le\\ 20.5\\ +\\ 0.2\\left\\{3\\ \\ge\\ z\\ \\ge0\\right\\}\\left\\{20.5\\ -\\ p_{pattern}\\ \\ge x\\ge20.3-p_{pattern}\\right\\}",
+        "colorLatex": "c_{darkerbeige}"
+      },
+      {
+        "type": "expression",
+        "id": "112",
+        "folderId": "105",
+        "color": "#2d70b3",
+        "latex": "-20.5\\ \\ge y\\ \\ge\\ -20.5\\ -\\ 0.2\\ \\left\\{-20.5\\ \\le x\\ \\le\\ 20.5\\right\\}\\left\\{3\\ \\ge z\\ \\ge2.8\\right\\}",
+        "colorLatex": "c_{darkerbeige}"
+      },
+      {
+        "type": "expression",
+        "id": "114",
+        "folderId": "105",
+        "color": "#2d70b3",
+        "latex": "-20.5\\ \\ge y\\ \\ge\\ -20.5\\ -\\ 0.2\\ \\left\\{-20.5\\ \\le x\\ \\le\\ 20.5\\right\\}\\left\\{2\\ \\ge z\\ \\ge1.8\\right\\}",
+        "colorLatex": "c_{darkerbeige}"
+      },
+      {
+        "type": "expression",
+        "id": "116",
+        "folderId": "105",
+        "color": "#388c46",
+        "latex": "-20.5\\ \\ge y\\ \\ge\\ -20.5\\ -\\ 0.2\\left\\{-20.5\\ \\le x\\ \\le\\ 20.5\\right\\}\\left\\{0.2\\ \\ge z\\ \\ge0\\right\\}",
+        "colorLatex": "c_{darkerbeige}"
+      },
+      {
+        "type": "expression",
+        "id": "117",
+        "folderId": "105",
+        "color": "#6042a6",
+        "latex": "-20.5\\ \\ge y\\ \\ge\\ -20.5\\ -\\ 0.2\\left\\{3\\ \\ge\\ z\\ \\ge0\\right\\}\\left\\{20.5\\ -\\ p_{pattern}\\ \\ge x\\ge20.3-p_{pattern}\\right\\}",
+        "colorLatex": "c_{darkerbeige}"
+      },
+      {
+        "type": "expression",
+        "id": "118",
+        "folderId": "105",
+        "color": "#aaaaaa",
+        "latex": "-20.5\\ \\ge x\\ \\ge\\ -20.5\\ -\\ 0.2\\ \\left\\{-20.5\\ \\le y\\ \\le\\ 20.5\\right\\}\\left\\{3\\ \\ge z\\ \\ge2.8\\right\\}",
+        "colorLatex": "c_{darkerbeige}"
+      },
+      {
+        "type": "expression",
+        "id": "120",
+        "folderId": "105",
+        "color": "#2d70b3",
+        "latex": "-20.5\\ \\ge x\\ \\ge\\ -20.5\\ -\\ 0.2\\ \\left\\{-20.5\\ \\le y\\ \\le\\ 20.5\\right\\}\\left\\{2\\ \\ge z\\ \\ge1.8\\right\\}",
+        "colorLatex": "c_{darkerbeige}"
+      },
+      {
+        "type": "expression",
+        "id": "122",
+        "folderId": "105",
+        "color": "#388c46",
+        "latex": "-20.5\\ \\ge x\\ \\ge\\ -20.5\\ -\\ 0.2\\left\\{-20.5\\ \\le y\\ \\le\\ 20.5\\right\\}\\left\\{0.2\\ \\ge z\\ \\ge0\\right\\}",
+        "colorLatex": "c_{darkerbeige}"
+      },
+      {
+        "type": "expression",
+        "id": "123",
+        "folderId": "105",
+        "color": "#388c46",
+        "latex": "-20.5\\ \\ge x\\ \\ge\\ -20.5\\ -\\ 0.2\\left\\{3\\ \\ge\\ z\\ \\ge0\\right\\}\\left\\{20.5\\ -\\ p_{pattern}\\ \\ge y\\ge20.3-p_{pattern}\\right\\}",
+        "colorLatex": "c_{darkerbeige}"
+      },
+      {
+        "type": "expression",
+        "id": "125",
+        "folderId": "105",
+        "color": "#aaaaaa",
+        "latex": "20.5\\ \\le x\\ \\le\\ 20.5\\ +\\ 0.2\\ \\left\\{-20.5\\ \\le y\\ \\le\\ -6.5\\right\\}\\left\\{3\\ \\ge z\\ \\ge2.8\\right\\}",
+        "colorLatex": "c_{darkerbeige}"
+      },
+      {
+        "type": "expression",
+        "id": "135",
+        "folderId": "105",
+        "color": "#6042a6",
+        "latex": "20.5\\ \\le x\\ \\le\\ 20.5\\ +\\ 0.2\\ \\left\\{20.5\\ \\ge y\\ \\ge\\ 6.5\\right\\}\\left\\{3\\ \\ge z\\ \\ge2.8\\right\\}",
+        "colorLatex": "c_{darkerbeige}"
+      },
+      {
+        "type": "expression",
+        "id": "127",
+        "folderId": "105",
+        "color": "#2d70b3",
+        "latex": "20.5\\ \\le x\\ \\le\\ 20.5\\ +\\ 0.2\\ \\left\\{-20.5\\ \\le y\\ \\le\\ 20.5\\right\\}\\left\\{2\\ \\ge z\\ \\ge1.8\\right\\}",
+        "colorLatex": "c_{darkerbeige}"
+      },
+      {
+        "type": "expression",
+        "id": "129",
+        "folderId": "105",
+        "color": "#388c46",
+        "latex": "20.5\\ \\le x\\ \\le\\ 20.5\\ +\\ 0.2\\left\\{-20.5\\ \\le y\\ \\le\\ 20.5\\right\\}\\left\\{0.2\\ \\ge z\\ \\ge0\\right\\}",
+        "colorLatex": "c_{darkerbeige}"
+      },
+      {
+        "type": "expression",
+        "id": "131",
+        "folderId": "105",
+        "color": "#388c46",
+        "latex": "20.5\\ \\le x\\ \\le\\ 20.5\\ +\\ 0.2\\left\\{3\\ \\ge\\ z\\ \\ge0\\right\\}\\left\\{20.5\\ -\\ p_{pattern2}\\ \\ge y\\ge20.3-p_{pattern2}\\right\\}",
+        "colorLatex": "c_{darkerbeige}"
+      },
+      {
+        "type": "expression",
+        "id": "137",
+        "folderId": "105",
+        "color": "#c74440",
+        "latex": "23.5\\ \\le x\\ \\le\\ 23.5\\ +\\ 0.2\\ \\left\\{-6.5\\ \\le y\\ \\le\\ 6.5\\right\\}\\left\\{3\\ \\ge z\\ \\ge2.8\\right\\}",
+        "colorLatex": "c_{darkerbeige}"
+      },
+      {
+        "type": "expression",
+        "id": "138",
+        "folderId": "105",
+        "color": "#2d70b3",
+        "latex": "23.5\\ \\le x\\ \\le\\ 23.5\\ +\\ 0.2\\ \\left\\{-6.5\\ \\le y\\ \\le\\ 6.5\\right\\}\\left\\{2\\ \\ge z\\ \\ge1.8\\right\\}",
+        "colorLatex": "c_{darkerbeige}"
+      },
+      {
+        "type": "expression",
+        "id": "139",
+        "folderId": "105",
+        "color": "#388c46",
+        "latex": "23.5\\ \\le x\\ \\le\\ 23.5\\ +\\ 0.2\\ \\left\\{-6.5\\ \\le y\\ \\le\\ 6.5\\right\\}\\left\\{0.2\\ge z\\ \\ge0\\right\\}",
+        "colorLatex": "c_{darkerbeige}"
+      },
+      {
+        "type": "expression",
+        "id": "140",
+        "folderId": "105",
+        "color": "#6042a6",
+        "latex": "23.5\\ \\le x\\ \\le\\ 23.5\\ +\\ 0.2\\left\\{3\\ \\ge\\ z\\ \\ge0\\right\\}\\left\\{20.5\\ -\\ p_{pattern3}\\ \\ge y\\ge20.3-p_{pattern3}\\right\\}",
+        "colorLatex": "c_{darkerbeige}"
+      },
+      {
+        "type": "expression",
+        "id": "141",
+        "folderId": "105",
+        "color": "#aaaaaa",
+        "latex": "6.5\\ \\le y\\ \\le\\ 6.5\\ +\\ 0.2\\ \\left\\{20.5\\ \\le x\\ \\le\\ 23.7\\right\\}\\left\\{3\\ \\ge z\\ \\ge2.8\\right\\}",
+        "colorLatex": "c_{darkerbeige}"
+      },
+      {
+        "type": "expression",
+        "id": "142",
+        "folderId": "105",
+        "color": "#c74440",
+        "latex": "6.5\\ \\le y\\ \\le\\ 6.5\\ +\\ 0.2\\ \\left\\{20.5\\ \\le x\\ \\le\\ 23.7\\right\\}\\left\\{2\\ \\ge z\\ \\ge1.8\\right\\}",
+        "colorLatex": "c_{darkerbeige}"
+      },
+      {
+        "type": "expression",
+        "id": "144",
+        "folderId": "105",
+        "color": "#c74440",
+        "latex": "6.5\\ \\le y\\ \\le\\ 6.5\\ +\\ 0.2\\ \\left\\{20.5\\ \\le x\\ \\le\\ 23.7\\right\\}\\left\\{0.2\\ \\ge z\\ \\ge0\\right\\}",
+        "colorLatex": "c_{darkerbeige}"
+      },
+      {
+        "type": "expression",
+        "id": "145",
+        "folderId": "105",
+        "color": "#388c46",
+        "latex": "-6.5\\ \\ge y\\ \\ge\\ -6.5\\ -\\ 0.2\\ \\left\\{20.5\\ \\le x\\ \\le\\ 23.7\\right\\}\\left\\{3\\ \\ge z\\ \\ge2.8\\right\\}",
+        "colorLatex": "c_{darkerbeige}"
+      },
+      {
+        "type": "expression",
+        "id": "146",
+        "folderId": "105",
+        "color": "#6042a6",
+        "latex": "-6.5\\ \\ge y\\ \\ge\\ -6.5\\ -\\ 0.2\\ \\ \\left\\{20.5\\ \\le x\\ \\le\\ 23.7\\right\\}\\left\\{2\\ \\ge z\\ \\ge1.8\\right\\}",
+        "colorLatex": "c_{darkerbeige}"
+      },
+      {
+        "type": "expression",
+        "id": "147",
+        "folderId": "105",
+        "color": "#aaaaaa",
+        "latex": "-6.5\\ \\ge y\\ \\ge\\ -6.5\\ -\\ 0.2\\ \\ \\left\\{20.5\\ \\le x\\ \\le\\ 23.7\\right\\}\\left\\{0.2\\ \\ge z\\ \\ge0\\right\\}",
+        "colorLatex": "c_{darkerbeige}"
+      },
+      {
+        "type": "folder",
+        "id": "29",
+        "title": "base - pillars",
+        "collapsed": true
+      },
+      {
+        "type": "expression",
+        "id": "33",
+        "folderId": "29",
+        "color": "#6042a6",
+        "latex": "h=\\left[20,\\ -20,\\ 20,\\ -20\\right]",
+        "hidden": true,
+        "slider": {
+          "playDirection": -1,
+          "max": "20"
+        }
+      },
+      {
+        "type": "expression",
+        "id": "34",
+        "folderId": "29",
+        "color": "#aaaaaa",
+        "latex": "k=\\left[20,\\ 20,\\ -20,\\ -20\\right]",
+        "hidden": true
+      },
+      {
+        "type": "expression",
+        "id": "32",
+        "folderId": "29",
+        "color": "#388c46",
+        "latex": "a=2",
+        "hidden": true
+      },
+      {
+        "type": "expression",
+        "id": "31",
+        "folderId": "29",
+        "color": "#2d70b3",
+        "latex": "\\max\\left(\\left|\\left(x\\ -\\ h\\right)\\right|,\\left|\\left(y\\ -\\ k\\right)\\right|,\\frac{\\left|\\left(x\\ -\\ h\\right)+\\left(y\\ -\\ k\\right)\\right|}{\\sqrt{2}},\\frac{\\left|\\left(x\\ -\\ h\\right)-\\left(y\\ -\\ k\\right)\\right|}{\\sqrt{2}}\\right)\\le a\\ \\left\\{0\\ \\le\\ z\\ \\le\\ 3\\right\\}",
+        "colorLatex": "c_{darkbeige}"
+      },
+      {
+        "type": "expression",
+        "id": "353",
+        "folderId": "29",
+        "color": "#6042a6",
+        "latex": "\\left(x\\ -\\ h\\right)^{\\ 2}\\ +\\ \\left(y\\ -\\ k\\right)^{2}\\ \\le\\ (a-0.7)-0.5*(z-2.5)/17.5\\ \\left\\{2.5\\ \\le\\ z\\ \\le18\\right\\}",
+        "extendTo3D": true,
+        "colorLatex": "c_{beige}"
+      },
+      {
+        "type": "expression",
+        "id": "356",
+        "folderId": "29",
+        "color": "#6042a6",
+        "latex": "\\left(x\\ -\\ h\\right)^{\\ 2}\\ +\\ \\left(y\\ -\\ k\\right)^{2}\\ \\le\\ (a\\ -\\ 0.2)^{2}\\ \\left\\{7\\ \\le\\ z\\ \\le7.5\\right\\}",
+        "extendTo3D": true,
+        "colorLatex": "c_{darkerbeige}"
+      },
+      {
+        "type": "expression",
+        "id": "357",
+        "folderId": "29",
+        "color": "#2d70b3",
+        "latex": "\\left(x\\ -\\ h\\right)^{\\ 2}\\ +\\ \\left(y\\ -\\ k\\right)^{2}\\ \\le\\ (a\\ -\\ 0.3)^{2}\\ \\left\\{12.5\\ \\le\\ z\\ \\le12.5+\\ 0.5\\right\\}",
+        "colorLatex": "c_{darkerbeige}"
+      },
+      {
+        "type": "expression",
+        "id": "359",
+        "folderId": "29",
+        "color": "#2d70b3",
+        "latex": "\\left(x\\ -\\ h\\right)^{\\ 2}\\ +\\ \\left(y\\ -\\ k\\right)^{2}\\ \\le\\ (a\\ -\\ 0.4)^{2}\\ \\left\\{18\\ \\le\\ z\\ \\le18.5\\right\\}",
+        "colorLatex": "c_{darkerbeige}"
+      },
+      {
+        "type": "expression",
+        "id": "361",
+        "folderId": "29",
+        "color": "#2d70b3",
+        "latex": "\\left(x\\ -\\ h\\right)^{\\ 2}\\ +\\ \\left(y\\ -\\ k\\right)^{2}\\ \\le\\ (a\\ -\\ 0.7)^{2}\\ \\left\\{18.5\\ \\le\\ z\\ \\le18.5\\ +\\ 2.3\\right\\}",
+        "colorLatex": "c_{beige}"
+      },
+      {
+        "type": "expression",
+        "id": "362",
+        "folderId": "29",
+        "color": "#aaaaaa",
+        "latex": "\\left(x\\ -\\ h\\right)^{\\ 2}\\ +\\ \\left(y\\ -\\ k\\right)^{2}\\ \\le\\ (a\\ -\\ 0.3)^{2}\\ \\left\\{18.5\\ +\\ 2.3\\ \\le\\ z\\ \\le18.5\\ +\\ 2.3\\ +\\ 0.3\\right\\}",
+        "colorLatex": "c_{darkerbeige}"
+      },
+      {
+        "type": "expression",
+        "id": "363",
+        "folderId": "29",
+        "color": "#c74440",
+        "latex": "\\left(x\\ -\\ h\\right)^{2}\\ +\\ \\left(y\\ -\\ k\\right)^{2}\\ +\\ \\left(z\\ -\\ \\left(18.5\\ +\\ 2.3\\ +\\ 0.3\\right)\\right)^{2}\\ =\\ s_{top}^{2}\\ \\left\\{z\\ \\ge\\ 18.5\\ +\\ 2.3\\ +\\ 0.3\\right\\}",
+        "colorLatex": "c_{lightbeige}"
+      },
+      {
+        "type": "expression",
+        "id": "364",
+        "folderId": "29",
+        "color": "#2d70b3",
+        "latex": "s_{top}=1.4",
+        "hidden": true
+      },
+      {
+        "type": "expression",
+        "id": "365",
+        "folderId": "29",
+        "color": "#388c46",
+        "latex": "\\left(x\\ -\\ h\\right)^{2}\\ +\\ \\left(y\\ -\\ k\\right)^{2}\\ <\\ \\left(r_{pil}\\ -\\ 0.1\\right)^{2}\\ \\left\\{2.5\\ \\le z\\ \\le\\ 23.2\\right\\}",
+        "colorLatex": "c_{darkerbeige}"
+      },
+      {
+        "type": "folder",
+        "id": "167",
+        "title": "centerpiece",
+        "collapsed": true
+      },
+      {
+        "type": "expression",
+        "id": "184",
+        "folderId": "167",
+        "color": "#388c46",
+        "latex": "d_{height}\\ =11.5",
+        "slider": {
+          "max": "11.5"
+        }
+      },
+      {
+        "type": "expression",
+        "id": "195",
+        "folderId": "167",
+        "color": "#aaaaaa",
+        "latex": "w\\ =7",
+        "slider": {
+          "max": "9"
+        }
+      },
+      {
+        "type": "expression",
+        "id": "197",
+        "folderId": "167",
+        "color": "#2d70b3",
+        "latex": "r_{arc}\\ =2"
+      },
+      {
+        "type": "expression",
+        "id": "198",
+        "folderId": "167",
+        "color": "#388c46",
+        "latex": "i_{intercept}\\ =\\ 10"
+      },
+      {
+        "type": "expression",
+        "id": "190",
+        "folderId": "167",
+        "color": "#c74440",
+        "latex": "z\\ >\\ d_{height}\\ -\\ r_{arc}\\left(\\frac{d_{height}}{i_{intercept}^{2}}\\right)x^{2}\\ \\left\\{11\\ >\\ y\\ >\\ 9\\right\\}\\left\\{-\\sqrt{\\frac{d_{height}}{2}}\\le\\ x\\ \\le\\ \\sqrt{\\frac{d_{height}}{2}}\\right\\}\\left\\{i_{intercept}\\ \\le\\ z\\ \\le2.5\\ +\\ d_{height}\\right\\}",
+        "colorLatex": "c_{beige}"
+      },
+      {
+        "type": "expression",
+        "id": "233",
+        "folderId": "167",
+        "color": "#6042a6",
+        "latex": "z\\ >\\ d_{height}\\ -\\ r_{arc}\\left(\\frac{d_{height}}{i_{intercept}^{2}}\\right)y^{2}\\ \\left\\{11\\ >\\ x\\ >\\ 9\\right\\}\\left\\{-\\sqrt{\\frac{d_{height}}{2}}\\le\\ y\\ \\le\\ \\sqrt{\\frac{d_{height}}{2}}\\right\\}\\left\\{i_{intercept}\\ \\le\\ z\\ \\le2.5\\ +\\ d_{height}\\right\\}",
+        "colorLatex": "c_{beige}"
+      },
+      {
+        "type": "expression",
+        "id": "217",
+        "folderId": "167",
+        "color": "#c74440",
+        "latex": "z\\ >\\ d_{height}\\ -\\ r_{arc}\\left(\\frac{d_{height}}{i_{intercept}^{2}}\\right)x^{2}\\ \\left\\{-11\\ \\le\\ y\\ \\le\\ -9\\right\\}\\left\\{-\\sqrt{\\frac{d_{height}}{2}}\\le\\ x\\ \\le\\ \\sqrt{\\frac{d_{height}}{2}}\\right\\}\\left\\{i_{intercept}\\ \\le\\ z\\ \\le2.5\\ +\\ d_{height}\\right\\}",
+        "colorLatex": "c_{beige}"
+      },
+      {
+        "type": "expression",
+        "id": "234",
+        "folderId": "167",
+        "color": "#aaaaaa",
+        "latex": "z\\ >\\ d_{height}\\ -\\ r_{arc}\\left(\\frac{d_{height}}{i_{intercept}^{2}}\\right)y^{2}\\ \\left\\{-11\\ \\le\\ x\\ \\le\\ -9\\right\\}\\left\\{-\\sqrt{\\frac{d_{height}}{2}}\\le\\ y\\ \\le\\ \\sqrt{\\frac{d_{height}}{2}}\\right\\}\\left\\{i_{intercept}\\ \\le\\ z\\ \\le2.5\\ +\\ d_{height}\\right\\}",
+        "colorLatex": "c_{beige}"
+      },
+      {
+        "type": "expression",
+        "id": "202",
+        "folderId": "167",
+        "color": "#2d70b3",
+        "latex": "\\left(x\\ -\\ p_{1}\\right)^{2}\\ +\\ \\left(z\\ -\\ p_{2}\\right)^{2}\\ >\\ r_{arc}^{2}\\ \\left\\{w\\ \\ge\\ x\\ \\ge\\ \\sqrt{\\frac{d_{height}}{2}}\\right\\}\\left\\{d_{height}\\ +\\ 2.5\\ \\ge z\\ \\ge\\ p_{2}\\right\\}\\left\\{11\\ >\\ y\\ >\\ 9\\right\\}",
+        "colorLatex": "c_{beige}"
+      },
+      {
+        "type": "expression",
+        "id": "236",
+        "folderId": "167",
+        "color": "#2d70b3",
+        "latex": "\\left(y\\ -\\ p_{1}\\right)^{2}\\ +\\ \\left(z\\ -\\ p_{2}\\right)^{2}\\ >\\ r_{arc}^{2}\\ \\left\\{w\\ \\ge\\ y\\ \\ge\\ \\sqrt{\\frac{d_{height}}{2}}\\right\\}\\left\\{d_{height}\\ +\\ 2.5\\ \\ge z\\ \\ge\\ p_{2}\\right\\}\\left\\{11\\ >\\ x\\ >\\ 9\\right\\}",
+        "colorLatex": "c_{beige}"
+      },
+      {
+        "type": "expression",
+        "id": "219",
+        "folderId": "167",
+        "color": "#2d70b3",
+        "latex": "\\left(x\\ -\\ p_{1}\\right)^{2}\\ +\\ \\left(z\\ -\\ p_{2}\\right)^{2}\\ >\\ r_{arc}^{2}\\ \\left\\{w\\ \\ge\\ x\\ \\ge\\ \\sqrt{\\frac{d_{height}}{2}}\\right\\}\\left\\{d_{height}\\ +\\ 2.5\\ \\ge z\\ \\ge\\ p_{2}\\right\\}\\left\\{-11\\ <\\ y\\ <\\ -9\\right\\}",
+        "colorLatex": "c_{beige}"
+      },
+      {
+        "type": "expression",
+        "id": "237",
+        "folderId": "167",
+        "color": "#2d70b3",
+        "latex": "\\left(y\\ -\\ p_{1}\\right)^{2}\\ +\\ \\left(z\\ -\\ p_{2}\\right)^{2}\\ >\\ r_{arc}^{2}\\ \\left\\{w\\ \\ge\\ y\\ \\ge\\ \\sqrt{\\frac{d_{height}}{2}}\\right\\}\\left\\{d_{height}\\ +\\ 2.5\\ \\ge z\\ \\ge\\ p_{2}\\right\\}\\left\\{-11\\ <\\ x\\ <\\ -9\\right\\}",
+        "colorLatex": "c_{beige}"
+      },
+      {
+        "type": "expression",
+        "id": "213",
+        "folderId": "167",
+        "color": "#6042a6",
+        "latex": "\\left(x\\ +\\ p_{1}\\right)^{2}\\ +\\ \\left(z\\ -\\ p_{2}\\right)^{2}\\ >\\ r_{arc}^{2}\\ \\left\\{-w\\ \\le\\ x\\ \\le\\ -\\sqrt{\\frac{d_{height}}{2}}\\right\\}\\left\\{d_{height}\\ +\\ 2.5\\ \\ge z\\ \\ge\\ p_{2}\\right\\}\\left\\{11\\ >\\ y\\ >\\ 9\\right\\}",
+        "colorLatex": "c_{beige}"
+      },
+      {
+        "type": "expression",
+        "id": "238",
+        "folderId": "167",
+        "color": "#388c46",
+        "latex": "\\left(y\\ +\\ p_{1}\\right)^{2}\\ +\\ \\left(z\\ -\\ p_{2}\\right)^{2}\\ >\\ r_{arc}^{2}\\ \\left\\{-w\\ \\le\\ y\\ \\le\\ -\\sqrt{\\frac{d_{height}}{2}}\\right\\}\\left\\{d_{height}\\ +\\ 2.5\\ \\ge z\\ \\ge\\ p_{2}\\right\\}\\left\\{11\\ >\\ x\\ >\\ 9\\right\\}",
+        "colorLatex": "c_{beige}"
+      },
+      {
+        "type": "expression",
+        "id": "221",
+        "folderId": "167",
+        "color": "#6042a6",
+        "latex": "\\left(x\\ +\\ p_{1}\\right)^{2}\\ +\\ \\left(z\\ -\\ p_{2}\\right)^{2}\\ >\\ r_{arc}^{2}\\ \\left\\{-w\\ \\le\\ x\\ \\le\\ -\\sqrt{\\frac{d_{height}}{2}}\\right\\}\\left\\{d_{height}\\ +\\ 2.5\\ \\ge z\\ \\ge\\ p_{2}\\right\\}\\left\\{-11\\ <\\ y\\ <\\ -9\\right\\}",
+        "colorLatex": "c_{beige}"
+      },
+      {
+        "type": "expression",
+        "id": "239",
+        "folderId": "167",
+        "color": "#6042a6",
+        "latex": "\\left(y\\ +\\ p_{1}\\right)^{2}\\ +\\ \\left(z\\ -\\ p_{2}\\right)^{2}\\ >\\ r_{arc}^{2}\\ \\left\\{-w\\ \\le\\ y\\ \\le\\ -\\sqrt{\\frac{d_{height}}{2}}\\right\\}\\left\\{d_{height}\\ +\\ 2.5\\ \\ge z\\ \\ge\\ p_{2}\\right\\}\\left\\{-11\\ <\\ x\\ <\\ -9\\right\\}",
+        "colorLatex": "c_{beige}"
+      },
+      {
+        "type": "expression",
+        "id": "212",
+        "folderId": "167",
+        "color": "#c74440",
+        "latex": "\\left(x\\ -\\ p_{1}\\right)^{2}\\ +\\ \\left(z\\ -\\ \\frac{p_{2}}{2}\\right)^{2}\\ >\\ r_{arc}^{2}\\ \\left\\{w\\ \\ge\\ x\\ \\ge\\ \\sqrt{\\frac{d_{height}}{2}}\\right\\}\\left\\{d_{height}\\ \\ -\\ \\frac{p_{2}}{2}\\ \\ge z\\ \\ge\\ \\frac{p_{2}}{2}\\right\\}\\left\\{11\\ >\\ y\\ >\\ 9\\right\\}",
+        "colorLatex": "c_{beige}"
+      },
+      {
+        "type": "expression",
+        "id": "240",
+        "folderId": "167",
+        "color": "#aaaaaa",
+        "latex": "\\left(y\\ -\\ p_{1}\\right)^{2}\\ +\\ \\left(z\\ -\\ \\frac{p_{2}}{2}\\right)^{2}\\ >\\ r_{arc}^{2}\\ \\left\\{w\\ \\ge\\ y\\ \\ge\\ \\sqrt{\\frac{d_{height}}{2}}\\right\\}\\left\\{d_{height}\\ \\ -\\ \\frac{p_{2}}{2}\\ \\ge z\\ \\ge\\ \\frac{p_{2}}{2}\\right\\}\\left\\{11\\ >\\ x\\ >\\ 9\\right\\}",
+        "colorLatex": "c_{beige}"
+      },
+      {
+        "type": "expression",
+        "id": "222",
+        "folderId": "167",
+        "color": "#388c46",
+        "latex": "\\left(x\\ -\\ p_{1}\\right)^{2}\\ +\\ \\left(z\\ -\\ \\frac{p_{2}}{2}\\right)^{2}\\ >\\ r_{arc}^{2}\\ \\left\\{w\\ \\ge\\ x\\ \\ge\\ \\sqrt{\\frac{d_{height}}{2}}\\right\\}\\left\\{d_{height}\\ \\ -\\ \\frac{p_{2}}{2}\\ \\ge z\\ \\ge\\ \\frac{p_{2}}{2}\\right\\}\\left\\{-11\\ <\\ y\\ <\\ -9\\right\\}",
+        "colorLatex": "c_{beige}"
+      },
+      {
+        "type": "expression",
+        "id": "241",
+        "folderId": "167",
+        "color": "#c74440",
+        "latex": "\\left(y\\ -\\ p_{1}\\right)^{2}\\ +\\ \\left(z\\ -\\ \\frac{p_{2}}{2}\\right)^{2}\\ >\\ r_{arc}^{2}\\ \\left\\{w\\ \\ge\\ y\\ \\ge\\ \\sqrt{\\frac{d_{height}}{2}}\\right\\}\\left\\{d_{height}\\ \\ -\\ \\frac{p_{2}}{2}\\ \\ge z\\ \\ge\\ \\frac{p_{2}}{2}\\right\\}\\left\\{-11\\ <\\ x\\ <\\ -9\\right\\}",
+        "colorLatex": "c_{beige}"
+      },
+      {
+        "type": "expression",
+        "id": "215",
+        "folderId": "167",
+        "color": "#6042a6",
+        "latex": "\\left(x\\ +\\ p_{1}\\right)^{2}\\ +\\ \\left(z\\ -\\ \\frac{p_{2}}{2}\\right)^{2}\\ >\\ r_{arc}^{2}\\ \\left\\{-w\\ \\le\\ x\\ \\le\\ -\\sqrt{\\frac{d_{height}}{2}}\\right\\}\\left\\{d_{height}\\ \\ -\\ \\frac{p_{2}}{2}\\ \\ge z\\ \\ge\\ \\frac{p_{2}}{2}\\right\\}\\left\\{11\\ >\\ y\\ >9\\right\\}",
+        "colorLatex": "c_{beige}"
+      },
+      {
+        "type": "expression",
+        "id": "242",
+        "folderId": "167",
+        "color": "#2d70b3",
+        "latex": "\\left(y\\ +\\ p_{1}\\right)^{2}\\ +\\ \\left(z\\ -\\ \\frac{p_{2}}{2}\\right)^{2}\\ >\\ r_{arc}^{2}\\ \\left\\{-w\\ \\le\\ y\\ \\le\\ -\\sqrt{\\frac{d_{height}}{2}}\\right\\}\\left\\{d_{height}\\ \\ -\\ \\frac{p_{2}}{2}\\ \\ge z\\ \\ge\\ \\frac{p_{2}}{2}\\right\\}\\left\\{11\\ >\\ x\\ >9\\right\\}",
+        "colorLatex": "c_{beige}"
+      },
+      {
+        "type": "expression",
+        "id": "224",
+        "folderId": "167",
+        "color": "#6042a6",
+        "latex": "\\left(x\\ +\\ p_{1}\\right)^{2}\\ +\\ \\left(z\\ -\\ \\frac{p_{2}}{2}\\right)^{2}\\ >\\ r_{arc}^{2}\\ \\left\\{-w\\ \\le\\ x\\ \\le\\ -\\sqrt{\\frac{d_{height}}{2}}\\right\\}\\left\\{d_{height}\\ \\ -\\ \\frac{p_{2}}{2}\\ \\ge z\\ \\ge\\ \\frac{p_{2}}{2}\\right\\}\\left\\{-11\\ <\\ y\\ <-9\\right\\}",
+        "colorLatex": "c_{beige}"
+      },
+      {
+        "type": "expression",
+        "id": "243",
+        "folderId": "167",
+        "color": "#388c46",
+        "latex": "\\left(y\\ +\\ p_{1}\\right)^{2}\\ +\\ \\left(z\\ -\\ \\frac{p_{2}}{2}\\right)^{2}\\ >\\ r_{arc}^{2}\\ \\left\\{-w\\ \\le\\ y\\ \\le\\ -\\sqrt{\\frac{d_{height}}{2}}\\right\\}\\left\\{d_{height}\\ \\ -\\ \\frac{p_{2}}{2}\\ \\ge z\\ \\ge\\ \\frac{p_{2}}{2}\\right\\}\\left\\{-11\\ <\\ x\\ <-9\\right\\}",
+        "colorLatex": "c_{beige}"
+      },
+      {
+        "type": "expression",
+        "id": "208",
+        "folderId": "167",
+        "color": "#388c46",
+        "latex": "w\\ge x\\ge\\ w\\ -\\ \\frac{r_{arc}}{2}\\ \\left\\{2.5\\ \\le\\ z\\ \\le\\ d_{height}\\right\\}\\left\\{11\\ >\\ y\\ >9\\right\\}",
+        "colorLatex": "c_{beige}"
+      },
+      {
+        "type": "expression",
+        "id": "244",
+        "folderId": "167",
+        "color": "#6042a6",
+        "latex": "w\\ge y\\ge\\ w\\ -\\ \\frac{r_{arc}}{2}\\ \\left\\{2.5\\ \\le\\ z\\ \\le\\ d_{height}\\right\\}\\left\\{11\\ >\\ x\\ >9\\right\\}",
+        "colorLatex": "c_{beige}"
+      },
+      {
+        "type": "expression",
+        "id": "226",
+        "folderId": "167",
+        "color": "#388c46",
+        "latex": "w\\ge x\\ge\\ w\\ -\\ \\frac{r_{arc}}{2}\\ \\left\\{2.5\\ \\le\\ z\\ \\le\\ d_{height}\\right\\}\\left\\{-11\\ <\\ y\\ <-9\\right\\}",
+        "colorLatex": "c_{beige}"
+      },
+      {
+        "type": "expression",
+        "id": "245",
+        "folderId": "167",
+        "color": "#aaaaaa",
+        "latex": "w\\ge y\\ge\\ w\\ -\\ \\frac{r_{arc}}{2}\\ \\left\\{2.5\\ \\le\\ z\\ \\le\\ d_{height}\\right\\}\\left\\{-11\\ <\\ x\\ <-9\\right\\}",
+        "colorLatex": "c_{beige}"
+      },
+      {
+        "type": "expression",
+        "id": "210",
+        "folderId": "167",
+        "color": "#388c46",
+        "latex": "\\sqrt{\\frac{d_{height}}{2}}\\le x\\le\\ \\sqrt{\\frac{d_{height}}{2}}+\\ \\frac{r_{arc}}{2}\\ \\left\\{2.5\\ \\le\\ z\\ \\le\\ d_{height}\\right\\}\\left\\{11\\ >\\ y\\ >9\\right\\}",
+        "colorLatex": "c_{beige}"
+      },
+      {
+        "type": "expression",
+        "id": "246",
+        "folderId": "167",
+        "color": "#c74440",
+        "latex": "\\sqrt{\\frac{d_{height}}{2}}\\le y\\le\\ \\sqrt{\\frac{d_{height}}{2}}+\\ \\frac{r_{arc}}{2}\\ \\left\\{2.5\\ \\le\\ z\\ \\le\\ d_{height}\\right\\}\\left\\{11\\ >\\ x\\ >9\\right\\}",
+        "colorLatex": "c_{beige}"
+      },
+      {
+        "type": "expression",
+        "id": "228",
+        "folderId": "167",
+        "color": "#388c46",
+        "latex": "\\sqrt{\\frac{d_{height}}{2}}\\le x\\le\\ \\sqrt{\\frac{d_{height}}{2}}+\\ \\frac{r_{arc}}{2}\\ \\left\\{2.5\\ \\le\\ z\\ \\le\\ d_{height}\\right\\}\\left\\{-11\\ <\\ y\\ <-9\\right\\}",
+        "colorLatex": "c_{beige}"
+      },
+      {
+        "type": "expression",
+        "id": "247",
+        "folderId": "167",
+        "color": "#2d70b3",
+        "latex": "\\sqrt{\\frac{d_{height}}{2}}\\le y\\le\\ \\sqrt{\\frac{d_{height}}{2}}+\\ \\frac{r_{arc}}{2}\\ \\left\\{2.5\\ \\le\\ z\\ \\le\\ d_{height}\\right\\}\\left\\{-11\\ <\\ x<-9\\right\\}",
+        "colorLatex": "c_{beige}"
+      },
+      {
+        "type": "expression",
+        "id": "207",
+        "folderId": "167",
+        "color": "#2d70b3",
+        "latex": "-w\\le x\\le-w\\ +\\ \\frac{r_{arc}}{2}\\ \\left\\{2.5\\ \\le\\ z\\ \\le\\ d_{height}\\right\\}\\left\\{11\\ >\\ y\\ >9\\right\\}",
+        "colorLatex": "c_{beige}"
+      },
+      {
+        "type": "expression",
+        "id": "248",
+        "folderId": "167",
+        "color": "#388c46",
+        "latex": "-w\\le y\\le-w\\ +\\ \\frac{r_{arc}}{2}\\ \\left\\{2.5\\ \\le\\ z\\ \\le\\ d_{height}\\right\\}\\left\\{11\\ >\\ x\\ >9\\right\\}",
+        "colorLatex": "c_{beige}"
+      },
+      {
+        "type": "expression",
+        "id": "230",
+        "folderId": "167",
+        "color": "#2d70b3",
+        "latex": "-w\\le x\\le-w\\ +\\ \\frac{r_{arc}}{2}\\ \\left\\{2.5\\ \\le\\ z\\ \\le\\ d_{height}\\right\\}\\left\\{-11\\ <\\ y\\ <-9\\right\\}",
+        "colorLatex": "c_{beige}"
+      },
+      {
+        "type": "expression",
+        "id": "249",
+        "folderId": "167",
+        "color": "#6042a6",
+        "latex": "-w\\le y\\le-w\\ +\\ \\frac{r_{arc}}{2}\\ \\left\\{2.5\\ \\le\\ z\\ \\le\\ d_{height}\\right\\}\\left\\{-11\\ <\\ x\\ <-9\\right\\}",
+        "colorLatex": "c_{beige}"
+      },
+      {
+        "type": "expression",
+        "id": "214",
+        "folderId": "167",
+        "color": "#6042a6",
+        "latex": "-\\sqrt{\\frac{d_{height}}{2}}\\ge x\\ge\\ -\\sqrt{\\frac{d_{height}}{2}}\\ -\\ \\frac{r_{arc}}{2}\\left\\{2.5\\ \\le\\ z\\ \\le\\ d_{height}\\right\\}\\left\\{11\\ >\\ y\\ >9\\right\\}",
+        "colorLatex": "c_{beige}"
+      },
+      {
+        "type": "expression",
+        "id": "250",
+        "folderId": "167",
+        "color": "#aaaaaa",
+        "latex": "-\\sqrt{\\frac{d_{height}}{2}}\\ge y\\ge\\ -\\sqrt{\\frac{d_{height}}{2}}\\ -\\ \\frac{r_{arc}}{2}\\left\\{2.5\\ \\le\\ z\\ \\le\\ d_{height}\\right\\}\\left\\{11\\ >\\ x\\ >9\\right\\}",
+        "colorLatex": "c_{beige}"
+      },
+      {
+        "type": "expression",
+        "id": "232",
+        "folderId": "167",
+        "color": "#6042a6",
+        "latex": "-\\sqrt{\\frac{d_{height}}{2}}\\ge x\\ge\\ -\\sqrt{\\frac{d_{height}}{2}}\\ -\\ \\frac{r_{arc}}{2}\\left\\{2.5\\ \\le\\ z\\ \\le\\ d_{height}\\right\\}\\left\\{-11\\ <\\ y\\ <-\\ 9\\right\\}",
+        "colorLatex": "c_{beige}"
+      },
+      {
+        "type": "expression",
+        "id": "251",
+        "folderId": "167",
+        "color": "#c74440",
+        "latex": "-\\sqrt{\\frac{d_{height}}{2}}\\ge y\\ge\\ -\\sqrt{\\frac{d_{height}}{2}}\\ -\\ \\frac{r_{arc}}{2}\\left\\{2.5\\ \\le\\ z\\ \\le\\ d_{height}\\right\\}\\left\\{-11\\ <\\ x\\ <-\\ 9\\right\\}",
+        "colorLatex": "c_{beige}"
+      },
+      {
+        "type": "expression",
+        "id": "252",
+        "folderId": "167",
+        "color": "#c74440",
+        "latex": "d_{length}\\ =\\ \\sqrt{2\\left(11\\ -\\ w\\right)^{2}}"
+      },
+      {
+        "type": "expression",
+        "id": "254",
+        "folderId": "167",
+        "color": "#388c46",
+        "latex": "\\left(\\frac{x\\ -\\ y}{\\sqrt{2}}\\ -\\ p_{3}\\right)^{2}\\ +\\ \\left(z\\ -\\ p_{2}\\right)^{2}\\ \\ge\\ r_{arc}^{2}\\ \\left\\{-\\frac{d_{length}}{2}\\ \\le\\ \\frac{x\\ -\\ y}{\\sqrt{2}}\\ \\le\\ \\frac{d_{length}}{2}\\right\\}\\left\\{d_{height}\\ +\\ 2.5\\ \\ge z\\ \\ge\\ p_{2}\\right\\}\\left\\{\\sqrt{162}\\ -\\ 2\\ <\\ \\frac{x\\ +\\ y}{\\sqrt{2}}\\ <\\ \\sqrt{162}\\right\\}",
+        "colorLatex": "c_{beige}"
+      },
+      {
+        "type": "expression",
+        "id": "268",
+        "folderId": "167",
+        "color": "#6042a6",
+        "latex": "\\left(\\frac{x\\ +\\ y}{\\sqrt{2}}\\ -\\ p_{3}\\right)^{2}\\ +\\ \\left(z\\ -\\ p_{2}\\right)^{2}\\ \\ge\\ r_{arc}^{2}\\ \\left\\{-\\frac{d_{length}}{2}\\ \\le\\ \\frac{x\\ +\\ y}{\\sqrt{2}}\\ \\le\\ \\frac{d_{length}}{2}\\right\\}\\left\\{d_{height}\\ +\\ 2.5\\ \\ge z\\ \\ge\\ p_{2}\\right\\}\\left\\{\\sqrt{162}\\ -\\ 2\\ <\\ \\frac{x\\ -\\ y}{\\sqrt{2}}\\ <\\ \\sqrt{162}\\right\\}",
+        "colorLatex": "c_{beige}"
+      },
+      {
+        "type": "expression",
+        "id": "261",
+        "folderId": "167",
+        "color": "#aaaaaa",
+        "latex": "\\left(\\frac{x\\ -\\ y}{\\sqrt{2}}\\ -\\ p_{3}\\right)^{2}\\ +\\ \\left(z\\ -\\ p_{2}\\right)^{2}\\ \\ge\\ r_{arc}^{2}\\ \\left\\{-\\frac{d_{length}}{2}\\ \\le\\ \\frac{x\\ -\\ y}{\\sqrt{2}}\\ \\le\\ \\frac{d_{length}}{2}\\right\\}\\left\\{d_{height}\\ +\\ 2.5\\ \\ge z\\ \\ge\\ p_{2}\\right\\}\\left\\{-\\sqrt{162}\\ +\\ 2\\ >\\ \\frac{x\\ +\\ y}{\\sqrt{2}}\\ >\\ -\\sqrt{162}\\right\\}",
+        "colorLatex": "c_{beige}"
+      },
+      {
+        "type": "expression",
+        "id": "269",
+        "folderId": "167",
+        "color": "#aaaaaa",
+        "latex": "\\left(\\frac{x\\ +\\ y}{\\sqrt{2}}\\ -\\ p_{3}\\right)^{2}\\ +\\ \\left(z\\ -\\ p_{2}\\right)^{2}\\ \\ge\\ r_{arc}^{2}\\ \\left\\{-\\frac{d_{length}}{2}\\ \\le\\ \\frac{x\\ +\\ y}{\\sqrt{2}}\\ \\le\\ \\frac{d_{length}}{2}\\right\\}\\left\\{d_{height}\\ +\\ 2.5\\ \\ge z\\ \\ge\\ p_{2}\\right\\}\\left\\{-\\sqrt{162}\\ +\\ 2\\ >\\ \\frac{x\\ -\\ y}{\\sqrt{2}}\\ >\\ -\\sqrt{162}\\right\\}",
+        "colorLatex": "c_{beige}"
+      },
+      {
+        "type": "expression",
+        "id": "257",
+        "folderId": "167",
+        "color": "#c74440",
+        "latex": "\\left(\\frac{x\\ -\\ y}{\\sqrt{2}}\\ -\\ p_{3}\\right)^{2}\\ +\\ \\left(z\\ -\\ \\frac{p_{2}}{2}\\right)^{2}\\ \\ge\\ r_{arc}^{2}\\ \\left\\{-\\frac{d_{length}}{2}\\ \\le\\ \\frac{x\\ -\\ y}{\\sqrt{2}}\\ \\le\\ \\frac{d_{length}}{2}\\right\\}\\left\\{d_{height}\\ \\ -\\ \\frac{p_{2}}{2}\\ \\ge z\\ \\ge\\ \\frac{p_{2}}{2}\\right\\}\\left\\{\\sqrt{162}\\ -\\ 2\\ <\\ \\frac{x\\ +\\ y}{\\sqrt{2}}\\ <\\ \\sqrt{162}\\right\\}",
+        "colorLatex": "c_{beige}"
+      },
+      {
+        "type": "expression",
+        "id": "270",
+        "folderId": "167",
+        "color": "#c74440",
+        "latex": "\\left(\\frac{x\\ +\\ y}{\\sqrt{2}}\\ -\\ p_{3}\\right)^{2}\\ +\\ \\left(z\\ -\\ \\frac{p_{2}}{2}\\right)^{2}\\ \\ge\\ r_{arc}^{2}\\ \\left\\{-\\frac{d_{length}}{2}\\ \\le\\ \\frac{x\\ +\\ y}{\\sqrt{2}}\\ \\le\\ \\frac{d_{length}}{2}\\right\\}\\left\\{d_{height}\\ \\ -\\ \\frac{p_{2}}{2}\\ \\ge z\\ \\ge\\ \\frac{p_{2}}{2}\\right\\}\\left\\{\\sqrt{162}\\ -\\ 2\\ <\\ \\frac{x\\ -\\ y}{\\sqrt{2}}\\ <\\ \\sqrt{162}\\right\\}",
+        "colorLatex": "c_{beige}"
+      },
+      {
+        "type": "expression",
+        "id": "263",
+        "folderId": "167",
+        "color": "#c74440",
+        "latex": "\\left(\\frac{x\\ -\\ y}{\\sqrt{2}}\\ -\\ p_{3}\\right)^{2}\\ +\\ \\left(z\\ -\\ \\frac{p_{2}}{2}\\right)^{2}\\ \\ge\\ r_{arc}^{2}\\ \\left\\{-\\frac{d_{length}}{2}\\ \\le\\ \\frac{x\\ -\\ y}{\\sqrt{2}}\\ \\le\\ \\frac{d_{length}}{2}\\right\\}\\left\\{d_{height}\\ \\ -\\ \\frac{p_{2}}{2}\\ \\ge z\\ \\ge\\ \\frac{p_{2}}{2}\\right\\}\\left\\{-\\sqrt{162}\\ +\\ 2\\ >\\ \\frac{x\\ +\\ y}{\\sqrt{2}}\\ >\\ -\\sqrt{162}\\right\\}",
+        "colorLatex": "c_{beige}"
+      },
+      {
+        "type": "expression",
+        "id": "271",
+        "folderId": "167",
+        "color": "#2d70b3",
+        "latex": "\\left(\\frac{x\\ +\\ y}{\\sqrt{2}}\\ -\\ p_{3}\\right)^{2}\\ +\\ \\left(z\\ -\\ \\frac{p_{2}}{2}\\right)^{2}\\ \\ge\\ r_{arc}^{2}\\ \\left\\{-\\frac{d_{length}}{2}\\ \\le\\ \\frac{x\\ +\\ y}{\\sqrt{2}}\\ \\le\\ \\frac{d_{length}}{2}\\right\\}\\left\\{d_{height}\\ \\ -\\ \\frac{p_{2}}{2}\\ \\ge z\\ \\ge\\ \\frac{p_{2}}{2}\\right\\}\\left\\{-\\sqrt{162}\\ +\\ 2\\ >\\ \\frac{x\\ -\\ y}{\\sqrt{2}}\\ >\\ -\\sqrt{162}\\right\\}",
+        "colorLatex": "c_{beige}"
+      },
+      {
+        "type": "expression",
+        "id": "259",
+        "folderId": "167",
+        "color": "#388c46",
+        "latex": "\\frac{d_{length}}{2}\\ \\ge\\ \\frac{x\\ -\\ y}{\\sqrt{2}}\\ \\ge\\ \\frac{d_{length}}{2}\\ -\\ \\frac{r_{arc}}{2}\\ \\left\\{\\sqrt{162}\\ -\\ 2\\le\\frac{x\\ +\\ y}{\\sqrt{2}}\\ \\le\\ \\sqrt{162}\\right\\}\\ \\left\\{2.5\\ \\le\\ z\\ \\le\\ d_{height}\\ +\\ 2.5\\right\\}",
+        "colorLatex": "c_{beige}"
+      },
+      {
+        "type": "expression",
+        "id": "272",
+        "folderId": "167",
+        "color": "#388c46",
+        "latex": "\\frac{d_{length}}{2}\\ \\ge\\ \\frac{x\\ +\\ y}{\\sqrt{2}}\\ \\ge\\ \\frac{d_{length}}{2}\\ -\\ \\frac{r_{arc}}{2}\\ \\left\\{\\sqrt{162}\\ -\\ 2\\le\\frac{x\\ -\\ y}{\\sqrt{2}}\\ \\le\\ \\sqrt{162}\\right\\}\\ \\left\\{2.5\\ \\le\\ z\\ \\le\\ d_{height}\\ +\\ 2.5\\right\\}",
+        "colorLatex": "c_{beige}"
+      },
+      {
+        "type": "expression",
+        "id": "265",
+        "folderId": "167",
+        "color": "#388c46",
+        "latex": "\\frac{d_{length}}{2}\\ \\ge\\ \\frac{x\\ -\\ y}{\\sqrt{2}}\\ \\ge\\ \\frac{d_{length}}{2}\\ -\\ \\frac{r_{arc}}{2}\\ \\left\\{-\\sqrt{162}\\ +\\ 2\\ge\\frac{x\\ +\\ y}{\\sqrt{2}}\\ \\ge\\ -\\sqrt{162}\\right\\}\\ \\left\\{2.5\\ \\le\\ z\\ \\le\\ d_{height}\\ +\\ 2.5\\right\\}",
+        "colorLatex": "c_{beige}"
+      },
+      {
+        "type": "expression",
+        "id": "273",
+        "folderId": "167",
+        "color": "#6042a6",
+        "latex": "\\frac{d_{length}}{2}\\ \\ge\\ \\frac{x\\ +\\ y}{\\sqrt{2}}\\ \\ge\\ \\frac{d_{length}}{2}\\ -\\ \\frac{r_{arc}}{2}\\ \\left\\{-\\sqrt{162}\\ +\\ 2\\ge\\frac{x\\ -\\ y}{\\sqrt{2}}\\ \\ge\\ -\\sqrt{162}\\right\\}\\ \\left\\{2.5\\ \\le\\ z\\ \\le\\ d_{height}\\ +\\ 2.5\\right\\}",
+        "colorLatex": "c_{beige}"
+      },
+      {
+        "type": "expression",
+        "id": "260",
+        "folderId": "167",
+        "color": "#6042a6",
+        "latex": "-\\frac{d_{length}}{2}\\ \\le\\ \\frac{x\\ -\\ y}{\\sqrt{2}}\\ \\le\\ -\\frac{d_{length}}{2}\\ +\\ \\frac{r_{arc}}{2}\\ \\left\\{\\sqrt{162}\\ -\\ 2\\le\\frac{x\\ +\\ y}{\\sqrt{2}}\\ \\le\\ \\sqrt{162}\\right\\}\\ \\left\\{2.5\\ \\le\\ z\\ \\le\\ d_{height}\\ +\\ 2.5\\right\\}",
+        "colorLatex": "c_{beige}"
+      },
+      {
+        "type": "expression",
+        "id": "274",
+        "folderId": "167",
+        "color": "#aaaaaa",
+        "latex": "-\\frac{d_{length}}{2}\\ \\le\\ \\frac{x\\ +\\ y}{\\sqrt{2}}\\ \\le\\ -\\frac{d_{length}}{2}\\ +\\ \\frac{r_{arc}}{2}\\ \\left\\{\\sqrt{162}\\ -\\ 2\\le\\frac{x\\ -\\ y}{\\sqrt{2}}\\ \\le\\ \\sqrt{162}\\right\\}\\ \\left\\{2.5\\ \\le\\ z\\ \\le\\ d_{height}\\ +\\ 2.5\\right\\}",
+        "colorLatex": "c_{beige}"
+      },
+      {
+        "type": "expression",
+        "id": "267",
+        "folderId": "167",
+        "color": "#6042a6",
+        "latex": "-\\frac{d_{length}}{2}\\ \\le\\ \\frac{x\\ -\\ y}{\\sqrt{2}}\\ \\le\\ -\\frac{d_{length}}{2}\\ +\\ \\frac{r_{arc}}{2}\\ \\left\\{-\\sqrt{162}\\ +\\ 2\\ \\ge\\frac{x\\ +\\ y}{\\sqrt{2}}\\ \\ge\\ -\\sqrt{162}\\right\\}\\ \\left\\{2.5\\ \\le\\ z\\ \\le\\ d_{height}\\ +\\ 2.5\\right\\}",
+        "colorLatex": "c_{beige}"
+      },
+      {
+        "type": "expression",
+        "id": "275",
+        "folderId": "167",
+        "color": "#c74440",
+        "latex": "-\\frac{d_{length}}{2}\\ \\le\\ \\frac{x\\ +\\ y}{\\sqrt{2}}\\ \\le\\ -\\frac{d_{length}}{2}\\ +\\ \\frac{r_{arc}}{2}\\ \\left\\{-\\sqrt{162}\\ +\\ 2\\ \\ge\\frac{x\\ -\\ y}{\\sqrt{2}}\\ \\ge\\ -\\sqrt{162}\\right\\}\\ \\left\\{2.5\\ \\le\\ z\\ \\le\\ d_{height}\\ +\\ 2.5\\right\\}",
+        "colorLatex": "c_{beige}"
+      },
+      {
+        "type": "expression",
+        "id": "203",
+        "folderId": "167",
+        "color": "#388c46",
+        "latex": "p_{1}=\\frac{w\\ +\\ \\sqrt{\\frac{d_{height}}{2}}}{2}",
+        "hidden": true
+      },
+      {
+        "type": "expression",
+        "id": "204",
+        "folderId": "167",
+        "color": "#6042a6",
+        "latex": "p_{2}=i_{intercept}\\ -\\ \\left(\\frac{r_{arc}}{2}\\right)",
+        "hidden": true
+      },
+      {
+        "type": "expression",
+        "id": "255",
+        "folderId": "167",
+        "color": "#6042a6",
+        "latex": "p_{3}\\ =\\ 0"
+      },
+      {
+        "type": "expression",
+        "id": "185",
+        "folderId": "167",
+        "color": "#6042a6",
+        "latex": "\\left(x\\ \\right)^{2}\\ +\\ \\left(y\\right)^{2}\\ <\\ t^{2}\\ \\ \\left\\{2.5\\ +\\ d_{height}\\ \\le\\ z\\ \\le2.5\\ +\\ d_{height}\\ +\\ 3.5\\right\\}",
+        "colorLatex": "c_{darkbeige}"
+      },
+      {
+        "type": "expression",
+        "id": "189",
+        "folderId": "167",
+        "color": "#388c46",
+        "latex": "x^{2}\\ +\\ y^{2}\\ +\\ \\left(z\\ -\\ \\left(2.5\\ +\\ d_{height}\\ +\\ 4\\ +\\ 2.5\\right)\\right)^{2}\\ =\\ \\left(t\\ +\\ 0.5\\right)^{2}\\ ",
+        "colorLatex": "c_{lightbeige}"
+      },
+      {
+        "type": "expression",
+        "id": "188",
+        "folderId": "167",
+        "color": "#2d70b3",
+        "latex": "t=5",
+        "hidden": true,
+        "slider": {
+          "max": "5.5"
+        }
+      },
+      {
+        "type": "expression",
+        "id": "278",
+        "folderId": "167",
+        "color": "#388c46",
+        "latex": "-\\frac{d_{length}}{2}\\ \\le\\ \\frac{x\\ -\\ y}{\\sqrt{2}}\\ \\le\\ \\frac{d_{length}}{2}\\ \\left\\{\\sqrt{162}\\ -\\ 2\\ >\\ \\frac{x\\ +\\ y}{\\sqrt{2}}\\ >\\ -\\sqrt{162}\\ +\\ 2\\right\\}\\left\\{d_{height}\\ +\\ 2.5\\ \\ge\\ z\\ \\ge\\ d_{height}\\right\\}",
+        "extendTo3D": true,
+        "colorLatex": "c_{beige}"
+      },
+      {
+        "type": "expression",
+        "id": "279",
+        "folderId": "167",
+        "color": "#6042a6",
+        "latex": "-\\frac{d_{length}}{2}\\ \\le\\ \\frac{x\\ +\\ y}{\\sqrt{2}}\\ \\le\\ \\frac{d_{length}}{2}\\ \\left\\{\\sqrt{162}\\ -\\ 2\\ >\\ \\frac{x\\ -\\ y}{\\sqrt{2}}\\ >\\ -\\sqrt{162}\\ +\\ 2\\right\\}\\left\\{d_{height}\\ +\\ 2.5\\ \\ge\\ z\\ \\ge\\ d_{height}\\right\\}",
+        "colorLatex": "c_{beige}"
+      },
+      {
+        "type": "expression",
+        "id": "280",
+        "folderId": "167",
+        "color": "#aaaaaa",
+        "latex": "-w\\ \\le\\ x\\ \\le\\ w\\ \\left\\{-9\\ \\le\\ y\\ \\le\\ 9\\right\\}\\left\\{d_{height}\\ +\\ 2.5\\ \\ge\\ z\\ \\ge\\ d_{height}\\right\\}",
+        "extendTo3D": true,
+        "colorLatex": "c_{beige}"
+      },
+      {
+        "type": "expression",
+        "id": "281",
+        "folderId": "167",
+        "color": "#c74440",
+        "latex": "-w\\ \\le\\ y\\ \\le\\ w\\ \\left\\{-9\\ \\le\\ x\\ \\le\\ 9\\right\\}\\left\\{d_{height}\\ +\\ 2.5\\ \\ge\\ z\\ \\ge\\ d_{height}\\right\\}",
+        "colorLatex": "c_{beige}"
+      },
+      {
+        "type": "expression",
+        "id": "282",
+        "folderId": "167",
+        "color": "#2d70b3",
+        "latex": "-11\\ \\le\\ x\\ \\le\\ -9\\ \\left\\{-\\sqrt{\\frac{d_{height}}{2}}\\ -\\ \\frac{r_{arc}}{2}\\ \\le\\ y\\ \\le\\ \\sqrt{\\frac{d_{height}}{2}}\\ +\\ \\frac{r_{arc}}{2}\\right\\}\\left\\{d_{height}\\ +\\ 2.5\\ \\le\\ z\\ <\\ d_{height}\\ +\\ 2.5\\ +\\ 2.5\\ \\right\\}",
+        "extendTo3D": true,
+        "colorLatex": "c_{beige}"
+      },
+      {
+        "type": "expression",
+        "id": "286",
+        "folderId": "167",
+        "color": "#2d70b3",
+        "latex": "11\\ \\ge\\ x\\ \\ge\\ 9\\ \\left\\{-\\sqrt{\\frac{d_{height}}{2}}\\ -\\ \\frac{r_{arc}}{2}\\le\\ y\\ \\le\\ \\sqrt{\\frac{d_{height}}{2}}\\ +\\ \\frac{r_{arc}}{2}\\right\\}\\left\\{d_{height}\\ +\\ 2.5\\ \\le\\ z\\ <\\ d_{height}\\ +\\ 2.5\\ +\\ 2.5\\ \\right\\}",
+        "extendTo3D": true,
+        "colorLatex": "c_{beige}"
+      },
+      {
+        "type": "expression",
+        "id": "284",
+        "folderId": "167",
+        "color": "#2d70b3",
+        "latex": "-11\\ \\le\\ y\\ \\le\\ -9\\ \\left\\{-\\sqrt{\\frac{d_{height}}{2}}\\ -\\ \\frac{r_{arc}}{2}\\ \\le\\ x\\ \\le\\ \\sqrt{\\frac{d_{height}}{2}}\\ +\\ \\frac{r_{arc}}{2}\\right\\}\\left\\{d_{height}\\ +\\ 2.5\\ \\le\\ z\\ <\\ d_{height}\\ +\\ 2.5\\ +\\ 2.5\\ \\right\\}",
+        "extendTo3D": true,
+        "colorLatex": "c_{beige}"
+      },
+      {
+        "type": "expression",
+        "id": "287",
+        "folderId": "167",
+        "color": "#2d70b3",
+        "latex": "11\\ \\ge\\ y\\ \\ge\\ 9\\ \\left\\{-\\sqrt{\\frac{d_{height}}{2}}\\ -\\ \\frac{r_{arc}}{2}\\ \\le\\ x\\ \\le\\ \\sqrt{\\frac{d_{height}}{2}}\\ +\\ \\frac{r_{arc}}{2}\\right\\}\\left\\{d_{height}\\ +\\ 2.5\\ \\le\\ z\\ <\\ d_{height}\\ +\\ 2.5\\ +\\ 2.5\\ \\right\\}",
+        "extendTo3D": true,
+        "colorLatex": "c_{beige}"
+      },
+      {
+        "type": "expression",
+        "id": "294",
+        "folderId": "167",
+        "color": "#2d70b3",
+        "latex": "\\max\\left(\\left|\\left(x\\ -\\ s\\right)\\right|,\\left|\\left(y\\ -\\ q\\right)\\right|,\\frac{\\left|\\left(x\\ -\\ s\\right)+\\left(y\\ -\\ q\\right)\\right|}{\\sqrt{2}},\\frac{\\left|\\left(x\\ -\\ s\\right)-\\left(y\\ -\\ q\\right)\\right|}{\\sqrt{2}}\\right)\\le s_{size}\\ \\left\\{d_{height}\\ +\\ 2.5\\ \\le\\ z\\ \\le\\ d_{height}\\ +\\ 3.5\\right\\}",
+        "colorLatex": "c_{darkerbeige}"
+      },
+      {
+        "type": "expression",
+        "id": "299",
+        "folderId": "167",
+        "color": "#2d70b3",
+        "latex": "\\max\\left(\\left|\\left(x\\ -\\ s\\right)\\right|,\\left|\\left(y\\ -\\ q\\right)\\right|,\\frac{\\left|\\left(x\\ -\\ s\\right)+\\left(y\\ -\\ q\\right)\\right|}{\\sqrt{2}},\\frac{\\left|\\left(x\\ -\\ s\\right)-\\left(y\\ -\\ q\\right)\\right|}{\\sqrt{2}}\\right)\\le s_{size}\\ +\\ 0.3\\left\\{d_{height}\\ +\\ 5.2\\ \\le\\ z\\ \\le\\ d_{height}\\ +\\ 5.4\\right\\}",
+        "colorLatex": "c_{darkerbeige}"
+      },
+      {
+        "type": "expression",
+        "id": "298",
+        "folderId": "167",
+        "color": "#c74440",
+        "latex": "\\max\\left(\\left|\\left(x\\ -\\ s\\right)\\right|,\\left|\\left(y\\ -\\ q\\right)\\right|,\\frac{\\left|\\left(x\\ -\\ s\\right)+\\left(y\\ -\\ q\\right)\\right|}{\\sqrt{2}},\\frac{\\left|\\left(x\\ -\\ s\\right)-\\left(y\\ -\\ q\\right)\\right|}{\\sqrt{2}}\\right)\\le s_{size}\\ -\\ 0.3\\left\\{d_{height}\\ +\\ 3.5\\ \\le\\ z\\ \\le\\ d_{height}\\ +\\ 5.6\\right\\}",
+        "colorLatex": "c_{darkbeige}"
+      },
+      {
+        "type": "expression",
+        "id": "297",
+        "folderId": "167",
+        "color": "#aaaaaa",
+        "latex": "s_{size}=1.75",
+        "hidden": true
+      },
+      {
+        "type": "expression",
+        "id": "295",
+        "folderId": "167",
+        "color": "#388c46",
+        "latex": "s=\\left[b,\\ b,\\ -b,\\ -b\\right]",
+        "hidden": true
+      },
+      {
+        "type": "expression",
+        "id": "296",
+        "folderId": "167",
+        "color": "#6042a6",
+        "latex": "q=\\left[b,\\ -b,\\ b,\\ -b\\right]",
+        "hidden": true
+      },
+      {
+        "type": "expression",
+        "id": "302",
+        "folderId": "167",
+        "color": "#aaaaaa",
+        "latex": "b=6.7",
+        "hidden": true
+      },
+      {
+        "type": "expression",
+        "id": "300",
+        "folderId": "167",
+        "color": "#388c46",
+        "latex": "\\left(x\\ -\\ s\\right)^{2}\\ +\\ \\left(y\\ -\\ q\\right)^{2}\\ +\\ \\left(z\\ -\\ 17.8\\right)^{2}\\ =\\ c^{2}",
+        "colorLatex": "c_{lightbeige}"
+      },
+      {
+        "type": "expression",
+        "id": "301",
+        "folderId": "167",
+        "color": "#6042a6",
+        "latex": "c=1.5",
+        "hidden": true
+      },
+      {
+        "type": "expression",
+        "id": "303",
+        "folderId": "167",
+        "color": "#c74440",
+        "latex": "\\left(x\\ -\\ s\\right)^{2}\\ +\\ \\left(y\\ -\\ q\\right)^{2}\\ <\\ 0.1^{2}\\ \\left\\{18\\ \\le\\ z\\ \\le\\ 20\\right\\}",
+        "colorLatex": "c_{darkerbeige}"
+      },
+      {
+        "type": "expression",
+        "id": "304",
+        "folderId": "167",
+        "color": "#2d70b3",
+        "latex": "\\left(x\\right)^{2}\\ +\\ \\left(y\\right)^{2}\\ <\\ 0.15^{2}\\ \\left\\{25\\ \\le\\ z\\ \\le\\ 28\\right\\}",
+        "colorLatex": "c_{darkerbeige}"
+      },
+      {
+        "type": "expression",
+        "id": "311",
+        "folderId": "167",
+        "color": "#6042a6",
+        "latex": "\\operatorname{triangle}\\left(\\left(x_{pos}\\ +\\ r_{circumradius}\\cos\\left(\\frac{2\\pi T}{n_{sides}}\\ +\\ d_{turn}\\right),\\ y_{pos}\\ +\\ r_{circumradius}\\sin\\left(\\frac{2\\pi T}{n_{sides}}\\ +\\ d_{turn}\\right),\\ z_{pos}\\right),\\ \\left(x_{pos}\\ +\\ r_{circumradius}\\cos\\left(\\frac{2\\pi\\operatorname{mod}\\left(T\\ +\\ 1,\\ n_{sides}\\right)}{n_{sides}}\\ +\\ d_{turn}\\right),\\ y_{pos}\\ +\\ r_{circumradius}\\sin\\left(\\frac{2\\pi\\operatorname{mod}\\left(T\\ +\\ 1,\\ n_{sides}\\right)}{n_{sides}}\\ +\\ d_{turn}\\right),\\ z_{pos}\\right),\\ \\left(x_{pos},\\ y_{pos},\\ z_{pos2}\\right)\\right)\\ ",
+        "colorLatex": "c_{darkbeige}"
+      },
+      {
+        "type": "expression",
+        "id": "323",
+        "folderId": "167",
+        "color": "#c74440",
+        "latex": "L\\ =\\left[0...7\\right]"
+      },
+      {
+        "type": "expression",
+        "id": "322",
+        "folderId": "167",
+        "color": "#aaaaaa",
+        "latex": "T=\\operatorname{join}\\left(L,\\ L\\ ,\\ L,\\ L\\right)",
+        "hidden": true
+      },
+      {
+        "type": "expression",
+        "id": "312",
+        "folderId": "167",
+        "color": "#aaaaaa",
+        "latex": "x_{pos}=\\operatorname{join}\\left(6.7\\ +\\ 0L,\\ 6.7\\ +\\ 0L,\\ -6.7\\ +\\ 0L,\\ -6.7\\ +\\ 0L\\right)",
+        "hidden": true
+      },
+      {
+        "type": "expression",
+        "id": "314",
+        "folderId": "167",
+        "color": "#2d70b3",
+        "latex": "n_{sides}=8",
+        "hidden": true
+      },
+      {
+        "type": "expression",
+        "id": "313",
+        "folderId": "167",
+        "color": "#c74440",
+        "latex": "r_{circumradius}=0.87",
+        "hidden": true
+      },
+      {
+        "type": "expression",
+        "id": "316",
+        "folderId": "167",
+        "color": "#6042a6",
+        "latex": "y_{pos}=\\operatorname{join}\\left(-6.7\\ +\\ 0L,\\ 6.7\\ +\\ 0L,\\ -6.7\\ +\\ 0L,\\ 6.7\\ +\\ 0L\\right)",
+        "hidden": true
+      },
+      {
+        "type": "expression",
+        "id": "317",
+        "folderId": "167",
+        "color": "#aaaaaa",
+        "latex": "z_{pos}=19",
+        "hidden": true
+      },
+      {
+        "type": "expression",
+        "id": "318",
+        "folderId": "167",
+        "color": "#c74440",
+        "latex": "z_{pos2}=z_{pos}\\ +\\ 0.5",
+        "hidden": true
+      },
+      {
+        "type": "expression",
+        "id": "329",
+        "folderId": "167",
+        "color": "#2d70b3",
+        "latex": "\\operatorname{triangle}\\left(\\left(x_{A}+r_{A}\\cos\\left(\\frac{2\\pi L}{n_{A}}+d_{A}\\right),y_{A}+r_{A}\\sin\\left(\\frac{2\\pi L}{n_{A}}+d_{A}\\right),z_{A}\\right),\\left(x_{A}+r_{A}\\cos\\left(\\frac{2\\pi\\operatorname{mod}(L+1,n_{A})}{n_{A}}+d_{A}\\right),y_{A}+r_{A}\\sin\\left(\\frac{2\\pi\\operatorname{mod}(L+1,n_{A})}{n_{A}}+d_{A}\\right),z_{A}\\right),\\left(x_{A},y_{A},z_{A2}\\right)\\right)",
+        "colorLatex": "c_{darkbeige}"
+      },
+      {
+        "type": "expression",
+        "id": "315",
+        "folderId": "167",
+        "color": "#388c46",
+        "latex": "d_{turn}=0",
+        "hidden": true
+      },
+      {
+        "type": "expression",
+        "id": "331",
+        "folderId": "167",
+        "color": "#6042a6",
+        "latex": "r_{A}=2.8",
+        "hidden": true
+      },
+      {
+        "type": "expression",
+        "id": "330",
+        "folderId": "167",
+        "color": "#388c46",
+        "latex": "x_{A}=0",
+        "hidden": true
+      },
+      {
+        "type": "expression",
+        "id": "332",
+        "folderId": "167",
+        "color": "#aaaaaa",
+        "latex": "n_{A}=8",
+        "hidden": true
+      },
+      {
+        "type": "expression",
+        "id": "333",
+        "folderId": "167",
+        "color": "#c74440",
+        "latex": "d_{A}=0",
+        "hidden": true
+      },
+      {
+        "type": "expression",
+        "id": "334",
+        "folderId": "167",
+        "color": "#2d70b3",
+        "latex": "y_{A}=0",
+        "hidden": true
+      },
+      {
+        "type": "expression",
+        "id": "336",
+        "folderId": "167",
+        "color": "#6042a6",
+        "latex": "z_{A2}=z_{A}\\ +\\ 1.5",
+        "hidden": true
+      },
+      {
+        "type": "expression",
+        "id": "335",
+        "folderId": "167",
+        "color": "#388c46",
+        "latex": "z_{A}=25.3",
+        "hidden": true,
+        "slider": {
+          "max": "30"
+        }
+      },
+      {
+        "type": "expression",
+        "id": "346",
+        "folderId": "167",
+        "color": "#6042a6",
+        "latex": "p_{points}\\ =\\ \\left[\\left(11,\\ w\\right),\\ \\left(11,\\ -w\\right),\\ \\left(w,\\ 11\\right),\\ \\left(-w,\\ 11\\right),\\ \\left(w,\\ -11\\right),\\ \\left(-w,\\ -11\\right),\\ \\left(-11,\\ w\\right),\\ \\left(-11,\\ -w\\right)\\right]\\ ",
+        "hidden": true
+      },
+      {
+        "type": "expression",
+        "id": "349",
+        "folderId": "167",
+        "color": "#c74440",
+        "latex": "j_{points}\\ =\\ \\left[\\left(11,\\ \\sqrt{\\frac{d_{height}}{2}}\\ +\\ \\frac{r_{arc}}{2}\\right),\\ \\left(-11,\\ \\sqrt{\\frac{d_{height}}{2}}\\ +\\ \\frac{r_{arc}}{2}\\right),\\ \\left(11,\\ -\\sqrt{\\frac{d_{height}}{2}}\\ -\\ \\frac{r_{arc}}{2}\\right),\\ \\left(-11,\\ -\\sqrt{\\frac{d_{height}}{2}}\\ -\\ \\frac{r_{arc}}{2}\\right),\\ \\left(\\sqrt{\\frac{d_{height}}{2}}\\ +\\ \\frac{r_{arc}}{2},\\ 11\\right),\\ \\left(-\\sqrt{\\frac{d_{height}}{2}}\\ -\\ \\frac{r_{arc}}{2},\\ 11\\right),\\ \\left(\\sqrt{\\frac{d_{height}}{2}}\\ +\\ \\frac{r_{arc}}{2},\\ -11\\right),\\ \\left(-\\sqrt{\\frac{d_{height}}{2}}\\ -\\ \\frac{r_{arc}}{2},\\ -11\\right)\\right]",
+        "hidden": true
+      },
+      {
+        "type": "expression",
+        "id": "347",
+        "folderId": "167",
+        "color": "#aaaaaa",
+        "latex": "\\left(x\\ -\\ p_{points}.x\\right)^{2}\\ +\\ \\left(y\\ -\\ p_{points}.y\\right)^{2}\\ <\\ r_{pil}^{2}\\ \\left\\{2.5\\ \\le z\\ \\le\\ d_{height}\\ +\\ 5\\right\\}",
+        "colorLatex": "c_{darkbeige}"
+      },
+      {
+        "type": "expression",
+        "id": "351",
+        "folderId": "167",
+        "color": "#aaaaaa",
+        "latex": "\\left(x\\ -\\ j_{points}.x\\right)^{2}\\ +\\ \\left(y\\ -\\ j_{points}.y\\right)^{2}\\ <\\ r_{pil}^{2}\\ \\left\\{2.5\\ \\le z\\ \\le\\ 19\\right\\}",
+        "colorLatex": "c_{darkbeige}"
+      },
+      {
+        "type": "expression",
+        "id": "348",
+        "folderId": "167",
+        "color": "#c74440",
+        "latex": "r_{pil}=0.3",
+        "hidden": true
+      }
+    ]
+  },
+  "includeFunctionParametersInRandomSeed": true,
+  "doNotMigrate3dLineWidthZero": true,
+  "doNotMigrateMovablePointStyle": true
+}

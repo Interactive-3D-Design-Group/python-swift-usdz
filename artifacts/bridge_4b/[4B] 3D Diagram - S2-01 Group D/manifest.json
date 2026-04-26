@@ -1,0 +1,149 @@
+{
+  "schema_version": 1,
+  "mesh_count": 5,
+  "failed_mesh_count": 8,
+  "meshes": [
+    {
+      "name": "[4B] 3D Diagram - S2-01 Group D_1",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-01 Group D_1.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-01 Group D.json",
+      "expression_id": "1",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -0.5,
+          -0.5,
+          0.1
+        ],
+        "max": [
+          0.5,
+          0.5,
+          0.2
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-01 Group D_6",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-01 Group D_6.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-01 Group D.json",
+      "expression_id": "6",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -2.0,
+          -2.0,
+          1.0
+        ],
+        "max": [
+          2.0,
+          2.0,
+          1.1
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-01 Group D_7",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-01 Group D_7.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-01 Group D.json",
+      "expression_id": "7",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -0.5,
+          -0.5,
+          1.1
+        ],
+        "max": [
+          0.5,
+          0.5,
+          1.2
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-01 Group D_13",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-01 Group D_13.obj",
+      "color": "#aaaaaa",
+      "source_file": "[4B] 3D Diagram - S2-01 Group D.json",
+      "expression_id": "13",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -0.5,
+          -0.5,
+          7.0
+        ],
+        "max": [
+          0.5,
+          0.5,
+          7.3
+        ]
+      }
+    },
+    {
+      "name": "[4B] 3D Diagram - S2-01 Group D_27",
+      "obj_file": "meshes/[4B] 3D Diagram - S2-01 Group D_27.obj",
+      "color": "#388c46",
+      "source_file": "[4B] 3D Diagram - S2-01 Group D.json",
+      "expression_id": "27",
+      "family": "BOX_BOUNDED_REGION",
+      "bounds": {
+        "min": [
+          -4.0,
+          -4.0,
+          0.0
+        ],
+        "max": [
+          4.0,
+          4.0,
+          0.1
+        ]
+      }
+    }
+  ],
+  "failures": [
+    {
+      "source_file": "[4B] 3D Diagram - S2-01 Group D.json",
+      "expression_id": "17",
+      "error": "Unsupported expression node: Call(func=Name(id='t', ctx=Load()), args=[BinOp(left=Constant(value=1), op=Sub(), right=Name(id='t', ctx=Load()))])"
+    },
+    {
+      "source_file": "[4B] 3D Diagram - S2-01 Group D.json",
+      "expression_id": "18",
+      "error": "Unsupported expression node: Call(func=Name(id='t', ctx=Load()), args=[BinOp(left=Constant(value=1), op=Sub(), right=Name(id='t', ctx=Load()))])"
+    },
+    {
+      "source_file": "[4B] 3D Diagram - S2-01 Group D.json",
+      "expression_id": "19",
+      "error": "Unsupported expression node: Call(func=Name(id='t', ctx=Load()), args=[BinOp(left=Constant(value=1), op=Sub(), right=Name(id='t', ctx=Load()))])"
+    },
+    {
+      "source_file": "[4B] 3D Diagram - S2-01 Group D.json",
+      "expression_id": "20",
+      "error": "Unsupported expression node: Call(func=Name(id='t', ctx=Load()), args=[BinOp(left=Constant(value=1), op=Sub(), right=Name(id='t', ctx=Load()))])"
+    },
+    {
+      "source_file": "[4B] 3D Diagram - S2-01 Group D.json",
+      "expression_id": "22",
+      "error": "Unsupported expression node: Call(func=Name(id='t', ctx=Load()), args=[BinOp(left=Constant(value=1), op=Sub(), right=Name(id='t', ctx=Load()))])"
+    },
+    {
+      "source_file": "[4B] 3D Diagram - S2-01 Group D.json",
+      "expression_id": "24",
+      "error": "Unsupported expression node: Call(func=Name(id='t', ctx=Load()), args=[BinOp(left=Constant(value=1), op=Sub(), right=Name(id='t', ctx=Load()))])"
+    },
+    {
+      "source_file": "[4B] 3D Diagram - S2-01 Group D.json",
+      "expression_id": "25",
+      "error": "Unsupported expression node: Call(func=Name(id='t', ctx=Load()), args=[BinOp(left=Constant(value=1), op=Sub(), right=Name(id='t', ctx=Load()))])"
+    },
+    {
+      "source_file": "[4B] 3D Diagram - S2-01 Group D.json",
+      "expression_id": "26",
+      "error": "Unsupported expression node: Call(func=Name(id='t', ctx=Load()), args=[BinOp(left=Constant(value=1), op=Sub(), right=Name(id='t', ctx=Load()))])"
+    }
+  ]
+}

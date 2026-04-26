@@ -1,0 +1,225 @@
+{
+  "source_file": "[4B] 3D Diagram - S2-08 Group A.json",
+  "total_items": 129,
+  "total_expressions": 129,
+  "meshed_expression_count": 119,
+  "supported_expression_count": 119,
+  "supported_but_not_meshed_count": 0,
+  "recognized_unsupported_count": 0,
+  "unrecognized_count": 9,
+  "geometry_ineligible_count": 1,
+  "groups": [
+    {
+      "fingerprint": "4773b121c0b47896",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "94"
+      ],
+      "example_latex": [
+        "(3-2t+t^{2},\\ 3-2t+t^{2},\\ 37+6t+37t^{2})"
+      ],
+      "example_normalized": [
+        "(3-2t+t^2,3-2t+t^2,37+6t+37t^2)"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "4a53237e707f6f1c",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "105"
+      ],
+      "example_latex": [
+        "(1-2t+t^{2},\\ 3-2t+t^{2},\\ 37+48t-5t^{2})"
+      ],
+      "example_normalized": [
+        "(1-2t+t^2,3-2t+t^2,37+48t-5t^2)"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "8b5a47084324616a",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "103"
+      ],
+      "example_latex": [
+        "(1-2t+t^{2},\\ -3+2t-t^{2},\\ 37+48t-5t^{2})"
+      ],
+      "example_normalized": [
+        "(1-2t+t^2,-3+2t-t^2,37+48t-5t^2)"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "a93caaff6dcb4126",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "93"
+      ],
+      "example_latex": [
+        "(3-2t+t^{2},\\ -3+2t-t^{2},\\ 37+6t+37t^{2})"
+      ],
+      "example_normalized": [
+        "(3-2t+t^2,-3+2t-t^2,37+6t+37t^2)"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "aa3d049c830ca39d",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "108"
+      ],
+      "example_latex": [
+        "(3-2t+t^{2},\\ 1-2t+t^{2},\\ 37+48t-5t^{2})"
+      ],
+      "example_normalized": [
+        "(3-2t+t^2,1-2t+t^2,37+48t-5t^2)"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "b899dcc0ee42d59a",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "96"
+      ],
+      "example_latex": [
+        "(-3+2t-t^{2},\\ 3-2t+t^{2},\\ 37+6t+37t^{2})"
+      ],
+      "example_normalized": [
+        "(-3+2t-t^2,3-2t+t^2,37+6t+37t^2)"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "d8e1d3499e70b9a4",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "109"
+      ],
+      "example_latex": [
+        "(-3+2t-t^{2},\\ 1-2t+t^{2},\\ 37+48t-5t^{2})"
+      ],
+      "example_normalized": [
+        "(-3+2t-t^2,1-2t+t^2,37+48t-5t^2)"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "f356533c50516393",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "106"
+      ],
+      "example_latex": [
+        "(3-2t+t^{2},\\ -1+2t-t^{2},\\ 37+48t-5t^{2})"
+      ],
+      "example_normalized": [
+        "(3-2t+t^2,-1+2t-t^2,37+48t-5t^2)"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    },
+    {
+      "fingerprint": "f8ff5cf264df5ee9",
+      "family": "UNKNOWN",
+      "status": "UNRECOGNIZED",
+      "reason": "Unrecognized expression form",
+      "count": 1,
+      "meshed_count": 0,
+      "example_expression_ids": [
+        "104"
+      ],
+      "example_latex": [
+        "(-1+2t-t^{2},\\ 3-2t+t^{2},\\ 37+48t-5t^{2})"
+      ],
+      "example_normalized": [
+        "(-1+2t-t^2,3-2t+t^2,37+48t-5t^2)"
+      ],
+      "flags": {
+        "lines": 0,
+        "extendTo3D": 0,
+        "has_color": 1
+      }
+    }
+  ],
+  "diagnostics": [
+    {
+      "severity": "INFO",
+      "code": "COVERAGE_COMPLETE",
+      "message": "Coverage report complete",
+      "source_ref": null,
+      "details": {
+        "file": "[4B] 3D Diagram - S2-08 Group A.json",
+        "meshed_expression_ids": 119,
+        "supported_but_not_meshed": 0,
+        "group_count": 9
+      }
+    }
+  ]
+}

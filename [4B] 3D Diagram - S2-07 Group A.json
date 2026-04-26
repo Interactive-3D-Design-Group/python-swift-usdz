@@ -1,0 +1,666 @@
+{
+  "version": 11,
+  "randomSeed": "610e31b7a520765fe3a72c9413d4a86c",
+  "graph": {
+    "viewport": {
+      "xmin": -726.4954640439823,
+      "ymin": -776.3183691682442,
+      "zmin": -677.3194442040856,
+      "xmax": 725.455968607374,
+      "ymax": 675.6330634830546,
+      "zmax": 774.6319884472077
+    },
+    "worldRotation3D": [
+      -0.08576353807406434,
+      0.994203215222055,
+      -0.06484275116897659,
+      -0.7930481532621535,
+      -0.10751728624804059,
+      -0.5995954133958279,
+      -0.6030914044690899,
+      1.1879160421591182e-12,
+      0.797672086671944
+    ],
+    "axis3D": [
+      0,
+      0,
+      -0.9999999999998096
+    ],
+    "product": "graphing-3d",
+    "threeDMode": true,
+    "__v12ViewportLatexStash": {
+      "xmin": "-726.4954640439823",
+      "xmax": "725.455968607374",
+      "ymin": "-776.3183691682442",
+      "ymax": "675.6330634830546",
+      "zmin": "-677.3194442040856",
+      "zmax": "774.6319884472077"
+    }
+  },
+  "expressions": {
+    "list": [
+      {
+        "type": "folder",
+        "id": "32",
+        "title": "Khafre pyramid (middle)",
+        "collapsed": true
+      },
+      {
+        "type": "expression",
+        "id": "19",
+        "folderId": "32",
+        "color": "#388c46",
+        "latex": "A=\\left(105,105,0\\right)",
+        "hidden": true,
+        "points": true
+      },
+      {
+        "type": "expression",
+        "id": "20",
+        "folderId": "32",
+        "color": "#6042a6",
+        "latex": "B=\\left(105,-105,0\\right)",
+        "hidden": true
+      },
+      {
+        "type": "expression",
+        "id": "21",
+        "folderId": "32",
+        "color": "#6042a6",
+        "latex": "C=\\left(-105,-105,0\\right)",
+        "hidden": true
+      },
+      {
+        "type": "expression",
+        "id": "22",
+        "folderId": "32",
+        "color": "#6042a6",
+        "latex": "D=\\left(-105,105,0\\right)",
+        "hidden": true
+      },
+      {
+        "type": "expression",
+        "id": "23",
+        "folderId": "32",
+        "color": "#aaaaaa",
+        "latex": "E=\\left(0,0,143\\right)",
+        "hidden": true
+      },
+      {
+        "type": "expression",
+        "id": "24",
+        "folderId": "32",
+        "color": "#fa7e19",
+        "latex": "\\operatorname{triangle}\\left(D,A,E\\right)"
+      },
+      {
+        "type": "expression",
+        "id": "25",
+        "folderId": "32",
+        "color": "#fa7e19",
+        "latex": "\\operatorname{triangle}\\left(A,B,E\\right)"
+      },
+      {
+        "type": "expression",
+        "id": "26",
+        "folderId": "32",
+        "color": "#fa7e19",
+        "latex": "\\operatorname{triangle}\\left(D,C,E\\right)"
+      },
+      {
+        "type": "expression",
+        "id": "27",
+        "folderId": "32",
+        "color": "#fa7e19",
+        "latex": "\\operatorname{triangle}\\left(B,C,E\\right)"
+      },
+      {
+        "type": "expression",
+        "id": "67",
+        "folderId": "32",
+        "color": "#fa7e19",
+        "latex": "x=105\\left\\{105\\ge y\\ge-105\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "68",
+        "folderId": "32",
+        "color": "#fa7e19",
+        "latex": "x=-105\\left\\{105\\ge y\\ge-105\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "69",
+        "folderId": "32",
+        "color": "#fa7e19",
+        "latex": "y=105\\left\\{105\\ge x\\ge-105\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "70",
+        "folderId": "32",
+        "color": "#fa7e19",
+        "latex": "y=-105\\left\\{105\\ge x\\ge-105\\right\\}"
+      },
+      {
+        "type": "folder",
+        "id": "35",
+        "title": "Khufu pyramid (right most)",
+        "collapsed": true
+      },
+      {
+        "type": "expression",
+        "id": "39",
+        "folderId": "35",
+        "color": "#2d70b3",
+        "latex": "F=\\left(200,200,0\\right)",
+        "hidden": true
+      },
+      {
+        "type": "expression",
+        "id": "40",
+        "folderId": "35",
+        "color": "#388c46",
+        "latex": "G=\\left(430,200,0\\right)",
+        "hidden": true
+      },
+      {
+        "type": "expression",
+        "id": "41",
+        "folderId": "35",
+        "color": "#388c46",
+        "latex": "H=\\left(430,430,0\\right)",
+        "hidden": true
+      },
+      {
+        "type": "expression",
+        "id": "42",
+        "folderId": "35",
+        "color": "#388c46",
+        "latex": "I=\\left(200,430,0\\right)",
+        "hidden": true
+      },
+      {
+        "type": "expression",
+        "id": "44",
+        "folderId": "35",
+        "color": "#388c46",
+        "latex": "J=\\left(315,315,140\\right)",
+        "hidden": true
+      },
+      {
+        "type": "expression",
+        "id": "45",
+        "folderId": "35",
+        "color": "#fa7e19",
+        "latex": "\\operatorname{triangle}\\left(F,G,J\\right)"
+      },
+      {
+        "type": "expression",
+        "id": "47",
+        "folderId": "35",
+        "color": "#fa7e19",
+        "latex": "\\operatorname{triangle}\\left(H,G,J\\right)"
+      },
+      {
+        "type": "expression",
+        "id": "48",
+        "folderId": "35",
+        "color": "#fa7e19",
+        "latex": "\\operatorname{triangle}\\left(H,I,J\\right)"
+      },
+      {
+        "type": "expression",
+        "id": "49",
+        "folderId": "35",
+        "color": "#fa7e19",
+        "latex": "\\operatorname{triangle}\\left(F,I,J\\right)"
+      },
+      {
+        "type": "expression",
+        "id": "53",
+        "folderId": "35",
+        "color": "#fa7e19",
+        "latex": "y=200\\left\\{430\\ge x\\ge200\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "58",
+        "folderId": "35",
+        "color": "#fa7e19",
+        "latex": "y=430\\left\\{430\\ge x\\ge200\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "55",
+        "folderId": "35",
+        "color": "#fa7e19",
+        "latex": "x=200\\left\\{430\\ge y\\ge200\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "56",
+        "folderId": "35",
+        "color": "#fa7e19",
+        "latex": "x=430\\left\\{430\\ge y\\ge200\\right\\}"
+      },
+      {
+        "type": "folder",
+        "id": "51",
+        "title": "Menkaure Pyramid (left most)",
+        "collapsed": true
+      },
+      {
+        "type": "expression",
+        "id": "52",
+        "folderId": "51",
+        "color": "#2d70b3",
+        "latex": "K=\\left(-175,-200,0\\right)",
+        "hidden": true
+      },
+      {
+        "type": "expression",
+        "id": "71",
+        "folderId": "51",
+        "color": "#6042a6",
+        "latex": "L=\\left(-290,-200,0\\right)",
+        "hidden": true
+      },
+      {
+        "type": "expression",
+        "id": "72",
+        "folderId": "51",
+        "color": "#aaaaaa",
+        "latex": "M=\\left(-290,-315,0\\right)",
+        "hidden": true
+      },
+      {
+        "type": "expression",
+        "id": "73",
+        "folderId": "51",
+        "color": "#c74440",
+        "latex": "N=\\left(-175,-315,0\\right)",
+        "hidden": true
+      },
+      {
+        "type": "expression",
+        "id": "74",
+        "folderId": "51",
+        "color": "#2d70b3",
+        "latex": "O=\\left(-232.5,-257.5,100\\right)",
+        "hidden": true
+      },
+      {
+        "type": "expression",
+        "id": "75",
+        "folderId": "51",
+        "color": "#fa7e19",
+        "latex": "\\operatorname{triangle}\\ \\left(K,L,O\\right)"
+      },
+      {
+        "type": "expression",
+        "id": "77",
+        "folderId": "51",
+        "color": "#fa7e19",
+        "latex": "\\operatorname{triangle}\\ \\left(L,M,O\\right)"
+      },
+      {
+        "type": "expression",
+        "id": "79",
+        "folderId": "51",
+        "color": "#fa7e19",
+        "latex": "\\operatorname{triangle}\\ \\left(M,N,O\\right)"
+      },
+      {
+        "type": "expression",
+        "id": "80",
+        "folderId": "51",
+        "color": "#fa7e19",
+        "latex": "\\operatorname{triangle}\\ \\left(N,K,O\\right)"
+      },
+      {
+        "type": "expression",
+        "id": "85",
+        "folderId": "51",
+        "color": "#fa7e19",
+        "latex": "x=-175\\left\\{-315\\le y\\le-200\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "86",
+        "folderId": "51",
+        "color": "#fa7e19",
+        "latex": "x=-290\\left\\{-315\\le y\\le-200\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "87",
+        "folderId": "51",
+        "color": "#fa7e19",
+        "latex": "y=-200\\left\\{-290\\le x\\le-175\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "88",
+        "folderId": "51",
+        "color": "#fa7e19",
+        "latex": "y=-315\\left\\{-290\\le x\\le-175\\right\\}"
+      },
+      {
+        "type": "folder",
+        "id": "90",
+        "title": "Queen pyramid 1",
+        "collapsed": true
+      },
+      {
+        "type": "expression",
+        "id": "91",
+        "folderId": "90",
+        "color": "#388c46",
+        "latex": "P=\\left(-175,-350,0\\right)",
+        "hidden": true
+      },
+      {
+        "type": "expression",
+        "id": "92",
+        "folderId": "90",
+        "color": "#6042a6",
+        "latex": "Q=\\left(-175,-400,0\\right)",
+        "hidden": true
+      },
+      {
+        "type": "expression",
+        "id": "93",
+        "folderId": "90",
+        "color": "#aaaaaa",
+        "latex": "R=\\left(-225,-400,0\\right)",
+        "hidden": true
+      },
+      {
+        "type": "expression",
+        "id": "94",
+        "folderId": "90",
+        "color": "#c74440",
+        "latex": "S=\\left(-225,-350,0\\right)",
+        "hidden": true
+      },
+      {
+        "type": "expression",
+        "id": "95",
+        "folderId": "90",
+        "color": "#2d70b3",
+        "latex": "T=\\left(-200,-375,30\\right)",
+        "hidden": true
+      },
+      {
+        "type": "expression",
+        "id": "96",
+        "folderId": "90",
+        "color": "#fa7e19",
+        "latex": "\\operatorname{triangle}\\ \\left(P,Q,T\\right)"
+      },
+      {
+        "type": "expression",
+        "id": "97",
+        "folderId": "90",
+        "color": "#fa7e19",
+        "latex": "\\operatorname{triangle}\\ \\left(Q,R,T\\right)"
+      },
+      {
+        "type": "expression",
+        "id": "98",
+        "folderId": "90",
+        "color": "#fa7e19",
+        "latex": "\\operatorname{triangle}\\ \\left(R,S,T\\right)"
+      },
+      {
+        "type": "expression",
+        "id": "99",
+        "folderId": "90",
+        "color": "#fa7e19",
+        "latex": "\\operatorname{triangle}\\ \\left(S,P,T\\right)"
+      },
+      {
+        "type": "expression",
+        "id": "103",
+        "folderId": "90",
+        "color": "#fa7e19",
+        "latex": "x=-175\\left\\{-350\\ge y\\ge-400\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "104",
+        "folderId": "90",
+        "color": "#fa7e19",
+        "latex": "x=-225\\left\\{-350\\ge y\\ge-400\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "105",
+        "folderId": "90",
+        "color": "#fa7e19",
+        "latex": "y=-400\\left\\{-175\\ge x\\ge-225\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "106",
+        "folderId": "90",
+        "color": "#fa7e19",
+        "latex": "y=-350\\left\\{-175\\ge x\\ge-225\\right\\}"
+      },
+      {
+        "type": "folder",
+        "id": "107",
+        "title": "Queen pyramid 2",
+        "collapsed": true
+      },
+      {
+        "type": "expression",
+        "id": "108",
+        "folderId": "107",
+        "color": "#aaaaaa",
+        "latex": "U=\\left(-235,-400,0\\right)",
+        "hidden": true
+      },
+      {
+        "type": "expression",
+        "id": "110",
+        "folderId": "107",
+        "color": "#2d70b3",
+        "latex": "V=\\left(-235,-350,0\\right)",
+        "hidden": true
+      },
+      {
+        "type": "expression",
+        "id": "111",
+        "folderId": "107",
+        "color": "#388c46",
+        "latex": "W=\\left(-285,-350,0\\right)",
+        "hidden": true
+      },
+      {
+        "type": "expression",
+        "id": "113",
+        "folderId": "107",
+        "color": "#aaaaaa",
+        "latex": "X=\\left(-285,-400,0\\right)",
+        "hidden": true
+      },
+      {
+        "type": "expression",
+        "id": "114",
+        "folderId": "107",
+        "color": "#c74440",
+        "latex": "Y=\\left(-260,-375,30\\right)",
+        "hidden": true
+      },
+      {
+        "type": "expression",
+        "id": "115",
+        "folderId": "107",
+        "color": "#fa7e19",
+        "latex": "\\operatorname{triangle}\\ \\left(U,V,Y\\right)"
+      },
+      {
+        "type": "expression",
+        "id": "116",
+        "folderId": "107",
+        "color": "#fa7e19",
+        "latex": "\\operatorname{triangle}\\ \\left(V,W,Y\\right)"
+      },
+      {
+        "type": "expression",
+        "id": "117",
+        "folderId": "107",
+        "color": "#fa7e19",
+        "latex": "\\operatorname{triangle}\\ \\left(W,X,Y\\right)"
+      },
+      {
+        "type": "expression",
+        "id": "118",
+        "folderId": "107",
+        "color": "#fa7e19",
+        "latex": "\\operatorname{triangle}\\ \\left(X,U,Y\\right)"
+      },
+      {
+        "type": "expression",
+        "id": "120",
+        "folderId": "107",
+        "color": "#fa7e19",
+        "latex": "x=-235\\left\\{-400\\le y\\le-350\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "121",
+        "folderId": "107",
+        "color": "#fa7e19",
+        "latex": "x=-285\\left\\{-400\\le y\\le-350\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "122",
+        "folderId": "107",
+        "color": "#fa7e19",
+        "latex": "y=-400\\left\\{-285\\le x\\le-235\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "123",
+        "folderId": "107",
+        "color": "#fa7e19",
+        "latex": "y=-350\\left\\{-285\\le x\\le-235\\right\\}"
+      },
+      {
+        "type": "folder",
+        "id": "124",
+        "title": "Queen pyramid 3",
+        "collapsed": true
+      },
+      {
+        "type": "expression",
+        "id": "126",
+        "folderId": "124",
+        "color": "#aaaaaa",
+        "latex": "Z=\\left(-295,-400,0\\right)",
+        "hidden": true
+      },
+      {
+        "type": "expression",
+        "id": "127",
+        "folderId": "124",
+        "color": "#c74440",
+        "latex": "a=\\left(-295,-350,0\\right)",
+        "hidden": true
+      },
+      {
+        "type": "expression",
+        "id": "128",
+        "folderId": "124",
+        "color": "#2d70b3",
+        "latex": "b=\\left(-345,-350,0\\right)",
+        "hidden": true
+      },
+      {
+        "type": "expression",
+        "id": "129",
+        "folderId": "124",
+        "color": "#388c46",
+        "latex": "c=\\left(-345,-400,0\\right)",
+        "hidden": true
+      },
+      {
+        "type": "expression",
+        "id": "130",
+        "folderId": "124",
+        "color": "#6042a6",
+        "latex": "d=\\left(-320,-375,30\\right)",
+        "hidden": true
+      },
+      {
+        "type": "expression",
+        "id": "131",
+        "folderId": "124",
+        "color": "#fa7e19",
+        "latex": "\\operatorname{triangle}\\ \\left(Z,a,d\\right)"
+      },
+      {
+        "type": "expression",
+        "id": "132",
+        "folderId": "124",
+        "color": "#fa7e19",
+        "latex": "\\operatorname{triangle}\\left(a,b,d\\right)"
+      },
+      {
+        "type": "expression",
+        "id": "133",
+        "folderId": "124",
+        "color": "#fa7e19",
+        "latex": "\\operatorname{triangle}\\left(b,c,d\\right)"
+      },
+      {
+        "type": "expression",
+        "id": "134",
+        "folderId": "124",
+        "color": "#fa7e19",
+        "latex": "\\operatorname{triangle}\\left(c,Z,d\\right)"
+      },
+      {
+        "type": "expression",
+        "id": "135",
+        "folderId": "124",
+        "color": "#fa7e19",
+        "latex": "x=-295\\left\\{-400\\le y\\le-350\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "136",
+        "folderId": "124",
+        "color": "#fa7e19",
+        "latex": "x=-345\\left\\{-400\\le y\\le-350\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "137",
+        "folderId": "124",
+        "color": "#fa7e19",
+        "latex": "y=-350\\left\\{-345\\le x\\le-295\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "138",
+        "folderId": "124",
+        "color": "#fa7e19",
+        "latex": "y=-400\\left\\{-345\\le x\\le-295\\right\\}"
+      },
+      {
+        "type": "expression",
+        "id": "1",
+        "color": "#c74440",
+        "latex": "z=0"
+      }
+    ]
+  },
+  "includeFunctionParametersInRandomSeed": true,
+  "doNotMigrate3dLineWidthZero": true,
+  "doNotMigrateMovablePointStyle": true
+}

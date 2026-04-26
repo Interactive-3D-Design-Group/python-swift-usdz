@@ -1,0 +1,96 @@
+{
+  "source_file": "[4B] 3D Diagram - S2-10 Group F.json",
+  "total_expressions": 190,
+  "supported_count": 111,
+  "recognized_unsupported_count": 0,
+  "unrecognized_count": 0,
+  "geometry_ineligible_count": 79,
+  "per_folder_summary": [
+    {
+      "folder_id": null,
+      "folder_name": null,
+      "total": 7,
+      "supported": 0,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 7
+    },
+    {
+      "folder_id": "292",
+      "folder_name": "Centre box",
+      "total": 2,
+      "supported": 1,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 1
+    },
+    {
+      "folder_id": "233",
+      "folder_name": "Colors",
+      "total": 16,
+      "supported": 0,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 16
+    },
+    {
+      "folder_id": "276",
+      "folder_name": "Inner Pillars",
+      "total": 40,
+      "supported": 26,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 14
+    },
+    {
+      "folder_id": "273",
+      "folder_name": "Inner base",
+      "total": 2,
+      "supported": 2,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 0
+    },
+    {
+      "folder_id": "229",
+      "folder_name": "Outer Base",
+      "total": 3,
+      "supported": 3,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 0
+    },
+    {
+      "folder_id": "235",
+      "folder_name": "Outer Pillars",
+      "total": 104,
+      "supported": 74,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 30
+    },
+    {
+      "folder_id": "369",
+      "folder_name": "Roof",
+      "total": 16,
+      "supported": 5,
+      "recognized_unsupported": 0,
+      "unrecognized": 0,
+      "geometry_ineligible": 11
+    }
+  ],
+  "unsupported_expressions": [],
+  "unknown_fingerprints": [],
+  "diagnostics": [
+    {
+      "severity": "INFO",
+      "code": "AUDIT_COMPLETE",
+      "message": "Audit classification complete",
+      "source_ref": null,
+      "details": {
+        "file": "[4B] 3D Diagram - S2-10 Group F.json"
+      }
+    }
+  ],
+  "status": "PASS"
+}
